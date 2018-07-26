@@ -4,32 +4,32 @@ import Prelude
 
 import Control.Comonad (extract)
 import Control.Comonad.Store (Store, store, seeks)
-import Effect.Aff.Class (class MonadAff)
 import Data.Array (difference, filter, head, length, sort, (:))
 import Data.Fuzzy (Fuzzy(..))
 import Data.Fuzzy as Fuzz
 import Data.Maybe (Maybe(..), fromMaybe)
 import Data.Newtype (unwrap)
 import Data.Rational ((%))
-import Foreign.Object (Object)
+import Data.Symbol (SProxy(..))
 import Data.Time.Duration (Milliseconds)
-import Data.Tuple (Tuple(..))
+import Effect.Aff.Class (class MonadAff)
+import Foreign.Object (Object)
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Events as HE
 import Network.RemoteData (RemoteData(..))
+import Renderless.State (getState, updateStore)
 import Select as Select
-import Select.Internal.State (getState, updateStore)
 
 ----------
 -- Component types
 
 -- The render function is provided outside the component, so we rely
 -- on the `Store` type here to make that possible.
-type StateStore o item err m =
+type StateStore pq ps item err m =
   Store
     (State item err m)
-    (H.ParentHTML (Query o item err m) (ChildQuery o (Fuzzy item)) ChildSlot m)
+    (H.ComponentHTML (Query pq ps item err m) (ChildSlots pq ps (Fuzzy item) m) m)
 
 -- Items are wrapped in `SyncMethod` to account for failure and loading cases
 -- in asynchronous typeaheads. Selections are wrapped in `SelectionType` to
@@ -42,13 +42,13 @@ type State item err m =
   , config :: Config item err m
   }
 
-type Input o item err m =
+type Input pq ps item err m =
   { items :: RemoteData err (Array item)
   , search :: Maybe String
   , initialSelection :: SelectionType item
   , render
       :: State item err m
-      -> H.ParentHTML (Query o item err m) (ChildQuery o (Fuzzy item)) ChildSlot m
+      -> H.ComponentHTML (Query pq ps item err m) (ChildSlots pq ps (Fuzzy item) m) m
   , config :: Config item err m
   }
 
@@ -59,29 +59,29 @@ type Input o item err m =
 -- `FulfillRequest`: The parent has fetched data for an async typeahead.
 -- `Initialize`: Async typeaheads should fetch their data.
 -- `TypeaheadReceiver`: Refresh the typeahead with new input
-data Query o item err m a
+data Query pq ps item err m a
   = Remove item a
   | RemoveAll a
   | TriggerFocus a
   | Synchronize a
   | Search String a
-  | HandleSelect (Select.Message o (Fuzzy item)) a
+  | HandleSelect (Select.Message pq (Fuzzy item)) a
   | GetSelections (SelectionType item -> a)
   | ReplaceSelections (SelectionType item) a
   | ReplaceItems (RemoteData err (Array item)) a
   | Reset a
-  | Receive (Input o item err m) a
+  | Receive (Input pq ps item err m) a
 
 -- The parent is notified when items are selected or removed and when a
 -- new search is performed, but does not need to take action. This is just
 -- for observation purposes. However, `RequestData` represents that a
 -- typeahead needs data; the parent is responsible for fetching it and using
 -- the `FulfillRequest` method to return the data.
-data Message o item
+data Message pq item
   = Searched String
   | SelectionsChanged (SelectionChange item) (SelectionType item)
   | VisibilityChanged Select.Visibility
-  | Emit (o Unit)
+  | Emit (pq Unit)
 
 -- Selections change because something was added or removed.
 data SelectionChange item
@@ -90,11 +90,11 @@ data SelectionChange item
   | AllRemoved
 
 ----------
--- Child types
+-- Slot types
 
--- The typeahead relies on the Search and Container primitives.
-type ChildSlot = Unit
-type ChildQuery o item = Select.Query o item
+type Slot pq ps item err m = H.Slot (Query pq ps item err m) (Message pq item)
+type ChildSlots pq ps item m = ( select :: Select.Slot pq () item m Unit | ps )
+_select = SProxy :: SProxy "select"
 
 ----------
 -- Data modeling
@@ -155,13 +155,13 @@ derive instance functorSelectionType :: Functor SelectionType
 -- The Query, Input, ChildQuery, and component types use the same effects,
 -- so make sure to apply the Effects type to each. NOTE: Avoid prematurely applying effects
 -- by applying them in synonyms. Only use them in function signatures where it is necessary.
-component :: ∀ o item err m
+component :: ∀ pq ps item err m
   . MonadAff m
   => Eq item
   => Show err
-  => H.Component HH.HTML (Query o item err m) (Input o item err m) (Message o item) m
+  => H.Component HH.HTML (Query pq ps item err m) (Input pq ps item err m) (Message pq item) m
 component =
-  H.lifecycleParentComponent
+  H.component
     { initialState
     , render: extract
     , eval
@@ -171,8 +171,8 @@ component =
     }
   where
     initialState
-      :: Input o item err m
-      -> StateStore o item err m
+      :: Input pq ps item err m
+      -> StateStore pq ps item err m
     initialState i = store i.render
       { items: i.items
       , selections: i.initialSelection
@@ -181,13 +181,12 @@ component =
       }
 
     eval
-      :: Query o item err m
-      ~> H.ParentDSL
-          (StateStore o item err m)
-          (Query o item err m)
-          (ChildQuery o (Fuzzy item))
-          (ChildSlot)
-          (Message o item)
+      :: Query pq ps item err m
+      ~> H.HalogenM
+          (StateStore pq ps item err m)
+          (Query pq ps item err m)
+          (ChildSlots pq ps (Fuzzy item) m)
+          (Message pq item)
           m
     eval = case _ of
       Search text a ->
@@ -197,7 +196,7 @@ component =
         Select.Emit query -> H.raise (Emit query) *> pure a
 
         Select.Selected (Fuzzy { original: item }) -> do
-          (Tuple _ st) <- getState
+          st <- getState
 
           let selections = case st.selections of
                 One     _  -> One  $ Just item
@@ -207,14 +206,14 @@ component =
           H.modify_ $ seeks _ { selections = selections }
           _ <- if st.config.keepOpen
                then pure Nothing
-               else H.query unit $ Select.setVisibility Select.Off
+               else H.query _select unit $ Select.setVisibility Select.Off
 
           H.raise $ SelectionsChanged (ItemSelected item) selections
           eval $ Synchronize a
 
         -- Perform a new search, fetching data if Async.
         Select.Searched text -> do
-          (Tuple _ st) <- getState
+          st <- getState
           H.modify_ $ seeks _ { search = text }
 
           case st.config.syncMethod of
@@ -234,7 +233,7 @@ component =
 
       -- Remove a currently-selected item.
       Remove item a -> do
-        (Tuple _ st) <- getState
+        st <- getState
 
         let selections = case st.selections of
               One     _  -> One Nothing
@@ -248,7 +247,7 @@ component =
 
       -- Remove all the items.
       RemoveAll a -> do
-        (Tuple _ st) <- getState
+        st <- getState
 
         let selections = case st.selections of
               One     _  -> One Nothing
@@ -263,28 +262,28 @@ component =
 
       -- Tell the Select to trigger focus on the input
       TriggerFocus a -> a <$ do
-        H.query unit Select.triggerFocus
+        H.query _select unit Select.triggerFocus
 
       -- Tell the parent what the current state of the Selections list is.
       GetSelections reply -> do
-        (Tuple _ st) <- getState
+        st <- getState
         pure $ reply st.selections
 
       -- Update the state of Select to be in sync.
       Synchronize a -> do
-        (Tuple _ st) <- getState
+        st <- getState
 
         _ <- case getNewItems st of
           Success items -> do
-            H.query unit $ Select.replaceItems items
+            H.query _select unit $ Select.replaceItems items
           Failure err -> do
-            _ <- H.query unit $ Select.setVisibility Select.Off
-            H.query unit $ Select.replaceItems []
+            _ <- H.query _select unit $ Select.setVisibility Select.Off
+            H.query _select unit $ Select.replaceItems []
           NotAsked -> do
-            _ <- H.query unit $ Select.setVisibility Select.Off
-            H.query unit $ Select.replaceItems []
+            _ <- H.query _select unit $ Select.setVisibility Select.Off
+            H.query _select unit $ Select.replaceItems []
           Loading -> do
-            H.query unit $ Select.replaceItems []
+            H.query _select unit $ Select.replaceItems []
 
         pure a
 
@@ -297,7 +296,7 @@ component =
         eval $ Synchronize a
 
       Reset a -> do
-        (Tuple _ st) <- getState
+        st <- getState
 
         let selections = case st.selections of
               One _ -> One Nothing

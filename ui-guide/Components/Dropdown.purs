@@ -3,13 +3,11 @@ module UIGuide.Components.Dropdown where
 import Prelude
 
 import Data.Array (mapWithIndex)
-import Data.Either.Nested (Either2)
-import Data.Functor.Coproduct.Nested (Coproduct2)
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Effect.Aff.Class (class MonadAff)
 import Effect.Class.Console (log)
 import Halogen as H
-import Halogen.Component.ChildPath as CP
 import Halogen.HTML as HH
 import Halogen.HTML.Events as HE
 import Halogen.HTML.Properties as HP
@@ -21,7 +19,7 @@ import Ocelot.Components.Dropdown as DD
 import Ocelot.Components.Dropdown.Render as DR
 import Ocelot.HTML.Properties (css)
 import Select as Select
-import Select.Utils.Setters as SelectSetters
+import Select.Setters as SelectSetters
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
 
@@ -35,9 +33,13 @@ type Input = Unit
 
 type Message = Void
 
-type ChildSlot = Either2 Unit Unit
+type ChildSlots m =
+  ( dropdown :: DD.Slot Query String m Unit
+  , select :: Select.Slot Query () Platform m Unit
+  )
 
-type ChildQuery m = Coproduct2 (DD.Query Query String m) (Select.Query Query Platform)
+_dropdown = SProxy :: SProxy "dropdown"
+_select = SProxy :: SProxy "select"
 
 data Platform
   = Facebook
@@ -48,17 +50,19 @@ component
    . MonadAff m
   => H.Component HH.HTML Query Input Message m
 component =
-  H.parentComponent
+  H.component
     { initialState: const unit
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
 
   where
     eval
       :: Query
-      ~> H.ParentDSL State Query (ChildQuery m) ChildSlot Message m
+      ~> H.HalogenM State Query (ChildSlots m) Message m
     eval = case _ of
       HandleDropdown message a -> case message of
         DD.Selected x -> do
@@ -73,13 +77,13 @@ component =
           H.liftEffect $ case x of
             Facebook -> log "Facebook"
             Twitter -> log "Twitter"
-          H.query' CP.cp2 unit ( Select.setVisibility Select.Off )
+          H.query _select unit ( Select.setVisibility Select.Off )
 
         _ -> pure a
 
     render
       :: State
-      -> H.ParentHTML Query (ChildQuery m) ChildSlot m
+      -> H.ComponentHTML Query (ChildSlots m) m
     render state =
       HH.div_
         [ Documentation.block_
@@ -92,8 +96,8 @@ component =
                 [ css "mb-6" ]
                 [ Format.caption_
                   [ HH.text "Standard" ]
-                , HH.slot'
-                  CP.cp1
+                , HH.slot
+                  _dropdown
                   unit
                   DD.component
                   { selectedItem: Nothing
@@ -106,8 +110,8 @@ component =
                 [ css "mb-6" ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
-                , HH.slot'
-                  CP.cp1
+                , HH.slot
+                  _dropdown
                   unit
                   DD.component
                   { selectedItem: Just "Kilchoman Blue Label"
@@ -124,8 +128,8 @@ component =
                 [ css "mb-6" ]
                 [ Format.caption_
                   [ HH.text "Primary" ]
-                , HH.slot'
-                  CP.cp1
+                , HH.slot
+                  _dropdown
                   unit
                   DD.component
                   { selectedItem: Nothing
@@ -138,8 +142,8 @@ component =
                 [ css "mb-6" ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
-                , HH.slot'
-                  CP.cp1
+                , HH.slot
+                  _dropdown
                   unit
                   DD.component
                   { selectedItem: Just "Kilchoman Blue Label"
@@ -156,8 +160,8 @@ component =
                 [ css "mb-6" ]
                 [ Format.caption_
                   [ HH.text "Dark" ]
-                , HH.slot'
-                  CP.cp1
+                , HH.slot
+                  _dropdown
                   unit
                   DD.component
                   { selectedItem: Nothing
@@ -170,8 +174,8 @@ component =
                 [ css "mb-6" ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
-                , HH.slot'
-                  CP.cp1
+                , HH.slot
+                  _dropdown
                   unit
                   DD.component
                   { selectedItem: Just "Kilchoman Blue Label"
@@ -189,8 +193,8 @@ component =
           }
           [ Backdrop.backdrop
             [ css "h-40 flex items-center justify-center" ]
-            [ HH.slot'
-                CP.cp2
+            [ HH.slot
+                _select
                 unit
                 Select.component
                 selectInput
@@ -211,17 +215,17 @@ component =
         renderDropdown
           :: (∀ p i. DR.ButtonFn p i)
           -> DD.State String
-          -> H.ParentHTML (DD.Query Query String m) (DD.ChildQuery Query String) DD.ChildSlot m
+          -> H.ComponentHTML (DD.Query Query String m) (DD.ChildSlots Query String m) m
         renderDropdown btnFn = DR.render $ DR.defDropdown btnFn [ ] identity "Pick One"
 
         renderDisabledDropdown
           :: (∀ p i. DR.ButtonFn p i)
           -> DD.State String
-          -> H.ParentHTML (DD.Query Query String m) (DD.ChildQuery Query String) DD.ChildSlot m
+          -> H.ComponentHTML (DD.Query Query String m) (DD.ChildSlots Query String m) m
         renderDisabledDropdown btnFn =
           DR.render $ DR.defDropdown btnFn [ HP.disabled true ] identity "Pick One"
 
-        selectInput :: Select.Input Query Platform
+        selectInput :: Select.Input Query () Platform m
         selectInput =
           { debounceTime: Nothing
           , initialSearch: Nothing

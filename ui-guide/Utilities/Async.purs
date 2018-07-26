@@ -127,7 +127,7 @@ decodeUser json = do
     , skinColor
     }
 
-renderItemUser :: ∀ o. TA.RenderTypeaheadItem o User
+renderItemUser :: ∀ pq m. TA.RenderTypeaheadItem pq User m
 renderItemUser =
   { toObject: userToObject
   , renderItem: renderUser
@@ -235,7 +235,7 @@ locationToObject :: Location -> Object String
 locationToObject (Location { name, population }) =
   fromFoldable [ Tuple "name" name ]
 
-renderItemLocation :: ∀ o. TA.RenderTypeaheadItem o Location
+renderItemLocation :: ∀ pq m. TA.RenderTypeaheadItem pq Location m
 renderItemLocation =
   { toObject: locationToObject
   , renderItem: TA.defRenderItem <<< unwrap

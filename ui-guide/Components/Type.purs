@@ -26,20 +26,22 @@ component =
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
     where
-      eval :: Query ~> H.ComponentDSL State Query Message m
+      eval :: Query ~> H.HalogenM State Query () Message m
       eval = case _ of
         NoOp a -> pure a
 
-      render :: State -> H.ComponentHTML Query
+      render :: State -> H.ComponentHTML Query () m
       render _ = cnDocumentationBlocks
 
 
 ----------
 -- HTML
 
-cnDocumentationBlocks :: H.ComponentHTML Query
+cnDocumentationBlocks :: ∀ m. H.ComponentHTML Query () m
 cnDocumentationBlocks =
   HH.div_
     [ Documentation.block_

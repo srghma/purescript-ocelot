@@ -3,6 +3,7 @@ module UIGuide.Components.TextFields where
 import Prelude
 
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Data.Time.Duration (Milliseconds(..))
 import Effect.Aff.Class (class MonadAff)
 import Effect.Console (log)
@@ -30,33 +31,35 @@ type Input = Unit
 
 type Message = Void
 
-type ChildSlot = Unit
-
-type ChildQuery = SearchBar.Query
+type ChildSlots =
+  ( search :: SearchBar.Slot Unit )
+_search = SProxy :: SProxy "search"
 
 component :: ∀ m. MonadAff m => H.Component HH.HTML Query Input Message m
 component =
-  H.parentComponent
+  H.component
     { initialState: const unit
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
   where
-    eval :: Query ~> H.ParentDSL State Query ChildQuery ChildSlot Message m
+    eval :: Query ~> H.HalogenM State Query ChildSlots Message m
     eval = case _ of
       HandleSearch (SearchBar.Searched str) a -> do
         H.liftEffect $ log str
         pure a
 
-    render :: State -> H.ParentHTML Query ChildQuery ChildSlot m
+    render :: State -> H.ComponentHTML Query ChildSlots m
     render _ = cnDocumentationBlocks
 
 
 ----------
 -- HTML
 
-cnDocumentationBlocks :: ∀ m. MonadAff m => H.ParentHTML Query ChildQuery ChildSlot m
+cnDocumentationBlocks :: ∀ m. MonadAff m => H.ComponentHTML Query ChildSlots m
 cnDocumentationBlocks =
   let content = Backdrop.content [ css "flex" ] in
   HH.div_
@@ -420,7 +423,7 @@ cnDocumentationBlocks =
       [ Backdrop.content_
         [ HH.div
           [ css "w-1/3 pb-6" ]
-          [ HH.slot unit SearchBar.component
+          [ HH.slot _search unit SearchBar.component
             { debounceTime: Just (Milliseconds 250.0) }
             ( HE.input HandleSearch )
           ]
@@ -437,7 +440,7 @@ cnDocumentationBlocks =
           [ css "flex items-center pb-6" ]
           [ HH.div
             [ css "mr-8" ]
-            [ HH.slot unit SearchBar.component
+            [ HH.slot _search unit SearchBar.component
               { debounceTime: Just (Milliseconds 250.0) }
               ( HE.input HandleSearch )
             ]

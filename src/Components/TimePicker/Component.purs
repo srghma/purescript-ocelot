@@ -5,6 +5,7 @@ import Prelude
 import Data.FunctorWithIndex (mapWithIndex)
 import Data.Maybe (Maybe(..))
 import Data.String (trim)
+import Data.Symbol (SProxy(..))
 import Data.Time (Time)
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
@@ -17,7 +18,7 @@ import Ocelot.Components.TimePicker.Utils as Utils
 import Ocelot.Data.DateTime as ODT
 import Ocelot.HTML.Properties (css)
 import Select as Select
-import Select.Utils.Setters as Setters
+import Select.Setters as Setters
 import Web.Event.Event (preventDefault)
 import Web.UIEvent.KeyboardEvent (KeyboardEvent)
 import Web.UIEvent.KeyboardEvent as KE
@@ -46,11 +47,13 @@ data Message
   | VisibilityChanged Select.Visibility
   | Searched String
 
-type ParentHTML m
-  = H.ParentHTML Query ChildQuery Input m
+type HTML m
+  = H.ComponentHTML Query (ChildSlots m) m
 
-type ChildSlot = Unit
-type ChildQuery = Select.Query Query TimeUnit
+type Slot = H.Slot Query Message
+type ChildSlots m = ( select :: Select.Slot Query () TimeUnit m Unit )
+
+_select = SProxy :: SProxy "select"
 
 ----------
 -- Time Units
@@ -81,7 +84,7 @@ component :: ∀ m
   . MonadAff m
  => H.Component HH.HTML Query Input Message m
 component =
-  H.lifecycleParentComponent
+  H.component
     { initialState
     , render
     , eval
@@ -98,7 +101,7 @@ component =
 
     eval
       :: Query
-      ~> H.ParentDSL State Query ChildQuery Unit Message m
+      ~> H.HalogenM State Query (ChildSlots m) Message m
     eval = case _ of
       Search text a -> do
         _ <- case text of
@@ -107,7 +110,7 @@ component =
             Nothing -> pure a
             Just t  -> do
               _ <- eval $ SetSelection (Just t) a
-              _ <- H.query unit $ Select.setVisibility Select.Off
+              _ <- H.query _select unit $ Select.setVisibility Select.Off
               pure a
         H.raise $ Searched text
         pure a
@@ -119,7 +122,7 @@ component =
           -- We'll want to select the item here, set its status, and raise
           -- a message about its selection.
           H.modify_ _ { selection = Just time }
-          _ <- H.query unit $ Select.setVisibility Select.Off
+          _ <- H.query _select unit $ Select.setVisibility Select.Off
           H.raise $ SelectionChanged $ Just time
           eval $ Synchronize a
 
@@ -133,11 +136,11 @@ component =
           H.raise $ VisibilityChanged visibility
           pure a
 
-      TriggerFocus a -> a <$ H.query unit Select.triggerFocus
+      TriggerFocus a -> a <$ H.query _select unit Select.triggerFocus
 
       Synchronize a -> do
         { selection } <- H.get
-        _ <- H.query unit
+        _ <- H.query _select unit
           $ Select.replaceItems
           $ generateTimes selection
         _ <- case selection of
@@ -154,7 +157,7 @@ component =
         eval $ Synchronize a
 
       Key ev a -> do
-        _ <- H.query unit $ Select.setVisibility Select.On
+        _ <- H.query _select unit $ Select.setVisibility Select.On
         let preventIt = H.liftEffect $ preventDefault $ KE.toEvent ev
         case KE.code ev of
           "Enter"   -> do
@@ -163,7 +166,7 @@ component =
             eval $ Search search a
           "Escape" -> do
             preventIt
-            _ <- H.query unit $ Select.setVisibility Select.Off
+            _ <- H.query _select unit $ Select.setVisibility Select.Off
             pure a
           otherwise -> pure a
 
@@ -171,9 +174,9 @@ component =
         H.modify_ _ { selection = selection }
         pure a
 
-    render :: State -> H.ParentHTML Query ChildQuery Unit m
+    render :: State -> HTML m
     render st = HH.div_
-        [ HH.slot unit Select.component selectInput (HE.input HandleSelect) ]
+        [ HH.slot _select unit Select.component selectInput (HE.input HandleSelect) ]
       where
         selectInput =
           { initialSearch: Nothing
@@ -207,7 +210,7 @@ component =
                 )
                 ( mapWithIndex renderItem tst.items )
 
-            renderItem :: Int -> TimeUnit -> Select.ComponentHTML Query TimeUnit
+            renderItem :: Int -> TimeUnit -> Select.HTML Query () TimeUnit m
             renderItem index item =
               HH.div
               -- Here's the place to use info from the item to render it in different

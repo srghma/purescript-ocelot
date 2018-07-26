@@ -1,9 +1,4 @@
-module Ocelot.Components.SearchBar
-  ( component
-  , Query
-  , Message(..)
-  )
-  where
+module Ocelot.Components.SearchBar where
 
 import Prelude
 
@@ -42,6 +37,8 @@ data Query a
 
 type Input = { debounceTime :: Maybe Milliseconds }
 
+type Slot = H.Slot Query Message
+
 data Message
  = Searched String
 
@@ -52,6 +49,8 @@ component =
     , eval
     , render
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
 
   where
@@ -63,7 +62,7 @@ component =
       , open: false
       }
 
-    eval :: Query ~> H.ComponentDSL State Query Message m
+    eval :: Query ~> H.HalogenM State Query () Message m
     eval = case _ of
       Open a -> do
         H.modify_ _ { open = true }
@@ -108,7 +107,7 @@ component =
 
         pure a
 
-    render :: State -> H.ComponentHTML Query
+    render :: State -> H.ComponentHTML Query () m
     render { query, open } =
       HH.label
         [ HP.classes $ containerClasses <> containerCondClasses ]

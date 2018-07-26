@@ -11,10 +11,11 @@ import Halogen.HTML as HH
 import Halogen.HTML.Events as HE
 import Halogen.HTML.Properties as HP
 import Ocelot.Block.Icon as Icon
+import Ocelot.Components.Dropdown (_select)
 import Ocelot.Components.Dropdown as DD
 import Ocelot.HTML.Properties ((<&>))
 import Select as Select
-import Select.Utils.Setters (setContainerProps, setItemProps, setToggleProps)
+import Select.Setters (setContainerProps, setItemProps, setToggleProps)
 
 type ButtonFn p i
    = Array (HH.IProp HTMLbutton i)
@@ -22,15 +23,15 @@ type ButtonFn p i
   -> HH.HTML p i
 
 defDropdown
-  :: ∀ o item
+  :: ∀ pq item m
    . Eq item
   => (∀ p i. ButtonFn p i)
-  -> Array (H.IProp HTMLbutton (Select.Query o item))
+  -> Array (HH.IProp HTMLbutton (Select.Query pq () item m Unit))
   -> (item -> String)
   -> String
   -> DD.State item
   -> Select.State item
-  -> H.ComponentHTML (Select.Query o item)
+  -> H.ComponentHTML (Select.Query pq () item m) () m
 defDropdown button props toString label state selectState =
   HH.div [ HP.class_ $ HH.ClassName "relative" ] [ toggle, menu ]
 
@@ -101,16 +102,16 @@ defDropdown button props toString label state selectState =
           | otherwise = [ "invisible" ]
 
 render
-  :: ∀ o item m
+  :: ∀ pq item m
    . MonadAff m
-  => (DD.State item -> Select.State item -> H.ComponentHTML (Select.Query o item))
+  => (DD.State item -> Select.State item -> H.ComponentHTML (Select.Query pq () item m) () m)
   -> DD.State item
-  -> H.ParentHTML (DD.Query o item m) (DD.ChildQuery o item) DD.ChildSlot m
+  -> H.ComponentHTML (DD.Query pq item m) (DD.ChildSlots pq item m) m
 render renderDropdown state =
-  HH.slot unit Select.component selectInput (HE.input DD.HandleSelect)
+  HH.slot _select unit Select.component selectInput (HE.input DD.HandleSelect)
 
   where
-    selectInput :: Select.Input o item
+    selectInput :: Select.Input pq () item m
     selectInput =
       { debounceTime: Nothing
       , initialSearch: Nothing

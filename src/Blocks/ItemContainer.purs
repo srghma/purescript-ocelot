@@ -9,12 +9,11 @@ import Data.FunctorWithIndex (mapWithIndex)
 import Data.Fuzzy (Fuzzy(..))
 import Data.Maybe (Maybe(..), fromMaybe)
 import Foreign.Object (lookup)
-import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 import Select as Select
-import Select.Utils.Setters as Setters
+import Select.Setters as Setters
 
 baseClasses :: Array HH.ClassName
 baseClasses = HH.ClassName <$>
@@ -77,11 +76,11 @@ buttonClasses = HH.ClassName <$>
 -- Provided an array of items and any additional HTML, renders the container
 -- Items should have already been treated with `boldMatches` by this point.
 itemContainer
-  :: ∀ t o item
+  :: ∀ t pq cs item m
    . Maybe Int
   -> Array HH.PlainHTML
-  -> Array (H.HTML t (Select.Query o item))
-  -> H.HTML t (Select.Query o item)
+  -> Array (HH.HTML t (Select.Query pq cs item m Unit))
+  -> HH.HTML t (Select.Query pq cs item m Unit)
 itemContainer highlightIndex itemsHTML addlHTML =
   HH.div
     ( Setters.setContainerProps [ HP.classes itemContainerClasses ] )
@@ -90,7 +89,7 @@ itemContainer highlightIndex itemsHTML addlHTML =
     hover :: Int -> Array HH.ClassName
     hover i = if highlightIndex == Just i then HH.ClassName <$> [ "bg-grey-lighter" ] else mempty
 
-    renderItems :: Array (H.HTML t (Select.Query o item))
+    renderItems :: Array (HH.HTML t (Select.Query pq cs item m Unit))
     renderItems =
       [ HH.ul
         [ HP.classes ulClasses ]

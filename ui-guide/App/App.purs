@@ -14,26 +14,24 @@ module UIGuide.App
 
 import Prelude
 
-import Effect.Aff (Aff, launchAff_)
-
-import Data.Tuple (Tuple(..))
 import Data.Const (Const)
 import Data.Functor (mapFlipped)
-import Data.Maybe (Maybe(..))
 import Data.Map as M
-import Web.HTML.HTMLElement (HTMLElement)
-
+import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
+import Data.Tuple (Tuple(..))
+import Effect.Aff (Aff, launchAff_)
 import Global.Unsafe (unsafeDecodeURI, unsafeEncodeURI)
-
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Halogen.Storybook.Proxy (ProxyS, proxy)
 import Halogen.VDom.Driver (runUI)
 import Ocelot.Block.Format as Format
-import UIGuide.Block.Backdrop as Backdrop
-
+import Ocelot.HTML.Properties (css)
 import Routing.Hash (hashes)
+import UIGuide.Block.Backdrop as Backdrop
+import Web.HTML.HTMLElement (HTMLElement)
 
 data Query a
   = RouteChange String a
@@ -68,11 +66,10 @@ instance showGroup :: Show Group where
   show Components = "Components"
   show Behaviors = "Behaviors"
 
+type Slot = ( story :: H.Slot StoryQuery Void String )
+_story = SProxy :: SProxy "story"
 
-type Slot = String
-
-type HTML m = H.ParentHTML Query StoryQuery Slot m
-
+type HTML m = H.ComponentHTML Query Slot m
 
 -- | Takes stories config and mount element, and renders the storybook.
 runStorybook
@@ -92,11 +89,13 @@ type Input m =
 
 app :: ∀ m. H.Component HH.HTML Query (Input m) Void m
 app =
-  H.parentComponent
+  H.component
     { initialState
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
   where
 
@@ -107,7 +106,7 @@ app =
   render state =
     HH.body_
     [ HH.div
-      [ HP.class_ $ HH.ClassName "min-h-screen" ]
+      [ css "min-h-screen" ]
       [ renderSidebar state
       , renderContainer state
       ]
@@ -116,26 +115,26 @@ app =
   renderContainer :: State m -> HTML m
   renderContainer state =
     HH.div
-    [ HP.class_ $ HH.ClassName "md:ml-80" ]
+    [ css "md:ml-80" ]
     [ HH.div
-      [ HP.class_ $ HH.ClassName "fixed w-full" ]
+      [ css "fixed w-full" ]
       [ HH.div
-        [ HP.class_ $ HH.ClassName "pin-t bg-white md:hidden relative border-b border-grey-light h-12 py-8 flex items-center" ]
+        [ css "pin-t bg-white md:hidden relative border-b border-grey-light h-12 py-8 flex items-center" ]
         [ HH.a
-          [ HP.class_ $ HH.ClassName "mx-auto inline-flex items-center"
+          [ css "mx-auto inline-flex items-center"
           , HP.href "" ]
           [ HH.text "CitizenNet UI Guide" ]
         ]
       ]
     , HH.div
-      [ HP.class_ $ HH.ClassName "p-12 w-full container mx-auto" ]
+      [ css "p-12 w-full container mx-auto" ]
       [ renderSlot state ]
     ]
 
   renderSlot :: State m -> HTML m
   renderSlot state =
     case M.lookup state.route state.stories of
-      Just { component } -> HH.slot state.route component unit absurd
+      Just { component } -> HH.slot _story state.route component unit absurd
       -- TODO: Fill in a home page HTML renderer
       _ -> HH.div_ []
 
@@ -165,19 +164,19 @@ app =
       )
     ]
     [ HH.div
-      [ HP.class_ $ HH.ClassName "flex-1 p-6 overflow-y-auto" ]
+      [ css "flex-1 p-6 overflow-y-auto" ]
       [ HH.header_
         [ Format.heading
-          [ HP.class_ $ HH.ClassName "flex" ]
+          [ css "flex" ]
           [ HH.img
-            [ HP.class_ $ HH.ClassName "mr-2"
+            [ css "mr-2"
             , HP.src "https://citizennet.com/manager/images/logo.svg"
             ]
           , HH.text "Ocelot"
           ]
         ]
       , HH.nav
-        [ HP.class_ $ HH.ClassName "text-base overflow-y-auto" ]
+        [ css "text-base overflow-y-auto" ]
         (renderGroups state)
       ]
     ]
@@ -186,7 +185,7 @@ app =
   renderGroups state =
     mapFlipped (M.toUnfoldable state.partitions) $ \(Tuple group stories) ->
       HH.div
-      [ HP.class_ $ HH.ClassName "mb-6" ]
+      [ css "mb-6" ]
       [ Format.caption_
         [ HH.text $ show group ]
       , renderGroup state.route stories
@@ -194,10 +193,10 @@ app =
 
   renderGroup :: String -> Stories m -> HTML m
   renderGroup route stories =
-    HH.ul [ HP.class_ $ HH.ClassName "list-reset" ] $
+    HH.ul [ css "list-reset" ] $
       mapFlipped (M.toUnfoldable stories) $ \(Tuple href { anchor }) ->
         HH.li
-        [ HP.class_ $ HH.ClassName "mb-3" ]
+        [ css "mb-3" ]
         [ HH.a
           [ HP.classes $
             Format.linkClasses <>
@@ -207,15 +206,10 @@ app =
           [ HH.text anchor ]
         ]
 
-
-  eval :: Query ~> H.ParentDSL (State m) Query StoryQuery Slot Void m
+  eval :: Query ~> H.HalogenM (State m) Query Slot Void m
   eval (RouteChange route next) = do
     H.modify_ (\state -> state { route = route })
     pure next
-
-
-
-
 
 ----------
 -- Helpers

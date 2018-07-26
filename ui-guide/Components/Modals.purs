@@ -2,21 +2,20 @@ module UIGuide.Components.Modals where
 
 import Prelude
 
-import Effect.Aff.Class (class MonadAff)
-import Data.Either.Nested (Either2)
-import Data.Functor.Coproduct.Nested (Coproduct2)
 import Data.Maybe (Maybe(..))
+import Effect.Aff.Class (class MonadAff)
 import Halogen as H
-import Halogen.Component.ChildPath as CP
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.Block.Button as Button
 import Ocelot.Block.Card as Card
 import Ocelot.Block.FormField as FormField
-import Ocelot.Block.Modal as Modal
 import Ocelot.Block.Format as Format
-import Ocelot.Components.Typeahead.Input as TA
+import Ocelot.Block.Modal as Modal
 import Ocelot.Components.Typeahead as TACore
+import Ocelot.Components.Typeahead.Input as TA
+import Ocelot.HTML.Properties (css)
+import UIGuide.Components.Typeaheads (ChildSlots, _location, _user)
 import UIGuide.Utilities.Async as Async
 
 type State = Unit
@@ -27,28 +26,24 @@ type Input = Unit
 
 type Message = Void
 
-type ChildSlot = Either2 Unit Unit
-type ChildQuery m =
-  Coproduct2
-    (TACore.Query Query Async.Location Async.Err m)
-    (TACore.Query Query Async.User Async.Err m)
-
 component :: ∀ m
   . MonadAff m
  => H.Component HH.HTML Query Input Message m
 component =
-  H.parentComponent
+  H.component
     { initialState: const unit
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
   where
-    eval :: Query ~> H.ParentDSL State Query (ChildQuery m) ChildSlot Message m
+    eval :: Query ~> H.HalogenM State Query (ChildSlots m) Message m
     eval = case _ of
       NoOp a -> pure a
 
-    render :: State -> H.ParentHTML Query (ChildQuery m) ChildSlot m
+    render :: State -> H.ComponentHTML Query (ChildSlots m) m
     render _ =
       Modal.modal_
         [ Modal.header
@@ -62,7 +57,7 @@ component =
           }
         , Modal.body_
           [ Card.card
-            [ HP.class_ $ HH.ClassName "flex-1 m-10" ]
+            [ css "flex-1 m-10" ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Standard" ]
@@ -72,7 +67,7 @@ component =
               , error: Nothing
               , inputId: "locations"
               }
-              [ HH.slot' CP.cp1 unit TACore.component
+              [ HH.slot _location 0 TACore.component
                 (TA.defAsyncMulti
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "locations"
@@ -91,7 +86,7 @@ component =
               , error: Nothing
               , inputId: "locations"
               }
-              [ HH.slot' CP.cp2 unit TACore.component
+              [ HH.slot _user 0 TACore.component
                 (TA.defAsyncMulti
                   [ HP.placeholder "Search users..."
                   , HP.id_ "users"

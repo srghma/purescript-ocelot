@@ -2,12 +2,13 @@ module UIGuide.Components.Tab where
 
 import Prelude
 
-import Ocelot.Block.NavigationTab as NavigationTab
-import Ocelot.Block.Format as Format
 import Data.Maybe (Maybe(..))
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
+import Ocelot.Block.Format as Format
+import Ocelot.Block.NavigationTab as NavigationTab
+import Ocelot.HTML.Properties (css)
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
 
@@ -19,7 +20,6 @@ type Input = Unit
 
 type Message = Void
 
-
 component :: ∀ m. H.Component HH.HTML Query Input Message m
 component =
   H.component
@@ -27,14 +27,16 @@ component =
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
   where
-    eval :: Query ~> H.ComponentDSL State Query Message m
+    eval :: Query ~> H.HalogenM State Query () Message m
     eval = case _ of
       NoOp a -> do
         pure a
 
-    render :: State -> H.ComponentHTML Query
+    render :: State -> H.ComponentHTML Query () m
     render _ =
       HH.div_
       [ Documentation.block_
@@ -46,7 +48,7 @@ component =
                 [ HP.classes Format.captionClasses ]
                 [ HH.text "Standard Tabs" ]
               , HH.div
-                  [ HP.class_ (HH.ClassName "bg-black-10 flex items-center justify-center h-full w-full") ]
+                  [ css "bg-black-10 flex items-center justify-center h-full w-full" ]
                   [ NavigationTab.navigationTabs_ (tabConfig defaultTabs) ]
               ]
           , Backdrop.backdrop_
@@ -54,7 +56,7 @@ component =
                 [ HP.classes Format.captionClasses ]
                 [ HH.text "Tabs with Errors" ]
               , HH.div
-                  [ HP.class_ (HH.ClassName "bg-black-10 flex items-center justify-center h-full w-full") ]
+                  [ css "bg-black-10 flex items-center justify-center h-full w-full" ]
                   [ NavigationTab.navigationTabs_ (tabConfig errorTabs) ]
               ]
           ]

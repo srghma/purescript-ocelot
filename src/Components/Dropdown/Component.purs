@@ -5,73 +5,77 @@ import Prelude
 import Control.Comonad (extract)
 import Control.Comonad.Store (Store, seeks, store)
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
 import Halogen.HTML as HH
+import Renderless.State (updateStore)
 import Select as Select
-import Select.Internal.State (updateStore)
 
-data Query o item m a
-  = HandleSelect (Select.Message o item) a
+data Query pq item m a
+  = HandleSelect (Select.Message pq item) a
   | SetItems (Array item) a
   | SetSelection (Maybe item) a
-  | Receive (Input o item m) a
+  | Receive (Input pq item m) a
 
-type StateStore o item m =
-  Store (State item) (H.ParentHTML (Query o item m) (ChildQuery o item) ChildSlot m)
+type StateStore pq item m =
+  Store (State item) (H.ComponentHTML (Query pq item m) (ChildSlots pq item m) m)
 
 type State item =
   { selectedItem :: Maybe item
   , items :: Array item
   }
 
-type Input o item m =
+type Input pq item m =
   { selectedItem :: Maybe item
   , items :: Array item
-  , render :: State item -> H.ParentHTML (Query o item m) (ChildQuery o item) ChildSlot m
+  , render :: State item -> H.ComponentHTML (Query pq item m) (ChildSlots pq item m) m
   }
 
-data Message o item
+data Message pq item
   = Selected item
   | VisibilityChanged Select.Visibility
-  | Emit (o Unit)
+  | Emit (pq Unit)
 
-type ChildSlot = Unit
+type Slot pq item m = H.Slot (Query pq item m) (Message pq item)
+type ChildSlots pq item m =
+  ( select :: Select.Slot pq () item m Unit )
 
-type ChildQuery o item = Select.Query o item
+_select = SProxy :: SProxy "select"
 
 component
-  :: ∀ o item m
+  :: ∀ pq item m
    . MonadAff m
-  => H.Component HH.HTML (Query o item m) (Input o item m) (Message o item) m
+  => H.Component HH.HTML (Query pq item m) (Input pq item m) (Message pq item) m
 component =
-  H.parentComponent
+  H.component
     { initialState
     , render: extract
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
 
   where
-    initialState :: Input o item m -> StateStore o item m
+    initialState :: Input pq item m -> StateStore pq item m
     initialState i = store i.render
       { selectedItem: i.selectedItem
       , items: i.items
       }
 
     eval
-      :: Query o item m
-      ~> H.ParentDSL
-          (StateStore o item m)
-          (Query o item m)
-          (ChildQuery o item)
-          (ChildSlot)
-          (Message o item)
+      :: Query pq item m
+      ~> H.HalogenM
+          (StateStore pq item m)
+          (Query pq item m)
+          (ChildSlots pq item m)
+          (Message pq item)
           m
     eval = case _ of
       HandleSelect message a -> case message of
         Select.Selected item -> do
-          _ <- H.query unit $ Select.setVisibility Select.Off
+          _ <- H.query _select unit $ Select.setVisibility Select.Off
           H.modify_ $ seeks _ { selectedItem = Just item }
           H.raise $ Selected item
           pure a

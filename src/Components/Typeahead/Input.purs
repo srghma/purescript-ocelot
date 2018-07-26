@@ -24,20 +24,20 @@ import Ocelot.Block.ItemContainer as ItemContainer
 import Ocelot.Components.Typeahead as TA
 import Ocelot.HTML.Properties ((<&>))
 import Select as Select
-import Select.Utils.Setters as Setters
+import Select.Setters as Setters
 import Unsafe.Coerce (unsafeCoerce)
 
 
 ----------
 -- Input types expected. This needs to be defined for each 'item' type we have.
 
-type RenderTypeaheadItem o item =
+type RenderTypeaheadItem pq item m =
   { toObject :: item -> Object String
-  , renderContainer :: RenderContainer o item
+  , renderContainer :: RenderContainer pq item m
   , renderItem :: item -> HH.PlainHTML
   }
 
-renderItemString :: ∀ o. RenderTypeaheadItem o String
+renderItemString :: ∀ pq m. RenderTypeaheadItem pq String m
 renderItemString =
   { toObject: singleton "name"
   , renderContainer: defRenderContainer' defRenderFuzzy
@@ -58,15 +58,15 @@ defRenderFuzzy = HH.span_ <<< ItemContainer.boldMatches "name"
 defRenderItem :: ∀ r. { name :: String | r } -> HH.PlainHTML
 defRenderItem { name } = HH.text name
 
-type RenderContainer o item
+type RenderContainer pq item m
   = Select.State (Fuzzy item)
-  -> H.ComponentHTML (Select.Query o (Fuzzy item))
+  -> H.ComponentHTML (Select.Query pq () (Fuzzy item) m) () m
 
 defRenderContainer
-  :: ∀ o item
+  :: ∀ pq item m
    . (Fuzzy item -> HH.PlainHTML)
-  -> Array (H.HTML Void (Select.Query o (Fuzzy item)))
-  -> RenderContainer o item
+  -> Array (H.ComponentHTML (Select.Query pq () (Fuzzy item) m) () m)
+  -> RenderContainer pq item m
 defRenderContainer renderFuzzy addlHTML selectState =
   HH.div
     [ HP.class_ $ HH.ClassName "relative" ]
@@ -80,9 +80,9 @@ defRenderContainer renderFuzzy addlHTML selectState =
         ]
 
 defRenderContainer'
-  :: ∀ o item
+  :: ∀ pq item m
    . (Fuzzy item -> HH.PlainHTML)
-  -> RenderContainer o item
+  -> RenderContainer pq item m
 defRenderContainer' renderFuzzy = defRenderContainer renderFuzzy []
 
 
@@ -90,14 +90,14 @@ defRenderContainer' renderFuzzy = defRenderContainer renderFuzzy []
 -- Default typeahead configurations
 
 -- A def single-select that is provided with a renderFuzzy and renderItem function.
-defSingle :: ∀ o item err m
+defSingle :: ∀ pq ps item err m
   . MonadAff m
  => Eq item
  => Show err
- => Array (H.IProp HTMLinput (Select.Query o (Fuzzy item)))
+ => Array (HH.IProp HTMLinput (Select.Query pq () (Fuzzy item) m Unit))
  -> Array item
- -> RenderTypeaheadItem o item
- -> TA.Input o item err m
+ -> RenderTypeaheadItem pq item m
+ -> TA.Input pq ps item err m
 defSingle props xs { toObject, renderContainer, renderItem } =
   { items: Success xs
   , search: Nothing
@@ -107,15 +107,16 @@ defSingle props xs { toObject, renderContainer, renderItem } =
   }
 
 -- A def multi-select limited to N total possible selections.
-defLimit :: ∀ o item err m
+defLimit
+ :: ∀ pq ps item err m
   . MonadAff m
  => Eq item
  => Show err
- => Array (H.IProp HTMLinput (Select.Query o (Fuzzy item)))
+ => Array (HH.IProp HTMLinput (Select.Query pq () (Fuzzy item) m Unit))
  -> Int
  -> Array item
- -> RenderTypeaheadItem o item
- -> TA.Input o item err m
+ -> RenderTypeaheadItem pq item m
+ -> TA.Input pq ps item err m
 defLimit props n xs { toObject, renderContainer, renderItem } =
   { items: Success xs
   , search: Nothing
@@ -126,14 +127,15 @@ defLimit props n xs { toObject, renderContainer, renderItem } =
 
 -- A def multi-select that is provided with a renderFuzzy and renderItem function to determine
 -- rendering a specific item in the container
-defMulti :: ∀ o item err m
+defMulti
+ :: ∀ pq ps item err m
   . MonadAff m
  => Eq item
  => Show err
- => Array (H.IProp HTMLinput (Select.Query o (Fuzzy item)))
+ => Array (HH.IProp HTMLinput (Select.Query pq () (Fuzzy item) m Unit))
  -> Array item
- -> RenderTypeaheadItem o item
- -> TA.Input o item err m
+ -> RenderTypeaheadItem pq item m
+ -> TA.Input pq ps item err m
 defMulti props xs { toObject, renderContainer, renderItem } =
   { items: Success xs
   , search: Nothing
@@ -143,14 +145,15 @@ defMulti props xs { toObject, renderContainer, renderItem } =
   }
 
 -- A def async single select using the default render function
-defAsyncSingle :: ∀ o item err m
-  . MonadAff m
+defAsyncSingle
+  :: ∀ pq ps item err m
+   . MonadAff m
   => Eq item
   => Show err
-  => Array (H.IProp HTMLinput (Select.Query o (Fuzzy item)))
+  => Array (HH.IProp HTMLinput (Select.Query pq () (Fuzzy item) m Unit))
   -> (String -> m (RemoteData err (Array item)))
-  -> RenderTypeaheadItem o item
-  -> TA.Input o item err m
+  -> RenderTypeaheadItem pq item m
+  -> TA.Input pq ps item err m
 defAsyncSingle props f { toObject, renderContainer, renderItem } =
   { items: NotAsked
   , search: Nothing
@@ -160,14 +163,15 @@ defAsyncSingle props f { toObject, renderContainer, renderItem } =
   }
 
 -- A def multi-select using the default render item function
-defAsyncMulti :: ∀ o item err m
-  . MonadAff m
- => Eq item
- => Show err
- => Array (H.IProp HTMLinput (Select.Query o (Fuzzy item)))
- -> (String -> m (RemoteData err (Array item)))
- -> RenderTypeaheadItem o item
- -> TA.Input o item err m
+defAsyncMulti
+  :: ∀ pq ps item err m
+   . MonadAff m
+  => Eq item
+  => Show err
+  => Array (HH.IProp HTMLinput (Select.Query pq () (Fuzzy item) m Unit))
+  -> (String -> m (RemoteData err (Array item)))
+  -> RenderTypeaheadItem pq item m
+  -> TA.Input pq ps item err m
 defAsyncMulti props f { toObject, renderContainer, renderItem } =
   { items: NotAsked
   , search: Nothing
@@ -180,12 +184,13 @@ defAsyncMulti props f { toObject, renderContainer, renderItem } =
 ----------
 -- Default Configuration
 
-syncConfig :: ∀ item err m
-  . Eq item
- => MonadAff m
- => (item -> Object String)
- -> Boolean
- -> TA.Config item err m
+syncConfig
+  :: ∀ item err m
+   . Eq item
+  => MonadAff m
+  => (item -> Object String)
+  -> Boolean
+  -> TA.Config item err m
 syncConfig toObject keepOpen =
   { insertable: TA.NotInsertable
   , filterType: TA.FuzzyMatch
@@ -194,14 +199,15 @@ syncConfig toObject keepOpen =
   , keepOpen
   }
 
-asyncConfig :: ∀ item err m
-  . Eq item
- => MonadAff m
- => Milliseconds
- -> (String -> m (RemoteData err (Array item)))
- -> (item -> Object String)
- -> Boolean
- -> TA.Config item err m
+asyncConfig
+  :: ∀ item err m
+   . Eq item
+  => MonadAff m
+  => Milliseconds
+  -> (String -> m (RemoteData err (Array item)))
+  -> (item -> Object String)
+  -> Boolean
+  -> TA.Config item err m
 asyncConfig ms f toObject keepOpen =
   { insertable: TA.NotInsertable
   , filterType: TA.FuzzyMatch
@@ -214,20 +220,21 @@ asyncConfig ms f toObject keepOpen =
 ----------
 -- Render function
 
-type TAParentHTML o item err m
-  = H.ParentHTML (TA.Query o item err m) (TA.ChildQuery o (Fuzzy item)) TA.ChildSlot m
+type TAParentHTML pq ps item err m
+  = H.ComponentHTML (TA.Query pq ps item err m) (TA.ChildSlots pq ps (Fuzzy item) m) m
 
-renderTA :: ∀ o item err m
+renderTA :: ∀ pq ps item err m
   . MonadAff m
  => Eq item
- => Array (H.IProp HTMLinput (Select.Query o (Fuzzy item)))
- -> RenderContainer o item
+ => Array (HH.IProp HTMLinput (Select.Query pq () (Fuzzy item) m Unit))
+ -> RenderContainer pq item m
  -> (item -> HH.PlainHTML)
  -> TA.State item err m
- -> TAParentHTML o item err m
+ -> TAParentHTML pq ps item err m
 renderTA props renderContainer renderSelectionItem st =
   renderSlot $
     HH.slot
+      TA._select
       unit
       Select.component
       selectInput

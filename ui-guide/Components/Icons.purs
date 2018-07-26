@@ -21,40 +21,42 @@ type Input = Unit
 
 type Message = Void
 
-component :: ∀ m . H.Component HH.HTML Query Input Message m
+component :: ∀ m. H.Component HH.HTML Query Input Message m
 component =
   H.component
     { initialState: const unit
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
   where
-    eval :: Query ~> H.ComponentDSL State Query Message m
+    eval :: Query ~> H.HalogenM State Query () Message m
     eval = case _ of
       NoOp a -> pure a
 
     renderIcon :: ∀ p i. Tuple String (HH.HTML p i) -> HH.HTML p i
     renderIcon (Tuple name icon) =
       HH.div
-        [ HP.class_ $ HH.ClassName "mx-6" ]
+        [ css "mx-6" ]
         [ Documentation.callout_
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.p
                 ( [ HP.classes Format.subHeadingClasses ] <&>
-                  [ HP.class_ $ HH.ClassName "min-w-9 justify-center" ]
+                  [ css "min-w-9 justify-center" ]
                 )
                 [ icon ]
               ]
             ]
           ]
         , Format.caption
-          [ HP.class_ $ HH.ClassName "text-center" ]
+          [ css "text-center" ]
           [ HH.text name ]
         ]
 
-    render :: State -> H.ComponentHTML Query
+    render :: State -> H.ComponentHTML Query () m
     render _ =
       HH.div_
       [ Documentation.customBlock_

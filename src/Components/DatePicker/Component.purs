@@ -9,6 +9,7 @@ import Data.Either (either)
 import Data.Formatter.DateTime (formatDateTime)
 import Data.Maybe (Maybe(..), fromMaybe, maybe)
 import Data.String (trim)
+import Data.Symbol (SProxy(..))
 import Data.Tuple (Tuple(..), fst, snd)
 import Effect.Aff.Class (class MonadAff)
 import Effect.Now (nowDate)
@@ -25,7 +26,7 @@ import Ocelot.Components.DatePicker.Utils as Utils
 import Ocelot.Data.DateTime as ODT
 import Ocelot.HTML.Properties (css)
 import Select as Select
-import Select.Utils.Setters as Setters
+import Select.Setters as Setters
 import Web.Event.Event (preventDefault)
 import Web.UIEvent.KeyboardEvent (KeyboardEvent)
 import Web.UIEvent.KeyboardEvent as KE
@@ -63,11 +64,14 @@ data Direction
   = Prev
   | Next
 
-type ParentHTML m
-  = H.ParentHTML Query ChildQuery Input m
+type HTML m
+  = H.ComponentHTML Query (ChildSlots m) m
 
-type ChildSlot = Unit
-type ChildQuery = Select.Query Query CalendarItem
+type Slot = H.Slot Query Message
+type ChildSlots m =
+  ( select :: Select.Slot Query () CalendarItem m Unit )
+
+_select = SProxy :: SProxy "select"
 
 ----------
 -- Calendar Items
@@ -101,7 +105,7 @@ component :: ∀ m
   . MonadAff m
  => H.Component HH.HTML Query Input Message m
 component =
-  H.lifecycleParentComponent
+  H.component
     { initialState
     , render
     , eval
@@ -119,7 +123,7 @@ component =
 
     eval
       :: Query
-      ~> H.ParentDSL State Query ChildQuery Unit Message m
+      ~> H.HalogenM State Query (ChildSlots m) Message m
     eval = case _ of
       Search text a -> do
         today <- H.liftEffect nowDate
@@ -128,8 +132,8 @@ component =
           _  -> case Utils.guessDate today (Utils.MaxYears 5) text of
             Nothing -> pure a
             Just d  -> do
-              _ <- eval $ SetSelection (Just d) a
-              _ <- H.query unit $ Select.setVisibility Select.Off
+              _ <- H.fork $ eval $ SetSelection (Just d) unit
+              _ <- H.query _select unit $ Select.setVisibility Select.Off
               pure a
         H.raise $ Searched text
         pure a
@@ -141,7 +145,7 @@ component =
           -- We'll want to select the item here, set its status, and raise
           -- a message about its selection.
           H.modify_ _ { selection = Just date }
-          _ <- H.query unit $ Select.setVisibility Select.Off
+          _ <- H.query _select unit $ Select.setVisibility Select.Off
           H.raise $ SelectionChanged $ Just date
           eval $ Synchronize a
 
@@ -186,11 +190,11 @@ component =
         H.modify_ _ { targetDate = Tuple (year d') (month d') }
         eval $ Synchronize a
 
-      TriggerFocus a -> a <$ H.query unit Select.triggerFocus
+      TriggerFocus a -> a <$ H.query _select unit Select.triggerFocus
 
       Synchronize a -> do
         { targetDate: Tuple y m, selection } <- H.get
-        _ <- H.query unit
+        _ <- H.query _select unit
           $ Select.replaceItems
           $ generateCalendarRows selection y m
         _ <- case selection of
@@ -209,7 +213,7 @@ component =
         eval $ Synchronize a
 
       Key ev a -> do
-        _ <- H.query unit $ Select.setVisibility Select.On
+        _ <- H.query _select unit $ Select.setVisibility Select.On
         let preventIt = H.liftEffect $ preventDefault $ KE.toEvent ev
         case KE.code ev of
           "Enter" -> do
@@ -218,7 +222,7 @@ component =
             eval $ Search search a
           "Escape" -> do
             preventIt
-            _ <- H.query unit $ Select.setVisibility Select.Off
+            _ <- H.query _select unit $ Select.setVisibility Select.Off
             pure a
           otherwise -> pure a
 
@@ -228,9 +232,9 @@ component =
                     , selection = selection }
         pure a
 
-    render :: State -> H.ParentHTML Query ChildQuery Unit m
+    render :: State -> HTML m
     render st = HH.div_
-        [ HH.slot unit Select.component selectInput (HE.input HandleSelect) ]
+        [ HH.slot _select unit Select.component selectInput (HE.input HandleSelect) ]
       where
         selectInput =
           { initialSearch: Nothing

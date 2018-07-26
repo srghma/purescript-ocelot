@@ -2,12 +2,10 @@ module UIGuide.Components.DatePickers where
 
 import Prelude
 
-import Data.Either.Nested (Either2)
-import Data.Functor.Coproduct.Nested (Coproduct2)
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
-import Halogen.Component.ChildPath as CP
 import Halogen.HTML as HH
 import Ocelot.Block.Card as Card
 import Ocelot.Block.FormField as FormField
@@ -19,7 +17,6 @@ import Ocelot.HTML.Properties (css)
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
 
-
 ----------
 -- Component Types
 
@@ -28,13 +25,13 @@ type State = Unit
 data Query a
   = NoOp a
 
-----------
--- Child paths
+type ChildSlots =
+  ( datePicker :: DatePicker.Slot Int
+  , timePicker :: TimePicker.Slot Int
+  )
 
-type ChildSlot = Either2 Int Int
-type ChildQuery = Coproduct2
-  (DatePicker.Query)
-  (TimePicker.Query)
+_datePicker = SProxy :: SProxy "datePicker"
+_timePicker = SProxy :: SProxy "timePicker"
 
 ----------
 -- Component definition
@@ -43,21 +40,23 @@ component :: ∀ m
   . MonadAff m
  => H.Component HH.HTML Query Unit Void m
 component =
-  H.parentComponent
+  H.component
   { initialState: const unit
   , render
   , eval
   , receiver: const Nothing
+  , initializer: Nothing
+  , finalizer: Nothing
   }
   where
     render
       :: State
-      -> H.ParentHTML Query ChildQuery ChildSlot m
+      -> H.ComponentHTML Query ChildSlots m
     render _ = cnDocumentationBlocks
 
     eval
       :: Query
-      ~> H.ParentDSL State Query ChildQuery ChildSlot Void m
+      ~> H.HalogenM State Query ChildSlots Void m
     eval (NoOp next) = pure next
 
 
@@ -69,7 +68,7 @@ content = Backdrop.content [ css "flex" ]
 
 cnDocumentationBlocks :: ∀ m
   . MonadAff m
- => H.ParentHTML Query ChildQuery ChildSlot m
+ => H.ComponentHTML Query ChildSlots m
 cnDocumentationBlocks =
   HH.div_
     [ Documentation.block_
@@ -87,7 +86,7 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "start-date"
               }
-              [ HH.slot' CP.cp1 0 DatePicker.component
+              [ HH.slot _datePicker 0 DatePicker.component
                 { targetDate: Nothing
                 , selection: Nothing
                 }
@@ -105,7 +104,7 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "end-date"
               }
-              [ HH.slot' CP.cp1 1 DatePicker.component
+              [ HH.slot _datePicker 1 DatePicker.component
                 { targetDate: Nothing
                 , selection: Just $ unsafeMkDate 2019 1 1
                 }
@@ -130,7 +129,7 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "start-time"
               }
-              [ HH.slot' CP.cp2 0 TimePicker.component
+              [ HH.slot _timePicker 0 TimePicker.component
                 { selection: Nothing
                 }
                 (const Nothing)
@@ -147,7 +146,7 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "end-time"
               }
-              [ HH.slot' CP.cp2 1 TimePicker.component
+              [ HH.slot _timePicker 1 TimePicker.component
                 { selection: Just $ unsafeMkTime 0 0 0 0
                 }
                 (const Nothing)
@@ -175,7 +174,7 @@ cnDocumentationBlocks =
                 [ css "flex" ]
                 [ HH.div
                   [ css "flex-2 mr-4" ]
-                  [ HH.slot' CP.cp1 3 DatePicker.component
+                  [ HH.slot _datePicker 3 DatePicker.component
                     { targetDate: Nothing
                     , selection: Nothing
                     }
@@ -183,7 +182,7 @@ cnDocumentationBlocks =
                   ]
                 , HH.div
                   [ css "flex-1 mr-16" ]
-                  [ HH.slot' CP.cp2 3 TimePicker.component
+                  [ HH.slot _timePicker 3 TimePicker.component
                     { selection: Nothing
                     }
                     (const Nothing)
@@ -206,7 +205,7 @@ cnDocumentationBlocks =
                 [ css "flex" ]
                 [ HH.div
                   [ css "flex-2 mr-4" ]
-                  [ HH.slot' CP.cp1 4 DatePicker.component
+                  [ HH.slot _datePicker 4 DatePicker.component
                     { targetDate: Nothing
                     , selection: Just $ unsafeMkDate 2019 1 1
                     }
@@ -214,7 +213,7 @@ cnDocumentationBlocks =
                   ]
                 , HH.div
                   [ css "flex-1 mr-16" ]
-                  [ HH.slot' CP.cp2 3 TimePicker.component
+                  [ HH.slot _timePicker 3 TimePicker.component
                     { selection: Just $ unsafeMkTime 0 0 0 0
                     }
                     (const Nothing)

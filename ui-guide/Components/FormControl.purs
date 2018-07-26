@@ -2,20 +2,21 @@ module UIGuide.Components.FormControl where
 
 import Prelude
 
-import Ocelot.Block.Checkbox as Checkbox
-import Ocelot.Block.FormField as FormField
-import Ocelot.Block.Icon as Icon
-import Ocelot.Block.Radio as Radio
-import Ocelot.Block.Format as Format
+import Data.Maybe (Maybe(..))
 import Effect.Aff (Aff)
 import Effect.Console (log)
-import Web.UIEvent.MouseEvent (MouseEvent)
-import Data.Maybe (Maybe(..))
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
+import Ocelot.Block.Checkbox as Checkbox
+import Ocelot.Block.FormField as FormField
+import Ocelot.Block.Format as Format
+import Ocelot.Block.Icon as Icon
+import Ocelot.Block.Radio as Radio
+import Ocelot.HTML.Properties (css)
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
+import Web.UIEvent.MouseEvent (MouseEvent)
 
 type State =
   { formPanelIsOpen :: Boolean }
@@ -36,9 +37,11 @@ component =
     , render
     , eval
     , receiver: const Nothing
+    , initializer: Nothing
+    , finalizer: Nothing
     }
   where
-    eval :: Query ~> H.ComponentDSL State Query Message Aff
+    eval :: Query ~> H.HalogenM State Query () Message Aff
     eval = case _ of
       NoOp a -> do
         pure a
@@ -52,11 +55,9 @@ component =
         H.modify_ (_ { formPanelIsOpen = not state.formPanelIsOpen })
         pure a
 
-    render :: State -> H.ComponentHTML Query
+    render :: ∀ m. State -> H.ComponentHTML Query () m
     render state =
-      let css :: ∀ p i. String -> H.IProp ( "class" :: String | p ) i
-          css = HP.class_ <<< HH.ClassName
-          content = Backdrop.content [ css "flex" ]
+      let content = Backdrop.content [ css "flex" ]
           accessibilityCallout =
             Documentation.callout_
               [ Backdrop.backdropWhite

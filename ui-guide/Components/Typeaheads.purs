@@ -2,13 +2,11 @@ module UIGuide.Components.Typeaheads where
 
 import Prelude
 
-import Effect.Aff.Class (class MonadAff)
 import Data.Array (head, take)
-import Data.Either.Nested (Either2)
-import Data.Functor.Coproduct.Nested (Coproduct3)
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
+import Effect.Aff.Class (class MonadAff)
 import Halogen as H
-import Halogen.Component.ChildPath as CP
 import Halogen.HTML as HH
 import Halogen.HTML.Events as HE
 import Halogen.HTML.Properties as HP
@@ -16,13 +14,12 @@ import Network.RemoteData (RemoteData(..))
 import Ocelot.Block.Card as Card
 import Ocelot.Block.FormField as FormField
 import Ocelot.Block.Format as Format
-import Ocelot.Components.Typeahead as TACore
-import Ocelot.Components.Typeahead.Input as TA
+import Ocelot.Components.Typeahead as TA
+import Ocelot.Components.Typeahead.Input as TA.Input
 import Ocelot.HTML.Properties (css)
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
 import UIGuide.Utilities.Async as Async
-
 
 ----------
 -- Component Types
@@ -31,20 +28,20 @@ type State = Unit
 
 data Query a
   = NoOp a
-  | HandleTypeaheadUser Int (TACore.Message Query Async.User) a
-  | HandleTypeaheadLocation Int (TACore.Message Query Async.Location) a
+  | HandleTypeaheadUser Int (TA.Message Query Async.User) a
+  | HandleTypeaheadLocation Int (TA.Message Query Async.Location) a
   | Initialize a
 
 ----------
 -- Child paths
 
-type ChildSlot = Either2 Int Int
-type ChildQuery m =
-  Coproduct3
-    (TACore.Query Query Async.Location Async.Err m)
-    (TACore.Query Query Async.User Async.Err m)
-    Query
+type ChildSlots m =
+  ( location :: TA.Slot Query () Async.Location Async.Err m Int
+  , user :: TA.Slot Query () Async.User Async.Err m Int
+  )
 
+_location = SProxy :: SProxy "location"
+_user = SProxy :: SProxy "user"
 
 ----------
 -- Component definition
@@ -53,7 +50,7 @@ component :: ∀ m
   . MonadAff m
  => H.Component HH.HTML Query Unit Void m
 component =
-  H.lifecycleParentComponent
+  H.component
   { initialState: const unit
   , render
   , eval
@@ -66,12 +63,12 @@ component =
     -- out a bunch of selection variants in respective slots
     render
       :: State
-      -> H.ParentHTML Query (ChildQuery m) ChildSlot m
+      -> H.ComponentHTML Query (ChildSlots m) m
     render _ = cnDocumentationBlocks
 
     eval
       :: Query
-      ~> H.ParentDSL State Query (ChildQuery m) ChildSlot Void m
+      ~> H.HalogenM State Query (ChildSlots m) Void m
     eval (NoOp next) = pure next
 
 
@@ -80,64 +77,64 @@ component =
     eval (HandleTypeaheadLocation slot m next) = pure next
 
     eval (Initialize next) = do
-      _ <- H.queryAll' CP.cp1 $ H.action $ TACore.ReplaceItems Loading
-      _ <- H.queryAll' CP.cp2 $ H.action $ TACore.ReplaceItems Loading
+      _ <- H.queryAll _location $ H.action $ TA.ReplaceItems Loading
+      _ <- H.queryAll _user $ H.action $ TA.ReplaceItems Loading
       remoteLocations <- H.liftAff $ Async.loadFromSource Async.locations ""
       _ <- case remoteLocations of
         items@(Success _) -> do
-          _ <- H.queryAll' CP.cp1 $ H.action $ TACore.ReplaceItems items
+          _ <- H.queryAll _location $ H.action $ TA.ReplaceItems items
           pure unit
         otherwise -> pure unit
       remoteUsers <- H.liftAff $ Async.loadFromSource Async.users ""
       _ <- case remoteUsers of
         items@(Success _) -> do
-          _ <- H.queryAll' CP.cp2 $ H.action $ TACore.ReplaceItems items
+          _ <- H.queryAll _user $ H.action $ TA.ReplaceItems items
           pure unit
         otherwise -> pure unit
       selectedLocations <- H.liftAff $ Async.loadFromSource Async.locations "an"
       _ <- case selectedLocations of
         Success xs -> do
-          _ <- H.query' CP.cp1 1
+          _ <- H.query _location 1
             $ H.action
-            $ TACore.ReplaceSelections
-            $ TACore.One
+            $ TA.ReplaceSelections
+            $ TA.One
             $ head xs
-          _ <- H.query' CP.cp1 3
+          _ <- H.query _location 3
             $ H.action
-            $ TACore.ReplaceSelections
-            $ TACore.Many
+            $ TA.ReplaceSelections
+            $ TA.Many
             $ take 4 xs
-          _ <- H.query' CP.cp1 5
+          _ <- H.query _location 5
             $ H.action
-            $ TACore.ReplaceSelections
-            $ TACore.One
+            $ TA.ReplaceSelections
+            $ TA.One
             $ head xs
           pure unit
         otherwise -> pure unit
       selectedUsers <- H.liftAff $ Async.loadFromSource Async.users "an"
       _ <- case selectedUsers of
         Success xs -> do
-          _ <- H.query' CP.cp2 1
+          _ <- H.query _user 1
             $ H.action
-            $ TACore.ReplaceSelections
-            $ TACore.One
+            $ TA.ReplaceSelections
+            $ TA.One
             $ head xs
-          _ <- H.query' CP.cp2 3
+          _ <- H.query _user 3
             $ H.action
-            $ TACore.ReplaceSelections
-            $ TACore.Many
+            $ TA.ReplaceSelections
+            $ TA.Many
             $ take 4 xs
-          _ <- H.query' CP.cp2 5
+          _ <- H.query _user 5
             $ H.action
-            $ TACore.ReplaceSelections
-            $ TACore.Many
+            $ TA.ReplaceSelections
+            $ TA.Many
             $ take 4 xs
           pure next
         otherwise -> pure next
-      _ <- H.query' CP.cp1 6 $ H.action $ TACore.ReplaceItems $ Failure ""
-      _ <- H.query' CP.cp2 6 $ H.action $ TACore.ReplaceItems $ Failure ""
-      _ <- H.query' CP.cp1 7 $ H.action $ TACore.ReplaceItems Loading
-      _ <- H.query' CP.cp2 7 $ H.action $ TACore.ReplaceItems Loading
+      _ <- H.query _location 6 $ H.action $ TA.ReplaceItems $ Failure ""
+      _ <- H.query _user 6 $ H.action $ TA.ReplaceItems $ Failure ""
+      _ <- H.query _location 7 $ H.action $ TA.ReplaceItems Loading
+      _ <- H.query _user 7 $ H.action $ TA.ReplaceItems Loading
       pure next
 
 ----------
@@ -148,7 +145,7 @@ content = Backdrop.content [ css "flex" ]
 
 cnDocumentationBlocks :: ∀ m
   . MonadAff m
- => H.ParentHTML Query (ChildQuery m) ChildSlot m
+ => H.ComponentHTML Query (ChildSlots m) m
 cnDocumentationBlocks =
   HH.div_
     [ Documentation.block_
@@ -168,8 +165,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "location"
               }
-              [ HH.slot' CP.cp1 0 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _location 0 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "location"
                   ]
@@ -187,8 +184,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "location-hydrated"
               }
-              [ HH.slot' CP.cp1 1 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _location 1 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "location-hydrated"
                   ]
@@ -211,8 +208,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "user"
               }
-              [ HH.slot' CP.cp2 0 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _user 0 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search users..."
                   , HP.id_ "user"
                   ]
@@ -230,8 +227,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "user-hydrated"
               }
-              [ HH.slot' CP.cp2 1 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _user 1 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search users..."
                   , HP.id_ "user-hydrated"
                   ]
@@ -261,8 +258,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "locations"
               }
-              [ HH.slot' CP.cp1 2 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _location 2 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "locations"
                   ]
@@ -280,8 +277,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "locations"
               }
-              [ HH.slot' CP.cp1 3 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _location 3 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "locations"
                   ]
@@ -304,8 +301,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "users"
               }
-              [ HH.slot' CP.cp2 2 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _user 2 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search users..."
                   , HP.id_ "users"
                   ]
@@ -323,8 +320,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "users-hydrated"
               }
-              [ HH.slot' CP.cp2 3 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _user 3 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search users..."
                   , HP.id_ "users-hydrated"
                   ]
@@ -354,8 +351,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "disabled-locations-empty"
               }
-              [ HH.slot' CP.cp1 4 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _location 4 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "disabled-locations-empty"
                   , HP.disabled true
@@ -374,8 +371,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "disabled-locations-hydrated"
               }
-              [ HH.slot' CP.cp1 5 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _location 5 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "disabled-locations-hydrated"
                   , HP.disabled true
@@ -394,8 +391,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "error-locations"
               }
-              [ HH.slot' CP.cp1 6 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _location 6 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "error-locations"
                   ]
@@ -413,8 +410,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "loading-locations"
               }
-              [ HH.slot' CP.cp1 7 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _location 7 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search locations..."
                   , HP.id_ "loading-locations"
                   ]
@@ -437,8 +434,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "disabled-users-empty"
               }
-              [ HH.slot' CP.cp2 4 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _user 4 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search Users..."
                   , HP.id_ "disabled-users-empty"
                   , HP.disabled true
@@ -457,8 +454,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "disabled-users-hydrated"
               }
-              [ HH.slot' CP.cp2 5 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _user 5 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search Users..."
                   , HP.id_ "disabled-users-hydrated"
                   , HP.disabled true
@@ -477,8 +474,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "error-users"
               }
-              [ HH.slot' CP.cp2 6 TACore.component
-                (TA.defAsyncMulti
+              [ HH.slot _user 6 TA.component
+                (TA.Input.defAsyncMulti
                   [ HP.placeholder "Search users..."
                   , HP.id_ "error-users"
                   ]
@@ -496,8 +493,8 @@ cnDocumentationBlocks =
               , error: Nothing
               , inputId: "loading-users"
               }
-              [ HH.slot' CP.cp2 7 TACore.component
-                (TA.defAsyncSingle
+              [ HH.slot _user 7 TA.component
+                (TA.Input.defAsyncSingle
                   [ HP.placeholder "Search users..."
                   , HP.id_ "loading-users"
                   ]
