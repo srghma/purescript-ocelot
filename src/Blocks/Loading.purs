@@ -42,8 +42,7 @@ strokeWidth :: forall r i. Number -> IProp (strokeWidth :: String | r) i
 strokeWidth = attr (AttrName "stroke-width") <<< show
 
 strokeMiterLimt :: forall r i. Number -> IProp ("stroke-miterLimit" :: String | r) i
-viewBox x y w h = attr (AttrName "viewBox")
-(foldl showIntercalateSpace {init: true, val: ""} [x, y, w, h])
+strokeMiterLimt = attr (AttrName "stroke-width") <<< show
 
 spinner :: ∀ p i. Array (HH.IProp HTMLdiv i) -> HH.HTML p i
 spinner props =
