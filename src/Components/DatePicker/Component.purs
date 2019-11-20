@@ -66,7 +66,10 @@ data Direction
 type ParentHTML m
   = H.ParentHTML Query ChildQuery Input m
 
-type ChildSlot = Unit
+_select :: SProxy "select"
+_select = SProxy
+
+type ChildSlot = ( select :: H.Slot (Select.Query Query CalendarItem) Unit Unit)
 type ChildQuery = Select.Query Query CalendarItem
 
 ----------
@@ -101,7 +104,7 @@ component :: ∀ m
   . MonadAff m
  => H.Component HH.HTML Query Input Message m
 component =
-  H.lifecycleParentComponent
+  H.mkComponent
     { initialState
     , render
     , eval
@@ -227,7 +230,7 @@ component =
 
     render :: State -> H.ParentHTML Query ChildQuery Unit m
     render st = HH.div_
-        [ HH.slot unit Select.component selectInput (HE.input HandleSelect) ]
+        [ HH.slot _select unit Select.component selectInput (HE.input HandleSelect) ]
       where
         selectInput =
           { initialSearch: Nothing

@@ -9,7 +9,6 @@ import Data.Maybe (Maybe(..))
 import Data.Tuple (Tuple)
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
-import Halogen.Component.ChildPath as CP
 import Halogen.HTML as HH
 import Halogen.HTML.Events as HE
 import Ocelot.Component.DatePicker as DP
@@ -42,9 +41,16 @@ data Message
 
 type ParentHTML m = H.ParentHTML Query ChildQuery Input m
 
-type ChildSlot = Either2 Unit Unit
+_dateSlot :: SProxy "date"
+_dateSlot = SProxy
 
-type ChildQuery = Coproduct2 DP.Query TP.Query
+_timeSlot :: SProxy "time"
+_timeSlot = SProxy
+
+type ChildSlots =
+  ( date :: HH.Slot Unit DP.Query
+  , timeSlot :: HH.Slot Unit TP.Query
+  )
 
 component :: ∀ m. MonadAff m => H.Component HH.HTML Query Input Message m
 component =
@@ -104,7 +110,7 @@ component =
         [ css "flex" ]
         [ HH.div
           [ css "w-1/2 mr-2" ]
-          [ HH.slot' CP.cp1 unit DP.component
+          [ HH.slot' _dateSlot unit DP.component
             { targetDate
             , selection: date
             }
@@ -112,7 +118,7 @@ component =
           ]
         , HH.div
           [ css "flex-1" ]
-          [ HH.slot' CP.cp2 unit TP.component
+          [ HH.slot' _timeSlot unit TP.component
             { selection: time }
             (HE.input HandleTime)
           ]
