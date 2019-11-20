@@ -2,7 +2,7 @@ module Ocelot.Data.Tree where
 
 import Prelude
 
-import Data.Argonaut (class DecodeJson, decodeJson, (.?=), (.??))
+import Data.Argonaut (class DecodeJson, decodeJson, (.!=), (.:?))
 import Data.Function (on)
 import Data.Lens (Lens')
 import Data.Lens.Iso.Newtype (_Newtype)
