@@ -2,8 +2,7 @@
 Welcome to a Spago project!
 You can edit this file as you like.
 -}
-{ name =
-    "ocelot"
+{ name = "ocelot"
 , dependencies =
     [ "aff-promise"
     , "affjax"
@@ -20,6 +19,7 @@ You can edit this file as you like.
     , "html-parser-halogen"
     , "js-timers"
     , "numbers"
+    , "polyform"
     , "psci-support"
     , "read"
     , "remotedata"
@@ -28,8 +28,6 @@ You can edit this file as you like.
     , "test-unit"
     , "variant"
     ]
-, packages =
-    ./packages.dhall
-, sources =
-    [ "src/**/*.purs", "test/**/*.purs" ]
+, packages = ./packages.dhall
+, sources = [ "src/**/*.purs", "test/**/*.purs" ]
 }
