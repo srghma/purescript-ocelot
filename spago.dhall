@@ -23,8 +23,6 @@ You can edit this file as you like.
     , "psci-support"
     , "read"
     , "remotedata"
-    , "svg-parser"
-    , "svg-parser-halogen"
     , "test-unit"
     , "variant"
     ]
