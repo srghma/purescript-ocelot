@@ -6,6 +6,7 @@ node_modules
 
 # Generated files
 .psci
+.spago
 output
 generated-docs
 package-lock.json
