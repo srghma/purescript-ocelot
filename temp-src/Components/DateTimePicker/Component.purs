@@ -54,7 +54,7 @@ type ChildSlots =
 
 component :: ∀ m. MonadAff m => H.Component HH.HTML Query Input Message m
 component =
-  H.lifecycleParentComponent
+  H.mkComponent
     { initialState
     , render
     , eval
