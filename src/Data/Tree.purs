@@ -26,7 +26,7 @@ instance decodeJsonNode :: DecodeJson a => DecodeJson (Node a) where
   decodeJson json = do
     x <- decodeJson json
     value <- decodeJson json
-    children <- x .?? "children" .?= []
+    children <- x .:? "children" .!= []
     pure $ Node { value, children, expanded: false, selected: false }
 
 type ItemPath a = Array a
