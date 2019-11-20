@@ -120,27 +120,32 @@ dropdownButton button iprops html =
     ( [ css "font-medium flex items-center" ] <&> iprops )
     $ html <> [ Icon.caratDown [ css "ml-3 text-xs" ] ]
 
+-- Note: `H.HTML t i = HH.HTML t (i Unit)` in Halogen v4
+-- Not sure if changing H.HTML t (Select.Query o items)
+-- to `HH.HTML t (Select.Action item)` is correct. It compiles for now
+-- but check on this later
+-- TODO: ensure H.HTML -> HH.HTML change is correct
 dropdownContainer
   :: ∀ t o item
-   . Array (H.HTML t (Select.Query o item))
+   . Array (HH.HTML t (Select.Action item))
   -> (item -> HH.PlainHTML)
   -> (item -> Boolean)
   -> Array item
   -> Maybe Int
-  -> H.HTML t (Select.Query o item)
+  -> HH.HTML t (Select.Action item)
 dropdownContainer addlHTML renderItem selected items hix =
   HH.div
     ( Setters.setContainerProps [ HP.classes dropdownClasses ] )
     ( addlHTML <> renderItems )
   where
-    renderItems :: Array (H.HTML t (Select.Query o item))
+    renderItems :: Array (HH.HTML t (Select.Action item))
     renderItems =
       [ HH.ul
         [ HP.classes ulClasses ]
         $ mapWithIndex renderItem' items
       ]
 
-    renderItem' :: Int -> item -> H.HTML t (Select.Query o item)
+    renderItem' :: Int -> item -> HH.HTML t (Select.Action item)
     renderItem' idx item =
       dropdownItem HH.li
         ( Setters.setItemProps idx [] )
@@ -179,8 +184,8 @@ itemContainer
   :: ∀ t o item
    . Maybe Int
   -> Array HH.PlainHTML
-  -> Array (H.HTML t (Select.Query o item))
-  -> H.HTML t (Select.Query o item)
+  -> Array (HH.HTML t (Select.Action item))
+  -> HH.HTML t (Select.Action item)
 itemContainer highlightIndex itemsHTML addlHTML =
   HH.div
     ( Setters.setContainerProps [ HP.classes itemContainerClasses ] )
@@ -189,7 +194,7 @@ itemContainer highlightIndex itemsHTML addlHTML =
     hover :: Int -> Array HH.ClassName
     hover i = if highlightIndex == Just i then HH.ClassName <$> [ "bg-grey-lighter" ] else mempty
 
-    renderItems :: Array (H.HTML t (Select.Query o item))
+    renderItems :: Array (HH.HTML t (Select.Action item))
     renderItems =
       [ HH.ul
         [ HP.classes ulClasses ]
