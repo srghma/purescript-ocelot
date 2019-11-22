@@ -2,13 +2,14 @@ module Ocelot.Component.SearchBar where
 
 import Prelude
 
+import Data.Const (Const)
 import Data.Maybe (Maybe(..), fromMaybe)
 import Data.String (null)
 import Data.Time.Duration (Milliseconds(..))
 import Effect.Aff (Fiber, delay, forkAff, killFiber)
+import Effect.Aff.Class (class MonadAff)
 import Effect.Aff.AVar (AVar)
 import Effect.Aff.AVar as AVar
-import Effect.Aff.Class (class MonadAff)
 import Effect.Exception (error)
 import Halogen as H
 import Halogen.HTML as HH
@@ -19,7 +20,7 @@ import Ocelot.HTML.Properties (css)
 import Web.Event.Event (stopPropagation)
 import Web.UIEvent.MouseEvent as ME
 
-type State =
+type StateType =
   { query :: String
   , debouncer :: Maybe Debouncer
   , debounceTime :: Milliseconds
@@ -31,29 +32,30 @@ type Debouncer =
   , fiber :: Fiber Unit
   }
 
-data Query a
-  = Clear ME.MouseEvent a
-  | Search String a
-  | SetText String a
-  | Open a
-  | Blur a
+type Query = Const Void
+
+data ActionType
+  = Clear ME.MouseEvent
+  | Search String
+  | SetText String
+  | Open
+  | Blur
 
 type Input = { debounceTime :: Maybe Milliseconds }
-
 data Message
  = Searched String
+type SelfSlot index = H.Slot Query Message index
+type ChildSlots = ()
 
 component :: ∀ m. MonadAff m => H.Component HH.HTML Query Input Message m
 component =
-  H.component
-    { initialState
-    , eval
-    , render
-    , receiver: const Nothing
-    }
-
+    H.mkComponent
+      { initialState
+      , render
+      , eval: H.mkEval $ H.defaultEval { handleAction = handleAction }
+      }
   where
-    initialState :: Input -> State
+    initialState :: Input -> StateType
     initialState { debounceTime } =
       { query: ""
       , debouncer: Nothing
@@ -61,31 +63,28 @@ component =
       , open: false
       }
 
-    eval :: Query ~> H.ComponentDSL State Query Message m
-    eval = case _ of
-      Open a -> do
+    handleAction :: ActionType
+                 -> H.HalogenM StateType ActionType ChildSlots Message m Unit
+    handleAction = case _ of
+      Open -> do
         H.modify_ _ { open = true }
-        pure a
 
-      Blur a -> do
+      Blur -> do
         query <- H.gets _.query
         closeIfNullQuery query
-        pure a
 
-      Clear ev a -> do
+      Clear ev -> do
         H.liftEffect $ stopPropagation $ ME.toEvent ev
         H.modify_ _ { query = "", open = false }
         H.raise $ Searched ""
-        pure a
 
       -- For when there is an existing search performed, but you need to set the
       -- field's text anyway.
-      SetText str a -> do
+      SetText str -> do
         H.modify_ _ { query = str }
         openIfHasQuery str
-        pure a
 
-      Search str a -> do
+      Search str -> do
         H.modify_ _ { query = str }
         openIfHasQuery str
         st <- H.get
@@ -112,8 +111,6 @@ component =
 
             H.modify_ _ { debouncer = Just { var, fiber: fiber' }}
 
-        pure a
-
       where
       openIfHasQuery q =
         if null q then pure unit else H.modify_ _ { open = true }
@@ -121,11 +118,11 @@ component =
       closeIfNullQuery q =
         if null q then H.modify_ _ { open = false } else pure unit
 
-    render :: State -> H.ComponentHTML Query
+    render :: StateType -> H.ComponentHTML ActionType ChildSlots m
     render { query, open } =
       HH.label
         [ HP.classes $ containerClasses <> containerCondClasses
-        , HE.onClick (HE.input $ const Open)
+        , HE.onClick (\_ -> Just Open)
         ]
         [ HH.div
           [ HP.classes $ iconClasses <> iconCondClasses ]
@@ -133,16 +130,16 @@ component =
         , HH.div
           [ css "flex-grow" ]
           [ HH.input
-            [ HE.onValueInput (HE.input Search)
+            [ HE.onValueInput (Just <<< Search)
             , HP.placeholder "Search"
             , HP.value query
             , HP.classes $ inputClasses <> inputCondClasses
-            , HE.onBlur (HE.input $ const Blur)
+            , HE.onBlur (\_ -> Just Blur)
             , HP.tabIndex 0
             ]
           ]
         , HH.button
-          [ HE.onClick (\ev -> Just $ Clear ev unit)
+          [ HE.onClick (\ev -> Just $ Clear ev)
           , HP.type_ HP.ButtonButton
           , HP.classes $ buttonClasses <> buttonCondClasses
           ]
