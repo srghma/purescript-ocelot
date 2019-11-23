@@ -3,6 +3,7 @@ module Ocelot.Component.Tree where
 import Prelude
 
 import Data.Array as A
+import Data.Const (Const)
 import Data.Lens (class Wander, Lens', Optic', over, set)
 import Data.Lens.Index (ix) as Lens
 import Data.Lens.Record (prop)
@@ -29,11 +30,12 @@ type State item =
   , checkable :: item -> Boolean
   }
 
-data Query item a
-  = ToggleItem item (ItemPath item) IndexPath Boolean a
-  | SetItems (Array (Node item)) a
-  | ToggleChildren IndexPath a
-  | SetSelections (Array (ItemPath item)) a
+type Query = Const Void
+data Action item
+  = ToggleItem item (ItemPath item) IndexPath Boolean
+  | SetItems (Array (Node item))
+  | ToggleChildren IndexPath
+  | SetSelections (Array (ItemPath item))
 
 type Input item =
   { renderItem :: item -> HH.PlainHTML
@@ -44,19 +46,22 @@ data Message item
   = ItemAdded item (ItemPath item)
   | ItemRemoved item (ItemPath item)
 
+type SelfSlot item index = H.Slot Query (Message item) index
+type ChildSlots = ()
+
 component
   :: ∀ m item
    . MonadAff m
   => Eq item
-  => H.Component HH.HTML (Query item) (Input item) (Message item) m
+  => H.Component HH.HTML Query (Input item) (Message item) m
 component =
-  H.component
-    { initialState
-    , eval
-    , render
-    , receiver: const Nothing
-    }
+    H.mkComponent
+      { initialState
+      , render
+      , eval: H.mkEval $ H.defaultEval { handleAction = handleAction }
+      }
   where
+    initialState :: Input item -> State item
     initialState { renderItem, checkable } =
       { items: []
       , initial: []
@@ -64,9 +69,10 @@ component =
       , checkable
       }
 
-    eval :: Query item ~> H.ComponentDSL (State item) (Query item) (Message item) m
-    eval = case _ of
-      ToggleItem item itemPath indexPath checked a -> do
+    handleAction :: Action item
+                -> H.HalogenM (State item) (Action item) ChildSlots (Message item) m Unit
+    handleAction = case _ of
+      ToggleItem item itemPath indexPath checked -> do
         let pathLens = pathToLens indexPath _selected
         traverse_ (\l -> H.modify $ set l checked) pathLens
         if checked
@@ -74,26 +80,22 @@ component =
             H.raise (ItemAdded item itemPath)
           else
             H.raise (ItemRemoved item itemPath)
-        pure a
 
-      SetItems items a -> do
+      SetItems items -> do
         H.modify_ _ { items = items, initial = items }
-        pure a
 
-      ToggleChildren indexPath a -> do
+      ToggleChildren indexPath -> do
         let pathLens = pathToLens indexPath _expanded
         traverse_ (\l -> H.modify $ over l not) pathLens
-        pure a
 
-      SetSelections itemPaths a -> do
+      SetSelections itemPaths -> do
         { items, initial } <- H.get
         let paths = flip itemPathToIndexPath items <$> itemPaths
             updates = (\p r -> r { items = expandPath p r.items }) <$> paths
             updater = A.foldl (>>>) (_ { items = initial }) updates
         H.modify_ updater
-        pure a
 
-    render :: State item -> H.ComponentHTML (Query item)
+    render :: State item -> H.ComponentHTML (Action item) ChildSlots m
     render { items, renderItem, checkable } =
       HH.div_ $ A.concat $ A.mapWithIndex (renderRow 0 [] []) items
       where
@@ -105,7 +107,7 @@ component =
               [ css "inline-flex" ]
               [ Conditional.alt_ (checkable value)
                 [ Checkbox.checkbox_
-                  [ HE.onChecked $ HE.input $ ToggleItem value itemPath (A.cons ix indexPath)
+                  [ HE.onChecked (Just <<< ToggleItem value itemPath (A.cons ix indexPath))
                   , HP.checked selected
                   ]
                   [ HH.fromPlainHTML $ renderItem value ]
@@ -126,7 +128,7 @@ component =
 
         renderCarat children expanded path =
           carat
-            [ HE.onClick $ HE.input_ (ToggleChildren path)
+            [ HE.onClick $ \_ -> Just (ToggleChildren path)
             , css $ "mr-3 text-xl align-text-bottom cursor-pointer " <> visible
             ]
           where
