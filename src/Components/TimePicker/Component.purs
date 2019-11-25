@@ -2,6 +2,7 @@ module Ocelot.Component.TimePicker where
 
 import Prelude
 
+import Data.Array (index, length)
 import Data.FunctorWithIndex (mapWithIndex)
 import Data.Maybe (Maybe(..))
 import Data.String (trim)
@@ -9,48 +10,13 @@ import Data.Time (Time)
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
 import Halogen.HTML as HH
-import Halogen.HTML.Events as HE
 import Halogen.HTML.Properties as HP
 import Ocelot.Block.Input as Input
 import Ocelot.Block.Layout as Layout
-import Ocelot.Component.TimePicker.Utils as Utils
 import Ocelot.Data.DateTime as ODT
 import Ocelot.HTML.Properties (css)
 import Select as Select
 import Select.Setters as Setters
-import Web.Event.Event (preventDefault)
-import Web.UIEvent.KeyboardEvent (KeyboardEvent)
-import Web.UIEvent.KeyboardEvent as KE
-
-type State =
-  { selection :: Maybe Time
-  , search :: String
-  , timeUnits :: Array TimeUnit
-  }
-
-type Input =
-  { selection :: Maybe Time
-  }
-
-data Query a
-  = HandleSelect (Select.Message Query TimeUnit) a
-  | TriggerFocus a
-  | Synchronize a
-  | GetSelection (Maybe Time -> a)
-  | SetSelection (Maybe Time) a
-  | Key KeyboardEvent a
-  | Search String a
-
-data Message
-  = SelectionChanged (Maybe Time)
-  | VisibilityChanged Select.Visibility
-  | Searched String
-
-type ParentHTML m
-  = H.ParentHTML Query ChildQuery Input m
-
-type ChildSlot = Unit
-type ChildQuery = Select.Query Query TimeUnit
 
 ----------
 -- Time Units
@@ -66,6 +32,32 @@ data SelectedStatus
   = NotSelected
   | Selected
 
+-- data Query a
+--   = HandleSelect (Select.Message Query TimeUnit) a
+--   | TriggerFocus a
+--   | Synchronize a
+
+type Input = { selection :: Maybe Time }
+type AddedState =
+  ( selection :: Maybe Time
+  , timeUnits :: Array TimeUnit
+  )
+
+data Action
+  = Synchronize
+
+data Query a
+  = GetSelection (Maybe Time -> a)
+  | SetSelection (Maybe Time) a
+
+data Message
+  = SelectionChanged (Maybe Time)
+  | VisibilityChanged Select.Visibility
+  | Searched String
+
+type ChildSlots = ()
+type SelfSlot index = Select.Slot Query ChildSlots Message index
+
 dropdownClasses :: Array HH.ClassName
 dropdownClasses = HH.ClassName <$>
   [ "max-h-80"
@@ -79,115 +71,74 @@ dropdownClasses = HH.ClassName <$>
 
 component :: ∀ m
   . MonadAff m
- => H.Component HH.HTML Query Input Message m
-component =
-  H.lifecycleParentComponent
-    { initialState
-    , render
-    , eval
-    , receiver: const Nothing
-    , initializer: Nothing
-    , finalizer: Nothing
-    }
+ => H.Component HH.HTML (Select.Query Query ChildSlots) Input Message m
+component = Select.component mkInput $ Select.defaultSpec
+  { render = render
+  , handleAction = handleAction
+  , handleQuery = handleQuery
+  , handleEvent = handleEvent
+  }
   where
-    initialState :: Input -> State
-    initialState { selection } =
-      { selection
-      , search: ""
+    mkInput :: Input -> Select.Input AddedState
+    mkInput { selection } =
+      { inputType: Select.Text
+      , search: Nothing
+      , debounceTime: Nothing
+      , getItemCount: \state -> length state.timeUnits
+      -- labels from AddedState
       , timeUnits: generateTimes selection
+      , selection
       }
 
-    eval
-      :: Query
-      ~> H.ParentDSL State Query ChildQuery Unit Message m
-    eval = case _ of
-      Search text a -> do
-        _ <- case text of
-          "" -> eval $ SetSelection Nothing a
-          _  -> case Utils.guessTime text of
-            Nothing -> pure a
-            Just t  -> do
-              _ <- eval $ SetSelection (Just t) a
-              _ <- H.query unit $ Select.setVisibility Select.Off
-              pure a
-        H.raise $ Searched text
-        pure a
-
-      HandleSelect m a -> case m of
-        Select.Emit query -> eval query *> pure a
-
-        Select.Selected (TimeUnit _ _ time) -> do
-          -- We'll want to select the item here, set its status, and raise
-          -- a message about its selection.
-          H.modify_ _ { selection = Just time }
-          _ <- H.query unit $ Select.setVisibility Select.Off
-          H.raise $ SelectionChanged $ Just time
-          eval $ Synchronize a
-
-        Select.Searched text -> do
-          H.modify_ _ { search = text }
-          -- we don't actually want to match on search, we want to wait
-          -- until they hit ENTER and then we'll try to match their search
-          pure a
-
-        Select.VisibilityChanged visibility -> do
-          H.raise $ VisibilityChanged visibility
-          pure a
-
-      TriggerFocus a -> a <$ H.query unit Select.triggerFocus
-
-      Synchronize a -> do
+    handleAction :: Action -> H.HalogenM (Select.State AddedState) (Select.Action Action) ChildSlots Message m Unit
+    handleAction = case _ of
+      Synchronize -> do
         { selection } <- H.get
         let timeUnits = generateTimes selection
-        _ <- H.query unit $ Select.replaceItems timeUnits
         let update = case selection of
               Just time -> _ { search = ODT.formatTime time }
               otherwise -> identity
         H.modify_ (update <<< _ { timeUnits = timeUnits })
-        pure a
 
+    handleQuery :: forall a. Query a -> H.HalogenM (Select.State AddedState) (Select.Action Action) ChildSlots Message m (Maybe a)
+    handleQuery = case _ of
       GetSelection reply -> do
-        { selection } <- H.get
-        pure $ reply selection
+        selection <- H.gets _.selection
+        pure (Just (reply selection))
 
       SetSelection selection a -> do
         H.modify_ _ { selection = selection }
-        eval $ Synchronize a
+        pure (Just a)
 
-      Key ev a -> do
-        _ <- H.query unit $ Select.setVisibility Select.On
-        let preventIt = H.liftEffect $ preventDefault $ KE.toEvent ev
-        case KE.code ev of
-          "Enter"   -> do
-            preventIt
-            { search } <- H.get
-            eval $ Search search a
-          "Escape" -> do
-            preventIt
-            _ <- H.query unit $ Select.setVisibility Select.Off
-            pure a
-          otherwise -> pure a
+    handleEvent :: Select.Event
+                -> H.HalogenM (Select.State AddedState) (Select.Action Action) ChildSlots Message m Unit
+    handleEvent = case _ of
+      Select.Selected idx -> do
+        timeUnits <- H.gets _.timeUnits
+        case index timeUnits idx of
+          Nothing -> pure unit
+          Just (TimeUnit _ _ time) -> do
+            let justTime = Just time
+            -- We'll want to select the item here, set its status, and raise
+            -- a message about its selection.
+            H.modify_ _ { selection = justTime }
+            H.raise $ SelectionChanged $ justTime
+            handleAction Synchronize
+            -- pure Nothing
 
-    render :: State -> H.ParentHTML Query ChildQuery Unit m
-    render st = HH.div_
-        [ HH.slot unit Select.component selectInput (HE.input HandleSelect) ]
+      Select.VisibilityChanged visibility -> do
+        H.raise $ VisibilityChanged visibility
+
+      Select.Searched str -> do
+        pure unit
+
+    render :: Select.State AddedState -> H.ComponentHTML (Select.Action Action) ChildSlots m
+    render state =
+      HH.div_ [ renderSearch, renderSelect state ]
       where
-        selectInput =
-          { initialSearch: Nothing
-          , debounceTime: Nothing
-          , inputType: Select.TextInput
-          , items: st.timeUnits
-          , render: \s -> HH.div_ [ renderSearch, renderSelect s ]
-          }
-
         -- The page element that will hold focus, capture key events, etcetera
         renderSearch =
-          Input.input
-            ( Setters.setInputProps
-              [ HE.onKeyDown $ Just <<< Select.raise <<< H.action <<< Key
-              , HP.value st.search
-              ]
-            )
+          Input.input ( Setters.setInputProps [ HP.value state.search ] )
 
         renderSelect tst =
           HH.div
@@ -197,15 +148,15 @@ component =
               else [ ]
 
 -- The overall container for the time dropdown
-renderTimes :: Select.State TimeUnit -> Select.ComponentHTML Query TimeUnit
+renderTimes :: forall m. MonadAff m => Select.State AddedState -> H.ComponentHTML (Select.Action Action) ChildSlots m
 renderTimes tst =
   Layout.popover
     ( Setters.setContainerProps
       [ HP.classes dropdownClasses ]
     )
-    ( mapWithIndex renderItem tst.items )
+    ( mapWithIndex renderItem tst.timeUnits )
 
-renderItem :: Int -> TimeUnit -> Select.ComponentHTML Query TimeUnit
+renderItem :: forall m. MonadAff m => Int -> TimeUnit -> H.ComponentHTML (Select.Action Action) ChildSlots m
 renderItem index item =
   HH.div
   -- Here's the place to use info from the item to render it in different
