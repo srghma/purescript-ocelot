@@ -3,17 +3,16 @@ module Ocelot.Component.DateTimePicker where
 import Prelude
 
 import Data.DateTime (Date, DateTime(..), Month, Time, Year, date, time)
-import Data.Either.Nested (Either2)
-import Data.Functor.Coproduct.Nested (Coproduct2)
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Data.Tuple (Tuple)
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
 import Halogen.HTML as HH
-import Halogen.HTML.Events as HE
 import Ocelot.Component.DatePicker as DP
 import Ocelot.Component.TimePicker as TP
 import Ocelot.HTML.Properties (css)
+import Select as Select
 
 type State =
   { date :: Maybe Date
@@ -26,10 +25,12 @@ type Input =
   , targetDate :: Maybe (Tuple Year Month)
   }
 
+data Action
+  = HandleDate DP.Message
+  | HandleTime TP.Message
+
 data Query a
-  = HandleDate DP.Message a
-  | HandleTime TP.Message a
-  | GetSelection (Maybe DateTime -> a)
+  = GetSelection (Maybe DateTime -> a)
   | SetSelection (Maybe DateTime) a
   | SendDateQuery (DP.Query Unit) a
   | SendTimeQuery (TP.Query Unit) a
@@ -39,17 +40,15 @@ data Message
   | DateMessage DP.Message
   | TimeMessage TP.Message
 
-type ParentHTML m = H.ParentHTML Query ChildQuery Input m
-
-_dateSlot :: SProxy "date"
+_dateSlot :: SProxy "dateSlot"
 _dateSlot = SProxy
 
-_timeSlot :: SProxy "time"
+_timeSlot :: SProxy "timeSlot"
 _timeSlot = SProxy
 
 type ChildSlots =
-  ( date :: HH.Slot Unit DP.Query
-  , timeSlot :: HH.Slot Unit TP.Query
+  ( dateSlot :: DP.SelfSlot Unit
+  , timeSlot :: TP.SelfSlot Unit
   )
 
 component :: ∀ m. MonadAff m => H.Component HH.HTML Query Input Message m
@@ -57,10 +56,9 @@ component =
   H.mkComponent
     { initialState
     , render
-    , eval
-    , receiver: const Nothing
-    , initializer: Nothing
-    , finalizer: Nothing
+    , eval: H.mkEval $ H.defaultEval { handleAction = handleAction
+                                     , handleQuery = handleQuery
+                                     }
     }
   where
     initialState :: Input -> State
@@ -70,9 +68,10 @@ component =
       , targetDate
       }
 
-    eval :: Query ~> H.ParentDSL State Query ChildQuery ChildSlot Message m
-    eval = case _ of
-      HandleDate msg a -> a <$ case msg of
+    handleAction :: Action
+                 -> H.HalogenM State Action ChildSlots Message m Unit
+    handleAction = case _ of
+      HandleDate msg -> case msg of
         DP.SelectionChanged date' -> do
           time' <- H.gets _.time
           H.raise $ SelectionChanged (DateTime <$> date' <*> time')
@@ -80,7 +79,7 @@ component =
 
         _ -> H.raise $ DateMessage msg
 
-      HandleTime msg a -> a <$ case msg of
+      HandleTime msg -> case msg of
         TP.SelectionChanged time' -> do
           date' <- H.gets _.date
           H.raise $ SelectionChanged (DateTime <$> date' <*> time')
@@ -88,38 +87,46 @@ component =
 
         _ -> H.raise $ TimeMessage msg
 
+    handleQuery :: forall a.
+                   Query a
+                -> H.HalogenM State Action ChildSlots Message m (Maybe a)
+    handleQuery = case _ of
       GetSelection reply -> do
         { time, date } <- H.get
-        pure $ reply (DateTime <$> date <*> time)
+        pure $ Just $ reply (DateTime <$> date <*> time)
 
-      SetSelection dateTime a -> a <$ do
+      SetSelection dateTime a -> do
         let date' = date <$> dateTime
             time' = time <$> dateTime
-        void $ H.query' CP.cp1 unit $ DP.SetSelection date' a
-        void $ H.query' CP.cp2 unit $ TP.SetSelection time' a
+        void $ H.query _dateSlot unit $ Select.Query $ DP.SetSelection date' a
+        void $ H.query _timeSlot unit $ Select.Query $ TP.SetSelection time' a
         H.modify_ _ { date = date', time = time' }
+        pure (Just a)
 
-      SendDateQuery q a -> a <$ H.query' CP.cp1 unit q
+      SendDateQuery q a -> do
+        _ <- H.query _dateSlot unit $ Select.Query q
+        pure (Just a)
 
-      SendTimeQuery q a -> a <$ H.query' CP.cp2 unit q
+      SendTimeQuery q a -> do
+        _ <- H.query _timeSlot unit $ Select.Query q
+        pure (Just a)
 
-
-    render :: State -> H.ParentHTML Query ChildQuery ChildSlot m
+    render :: State -> H.ComponentHTML Action ChildSlots m
     render { date, time, targetDate } =
       HH.div
         [ css "flex" ]
         [ HH.div
           [ css "w-1/2 mr-2" ]
-          [ HH.slot' _dateSlot unit DP.component
+          [ HH.slot _dateSlot unit DP.component
             { targetDate
             , selection: date
             }
-            (HE.input HandleDate)
+            (Just <<< HandleDate)
           ]
         , HH.div
           [ css "flex-1" ]
-          [ HH.slot' _timeSlot unit TP.component
+          [ HH.slot _timeSlot unit TP.component
             { selection: time }
-            (HE.input HandleTime)
+            (Just <<< HandleTime)
           ]
         ]
