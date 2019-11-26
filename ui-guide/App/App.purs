@@ -9,7 +9,7 @@ module UIGuide.App
   , Page(..)
   , Group(..)
   , runStorybook
-  , module Halogen.Storybook.Proxy
+  -- , module Halogen.Storybook.Proxy
   ) where
 
 import Prelude
@@ -18,19 +18,20 @@ import Data.Const (Const)
 import Data.Functor (mapFlipped)
 import Data.Map as M
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Data.Tuple (Tuple(..))
 import Effect.Aff (Aff, launchAff_)
 import Global.Unsafe (unsafeDecodeURI, unsafeEncodeURI)
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
-import Halogen.Storybook.Proxy (ProxyS, proxy)
 import Halogen.VDom.Driver (runUI)
 import Ocelot.Block.Format as Format
 import Routing.Hash (hashes)
 import UIGuide.Block.Backdrop as Backdrop
 import Web.HTML.HTMLElement (HTMLElement)
 
+type Action = Void
 data Query a
   = RouteChange String a
 
@@ -40,7 +41,12 @@ type State m =
   , partitions :: M.Map Group (Stories m)
   }
 
-type StoryQuery = ProxyS (Const Void) Unit
+type StoryQuery = Const Void
+
+_child :: SProxy "child"
+_child = SProxy
+
+type ChildSlots = (child :: H.Slot StoryQuery Void String)
 
 type Stories m = M.Map String (Page m)
 
@@ -62,12 +68,6 @@ instance showGroup :: Show Group where
   show FormElements = "Form Elements"
   show Components = "Components"
 
-
-type Slot = String
-
-type HTML m = H.ParentHTML Query StoryQuery Slot m
-
-
 -- | Takes stories config and mount element, and renders the storybook.
 runStorybook
  :: Stories Aff
@@ -77,7 +77,7 @@ runStorybook
 runStorybook stories groups body = do
   app' <- runUI app { stories, groups } body
   void $ H.liftEffect $ hashes $ \_ next ->
-    launchAff_ $ app'.query (H.action $ RouteChange $ unsafeDecodeURI next)
+    launchAff_ $ app'.query $ H.tell $ RouteChange $ unsafeDecodeURI next
 
 type Input m =
   { stories :: Stories m
@@ -86,18 +86,17 @@ type Input m =
 
 app :: ∀ m. H.Component HH.HTML Query (Input m) Void m
 app =
-  H.parentComponent
+  H.mkComponent
     { initialState
     , render
-    , eval
-    , receiver: const Nothing
+    , eval: H.mkEval $ H.defaultEval { handleQuery = handleQuery }
     }
   where
 
   initialState :: Input m -> State m
   initialState i = { route: "", stories: i.stories, partitions: M.fromFoldable $ flip partitionByGroup i.stories <$> i.groups }
 
-  render :: State m -> HTML m
+  render :: State m -> H.ComponentHTML Action ChildSlots m
   render state =
     HH.body_
     [ HH.div
@@ -107,7 +106,7 @@ app =
       ]
     ]
 
-  renderContainer :: State m -> HTML m
+  renderContainer :: State m -> H.ComponentHTML Action ChildSlots m
   renderContainer state =
     HH.div
     [ HP.class_ $ HH.ClassName "md:ml-80" ]
@@ -126,14 +125,14 @@ app =
       [ renderSlot state ]
     ]
 
-  renderSlot :: State m -> HTML m
+  renderSlot :: State m -> H.ComponentHTML Action ChildSlots m
   renderSlot state =
     case M.lookup state.route state.stories of
-      Just { component } -> HH.slot state.route component unit absurd
+      Just { component } -> HH.slot _child state.route component unit absurd
       -- TODO: Fill in a home page HTML renderer
       _ -> HH.div_ []
 
-  renderSidebar :: State m -> HTML m
+  renderSidebar :: State m -> H.ComponentHTML Action ChildSlots m
   renderSidebar state =
     Backdrop.backdrop
     [ HP.id_ "sidebar"
@@ -176,7 +175,7 @@ app =
       ]
     ]
 
-  renderGroups :: State m -> Array (HTML m)
+  renderGroups :: State m -> Array (H.ComponentHTML Action ChildSlots m)
   renderGroups state =
     mapFlipped (M.toUnfoldable state.partitions) $ \(Tuple group stories) ->
       HH.div
@@ -186,7 +185,7 @@ app =
       , renderGroup state.route stories
       ]
 
-  renderGroup :: String -> Stories m -> HTML m
+  renderGroup :: String -> Stories m -> H.ComponentHTML Action ChildSlots m
   renderGroup route stories =
     HH.ul [ HP.class_ $ HH.ClassName "list-reset" ] $
       mapFlipped (M.toUnfoldable stories) $ \(Tuple href { anchor }) ->
@@ -202,14 +201,10 @@ app =
         ]
 
 
-  eval :: Query ~> H.ParentDSL (State m) Query StoryQuery Slot Void m
-  eval (RouteChange route next) = do
+  handleQuery :: forall a. Query a -> H.HalogenM (State m) Action ChildSlots Void m (Maybe a)
+  handleQuery (RouteChange route a) = do
     H.modify_ (\state -> state { route = route })
-    pure next
-
-
-
-
+    pure (Just a)
 
 ----------
 -- Helpers

@@ -10,22 +10,23 @@ import Data.Map (Map, fromFoldable)
 import Data.Tuple (Tuple(..))
 import Halogen as H
 import Halogen.HTML as HH
-import Halogen.Storybook.Proxy (ProxyS)
-import UIGuide.App (Group(..), proxy)
+import Halogen.Storybook.Proxy (proxy)
+import UIGuide.App (Group(..))
 import UIGuide.Component.Badge as Badge
 import UIGuide.Component.Button as Button
 import UIGuide.Component.DatePickers as DatePickers
-import UIGuide.Component.Dropdown as Dropdown
-import UIGuide.Component.ExpansionCards as ExpansionCards
+-- import UIGuide.Component.Dropdown as Dropdown
+-- import UIGuide.Component.ExpansionCards as ExpansionCards
 import UIGuide.Component.FormControl as FormControl
 import UIGuide.Component.Icons as Icons
-import UIGuide.Component.Modals as Modals
+-- import UIGuide.Component.Modals as Modals
 import UIGuide.Component.Table as Table
+import UIGuide.Component.Tab as Tab
 import UIGuide.Component.TextFields as TextFields
 import UIGuide.Component.Tray as Tray
 import UIGuide.Component.Dialogs as Dialogs
 import UIGuide.Component.Type as Type
-import UIGuide.Component.Typeaheads as Typeaheads
+-- import UIGuide.Component.Typeaheads as Typeaheads
 
 ----------
 -- Routes
@@ -38,32 +39,32 @@ groups =
 
 type RouteConfig =
   { anchor :: String
-  , component :: H.Component HH.HTML (ProxyS (Const Void) Unit) Unit Void Aff
+  , component :: H.Component HH.HTML (Const Void) Unit Void Aff
   , group :: Group
   }
 
 routes :: Map String RouteConfig
 routes = fromFoldable
-  -- [ Tuple "tabs"
-    -- { anchor: "Tabs"
-    -- , component: proxy Tab.component
-    -- , group: FormElements
-    -- }
-  [ Tuple "expandables"
-    { anchor: "Expansion Cards"
-    , component: proxy ExpansionCards.component
-    , group: Components
+  [ Tuple "tabs"
+    { anchor: "Tabs"
+    , component: proxy Tab.component
+    , group: FormElements
     }
+  -- [ Tuple "expandables"
+  --   { anchor: "Expansion Cards"
+  --   , component: proxy ExpansionCards.component
+  --   , group: Components
+  --   }
   , Tuple "textfields"
     { anchor: "Text Fields"
     , component: proxy TextFields.component
     , group: Components
     }
-  , Tuple "typeaheads"
-    { anchor: "Typeaheads"
-    , component: proxy Typeaheads.component
-    , group: Components
-    }
+  -- , Tuple "typeaheads"
+  --   { anchor: "Typeaheads"
+  --   , component: proxy Typeaheads.component
+  --   , group: Components
+  --   }
   , Tuple "date-pickers"
     { anchor: "Date Pickers"
     , component: proxy DatePickers.component
@@ -79,21 +80,21 @@ routes = fromFoldable
     , component: proxy FormControl.component
     , group: Components
     }
-  , Tuple "modals"
-    { anchor: "Modals"
-    , component: proxy Modals.component
-    , group: Components
-    }
+  -- , Tuple "modals"
+  --   { anchor: "Modals"
+  --   , component: proxy Modals.component
+  --   , group: Components
+  --   }
   , Tuple "tables"
     { anchor: "Tables"
     , component: proxy Table.component
     , group: Components
     }
-  , Tuple "dropdowns"
-    { anchor: "Dropdowns"
-    , component: proxy Dropdown.component
-    , group: Components
-    }
+  -- , Tuple "dropdowns"
+  --   { anchor: "Dropdowns"
+  --   , component: proxy Dropdown.component
+  --   , group: Components
+  --   }
   , Tuple "type"
     { anchor: "Type"
     , component: proxy Type.component
