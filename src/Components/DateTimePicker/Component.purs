@@ -50,6 +50,7 @@ type ChildSlots =
   ( dateSlot :: DP.SelfSlot Unit
   , timeSlot :: TP.SelfSlot Unit
   )
+type SelfSlot index = H.Slot Query Message index
 
 component :: ∀ m. MonadAff m => H.Component HH.HTML Query Input Message m
 component =
