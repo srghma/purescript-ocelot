@@ -2,6 +2,7 @@ module UIGuide.Component.Dialogs where
 
 import Prelude
 
+import Data.Const (Const)
 import Data.Generic.Rep (class Generic)
 import Data.Generic.Rep.Show (genericShow)
 import Data.Maybe (Maybe(..))
@@ -26,8 +27,11 @@ import UIGuide.Block.Documentation as Documentation
 type State =
   { toast :: Maybe ToastType }
 
-data Query a
-  = Toggle ToastType a
+data Action
+  = Toggle ToastType
+
+type Query = Const Void
+type ChildSlots = ()
 
 data ToastType
   = Success
@@ -47,22 +51,20 @@ component
    . MonadAff m
   => H.Component HH.HTML Query Input Message m
 component =
-  H.component
+  H.mkComponent
     { initialState: const { toast: Nothing }
     , render
-    , eval
-    , receiver: const Nothing
+    , eval: H.mkEval $ H.defaultEval { handleAction = handleAction }
     }
 
   where
-    eval :: Query ~> H.ComponentDSL State Query Message m
-    eval (Toggle t a) = do
+    handleAction :: Action -> H.HalogenM State Action ChildSlots Message m Unit
+    handleAction (Toggle t) = do
       st <- H.modify _ { toast = Just t }
       H.liftAff $ delay $ Milliseconds 3000.0
       H.modify_ _ { toast = Nothing }
-      pure a
 
-    render :: State -> H.ComponentHTML Query
+    render :: State -> H.ComponentHTML Action ChildSlots m
     render state =
       HH.div_
         [ Documentation.block_
@@ -102,7 +104,7 @@ component =
                 [ Format.caption_
                   [ HH.text "Success" ]
                 , Button.button
-                  [ HE.onClick $ HE.input_ $ Toggle Success ]
+                  [ HE.onClick $ const (Just $ Toggle Success) ]
                   [ HH.text "Success" ]
                 , Toast.toast
                   [ Toast.visible $ state.toast == Just Success ]
@@ -121,7 +123,7 @@ component =
                 [ Format.caption_
                   [ HH.text "Error" ]
                 , Button.button
-                  [ HE.onClick $ HE.input_ $ Toggle Error ]
+                  [ HE.onClick $ const (Just $ Toggle Error) ]
                   [ HH.text "Error" ]
                 , Toast.toast
                   [ Toast.visible $ state.toast == Just Error ]

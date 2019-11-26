@@ -2,7 +2,7 @@ module UIGuide.Component.Button where
 
 import Prelude
 
-import Data.Maybe (Maybe(..))
+import Data.Const (Const)
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -14,30 +14,27 @@ import UIGuide.Block.Documentation as Documentation
 
 type State = Unit
 
-data Query a = NoOp a
+type Action = Void
+type Query = Const Void
 
 type Input = Unit
 
 type Message = Void
 
+type ChildSlots = ()
 
 ----------
 -- HTML
 
 component :: ∀ m. H.Component HH.HTML Query Input Message m
 component =
-  H.component
+  H.mkComponent
     { initialState: const unit
     , render
-    , eval
-    , receiver: const Nothing
+    , eval: H.mkEval H.defaultEval
     }
   where
-    eval :: Query ~> H.ComponentDSL State Query Message m
-    eval = case _ of
-      NoOp a -> pure a
-
-    render :: State -> H.ComponentHTML Query
+    render :: State -> H.ComponentHTML Action ChildSlots m
     render _ =
       HH.div_
       [ Documentation.block_

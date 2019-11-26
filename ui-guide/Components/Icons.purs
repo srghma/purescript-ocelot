@@ -2,7 +2,7 @@ module UIGuide.Component.Icons where
 
 import Prelude
 
-import Data.Maybe (Maybe(..))
+import Data.Const (Const)
 import Data.Tuple (Tuple(..))
 import Halogen as H
 import Halogen.HTML as HH
@@ -15,7 +15,9 @@ import UIGuide.Block.Documentation as Documentation
 
 type State = Unit
 
-data Query a = NoOp a
+type Query = Const Void
+type Action = Void
+type ChildSlots = ()
 
 type Input = Unit
 
@@ -23,17 +25,12 @@ type Message = Void
 
 component :: ∀ m . H.Component HH.HTML Query Input Message m
 component =
-  H.component
+  H.mkComponent
     { initialState: const unit
     , render
-    , eval
-    , receiver: const Nothing
+    , eval: H.mkEval $ H.defaultEval
     }
   where
-    eval :: Query ~> H.ComponentDSL State Query Message m
-    eval = case _ of
-      NoOp a -> pure a
-
     renderIcon :: ∀ p i. Tuple String (HH.HTML p i) -> HH.HTML p i
     renderIcon (Tuple name icon) =
       HH.div
@@ -54,7 +51,7 @@ component =
           [ HH.text name ]
         ]
 
-    render :: State -> H.ComponentHTML Query
+    render :: State -> H.ComponentHTML Action ChildSlots m
     render _ =
       HH.div_
       [ Documentation.customBlock_
