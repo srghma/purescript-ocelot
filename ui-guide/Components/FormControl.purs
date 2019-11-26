@@ -41,7 +41,7 @@ component =
     , eval: H.mkEval $ H.defaultEval { handleQuery = handleQuery }
     }
   where
-    handleQuery :: forall a. Query a -> H.ComponentHTML State Query Message Aff (Maybe a)
+    handleQuery :: forall a. Query a -> H.HalogenM State Action ChildSlots Message Aff (Maybe a)
     handleQuery = case _ of
       NoOp a -> do
         pure $ Just a

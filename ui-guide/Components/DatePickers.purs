@@ -2,10 +2,10 @@ module UIGuide.Component.DatePickers where
 
 import Prelude
 
+import Data.Const (Const)
 import Data.DateTime (DateTime(..))
-import Data.Either.Nested (Either3)
-import Data.Functor.Coproduct.Nested (Coproduct3)
 import Data.Maybe (Maybe(..))
+import Data.Symbol (SProxy(..))
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
 import Halogen.HTML as HH
@@ -27,6 +27,7 @@ import UIGuide.Block.Documentation as Documentation
 type State = Unit
 
 type Query = Const Void
+type Action = Maybe Unit
 
 ----------
 -- Child paths
