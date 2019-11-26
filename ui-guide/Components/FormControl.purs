@@ -6,9 +6,8 @@ import Data.Maybe (Maybe(..))
 import Effect.Aff (Aff)
 import Effect.Console (log)
 import Halogen as H
-import Halogen as H
 import Halogen.HTML as HH
-import Halogen.HTML.Properties (IProp(..))
+import Halogen.HTML.Properties (IProp)
 import Halogen.HTML.Properties as HP
 import Ocelot.Block.Checkbox as Checkbox
 import Ocelot.Block.FormField as FormField
