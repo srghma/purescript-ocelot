@@ -16,6 +16,7 @@ You can edit this file as you like.
     , "fuzzy"
     , "halogen"
     , "halogen-select"
+    , "halogen-storybook"
     , "html-parser-halogen"
     , "js-timers"
     , "numbers"
@@ -23,6 +24,7 @@ You can edit this file as you like.
     , "psci-support"
     , "read"
     , "remotedata"
+    , "routing"
     , "test-unit"
     , "variant"
     ]
