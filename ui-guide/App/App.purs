@@ -14,26 +14,22 @@ module UIGuide.App
 
 import Prelude
 
-import Effect.Aff (Aff, launchAff_)
-
-import Data.Tuple (Tuple(..))
 import Data.Const (Const)
 import Data.Functor (mapFlipped)
-import Data.Maybe (Maybe(..))
 import Data.Map as M
-import Web.HTML.HTMLElement (HTMLElement)
-
+import Data.Maybe (Maybe(..))
+import Data.Tuple (Tuple(..))
+import Effect.Aff (Aff, launchAff_)
 import Global.Unsafe (unsafeDecodeURI, unsafeEncodeURI)
-
 import Halogen as H
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Halogen.Storybook.Proxy (ProxyS, proxy)
 import Halogen.VDom.Driver (runUI)
 import Ocelot.Block.Format as Format
-import UIGuide.Block.Backdrop as Backdrop
-
 import Routing.Hash (hashes)
+import UIGuide.Block.Backdrop as Backdrop
+import Web.HTML.HTMLElement (HTMLElement)
 
 data Query a
   = RouteChange String a
