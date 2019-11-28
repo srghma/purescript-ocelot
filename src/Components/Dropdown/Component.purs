@@ -6,9 +6,7 @@ import Data.Array (index, length)
 import Data.Maybe (Maybe(..))
 import Effect.Aff.Class (class MonadAff)
 import Halogen as H
-import Halogen.HTML as HH
 import Select as S
-import Select.Setters as SS
 
 type AddedState item =
   ( selectedItem :: Maybe item
