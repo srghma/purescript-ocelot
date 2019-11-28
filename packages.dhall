@@ -129,8 +129,8 @@ let additions =
       [ "halogen"
       , "record"
       ]
-    , repo = "https://github.com/citizennet/purescript-halogen-select.git"
-    , version = "v5.0.0-rc.3"
+    , repo = "https://github.com/jordanmartinez/purescript-halogen-select.git"
+    , version = "addHelperTypes"
     }
   , halogen-storybook =
     { dependencies =
