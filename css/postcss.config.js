@@ -1,7 +1,7 @@
 module.exports = scoped => {
   if (scoped) {
     return [
-      require('tailwindcss')('./src/tailwind.js'),
+      require('tailwindcss')('./tailwind.config.js'),
       require('postcss-prefix-selector')({
         prefix: '.ocelot-scoped',
         transform(prefix, selector, prefixedSelector) {
@@ -16,7 +16,8 @@ module.exports = scoped => {
       }),
     ]
   }
+
   return [
-    require('tailwindcss')('./src/tailwind.js'),
+    require('tailwindcss')('./tailwind.config.js'),
   ]
 }

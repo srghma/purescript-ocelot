@@ -21,7 +21,6 @@ menuClasses = HH.ClassName <$>
   [ "bg-white"
   , "text-black-20"
   , "border"
-  , "list-reset"
   , "rounded"
   , "shadow"
   , "absolute"
@@ -80,7 +79,7 @@ itemContainerClasses = baseClasses <>
   )
 
 ulClasses :: Array HH.ClassName
-ulClasses = HH.ClassName <$> [ "list-reset" ]
+ulClasses = HH.ClassName <$> []
 
 liClasses :: Array HH.ClassName
 liClasses = HH.ClassName <$>

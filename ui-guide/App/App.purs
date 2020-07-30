@@ -188,7 +188,7 @@ app =
 
   renderGroup :: String -> Stories m -> HTML m
   renderGroup route stories =
-    HH.ul [ HP.class_ $ HH.ClassName "list-reset" ] $
+    HH.ul [ ] $
       mapFlipped (M.toUnfoldable stories) $ \(Tuple href { anchor }) ->
         HH.li
         [ HP.class_ $ HH.ClassName "mb-3" ]
