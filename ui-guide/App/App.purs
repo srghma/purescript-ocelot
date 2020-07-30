@@ -114,7 +114,7 @@ app =
     [ HH.div
       [ HP.class_ $ HH.ClassName "fixed w-full" ]
       [ HH.div
-        [ HP.class_ $ HH.ClassName "pin-t bg-white md:hidden relative border-b border-grey-light h-12 py-8 flex items-center" ]
+        [ HP.class_ $ HH.ClassName "top-0 bg-white md:hidden relative border-b border-grey-light h-12 py-8 flex items-center" ]
         [ HH.a
           [ HP.class_ $ HH.ClassName "mx-auto inline-flex items-center"
           , HP.href "" ]
@@ -141,8 +141,8 @@ app =
       ( HH.ClassName <$>
         [ "hidden"
         , "fixed"
-        , "pin-y"
-        , "pin-l"
+        , "inset-y-0"
+        , "left-0"
         , "overflow-y-auto"
         , "md:overflow-visible"
         , "scrolling-touch"

@@ -96,7 +96,7 @@ renderMulti iprops renderItem renderContainer st =
     [ if (not disabled && not Array.null st.selected)
         then
           HH.a
-            [ css "absolute -mt-7 pin-r underline text-grey-70 cursor-pointer"
+            [ css "absolute -mt-7 right-0 underline text-grey-70 cursor-pointer"
             , HE.onClick $ const <<< Just <<< S.Action $ TA.RemoveAll
             ]
             [ HH.text "Remove All" ]
