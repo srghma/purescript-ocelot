@@ -8,17 +8,12 @@
     "webpack"
   ],
   "scripts": {
-    "build-all": "yarn run build-dev && yarn run build-prod",
-    "build-dev": "yarn run build-dev-global && yarn run build-dev-scoped",
-    "build-dev-global": "yarn run webpack",
-    "build-dev-scoped": "yarn run webpack --env=scoped",
-    "build-prod": "yarn run build-prod-global && yarn run build-prod-scoped",
-    "build-prod-global": "yarn run webpack --env=prod",
-    "build-prod-scoped": "yarn run webpack --env=prod,scoped"
+    "build-all": "tailwindcss build ./src/index.css -o ../dist/cn-tailwind.css"
   },
   "devDependencies": {
+    "autoprefixer": "^9.8.6",
     "cross-env": "^7.0.2",
-    "css-loader": "4.1.1",
+    "css-loader": "4.2.0",
     "extract-text-webpack-plugin": "^4.0.0-beta.0",
     "glob-all": "^3.2.1",
     "optimize-css-assets-webpack-plugin": "^5.0.3",
@@ -27,10 +22,10 @@
     "postcss-prefix-selector": "^1.7.2",
     "purgecss-webpack-plugin": "^2.3.0",
     "style-loader": "^1.2.1",
-    "tailwindcss": "1.6.0",
+    "tailwindcss": "1.6.2",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
-    "webpack-merge": "^5.0.9",
+    "webpack-merge": "^5.1.1",
     "yarn": "^1.22.4"
   }
 }
