@@ -6,6275 +6,6275 @@ module TailwindClasses.Xl (_m_1, _m_10, _m_12, _m_120, _m_14, _m_16, _m_160, _m_
 import Halogen.HTML (ClassName(..))
 
 _m_1 :: ClassName
-_m_1 = ClassName "xl\:-m-1"
+_m_1 = ClassName "xl\\:-m-1"
 
 _m_10 :: ClassName
-_m_10 = ClassName "xl\:-m-10"
+_m_10 = ClassName "xl\\:-m-10"
 
 _m_12 :: ClassName
-_m_12 = ClassName "xl\:-m-12"
+_m_12 = ClassName "xl\\:-m-12"
 
 _m_120 :: ClassName
-_m_120 = ClassName "xl\:-m-120"
+_m_120 = ClassName "xl\\:-m-120"
 
 _m_14 :: ClassName
-_m_14 = ClassName "xl\:-m-14"
+_m_14 = ClassName "xl\\:-m-14"
 
 _m_16 :: ClassName
-_m_16 = ClassName "xl\:-m-16"
+_m_16 = ClassName "xl\\:-m-16"
 
 _m_160 :: ClassName
-_m_160 = ClassName "xl\:-m-160"
+_m_160 = ClassName "xl\\:-m-160"
 
 _m_2 :: ClassName
-_m_2 = ClassName "xl\:-m-2"
+_m_2 = ClassName "xl\\:-m-2"
 
 _m_20 :: ClassName
-_m_20 = ClassName "xl\:-m-20"
+_m_20 = ClassName "xl\\:-m-20"
 
 _m_24 :: ClassName
-_m_24 = ClassName "xl\:-m-24"
+_m_24 = ClassName "xl\\:-m-24"
 
 _m_3 :: ClassName
-_m_3 = ClassName "xl\:-m-3"
+_m_3 = ClassName "xl\\:-m-3"
 
 _m_30 :: ClassName
-_m_30 = ClassName "xl\:-m-30"
+_m_30 = ClassName "xl\\:-m-30"
 
 _m_32 :: ClassName
-_m_32 = ClassName "xl\:-m-32"
+_m_32 = ClassName "xl\\:-m-32"
 
 _m_4 :: ClassName
-_m_4 = ClassName "xl\:-m-4"
+_m_4 = ClassName "xl\\:-m-4"
 
 _m_40 :: ClassName
-_m_40 = ClassName "xl\:-m-40"
+_m_40 = ClassName "xl\\:-m-40"
 
 _m_48 :: ClassName
-_m_48 = ClassName "xl\:-m-48"
+_m_48 = ClassName "xl\\:-m-48"
 
 _m_5 :: ClassName
-_m_5 = ClassName "xl\:-m-5"
+_m_5 = ClassName "xl\\:-m-5"
 
 _m_50 :: ClassName
-_m_50 = ClassName "xl\:-m-50"
+_m_50 = ClassName "xl\\:-m-50"
 
 _m_56 :: ClassName
-_m_56 = ClassName "xl\:-m-56"
+_m_56 = ClassName "xl\\:-m-56"
 
 _m_6 :: ClassName
-_m_6 = ClassName "xl\:-m-6"
+_m_6 = ClassName "xl\\:-m-6"
 
 _m_60 :: ClassName
-_m_60 = ClassName "xl\:-m-60"
+_m_60 = ClassName "xl\\:-m-60"
 
 _m_64 :: ClassName
-_m_64 = ClassName "xl\:-m-64"
+_m_64 = ClassName "xl\\:-m-64"
 
 _m_7 :: ClassName
-_m_7 = ClassName "xl\:-m-7"
+_m_7 = ClassName "xl\\:-m-7"
 
 _m_8 :: ClassName
-_m_8 = ClassName "xl\:-m-8"
+_m_8 = ClassName "xl\\:-m-8"
 
 _m_80 :: ClassName
-_m_80 = ClassName "xl\:-m-80"
+_m_80 = ClassName "xl\\:-m-80"
 
 _m_9 :: ClassName
-_m_9 = ClassName "xl\:-m-9"
+_m_9 = ClassName "xl\\:-m-9"
 
 _m_90 :: ClassName
-_m_90 = ClassName "xl\:-m-90"
+_m_90 = ClassName "xl\\:-m-90"
 
 _m_px :: ClassName
-_m_px = ClassName "xl\:-m-px"
+_m_px = ClassName "xl\\:-m-px"
 
 _mb_1 :: ClassName
-_mb_1 = ClassName "xl\:-mb-1"
+_mb_1 = ClassName "xl\\:-mb-1"
 
 _mb_10 :: ClassName
-_mb_10 = ClassName "xl\:-mb-10"
+_mb_10 = ClassName "xl\\:-mb-10"
 
 _mb_12 :: ClassName
-_mb_12 = ClassName "xl\:-mb-12"
+_mb_12 = ClassName "xl\\:-mb-12"
 
 _mb_120 :: ClassName
-_mb_120 = ClassName "xl\:-mb-120"
+_mb_120 = ClassName "xl\\:-mb-120"
 
 _mb_14 :: ClassName
-_mb_14 = ClassName "xl\:-mb-14"
+_mb_14 = ClassName "xl\\:-mb-14"
 
 _mb_16 :: ClassName
-_mb_16 = ClassName "xl\:-mb-16"
+_mb_16 = ClassName "xl\\:-mb-16"
 
 _mb_160 :: ClassName
-_mb_160 = ClassName "xl\:-mb-160"
+_mb_160 = ClassName "xl\\:-mb-160"
 
 _mb_2 :: ClassName
-_mb_2 = ClassName "xl\:-mb-2"
+_mb_2 = ClassName "xl\\:-mb-2"
 
 _mb_20 :: ClassName
-_mb_20 = ClassName "xl\:-mb-20"
+_mb_20 = ClassName "xl\\:-mb-20"
 
 _mb_24 :: ClassName
-_mb_24 = ClassName "xl\:-mb-24"
+_mb_24 = ClassName "xl\\:-mb-24"
 
 _mb_3 :: ClassName
-_mb_3 = ClassName "xl\:-mb-3"
+_mb_3 = ClassName "xl\\:-mb-3"
 
 _mb_30 :: ClassName
-_mb_30 = ClassName "xl\:-mb-30"
+_mb_30 = ClassName "xl\\:-mb-30"
 
 _mb_32 :: ClassName
-_mb_32 = ClassName "xl\:-mb-32"
+_mb_32 = ClassName "xl\\:-mb-32"
 
 _mb_4 :: ClassName
-_mb_4 = ClassName "xl\:-mb-4"
+_mb_4 = ClassName "xl\\:-mb-4"
 
 _mb_40 :: ClassName
-_mb_40 = ClassName "xl\:-mb-40"
+_mb_40 = ClassName "xl\\:-mb-40"
 
 _mb_48 :: ClassName
-_mb_48 = ClassName "xl\:-mb-48"
+_mb_48 = ClassName "xl\\:-mb-48"
 
 _mb_5 :: ClassName
-_mb_5 = ClassName "xl\:-mb-5"
+_mb_5 = ClassName "xl\\:-mb-5"
 
 _mb_50 :: ClassName
-_mb_50 = ClassName "xl\:-mb-50"
+_mb_50 = ClassName "xl\\:-mb-50"
 
 _mb_56 :: ClassName
-_mb_56 = ClassName "xl\:-mb-56"
+_mb_56 = ClassName "xl\\:-mb-56"
 
 _mb_6 :: ClassName
-_mb_6 = ClassName "xl\:-mb-6"
+_mb_6 = ClassName "xl\\:-mb-6"
 
 _mb_60 :: ClassName
-_mb_60 = ClassName "xl\:-mb-60"
+_mb_60 = ClassName "xl\\:-mb-60"
 
 _mb_64 :: ClassName
-_mb_64 = ClassName "xl\:-mb-64"
+_mb_64 = ClassName "xl\\:-mb-64"
 
 _mb_7 :: ClassName
-_mb_7 = ClassName "xl\:-mb-7"
+_mb_7 = ClassName "xl\\:-mb-7"
 
 _mb_8 :: ClassName
-_mb_8 = ClassName "xl\:-mb-8"
+_mb_8 = ClassName "xl\\:-mb-8"
 
 _mb_80 :: ClassName
-_mb_80 = ClassName "xl\:-mb-80"
+_mb_80 = ClassName "xl\\:-mb-80"
 
 _mb_9 :: ClassName
-_mb_9 = ClassName "xl\:-mb-9"
+_mb_9 = ClassName "xl\\:-mb-9"
 
 _mb_90 :: ClassName
-_mb_90 = ClassName "xl\:-mb-90"
+_mb_90 = ClassName "xl\\:-mb-90"
 
 _mb_px :: ClassName
-_mb_px = ClassName "xl\:-mb-px"
+_mb_px = ClassName "xl\\:-mb-px"
 
 _ml_1 :: ClassName
-_ml_1 = ClassName "xl\:-ml-1"
+_ml_1 = ClassName "xl\\:-ml-1"
 
 _ml_10 :: ClassName
-_ml_10 = ClassName "xl\:-ml-10"
+_ml_10 = ClassName "xl\\:-ml-10"
 
 _ml_12 :: ClassName
-_ml_12 = ClassName "xl\:-ml-12"
+_ml_12 = ClassName "xl\\:-ml-12"
 
 _ml_120 :: ClassName
-_ml_120 = ClassName "xl\:-ml-120"
+_ml_120 = ClassName "xl\\:-ml-120"
 
 _ml_14 :: ClassName
-_ml_14 = ClassName "xl\:-ml-14"
+_ml_14 = ClassName "xl\\:-ml-14"
 
 _ml_16 :: ClassName
-_ml_16 = ClassName "xl\:-ml-16"
+_ml_16 = ClassName "xl\\:-ml-16"
 
 _ml_160 :: ClassName
-_ml_160 = ClassName "xl\:-ml-160"
+_ml_160 = ClassName "xl\\:-ml-160"
 
 _ml_2 :: ClassName
-_ml_2 = ClassName "xl\:-ml-2"
+_ml_2 = ClassName "xl\\:-ml-2"
 
 _ml_20 :: ClassName
-_ml_20 = ClassName "xl\:-ml-20"
+_ml_20 = ClassName "xl\\:-ml-20"
 
 _ml_24 :: ClassName
-_ml_24 = ClassName "xl\:-ml-24"
+_ml_24 = ClassName "xl\\:-ml-24"
 
 _ml_3 :: ClassName
-_ml_3 = ClassName "xl\:-ml-3"
+_ml_3 = ClassName "xl\\:-ml-3"
 
 _ml_30 :: ClassName
-_ml_30 = ClassName "xl\:-ml-30"
+_ml_30 = ClassName "xl\\:-ml-30"
 
 _ml_32 :: ClassName
-_ml_32 = ClassName "xl\:-ml-32"
+_ml_32 = ClassName "xl\\:-ml-32"
 
 _ml_4 :: ClassName
-_ml_4 = ClassName "xl\:-ml-4"
+_ml_4 = ClassName "xl\\:-ml-4"
 
 _ml_40 :: ClassName
-_ml_40 = ClassName "xl\:-ml-40"
+_ml_40 = ClassName "xl\\:-ml-40"
 
 _ml_48 :: ClassName
-_ml_48 = ClassName "xl\:-ml-48"
+_ml_48 = ClassName "xl\\:-ml-48"
 
 _ml_5 :: ClassName
-_ml_5 = ClassName "xl\:-ml-5"
+_ml_5 = ClassName "xl\\:-ml-5"
 
 _ml_50 :: ClassName
-_ml_50 = ClassName "xl\:-ml-50"
+_ml_50 = ClassName "xl\\:-ml-50"
 
 _ml_56 :: ClassName
-_ml_56 = ClassName "xl\:-ml-56"
+_ml_56 = ClassName "xl\\:-ml-56"
 
 _ml_6 :: ClassName
-_ml_6 = ClassName "xl\:-ml-6"
+_ml_6 = ClassName "xl\\:-ml-6"
 
 _ml_60 :: ClassName
-_ml_60 = ClassName "xl\:-ml-60"
+_ml_60 = ClassName "xl\\:-ml-60"
 
 _ml_64 :: ClassName
-_ml_64 = ClassName "xl\:-ml-64"
+_ml_64 = ClassName "xl\\:-ml-64"
 
 _ml_7 :: ClassName
-_ml_7 = ClassName "xl\:-ml-7"
+_ml_7 = ClassName "xl\\:-ml-7"
 
 _ml_8 :: ClassName
-_ml_8 = ClassName "xl\:-ml-8"
+_ml_8 = ClassName "xl\\:-ml-8"
 
 _ml_80 :: ClassName
-_ml_80 = ClassName "xl\:-ml-80"
+_ml_80 = ClassName "xl\\:-ml-80"
 
 _ml_9 :: ClassName
-_ml_9 = ClassName "xl\:-ml-9"
+_ml_9 = ClassName "xl\\:-ml-9"
 
 _ml_90 :: ClassName
-_ml_90 = ClassName "xl\:-ml-90"
+_ml_90 = ClassName "xl\\:-ml-90"
 
 _ml_px :: ClassName
-_ml_px = ClassName "xl\:-ml-px"
+_ml_px = ClassName "xl\\:-ml-px"
 
 _mr_1 :: ClassName
-_mr_1 = ClassName "xl\:-mr-1"
+_mr_1 = ClassName "xl\\:-mr-1"
 
 _mr_10 :: ClassName
-_mr_10 = ClassName "xl\:-mr-10"
+_mr_10 = ClassName "xl\\:-mr-10"
 
 _mr_12 :: ClassName
-_mr_12 = ClassName "xl\:-mr-12"
+_mr_12 = ClassName "xl\\:-mr-12"
 
 _mr_120 :: ClassName
-_mr_120 = ClassName "xl\:-mr-120"
+_mr_120 = ClassName "xl\\:-mr-120"
 
 _mr_14 :: ClassName
-_mr_14 = ClassName "xl\:-mr-14"
+_mr_14 = ClassName "xl\\:-mr-14"
 
 _mr_16 :: ClassName
-_mr_16 = ClassName "xl\:-mr-16"
+_mr_16 = ClassName "xl\\:-mr-16"
 
 _mr_160 :: ClassName
-_mr_160 = ClassName "xl\:-mr-160"
+_mr_160 = ClassName "xl\\:-mr-160"
 
 _mr_2 :: ClassName
-_mr_2 = ClassName "xl\:-mr-2"
+_mr_2 = ClassName "xl\\:-mr-2"
 
 _mr_20 :: ClassName
-_mr_20 = ClassName "xl\:-mr-20"
+_mr_20 = ClassName "xl\\:-mr-20"
 
 _mr_24 :: ClassName
-_mr_24 = ClassName "xl\:-mr-24"
+_mr_24 = ClassName "xl\\:-mr-24"
 
 _mr_3 :: ClassName
-_mr_3 = ClassName "xl\:-mr-3"
+_mr_3 = ClassName "xl\\:-mr-3"
 
 _mr_30 :: ClassName
-_mr_30 = ClassName "xl\:-mr-30"
+_mr_30 = ClassName "xl\\:-mr-30"
 
 _mr_32 :: ClassName
-_mr_32 = ClassName "xl\:-mr-32"
+_mr_32 = ClassName "xl\\:-mr-32"
 
 _mr_4 :: ClassName
-_mr_4 = ClassName "xl\:-mr-4"
+_mr_4 = ClassName "xl\\:-mr-4"
 
 _mr_40 :: ClassName
-_mr_40 = ClassName "xl\:-mr-40"
+_mr_40 = ClassName "xl\\:-mr-40"
 
 _mr_48 :: ClassName
-_mr_48 = ClassName "xl\:-mr-48"
+_mr_48 = ClassName "xl\\:-mr-48"
 
 _mr_5 :: ClassName
-_mr_5 = ClassName "xl\:-mr-5"
+_mr_5 = ClassName "xl\\:-mr-5"
 
 _mr_50 :: ClassName
-_mr_50 = ClassName "xl\:-mr-50"
+_mr_50 = ClassName "xl\\:-mr-50"
 
 _mr_56 :: ClassName
-_mr_56 = ClassName "xl\:-mr-56"
+_mr_56 = ClassName "xl\\:-mr-56"
 
 _mr_6 :: ClassName
-_mr_6 = ClassName "xl\:-mr-6"
+_mr_6 = ClassName "xl\\:-mr-6"
 
 _mr_60 :: ClassName
-_mr_60 = ClassName "xl\:-mr-60"
+_mr_60 = ClassName "xl\\:-mr-60"
 
 _mr_64 :: ClassName
-_mr_64 = ClassName "xl\:-mr-64"
+_mr_64 = ClassName "xl\\:-mr-64"
 
 _mr_7 :: ClassName
-_mr_7 = ClassName "xl\:-mr-7"
+_mr_7 = ClassName "xl\\:-mr-7"
 
 _mr_8 :: ClassName
-_mr_8 = ClassName "xl\:-mr-8"
+_mr_8 = ClassName "xl\\:-mr-8"
 
 _mr_80 :: ClassName
-_mr_80 = ClassName "xl\:-mr-80"
+_mr_80 = ClassName "xl\\:-mr-80"
 
 _mr_9 :: ClassName
-_mr_9 = ClassName "xl\:-mr-9"
+_mr_9 = ClassName "xl\\:-mr-9"
 
 _mr_90 :: ClassName
-_mr_90 = ClassName "xl\:-mr-90"
+_mr_90 = ClassName "xl\\:-mr-90"
 
 _mr_px :: ClassName
-_mr_px = ClassName "xl\:-mr-px"
+_mr_px = ClassName "xl\\:-mr-px"
 
 _mt_1 :: ClassName
-_mt_1 = ClassName "xl\:-mt-1"
+_mt_1 = ClassName "xl\\:-mt-1"
 
 _mt_10 :: ClassName
-_mt_10 = ClassName "xl\:-mt-10"
+_mt_10 = ClassName "xl\\:-mt-10"
 
 _mt_12 :: ClassName
-_mt_12 = ClassName "xl\:-mt-12"
+_mt_12 = ClassName "xl\\:-mt-12"
 
 _mt_120 :: ClassName
-_mt_120 = ClassName "xl\:-mt-120"
+_mt_120 = ClassName "xl\\:-mt-120"
 
 _mt_14 :: ClassName
-_mt_14 = ClassName "xl\:-mt-14"
+_mt_14 = ClassName "xl\\:-mt-14"
 
 _mt_16 :: ClassName
-_mt_16 = ClassName "xl\:-mt-16"
+_mt_16 = ClassName "xl\\:-mt-16"
 
 _mt_160 :: ClassName
-_mt_160 = ClassName "xl\:-mt-160"
+_mt_160 = ClassName "xl\\:-mt-160"
 
 _mt_2 :: ClassName
-_mt_2 = ClassName "xl\:-mt-2"
+_mt_2 = ClassName "xl\\:-mt-2"
 
 _mt_20 :: ClassName
-_mt_20 = ClassName "xl\:-mt-20"
+_mt_20 = ClassName "xl\\:-mt-20"
 
 _mt_24 :: ClassName
-_mt_24 = ClassName "xl\:-mt-24"
+_mt_24 = ClassName "xl\\:-mt-24"
 
 _mt_3 :: ClassName
-_mt_3 = ClassName "xl\:-mt-3"
+_mt_3 = ClassName "xl\\:-mt-3"
 
 _mt_30 :: ClassName
-_mt_30 = ClassName "xl\:-mt-30"
+_mt_30 = ClassName "xl\\:-mt-30"
 
 _mt_32 :: ClassName
-_mt_32 = ClassName "xl\:-mt-32"
+_mt_32 = ClassName "xl\\:-mt-32"
 
 _mt_4 :: ClassName
-_mt_4 = ClassName "xl\:-mt-4"
+_mt_4 = ClassName "xl\\:-mt-4"
 
 _mt_40 :: ClassName
-_mt_40 = ClassName "xl\:-mt-40"
+_mt_40 = ClassName "xl\\:-mt-40"
 
 _mt_48 :: ClassName
-_mt_48 = ClassName "xl\:-mt-48"
+_mt_48 = ClassName "xl\\:-mt-48"
 
 _mt_5 :: ClassName
-_mt_5 = ClassName "xl\:-mt-5"
+_mt_5 = ClassName "xl\\:-mt-5"
 
 _mt_50 :: ClassName
-_mt_50 = ClassName "xl\:-mt-50"
+_mt_50 = ClassName "xl\\:-mt-50"
 
 _mt_56 :: ClassName
-_mt_56 = ClassName "xl\:-mt-56"
+_mt_56 = ClassName "xl\\:-mt-56"
 
 _mt_6 :: ClassName
-_mt_6 = ClassName "xl\:-mt-6"
+_mt_6 = ClassName "xl\\:-mt-6"
 
 _mt_60 :: ClassName
-_mt_60 = ClassName "xl\:-mt-60"
+_mt_60 = ClassName "xl\\:-mt-60"
 
 _mt_64 :: ClassName
-_mt_64 = ClassName "xl\:-mt-64"
+_mt_64 = ClassName "xl\\:-mt-64"
 
 _mt_7 :: ClassName
-_mt_7 = ClassName "xl\:-mt-7"
+_mt_7 = ClassName "xl\\:-mt-7"
 
 _mt_8 :: ClassName
-_mt_8 = ClassName "xl\:-mt-8"
+_mt_8 = ClassName "xl\\:-mt-8"
 
 _mt_80 :: ClassName
-_mt_80 = ClassName "xl\:-mt-80"
+_mt_80 = ClassName "xl\\:-mt-80"
 
 _mt_9 :: ClassName
-_mt_9 = ClassName "xl\:-mt-9"
+_mt_9 = ClassName "xl\\:-mt-9"
 
 _mt_90 :: ClassName
-_mt_90 = ClassName "xl\:-mt-90"
+_mt_90 = ClassName "xl\\:-mt-90"
 
 _mt_px :: ClassName
-_mt_px = ClassName "xl\:-mt-px"
+_mt_px = ClassName "xl\\:-mt-px"
 
 _mx_1 :: ClassName
-_mx_1 = ClassName "xl\:-mx-1"
+_mx_1 = ClassName "xl\\:-mx-1"
 
 _mx_10 :: ClassName
-_mx_10 = ClassName "xl\:-mx-10"
+_mx_10 = ClassName "xl\\:-mx-10"
 
 _mx_12 :: ClassName
-_mx_12 = ClassName "xl\:-mx-12"
+_mx_12 = ClassName "xl\\:-mx-12"
 
 _mx_120 :: ClassName
-_mx_120 = ClassName "xl\:-mx-120"
+_mx_120 = ClassName "xl\\:-mx-120"
 
 _mx_14 :: ClassName
-_mx_14 = ClassName "xl\:-mx-14"
+_mx_14 = ClassName "xl\\:-mx-14"
 
 _mx_16 :: ClassName
-_mx_16 = ClassName "xl\:-mx-16"
+_mx_16 = ClassName "xl\\:-mx-16"
 
 _mx_160 :: ClassName
-_mx_160 = ClassName "xl\:-mx-160"
+_mx_160 = ClassName "xl\\:-mx-160"
 
 _mx_2 :: ClassName
-_mx_2 = ClassName "xl\:-mx-2"
+_mx_2 = ClassName "xl\\:-mx-2"
 
 _mx_20 :: ClassName
-_mx_20 = ClassName "xl\:-mx-20"
+_mx_20 = ClassName "xl\\:-mx-20"
 
 _mx_24 :: ClassName
-_mx_24 = ClassName "xl\:-mx-24"
+_mx_24 = ClassName "xl\\:-mx-24"
 
 _mx_3 :: ClassName
-_mx_3 = ClassName "xl\:-mx-3"
+_mx_3 = ClassName "xl\\:-mx-3"
 
 _mx_30 :: ClassName
-_mx_30 = ClassName "xl\:-mx-30"
+_mx_30 = ClassName "xl\\:-mx-30"
 
 _mx_32 :: ClassName
-_mx_32 = ClassName "xl\:-mx-32"
+_mx_32 = ClassName "xl\\:-mx-32"
 
 _mx_4 :: ClassName
-_mx_4 = ClassName "xl\:-mx-4"
+_mx_4 = ClassName "xl\\:-mx-4"
 
 _mx_40 :: ClassName
-_mx_40 = ClassName "xl\:-mx-40"
+_mx_40 = ClassName "xl\\:-mx-40"
 
 _mx_48 :: ClassName
-_mx_48 = ClassName "xl\:-mx-48"
+_mx_48 = ClassName "xl\\:-mx-48"
 
 _mx_5 :: ClassName
-_mx_5 = ClassName "xl\:-mx-5"
+_mx_5 = ClassName "xl\\:-mx-5"
 
 _mx_50 :: ClassName
-_mx_50 = ClassName "xl\:-mx-50"
+_mx_50 = ClassName "xl\\:-mx-50"
 
 _mx_56 :: ClassName
-_mx_56 = ClassName "xl\:-mx-56"
+_mx_56 = ClassName "xl\\:-mx-56"
 
 _mx_6 :: ClassName
-_mx_6 = ClassName "xl\:-mx-6"
+_mx_6 = ClassName "xl\\:-mx-6"
 
 _mx_60 :: ClassName
-_mx_60 = ClassName "xl\:-mx-60"
+_mx_60 = ClassName "xl\\:-mx-60"
 
 _mx_64 :: ClassName
-_mx_64 = ClassName "xl\:-mx-64"
+_mx_64 = ClassName "xl\\:-mx-64"
 
 _mx_7 :: ClassName
-_mx_7 = ClassName "xl\:-mx-7"
+_mx_7 = ClassName "xl\\:-mx-7"
 
 _mx_8 :: ClassName
-_mx_8 = ClassName "xl\:-mx-8"
+_mx_8 = ClassName "xl\\:-mx-8"
 
 _mx_80 :: ClassName
-_mx_80 = ClassName "xl\:-mx-80"
+_mx_80 = ClassName "xl\\:-mx-80"
 
 _mx_9 :: ClassName
-_mx_9 = ClassName "xl\:-mx-9"
+_mx_9 = ClassName "xl\\:-mx-9"
 
 _mx_90 :: ClassName
-_mx_90 = ClassName "xl\:-mx-90"
+_mx_90 = ClassName "xl\\:-mx-90"
 
 _mx_px :: ClassName
-_mx_px = ClassName "xl\:-mx-px"
+_mx_px = ClassName "xl\\:-mx-px"
 
 _my_1 :: ClassName
-_my_1 = ClassName "xl\:-my-1"
+_my_1 = ClassName "xl\\:-my-1"
 
 _my_10 :: ClassName
-_my_10 = ClassName "xl\:-my-10"
+_my_10 = ClassName "xl\\:-my-10"
 
 _my_12 :: ClassName
-_my_12 = ClassName "xl\:-my-12"
+_my_12 = ClassName "xl\\:-my-12"
 
 _my_120 :: ClassName
-_my_120 = ClassName "xl\:-my-120"
+_my_120 = ClassName "xl\\:-my-120"
 
 _my_14 :: ClassName
-_my_14 = ClassName "xl\:-my-14"
+_my_14 = ClassName "xl\\:-my-14"
 
 _my_16 :: ClassName
-_my_16 = ClassName "xl\:-my-16"
+_my_16 = ClassName "xl\\:-my-16"
 
 _my_160 :: ClassName
-_my_160 = ClassName "xl\:-my-160"
+_my_160 = ClassName "xl\\:-my-160"
 
 _my_2 :: ClassName
-_my_2 = ClassName "xl\:-my-2"
+_my_2 = ClassName "xl\\:-my-2"
 
 _my_20 :: ClassName
-_my_20 = ClassName "xl\:-my-20"
+_my_20 = ClassName "xl\\:-my-20"
 
 _my_24 :: ClassName
-_my_24 = ClassName "xl\:-my-24"
+_my_24 = ClassName "xl\\:-my-24"
 
 _my_3 :: ClassName
-_my_3 = ClassName "xl\:-my-3"
+_my_3 = ClassName "xl\\:-my-3"
 
 _my_30 :: ClassName
-_my_30 = ClassName "xl\:-my-30"
+_my_30 = ClassName "xl\\:-my-30"
 
 _my_32 :: ClassName
-_my_32 = ClassName "xl\:-my-32"
+_my_32 = ClassName "xl\\:-my-32"
 
 _my_4 :: ClassName
-_my_4 = ClassName "xl\:-my-4"
+_my_4 = ClassName "xl\\:-my-4"
 
 _my_40 :: ClassName
-_my_40 = ClassName "xl\:-my-40"
+_my_40 = ClassName "xl\\:-my-40"
 
 _my_48 :: ClassName
-_my_48 = ClassName "xl\:-my-48"
+_my_48 = ClassName "xl\\:-my-48"
 
 _my_5 :: ClassName
-_my_5 = ClassName "xl\:-my-5"
+_my_5 = ClassName "xl\\:-my-5"
 
 _my_50 :: ClassName
-_my_50 = ClassName "xl\:-my-50"
+_my_50 = ClassName "xl\\:-my-50"
 
 _my_56 :: ClassName
-_my_56 = ClassName "xl\:-my-56"
+_my_56 = ClassName "xl\\:-my-56"
 
 _my_6 :: ClassName
-_my_6 = ClassName "xl\:-my-6"
+_my_6 = ClassName "xl\\:-my-6"
 
 _my_60 :: ClassName
-_my_60 = ClassName "xl\:-my-60"
+_my_60 = ClassName "xl\\:-my-60"
 
 _my_64 :: ClassName
-_my_64 = ClassName "xl\:-my-64"
+_my_64 = ClassName "xl\\:-my-64"
 
 _my_7 :: ClassName
-_my_7 = ClassName "xl\:-my-7"
+_my_7 = ClassName "xl\\:-my-7"
 
 _my_8 :: ClassName
-_my_8 = ClassName "xl\:-my-8"
+_my_8 = ClassName "xl\\:-my-8"
 
 _my_80 :: ClassName
-_my_80 = ClassName "xl\:-my-80"
+_my_80 = ClassName "xl\\:-my-80"
 
 _my_9 :: ClassName
-_my_9 = ClassName "xl\:-my-9"
+_my_9 = ClassName "xl\\:-my-9"
 
 _my_90 :: ClassName
-_my_90 = ClassName "xl\:-my-90"
+_my_90 = ClassName "xl\\:-my-90"
 
 _my_px :: ClassName
-_my_px = ClassName "xl\:-my-px"
+_my_px = ClassName "xl\\:-my-px"
 
 _rotate_180 :: ClassName
-_rotate_180 = ClassName "xl\:-rotate-180"
+_rotate_180 = ClassName "xl\\:-rotate-180"
 
 _rotate_45 :: ClassName
-_rotate_45 = ClassName "xl\:-rotate-45"
+_rotate_45 = ClassName "xl\\:-rotate-45"
 
 _rotate_90 :: ClassName
-_rotate_90 = ClassName "xl\:-rotate-90"
+_rotate_90 = ClassName "xl\\:-rotate-90"
 
 _skew_x_12 :: ClassName
-_skew_x_12 = ClassName "xl\:-skew-x-12"
+_skew_x_12 = ClassName "xl\\:-skew-x-12"
 
 _skew_x_3 :: ClassName
-_skew_x_3 = ClassName "xl\:-skew-x-3"
+_skew_x_3 = ClassName "xl\\:-skew-x-3"
 
 _skew_x_6 :: ClassName
-_skew_x_6 = ClassName "xl\:-skew-x-6"
+_skew_x_6 = ClassName "xl\\:-skew-x-6"
 
 _skew_y_12 :: ClassName
-_skew_y_12 = ClassName "xl\:-skew-y-12"
+_skew_y_12 = ClassName "xl\\:-skew-y-12"
 
 _skew_y_3 :: ClassName
-_skew_y_3 = ClassName "xl\:-skew-y-3"
+_skew_y_3 = ClassName "xl\\:-skew-y-3"
 
 _skew_y_6 :: ClassName
-_skew_y_6 = ClassName "xl\:-skew-y-6"
+_skew_y_6 = ClassName "xl\\:-skew-y-6"
 
 _space_x_1 :: ClassName
-_space_x_1 = ClassName "xl\:-space-x-1"
+_space_x_1 = ClassName "xl\\:-space-x-1"
 
 _space_x_10 :: ClassName
-_space_x_10 = ClassName "xl\:-space-x-10"
+_space_x_10 = ClassName "xl\\:-space-x-10"
 
 _space_x_12 :: ClassName
-_space_x_12 = ClassName "xl\:-space-x-12"
+_space_x_12 = ClassName "xl\\:-space-x-12"
 
 _space_x_120 :: ClassName
-_space_x_120 = ClassName "xl\:-space-x-120"
+_space_x_120 = ClassName "xl\\:-space-x-120"
 
 _space_x_14 :: ClassName
-_space_x_14 = ClassName "xl\:-space-x-14"
+_space_x_14 = ClassName "xl\\:-space-x-14"
 
 _space_x_16 :: ClassName
-_space_x_16 = ClassName "xl\:-space-x-16"
+_space_x_16 = ClassName "xl\\:-space-x-16"
 
 _space_x_160 :: ClassName
-_space_x_160 = ClassName "xl\:-space-x-160"
+_space_x_160 = ClassName "xl\\:-space-x-160"
 
 _space_x_2 :: ClassName
-_space_x_2 = ClassName "xl\:-space-x-2"
+_space_x_2 = ClassName "xl\\:-space-x-2"
 
 _space_x_20 :: ClassName
-_space_x_20 = ClassName "xl\:-space-x-20"
+_space_x_20 = ClassName "xl\\:-space-x-20"
 
 _space_x_24 :: ClassName
-_space_x_24 = ClassName "xl\:-space-x-24"
+_space_x_24 = ClassName "xl\\:-space-x-24"
 
 _space_x_3 :: ClassName
-_space_x_3 = ClassName "xl\:-space-x-3"
+_space_x_3 = ClassName "xl\\:-space-x-3"
 
 _space_x_30 :: ClassName
-_space_x_30 = ClassName "xl\:-space-x-30"
+_space_x_30 = ClassName "xl\\:-space-x-30"
 
 _space_x_32 :: ClassName
-_space_x_32 = ClassName "xl\:-space-x-32"
+_space_x_32 = ClassName "xl\\:-space-x-32"
 
 _space_x_4 :: ClassName
-_space_x_4 = ClassName "xl\:-space-x-4"
+_space_x_4 = ClassName "xl\\:-space-x-4"
 
 _space_x_40 :: ClassName
-_space_x_40 = ClassName "xl\:-space-x-40"
+_space_x_40 = ClassName "xl\\:-space-x-40"
 
 _space_x_48 :: ClassName
-_space_x_48 = ClassName "xl\:-space-x-48"
+_space_x_48 = ClassName "xl\\:-space-x-48"
 
 _space_x_5 :: ClassName
-_space_x_5 = ClassName "xl\:-space-x-5"
+_space_x_5 = ClassName "xl\\:-space-x-5"
 
 _space_x_50 :: ClassName
-_space_x_50 = ClassName "xl\:-space-x-50"
+_space_x_50 = ClassName "xl\\:-space-x-50"
 
 _space_x_56 :: ClassName
-_space_x_56 = ClassName "xl\:-space-x-56"
+_space_x_56 = ClassName "xl\\:-space-x-56"
 
 _space_x_6 :: ClassName
-_space_x_6 = ClassName "xl\:-space-x-6"
+_space_x_6 = ClassName "xl\\:-space-x-6"
 
 _space_x_60 :: ClassName
-_space_x_60 = ClassName "xl\:-space-x-60"
+_space_x_60 = ClassName "xl\\:-space-x-60"
 
 _space_x_64 :: ClassName
-_space_x_64 = ClassName "xl\:-space-x-64"
+_space_x_64 = ClassName "xl\\:-space-x-64"
 
 _space_x_7 :: ClassName
-_space_x_7 = ClassName "xl\:-space-x-7"
+_space_x_7 = ClassName "xl\\:-space-x-7"
 
 _space_x_8 :: ClassName
-_space_x_8 = ClassName "xl\:-space-x-8"
+_space_x_8 = ClassName "xl\\:-space-x-8"
 
 _space_x_80 :: ClassName
-_space_x_80 = ClassName "xl\:-space-x-80"
+_space_x_80 = ClassName "xl\\:-space-x-80"
 
 _space_x_9 :: ClassName
-_space_x_9 = ClassName "xl\:-space-x-9"
+_space_x_9 = ClassName "xl\\:-space-x-9"
 
 _space_x_90 :: ClassName
-_space_x_90 = ClassName "xl\:-space-x-90"
+_space_x_90 = ClassName "xl\\:-space-x-90"
 
 _space_x_px :: ClassName
-_space_x_px = ClassName "xl\:-space-x-px"
+_space_x_px = ClassName "xl\\:-space-x-px"
 
 _space_y_1 :: ClassName
-_space_y_1 = ClassName "xl\:-space-y-1"
+_space_y_1 = ClassName "xl\\:-space-y-1"
 
 _space_y_10 :: ClassName
-_space_y_10 = ClassName "xl\:-space-y-10"
+_space_y_10 = ClassName "xl\\:-space-y-10"
 
 _space_y_12 :: ClassName
-_space_y_12 = ClassName "xl\:-space-y-12"
+_space_y_12 = ClassName "xl\\:-space-y-12"
 
 _space_y_120 :: ClassName
-_space_y_120 = ClassName "xl\:-space-y-120"
+_space_y_120 = ClassName "xl\\:-space-y-120"
 
 _space_y_14 :: ClassName
-_space_y_14 = ClassName "xl\:-space-y-14"
+_space_y_14 = ClassName "xl\\:-space-y-14"
 
 _space_y_16 :: ClassName
-_space_y_16 = ClassName "xl\:-space-y-16"
+_space_y_16 = ClassName "xl\\:-space-y-16"
 
 _space_y_160 :: ClassName
-_space_y_160 = ClassName "xl\:-space-y-160"
+_space_y_160 = ClassName "xl\\:-space-y-160"
 
 _space_y_2 :: ClassName
-_space_y_2 = ClassName "xl\:-space-y-2"
+_space_y_2 = ClassName "xl\\:-space-y-2"
 
 _space_y_20 :: ClassName
-_space_y_20 = ClassName "xl\:-space-y-20"
+_space_y_20 = ClassName "xl\\:-space-y-20"
 
 _space_y_24 :: ClassName
-_space_y_24 = ClassName "xl\:-space-y-24"
+_space_y_24 = ClassName "xl\\:-space-y-24"
 
 _space_y_3 :: ClassName
-_space_y_3 = ClassName "xl\:-space-y-3"
+_space_y_3 = ClassName "xl\\:-space-y-3"
 
 _space_y_30 :: ClassName
-_space_y_30 = ClassName "xl\:-space-y-30"
+_space_y_30 = ClassName "xl\\:-space-y-30"
 
 _space_y_32 :: ClassName
-_space_y_32 = ClassName "xl\:-space-y-32"
+_space_y_32 = ClassName "xl\\:-space-y-32"
 
 _space_y_4 :: ClassName
-_space_y_4 = ClassName "xl\:-space-y-4"
+_space_y_4 = ClassName "xl\\:-space-y-4"
 
 _space_y_40 :: ClassName
-_space_y_40 = ClassName "xl\:-space-y-40"
+_space_y_40 = ClassName "xl\\:-space-y-40"
 
 _space_y_48 :: ClassName
-_space_y_48 = ClassName "xl\:-space-y-48"
+_space_y_48 = ClassName "xl\\:-space-y-48"
 
 _space_y_5 :: ClassName
-_space_y_5 = ClassName "xl\:-space-y-5"
+_space_y_5 = ClassName "xl\\:-space-y-5"
 
 _space_y_50 :: ClassName
-_space_y_50 = ClassName "xl\:-space-y-50"
+_space_y_50 = ClassName "xl\\:-space-y-50"
 
 _space_y_56 :: ClassName
-_space_y_56 = ClassName "xl\:-space-y-56"
+_space_y_56 = ClassName "xl\\:-space-y-56"
 
 _space_y_6 :: ClassName
-_space_y_6 = ClassName "xl\:-space-y-6"
+_space_y_6 = ClassName "xl\\:-space-y-6"
 
 _space_y_60 :: ClassName
-_space_y_60 = ClassName "xl\:-space-y-60"
+_space_y_60 = ClassName "xl\\:-space-y-60"
 
 _space_y_64 :: ClassName
-_space_y_64 = ClassName "xl\:-space-y-64"
+_space_y_64 = ClassName "xl\\:-space-y-64"
 
 _space_y_7 :: ClassName
-_space_y_7 = ClassName "xl\:-space-y-7"
+_space_y_7 = ClassName "xl\\:-space-y-7"
 
 _space_y_8 :: ClassName
-_space_y_8 = ClassName "xl\:-space-y-8"
+_space_y_8 = ClassName "xl\\:-space-y-8"
 
 _space_y_80 :: ClassName
-_space_y_80 = ClassName "xl\:-space-y-80"
+_space_y_80 = ClassName "xl\\:-space-y-80"
 
 _space_y_9 :: ClassName
-_space_y_9 = ClassName "xl\:-space-y-9"
+_space_y_9 = ClassName "xl\\:-space-y-9"
 
 _space_y_90 :: ClassName
-_space_y_90 = ClassName "xl\:-space-y-90"
+_space_y_90 = ClassName "xl\\:-space-y-90"
 
 _space_y_px :: ClassName
-_space_y_px = ClassName "xl\:-space-y-px"
+_space_y_px = ClassName "xl\\:-space-y-px"
 
 _translate_x_1 :: ClassName
-_translate_x_1 = ClassName "xl\:-translate-x-1"
+_translate_x_1 = ClassName "xl\\:-translate-x-1"
 
 _translate_x_10 :: ClassName
-_translate_x_10 = ClassName "xl\:-translate-x-10"
+_translate_x_10 = ClassName "xl\\:-translate-x-10"
 
 _translate_x_12 :: ClassName
-_translate_x_12 = ClassName "xl\:-translate-x-12"
+_translate_x_12 = ClassName "xl\\:-translate-x-12"
 
 _translate_x_120 :: ClassName
-_translate_x_120 = ClassName "xl\:-translate-x-120"
+_translate_x_120 = ClassName "xl\\:-translate-x-120"
 
 _translate_x_14 :: ClassName
-_translate_x_14 = ClassName "xl\:-translate-x-14"
+_translate_x_14 = ClassName "xl\\:-translate-x-14"
 
 _translate_x_16 :: ClassName
-_translate_x_16 = ClassName "xl\:-translate-x-16"
+_translate_x_16 = ClassName "xl\\:-translate-x-16"
 
 _translate_x_160 :: ClassName
-_translate_x_160 = ClassName "xl\:-translate-x-160"
+_translate_x_160 = ClassName "xl\\:-translate-x-160"
 
 _translate_x_2 :: ClassName
-_translate_x_2 = ClassName "xl\:-translate-x-2"
+_translate_x_2 = ClassName "xl\\:-translate-x-2"
 
 _translate_x_20 :: ClassName
-_translate_x_20 = ClassName "xl\:-translate-x-20"
+_translate_x_20 = ClassName "xl\\:-translate-x-20"
 
 _translate_x_24 :: ClassName
-_translate_x_24 = ClassName "xl\:-translate-x-24"
+_translate_x_24 = ClassName "xl\\:-translate-x-24"
 
 _translate_x_3 :: ClassName
-_translate_x_3 = ClassName "xl\:-translate-x-3"
+_translate_x_3 = ClassName "xl\\:-translate-x-3"
 
 _translate_x_30 :: ClassName
-_translate_x_30 = ClassName "xl\:-translate-x-30"
+_translate_x_30 = ClassName "xl\\:-translate-x-30"
 
 _translate_x_32 :: ClassName
-_translate_x_32 = ClassName "xl\:-translate-x-32"
+_translate_x_32 = ClassName "xl\\:-translate-x-32"
 
 _translate_x_4 :: ClassName
-_translate_x_4 = ClassName "xl\:-translate-x-4"
+_translate_x_4 = ClassName "xl\\:-translate-x-4"
 
 _translate_x_40 :: ClassName
-_translate_x_40 = ClassName "xl\:-translate-x-40"
+_translate_x_40 = ClassName "xl\\:-translate-x-40"
 
 _translate_x_48 :: ClassName
-_translate_x_48 = ClassName "xl\:-translate-x-48"
+_translate_x_48 = ClassName "xl\\:-translate-x-48"
 
 _translate_x_5 :: ClassName
-_translate_x_5 = ClassName "xl\:-translate-x-5"
+_translate_x_5 = ClassName "xl\\:-translate-x-5"
 
 _translate_x_50 :: ClassName
-_translate_x_50 = ClassName "xl\:-translate-x-50"
+_translate_x_50 = ClassName "xl\\:-translate-x-50"
 
 _translate_x_56 :: ClassName
-_translate_x_56 = ClassName "xl\:-translate-x-56"
+_translate_x_56 = ClassName "xl\\:-translate-x-56"
 
 _translate_x_6 :: ClassName
-_translate_x_6 = ClassName "xl\:-translate-x-6"
+_translate_x_6 = ClassName "xl\\:-translate-x-6"
 
 _translate_x_60 :: ClassName
-_translate_x_60 = ClassName "xl\:-translate-x-60"
+_translate_x_60 = ClassName "xl\\:-translate-x-60"
 
 _translate_x_64 :: ClassName
-_translate_x_64 = ClassName "xl\:-translate-x-64"
+_translate_x_64 = ClassName "xl\\:-translate-x-64"
 
 _translate_x_7 :: ClassName
-_translate_x_7 = ClassName "xl\:-translate-x-7"
+_translate_x_7 = ClassName "xl\\:-translate-x-7"
 
 _translate_x_8 :: ClassName
-_translate_x_8 = ClassName "xl\:-translate-x-8"
+_translate_x_8 = ClassName "xl\\:-translate-x-8"
 
 _translate_x_80 :: ClassName
-_translate_x_80 = ClassName "xl\:-translate-x-80"
+_translate_x_80 = ClassName "xl\\:-translate-x-80"
 
 _translate_x_9 :: ClassName
-_translate_x_9 = ClassName "xl\:-translate-x-9"
+_translate_x_9 = ClassName "xl\\:-translate-x-9"
 
 _translate_x_90 :: ClassName
-_translate_x_90 = ClassName "xl\:-translate-x-90"
+_translate_x_90 = ClassName "xl\\:-translate-x-90"
 
 _translate_x_full :: ClassName
-_translate_x_full = ClassName "xl\:-translate-x-full"
+_translate_x_full = ClassName "xl\\:-translate-x-full"
 
 _translate_x_px :: ClassName
-_translate_x_px = ClassName "xl\:-translate-x-px"
+_translate_x_px = ClassName "xl\\:-translate-x-px"
 
 _translate_y_1 :: ClassName
-_translate_y_1 = ClassName "xl\:-translate-y-1"
+_translate_y_1 = ClassName "xl\\:-translate-y-1"
 
 _translate_y_10 :: ClassName
-_translate_y_10 = ClassName "xl\:-translate-y-10"
+_translate_y_10 = ClassName "xl\\:-translate-y-10"
 
 _translate_y_12 :: ClassName
-_translate_y_12 = ClassName "xl\:-translate-y-12"
+_translate_y_12 = ClassName "xl\\:-translate-y-12"
 
 _translate_y_120 :: ClassName
-_translate_y_120 = ClassName "xl\:-translate-y-120"
+_translate_y_120 = ClassName "xl\\:-translate-y-120"
 
 _translate_y_14 :: ClassName
-_translate_y_14 = ClassName "xl\:-translate-y-14"
+_translate_y_14 = ClassName "xl\\:-translate-y-14"
 
 _translate_y_16 :: ClassName
-_translate_y_16 = ClassName "xl\:-translate-y-16"
+_translate_y_16 = ClassName "xl\\:-translate-y-16"
 
 _translate_y_160 :: ClassName
-_translate_y_160 = ClassName "xl\:-translate-y-160"
+_translate_y_160 = ClassName "xl\\:-translate-y-160"
 
 _translate_y_2 :: ClassName
-_translate_y_2 = ClassName "xl\:-translate-y-2"
+_translate_y_2 = ClassName "xl\\:-translate-y-2"
 
 _translate_y_20 :: ClassName
-_translate_y_20 = ClassName "xl\:-translate-y-20"
+_translate_y_20 = ClassName "xl\\:-translate-y-20"
 
 _translate_y_24 :: ClassName
-_translate_y_24 = ClassName "xl\:-translate-y-24"
+_translate_y_24 = ClassName "xl\\:-translate-y-24"
 
 _translate_y_3 :: ClassName
-_translate_y_3 = ClassName "xl\:-translate-y-3"
+_translate_y_3 = ClassName "xl\\:-translate-y-3"
 
 _translate_y_30 :: ClassName
-_translate_y_30 = ClassName "xl\:-translate-y-30"
+_translate_y_30 = ClassName "xl\\:-translate-y-30"
 
 _translate_y_32 :: ClassName
-_translate_y_32 = ClassName "xl\:-translate-y-32"
+_translate_y_32 = ClassName "xl\\:-translate-y-32"
 
 _translate_y_4 :: ClassName
-_translate_y_4 = ClassName "xl\:-translate-y-4"
+_translate_y_4 = ClassName "xl\\:-translate-y-4"
 
 _translate_y_40 :: ClassName
-_translate_y_40 = ClassName "xl\:-translate-y-40"
+_translate_y_40 = ClassName "xl\\:-translate-y-40"
 
 _translate_y_48 :: ClassName
-_translate_y_48 = ClassName "xl\:-translate-y-48"
+_translate_y_48 = ClassName "xl\\:-translate-y-48"
 
 _translate_y_5 :: ClassName
-_translate_y_5 = ClassName "xl\:-translate-y-5"
+_translate_y_5 = ClassName "xl\\:-translate-y-5"
 
 _translate_y_50 :: ClassName
-_translate_y_50 = ClassName "xl\:-translate-y-50"
+_translate_y_50 = ClassName "xl\\:-translate-y-50"
 
 _translate_y_56 :: ClassName
-_translate_y_56 = ClassName "xl\:-translate-y-56"
+_translate_y_56 = ClassName "xl\\:-translate-y-56"
 
 _translate_y_6 :: ClassName
-_translate_y_6 = ClassName "xl\:-translate-y-6"
+_translate_y_6 = ClassName "xl\\:-translate-y-6"
 
 _translate_y_60 :: ClassName
-_translate_y_60 = ClassName "xl\:-translate-y-60"
+_translate_y_60 = ClassName "xl\\:-translate-y-60"
 
 _translate_y_64 :: ClassName
-_translate_y_64 = ClassName "xl\:-translate-y-64"
+_translate_y_64 = ClassName "xl\\:-translate-y-64"
 
 _translate_y_7 :: ClassName
-_translate_y_7 = ClassName "xl\:-translate-y-7"
+_translate_y_7 = ClassName "xl\\:-translate-y-7"
 
 _translate_y_8 :: ClassName
-_translate_y_8 = ClassName "xl\:-translate-y-8"
+_translate_y_8 = ClassName "xl\\:-translate-y-8"
 
 _translate_y_80 :: ClassName
-_translate_y_80 = ClassName "xl\:-translate-y-80"
+_translate_y_80 = ClassName "xl\\:-translate-y-80"
 
 _translate_y_9 :: ClassName
-_translate_y_9 = ClassName "xl\:-translate-y-9"
+_translate_y_9 = ClassName "xl\\:-translate-y-9"
 
 _translate_y_90 :: ClassName
-_translate_y_90 = ClassName "xl\:-translate-y-90"
+_translate_y_90 = ClassName "xl\\:-translate-y-90"
 
 _translate_y_full :: ClassName
-_translate_y_full = ClassName "xl\:-translate-y-full"
+_translate_y_full = ClassName "xl\\:-translate-y-full"
 
 _translate_y_px :: ClassName
-_translate_y_px = ClassName "xl\:-translate-y-px"
+_translate_y_px = ClassName "xl\\:-translate-y-px"
 
 absolute :: ClassName
-absolute = ClassName "xl\:absolute"
+absolute = ClassName "xl\\:absolute"
 
 align_baseline :: ClassName
-align_baseline = ClassName "xl\:align-baseline"
+align_baseline = ClassName "xl\\:align-baseline"
 
 align_bottom :: ClassName
-align_bottom = ClassName "xl\:align-bottom"
+align_bottom = ClassName "xl\\:align-bottom"
 
 align_middle :: ClassName
-align_middle = ClassName "xl\:align-middle"
+align_middle = ClassName "xl\\:align-middle"
 
 align_text_bottom :: ClassName
-align_text_bottom = ClassName "xl\:align-text-bottom"
+align_text_bottom = ClassName "xl\\:align-text-bottom"
 
 align_text_top :: ClassName
-align_text_top = ClassName "xl\:align-text-top"
+align_text_top = ClassName "xl\\:align-text-top"
 
 align_top :: ClassName
-align_top = ClassName "xl\:align-top"
+align_top = ClassName "xl\\:align-top"
 
 animate_bounce :: ClassName
-animate_bounce = ClassName "xl\:animate-bounce"
+animate_bounce = ClassName "xl\\:animate-bounce"
 
 animate_none :: ClassName
-animate_none = ClassName "xl\:animate-none"
+animate_none = ClassName "xl\\:animate-none"
 
 animate_ping :: ClassName
-animate_ping = ClassName "xl\:animate-ping"
+animate_ping = ClassName "xl\\:animate-ping"
 
 animate_pulse :: ClassName
-animate_pulse = ClassName "xl\:animate-pulse"
+animate_pulse = ClassName "xl\\:animate-pulse"
 
 animate_spin :: ClassName
-animate_spin = ClassName "xl\:animate-spin"
+animate_spin = ClassName "xl\\:animate-spin"
 
 antialiased :: ClassName
-antialiased = ClassName "xl\:antialiased"
+antialiased = ClassName "xl\\:antialiased"
 
 appearance_none :: ClassName
-appearance_none = ClassName "xl\:appearance-none"
+appearance_none = ClassName "xl\\:appearance-none"
 
 bg_auto :: ClassName
-bg_auto = ClassName "xl\:bg-auto"
+bg_auto = ClassName "xl\\:bg-auto"
 
 bg_black :: ClassName
-bg_black = ClassName "xl\:bg-black"
+bg_black = ClassName "xl\\:bg-black"
 
 bg_black_10 :: ClassName
-bg_black_10 = ClassName "xl\:bg-black-10"
+bg_black_10 = ClassName "xl\\:bg-black-10"
 
 bg_black_20 :: ClassName
-bg_black_20 = ClassName "xl\:bg-black-20"
+bg_black_20 = ClassName "xl\\:bg-black-20"
 
 bg_black_modal_a90 :: ClassName
-bg_black_modal_a90 = ClassName "xl\:bg-black-modal-a90"
+bg_black_modal_a90 = ClassName "xl\\:bg-black-modal-a90"
 
 bg_blue_100 :: ClassName
-bg_blue_100 = ClassName "xl\:bg-blue-100"
+bg_blue_100 = ClassName "xl\\:bg-blue-100"
 
 bg_blue_200 :: ClassName
-bg_blue_200 = ClassName "xl\:bg-blue-200"
+bg_blue_200 = ClassName "xl\\:bg-blue-200"
 
 bg_blue_300 :: ClassName
-bg_blue_300 = ClassName "xl\:bg-blue-300"
+bg_blue_300 = ClassName "xl\\:bg-blue-300"
 
 bg_blue_400 :: ClassName
-bg_blue_400 = ClassName "xl\:bg-blue-400"
+bg_blue_400 = ClassName "xl\\:bg-blue-400"
 
 bg_blue_500 :: ClassName
-bg_blue_500 = ClassName "xl\:bg-blue-500"
+bg_blue_500 = ClassName "xl\\:bg-blue-500"
 
 bg_blue_600 :: ClassName
-bg_blue_600 = ClassName "xl\:bg-blue-600"
+bg_blue_600 = ClassName "xl\\:bg-blue-600"
 
 bg_blue_65 :: ClassName
-bg_blue_65 = ClassName "xl\:bg-blue-65"
+bg_blue_65 = ClassName "xl\\:bg-blue-65"
 
 bg_blue_700 :: ClassName
-bg_blue_700 = ClassName "xl\:bg-blue-700"
+bg_blue_700 = ClassName "xl\\:bg-blue-700"
 
 bg_blue_75 :: ClassName
-bg_blue_75 = ClassName "xl\:bg-blue-75"
+bg_blue_75 = ClassName "xl\\:bg-blue-75"
 
 bg_blue_800 :: ClassName
-bg_blue_800 = ClassName "xl\:bg-blue-800"
+bg_blue_800 = ClassName "xl\\:bg-blue-800"
 
 bg_blue_82 :: ClassName
-bg_blue_82 = ClassName "xl\:bg-blue-82"
+bg_blue_82 = ClassName "xl\\:bg-blue-82"
 
 bg_blue_88 :: ClassName
-bg_blue_88 = ClassName "xl\:bg-blue-88"
+bg_blue_88 = ClassName "xl\\:bg-blue-88"
 
 bg_blue_900 :: ClassName
-bg_blue_900 = ClassName "xl\:bg-blue-900"
+bg_blue_900 = ClassName "xl\\:bg-blue-900"
 
 bg_bottom :: ClassName
-bg_bottom = ClassName "xl\:bg-bottom"
+bg_bottom = ClassName "xl\\:bg-bottom"
 
 bg_center :: ClassName
-bg_center = ClassName "xl\:bg-center"
+bg_center = ClassName "xl\\:bg-center"
 
 bg_contain :: ClassName
-bg_contain = ClassName "xl\:bg-contain"
+bg_contain = ClassName "xl\\:bg-contain"
 
 bg_cover :: ClassName
-bg_cover = ClassName "xl\:bg-cover"
+bg_cover = ClassName "xl\\:bg-cover"
 
 bg_current :: ClassName
-bg_current = ClassName "xl\:bg-current"
+bg_current = ClassName "xl\\:bg-current"
 
 bg_fb_blue :: ClassName
-bg_fb_blue = ClassName "xl\:bg-fb-blue"
+bg_fb_blue = ClassName "xl\\:bg-fb-blue"
 
 bg_fixed :: ClassName
-bg_fixed = ClassName "xl\:bg-fixed"
+bg_fixed = ClassName "xl\\:bg-fixed"
 
 bg_gray_100 :: ClassName
-bg_gray_100 = ClassName "xl\:bg-gray-100"
+bg_gray_100 = ClassName "xl\\:bg-gray-100"
 
 bg_gray_200 :: ClassName
-bg_gray_200 = ClassName "xl\:bg-gray-200"
+bg_gray_200 = ClassName "xl\\:bg-gray-200"
 
 bg_gray_300 :: ClassName
-bg_gray_300 = ClassName "xl\:bg-gray-300"
+bg_gray_300 = ClassName "xl\\:bg-gray-300"
 
 bg_gray_400 :: ClassName
-bg_gray_400 = ClassName "xl\:bg-gray-400"
+bg_gray_400 = ClassName "xl\\:bg-gray-400"
 
 bg_gray_500 :: ClassName
-bg_gray_500 = ClassName "xl\:bg-gray-500"
+bg_gray_500 = ClassName "xl\\:bg-gray-500"
 
 bg_gray_600 :: ClassName
-bg_gray_600 = ClassName "xl\:bg-gray-600"
+bg_gray_600 = ClassName "xl\\:bg-gray-600"
 
 bg_gray_700 :: ClassName
-bg_gray_700 = ClassName "xl\:bg-gray-700"
+bg_gray_700 = ClassName "xl\\:bg-gray-700"
 
 bg_gray_800 :: ClassName
-bg_gray_800 = ClassName "xl\:bg-gray-800"
+bg_gray_800 = ClassName "xl\\:bg-gray-800"
 
 bg_gray_900 :: ClassName
-bg_gray_900 = ClassName "xl\:bg-gray-900"
+bg_gray_900 = ClassName "xl\\:bg-gray-900"
 
 bg_green :: ClassName
-bg_green = ClassName "xl\:bg-green"
+bg_green = ClassName "xl\\:bg-green"
 
 bg_grey_50 :: ClassName
-bg_grey_50 = ClassName "xl\:bg-grey-50"
+bg_grey_50 = ClassName "xl\\:bg-grey-50"
 
 bg_grey_50_a20 :: ClassName
-bg_grey_50_a20 = ClassName "xl\:bg-grey-50-a20"
+bg_grey_50_a20 = ClassName "xl\\:bg-grey-50-a20"
 
 bg_grey_50_a30 :: ClassName
-bg_grey_50_a30 = ClassName "xl\:bg-grey-50-a30"
+bg_grey_50_a30 = ClassName "xl\\:bg-grey-50-a30"
 
 bg_grey_50_a80 :: ClassName
-bg_grey_50_a80 = ClassName "xl\:bg-grey-50-a80"
+bg_grey_50_a80 = ClassName "xl\\:bg-grey-50-a80"
 
 bg_grey_50_a90 :: ClassName
-bg_grey_50_a90 = ClassName "xl\:bg-grey-50-a90"
+bg_grey_50_a90 = ClassName "xl\\:bg-grey-50-a90"
 
 bg_grey_70 :: ClassName
-bg_grey_70 = ClassName "xl\:bg-grey-70"
+bg_grey_70 = ClassName "xl\\:bg-grey-70"
 
 bg_grey_70_a30 :: ClassName
-bg_grey_70_a30 = ClassName "xl\:bg-grey-70-a30"
+bg_grey_70_a30 = ClassName "xl\\:bg-grey-70-a30"
 
 bg_grey_70_a40 :: ClassName
-bg_grey_70_a40 = ClassName "xl\:bg-grey-70-a40"
+bg_grey_70_a40 = ClassName "xl\\:bg-grey-70-a40"
 
 bg_grey_80 :: ClassName
-bg_grey_80 = ClassName "xl\:bg-grey-80"
+bg_grey_80 = ClassName "xl\\:bg-grey-80"
 
 bg_grey_90 :: ClassName
-bg_grey_90 = ClassName "xl\:bg-grey-90"
+bg_grey_90 = ClassName "xl\\:bg-grey-90"
 
 bg_grey_95 :: ClassName
-bg_grey_95 = ClassName "xl\:bg-grey-95"
+bg_grey_95 = ClassName "xl\\:bg-grey-95"
 
 bg_grey_97 :: ClassName
-bg_grey_97 = ClassName "xl\:bg-grey-97"
+bg_grey_97 = ClassName "xl\\:bg-grey-97"
 
 bg_ig_brown :: ClassName
-bg_ig_brown = ClassName "xl\:bg-ig-brown"
+bg_ig_brown = ClassName "xl\\:bg-ig-brown"
 
 bg_indigo_100 :: ClassName
-bg_indigo_100 = ClassName "xl\:bg-indigo-100"
+bg_indigo_100 = ClassName "xl\\:bg-indigo-100"
 
 bg_indigo_200 :: ClassName
-bg_indigo_200 = ClassName "xl\:bg-indigo-200"
+bg_indigo_200 = ClassName "xl\\:bg-indigo-200"
 
 bg_indigo_300 :: ClassName
-bg_indigo_300 = ClassName "xl\:bg-indigo-300"
+bg_indigo_300 = ClassName "xl\\:bg-indigo-300"
 
 bg_indigo_400 :: ClassName
-bg_indigo_400 = ClassName "xl\:bg-indigo-400"
+bg_indigo_400 = ClassName "xl\\:bg-indigo-400"
 
 bg_indigo_500 :: ClassName
-bg_indigo_500 = ClassName "xl\:bg-indigo-500"
+bg_indigo_500 = ClassName "xl\\:bg-indigo-500"
 
 bg_indigo_600 :: ClassName
-bg_indigo_600 = ClassName "xl\:bg-indigo-600"
+bg_indigo_600 = ClassName "xl\\:bg-indigo-600"
 
 bg_indigo_700 :: ClassName
-bg_indigo_700 = ClassName "xl\:bg-indigo-700"
+bg_indigo_700 = ClassName "xl\\:bg-indigo-700"
 
 bg_indigo_800 :: ClassName
-bg_indigo_800 = ClassName "xl\:bg-indigo-800"
+bg_indigo_800 = ClassName "xl\\:bg-indigo-800"
 
 bg_indigo_900 :: ClassName
-bg_indigo_900 = ClassName "xl\:bg-indigo-900"
+bg_indigo_900 = ClassName "xl\\:bg-indigo-900"
 
 bg_left :: ClassName
-bg_left = ClassName "xl\:bg-left"
+bg_left = ClassName "xl\\:bg-left"
 
 bg_left_bottom :: ClassName
-bg_left_bottom = ClassName "xl\:bg-left-bottom"
+bg_left_bottom = ClassName "xl\\:bg-left-bottom"
 
 bg_left_top :: ClassName
-bg_left_top = ClassName "xl\:bg-left-top"
+bg_left_top = ClassName "xl\\:bg-left-top"
 
 bg_local :: ClassName
-bg_local = ClassName "xl\:bg-local"
+bg_local = ClassName "xl\\:bg-local"
 
 bg_no_repeat :: ClassName
-bg_no_repeat = ClassName "xl\:bg-no-repeat"
+bg_no_repeat = ClassName "xl\\:bg-no-repeat"
 
 bg_opacity_0 :: ClassName
-bg_opacity_0 = ClassName "xl\:bg-opacity-0"
+bg_opacity_0 = ClassName "xl\\:bg-opacity-0"
 
 bg_opacity_100 :: ClassName
-bg_opacity_100 = ClassName "xl\:bg-opacity-100"
+bg_opacity_100 = ClassName "xl\\:bg-opacity-100"
 
 bg_opacity_25 :: ClassName
-bg_opacity_25 = ClassName "xl\:bg-opacity-25"
+bg_opacity_25 = ClassName "xl\\:bg-opacity-25"
 
 bg_opacity_50 :: ClassName
-bg_opacity_50 = ClassName "xl\:bg-opacity-50"
+bg_opacity_50 = ClassName "xl\\:bg-opacity-50"
 
 bg_opacity_75 :: ClassName
-bg_opacity_75 = ClassName "xl\:bg-opacity-75"
+bg_opacity_75 = ClassName "xl\\:bg-opacity-75"
 
 bg_orange_100 :: ClassName
-bg_orange_100 = ClassName "xl\:bg-orange-100"
+bg_orange_100 = ClassName "xl\\:bg-orange-100"
 
 bg_orange_200 :: ClassName
-bg_orange_200 = ClassName "xl\:bg-orange-200"
+bg_orange_200 = ClassName "xl\\:bg-orange-200"
 
 bg_orange_300 :: ClassName
-bg_orange_300 = ClassName "xl\:bg-orange-300"
+bg_orange_300 = ClassName "xl\\:bg-orange-300"
 
 bg_orange_400 :: ClassName
-bg_orange_400 = ClassName "xl\:bg-orange-400"
+bg_orange_400 = ClassName "xl\\:bg-orange-400"
 
 bg_orange_500 :: ClassName
-bg_orange_500 = ClassName "xl\:bg-orange-500"
+bg_orange_500 = ClassName "xl\\:bg-orange-500"
 
 bg_orange_600 :: ClassName
-bg_orange_600 = ClassName "xl\:bg-orange-600"
+bg_orange_600 = ClassName "xl\\:bg-orange-600"
 
 bg_orange_700 :: ClassName
-bg_orange_700 = ClassName "xl\:bg-orange-700"
+bg_orange_700 = ClassName "xl\\:bg-orange-700"
 
 bg_orange_800 :: ClassName
-bg_orange_800 = ClassName "xl\:bg-orange-800"
+bg_orange_800 = ClassName "xl\\:bg-orange-800"
 
 bg_orange_900 :: ClassName
-bg_orange_900 = ClassName "xl\:bg-orange-900"
+bg_orange_900 = ClassName "xl\\:bg-orange-900"
 
 bg_pink_100 :: ClassName
-bg_pink_100 = ClassName "xl\:bg-pink-100"
+bg_pink_100 = ClassName "xl\\:bg-pink-100"
 
 bg_pink_200 :: ClassName
-bg_pink_200 = ClassName "xl\:bg-pink-200"
+bg_pink_200 = ClassName "xl\\:bg-pink-200"
 
 bg_pink_300 :: ClassName
-bg_pink_300 = ClassName "xl\:bg-pink-300"
+bg_pink_300 = ClassName "xl\\:bg-pink-300"
 
 bg_pink_400 :: ClassName
-bg_pink_400 = ClassName "xl\:bg-pink-400"
+bg_pink_400 = ClassName "xl\\:bg-pink-400"
 
 bg_pink_500 :: ClassName
-bg_pink_500 = ClassName "xl\:bg-pink-500"
+bg_pink_500 = ClassName "xl\\:bg-pink-500"
 
 bg_pink_600 :: ClassName
-bg_pink_600 = ClassName "xl\:bg-pink-600"
+bg_pink_600 = ClassName "xl\\:bg-pink-600"
 
 bg_pink_700 :: ClassName
-bg_pink_700 = ClassName "xl\:bg-pink-700"
+bg_pink_700 = ClassName "xl\\:bg-pink-700"
 
 bg_pink_800 :: ClassName
-bg_pink_800 = ClassName "xl\:bg-pink-800"
+bg_pink_800 = ClassName "xl\\:bg-pink-800"
 
 bg_pink_900 :: ClassName
-bg_pink_900 = ClassName "xl\:bg-pink-900"
+bg_pink_900 = ClassName "xl\\:bg-pink-900"
 
 bg_purple_100 :: ClassName
-bg_purple_100 = ClassName "xl\:bg-purple-100"
+bg_purple_100 = ClassName "xl\\:bg-purple-100"
 
 bg_purple_200 :: ClassName
-bg_purple_200 = ClassName "xl\:bg-purple-200"
+bg_purple_200 = ClassName "xl\\:bg-purple-200"
 
 bg_purple_300 :: ClassName
-bg_purple_300 = ClassName "xl\:bg-purple-300"
+bg_purple_300 = ClassName "xl\\:bg-purple-300"
 
 bg_purple_400 :: ClassName
-bg_purple_400 = ClassName "xl\:bg-purple-400"
+bg_purple_400 = ClassName "xl\\:bg-purple-400"
 
 bg_purple_500 :: ClassName
-bg_purple_500 = ClassName "xl\:bg-purple-500"
+bg_purple_500 = ClassName "xl\\:bg-purple-500"
 
 bg_purple_600 :: ClassName
-bg_purple_600 = ClassName "xl\:bg-purple-600"
+bg_purple_600 = ClassName "xl\\:bg-purple-600"
 
 bg_purple_700 :: ClassName
-bg_purple_700 = ClassName "xl\:bg-purple-700"
+bg_purple_700 = ClassName "xl\\:bg-purple-700"
 
 bg_purple_800 :: ClassName
-bg_purple_800 = ClassName "xl\:bg-purple-800"
+bg_purple_800 = ClassName "xl\\:bg-purple-800"
 
 bg_purple_900 :: ClassName
-bg_purple_900 = ClassName "xl\:bg-purple-900"
+bg_purple_900 = ClassName "xl\\:bg-purple-900"
 
 bg_red :: ClassName
-bg_red = ClassName "xl\:bg-red"
+bg_red = ClassName "xl\\:bg-red"
 
 bg_repeat :: ClassName
-bg_repeat = ClassName "xl\:bg-repeat"
+bg_repeat = ClassName "xl\\:bg-repeat"
 
 bg_repeat_round :: ClassName
-bg_repeat_round = ClassName "xl\:bg-repeat-round"
+bg_repeat_round = ClassName "xl\\:bg-repeat-round"
 
 bg_repeat_space :: ClassName
-bg_repeat_space = ClassName "xl\:bg-repeat-space"
+bg_repeat_space = ClassName "xl\\:bg-repeat-space"
 
 bg_repeat_x :: ClassName
-bg_repeat_x = ClassName "xl\:bg-repeat-x"
+bg_repeat_x = ClassName "xl\\:bg-repeat-x"
 
 bg_repeat_y :: ClassName
-bg_repeat_y = ClassName "xl\:bg-repeat-y"
+bg_repeat_y = ClassName "xl\\:bg-repeat-y"
 
 bg_right :: ClassName
-bg_right = ClassName "xl\:bg-right"
+bg_right = ClassName "xl\\:bg-right"
 
 bg_right_bottom :: ClassName
-bg_right_bottom = ClassName "xl\:bg-right-bottom"
+bg_right_bottom = ClassName "xl\\:bg-right-bottom"
 
 bg_right_top :: ClassName
-bg_right_top = ClassName "xl\:bg-right-top"
+bg_right_top = ClassName "xl\\:bg-right-top"
 
 bg_scroll :: ClassName
-bg_scroll = ClassName "xl\:bg-scroll"
+bg_scroll = ClassName "xl\\:bg-scroll"
 
 bg_steel_100 :: ClassName
-bg_steel_100 = ClassName "xl\:bg-steel-100"
+bg_steel_100 = ClassName "xl\\:bg-steel-100"
 
 bg_steel_75 :: ClassName
-bg_steel_75 = ClassName "xl\:bg-steel-75"
+bg_steel_75 = ClassName "xl\\:bg-steel-75"
 
 bg_steel_85 :: ClassName
-bg_steel_85 = ClassName "xl\:bg-steel-85"
+bg_steel_85 = ClassName "xl\\:bg-steel-85"
 
 bg_teal_100 :: ClassName
-bg_teal_100 = ClassName "xl\:bg-teal-100"
+bg_teal_100 = ClassName "xl\\:bg-teal-100"
 
 bg_teal_200 :: ClassName
-bg_teal_200 = ClassName "xl\:bg-teal-200"
+bg_teal_200 = ClassName "xl\\:bg-teal-200"
 
 bg_teal_300 :: ClassName
-bg_teal_300 = ClassName "xl\:bg-teal-300"
+bg_teal_300 = ClassName "xl\\:bg-teal-300"
 
 bg_teal_400 :: ClassName
-bg_teal_400 = ClassName "xl\:bg-teal-400"
+bg_teal_400 = ClassName "xl\\:bg-teal-400"
 
 bg_teal_500 :: ClassName
-bg_teal_500 = ClassName "xl\:bg-teal-500"
+bg_teal_500 = ClassName "xl\\:bg-teal-500"
 
 bg_teal_600 :: ClassName
-bg_teal_600 = ClassName "xl\:bg-teal-600"
+bg_teal_600 = ClassName "xl\\:bg-teal-600"
 
 bg_teal_700 :: ClassName
-bg_teal_700 = ClassName "xl\:bg-teal-700"
+bg_teal_700 = ClassName "xl\\:bg-teal-700"
 
 bg_teal_800 :: ClassName
-bg_teal_800 = ClassName "xl\:bg-teal-800"
+bg_teal_800 = ClassName "xl\\:bg-teal-800"
 
 bg_teal_900 :: ClassName
-bg_teal_900 = ClassName "xl\:bg-teal-900"
+bg_teal_900 = ClassName "xl\\:bg-teal-900"
 
 bg_top :: ClassName
-bg_top = ClassName "xl\:bg-top"
+bg_top = ClassName "xl\\:bg-top"
 
 bg_transparent :: ClassName
-bg_transparent = ClassName "xl\:bg-transparent"
+bg_transparent = ClassName "xl\\:bg-transparent"
 
 bg_tw_blue :: ClassName
-bg_tw_blue = ClassName "xl\:bg-tw-blue"
+bg_tw_blue = ClassName "xl\\:bg-tw-blue"
 
 bg_white :: ClassName
-bg_white = ClassName "xl\:bg-white"
+bg_white = ClassName "xl\\:bg-white"
 
 bg_yellow :: ClassName
-bg_yellow = ClassName "xl\:bg-yellow"
+bg_yellow = ClassName "xl\\:bg-yellow"
 
 block :: ClassName
-block = ClassName "xl\:block"
+block = ClassName "xl\\:block"
 
 border :: ClassName
-border = ClassName "xl\:border"
+border = ClassName "xl\\:border"
 
 border_0 :: ClassName
-border_0 = ClassName "xl\:border-0"
+border_0 = ClassName "xl\\:border-0"
 
 border_2 :: ClassName
-border_2 = ClassName "xl\:border-2"
+border_2 = ClassName "xl\\:border-2"
 
 border_3 :: ClassName
-border_3 = ClassName "xl\:border-3"
+border_3 = ClassName "xl\\:border-3"
 
 border_4 :: ClassName
-border_4 = ClassName "xl\:border-4"
+border_4 = ClassName "xl\\:border-4"
 
 border_8 :: ClassName
-border_8 = ClassName "xl\:border-8"
+border_8 = ClassName "xl\\:border-8"
 
 border_b :: ClassName
-border_b = ClassName "xl\:border-b"
+border_b = ClassName "xl\\:border-b"
 
 border_b_0 :: ClassName
-border_b_0 = ClassName "xl\:border-b-0"
+border_b_0 = ClassName "xl\\:border-b-0"
 
 border_b_2 :: ClassName
-border_b_2 = ClassName "xl\:border-b-2"
+border_b_2 = ClassName "xl\\:border-b-2"
 
 border_b_3 :: ClassName
-border_b_3 = ClassName "xl\:border-b-3"
+border_b_3 = ClassName "xl\\:border-b-3"
 
 border_b_4 :: ClassName
-border_b_4 = ClassName "xl\:border-b-4"
+border_b_4 = ClassName "xl\\:border-b-4"
 
 border_b_8 :: ClassName
-border_b_8 = ClassName "xl\:border-b-8"
+border_b_8 = ClassName "xl\\:border-b-8"
 
 border_black :: ClassName
-border_black = ClassName "xl\:border-black"
+border_black = ClassName "xl\\:border-black"
 
 border_black_10 :: ClassName
-border_black_10 = ClassName "xl\:border-black-10"
+border_black_10 = ClassName "xl\\:border-black-10"
 
 border_black_20 :: ClassName
-border_black_20 = ClassName "xl\:border-black-20"
+border_black_20 = ClassName "xl\\:border-black-20"
 
 border_black_modal_a90 :: ClassName
-border_black_modal_a90 = ClassName "xl\:border-black-modal-a90"
+border_black_modal_a90 = ClassName "xl\\:border-black-modal-a90"
 
 border_blue_100 :: ClassName
-border_blue_100 = ClassName "xl\:border-blue-100"
+border_blue_100 = ClassName "xl\\:border-blue-100"
 
 border_blue_200 :: ClassName
-border_blue_200 = ClassName "xl\:border-blue-200"
+border_blue_200 = ClassName "xl\\:border-blue-200"
 
 border_blue_300 :: ClassName
-border_blue_300 = ClassName "xl\:border-blue-300"
+border_blue_300 = ClassName "xl\\:border-blue-300"
 
 border_blue_400 :: ClassName
-border_blue_400 = ClassName "xl\:border-blue-400"
+border_blue_400 = ClassName "xl\\:border-blue-400"
 
 border_blue_500 :: ClassName
-border_blue_500 = ClassName "xl\:border-blue-500"
+border_blue_500 = ClassName "xl\\:border-blue-500"
 
 border_blue_600 :: ClassName
-border_blue_600 = ClassName "xl\:border-blue-600"
+border_blue_600 = ClassName "xl\\:border-blue-600"
 
 border_blue_65 :: ClassName
-border_blue_65 = ClassName "xl\:border-blue-65"
+border_blue_65 = ClassName "xl\\:border-blue-65"
 
 border_blue_700 :: ClassName
-border_blue_700 = ClassName "xl\:border-blue-700"
+border_blue_700 = ClassName "xl\\:border-blue-700"
 
 border_blue_75 :: ClassName
-border_blue_75 = ClassName "xl\:border-blue-75"
+border_blue_75 = ClassName "xl\\:border-blue-75"
 
 border_blue_800 :: ClassName
-border_blue_800 = ClassName "xl\:border-blue-800"
+border_blue_800 = ClassName "xl\\:border-blue-800"
 
 border_blue_82 :: ClassName
-border_blue_82 = ClassName "xl\:border-blue-82"
+border_blue_82 = ClassName "xl\\:border-blue-82"
 
 border_blue_88 :: ClassName
-border_blue_88 = ClassName "xl\:border-blue-88"
+border_blue_88 = ClassName "xl\\:border-blue-88"
 
 border_blue_900 :: ClassName
-border_blue_900 = ClassName "xl\:border-blue-900"
+border_blue_900 = ClassName "xl\\:border-blue-900"
 
 border_collapse :: ClassName
-border_collapse = ClassName "xl\:border-collapse"
+border_collapse = ClassName "xl\\:border-collapse"
 
 border_current :: ClassName
-border_current = ClassName "xl\:border-current"
+border_current = ClassName "xl\\:border-current"
 
 border_dashed :: ClassName
-border_dashed = ClassName "xl\:border-dashed"
+border_dashed = ClassName "xl\\:border-dashed"
 
 border_dotted :: ClassName
-border_dotted = ClassName "xl\:border-dotted"
+border_dotted = ClassName "xl\\:border-dotted"
 
 border_double :: ClassName
-border_double = ClassName "xl\:border-double"
+border_double = ClassName "xl\\:border-double"
 
 border_fb_blue :: ClassName
-border_fb_blue = ClassName "xl\:border-fb-blue"
+border_fb_blue = ClassName "xl\\:border-fb-blue"
 
 border_gray_100 :: ClassName
-border_gray_100 = ClassName "xl\:border-gray-100"
+border_gray_100 = ClassName "xl\\:border-gray-100"
 
 border_gray_200 :: ClassName
-border_gray_200 = ClassName "xl\:border-gray-200"
+border_gray_200 = ClassName "xl\\:border-gray-200"
 
 border_gray_300 :: ClassName
-border_gray_300 = ClassName "xl\:border-gray-300"
+border_gray_300 = ClassName "xl\\:border-gray-300"
 
 border_gray_400 :: ClassName
-border_gray_400 = ClassName "xl\:border-gray-400"
+border_gray_400 = ClassName "xl\\:border-gray-400"
 
 border_gray_500 :: ClassName
-border_gray_500 = ClassName "xl\:border-gray-500"
+border_gray_500 = ClassName "xl\\:border-gray-500"
 
 border_gray_600 :: ClassName
-border_gray_600 = ClassName "xl\:border-gray-600"
+border_gray_600 = ClassName "xl\\:border-gray-600"
 
 border_gray_700 :: ClassName
-border_gray_700 = ClassName "xl\:border-gray-700"
+border_gray_700 = ClassName "xl\\:border-gray-700"
 
 border_gray_800 :: ClassName
-border_gray_800 = ClassName "xl\:border-gray-800"
+border_gray_800 = ClassName "xl\\:border-gray-800"
 
 border_gray_900 :: ClassName
-border_gray_900 = ClassName "xl\:border-gray-900"
+border_gray_900 = ClassName "xl\\:border-gray-900"
 
 border_green :: ClassName
-border_green = ClassName "xl\:border-green"
+border_green = ClassName "xl\\:border-green"
 
 border_grey_50 :: ClassName
-border_grey_50 = ClassName "xl\:border-grey-50"
+border_grey_50 = ClassName "xl\\:border-grey-50"
 
 border_grey_50_a20 :: ClassName
-border_grey_50_a20 = ClassName "xl\:border-grey-50-a20"
+border_grey_50_a20 = ClassName "xl\\:border-grey-50-a20"
 
 border_grey_50_a30 :: ClassName
-border_grey_50_a30 = ClassName "xl\:border-grey-50-a30"
+border_grey_50_a30 = ClassName "xl\\:border-grey-50-a30"
 
 border_grey_50_a80 :: ClassName
-border_grey_50_a80 = ClassName "xl\:border-grey-50-a80"
+border_grey_50_a80 = ClassName "xl\\:border-grey-50-a80"
 
 border_grey_50_a90 :: ClassName
-border_grey_50_a90 = ClassName "xl\:border-grey-50-a90"
+border_grey_50_a90 = ClassName "xl\\:border-grey-50-a90"
 
 border_grey_70 :: ClassName
-border_grey_70 = ClassName "xl\:border-grey-70"
+border_grey_70 = ClassName "xl\\:border-grey-70"
 
 border_grey_70_a30 :: ClassName
-border_grey_70_a30 = ClassName "xl\:border-grey-70-a30"
+border_grey_70_a30 = ClassName "xl\\:border-grey-70-a30"
 
 border_grey_70_a40 :: ClassName
-border_grey_70_a40 = ClassName "xl\:border-grey-70-a40"
+border_grey_70_a40 = ClassName "xl\\:border-grey-70-a40"
 
 border_grey_80 :: ClassName
-border_grey_80 = ClassName "xl\:border-grey-80"
+border_grey_80 = ClassName "xl\\:border-grey-80"
 
 border_grey_90 :: ClassName
-border_grey_90 = ClassName "xl\:border-grey-90"
+border_grey_90 = ClassName "xl\\:border-grey-90"
 
 border_grey_95 :: ClassName
-border_grey_95 = ClassName "xl\:border-grey-95"
+border_grey_95 = ClassName "xl\\:border-grey-95"
 
 border_grey_97 :: ClassName
-border_grey_97 = ClassName "xl\:border-grey-97"
+border_grey_97 = ClassName "xl\\:border-grey-97"
 
 border_ig_brown :: ClassName
-border_ig_brown = ClassName "xl\:border-ig-brown"
+border_ig_brown = ClassName "xl\\:border-ig-brown"
 
 border_indigo_100 :: ClassName
-border_indigo_100 = ClassName "xl\:border-indigo-100"
+border_indigo_100 = ClassName "xl\\:border-indigo-100"
 
 border_indigo_200 :: ClassName
-border_indigo_200 = ClassName "xl\:border-indigo-200"
+border_indigo_200 = ClassName "xl\\:border-indigo-200"
 
 border_indigo_300 :: ClassName
-border_indigo_300 = ClassName "xl\:border-indigo-300"
+border_indigo_300 = ClassName "xl\\:border-indigo-300"
 
 border_indigo_400 :: ClassName
-border_indigo_400 = ClassName "xl\:border-indigo-400"
+border_indigo_400 = ClassName "xl\\:border-indigo-400"
 
 border_indigo_500 :: ClassName
-border_indigo_500 = ClassName "xl\:border-indigo-500"
+border_indigo_500 = ClassName "xl\\:border-indigo-500"
 
 border_indigo_600 :: ClassName
-border_indigo_600 = ClassName "xl\:border-indigo-600"
+border_indigo_600 = ClassName "xl\\:border-indigo-600"
 
 border_indigo_700 :: ClassName
-border_indigo_700 = ClassName "xl\:border-indigo-700"
+border_indigo_700 = ClassName "xl\\:border-indigo-700"
 
 border_indigo_800 :: ClassName
-border_indigo_800 = ClassName "xl\:border-indigo-800"
+border_indigo_800 = ClassName "xl\\:border-indigo-800"
 
 border_indigo_900 :: ClassName
-border_indigo_900 = ClassName "xl\:border-indigo-900"
+border_indigo_900 = ClassName "xl\\:border-indigo-900"
 
 border_l :: ClassName
-border_l = ClassName "xl\:border-l"
+border_l = ClassName "xl\\:border-l"
 
 border_l_0 :: ClassName
-border_l_0 = ClassName "xl\:border-l-0"
+border_l_0 = ClassName "xl\\:border-l-0"
 
 border_l_2 :: ClassName
-border_l_2 = ClassName "xl\:border-l-2"
+border_l_2 = ClassName "xl\\:border-l-2"
 
 border_l_3 :: ClassName
-border_l_3 = ClassName "xl\:border-l-3"
+border_l_3 = ClassName "xl\\:border-l-3"
 
 border_l_4 :: ClassName
-border_l_4 = ClassName "xl\:border-l-4"
+border_l_4 = ClassName "xl\\:border-l-4"
 
 border_l_8 :: ClassName
-border_l_8 = ClassName "xl\:border-l-8"
+border_l_8 = ClassName "xl\\:border-l-8"
 
 border_none :: ClassName
-border_none = ClassName "xl\:border-none"
+border_none = ClassName "xl\\:border-none"
 
 border_opacity_0 :: ClassName
-border_opacity_0 = ClassName "xl\:border-opacity-0"
+border_opacity_0 = ClassName "xl\\:border-opacity-0"
 
 border_opacity_100 :: ClassName
-border_opacity_100 = ClassName "xl\:border-opacity-100"
+border_opacity_100 = ClassName "xl\\:border-opacity-100"
 
 border_opacity_25 :: ClassName
-border_opacity_25 = ClassName "xl\:border-opacity-25"
+border_opacity_25 = ClassName "xl\\:border-opacity-25"
 
 border_opacity_50 :: ClassName
-border_opacity_50 = ClassName "xl\:border-opacity-50"
+border_opacity_50 = ClassName "xl\\:border-opacity-50"
 
 border_opacity_75 :: ClassName
-border_opacity_75 = ClassName "xl\:border-opacity-75"
+border_opacity_75 = ClassName "xl\\:border-opacity-75"
 
 border_orange_100 :: ClassName
-border_orange_100 = ClassName "xl\:border-orange-100"
+border_orange_100 = ClassName "xl\\:border-orange-100"
 
 border_orange_200 :: ClassName
-border_orange_200 = ClassName "xl\:border-orange-200"
+border_orange_200 = ClassName "xl\\:border-orange-200"
 
 border_orange_300 :: ClassName
-border_orange_300 = ClassName "xl\:border-orange-300"
+border_orange_300 = ClassName "xl\\:border-orange-300"
 
 border_orange_400 :: ClassName
-border_orange_400 = ClassName "xl\:border-orange-400"
+border_orange_400 = ClassName "xl\\:border-orange-400"
 
 border_orange_500 :: ClassName
-border_orange_500 = ClassName "xl\:border-orange-500"
+border_orange_500 = ClassName "xl\\:border-orange-500"
 
 border_orange_600 :: ClassName
-border_orange_600 = ClassName "xl\:border-orange-600"
+border_orange_600 = ClassName "xl\\:border-orange-600"
 
 border_orange_700 :: ClassName
-border_orange_700 = ClassName "xl\:border-orange-700"
+border_orange_700 = ClassName "xl\\:border-orange-700"
 
 border_orange_800 :: ClassName
-border_orange_800 = ClassName "xl\:border-orange-800"
+border_orange_800 = ClassName "xl\\:border-orange-800"
 
 border_orange_900 :: ClassName
-border_orange_900 = ClassName "xl\:border-orange-900"
+border_orange_900 = ClassName "xl\\:border-orange-900"
 
 border_pink_100 :: ClassName
-border_pink_100 = ClassName "xl\:border-pink-100"
+border_pink_100 = ClassName "xl\\:border-pink-100"
 
 border_pink_200 :: ClassName
-border_pink_200 = ClassName "xl\:border-pink-200"
+border_pink_200 = ClassName "xl\\:border-pink-200"
 
 border_pink_300 :: ClassName
-border_pink_300 = ClassName "xl\:border-pink-300"
+border_pink_300 = ClassName "xl\\:border-pink-300"
 
 border_pink_400 :: ClassName
-border_pink_400 = ClassName "xl\:border-pink-400"
+border_pink_400 = ClassName "xl\\:border-pink-400"
 
 border_pink_500 :: ClassName
-border_pink_500 = ClassName "xl\:border-pink-500"
+border_pink_500 = ClassName "xl\\:border-pink-500"
 
 border_pink_600 :: ClassName
-border_pink_600 = ClassName "xl\:border-pink-600"
+border_pink_600 = ClassName "xl\\:border-pink-600"
 
 border_pink_700 :: ClassName
-border_pink_700 = ClassName "xl\:border-pink-700"
+border_pink_700 = ClassName "xl\\:border-pink-700"
 
 border_pink_800 :: ClassName
-border_pink_800 = ClassName "xl\:border-pink-800"
+border_pink_800 = ClassName "xl\\:border-pink-800"
 
 border_pink_900 :: ClassName
-border_pink_900 = ClassName "xl\:border-pink-900"
+border_pink_900 = ClassName "xl\\:border-pink-900"
 
 border_purple_100 :: ClassName
-border_purple_100 = ClassName "xl\:border-purple-100"
+border_purple_100 = ClassName "xl\\:border-purple-100"
 
 border_purple_200 :: ClassName
-border_purple_200 = ClassName "xl\:border-purple-200"
+border_purple_200 = ClassName "xl\\:border-purple-200"
 
 border_purple_300 :: ClassName
-border_purple_300 = ClassName "xl\:border-purple-300"
+border_purple_300 = ClassName "xl\\:border-purple-300"
 
 border_purple_400 :: ClassName
-border_purple_400 = ClassName "xl\:border-purple-400"
+border_purple_400 = ClassName "xl\\:border-purple-400"
 
 border_purple_500 :: ClassName
-border_purple_500 = ClassName "xl\:border-purple-500"
+border_purple_500 = ClassName "xl\\:border-purple-500"
 
 border_purple_600 :: ClassName
-border_purple_600 = ClassName "xl\:border-purple-600"
+border_purple_600 = ClassName "xl\\:border-purple-600"
 
 border_purple_700 :: ClassName
-border_purple_700 = ClassName "xl\:border-purple-700"
+border_purple_700 = ClassName "xl\\:border-purple-700"
 
 border_purple_800 :: ClassName
-border_purple_800 = ClassName "xl\:border-purple-800"
+border_purple_800 = ClassName "xl\\:border-purple-800"
 
 border_purple_900 :: ClassName
-border_purple_900 = ClassName "xl\:border-purple-900"
+border_purple_900 = ClassName "xl\\:border-purple-900"
 
 border_r :: ClassName
-border_r = ClassName "xl\:border-r"
+border_r = ClassName "xl\\:border-r"
 
 border_r_0 :: ClassName
-border_r_0 = ClassName "xl\:border-r-0"
+border_r_0 = ClassName "xl\\:border-r-0"
 
 border_r_2 :: ClassName
-border_r_2 = ClassName "xl\:border-r-2"
+border_r_2 = ClassName "xl\\:border-r-2"
 
 border_r_3 :: ClassName
-border_r_3 = ClassName "xl\:border-r-3"
+border_r_3 = ClassName "xl\\:border-r-3"
 
 border_r_4 :: ClassName
-border_r_4 = ClassName "xl\:border-r-4"
+border_r_4 = ClassName "xl\\:border-r-4"
 
 border_r_8 :: ClassName
-border_r_8 = ClassName "xl\:border-r-8"
+border_r_8 = ClassName "xl\\:border-r-8"
 
 border_red :: ClassName
-border_red = ClassName "xl\:border-red"
+border_red = ClassName "xl\\:border-red"
 
 border_separate :: ClassName
-border_separate = ClassName "xl\:border-separate"
+border_separate = ClassName "xl\\:border-separate"
 
 border_solid :: ClassName
-border_solid = ClassName "xl\:border-solid"
+border_solid = ClassName "xl\\:border-solid"
 
 border_steel_100 :: ClassName
-border_steel_100 = ClassName "xl\:border-steel-100"
+border_steel_100 = ClassName "xl\\:border-steel-100"
 
 border_steel_75 :: ClassName
-border_steel_75 = ClassName "xl\:border-steel-75"
+border_steel_75 = ClassName "xl\\:border-steel-75"
 
 border_steel_85 :: ClassName
-border_steel_85 = ClassName "xl\:border-steel-85"
+border_steel_85 = ClassName "xl\\:border-steel-85"
 
 border_t :: ClassName
-border_t = ClassName "xl\:border-t"
+border_t = ClassName "xl\\:border-t"
 
 border_t_0 :: ClassName
-border_t_0 = ClassName "xl\:border-t-0"
+border_t_0 = ClassName "xl\\:border-t-0"
 
 border_t_2 :: ClassName
-border_t_2 = ClassName "xl\:border-t-2"
+border_t_2 = ClassName "xl\\:border-t-2"
 
 border_t_3 :: ClassName
-border_t_3 = ClassName "xl\:border-t-3"
+border_t_3 = ClassName "xl\\:border-t-3"
 
 border_t_4 :: ClassName
-border_t_4 = ClassName "xl\:border-t-4"
+border_t_4 = ClassName "xl\\:border-t-4"
 
 border_t_8 :: ClassName
-border_t_8 = ClassName "xl\:border-t-8"
+border_t_8 = ClassName "xl\\:border-t-8"
 
 border_teal_100 :: ClassName
-border_teal_100 = ClassName "xl\:border-teal-100"
+border_teal_100 = ClassName "xl\\:border-teal-100"
 
 border_teal_200 :: ClassName
-border_teal_200 = ClassName "xl\:border-teal-200"
+border_teal_200 = ClassName "xl\\:border-teal-200"
 
 border_teal_300 :: ClassName
-border_teal_300 = ClassName "xl\:border-teal-300"
+border_teal_300 = ClassName "xl\\:border-teal-300"
 
 border_teal_400 :: ClassName
-border_teal_400 = ClassName "xl\:border-teal-400"
+border_teal_400 = ClassName "xl\\:border-teal-400"
 
 border_teal_500 :: ClassName
-border_teal_500 = ClassName "xl\:border-teal-500"
+border_teal_500 = ClassName "xl\\:border-teal-500"
 
 border_teal_600 :: ClassName
-border_teal_600 = ClassName "xl\:border-teal-600"
+border_teal_600 = ClassName "xl\\:border-teal-600"
 
 border_teal_700 :: ClassName
-border_teal_700 = ClassName "xl\:border-teal-700"
+border_teal_700 = ClassName "xl\\:border-teal-700"
 
 border_teal_800 :: ClassName
-border_teal_800 = ClassName "xl\:border-teal-800"
+border_teal_800 = ClassName "xl\\:border-teal-800"
 
 border_teal_900 :: ClassName
-border_teal_900 = ClassName "xl\:border-teal-900"
+border_teal_900 = ClassName "xl\\:border-teal-900"
 
 border_transparent :: ClassName
-border_transparent = ClassName "xl\:border-transparent"
+border_transparent = ClassName "xl\\:border-transparent"
 
 border_tw_blue :: ClassName
-border_tw_blue = ClassName "xl\:border-tw-blue"
+border_tw_blue = ClassName "xl\\:border-tw-blue"
 
 border_white :: ClassName
-border_white = ClassName "xl\:border-white"
+border_white = ClassName "xl\\:border-white"
 
 border_yellow :: ClassName
-border_yellow = ClassName "xl\:border-yellow"
+border_yellow = ClassName "xl\\:border-yellow"
 
 bottom_0 :: ClassName
-bottom_0 = ClassName "xl\:bottom-0"
+bottom_0 = ClassName "xl\\:bottom-0"
 
 bottom_auto :: ClassName
-bottom_auto = ClassName "xl\:bottom-auto"
+bottom_auto = ClassName "xl\\:bottom-auto"
 
 box_border :: ClassName
-box_border = ClassName "xl\:box-border"
+box_border = ClassName "xl\\:box-border"
 
 box_content :: ClassName
-box_content = ClassName "xl\:box-content"
+box_content = ClassName "xl\\:box-content"
 
 break_all :: ClassName
-break_all = ClassName "xl\:break-all"
+break_all = ClassName "xl\\:break-all"
 
 break_normal :: ClassName
-break_normal = ClassName "xl\:break-normal"
+break_normal = ClassName "xl\\:break-normal"
 
 break_words :: ClassName
-break_words = ClassName "xl\:break-words"
+break_words = ClassName "xl\\:break-words"
 
 capitalize :: ClassName
-capitalize = ClassName "xl\:capitalize"
+capitalize = ClassName "xl\\:capitalize"
 
 clear_both :: ClassName
-clear_both = ClassName "xl\:clear-both"
+clear_both = ClassName "xl\\:clear-both"
 
 clear_left :: ClassName
-clear_left = ClassName "xl\:clear-left"
+clear_left = ClassName "xl\\:clear-left"
 
 clear_none :: ClassName
-clear_none = ClassName "xl\:clear-none"
+clear_none = ClassName "xl\\:clear-none"
 
 clear_right :: ClassName
-clear_right = ClassName "xl\:clear-right"
+clear_right = ClassName "xl\\:clear-right"
 
 clearfix :: ClassName
-clearfix = ClassName "xl\:clearfix"
+clearfix = ClassName "xl\\:clearfix"
 
 col_auto :: ClassName
-col_auto = ClassName "xl\:col-auto"
+col_auto = ClassName "xl\\:col-auto"
 
 col_end_1 :: ClassName
-col_end_1 = ClassName "xl\:col-end-1"
+col_end_1 = ClassName "xl\\:col-end-1"
 
 col_end_10 :: ClassName
-col_end_10 = ClassName "xl\:col-end-10"
+col_end_10 = ClassName "xl\\:col-end-10"
 
 col_end_11 :: ClassName
-col_end_11 = ClassName "xl\:col-end-11"
+col_end_11 = ClassName "xl\\:col-end-11"
 
 col_end_12 :: ClassName
-col_end_12 = ClassName "xl\:col-end-12"
+col_end_12 = ClassName "xl\\:col-end-12"
 
 col_end_13 :: ClassName
-col_end_13 = ClassName "xl\:col-end-13"
+col_end_13 = ClassName "xl\\:col-end-13"
 
 col_end_2 :: ClassName
-col_end_2 = ClassName "xl\:col-end-2"
+col_end_2 = ClassName "xl\\:col-end-2"
 
 col_end_3 :: ClassName
-col_end_3 = ClassName "xl\:col-end-3"
+col_end_3 = ClassName "xl\\:col-end-3"
 
 col_end_4 :: ClassName
-col_end_4 = ClassName "xl\:col-end-4"
+col_end_4 = ClassName "xl\\:col-end-4"
 
 col_end_5 :: ClassName
-col_end_5 = ClassName "xl\:col-end-5"
+col_end_5 = ClassName "xl\\:col-end-5"
 
 col_end_6 :: ClassName
-col_end_6 = ClassName "xl\:col-end-6"
+col_end_6 = ClassName "xl\\:col-end-6"
 
 col_end_7 :: ClassName
-col_end_7 = ClassName "xl\:col-end-7"
+col_end_7 = ClassName "xl\\:col-end-7"
 
 col_end_8 :: ClassName
-col_end_8 = ClassName "xl\:col-end-8"
+col_end_8 = ClassName "xl\\:col-end-8"
 
 col_end_9 :: ClassName
-col_end_9 = ClassName "xl\:col-end-9"
+col_end_9 = ClassName "xl\\:col-end-9"
 
 col_end_auto :: ClassName
-col_end_auto = ClassName "xl\:col-end-auto"
+col_end_auto = ClassName "xl\\:col-end-auto"
 
 col_gap_0 :: ClassName
-col_gap_0 = ClassName "xl\:col-gap-0"
+col_gap_0 = ClassName "xl\\:col-gap-0"
 
 col_gap_1 :: ClassName
-col_gap_1 = ClassName "xl\:col-gap-1"
+col_gap_1 = ClassName "xl\\:col-gap-1"
 
 col_gap_10 :: ClassName
-col_gap_10 = ClassName "xl\:col-gap-10"
+col_gap_10 = ClassName "xl\\:col-gap-10"
 
 col_gap_12 :: ClassName
-col_gap_12 = ClassName "xl\:col-gap-12"
+col_gap_12 = ClassName "xl\\:col-gap-12"
 
 col_gap_120 :: ClassName
-col_gap_120 = ClassName "xl\:col-gap-120"
+col_gap_120 = ClassName "xl\\:col-gap-120"
 
 col_gap_14 :: ClassName
-col_gap_14 = ClassName "xl\:col-gap-14"
+col_gap_14 = ClassName "xl\\:col-gap-14"
 
 col_gap_16 :: ClassName
-col_gap_16 = ClassName "xl\:col-gap-16"
+col_gap_16 = ClassName "xl\\:col-gap-16"
 
 col_gap_160 :: ClassName
-col_gap_160 = ClassName "xl\:col-gap-160"
+col_gap_160 = ClassName "xl\\:col-gap-160"
 
 col_gap_2 :: ClassName
-col_gap_2 = ClassName "xl\:col-gap-2"
+col_gap_2 = ClassName "xl\\:col-gap-2"
 
 col_gap_20 :: ClassName
-col_gap_20 = ClassName "xl\:col-gap-20"
+col_gap_20 = ClassName "xl\\:col-gap-20"
 
 col_gap_24 :: ClassName
-col_gap_24 = ClassName "xl\:col-gap-24"
+col_gap_24 = ClassName "xl\\:col-gap-24"
 
 col_gap_3 :: ClassName
-col_gap_3 = ClassName "xl\:col-gap-3"
+col_gap_3 = ClassName "xl\\:col-gap-3"
 
 col_gap_30 :: ClassName
-col_gap_30 = ClassName "xl\:col-gap-30"
+col_gap_30 = ClassName "xl\\:col-gap-30"
 
 col_gap_32 :: ClassName
-col_gap_32 = ClassName "xl\:col-gap-32"
+col_gap_32 = ClassName "xl\\:col-gap-32"
 
 col_gap_4 :: ClassName
-col_gap_4 = ClassName "xl\:col-gap-4"
+col_gap_4 = ClassName "xl\\:col-gap-4"
 
 col_gap_40 :: ClassName
-col_gap_40 = ClassName "xl\:col-gap-40"
+col_gap_40 = ClassName "xl\\:col-gap-40"
 
 col_gap_48 :: ClassName
-col_gap_48 = ClassName "xl\:col-gap-48"
+col_gap_48 = ClassName "xl\\:col-gap-48"
 
 col_gap_5 :: ClassName
-col_gap_5 = ClassName "xl\:col-gap-5"
+col_gap_5 = ClassName "xl\\:col-gap-5"
 
 col_gap_50 :: ClassName
-col_gap_50 = ClassName "xl\:col-gap-50"
+col_gap_50 = ClassName "xl\\:col-gap-50"
 
 col_gap_56 :: ClassName
-col_gap_56 = ClassName "xl\:col-gap-56"
+col_gap_56 = ClassName "xl\\:col-gap-56"
 
 col_gap_6 :: ClassName
-col_gap_6 = ClassName "xl\:col-gap-6"
+col_gap_6 = ClassName "xl\\:col-gap-6"
 
 col_gap_60 :: ClassName
-col_gap_60 = ClassName "xl\:col-gap-60"
+col_gap_60 = ClassName "xl\\:col-gap-60"
 
 col_gap_64 :: ClassName
-col_gap_64 = ClassName "xl\:col-gap-64"
+col_gap_64 = ClassName "xl\\:col-gap-64"
 
 col_gap_7 :: ClassName
-col_gap_7 = ClassName "xl\:col-gap-7"
+col_gap_7 = ClassName "xl\\:col-gap-7"
 
 col_gap_8 :: ClassName
-col_gap_8 = ClassName "xl\:col-gap-8"
+col_gap_8 = ClassName "xl\\:col-gap-8"
 
 col_gap_80 :: ClassName
-col_gap_80 = ClassName "xl\:col-gap-80"
+col_gap_80 = ClassName "xl\\:col-gap-80"
 
 col_gap_9 :: ClassName
-col_gap_9 = ClassName "xl\:col-gap-9"
+col_gap_9 = ClassName "xl\\:col-gap-9"
 
 col_gap_90 :: ClassName
-col_gap_90 = ClassName "xl\:col-gap-90"
+col_gap_90 = ClassName "xl\\:col-gap-90"
 
 col_gap_px :: ClassName
-col_gap_px = ClassName "xl\:col-gap-px"
+col_gap_px = ClassName "xl\\:col-gap-px"
 
 col_span_1 :: ClassName
-col_span_1 = ClassName "xl\:col-span-1"
+col_span_1 = ClassName "xl\\:col-span-1"
 
 col_span_10 :: ClassName
-col_span_10 = ClassName "xl\:col-span-10"
+col_span_10 = ClassName "xl\\:col-span-10"
 
 col_span_11 :: ClassName
-col_span_11 = ClassName "xl\:col-span-11"
+col_span_11 = ClassName "xl\\:col-span-11"
 
 col_span_12 :: ClassName
-col_span_12 = ClassName "xl\:col-span-12"
+col_span_12 = ClassName "xl\\:col-span-12"
 
 col_span_2 :: ClassName
-col_span_2 = ClassName "xl\:col-span-2"
+col_span_2 = ClassName "xl\\:col-span-2"
 
 col_span_3 :: ClassName
-col_span_3 = ClassName "xl\:col-span-3"
+col_span_3 = ClassName "xl\\:col-span-3"
 
 col_span_4 :: ClassName
-col_span_4 = ClassName "xl\:col-span-4"
+col_span_4 = ClassName "xl\\:col-span-4"
 
 col_span_5 :: ClassName
-col_span_5 = ClassName "xl\:col-span-5"
+col_span_5 = ClassName "xl\\:col-span-5"
 
 col_span_6 :: ClassName
-col_span_6 = ClassName "xl\:col-span-6"
+col_span_6 = ClassName "xl\\:col-span-6"
 
 col_span_7 :: ClassName
-col_span_7 = ClassName "xl\:col-span-7"
+col_span_7 = ClassName "xl\\:col-span-7"
 
 col_span_8 :: ClassName
-col_span_8 = ClassName "xl\:col-span-8"
+col_span_8 = ClassName "xl\\:col-span-8"
 
 col_span_9 :: ClassName
-col_span_9 = ClassName "xl\:col-span-9"
+col_span_9 = ClassName "xl\\:col-span-9"
 
 col_start_1 :: ClassName
-col_start_1 = ClassName "xl\:col-start-1"
+col_start_1 = ClassName "xl\\:col-start-1"
 
 col_start_10 :: ClassName
-col_start_10 = ClassName "xl\:col-start-10"
+col_start_10 = ClassName "xl\\:col-start-10"
 
 col_start_11 :: ClassName
-col_start_11 = ClassName "xl\:col-start-11"
+col_start_11 = ClassName "xl\\:col-start-11"
 
 col_start_12 :: ClassName
-col_start_12 = ClassName "xl\:col-start-12"
+col_start_12 = ClassName "xl\\:col-start-12"
 
 col_start_13 :: ClassName
-col_start_13 = ClassName "xl\:col-start-13"
+col_start_13 = ClassName "xl\\:col-start-13"
 
 col_start_2 :: ClassName
-col_start_2 = ClassName "xl\:col-start-2"
+col_start_2 = ClassName "xl\\:col-start-2"
 
 col_start_3 :: ClassName
-col_start_3 = ClassName "xl\:col-start-3"
+col_start_3 = ClassName "xl\\:col-start-3"
 
 col_start_4 :: ClassName
-col_start_4 = ClassName "xl\:col-start-4"
+col_start_4 = ClassName "xl\\:col-start-4"
 
 col_start_5 :: ClassName
-col_start_5 = ClassName "xl\:col-start-5"
+col_start_5 = ClassName "xl\\:col-start-5"
 
 col_start_6 :: ClassName
-col_start_6 = ClassName "xl\:col-start-6"
+col_start_6 = ClassName "xl\\:col-start-6"
 
 col_start_7 :: ClassName
-col_start_7 = ClassName "xl\:col-start-7"
+col_start_7 = ClassName "xl\\:col-start-7"
 
 col_start_8 :: ClassName
-col_start_8 = ClassName "xl\:col-start-8"
+col_start_8 = ClassName "xl\\:col-start-8"
 
 col_start_9 :: ClassName
-col_start_9 = ClassName "xl\:col-start-9"
+col_start_9 = ClassName "xl\\:col-start-9"
 
 col_start_auto :: ClassName
-col_start_auto = ClassName "xl\:col-start-auto"
+col_start_auto = ClassName "xl\\:col-start-auto"
 
 content_around :: ClassName
-content_around = ClassName "xl\:content-around"
+content_around = ClassName "xl\\:content-around"
 
 content_between :: ClassName
-content_between = ClassName "xl\:content-between"
+content_between = ClassName "xl\\:content-between"
 
 content_center :: ClassName
-content_center = ClassName "xl\:content-center"
+content_center = ClassName "xl\\:content-center"
 
 content_end :: ClassName
-content_end = ClassName "xl\:content-end"
+content_end = ClassName "xl\\:content-end"
 
 content_start :: ClassName
-content_start = ClassName "xl\:content-start"
+content_start = ClassName "xl\\:content-start"
 
 cursor_auto :: ClassName
-cursor_auto = ClassName "xl\:cursor-auto"
+cursor_auto = ClassName "xl\\:cursor-auto"
 
 cursor_default :: ClassName
-cursor_default = ClassName "xl\:cursor-default"
+cursor_default = ClassName "xl\\:cursor-default"
 
 cursor_move :: ClassName
-cursor_move = ClassName "xl\:cursor-move"
+cursor_move = ClassName "xl\\:cursor-move"
 
 cursor_not_allowed :: ClassName
-cursor_not_allowed = ClassName "xl\:cursor-not-allowed"
+cursor_not_allowed = ClassName "xl\\:cursor-not-allowed"
 
 cursor_pointer :: ClassName
-cursor_pointer = ClassName "xl\:cursor-pointer"
+cursor_pointer = ClassName "xl\\:cursor-pointer"
 
 cursor_text :: ClassName
-cursor_text = ClassName "xl\:cursor-text"
+cursor_text = ClassName "xl\\:cursor-text"
 
 cursor_wait :: ClassName
-cursor_wait = ClassName "xl\:cursor-wait"
+cursor_wait = ClassName "xl\\:cursor-wait"
 
 delay_100 :: ClassName
-delay_100 = ClassName "xl\:delay-100"
+delay_100 = ClassName "xl\\:delay-100"
 
 delay_1000 :: ClassName
-delay_1000 = ClassName "xl\:delay-1000"
+delay_1000 = ClassName "xl\\:delay-1000"
 
 delay_150 :: ClassName
-delay_150 = ClassName "xl\:delay-150"
+delay_150 = ClassName "xl\\:delay-150"
 
 delay_200 :: ClassName
-delay_200 = ClassName "xl\:delay-200"
+delay_200 = ClassName "xl\\:delay-200"
 
 delay_300 :: ClassName
-delay_300 = ClassName "xl\:delay-300"
+delay_300 = ClassName "xl\\:delay-300"
 
 delay_500 :: ClassName
-delay_500 = ClassName "xl\:delay-500"
+delay_500 = ClassName "xl\\:delay-500"
 
 delay_700 :: ClassName
-delay_700 = ClassName "xl\:delay-700"
+delay_700 = ClassName "xl\\:delay-700"
 
 delay_75 :: ClassName
-delay_75 = ClassName "xl\:delay-75"
+delay_75 = ClassName "xl\\:delay-75"
 
 divide_black :: ClassName
-divide_black = ClassName "xl\:divide-black"
+divide_black = ClassName "xl\\:divide-black"
 
 divide_black_10 :: ClassName
-divide_black_10 = ClassName "xl\:divide-black-10"
+divide_black_10 = ClassName "xl\\:divide-black-10"
 
 divide_black_20 :: ClassName
-divide_black_20 = ClassName "xl\:divide-black-20"
+divide_black_20 = ClassName "xl\\:divide-black-20"
 
 divide_black_modal_a90 :: ClassName
-divide_black_modal_a90 = ClassName "xl\:divide-black-modal-a90"
+divide_black_modal_a90 = ClassName "xl\\:divide-black-modal-a90"
 
 divide_blue_100 :: ClassName
-divide_blue_100 = ClassName "xl\:divide-blue-100"
+divide_blue_100 = ClassName "xl\\:divide-blue-100"
 
 divide_blue_200 :: ClassName
-divide_blue_200 = ClassName "xl\:divide-blue-200"
+divide_blue_200 = ClassName "xl\\:divide-blue-200"
 
 divide_blue_300 :: ClassName
-divide_blue_300 = ClassName "xl\:divide-blue-300"
+divide_blue_300 = ClassName "xl\\:divide-blue-300"
 
 divide_blue_400 :: ClassName
-divide_blue_400 = ClassName "xl\:divide-blue-400"
+divide_blue_400 = ClassName "xl\\:divide-blue-400"
 
 divide_blue_500 :: ClassName
-divide_blue_500 = ClassName "xl\:divide-blue-500"
+divide_blue_500 = ClassName "xl\\:divide-blue-500"
 
 divide_blue_600 :: ClassName
-divide_blue_600 = ClassName "xl\:divide-blue-600"
+divide_blue_600 = ClassName "xl\\:divide-blue-600"
 
 divide_blue_65 :: ClassName
-divide_blue_65 = ClassName "xl\:divide-blue-65"
+divide_blue_65 = ClassName "xl\\:divide-blue-65"
 
 divide_blue_700 :: ClassName
-divide_blue_700 = ClassName "xl\:divide-blue-700"
+divide_blue_700 = ClassName "xl\\:divide-blue-700"
 
 divide_blue_75 :: ClassName
-divide_blue_75 = ClassName "xl\:divide-blue-75"
+divide_blue_75 = ClassName "xl\\:divide-blue-75"
 
 divide_blue_800 :: ClassName
-divide_blue_800 = ClassName "xl\:divide-blue-800"
+divide_blue_800 = ClassName "xl\\:divide-blue-800"
 
 divide_blue_82 :: ClassName
-divide_blue_82 = ClassName "xl\:divide-blue-82"
+divide_blue_82 = ClassName "xl\\:divide-blue-82"
 
 divide_blue_88 :: ClassName
-divide_blue_88 = ClassName "xl\:divide-blue-88"
+divide_blue_88 = ClassName "xl\\:divide-blue-88"
 
 divide_blue_900 :: ClassName
-divide_blue_900 = ClassName "xl\:divide-blue-900"
+divide_blue_900 = ClassName "xl\\:divide-blue-900"
 
 divide_current :: ClassName
-divide_current = ClassName "xl\:divide-current"
+divide_current = ClassName "xl\\:divide-current"
 
 divide_fb_blue :: ClassName
-divide_fb_blue = ClassName "xl\:divide-fb-blue"
+divide_fb_blue = ClassName "xl\\:divide-fb-blue"
 
 divide_gray_100 :: ClassName
-divide_gray_100 = ClassName "xl\:divide-gray-100"
+divide_gray_100 = ClassName "xl\\:divide-gray-100"
 
 divide_gray_200 :: ClassName
-divide_gray_200 = ClassName "xl\:divide-gray-200"
+divide_gray_200 = ClassName "xl\\:divide-gray-200"
 
 divide_gray_300 :: ClassName
-divide_gray_300 = ClassName "xl\:divide-gray-300"
+divide_gray_300 = ClassName "xl\\:divide-gray-300"
 
 divide_gray_400 :: ClassName
-divide_gray_400 = ClassName "xl\:divide-gray-400"
+divide_gray_400 = ClassName "xl\\:divide-gray-400"
 
 divide_gray_500 :: ClassName
-divide_gray_500 = ClassName "xl\:divide-gray-500"
+divide_gray_500 = ClassName "xl\\:divide-gray-500"
 
 divide_gray_600 :: ClassName
-divide_gray_600 = ClassName "xl\:divide-gray-600"
+divide_gray_600 = ClassName "xl\\:divide-gray-600"
 
 divide_gray_700 :: ClassName
-divide_gray_700 = ClassName "xl\:divide-gray-700"
+divide_gray_700 = ClassName "xl\\:divide-gray-700"
 
 divide_gray_800 :: ClassName
-divide_gray_800 = ClassName "xl\:divide-gray-800"
+divide_gray_800 = ClassName "xl\\:divide-gray-800"
 
 divide_gray_900 :: ClassName
-divide_gray_900 = ClassName "xl\:divide-gray-900"
+divide_gray_900 = ClassName "xl\\:divide-gray-900"
 
 divide_green :: ClassName
-divide_green = ClassName "xl\:divide-green"
+divide_green = ClassName "xl\\:divide-green"
 
 divide_grey_50 :: ClassName
-divide_grey_50 = ClassName "xl\:divide-grey-50"
+divide_grey_50 = ClassName "xl\\:divide-grey-50"
 
 divide_grey_50_a20 :: ClassName
-divide_grey_50_a20 = ClassName "xl\:divide-grey-50-a20"
+divide_grey_50_a20 = ClassName "xl\\:divide-grey-50-a20"
 
 divide_grey_50_a30 :: ClassName
-divide_grey_50_a30 = ClassName "xl\:divide-grey-50-a30"
+divide_grey_50_a30 = ClassName "xl\\:divide-grey-50-a30"
 
 divide_grey_50_a80 :: ClassName
-divide_grey_50_a80 = ClassName "xl\:divide-grey-50-a80"
+divide_grey_50_a80 = ClassName "xl\\:divide-grey-50-a80"
 
 divide_grey_50_a90 :: ClassName
-divide_grey_50_a90 = ClassName "xl\:divide-grey-50-a90"
+divide_grey_50_a90 = ClassName "xl\\:divide-grey-50-a90"
 
 divide_grey_70 :: ClassName
-divide_grey_70 = ClassName "xl\:divide-grey-70"
+divide_grey_70 = ClassName "xl\\:divide-grey-70"
 
 divide_grey_70_a30 :: ClassName
-divide_grey_70_a30 = ClassName "xl\:divide-grey-70-a30"
+divide_grey_70_a30 = ClassName "xl\\:divide-grey-70-a30"
 
 divide_grey_70_a40 :: ClassName
-divide_grey_70_a40 = ClassName "xl\:divide-grey-70-a40"
+divide_grey_70_a40 = ClassName "xl\\:divide-grey-70-a40"
 
 divide_grey_80 :: ClassName
-divide_grey_80 = ClassName "xl\:divide-grey-80"
+divide_grey_80 = ClassName "xl\\:divide-grey-80"
 
 divide_grey_90 :: ClassName
-divide_grey_90 = ClassName "xl\:divide-grey-90"
+divide_grey_90 = ClassName "xl\\:divide-grey-90"
 
 divide_grey_95 :: ClassName
-divide_grey_95 = ClassName "xl\:divide-grey-95"
+divide_grey_95 = ClassName "xl\\:divide-grey-95"
 
 divide_grey_97 :: ClassName
-divide_grey_97 = ClassName "xl\:divide-grey-97"
+divide_grey_97 = ClassName "xl\\:divide-grey-97"
 
 divide_ig_brown :: ClassName
-divide_ig_brown = ClassName "xl\:divide-ig-brown"
+divide_ig_brown = ClassName "xl\\:divide-ig-brown"
 
 divide_indigo_100 :: ClassName
-divide_indigo_100 = ClassName "xl\:divide-indigo-100"
+divide_indigo_100 = ClassName "xl\\:divide-indigo-100"
 
 divide_indigo_200 :: ClassName
-divide_indigo_200 = ClassName "xl\:divide-indigo-200"
+divide_indigo_200 = ClassName "xl\\:divide-indigo-200"
 
 divide_indigo_300 :: ClassName
-divide_indigo_300 = ClassName "xl\:divide-indigo-300"
+divide_indigo_300 = ClassName "xl\\:divide-indigo-300"
 
 divide_indigo_400 :: ClassName
-divide_indigo_400 = ClassName "xl\:divide-indigo-400"
+divide_indigo_400 = ClassName "xl\\:divide-indigo-400"
 
 divide_indigo_500 :: ClassName
-divide_indigo_500 = ClassName "xl\:divide-indigo-500"
+divide_indigo_500 = ClassName "xl\\:divide-indigo-500"
 
 divide_indigo_600 :: ClassName
-divide_indigo_600 = ClassName "xl\:divide-indigo-600"
+divide_indigo_600 = ClassName "xl\\:divide-indigo-600"
 
 divide_indigo_700 :: ClassName
-divide_indigo_700 = ClassName "xl\:divide-indigo-700"
+divide_indigo_700 = ClassName "xl\\:divide-indigo-700"
 
 divide_indigo_800 :: ClassName
-divide_indigo_800 = ClassName "xl\:divide-indigo-800"
+divide_indigo_800 = ClassName "xl\\:divide-indigo-800"
 
 divide_indigo_900 :: ClassName
-divide_indigo_900 = ClassName "xl\:divide-indigo-900"
+divide_indigo_900 = ClassName "xl\\:divide-indigo-900"
 
 divide_opacity_0 :: ClassName
-divide_opacity_0 = ClassName "xl\:divide-opacity-0"
+divide_opacity_0 = ClassName "xl\\:divide-opacity-0"
 
 divide_opacity_100 :: ClassName
-divide_opacity_100 = ClassName "xl\:divide-opacity-100"
+divide_opacity_100 = ClassName "xl\\:divide-opacity-100"
 
 divide_opacity_25 :: ClassName
-divide_opacity_25 = ClassName "xl\:divide-opacity-25"
+divide_opacity_25 = ClassName "xl\\:divide-opacity-25"
 
 divide_opacity_50 :: ClassName
-divide_opacity_50 = ClassName "xl\:divide-opacity-50"
+divide_opacity_50 = ClassName "xl\\:divide-opacity-50"
 
 divide_opacity_75 :: ClassName
-divide_opacity_75 = ClassName "xl\:divide-opacity-75"
+divide_opacity_75 = ClassName "xl\\:divide-opacity-75"
 
 divide_orange_100 :: ClassName
-divide_orange_100 = ClassName "xl\:divide-orange-100"
+divide_orange_100 = ClassName "xl\\:divide-orange-100"
 
 divide_orange_200 :: ClassName
-divide_orange_200 = ClassName "xl\:divide-orange-200"
+divide_orange_200 = ClassName "xl\\:divide-orange-200"
 
 divide_orange_300 :: ClassName
-divide_orange_300 = ClassName "xl\:divide-orange-300"
+divide_orange_300 = ClassName "xl\\:divide-orange-300"
 
 divide_orange_400 :: ClassName
-divide_orange_400 = ClassName "xl\:divide-orange-400"
+divide_orange_400 = ClassName "xl\\:divide-orange-400"
 
 divide_orange_500 :: ClassName
-divide_orange_500 = ClassName "xl\:divide-orange-500"
+divide_orange_500 = ClassName "xl\\:divide-orange-500"
 
 divide_orange_600 :: ClassName
-divide_orange_600 = ClassName "xl\:divide-orange-600"
+divide_orange_600 = ClassName "xl\\:divide-orange-600"
 
 divide_orange_700 :: ClassName
-divide_orange_700 = ClassName "xl\:divide-orange-700"
+divide_orange_700 = ClassName "xl\\:divide-orange-700"
 
 divide_orange_800 :: ClassName
-divide_orange_800 = ClassName "xl\:divide-orange-800"
+divide_orange_800 = ClassName "xl\\:divide-orange-800"
 
 divide_orange_900 :: ClassName
-divide_orange_900 = ClassName "xl\:divide-orange-900"
+divide_orange_900 = ClassName "xl\\:divide-orange-900"
 
 divide_pink_100 :: ClassName
-divide_pink_100 = ClassName "xl\:divide-pink-100"
+divide_pink_100 = ClassName "xl\\:divide-pink-100"
 
 divide_pink_200 :: ClassName
-divide_pink_200 = ClassName "xl\:divide-pink-200"
+divide_pink_200 = ClassName "xl\\:divide-pink-200"
 
 divide_pink_300 :: ClassName
-divide_pink_300 = ClassName "xl\:divide-pink-300"
+divide_pink_300 = ClassName "xl\\:divide-pink-300"
 
 divide_pink_400 :: ClassName
-divide_pink_400 = ClassName "xl\:divide-pink-400"
+divide_pink_400 = ClassName "xl\\:divide-pink-400"
 
 divide_pink_500 :: ClassName
-divide_pink_500 = ClassName "xl\:divide-pink-500"
+divide_pink_500 = ClassName "xl\\:divide-pink-500"
 
 divide_pink_600 :: ClassName
-divide_pink_600 = ClassName "xl\:divide-pink-600"
+divide_pink_600 = ClassName "xl\\:divide-pink-600"
 
 divide_pink_700 :: ClassName
-divide_pink_700 = ClassName "xl\:divide-pink-700"
+divide_pink_700 = ClassName "xl\\:divide-pink-700"
 
 divide_pink_800 :: ClassName
-divide_pink_800 = ClassName "xl\:divide-pink-800"
+divide_pink_800 = ClassName "xl\\:divide-pink-800"
 
 divide_pink_900 :: ClassName
-divide_pink_900 = ClassName "xl\:divide-pink-900"
+divide_pink_900 = ClassName "xl\\:divide-pink-900"
 
 divide_purple_100 :: ClassName
-divide_purple_100 = ClassName "xl\:divide-purple-100"
+divide_purple_100 = ClassName "xl\\:divide-purple-100"
 
 divide_purple_200 :: ClassName
-divide_purple_200 = ClassName "xl\:divide-purple-200"
+divide_purple_200 = ClassName "xl\\:divide-purple-200"
 
 divide_purple_300 :: ClassName
-divide_purple_300 = ClassName "xl\:divide-purple-300"
+divide_purple_300 = ClassName "xl\\:divide-purple-300"
 
 divide_purple_400 :: ClassName
-divide_purple_400 = ClassName "xl\:divide-purple-400"
+divide_purple_400 = ClassName "xl\\:divide-purple-400"
 
 divide_purple_500 :: ClassName
-divide_purple_500 = ClassName "xl\:divide-purple-500"
+divide_purple_500 = ClassName "xl\\:divide-purple-500"
 
 divide_purple_600 :: ClassName
-divide_purple_600 = ClassName "xl\:divide-purple-600"
+divide_purple_600 = ClassName "xl\\:divide-purple-600"
 
 divide_purple_700 :: ClassName
-divide_purple_700 = ClassName "xl\:divide-purple-700"
+divide_purple_700 = ClassName "xl\\:divide-purple-700"
 
 divide_purple_800 :: ClassName
-divide_purple_800 = ClassName "xl\:divide-purple-800"
+divide_purple_800 = ClassName "xl\\:divide-purple-800"
 
 divide_purple_900 :: ClassName
-divide_purple_900 = ClassName "xl\:divide-purple-900"
+divide_purple_900 = ClassName "xl\\:divide-purple-900"
 
 divide_red :: ClassName
-divide_red = ClassName "xl\:divide-red"
+divide_red = ClassName "xl\\:divide-red"
 
 divide_steel_100 :: ClassName
-divide_steel_100 = ClassName "xl\:divide-steel-100"
+divide_steel_100 = ClassName "xl\\:divide-steel-100"
 
 divide_steel_75 :: ClassName
-divide_steel_75 = ClassName "xl\:divide-steel-75"
+divide_steel_75 = ClassName "xl\\:divide-steel-75"
 
 divide_steel_85 :: ClassName
-divide_steel_85 = ClassName "xl\:divide-steel-85"
+divide_steel_85 = ClassName "xl\\:divide-steel-85"
 
 divide_teal_100 :: ClassName
-divide_teal_100 = ClassName "xl\:divide-teal-100"
+divide_teal_100 = ClassName "xl\\:divide-teal-100"
 
 divide_teal_200 :: ClassName
-divide_teal_200 = ClassName "xl\:divide-teal-200"
+divide_teal_200 = ClassName "xl\\:divide-teal-200"
 
 divide_teal_300 :: ClassName
-divide_teal_300 = ClassName "xl\:divide-teal-300"
+divide_teal_300 = ClassName "xl\\:divide-teal-300"
 
 divide_teal_400 :: ClassName
-divide_teal_400 = ClassName "xl\:divide-teal-400"
+divide_teal_400 = ClassName "xl\\:divide-teal-400"
 
 divide_teal_500 :: ClassName
-divide_teal_500 = ClassName "xl\:divide-teal-500"
+divide_teal_500 = ClassName "xl\\:divide-teal-500"
 
 divide_teal_600 :: ClassName
-divide_teal_600 = ClassName "xl\:divide-teal-600"
+divide_teal_600 = ClassName "xl\\:divide-teal-600"
 
 divide_teal_700 :: ClassName
-divide_teal_700 = ClassName "xl\:divide-teal-700"
+divide_teal_700 = ClassName "xl\\:divide-teal-700"
 
 divide_teal_800 :: ClassName
-divide_teal_800 = ClassName "xl\:divide-teal-800"
+divide_teal_800 = ClassName "xl\\:divide-teal-800"
 
 divide_teal_900 :: ClassName
-divide_teal_900 = ClassName "xl\:divide-teal-900"
+divide_teal_900 = ClassName "xl\\:divide-teal-900"
 
 divide_transparent :: ClassName
-divide_transparent = ClassName "xl\:divide-transparent"
+divide_transparent = ClassName "xl\\:divide-transparent"
 
 divide_tw_blue :: ClassName
-divide_tw_blue = ClassName "xl\:divide-tw-blue"
+divide_tw_blue = ClassName "xl\\:divide-tw-blue"
 
 divide_white :: ClassName
-divide_white = ClassName "xl\:divide-white"
+divide_white = ClassName "xl\\:divide-white"
 
 divide_x :: ClassName
-divide_x = ClassName "xl\:divide-x"
+divide_x = ClassName "xl\\:divide-x"
 
 divide_x_0 :: ClassName
-divide_x_0 = ClassName "xl\:divide-x-0"
+divide_x_0 = ClassName "xl\\:divide-x-0"
 
 divide_x_2 :: ClassName
-divide_x_2 = ClassName "xl\:divide-x-2"
+divide_x_2 = ClassName "xl\\:divide-x-2"
 
 divide_x_3 :: ClassName
-divide_x_3 = ClassName "xl\:divide-x-3"
+divide_x_3 = ClassName "xl\\:divide-x-3"
 
 divide_x_4 :: ClassName
-divide_x_4 = ClassName "xl\:divide-x-4"
+divide_x_4 = ClassName "xl\\:divide-x-4"
 
 divide_x_8 :: ClassName
-divide_x_8 = ClassName "xl\:divide-x-8"
+divide_x_8 = ClassName "xl\\:divide-x-8"
 
 divide_x_reverse :: ClassName
-divide_x_reverse = ClassName "xl\:divide-x-reverse"
+divide_x_reverse = ClassName "xl\\:divide-x-reverse"
 
 divide_y :: ClassName
-divide_y = ClassName "xl\:divide-y"
+divide_y = ClassName "xl\\:divide-y"
 
 divide_y_0 :: ClassName
-divide_y_0 = ClassName "xl\:divide-y-0"
+divide_y_0 = ClassName "xl\\:divide-y-0"
 
 divide_y_2 :: ClassName
-divide_y_2 = ClassName "xl\:divide-y-2"
+divide_y_2 = ClassName "xl\\:divide-y-2"
 
 divide_y_3 :: ClassName
-divide_y_3 = ClassName "xl\:divide-y-3"
+divide_y_3 = ClassName "xl\\:divide-y-3"
 
 divide_y_4 :: ClassName
-divide_y_4 = ClassName "xl\:divide-y-4"
+divide_y_4 = ClassName "xl\\:divide-y-4"
 
 divide_y_8 :: ClassName
-divide_y_8 = ClassName "xl\:divide-y-8"
+divide_y_8 = ClassName "xl\\:divide-y-8"
 
 divide_y_reverse :: ClassName
-divide_y_reverse = ClassName "xl\:divide-y-reverse"
+divide_y_reverse = ClassName "xl\\:divide-y-reverse"
 
 divide_yellow :: ClassName
-divide_yellow = ClassName "xl\:divide-yellow"
+divide_yellow = ClassName "xl\\:divide-yellow"
 
 duration_100 :: ClassName
-duration_100 = ClassName "xl\:duration-100"
+duration_100 = ClassName "xl\\:duration-100"
 
 duration_1000 :: ClassName
-duration_1000 = ClassName "xl\:duration-1000"
+duration_1000 = ClassName "xl\\:duration-1000"
 
 duration_150 :: ClassName
-duration_150 = ClassName "xl\:duration-150"
+duration_150 = ClassName "xl\\:duration-150"
 
 duration_200 :: ClassName
-duration_200 = ClassName "xl\:duration-200"
+duration_200 = ClassName "xl\\:duration-200"
 
 duration_300 :: ClassName
-duration_300 = ClassName "xl\:duration-300"
+duration_300 = ClassName "xl\\:duration-300"
 
 duration_500 :: ClassName
-duration_500 = ClassName "xl\:duration-500"
+duration_500 = ClassName "xl\\:duration-500"
 
 duration_700 :: ClassName
-duration_700 = ClassName "xl\:duration-700"
+duration_700 = ClassName "xl\\:duration-700"
 
 duration_75 :: ClassName
-duration_75 = ClassName "xl\:duration-75"
+duration_75 = ClassName "xl\\:duration-75"
 
 ease_in :: ClassName
-ease_in = ClassName "xl\:ease-in"
+ease_in = ClassName "xl\\:ease-in"
 
 ease_in_out :: ClassName
-ease_in_out = ClassName "xl\:ease-in-out"
+ease_in_out = ClassName "xl\\:ease-in-out"
 
 ease_linear :: ClassName
-ease_linear = ClassName "xl\:ease-linear"
+ease_linear = ClassName "xl\\:ease-linear"
 
 ease_out :: ClassName
-ease_out = ClassName "xl\:ease-out"
+ease_out = ClassName "xl\\:ease-out"
 
 fill_current :: ClassName
-fill_current = ClassName "xl\:fill-current"
+fill_current = ClassName "xl\\:fill-current"
 
 fixed :: ClassName
-fixed = ClassName "xl\:fixed"
+fixed = ClassName "xl\\:fixed"
 
 flex :: ClassName
-flex = ClassName "xl\:flex"
+flex = ClassName "xl\\:flex"
 
 flex_1 :: ClassName
-flex_1 = ClassName "xl\:flex-1"
+flex_1 = ClassName "xl\\:flex-1"
 
 flex_auto :: ClassName
-flex_auto = ClassName "xl\:flex-auto"
+flex_auto = ClassName "xl\\:flex-auto"
 
 flex_col :: ClassName
-flex_col = ClassName "xl\:flex-col"
+flex_col = ClassName "xl\\:flex-col"
 
 flex_col_reverse :: ClassName
-flex_col_reverse = ClassName "xl\:flex-col-reverse"
+flex_col_reverse = ClassName "xl\\:flex-col-reverse"
 
 flex_grow :: ClassName
-flex_grow = ClassName "xl\:flex-grow"
+flex_grow = ClassName "xl\\:flex-grow"
 
 flex_grow_0 :: ClassName
-flex_grow_0 = ClassName "xl\:flex-grow-0"
+flex_grow_0 = ClassName "xl\\:flex-grow-0"
 
 flex_initial :: ClassName
-flex_initial = ClassName "xl\:flex-initial"
+flex_initial = ClassName "xl\\:flex-initial"
 
 flex_no_wrap :: ClassName
-flex_no_wrap = ClassName "xl\:flex-no-wrap"
+flex_no_wrap = ClassName "xl\\:flex-no-wrap"
 
 flex_none :: ClassName
-flex_none = ClassName "xl\:flex-none"
+flex_none = ClassName "xl\\:flex-none"
 
 flex_row :: ClassName
-flex_row = ClassName "xl\:flex-row"
+flex_row = ClassName "xl\\:flex-row"
 
 flex_row_reverse :: ClassName
-flex_row_reverse = ClassName "xl\:flex-row-reverse"
+flex_row_reverse = ClassName "xl\\:flex-row-reverse"
 
 flex_shrink :: ClassName
-flex_shrink = ClassName "xl\:flex-shrink"
+flex_shrink = ClassName "xl\\:flex-shrink"
 
 flex_shrink_0 :: ClassName
-flex_shrink_0 = ClassName "xl\:flex-shrink-0"
+flex_shrink_0 = ClassName "xl\\:flex-shrink-0"
 
 flex_wrap :: ClassName
-flex_wrap = ClassName "xl\:flex-wrap"
+flex_wrap = ClassName "xl\\:flex-wrap"
 
 flex_wrap_reverse :: ClassName
-flex_wrap_reverse = ClassName "xl\:flex-wrap-reverse"
+flex_wrap_reverse = ClassName "xl\\:flex-wrap-reverse"
 
 float_left :: ClassName
-float_left = ClassName "xl\:float-left"
+float_left = ClassName "xl\\:float-left"
 
 float_none :: ClassName
-float_none = ClassName "xl\:float-none"
+float_none = ClassName "xl\\:float-none"
 
 float_right :: ClassName
-float_right = ClassName "xl\:float-right"
+float_right = ClassName "xl\\:float-right"
 
 flow_root :: ClassName
-flow_root = ClassName "xl\:flow-root"
+flow_root = ClassName "xl\\:flow-root"
 
 font_black :: ClassName
-font_black = ClassName "xl\:font-black"
+font_black = ClassName "xl\\:font-black"
 
 font_bold :: ClassName
-font_bold = ClassName "xl\:font-bold"
+font_bold = ClassName "xl\\:font-bold"
 
 font_extrabold :: ClassName
-font_extrabold = ClassName "xl\:font-extrabold"
+font_extrabold = ClassName "xl\\:font-extrabold"
 
 font_hairline :: ClassName
-font_hairline = ClassName "xl\:font-hairline"
+font_hairline = ClassName "xl\\:font-hairline"
 
 font_light :: ClassName
-font_light = ClassName "xl\:font-light"
+font_light = ClassName "xl\\:font-light"
 
 font_medium :: ClassName
-font_medium = ClassName "xl\:font-medium"
+font_medium = ClassName "xl\\:font-medium"
 
 font_mono :: ClassName
-font_mono = ClassName "xl\:font-mono"
+font_mono = ClassName "xl\\:font-mono"
 
 font_normal :: ClassName
-font_normal = ClassName "xl\:font-normal"
+font_normal = ClassName "xl\\:font-normal"
 
 font_sans :: ClassName
-font_sans = ClassName "xl\:font-sans"
+font_sans = ClassName "xl\\:font-sans"
 
 font_semibold :: ClassName
-font_semibold = ClassName "xl\:font-semibold"
+font_semibold = ClassName "xl\\:font-semibold"
 
 font_serif :: ClassName
-font_serif = ClassName "xl\:font-serif"
+font_serif = ClassName "xl\\:font-serif"
 
 font_thin :: ClassName
-font_thin = ClassName "xl\:font-thin"
+font_thin = ClassName "xl\\:font-thin"
 
 gap_0 :: ClassName
-gap_0 = ClassName "xl\:gap-0"
+gap_0 = ClassName "xl\\:gap-0"
 
 gap_1 :: ClassName
-gap_1 = ClassName "xl\:gap-1"
+gap_1 = ClassName "xl\\:gap-1"
 
 gap_10 :: ClassName
-gap_10 = ClassName "xl\:gap-10"
+gap_10 = ClassName "xl\\:gap-10"
 
 gap_12 :: ClassName
-gap_12 = ClassName "xl\:gap-12"
+gap_12 = ClassName "xl\\:gap-12"
 
 gap_120 :: ClassName
-gap_120 = ClassName "xl\:gap-120"
+gap_120 = ClassName "xl\\:gap-120"
 
 gap_14 :: ClassName
-gap_14 = ClassName "xl\:gap-14"
+gap_14 = ClassName "xl\\:gap-14"
 
 gap_16 :: ClassName
-gap_16 = ClassName "xl\:gap-16"
+gap_16 = ClassName "xl\\:gap-16"
 
 gap_160 :: ClassName
-gap_160 = ClassName "xl\:gap-160"
+gap_160 = ClassName "xl\\:gap-160"
 
 gap_2 :: ClassName
-gap_2 = ClassName "xl\:gap-2"
+gap_2 = ClassName "xl\\:gap-2"
 
 gap_20 :: ClassName
-gap_20 = ClassName "xl\:gap-20"
+gap_20 = ClassName "xl\\:gap-20"
 
 gap_24 :: ClassName
-gap_24 = ClassName "xl\:gap-24"
+gap_24 = ClassName "xl\\:gap-24"
 
 gap_3 :: ClassName
-gap_3 = ClassName "xl\:gap-3"
+gap_3 = ClassName "xl\\:gap-3"
 
 gap_30 :: ClassName
-gap_30 = ClassName "xl\:gap-30"
+gap_30 = ClassName "xl\\:gap-30"
 
 gap_32 :: ClassName
-gap_32 = ClassName "xl\:gap-32"
+gap_32 = ClassName "xl\\:gap-32"
 
 gap_4 :: ClassName
-gap_4 = ClassName "xl\:gap-4"
+gap_4 = ClassName "xl\\:gap-4"
 
 gap_40 :: ClassName
-gap_40 = ClassName "xl\:gap-40"
+gap_40 = ClassName "xl\\:gap-40"
 
 gap_48 :: ClassName
-gap_48 = ClassName "xl\:gap-48"
+gap_48 = ClassName "xl\\:gap-48"
 
 gap_5 :: ClassName
-gap_5 = ClassName "xl\:gap-5"
+gap_5 = ClassName "xl\\:gap-5"
 
 gap_50 :: ClassName
-gap_50 = ClassName "xl\:gap-50"
+gap_50 = ClassName "xl\\:gap-50"
 
 gap_56 :: ClassName
-gap_56 = ClassName "xl\:gap-56"
+gap_56 = ClassName "xl\\:gap-56"
 
 gap_6 :: ClassName
-gap_6 = ClassName "xl\:gap-6"
+gap_6 = ClassName "xl\\:gap-6"
 
 gap_60 :: ClassName
-gap_60 = ClassName "xl\:gap-60"
+gap_60 = ClassName "xl\\:gap-60"
 
 gap_64 :: ClassName
-gap_64 = ClassName "xl\:gap-64"
+gap_64 = ClassName "xl\\:gap-64"
 
 gap_7 :: ClassName
-gap_7 = ClassName "xl\:gap-7"
+gap_7 = ClassName "xl\\:gap-7"
 
 gap_8 :: ClassName
-gap_8 = ClassName "xl\:gap-8"
+gap_8 = ClassName "xl\\:gap-8"
 
 gap_80 :: ClassName
-gap_80 = ClassName "xl\:gap-80"
+gap_80 = ClassName "xl\\:gap-80"
 
 gap_9 :: ClassName
-gap_9 = ClassName "xl\:gap-9"
+gap_9 = ClassName "xl\\:gap-9"
 
 gap_90 :: ClassName
-gap_90 = ClassName "xl\:gap-90"
+gap_90 = ClassName "xl\\:gap-90"
 
 gap_px :: ClassName
-gap_px = ClassName "xl\:gap-px"
+gap_px = ClassName "xl\\:gap-px"
 
 grid :: ClassName
-grid = ClassName "xl\:grid"
+grid = ClassName "xl\\:grid"
 
 grid_cols_1 :: ClassName
-grid_cols_1 = ClassName "xl\:grid-cols-1"
+grid_cols_1 = ClassName "xl\\:grid-cols-1"
 
 grid_cols_10 :: ClassName
-grid_cols_10 = ClassName "xl\:grid-cols-10"
+grid_cols_10 = ClassName "xl\\:grid-cols-10"
 
 grid_cols_11 :: ClassName
-grid_cols_11 = ClassName "xl\:grid-cols-11"
+grid_cols_11 = ClassName "xl\\:grid-cols-11"
 
 grid_cols_12 :: ClassName
-grid_cols_12 = ClassName "xl\:grid-cols-12"
+grid_cols_12 = ClassName "xl\\:grid-cols-12"
 
 grid_cols_2 :: ClassName
-grid_cols_2 = ClassName "xl\:grid-cols-2"
+grid_cols_2 = ClassName "xl\\:grid-cols-2"
 
 grid_cols_3 :: ClassName
-grid_cols_3 = ClassName "xl\:grid-cols-3"
+grid_cols_3 = ClassName "xl\\:grid-cols-3"
 
 grid_cols_4 :: ClassName
-grid_cols_4 = ClassName "xl\:grid-cols-4"
+grid_cols_4 = ClassName "xl\\:grid-cols-4"
 
 grid_cols_5 :: ClassName
-grid_cols_5 = ClassName "xl\:grid-cols-5"
+grid_cols_5 = ClassName "xl\\:grid-cols-5"
 
 grid_cols_6 :: ClassName
-grid_cols_6 = ClassName "xl\:grid-cols-6"
+grid_cols_6 = ClassName "xl\\:grid-cols-6"
 
 grid_cols_7 :: ClassName
-grid_cols_7 = ClassName "xl\:grid-cols-7"
+grid_cols_7 = ClassName "xl\\:grid-cols-7"
 
 grid_cols_8 :: ClassName
-grid_cols_8 = ClassName "xl\:grid-cols-8"
+grid_cols_8 = ClassName "xl\\:grid-cols-8"
 
 grid_cols_9 :: ClassName
-grid_cols_9 = ClassName "xl\:grid-cols-9"
+grid_cols_9 = ClassName "xl\\:grid-cols-9"
 
 grid_cols_none :: ClassName
-grid_cols_none = ClassName "xl\:grid-cols-none"
+grid_cols_none = ClassName "xl\\:grid-cols-none"
 
 grid_flow_col :: ClassName
-grid_flow_col = ClassName "xl\:grid-flow-col"
+grid_flow_col = ClassName "xl\\:grid-flow-col"
 
 grid_flow_col_dense :: ClassName
-grid_flow_col_dense = ClassName "xl\:grid-flow-col-dense"
+grid_flow_col_dense = ClassName "xl\\:grid-flow-col-dense"
 
 grid_flow_row :: ClassName
-grid_flow_row = ClassName "xl\:grid-flow-row"
+grid_flow_row = ClassName "xl\\:grid-flow-row"
 
 grid_flow_row_dense :: ClassName
-grid_flow_row_dense = ClassName "xl\:grid-flow-row-dense"
+grid_flow_row_dense = ClassName "xl\\:grid-flow-row-dense"
 
 grid_rows_1 :: ClassName
-grid_rows_1 = ClassName "xl\:grid-rows-1"
+grid_rows_1 = ClassName "xl\\:grid-rows-1"
 
 grid_rows_2 :: ClassName
-grid_rows_2 = ClassName "xl\:grid-rows-2"
+grid_rows_2 = ClassName "xl\\:grid-rows-2"
 
 grid_rows_3 :: ClassName
-grid_rows_3 = ClassName "xl\:grid-rows-3"
+grid_rows_3 = ClassName "xl\\:grid-rows-3"
 
 grid_rows_4 :: ClassName
-grid_rows_4 = ClassName "xl\:grid-rows-4"
+grid_rows_4 = ClassName "xl\\:grid-rows-4"
 
 grid_rows_5 :: ClassName
-grid_rows_5 = ClassName "xl\:grid-rows-5"
+grid_rows_5 = ClassName "xl\\:grid-rows-5"
 
 grid_rows_6 :: ClassName
-grid_rows_6 = ClassName "xl\:grid-rows-6"
+grid_rows_6 = ClassName "xl\\:grid-rows-6"
 
 grid_rows_none :: ClassName
-grid_rows_none = ClassName "xl\:grid-rows-none"
+grid_rows_none = ClassName "xl\\:grid-rows-none"
 
 h_0 :: ClassName
-h_0 = ClassName "xl\:h-0"
+h_0 = ClassName "xl\\:h-0"
 
 h_1 :: ClassName
-h_1 = ClassName "xl\:h-1"
+h_1 = ClassName "xl\\:h-1"
 
 h_10 :: ClassName
-h_10 = ClassName "xl\:h-10"
+h_10 = ClassName "xl\\:h-10"
 
 h_12 :: ClassName
-h_12 = ClassName "xl\:h-12"
+h_12 = ClassName "xl\\:h-12"
 
 h_120 :: ClassName
-h_120 = ClassName "xl\:h-120"
+h_120 = ClassName "xl\\:h-120"
 
 h_14 :: ClassName
-h_14 = ClassName "xl\:h-14"
+h_14 = ClassName "xl\\:h-14"
 
 h_16 :: ClassName
-h_16 = ClassName "xl\:h-16"
+h_16 = ClassName "xl\\:h-16"
 
 h_160 :: ClassName
-h_160 = ClassName "xl\:h-160"
+h_160 = ClassName "xl\\:h-160"
 
 h_2 :: ClassName
-h_2 = ClassName "xl\:h-2"
+h_2 = ClassName "xl\\:h-2"
 
 h_20 :: ClassName
-h_20 = ClassName "xl\:h-20"
+h_20 = ClassName "xl\\:h-20"
 
 h_24 :: ClassName
-h_24 = ClassName "xl\:h-24"
+h_24 = ClassName "xl\\:h-24"
 
 h_3 :: ClassName
-h_3 = ClassName "xl\:h-3"
+h_3 = ClassName "xl\\:h-3"
 
 h_30 :: ClassName
-h_30 = ClassName "xl\:h-30"
+h_30 = ClassName "xl\\:h-30"
 
 h_32 :: ClassName
-h_32 = ClassName "xl\:h-32"
+h_32 = ClassName "xl\\:h-32"
 
 h_4 :: ClassName
-h_4 = ClassName "xl\:h-4"
+h_4 = ClassName "xl\\:h-4"
 
 h_40 :: ClassName
-h_40 = ClassName "xl\:h-40"
+h_40 = ClassName "xl\\:h-40"
 
 h_48 :: ClassName
-h_48 = ClassName "xl\:h-48"
+h_48 = ClassName "xl\\:h-48"
 
 h_5 :: ClassName
-h_5 = ClassName "xl\:h-5"
+h_5 = ClassName "xl\\:h-5"
 
 h_50 :: ClassName
-h_50 = ClassName "xl\:h-50"
+h_50 = ClassName "xl\\:h-50"
 
 h_56 :: ClassName
-h_56 = ClassName "xl\:h-56"
+h_56 = ClassName "xl\\:h-56"
 
 h_6 :: ClassName
-h_6 = ClassName "xl\:h-6"
+h_6 = ClassName "xl\\:h-6"
 
 h_60 :: ClassName
-h_60 = ClassName "xl\:h-60"
+h_60 = ClassName "xl\\:h-60"
 
 h_64 :: ClassName
-h_64 = ClassName "xl\:h-64"
+h_64 = ClassName "xl\\:h-64"
 
 h_7 :: ClassName
-h_7 = ClassName "xl\:h-7"
+h_7 = ClassName "xl\\:h-7"
 
 h_8 :: ClassName
-h_8 = ClassName "xl\:h-8"
+h_8 = ClassName "xl\\:h-8"
 
 h_80 :: ClassName
-h_80 = ClassName "xl\:h-80"
+h_80 = ClassName "xl\\:h-80"
 
 h_9 :: ClassName
-h_9 = ClassName "xl\:h-9"
+h_9 = ClassName "xl\\:h-9"
 
 h_90 :: ClassName
-h_90 = ClassName "xl\:h-90"
+h_90 = ClassName "xl\\:h-90"
 
 h_auto :: ClassName
-h_auto = ClassName "xl\:h-auto"
+h_auto = ClassName "xl\\:h-auto"
 
 h_full :: ClassName
-h_full = ClassName "xl\:h-full"
+h_full = ClassName "xl\\:h-full"
 
 h_px :: ClassName
-h_px = ClassName "xl\:h-px"
+h_px = ClassName "xl\\:h-px"
 
 h_screen :: ClassName
-h_screen = ClassName "xl\:h-screen"
+h_screen = ClassName "xl\\:h-screen"
 
 hidden :: ClassName
-hidden = ClassName "xl\:hidden"
+hidden = ClassName "xl\\:hidden"
 
 inline :: ClassName
-inline = ClassName "xl\:inline"
+inline = ClassName "xl\\:inline"
 
 inline_block :: ClassName
-inline_block = ClassName "xl\:inline-block"
+inline_block = ClassName "xl\\:inline-block"
 
 inline_flex :: ClassName
-inline_flex = ClassName "xl\:inline-flex"
+inline_flex = ClassName "xl\\:inline-flex"
 
 inline_grid :: ClassName
-inline_grid = ClassName "xl\:inline-grid"
+inline_grid = ClassName "xl\\:inline-grid"
 
 inset_0 :: ClassName
-inset_0 = ClassName "xl\:inset-0"
+inset_0 = ClassName "xl\\:inset-0"
 
 inset_auto :: ClassName
-inset_auto = ClassName "xl\:inset-auto"
+inset_auto = ClassName "xl\\:inset-auto"
 
 inset_x_0 :: ClassName
-inset_x_0 = ClassName "xl\:inset-x-0"
+inset_x_0 = ClassName "xl\\:inset-x-0"
 
 inset_x_auto :: ClassName
-inset_x_auto = ClassName "xl\:inset-x-auto"
+inset_x_auto = ClassName "xl\\:inset-x-auto"
 
 inset_y_0 :: ClassName
-inset_y_0 = ClassName "xl\:inset-y-0"
+inset_y_0 = ClassName "xl\\:inset-y-0"
 
 inset_y_auto :: ClassName
-inset_y_auto = ClassName "xl\:inset-y-auto"
+inset_y_auto = ClassName "xl\\:inset-y-auto"
 
 invisible :: ClassName
-invisible = ClassName "xl\:invisible"
+invisible = ClassName "xl\\:invisible"
 
 italic :: ClassName
-italic = ClassName "xl\:italic"
+italic = ClassName "xl\\:italic"
 
 items_baseline :: ClassName
-items_baseline = ClassName "xl\:items-baseline"
+items_baseline = ClassName "xl\\:items-baseline"
 
 items_center :: ClassName
-items_center = ClassName "xl\:items-center"
+items_center = ClassName "xl\\:items-center"
 
 items_end :: ClassName
-items_end = ClassName "xl\:items-end"
+items_end = ClassName "xl\\:items-end"
 
 items_start :: ClassName
-items_start = ClassName "xl\:items-start"
+items_start = ClassName "xl\\:items-start"
 
 items_stretch :: ClassName
-items_stretch = ClassName "xl\:items-stretch"
+items_stretch = ClassName "xl\\:items-stretch"
 
 justify_around :: ClassName
-justify_around = ClassName "xl\:justify-around"
+justify_around = ClassName "xl\\:justify-around"
 
 justify_between :: ClassName
-justify_between = ClassName "xl\:justify-between"
+justify_between = ClassName "xl\\:justify-between"
 
 justify_center :: ClassName
-justify_center = ClassName "xl\:justify-center"
+justify_center = ClassName "xl\\:justify-center"
 
 justify_end :: ClassName
-justify_end = ClassName "xl\:justify-end"
+justify_end = ClassName "xl\\:justify-end"
 
 justify_evenly :: ClassName
-justify_evenly = ClassName "xl\:justify-evenly"
+justify_evenly = ClassName "xl\\:justify-evenly"
 
 justify_start :: ClassName
-justify_start = ClassName "xl\:justify-start"
+justify_start = ClassName "xl\\:justify-start"
 
 leading_10 :: ClassName
-leading_10 = ClassName "xl\:leading-10"
+leading_10 = ClassName "xl\\:leading-10"
 
 leading_3 :: ClassName
-leading_3 = ClassName "xl\:leading-3"
+leading_3 = ClassName "xl\\:leading-3"
 
 leading_4 :: ClassName
-leading_4 = ClassName "xl\:leading-4"
+leading_4 = ClassName "xl\\:leading-4"
 
 leading_5 :: ClassName
-leading_5 = ClassName "xl\:leading-5"
+leading_5 = ClassName "xl\\:leading-5"
 
 leading_6 :: ClassName
-leading_6 = ClassName "xl\:leading-6"
+leading_6 = ClassName "xl\\:leading-6"
 
 leading_7 :: ClassName
-leading_7 = ClassName "xl\:leading-7"
+leading_7 = ClassName "xl\\:leading-7"
 
 leading_8 :: ClassName
-leading_8 = ClassName "xl\:leading-8"
+leading_8 = ClassName "xl\\:leading-8"
 
 leading_9 :: ClassName
-leading_9 = ClassName "xl\:leading-9"
+leading_9 = ClassName "xl\\:leading-9"
 
 leading_loose :: ClassName
-leading_loose = ClassName "xl\:leading-loose"
+leading_loose = ClassName "xl\\:leading-loose"
 
 leading_none :: ClassName
-leading_none = ClassName "xl\:leading-none"
+leading_none = ClassName "xl\\:leading-none"
 
 leading_normal :: ClassName
-leading_normal = ClassName "xl\:leading-normal"
+leading_normal = ClassName "xl\\:leading-normal"
 
 leading_relaxed :: ClassName
-leading_relaxed = ClassName "xl\:leading-relaxed"
+leading_relaxed = ClassName "xl\\:leading-relaxed"
 
 leading_snug :: ClassName
-leading_snug = ClassName "xl\:leading-snug"
+leading_snug = ClassName "xl\\:leading-snug"
 
 leading_tight :: ClassName
-leading_tight = ClassName "xl\:leading-tight"
+leading_tight = ClassName "xl\\:leading-tight"
 
 left_0 :: ClassName
-left_0 = ClassName "xl\:left-0"
+left_0 = ClassName "xl\\:left-0"
 
 left_auto :: ClassName
-left_auto = ClassName "xl\:left-auto"
+left_auto = ClassName "xl\\:left-auto"
 
 line_through :: ClassName
-line_through = ClassName "xl\:line-through"
+line_through = ClassName "xl\\:line-through"
 
 list_decimal :: ClassName
-list_decimal = ClassName "xl\:list-decimal"
+list_decimal = ClassName "xl\\:list-decimal"
 
 list_disc :: ClassName
-list_disc = ClassName "xl\:list-disc"
+list_disc = ClassName "xl\\:list-disc"
 
 list_inside :: ClassName
-list_inside = ClassName "xl\:list-inside"
+list_inside = ClassName "xl\\:list-inside"
 
 list_none :: ClassName
-list_none = ClassName "xl\:list-none"
+list_none = ClassName "xl\\:list-none"
 
 list_outside :: ClassName
-list_outside = ClassName "xl\:list-outside"
+list_outside = ClassName "xl\\:list-outside"
 
 lowercase :: ClassName
-lowercase = ClassName "xl\:lowercase"
+lowercase = ClassName "xl\\:lowercase"
 
 m_0 :: ClassName
-m_0 = ClassName "xl\:m-0"
+m_0 = ClassName "xl\\:m-0"
 
 m_1 :: ClassName
-m_1 = ClassName "xl\:m-1"
+m_1 = ClassName "xl\\:m-1"
 
 m_10 :: ClassName
-m_10 = ClassName "xl\:m-10"
+m_10 = ClassName "xl\\:m-10"
 
 m_12 :: ClassName
-m_12 = ClassName "xl\:m-12"
+m_12 = ClassName "xl\\:m-12"
 
 m_120 :: ClassName
-m_120 = ClassName "xl\:m-120"
+m_120 = ClassName "xl\\:m-120"
 
 m_14 :: ClassName
-m_14 = ClassName "xl\:m-14"
+m_14 = ClassName "xl\\:m-14"
 
 m_16 :: ClassName
-m_16 = ClassName "xl\:m-16"
+m_16 = ClassName "xl\\:m-16"
 
 m_160 :: ClassName
-m_160 = ClassName "xl\:m-160"
+m_160 = ClassName "xl\\:m-160"
 
 m_2 :: ClassName
-m_2 = ClassName "xl\:m-2"
+m_2 = ClassName "xl\\:m-2"
 
 m_20 :: ClassName
-m_20 = ClassName "xl\:m-20"
+m_20 = ClassName "xl\\:m-20"
 
 m_24 :: ClassName
-m_24 = ClassName "xl\:m-24"
+m_24 = ClassName "xl\\:m-24"
 
 m_3 :: ClassName
-m_3 = ClassName "xl\:m-3"
+m_3 = ClassName "xl\\:m-3"
 
 m_30 :: ClassName
-m_30 = ClassName "xl\:m-30"
+m_30 = ClassName "xl\\:m-30"
 
 m_32 :: ClassName
-m_32 = ClassName "xl\:m-32"
+m_32 = ClassName "xl\\:m-32"
 
 m_4 :: ClassName
-m_4 = ClassName "xl\:m-4"
+m_4 = ClassName "xl\\:m-4"
 
 m_40 :: ClassName
-m_40 = ClassName "xl\:m-40"
+m_40 = ClassName "xl\\:m-40"
 
 m_48 :: ClassName
-m_48 = ClassName "xl\:m-48"
+m_48 = ClassName "xl\\:m-48"
 
 m_5 :: ClassName
-m_5 = ClassName "xl\:m-5"
+m_5 = ClassName "xl\\:m-5"
 
 m_50 :: ClassName
-m_50 = ClassName "xl\:m-50"
+m_50 = ClassName "xl\\:m-50"
 
 m_56 :: ClassName
-m_56 = ClassName "xl\:m-56"
+m_56 = ClassName "xl\\:m-56"
 
 m_6 :: ClassName
-m_6 = ClassName "xl\:m-6"
+m_6 = ClassName "xl\\:m-6"
 
 m_60 :: ClassName
-m_60 = ClassName "xl\:m-60"
+m_60 = ClassName "xl\\:m-60"
 
 m_64 :: ClassName
-m_64 = ClassName "xl\:m-64"
+m_64 = ClassName "xl\\:m-64"
 
 m_7 :: ClassName
-m_7 = ClassName "xl\:m-7"
+m_7 = ClassName "xl\\:m-7"
 
 m_8 :: ClassName
-m_8 = ClassName "xl\:m-8"
+m_8 = ClassName "xl\\:m-8"
 
 m_80 :: ClassName
-m_80 = ClassName "xl\:m-80"
+m_80 = ClassName "xl\\:m-80"
 
 m_9 :: ClassName
-m_9 = ClassName "xl\:m-9"
+m_9 = ClassName "xl\\:m-9"
 
 m_90 :: ClassName
-m_90 = ClassName "xl\:m-90"
+m_90 = ClassName "xl\\:m-90"
 
 m_auto :: ClassName
-m_auto = ClassName "xl\:m-auto"
+m_auto = ClassName "xl\\:m-auto"
 
 m_px :: ClassName
-m_px = ClassName "xl\:m-px"
+m_px = ClassName "xl\\:m-px"
 
 max_h_full :: ClassName
-max_h_full = ClassName "xl\:max-h-full"
+max_h_full = ClassName "xl\\:max-h-full"
 
 max_h_screen :: ClassName
-max_h_screen = ClassName "xl\:max-h-screen"
+max_h_screen = ClassName "xl\\:max-h-screen"
 
 max_w_2xl :: ClassName
-max_w_2xl = ClassName "xl\:max-w-2xl"
+max_w_2xl = ClassName "xl\\:max-w-2xl"
 
 max_w_3xl :: ClassName
-max_w_3xl = ClassName "xl\:max-w-3xl"
+max_w_3xl = ClassName "xl\\:max-w-3xl"
 
 max_w_4xl :: ClassName
-max_w_4xl = ClassName "xl\:max-w-4xl"
+max_w_4xl = ClassName "xl\\:max-w-4xl"
 
 max_w_5xl :: ClassName
-max_w_5xl = ClassName "xl\:max-w-5xl"
+max_w_5xl = ClassName "xl\\:max-w-5xl"
 
 max_w_6xl :: ClassName
-max_w_6xl = ClassName "xl\:max-w-6xl"
+max_w_6xl = ClassName "xl\\:max-w-6xl"
 
 max_w_full :: ClassName
-max_w_full = ClassName "xl\:max-w-full"
+max_w_full = ClassName "xl\\:max-w-full"
 
 max_w_lg :: ClassName
-max_w_lg = ClassName "xl\:max-w-lg"
+max_w_lg = ClassName "xl\\:max-w-lg"
 
 max_w_md :: ClassName
-max_w_md = ClassName "xl\:max-w-md"
+max_w_md = ClassName "xl\\:max-w-md"
 
 max_w_none :: ClassName
-max_w_none = ClassName "xl\:max-w-none"
+max_w_none = ClassName "xl\\:max-w-none"
 
 max_w_screen_lg :: ClassName
-max_w_screen_lg = ClassName "xl\:max-w-screen-lg"
+max_w_screen_lg = ClassName "xl\\:max-w-screen-lg"
 
 max_w_screen_md :: ClassName
-max_w_screen_md = ClassName "xl\:max-w-screen-md"
+max_w_screen_md = ClassName "xl\\:max-w-screen-md"
 
 max_w_screen_sm :: ClassName
-max_w_screen_sm = ClassName "xl\:max-w-screen-sm"
+max_w_screen_sm = ClassName "xl\\:max-w-screen-sm"
 
 max_w_screen_xl :: ClassName
-max_w_screen_xl = ClassName "xl\:max-w-screen-xl"
+max_w_screen_xl = ClassName "xl\\:max-w-screen-xl"
 
 max_w_sm :: ClassName
-max_w_sm = ClassName "xl\:max-w-sm"
+max_w_sm = ClassName "xl\\:max-w-sm"
 
 max_w_xl :: ClassName
-max_w_xl = ClassName "xl\:max-w-xl"
+max_w_xl = ClassName "xl\\:max-w-xl"
 
 max_w_xs :: ClassName
-max_w_xs = ClassName "xl\:max-w-xs"
+max_w_xs = ClassName "xl\\:max-w-xs"
 
 mb_0 :: ClassName
-mb_0 = ClassName "xl\:mb-0"
+mb_0 = ClassName "xl\\:mb-0"
 
 mb_1 :: ClassName
-mb_1 = ClassName "xl\:mb-1"
+mb_1 = ClassName "xl\\:mb-1"
 
 mb_10 :: ClassName
-mb_10 = ClassName "xl\:mb-10"
+mb_10 = ClassName "xl\\:mb-10"
 
 mb_12 :: ClassName
-mb_12 = ClassName "xl\:mb-12"
+mb_12 = ClassName "xl\\:mb-12"
 
 mb_120 :: ClassName
-mb_120 = ClassName "xl\:mb-120"
+mb_120 = ClassName "xl\\:mb-120"
 
 mb_14 :: ClassName
-mb_14 = ClassName "xl\:mb-14"
+mb_14 = ClassName "xl\\:mb-14"
 
 mb_16 :: ClassName
-mb_16 = ClassName "xl\:mb-16"
+mb_16 = ClassName "xl\\:mb-16"
 
 mb_160 :: ClassName
-mb_160 = ClassName "xl\:mb-160"
+mb_160 = ClassName "xl\\:mb-160"
 
 mb_2 :: ClassName
-mb_2 = ClassName "xl\:mb-2"
+mb_2 = ClassName "xl\\:mb-2"
 
 mb_20 :: ClassName
-mb_20 = ClassName "xl\:mb-20"
+mb_20 = ClassName "xl\\:mb-20"
 
 mb_24 :: ClassName
-mb_24 = ClassName "xl\:mb-24"
+mb_24 = ClassName "xl\\:mb-24"
 
 mb_3 :: ClassName
-mb_3 = ClassName "xl\:mb-3"
+mb_3 = ClassName "xl\\:mb-3"
 
 mb_30 :: ClassName
-mb_30 = ClassName "xl\:mb-30"
+mb_30 = ClassName "xl\\:mb-30"
 
 mb_32 :: ClassName
-mb_32 = ClassName "xl\:mb-32"
+mb_32 = ClassName "xl\\:mb-32"
 
 mb_4 :: ClassName
-mb_4 = ClassName "xl\:mb-4"
+mb_4 = ClassName "xl\\:mb-4"
 
 mb_40 :: ClassName
-mb_40 = ClassName "xl\:mb-40"
+mb_40 = ClassName "xl\\:mb-40"
 
 mb_48 :: ClassName
-mb_48 = ClassName "xl\:mb-48"
+mb_48 = ClassName "xl\\:mb-48"
 
 mb_5 :: ClassName
-mb_5 = ClassName "xl\:mb-5"
+mb_5 = ClassName "xl\\:mb-5"
 
 mb_50 :: ClassName
-mb_50 = ClassName "xl\:mb-50"
+mb_50 = ClassName "xl\\:mb-50"
 
 mb_56 :: ClassName
-mb_56 = ClassName "xl\:mb-56"
+mb_56 = ClassName "xl\\:mb-56"
 
 mb_6 :: ClassName
-mb_6 = ClassName "xl\:mb-6"
+mb_6 = ClassName "xl\\:mb-6"
 
 mb_60 :: ClassName
-mb_60 = ClassName "xl\:mb-60"
+mb_60 = ClassName "xl\\:mb-60"
 
 mb_64 :: ClassName
-mb_64 = ClassName "xl\:mb-64"
+mb_64 = ClassName "xl\\:mb-64"
 
 mb_7 :: ClassName
-mb_7 = ClassName "xl\:mb-7"
+mb_7 = ClassName "xl\\:mb-7"
 
 mb_8 :: ClassName
-mb_8 = ClassName "xl\:mb-8"
+mb_8 = ClassName "xl\\:mb-8"
 
 mb_80 :: ClassName
-mb_80 = ClassName "xl\:mb-80"
+mb_80 = ClassName "xl\\:mb-80"
 
 mb_9 :: ClassName
-mb_9 = ClassName "xl\:mb-9"
+mb_9 = ClassName "xl\\:mb-9"
 
 mb_90 :: ClassName
-mb_90 = ClassName "xl\:mb-90"
+mb_90 = ClassName "xl\\:mb-90"
 
 mb_auto :: ClassName
-mb_auto = ClassName "xl\:mb-auto"
+mb_auto = ClassName "xl\\:mb-auto"
 
 mb_px :: ClassName
-mb_px = ClassName "xl\:mb-px"
+mb_px = ClassName "xl\\:mb-px"
 
 min_h_0 :: ClassName
-min_h_0 = ClassName "xl\:min-h-0"
+min_h_0 = ClassName "xl\\:min-h-0"
 
 min_h_full :: ClassName
-min_h_full = ClassName "xl\:min-h-full"
+min_h_full = ClassName "xl\\:min-h-full"
 
 min_h_screen :: ClassName
-min_h_screen = ClassName "xl\:min-h-screen"
+min_h_screen = ClassName "xl\\:min-h-screen"
 
 min_w_0 :: ClassName
-min_w_0 = ClassName "xl\:min-w-0"
+min_w_0 = ClassName "xl\\:min-w-0"
 
 min_w_full :: ClassName
-min_w_full = ClassName "xl\:min-w-full"
+min_w_full = ClassName "xl\\:min-w-full"
 
 ml_0 :: ClassName
-ml_0 = ClassName "xl\:ml-0"
+ml_0 = ClassName "xl\\:ml-0"
 
 ml_1 :: ClassName
-ml_1 = ClassName "xl\:ml-1"
+ml_1 = ClassName "xl\\:ml-1"
 
 ml_10 :: ClassName
-ml_10 = ClassName "xl\:ml-10"
+ml_10 = ClassName "xl\\:ml-10"
 
 ml_12 :: ClassName
-ml_12 = ClassName "xl\:ml-12"
+ml_12 = ClassName "xl\\:ml-12"
 
 ml_120 :: ClassName
-ml_120 = ClassName "xl\:ml-120"
+ml_120 = ClassName "xl\\:ml-120"
 
 ml_14 :: ClassName
-ml_14 = ClassName "xl\:ml-14"
+ml_14 = ClassName "xl\\:ml-14"
 
 ml_16 :: ClassName
-ml_16 = ClassName "xl\:ml-16"
+ml_16 = ClassName "xl\\:ml-16"
 
 ml_160 :: ClassName
-ml_160 = ClassName "xl\:ml-160"
+ml_160 = ClassName "xl\\:ml-160"
 
 ml_2 :: ClassName
-ml_2 = ClassName "xl\:ml-2"
+ml_2 = ClassName "xl\\:ml-2"
 
 ml_20 :: ClassName
-ml_20 = ClassName "xl\:ml-20"
+ml_20 = ClassName "xl\\:ml-20"
 
 ml_24 :: ClassName
-ml_24 = ClassName "xl\:ml-24"
+ml_24 = ClassName "xl\\:ml-24"
 
 ml_3 :: ClassName
-ml_3 = ClassName "xl\:ml-3"
+ml_3 = ClassName "xl\\:ml-3"
 
 ml_30 :: ClassName
-ml_30 = ClassName "xl\:ml-30"
+ml_30 = ClassName "xl\\:ml-30"
 
 ml_32 :: ClassName
-ml_32 = ClassName "xl\:ml-32"
+ml_32 = ClassName "xl\\:ml-32"
 
 ml_4 :: ClassName
-ml_4 = ClassName "xl\:ml-4"
+ml_4 = ClassName "xl\\:ml-4"
 
 ml_40 :: ClassName
-ml_40 = ClassName "xl\:ml-40"
+ml_40 = ClassName "xl\\:ml-40"
 
 ml_48 :: ClassName
-ml_48 = ClassName "xl\:ml-48"
+ml_48 = ClassName "xl\\:ml-48"
 
 ml_5 :: ClassName
-ml_5 = ClassName "xl\:ml-5"
+ml_5 = ClassName "xl\\:ml-5"
 
 ml_50 :: ClassName
-ml_50 = ClassName "xl\:ml-50"
+ml_50 = ClassName "xl\\:ml-50"
 
 ml_56 :: ClassName
-ml_56 = ClassName "xl\:ml-56"
+ml_56 = ClassName "xl\\:ml-56"
 
 ml_6 :: ClassName
-ml_6 = ClassName "xl\:ml-6"
+ml_6 = ClassName "xl\\:ml-6"
 
 ml_60 :: ClassName
-ml_60 = ClassName "xl\:ml-60"
+ml_60 = ClassName "xl\\:ml-60"
 
 ml_64 :: ClassName
-ml_64 = ClassName "xl\:ml-64"
+ml_64 = ClassName "xl\\:ml-64"
 
 ml_7 :: ClassName
-ml_7 = ClassName "xl\:ml-7"
+ml_7 = ClassName "xl\\:ml-7"
 
 ml_8 :: ClassName
-ml_8 = ClassName "xl\:ml-8"
+ml_8 = ClassName "xl\\:ml-8"
 
 ml_80 :: ClassName
-ml_80 = ClassName "xl\:ml-80"
+ml_80 = ClassName "xl\\:ml-80"
 
 ml_9 :: ClassName
-ml_9 = ClassName "xl\:ml-9"
+ml_9 = ClassName "xl\\:ml-9"
 
 ml_90 :: ClassName
-ml_90 = ClassName "xl\:ml-90"
+ml_90 = ClassName "xl\\:ml-90"
 
 ml_auto :: ClassName
-ml_auto = ClassName "xl\:ml-auto"
+ml_auto = ClassName "xl\\:ml-auto"
 
 ml_px :: ClassName
-ml_px = ClassName "xl\:ml-px"
+ml_px = ClassName "xl\\:ml-px"
 
 mr_0 :: ClassName
-mr_0 = ClassName "xl\:mr-0"
+mr_0 = ClassName "xl\\:mr-0"
 
 mr_1 :: ClassName
-mr_1 = ClassName "xl\:mr-1"
+mr_1 = ClassName "xl\\:mr-1"
 
 mr_10 :: ClassName
-mr_10 = ClassName "xl\:mr-10"
+mr_10 = ClassName "xl\\:mr-10"
 
 mr_12 :: ClassName
-mr_12 = ClassName "xl\:mr-12"
+mr_12 = ClassName "xl\\:mr-12"
 
 mr_120 :: ClassName
-mr_120 = ClassName "xl\:mr-120"
+mr_120 = ClassName "xl\\:mr-120"
 
 mr_14 :: ClassName
-mr_14 = ClassName "xl\:mr-14"
+mr_14 = ClassName "xl\\:mr-14"
 
 mr_16 :: ClassName
-mr_16 = ClassName "xl\:mr-16"
+mr_16 = ClassName "xl\\:mr-16"
 
 mr_160 :: ClassName
-mr_160 = ClassName "xl\:mr-160"
+mr_160 = ClassName "xl\\:mr-160"
 
 mr_2 :: ClassName
-mr_2 = ClassName "xl\:mr-2"
+mr_2 = ClassName "xl\\:mr-2"
 
 mr_20 :: ClassName
-mr_20 = ClassName "xl\:mr-20"
+mr_20 = ClassName "xl\\:mr-20"
 
 mr_24 :: ClassName
-mr_24 = ClassName "xl\:mr-24"
+mr_24 = ClassName "xl\\:mr-24"
 
 mr_3 :: ClassName
-mr_3 = ClassName "xl\:mr-3"
+mr_3 = ClassName "xl\\:mr-3"
 
 mr_30 :: ClassName
-mr_30 = ClassName "xl\:mr-30"
+mr_30 = ClassName "xl\\:mr-30"
 
 mr_32 :: ClassName
-mr_32 = ClassName "xl\:mr-32"
+mr_32 = ClassName "xl\\:mr-32"
 
 mr_4 :: ClassName
-mr_4 = ClassName "xl\:mr-4"
+mr_4 = ClassName "xl\\:mr-4"
 
 mr_40 :: ClassName
-mr_40 = ClassName "xl\:mr-40"
+mr_40 = ClassName "xl\\:mr-40"
 
 mr_48 :: ClassName
-mr_48 = ClassName "xl\:mr-48"
+mr_48 = ClassName "xl\\:mr-48"
 
 mr_5 :: ClassName
-mr_5 = ClassName "xl\:mr-5"
+mr_5 = ClassName "xl\\:mr-5"
 
 mr_50 :: ClassName
-mr_50 = ClassName "xl\:mr-50"
+mr_50 = ClassName "xl\\:mr-50"
 
 mr_56 :: ClassName
-mr_56 = ClassName "xl\:mr-56"
+mr_56 = ClassName "xl\\:mr-56"
 
 mr_6 :: ClassName
-mr_6 = ClassName "xl\:mr-6"
+mr_6 = ClassName "xl\\:mr-6"
 
 mr_60 :: ClassName
-mr_60 = ClassName "xl\:mr-60"
+mr_60 = ClassName "xl\\:mr-60"
 
 mr_64 :: ClassName
-mr_64 = ClassName "xl\:mr-64"
+mr_64 = ClassName "xl\\:mr-64"
 
 mr_7 :: ClassName
-mr_7 = ClassName "xl\:mr-7"
+mr_7 = ClassName "xl\\:mr-7"
 
 mr_8 :: ClassName
-mr_8 = ClassName "xl\:mr-8"
+mr_8 = ClassName "xl\\:mr-8"
 
 mr_80 :: ClassName
-mr_80 = ClassName "xl\:mr-80"
+mr_80 = ClassName "xl\\:mr-80"
 
 mr_9 :: ClassName
-mr_9 = ClassName "xl\:mr-9"
+mr_9 = ClassName "xl\\:mr-9"
 
 mr_90 :: ClassName
-mr_90 = ClassName "xl\:mr-90"
+mr_90 = ClassName "xl\\:mr-90"
 
 mr_auto :: ClassName
-mr_auto = ClassName "xl\:mr-auto"
+mr_auto = ClassName "xl\\:mr-auto"
 
 mr_px :: ClassName
-mr_px = ClassName "xl\:mr-px"
+mr_px = ClassName "xl\\:mr-px"
 
 mt_0 :: ClassName
-mt_0 = ClassName "xl\:mt-0"
+mt_0 = ClassName "xl\\:mt-0"
 
 mt_1 :: ClassName
-mt_1 = ClassName "xl\:mt-1"
+mt_1 = ClassName "xl\\:mt-1"
 
 mt_10 :: ClassName
-mt_10 = ClassName "xl\:mt-10"
+mt_10 = ClassName "xl\\:mt-10"
 
 mt_12 :: ClassName
-mt_12 = ClassName "xl\:mt-12"
+mt_12 = ClassName "xl\\:mt-12"
 
 mt_120 :: ClassName
-mt_120 = ClassName "xl\:mt-120"
+mt_120 = ClassName "xl\\:mt-120"
 
 mt_14 :: ClassName
-mt_14 = ClassName "xl\:mt-14"
+mt_14 = ClassName "xl\\:mt-14"
 
 mt_16 :: ClassName
-mt_16 = ClassName "xl\:mt-16"
+mt_16 = ClassName "xl\\:mt-16"
 
 mt_160 :: ClassName
-mt_160 = ClassName "xl\:mt-160"
+mt_160 = ClassName "xl\\:mt-160"
 
 mt_2 :: ClassName
-mt_2 = ClassName "xl\:mt-2"
+mt_2 = ClassName "xl\\:mt-2"
 
 mt_20 :: ClassName
-mt_20 = ClassName "xl\:mt-20"
+mt_20 = ClassName "xl\\:mt-20"
 
 mt_24 :: ClassName
-mt_24 = ClassName "xl\:mt-24"
+mt_24 = ClassName "xl\\:mt-24"
 
 mt_3 :: ClassName
-mt_3 = ClassName "xl\:mt-3"
+mt_3 = ClassName "xl\\:mt-3"
 
 mt_30 :: ClassName
-mt_30 = ClassName "xl\:mt-30"
+mt_30 = ClassName "xl\\:mt-30"
 
 mt_32 :: ClassName
-mt_32 = ClassName "xl\:mt-32"
+mt_32 = ClassName "xl\\:mt-32"
 
 mt_4 :: ClassName
-mt_4 = ClassName "xl\:mt-4"
+mt_4 = ClassName "xl\\:mt-4"
 
 mt_40 :: ClassName
-mt_40 = ClassName "xl\:mt-40"
+mt_40 = ClassName "xl\\:mt-40"
 
 mt_48 :: ClassName
-mt_48 = ClassName "xl\:mt-48"
+mt_48 = ClassName "xl\\:mt-48"
 
 mt_5 :: ClassName
-mt_5 = ClassName "xl\:mt-5"
+mt_5 = ClassName "xl\\:mt-5"
 
 mt_50 :: ClassName
-mt_50 = ClassName "xl\:mt-50"
+mt_50 = ClassName "xl\\:mt-50"
 
 mt_56 :: ClassName
-mt_56 = ClassName "xl\:mt-56"
+mt_56 = ClassName "xl\\:mt-56"
 
 mt_6 :: ClassName
-mt_6 = ClassName "xl\:mt-6"
+mt_6 = ClassName "xl\\:mt-6"
 
 mt_60 :: ClassName
-mt_60 = ClassName "xl\:mt-60"
+mt_60 = ClassName "xl\\:mt-60"
 
 mt_64 :: ClassName
-mt_64 = ClassName "xl\:mt-64"
+mt_64 = ClassName "xl\\:mt-64"
 
 mt_7 :: ClassName
-mt_7 = ClassName "xl\:mt-7"
+mt_7 = ClassName "xl\\:mt-7"
 
 mt_8 :: ClassName
-mt_8 = ClassName "xl\:mt-8"
+mt_8 = ClassName "xl\\:mt-8"
 
 mt_80 :: ClassName
-mt_80 = ClassName "xl\:mt-80"
+mt_80 = ClassName "xl\\:mt-80"
 
 mt_9 :: ClassName
-mt_9 = ClassName "xl\:mt-9"
+mt_9 = ClassName "xl\\:mt-9"
 
 mt_90 :: ClassName
-mt_90 = ClassName "xl\:mt-90"
+mt_90 = ClassName "xl\\:mt-90"
 
 mt_auto :: ClassName
-mt_auto = ClassName "xl\:mt-auto"
+mt_auto = ClassName "xl\\:mt-auto"
 
 mt_px :: ClassName
-mt_px = ClassName "xl\:mt-px"
+mt_px = ClassName "xl\\:mt-px"
 
 mx_0 :: ClassName
-mx_0 = ClassName "xl\:mx-0"
+mx_0 = ClassName "xl\\:mx-0"
 
 mx_1 :: ClassName
-mx_1 = ClassName "xl\:mx-1"
+mx_1 = ClassName "xl\\:mx-1"
 
 mx_10 :: ClassName
-mx_10 = ClassName "xl\:mx-10"
+mx_10 = ClassName "xl\\:mx-10"
 
 mx_12 :: ClassName
-mx_12 = ClassName "xl\:mx-12"
+mx_12 = ClassName "xl\\:mx-12"
 
 mx_120 :: ClassName
-mx_120 = ClassName "xl\:mx-120"
+mx_120 = ClassName "xl\\:mx-120"
 
 mx_14 :: ClassName
-mx_14 = ClassName "xl\:mx-14"
+mx_14 = ClassName "xl\\:mx-14"
 
 mx_16 :: ClassName
-mx_16 = ClassName "xl\:mx-16"
+mx_16 = ClassName "xl\\:mx-16"
 
 mx_160 :: ClassName
-mx_160 = ClassName "xl\:mx-160"
+mx_160 = ClassName "xl\\:mx-160"
 
 mx_2 :: ClassName
-mx_2 = ClassName "xl\:mx-2"
+mx_2 = ClassName "xl\\:mx-2"
 
 mx_20 :: ClassName
-mx_20 = ClassName "xl\:mx-20"
+mx_20 = ClassName "xl\\:mx-20"
 
 mx_24 :: ClassName
-mx_24 = ClassName "xl\:mx-24"
+mx_24 = ClassName "xl\\:mx-24"
 
 mx_3 :: ClassName
-mx_3 = ClassName "xl\:mx-3"
+mx_3 = ClassName "xl\\:mx-3"
 
 mx_30 :: ClassName
-mx_30 = ClassName "xl\:mx-30"
+mx_30 = ClassName "xl\\:mx-30"
 
 mx_32 :: ClassName
-mx_32 = ClassName "xl\:mx-32"
+mx_32 = ClassName "xl\\:mx-32"
 
 mx_4 :: ClassName
-mx_4 = ClassName "xl\:mx-4"
+mx_4 = ClassName "xl\\:mx-4"
 
 mx_40 :: ClassName
-mx_40 = ClassName "xl\:mx-40"
+mx_40 = ClassName "xl\\:mx-40"
 
 mx_48 :: ClassName
-mx_48 = ClassName "xl\:mx-48"
+mx_48 = ClassName "xl\\:mx-48"
 
 mx_5 :: ClassName
-mx_5 = ClassName "xl\:mx-5"
+mx_5 = ClassName "xl\\:mx-5"
 
 mx_50 :: ClassName
-mx_50 = ClassName "xl\:mx-50"
+mx_50 = ClassName "xl\\:mx-50"
 
 mx_56 :: ClassName
-mx_56 = ClassName "xl\:mx-56"
+mx_56 = ClassName "xl\\:mx-56"
 
 mx_6 :: ClassName
-mx_6 = ClassName "xl\:mx-6"
+mx_6 = ClassName "xl\\:mx-6"
 
 mx_60 :: ClassName
-mx_60 = ClassName "xl\:mx-60"
+mx_60 = ClassName "xl\\:mx-60"
 
 mx_64 :: ClassName
-mx_64 = ClassName "xl\:mx-64"
+mx_64 = ClassName "xl\\:mx-64"
 
 mx_7 :: ClassName
-mx_7 = ClassName "xl\:mx-7"
+mx_7 = ClassName "xl\\:mx-7"
 
 mx_8 :: ClassName
-mx_8 = ClassName "xl\:mx-8"
+mx_8 = ClassName "xl\\:mx-8"
 
 mx_80 :: ClassName
-mx_80 = ClassName "xl\:mx-80"
+mx_80 = ClassName "xl\\:mx-80"
 
 mx_9 :: ClassName
-mx_9 = ClassName "xl\:mx-9"
+mx_9 = ClassName "xl\\:mx-9"
 
 mx_90 :: ClassName
-mx_90 = ClassName "xl\:mx-90"
+mx_90 = ClassName "xl\\:mx-90"
 
 mx_auto :: ClassName
-mx_auto = ClassName "xl\:mx-auto"
+mx_auto = ClassName "xl\\:mx-auto"
 
 mx_px :: ClassName
-mx_px = ClassName "xl\:mx-px"
+mx_px = ClassName "xl\\:mx-px"
 
 my_0 :: ClassName
-my_0 = ClassName "xl\:my-0"
+my_0 = ClassName "xl\\:my-0"
 
 my_1 :: ClassName
-my_1 = ClassName "xl\:my-1"
+my_1 = ClassName "xl\\:my-1"
 
 my_10 :: ClassName
-my_10 = ClassName "xl\:my-10"
+my_10 = ClassName "xl\\:my-10"
 
 my_12 :: ClassName
-my_12 = ClassName "xl\:my-12"
+my_12 = ClassName "xl\\:my-12"
 
 my_120 :: ClassName
-my_120 = ClassName "xl\:my-120"
+my_120 = ClassName "xl\\:my-120"
 
 my_14 :: ClassName
-my_14 = ClassName "xl\:my-14"
+my_14 = ClassName "xl\\:my-14"
 
 my_16 :: ClassName
-my_16 = ClassName "xl\:my-16"
+my_16 = ClassName "xl\\:my-16"
 
 my_160 :: ClassName
-my_160 = ClassName "xl\:my-160"
+my_160 = ClassName "xl\\:my-160"
 
 my_2 :: ClassName
-my_2 = ClassName "xl\:my-2"
+my_2 = ClassName "xl\\:my-2"
 
 my_20 :: ClassName
-my_20 = ClassName "xl\:my-20"
+my_20 = ClassName "xl\\:my-20"
 
 my_24 :: ClassName
-my_24 = ClassName "xl\:my-24"
+my_24 = ClassName "xl\\:my-24"
 
 my_3 :: ClassName
-my_3 = ClassName "xl\:my-3"
+my_3 = ClassName "xl\\:my-3"
 
 my_30 :: ClassName
-my_30 = ClassName "xl\:my-30"
+my_30 = ClassName "xl\\:my-30"
 
 my_32 :: ClassName
-my_32 = ClassName "xl\:my-32"
+my_32 = ClassName "xl\\:my-32"
 
 my_4 :: ClassName
-my_4 = ClassName "xl\:my-4"
+my_4 = ClassName "xl\\:my-4"
 
 my_40 :: ClassName
-my_40 = ClassName "xl\:my-40"
+my_40 = ClassName "xl\\:my-40"
 
 my_48 :: ClassName
-my_48 = ClassName "xl\:my-48"
+my_48 = ClassName "xl\\:my-48"
 
 my_5 :: ClassName
-my_5 = ClassName "xl\:my-5"
+my_5 = ClassName "xl\\:my-5"
 
 my_50 :: ClassName
-my_50 = ClassName "xl\:my-50"
+my_50 = ClassName "xl\\:my-50"
 
 my_56 :: ClassName
-my_56 = ClassName "xl\:my-56"
+my_56 = ClassName "xl\\:my-56"
 
 my_6 :: ClassName
-my_6 = ClassName "xl\:my-6"
+my_6 = ClassName "xl\\:my-6"
 
 my_60 :: ClassName
-my_60 = ClassName "xl\:my-60"
+my_60 = ClassName "xl\\:my-60"
 
 my_64 :: ClassName
-my_64 = ClassName "xl\:my-64"
+my_64 = ClassName "xl\\:my-64"
 
 my_7 :: ClassName
-my_7 = ClassName "xl\:my-7"
+my_7 = ClassName "xl\\:my-7"
 
 my_8 :: ClassName
-my_8 = ClassName "xl\:my-8"
+my_8 = ClassName "xl\\:my-8"
 
 my_80 :: ClassName
-my_80 = ClassName "xl\:my-80"
+my_80 = ClassName "xl\\:my-80"
 
 my_9 :: ClassName
-my_9 = ClassName "xl\:my-9"
+my_9 = ClassName "xl\\:my-9"
 
 my_90 :: ClassName
-my_90 = ClassName "xl\:my-90"
+my_90 = ClassName "xl\\:my-90"
 
 my_auto :: ClassName
-my_auto = ClassName "xl\:my-auto"
+my_auto = ClassName "xl\\:my-auto"
 
 my_px :: ClassName
-my_px = ClassName "xl\:my-px"
+my_px = ClassName "xl\\:my-px"
 
 no_underline :: ClassName
-no_underline = ClassName "xl\:no-underline"
+no_underline = ClassName "xl\\:no-underline"
 
 normal_case :: ClassName
-normal_case = ClassName "xl\:normal-case"
+normal_case = ClassName "xl\\:normal-case"
 
 not_italic :: ClassName
-not_italic = ClassName "xl\:not-italic"
+not_italic = ClassName "xl\\:not-italic"
 
 not_sr_only :: ClassName
-not_sr_only = ClassName "xl\:not-sr-only"
+not_sr_only = ClassName "xl\\:not-sr-only"
 
 object_bottom :: ClassName
-object_bottom = ClassName "xl\:object-bottom"
+object_bottom = ClassName "xl\\:object-bottom"
 
 object_center :: ClassName
-object_center = ClassName "xl\:object-center"
+object_center = ClassName "xl\\:object-center"
 
 object_contain :: ClassName
-object_contain = ClassName "xl\:object-contain"
+object_contain = ClassName "xl\\:object-contain"
 
 object_cover :: ClassName
-object_cover = ClassName "xl\:object-cover"
+object_cover = ClassName "xl\\:object-cover"
 
 object_fill :: ClassName
-object_fill = ClassName "xl\:object-fill"
+object_fill = ClassName "xl\\:object-fill"
 
 object_left :: ClassName
-object_left = ClassName "xl\:object-left"
+object_left = ClassName "xl\\:object-left"
 
 object_left_bottom :: ClassName
-object_left_bottom = ClassName "xl\:object-left-bottom"
+object_left_bottom = ClassName "xl\\:object-left-bottom"
 
 object_left_top :: ClassName
-object_left_top = ClassName "xl\:object-left-top"
+object_left_top = ClassName "xl\\:object-left-top"
 
 object_none :: ClassName
-object_none = ClassName "xl\:object-none"
+object_none = ClassName "xl\\:object-none"
 
 object_right :: ClassName
-object_right = ClassName "xl\:object-right"
+object_right = ClassName "xl\\:object-right"
 
 object_right_bottom :: ClassName
-object_right_bottom = ClassName "xl\:object-right-bottom"
+object_right_bottom = ClassName "xl\\:object-right-bottom"
 
 object_right_top :: ClassName
-object_right_top = ClassName "xl\:object-right-top"
+object_right_top = ClassName "xl\\:object-right-top"
 
 object_scale_down :: ClassName
-object_scale_down = ClassName "xl\:object-scale-down"
+object_scale_down = ClassName "xl\\:object-scale-down"
 
 object_top :: ClassName
-object_top = ClassName "xl\:object-top"
+object_top = ClassName "xl\\:object-top"
 
 opacity_0 :: ClassName
-opacity_0 = ClassName "xl\:opacity-0"
+opacity_0 = ClassName "xl\\:opacity-0"
 
 opacity_100 :: ClassName
-opacity_100 = ClassName "xl\:opacity-100"
+opacity_100 = ClassName "xl\\:opacity-100"
 
 opacity_25 :: ClassName
-opacity_25 = ClassName "xl\:opacity-25"
+opacity_25 = ClassName "xl\\:opacity-25"
 
 opacity_50 :: ClassName
-opacity_50 = ClassName "xl\:opacity-50"
+opacity_50 = ClassName "xl\\:opacity-50"
 
 opacity_75 :: ClassName
-opacity_75 = ClassName "xl\:opacity-75"
+opacity_75 = ClassName "xl\\:opacity-75"
 
 order_1 :: ClassName
-order_1 = ClassName "xl\:order-1"
+order_1 = ClassName "xl\\:order-1"
 
 order_10 :: ClassName
-order_10 = ClassName "xl\:order-10"
+order_10 = ClassName "xl\\:order-10"
 
 order_11 :: ClassName
-order_11 = ClassName "xl\:order-11"
+order_11 = ClassName "xl\\:order-11"
 
 order_12 :: ClassName
-order_12 = ClassName "xl\:order-12"
+order_12 = ClassName "xl\\:order-12"
 
 order_2 :: ClassName
-order_2 = ClassName "xl\:order-2"
+order_2 = ClassName "xl\\:order-2"
 
 order_3 :: ClassName
-order_3 = ClassName "xl\:order-3"
+order_3 = ClassName "xl\\:order-3"
 
 order_4 :: ClassName
-order_4 = ClassName "xl\:order-4"
+order_4 = ClassName "xl\\:order-4"
 
 order_5 :: ClassName
-order_5 = ClassName "xl\:order-5"
+order_5 = ClassName "xl\\:order-5"
 
 order_6 :: ClassName
-order_6 = ClassName "xl\:order-6"
+order_6 = ClassName "xl\\:order-6"
 
 order_7 :: ClassName
-order_7 = ClassName "xl\:order-7"
+order_7 = ClassName "xl\\:order-7"
 
 order_8 :: ClassName
-order_8 = ClassName "xl\:order-8"
+order_8 = ClassName "xl\\:order-8"
 
 order_9 :: ClassName
-order_9 = ClassName "xl\:order-9"
+order_9 = ClassName "xl\\:order-9"
 
 order_first :: ClassName
-order_first = ClassName "xl\:order-first"
+order_first = ClassName "xl\\:order-first"
 
 order_last :: ClassName
-order_last = ClassName "xl\:order-last"
+order_last = ClassName "xl\\:order-last"
 
 order_none :: ClassName
-order_none = ClassName "xl\:order-none"
+order_none = ClassName "xl\\:order-none"
 
 origin_bottom :: ClassName
-origin_bottom = ClassName "xl\:origin-bottom"
+origin_bottom = ClassName "xl\\:origin-bottom"
 
 origin_bottom_left :: ClassName
-origin_bottom_left = ClassName "xl\:origin-bottom-left"
+origin_bottom_left = ClassName "xl\\:origin-bottom-left"
 
 origin_bottom_right :: ClassName
-origin_bottom_right = ClassName "xl\:origin-bottom-right"
+origin_bottom_right = ClassName "xl\\:origin-bottom-right"
 
 origin_center :: ClassName
-origin_center = ClassName "xl\:origin-center"
+origin_center = ClassName "xl\\:origin-center"
 
 origin_left :: ClassName
-origin_left = ClassName "xl\:origin-left"
+origin_left = ClassName "xl\\:origin-left"
 
 origin_right :: ClassName
-origin_right = ClassName "xl\:origin-right"
+origin_right = ClassName "xl\\:origin-right"
 
 origin_top :: ClassName
-origin_top = ClassName "xl\:origin-top"
+origin_top = ClassName "xl\\:origin-top"
 
 origin_top_left :: ClassName
-origin_top_left = ClassName "xl\:origin-top-left"
+origin_top_left = ClassName "xl\\:origin-top-left"
 
 origin_top_right :: ClassName
-origin_top_right = ClassName "xl\:origin-top-right"
+origin_top_right = ClassName "xl\\:origin-top-right"
 
 outline_none :: ClassName
-outline_none = ClassName "xl\:outline-none"
+outline_none = ClassName "xl\\:outline-none"
 
 overflow_auto :: ClassName
-overflow_auto = ClassName "xl\:overflow-auto"
+overflow_auto = ClassName "xl\\:overflow-auto"
 
 overflow_hidden :: ClassName
-overflow_hidden = ClassName "xl\:overflow-hidden"
+overflow_hidden = ClassName "xl\\:overflow-hidden"
 
 overflow_scroll :: ClassName
-overflow_scroll = ClassName "xl\:overflow-scroll"
+overflow_scroll = ClassName "xl\\:overflow-scroll"
 
 overflow_visible :: ClassName
-overflow_visible = ClassName "xl\:overflow-visible"
+overflow_visible = ClassName "xl\\:overflow-visible"
 
 overflow_x_auto :: ClassName
-overflow_x_auto = ClassName "xl\:overflow-x-auto"
+overflow_x_auto = ClassName "xl\\:overflow-x-auto"
 
 overflow_x_hidden :: ClassName
-overflow_x_hidden = ClassName "xl\:overflow-x-hidden"
+overflow_x_hidden = ClassName "xl\\:overflow-x-hidden"
 
 overflow_x_scroll :: ClassName
-overflow_x_scroll = ClassName "xl\:overflow-x-scroll"
+overflow_x_scroll = ClassName "xl\\:overflow-x-scroll"
 
 overflow_x_visible :: ClassName
-overflow_x_visible = ClassName "xl\:overflow-x-visible"
+overflow_x_visible = ClassName "xl\\:overflow-x-visible"
 
 overflow_y_auto :: ClassName
-overflow_y_auto = ClassName "xl\:overflow-y-auto"
+overflow_y_auto = ClassName "xl\\:overflow-y-auto"
 
 overflow_y_hidden :: ClassName
-overflow_y_hidden = ClassName "xl\:overflow-y-hidden"
+overflow_y_hidden = ClassName "xl\\:overflow-y-hidden"
 
 overflow_y_scroll :: ClassName
-overflow_y_scroll = ClassName "xl\:overflow-y-scroll"
+overflow_y_scroll = ClassName "xl\\:overflow-y-scroll"
 
 overflow_y_visible :: ClassName
-overflow_y_visible = ClassName "xl\:overflow-y-visible"
+overflow_y_visible = ClassName "xl\\:overflow-y-visible"
 
 overscroll_auto :: ClassName
-overscroll_auto = ClassName "xl\:overscroll-auto"
+overscroll_auto = ClassName "xl\\:overscroll-auto"
 
 overscroll_contain :: ClassName
-overscroll_contain = ClassName "xl\:overscroll-contain"
+overscroll_contain = ClassName "xl\\:overscroll-contain"
 
 overscroll_none :: ClassName
-overscroll_none = ClassName "xl\:overscroll-none"
+overscroll_none = ClassName "xl\\:overscroll-none"
 
 overscroll_x_auto :: ClassName
-overscroll_x_auto = ClassName "xl\:overscroll-x-auto"
+overscroll_x_auto = ClassName "xl\\:overscroll-x-auto"
 
 overscroll_x_contain :: ClassName
-overscroll_x_contain = ClassName "xl\:overscroll-x-contain"
+overscroll_x_contain = ClassName "xl\\:overscroll-x-contain"
 
 overscroll_x_none :: ClassName
-overscroll_x_none = ClassName "xl\:overscroll-x-none"
+overscroll_x_none = ClassName "xl\\:overscroll-x-none"
 
 overscroll_y_auto :: ClassName
-overscroll_y_auto = ClassName "xl\:overscroll-y-auto"
+overscroll_y_auto = ClassName "xl\\:overscroll-y-auto"
 
 overscroll_y_contain :: ClassName
-overscroll_y_contain = ClassName "xl\:overscroll-y-contain"
+overscroll_y_contain = ClassName "xl\\:overscroll-y-contain"
 
 overscroll_y_none :: ClassName
-overscroll_y_none = ClassName "xl\:overscroll-y-none"
+overscroll_y_none = ClassName "xl\\:overscroll-y-none"
 
 p_0 :: ClassName
-p_0 = ClassName "xl\:p-0"
+p_0 = ClassName "xl\\:p-0"
 
 p_1 :: ClassName
-p_1 = ClassName "xl\:p-1"
+p_1 = ClassName "xl\\:p-1"
 
 p_10 :: ClassName
-p_10 = ClassName "xl\:p-10"
+p_10 = ClassName "xl\\:p-10"
 
 p_12 :: ClassName
-p_12 = ClassName "xl\:p-12"
+p_12 = ClassName "xl\\:p-12"
 
 p_120 :: ClassName
-p_120 = ClassName "xl\:p-120"
+p_120 = ClassName "xl\\:p-120"
 
 p_14 :: ClassName
-p_14 = ClassName "xl\:p-14"
+p_14 = ClassName "xl\\:p-14"
 
 p_16 :: ClassName
-p_16 = ClassName "xl\:p-16"
+p_16 = ClassName "xl\\:p-16"
 
 p_160 :: ClassName
-p_160 = ClassName "xl\:p-160"
+p_160 = ClassName "xl\\:p-160"
 
 p_2 :: ClassName
-p_2 = ClassName "xl\:p-2"
+p_2 = ClassName "xl\\:p-2"
 
 p_20 :: ClassName
-p_20 = ClassName "xl\:p-20"
+p_20 = ClassName "xl\\:p-20"
 
 p_24 :: ClassName
-p_24 = ClassName "xl\:p-24"
+p_24 = ClassName "xl\\:p-24"
 
 p_3 :: ClassName
-p_3 = ClassName "xl\:p-3"
+p_3 = ClassName "xl\\:p-3"
 
 p_30 :: ClassName
-p_30 = ClassName "xl\:p-30"
+p_30 = ClassName "xl\\:p-30"
 
 p_32 :: ClassName
-p_32 = ClassName "xl\:p-32"
+p_32 = ClassName "xl\\:p-32"
 
 p_4 :: ClassName
-p_4 = ClassName "xl\:p-4"
+p_4 = ClassName "xl\\:p-4"
 
 p_40 :: ClassName
-p_40 = ClassName "xl\:p-40"
+p_40 = ClassName "xl\\:p-40"
 
 p_48 :: ClassName
-p_48 = ClassName "xl\:p-48"
+p_48 = ClassName "xl\\:p-48"
 
 p_5 :: ClassName
-p_5 = ClassName "xl\:p-5"
+p_5 = ClassName "xl\\:p-5"
 
 p_50 :: ClassName
-p_50 = ClassName "xl\:p-50"
+p_50 = ClassName "xl\\:p-50"
 
 p_56 :: ClassName
-p_56 = ClassName "xl\:p-56"
+p_56 = ClassName "xl\\:p-56"
 
 p_6 :: ClassName
-p_6 = ClassName "xl\:p-6"
+p_6 = ClassName "xl\\:p-6"
 
 p_60 :: ClassName
-p_60 = ClassName "xl\:p-60"
+p_60 = ClassName "xl\\:p-60"
 
 p_64 :: ClassName
-p_64 = ClassName "xl\:p-64"
+p_64 = ClassName "xl\\:p-64"
 
 p_7 :: ClassName
-p_7 = ClassName "xl\:p-7"
+p_7 = ClassName "xl\\:p-7"
 
 p_8 :: ClassName
-p_8 = ClassName "xl\:p-8"
+p_8 = ClassName "xl\\:p-8"
 
 p_80 :: ClassName
-p_80 = ClassName "xl\:p-80"
+p_80 = ClassName "xl\\:p-80"
 
 p_9 :: ClassName
-p_9 = ClassName "xl\:p-9"
+p_9 = ClassName "xl\\:p-9"
 
 p_90 :: ClassName
-p_90 = ClassName "xl\:p-90"
+p_90 = ClassName "xl\\:p-90"
 
 p_px :: ClassName
-p_px = ClassName "xl\:p-px"
+p_px = ClassName "xl\\:p-px"
 
 pb_0 :: ClassName
-pb_0 = ClassName "xl\:pb-0"
+pb_0 = ClassName "xl\\:pb-0"
 
 pb_1 :: ClassName
-pb_1 = ClassName "xl\:pb-1"
+pb_1 = ClassName "xl\\:pb-1"
 
 pb_10 :: ClassName
-pb_10 = ClassName "xl\:pb-10"
+pb_10 = ClassName "xl\\:pb-10"
 
 pb_12 :: ClassName
-pb_12 = ClassName "xl\:pb-12"
+pb_12 = ClassName "xl\\:pb-12"
 
 pb_120 :: ClassName
-pb_120 = ClassName "xl\:pb-120"
+pb_120 = ClassName "xl\\:pb-120"
 
 pb_14 :: ClassName
-pb_14 = ClassName "xl\:pb-14"
+pb_14 = ClassName "xl\\:pb-14"
 
 pb_16 :: ClassName
-pb_16 = ClassName "xl\:pb-16"
+pb_16 = ClassName "xl\\:pb-16"
 
 pb_160 :: ClassName
-pb_160 = ClassName "xl\:pb-160"
+pb_160 = ClassName "xl\\:pb-160"
 
 pb_2 :: ClassName
-pb_2 = ClassName "xl\:pb-2"
+pb_2 = ClassName "xl\\:pb-2"
 
 pb_20 :: ClassName
-pb_20 = ClassName "xl\:pb-20"
+pb_20 = ClassName "xl\\:pb-20"
 
 pb_24 :: ClassName
-pb_24 = ClassName "xl\:pb-24"
+pb_24 = ClassName "xl\\:pb-24"
 
 pb_3 :: ClassName
-pb_3 = ClassName "xl\:pb-3"
+pb_3 = ClassName "xl\\:pb-3"
 
 pb_30 :: ClassName
-pb_30 = ClassName "xl\:pb-30"
+pb_30 = ClassName "xl\\:pb-30"
 
 pb_32 :: ClassName
-pb_32 = ClassName "xl\:pb-32"
+pb_32 = ClassName "xl\\:pb-32"
 
 pb_4 :: ClassName
-pb_4 = ClassName "xl\:pb-4"
+pb_4 = ClassName "xl\\:pb-4"
 
 pb_40 :: ClassName
-pb_40 = ClassName "xl\:pb-40"
+pb_40 = ClassName "xl\\:pb-40"
 
 pb_48 :: ClassName
-pb_48 = ClassName "xl\:pb-48"
+pb_48 = ClassName "xl\\:pb-48"
 
 pb_5 :: ClassName
-pb_5 = ClassName "xl\:pb-5"
+pb_5 = ClassName "xl\\:pb-5"
 
 pb_50 :: ClassName
-pb_50 = ClassName "xl\:pb-50"
+pb_50 = ClassName "xl\\:pb-50"
 
 pb_56 :: ClassName
-pb_56 = ClassName "xl\:pb-56"
+pb_56 = ClassName "xl\\:pb-56"
 
 pb_6 :: ClassName
-pb_6 = ClassName "xl\:pb-6"
+pb_6 = ClassName "xl\\:pb-6"
 
 pb_60 :: ClassName
-pb_60 = ClassName "xl\:pb-60"
+pb_60 = ClassName "xl\\:pb-60"
 
 pb_64 :: ClassName
-pb_64 = ClassName "xl\:pb-64"
+pb_64 = ClassName "xl\\:pb-64"
 
 pb_7 :: ClassName
-pb_7 = ClassName "xl\:pb-7"
+pb_7 = ClassName "xl\\:pb-7"
 
 pb_8 :: ClassName
-pb_8 = ClassName "xl\:pb-8"
+pb_8 = ClassName "xl\\:pb-8"
 
 pb_80 :: ClassName
-pb_80 = ClassName "xl\:pb-80"
+pb_80 = ClassName "xl\\:pb-80"
 
 pb_9 :: ClassName
-pb_9 = ClassName "xl\:pb-9"
+pb_9 = ClassName "xl\\:pb-9"
 
 pb_90 :: ClassName
-pb_90 = ClassName "xl\:pb-90"
+pb_90 = ClassName "xl\\:pb-90"
 
 pb_px :: ClassName
-pb_px = ClassName "xl\:pb-px"
+pb_px = ClassName "xl\\:pb-px"
 
 pl_0 :: ClassName
-pl_0 = ClassName "xl\:pl-0"
+pl_0 = ClassName "xl\\:pl-0"
 
 pl_1 :: ClassName
-pl_1 = ClassName "xl\:pl-1"
+pl_1 = ClassName "xl\\:pl-1"
 
 pl_10 :: ClassName
-pl_10 = ClassName "xl\:pl-10"
+pl_10 = ClassName "xl\\:pl-10"
 
 pl_12 :: ClassName
-pl_12 = ClassName "xl\:pl-12"
+pl_12 = ClassName "xl\\:pl-12"
 
 pl_120 :: ClassName
-pl_120 = ClassName "xl\:pl-120"
+pl_120 = ClassName "xl\\:pl-120"
 
 pl_14 :: ClassName
-pl_14 = ClassName "xl\:pl-14"
+pl_14 = ClassName "xl\\:pl-14"
 
 pl_16 :: ClassName
-pl_16 = ClassName "xl\:pl-16"
+pl_16 = ClassName "xl\\:pl-16"
 
 pl_160 :: ClassName
-pl_160 = ClassName "xl\:pl-160"
+pl_160 = ClassName "xl\\:pl-160"
 
 pl_2 :: ClassName
-pl_2 = ClassName "xl\:pl-2"
+pl_2 = ClassName "xl\\:pl-2"
 
 pl_20 :: ClassName
-pl_20 = ClassName "xl\:pl-20"
+pl_20 = ClassName "xl\\:pl-20"
 
 pl_24 :: ClassName
-pl_24 = ClassName "xl\:pl-24"
+pl_24 = ClassName "xl\\:pl-24"
 
 pl_3 :: ClassName
-pl_3 = ClassName "xl\:pl-3"
+pl_3 = ClassName "xl\\:pl-3"
 
 pl_30 :: ClassName
-pl_30 = ClassName "xl\:pl-30"
+pl_30 = ClassName "xl\\:pl-30"
 
 pl_32 :: ClassName
-pl_32 = ClassName "xl\:pl-32"
+pl_32 = ClassName "xl\\:pl-32"
 
 pl_4 :: ClassName
-pl_4 = ClassName "xl\:pl-4"
+pl_4 = ClassName "xl\\:pl-4"
 
 pl_40 :: ClassName
-pl_40 = ClassName "xl\:pl-40"
+pl_40 = ClassName "xl\\:pl-40"
 
 pl_48 :: ClassName
-pl_48 = ClassName "xl\:pl-48"
+pl_48 = ClassName "xl\\:pl-48"
 
 pl_5 :: ClassName
-pl_5 = ClassName "xl\:pl-5"
+pl_5 = ClassName "xl\\:pl-5"
 
 pl_50 :: ClassName
-pl_50 = ClassName "xl\:pl-50"
+pl_50 = ClassName "xl\\:pl-50"
 
 pl_56 :: ClassName
-pl_56 = ClassName "xl\:pl-56"
+pl_56 = ClassName "xl\\:pl-56"
 
 pl_6 :: ClassName
-pl_6 = ClassName "xl\:pl-6"
+pl_6 = ClassName "xl\\:pl-6"
 
 pl_60 :: ClassName
-pl_60 = ClassName "xl\:pl-60"
+pl_60 = ClassName "xl\\:pl-60"
 
 pl_64 :: ClassName
-pl_64 = ClassName "xl\:pl-64"
+pl_64 = ClassName "xl\\:pl-64"
 
 pl_7 :: ClassName
-pl_7 = ClassName "xl\:pl-7"
+pl_7 = ClassName "xl\\:pl-7"
 
 pl_8 :: ClassName
-pl_8 = ClassName "xl\:pl-8"
+pl_8 = ClassName "xl\\:pl-8"
 
 pl_80 :: ClassName
-pl_80 = ClassName "xl\:pl-80"
+pl_80 = ClassName "xl\\:pl-80"
 
 pl_9 :: ClassName
-pl_9 = ClassName "xl\:pl-9"
+pl_9 = ClassName "xl\\:pl-9"
 
 pl_90 :: ClassName
-pl_90 = ClassName "xl\:pl-90"
+pl_90 = ClassName "xl\\:pl-90"
 
 pl_px :: ClassName
-pl_px = ClassName "xl\:pl-px"
+pl_px = ClassName "xl\\:pl-px"
 
 placeholder_black :: ClassName
-placeholder_black = ClassName "xl\:placeholder-black"
+placeholder_black = ClassName "xl\\:placeholder-black"
 
 placeholder_black_10 :: ClassName
-placeholder_black_10 = ClassName "xl\:placeholder-black-10"
+placeholder_black_10 = ClassName "xl\\:placeholder-black-10"
 
 placeholder_black_20 :: ClassName
-placeholder_black_20 = ClassName "xl\:placeholder-black-20"
+placeholder_black_20 = ClassName "xl\\:placeholder-black-20"
 
 placeholder_black_modal_a90 :: ClassName
-placeholder_black_modal_a90 = ClassName "xl\:placeholder-black-modal-a90"
+placeholder_black_modal_a90 = ClassName "xl\\:placeholder-black-modal-a90"
 
 placeholder_blue_100 :: ClassName
-placeholder_blue_100 = ClassName "xl\:placeholder-blue-100"
+placeholder_blue_100 = ClassName "xl\\:placeholder-blue-100"
 
 placeholder_blue_200 :: ClassName
-placeholder_blue_200 = ClassName "xl\:placeholder-blue-200"
+placeholder_blue_200 = ClassName "xl\\:placeholder-blue-200"
 
 placeholder_blue_300 :: ClassName
-placeholder_blue_300 = ClassName "xl\:placeholder-blue-300"
+placeholder_blue_300 = ClassName "xl\\:placeholder-blue-300"
 
 placeholder_blue_400 :: ClassName
-placeholder_blue_400 = ClassName "xl\:placeholder-blue-400"
+placeholder_blue_400 = ClassName "xl\\:placeholder-blue-400"
 
 placeholder_blue_500 :: ClassName
-placeholder_blue_500 = ClassName "xl\:placeholder-blue-500"
+placeholder_blue_500 = ClassName "xl\\:placeholder-blue-500"
 
 placeholder_blue_600 :: ClassName
-placeholder_blue_600 = ClassName "xl\:placeholder-blue-600"
+placeholder_blue_600 = ClassName "xl\\:placeholder-blue-600"
 
 placeholder_blue_65 :: ClassName
-placeholder_blue_65 = ClassName "xl\:placeholder-blue-65"
+placeholder_blue_65 = ClassName "xl\\:placeholder-blue-65"
 
 placeholder_blue_700 :: ClassName
-placeholder_blue_700 = ClassName "xl\:placeholder-blue-700"
+placeholder_blue_700 = ClassName "xl\\:placeholder-blue-700"
 
 placeholder_blue_75 :: ClassName
-placeholder_blue_75 = ClassName "xl\:placeholder-blue-75"
+placeholder_blue_75 = ClassName "xl\\:placeholder-blue-75"
 
 placeholder_blue_800 :: ClassName
-placeholder_blue_800 = ClassName "xl\:placeholder-blue-800"
+placeholder_blue_800 = ClassName "xl\\:placeholder-blue-800"
 
 placeholder_blue_82 :: ClassName
-placeholder_blue_82 = ClassName "xl\:placeholder-blue-82"
+placeholder_blue_82 = ClassName "xl\\:placeholder-blue-82"
 
 placeholder_blue_88 :: ClassName
-placeholder_blue_88 = ClassName "xl\:placeholder-blue-88"
+placeholder_blue_88 = ClassName "xl\\:placeholder-blue-88"
 
 placeholder_blue_900 :: ClassName
-placeholder_blue_900 = ClassName "xl\:placeholder-blue-900"
+placeholder_blue_900 = ClassName "xl\\:placeholder-blue-900"
 
 placeholder_current :: ClassName
-placeholder_current = ClassName "xl\:placeholder-current"
+placeholder_current = ClassName "xl\\:placeholder-current"
 
 placeholder_fb_blue :: ClassName
-placeholder_fb_blue = ClassName "xl\:placeholder-fb-blue"
+placeholder_fb_blue = ClassName "xl\\:placeholder-fb-blue"
 
 placeholder_gray_100 :: ClassName
-placeholder_gray_100 = ClassName "xl\:placeholder-gray-100"
+placeholder_gray_100 = ClassName "xl\\:placeholder-gray-100"
 
 placeholder_gray_200 :: ClassName
-placeholder_gray_200 = ClassName "xl\:placeholder-gray-200"
+placeholder_gray_200 = ClassName "xl\\:placeholder-gray-200"
 
 placeholder_gray_300 :: ClassName
-placeholder_gray_300 = ClassName "xl\:placeholder-gray-300"
+placeholder_gray_300 = ClassName "xl\\:placeholder-gray-300"
 
 placeholder_gray_400 :: ClassName
-placeholder_gray_400 = ClassName "xl\:placeholder-gray-400"
+placeholder_gray_400 = ClassName "xl\\:placeholder-gray-400"
 
 placeholder_gray_500 :: ClassName
-placeholder_gray_500 = ClassName "xl\:placeholder-gray-500"
+placeholder_gray_500 = ClassName "xl\\:placeholder-gray-500"
 
 placeholder_gray_600 :: ClassName
-placeholder_gray_600 = ClassName "xl\:placeholder-gray-600"
+placeholder_gray_600 = ClassName "xl\\:placeholder-gray-600"
 
 placeholder_gray_700 :: ClassName
-placeholder_gray_700 = ClassName "xl\:placeholder-gray-700"
+placeholder_gray_700 = ClassName "xl\\:placeholder-gray-700"
 
 placeholder_gray_800 :: ClassName
-placeholder_gray_800 = ClassName "xl\:placeholder-gray-800"
+placeholder_gray_800 = ClassName "xl\\:placeholder-gray-800"
 
 placeholder_gray_900 :: ClassName
-placeholder_gray_900 = ClassName "xl\:placeholder-gray-900"
+placeholder_gray_900 = ClassName "xl\\:placeholder-gray-900"
 
 placeholder_green :: ClassName
-placeholder_green = ClassName "xl\:placeholder-green"
+placeholder_green = ClassName "xl\\:placeholder-green"
 
 placeholder_grey_50 :: ClassName
-placeholder_grey_50 = ClassName "xl\:placeholder-grey-50"
+placeholder_grey_50 = ClassName "xl\\:placeholder-grey-50"
 
 placeholder_grey_50_a20 :: ClassName
-placeholder_grey_50_a20 = ClassName "xl\:placeholder-grey-50-a20"
+placeholder_grey_50_a20 = ClassName "xl\\:placeholder-grey-50-a20"
 
 placeholder_grey_50_a30 :: ClassName
-placeholder_grey_50_a30 = ClassName "xl\:placeholder-grey-50-a30"
+placeholder_grey_50_a30 = ClassName "xl\\:placeholder-grey-50-a30"
 
 placeholder_grey_50_a80 :: ClassName
-placeholder_grey_50_a80 = ClassName "xl\:placeholder-grey-50-a80"
+placeholder_grey_50_a80 = ClassName "xl\\:placeholder-grey-50-a80"
 
 placeholder_grey_50_a90 :: ClassName
-placeholder_grey_50_a90 = ClassName "xl\:placeholder-grey-50-a90"
+placeholder_grey_50_a90 = ClassName "xl\\:placeholder-grey-50-a90"
 
 placeholder_grey_70 :: ClassName
-placeholder_grey_70 = ClassName "xl\:placeholder-grey-70"
+placeholder_grey_70 = ClassName "xl\\:placeholder-grey-70"
 
 placeholder_grey_70_a30 :: ClassName
-placeholder_grey_70_a30 = ClassName "xl\:placeholder-grey-70-a30"
+placeholder_grey_70_a30 = ClassName "xl\\:placeholder-grey-70-a30"
 
 placeholder_grey_70_a40 :: ClassName
-placeholder_grey_70_a40 = ClassName "xl\:placeholder-grey-70-a40"
+placeholder_grey_70_a40 = ClassName "xl\\:placeholder-grey-70-a40"
 
 placeholder_grey_80 :: ClassName
-placeholder_grey_80 = ClassName "xl\:placeholder-grey-80"
+placeholder_grey_80 = ClassName "xl\\:placeholder-grey-80"
 
 placeholder_grey_90 :: ClassName
-placeholder_grey_90 = ClassName "xl\:placeholder-grey-90"
+placeholder_grey_90 = ClassName "xl\\:placeholder-grey-90"
 
 placeholder_grey_95 :: ClassName
-placeholder_grey_95 = ClassName "xl\:placeholder-grey-95"
+placeholder_grey_95 = ClassName "xl\\:placeholder-grey-95"
 
 placeholder_grey_97 :: ClassName
-placeholder_grey_97 = ClassName "xl\:placeholder-grey-97"
+placeholder_grey_97 = ClassName "xl\\:placeholder-grey-97"
 
 placeholder_ig_brown :: ClassName
-placeholder_ig_brown = ClassName "xl\:placeholder-ig-brown"
+placeholder_ig_brown = ClassName "xl\\:placeholder-ig-brown"
 
 placeholder_indigo_100 :: ClassName
-placeholder_indigo_100 = ClassName "xl\:placeholder-indigo-100"
+placeholder_indigo_100 = ClassName "xl\\:placeholder-indigo-100"
 
 placeholder_indigo_200 :: ClassName
-placeholder_indigo_200 = ClassName "xl\:placeholder-indigo-200"
+placeholder_indigo_200 = ClassName "xl\\:placeholder-indigo-200"
 
 placeholder_indigo_300 :: ClassName
-placeholder_indigo_300 = ClassName "xl\:placeholder-indigo-300"
+placeholder_indigo_300 = ClassName "xl\\:placeholder-indigo-300"
 
 placeholder_indigo_400 :: ClassName
-placeholder_indigo_400 = ClassName "xl\:placeholder-indigo-400"
+placeholder_indigo_400 = ClassName "xl\\:placeholder-indigo-400"
 
 placeholder_indigo_500 :: ClassName
-placeholder_indigo_500 = ClassName "xl\:placeholder-indigo-500"
+placeholder_indigo_500 = ClassName "xl\\:placeholder-indigo-500"
 
 placeholder_indigo_600 :: ClassName
-placeholder_indigo_600 = ClassName "xl\:placeholder-indigo-600"
+placeholder_indigo_600 = ClassName "xl\\:placeholder-indigo-600"
 
 placeholder_indigo_700 :: ClassName
-placeholder_indigo_700 = ClassName "xl\:placeholder-indigo-700"
+placeholder_indigo_700 = ClassName "xl\\:placeholder-indigo-700"
 
 placeholder_indigo_800 :: ClassName
-placeholder_indigo_800 = ClassName "xl\:placeholder-indigo-800"
+placeholder_indigo_800 = ClassName "xl\\:placeholder-indigo-800"
 
 placeholder_indigo_900 :: ClassName
-placeholder_indigo_900 = ClassName "xl\:placeholder-indigo-900"
+placeholder_indigo_900 = ClassName "xl\\:placeholder-indigo-900"
 
 placeholder_opacity_0 :: ClassName
-placeholder_opacity_0 = ClassName "xl\:placeholder-opacity-0"
+placeholder_opacity_0 = ClassName "xl\\:placeholder-opacity-0"
 
 placeholder_opacity_100 :: ClassName
-placeholder_opacity_100 = ClassName "xl\:placeholder-opacity-100"
+placeholder_opacity_100 = ClassName "xl\\:placeholder-opacity-100"
 
 placeholder_opacity_25 :: ClassName
-placeholder_opacity_25 = ClassName "xl\:placeholder-opacity-25"
+placeholder_opacity_25 = ClassName "xl\\:placeholder-opacity-25"
 
 placeholder_opacity_50 :: ClassName
-placeholder_opacity_50 = ClassName "xl\:placeholder-opacity-50"
+placeholder_opacity_50 = ClassName "xl\\:placeholder-opacity-50"
 
 placeholder_opacity_75 :: ClassName
-placeholder_opacity_75 = ClassName "xl\:placeholder-opacity-75"
+placeholder_opacity_75 = ClassName "xl\\:placeholder-opacity-75"
 
 placeholder_orange_100 :: ClassName
-placeholder_orange_100 = ClassName "xl\:placeholder-orange-100"
+placeholder_orange_100 = ClassName "xl\\:placeholder-orange-100"
 
 placeholder_orange_200 :: ClassName
-placeholder_orange_200 = ClassName "xl\:placeholder-orange-200"
+placeholder_orange_200 = ClassName "xl\\:placeholder-orange-200"
 
 placeholder_orange_300 :: ClassName
-placeholder_orange_300 = ClassName "xl\:placeholder-orange-300"
+placeholder_orange_300 = ClassName "xl\\:placeholder-orange-300"
 
 placeholder_orange_400 :: ClassName
-placeholder_orange_400 = ClassName "xl\:placeholder-orange-400"
+placeholder_orange_400 = ClassName "xl\\:placeholder-orange-400"
 
 placeholder_orange_500 :: ClassName
-placeholder_orange_500 = ClassName "xl\:placeholder-orange-500"
+placeholder_orange_500 = ClassName "xl\\:placeholder-orange-500"
 
 placeholder_orange_600 :: ClassName
-placeholder_orange_600 = ClassName "xl\:placeholder-orange-600"
+placeholder_orange_600 = ClassName "xl\\:placeholder-orange-600"
 
 placeholder_orange_700 :: ClassName
-placeholder_orange_700 = ClassName "xl\:placeholder-orange-700"
+placeholder_orange_700 = ClassName "xl\\:placeholder-orange-700"
 
 placeholder_orange_800 :: ClassName
-placeholder_orange_800 = ClassName "xl\:placeholder-orange-800"
+placeholder_orange_800 = ClassName "xl\\:placeholder-orange-800"
 
 placeholder_orange_900 :: ClassName
-placeholder_orange_900 = ClassName "xl\:placeholder-orange-900"
+placeholder_orange_900 = ClassName "xl\\:placeholder-orange-900"
 
 placeholder_pink_100 :: ClassName
-placeholder_pink_100 = ClassName "xl\:placeholder-pink-100"
+placeholder_pink_100 = ClassName "xl\\:placeholder-pink-100"
 
 placeholder_pink_200 :: ClassName
-placeholder_pink_200 = ClassName "xl\:placeholder-pink-200"
+placeholder_pink_200 = ClassName "xl\\:placeholder-pink-200"
 
 placeholder_pink_300 :: ClassName
-placeholder_pink_300 = ClassName "xl\:placeholder-pink-300"
+placeholder_pink_300 = ClassName "xl\\:placeholder-pink-300"
 
 placeholder_pink_400 :: ClassName
-placeholder_pink_400 = ClassName "xl\:placeholder-pink-400"
+placeholder_pink_400 = ClassName "xl\\:placeholder-pink-400"
 
 placeholder_pink_500 :: ClassName
-placeholder_pink_500 = ClassName "xl\:placeholder-pink-500"
+placeholder_pink_500 = ClassName "xl\\:placeholder-pink-500"
 
 placeholder_pink_600 :: ClassName
-placeholder_pink_600 = ClassName "xl\:placeholder-pink-600"
+placeholder_pink_600 = ClassName "xl\\:placeholder-pink-600"
 
 placeholder_pink_700 :: ClassName
-placeholder_pink_700 = ClassName "xl\:placeholder-pink-700"
+placeholder_pink_700 = ClassName "xl\\:placeholder-pink-700"
 
 placeholder_pink_800 :: ClassName
-placeholder_pink_800 = ClassName "xl\:placeholder-pink-800"
+placeholder_pink_800 = ClassName "xl\\:placeholder-pink-800"
 
 placeholder_pink_900 :: ClassName
-placeholder_pink_900 = ClassName "xl\:placeholder-pink-900"
+placeholder_pink_900 = ClassName "xl\\:placeholder-pink-900"
 
 placeholder_purple_100 :: ClassName
-placeholder_purple_100 = ClassName "xl\:placeholder-purple-100"
+placeholder_purple_100 = ClassName "xl\\:placeholder-purple-100"
 
 placeholder_purple_200 :: ClassName
-placeholder_purple_200 = ClassName "xl\:placeholder-purple-200"
+placeholder_purple_200 = ClassName "xl\\:placeholder-purple-200"
 
 placeholder_purple_300 :: ClassName
-placeholder_purple_300 = ClassName "xl\:placeholder-purple-300"
+placeholder_purple_300 = ClassName "xl\\:placeholder-purple-300"
 
 placeholder_purple_400 :: ClassName
-placeholder_purple_400 = ClassName "xl\:placeholder-purple-400"
+placeholder_purple_400 = ClassName "xl\\:placeholder-purple-400"
 
 placeholder_purple_500 :: ClassName
-placeholder_purple_500 = ClassName "xl\:placeholder-purple-500"
+placeholder_purple_500 = ClassName "xl\\:placeholder-purple-500"
 
 placeholder_purple_600 :: ClassName
-placeholder_purple_600 = ClassName "xl\:placeholder-purple-600"
+placeholder_purple_600 = ClassName "xl\\:placeholder-purple-600"
 
 placeholder_purple_700 :: ClassName
-placeholder_purple_700 = ClassName "xl\:placeholder-purple-700"
+placeholder_purple_700 = ClassName "xl\\:placeholder-purple-700"
 
 placeholder_purple_800 :: ClassName
-placeholder_purple_800 = ClassName "xl\:placeholder-purple-800"
+placeholder_purple_800 = ClassName "xl\\:placeholder-purple-800"
 
 placeholder_purple_900 :: ClassName
-placeholder_purple_900 = ClassName "xl\:placeholder-purple-900"
+placeholder_purple_900 = ClassName "xl\\:placeholder-purple-900"
 
 placeholder_red :: ClassName
-placeholder_red = ClassName "xl\:placeholder-red"
+placeholder_red = ClassName "xl\\:placeholder-red"
 
 placeholder_steel_100 :: ClassName
-placeholder_steel_100 = ClassName "xl\:placeholder-steel-100"
+placeholder_steel_100 = ClassName "xl\\:placeholder-steel-100"
 
 placeholder_steel_75 :: ClassName
-placeholder_steel_75 = ClassName "xl\:placeholder-steel-75"
+placeholder_steel_75 = ClassName "xl\\:placeholder-steel-75"
 
 placeholder_steel_85 :: ClassName
-placeholder_steel_85 = ClassName "xl\:placeholder-steel-85"
+placeholder_steel_85 = ClassName "xl\\:placeholder-steel-85"
 
 placeholder_teal_100 :: ClassName
-placeholder_teal_100 = ClassName "xl\:placeholder-teal-100"
+placeholder_teal_100 = ClassName "xl\\:placeholder-teal-100"
 
 placeholder_teal_200 :: ClassName
-placeholder_teal_200 = ClassName "xl\:placeholder-teal-200"
+placeholder_teal_200 = ClassName "xl\\:placeholder-teal-200"
 
 placeholder_teal_300 :: ClassName
-placeholder_teal_300 = ClassName "xl\:placeholder-teal-300"
+placeholder_teal_300 = ClassName "xl\\:placeholder-teal-300"
 
 placeholder_teal_400 :: ClassName
-placeholder_teal_400 = ClassName "xl\:placeholder-teal-400"
+placeholder_teal_400 = ClassName "xl\\:placeholder-teal-400"
 
 placeholder_teal_500 :: ClassName
-placeholder_teal_500 = ClassName "xl\:placeholder-teal-500"
+placeholder_teal_500 = ClassName "xl\\:placeholder-teal-500"
 
 placeholder_teal_600 :: ClassName
-placeholder_teal_600 = ClassName "xl\:placeholder-teal-600"
+placeholder_teal_600 = ClassName "xl\\:placeholder-teal-600"
 
 placeholder_teal_700 :: ClassName
-placeholder_teal_700 = ClassName "xl\:placeholder-teal-700"
+placeholder_teal_700 = ClassName "xl\\:placeholder-teal-700"
 
 placeholder_teal_800 :: ClassName
-placeholder_teal_800 = ClassName "xl\:placeholder-teal-800"
+placeholder_teal_800 = ClassName "xl\\:placeholder-teal-800"
 
 placeholder_teal_900 :: ClassName
-placeholder_teal_900 = ClassName "xl\:placeholder-teal-900"
+placeholder_teal_900 = ClassName "xl\\:placeholder-teal-900"
 
 placeholder_transparent :: ClassName
-placeholder_transparent = ClassName "xl\:placeholder-transparent"
+placeholder_transparent = ClassName "xl\\:placeholder-transparent"
 
 placeholder_tw_blue :: ClassName
-placeholder_tw_blue = ClassName "xl\:placeholder-tw-blue"
+placeholder_tw_blue = ClassName "xl\\:placeholder-tw-blue"
 
 placeholder_white :: ClassName
-placeholder_white = ClassName "xl\:placeholder-white"
+placeholder_white = ClassName "xl\\:placeholder-white"
 
 placeholder_yellow :: ClassName
-placeholder_yellow = ClassName "xl\:placeholder-yellow"
+placeholder_yellow = ClassName "xl\\:placeholder-yellow"
 
 pointer_events_auto :: ClassName
-pointer_events_auto = ClassName "xl\:pointer-events-auto"
+pointer_events_auto = ClassName "xl\\:pointer-events-auto"
 
 pointer_events_none :: ClassName
-pointer_events_none = ClassName "xl\:pointer-events-none"
+pointer_events_none = ClassName "xl\\:pointer-events-none"
 
 pr_0 :: ClassName
-pr_0 = ClassName "xl\:pr-0"
+pr_0 = ClassName "xl\\:pr-0"
 
 pr_1 :: ClassName
-pr_1 = ClassName "xl\:pr-1"
+pr_1 = ClassName "xl\\:pr-1"
 
 pr_10 :: ClassName
-pr_10 = ClassName "xl\:pr-10"
+pr_10 = ClassName "xl\\:pr-10"
 
 pr_12 :: ClassName
-pr_12 = ClassName "xl\:pr-12"
+pr_12 = ClassName "xl\\:pr-12"
 
 pr_120 :: ClassName
-pr_120 = ClassName "xl\:pr-120"
+pr_120 = ClassName "xl\\:pr-120"
 
 pr_14 :: ClassName
-pr_14 = ClassName "xl\:pr-14"
+pr_14 = ClassName "xl\\:pr-14"
 
 pr_16 :: ClassName
-pr_16 = ClassName "xl\:pr-16"
+pr_16 = ClassName "xl\\:pr-16"
 
 pr_160 :: ClassName
-pr_160 = ClassName "xl\:pr-160"
+pr_160 = ClassName "xl\\:pr-160"
 
 pr_2 :: ClassName
-pr_2 = ClassName "xl\:pr-2"
+pr_2 = ClassName "xl\\:pr-2"
 
 pr_20 :: ClassName
-pr_20 = ClassName "xl\:pr-20"
+pr_20 = ClassName "xl\\:pr-20"
 
 pr_24 :: ClassName
-pr_24 = ClassName "xl\:pr-24"
+pr_24 = ClassName "xl\\:pr-24"
 
 pr_3 :: ClassName
-pr_3 = ClassName "xl\:pr-3"
+pr_3 = ClassName "xl\\:pr-3"
 
 pr_30 :: ClassName
-pr_30 = ClassName "xl\:pr-30"
+pr_30 = ClassName "xl\\:pr-30"
 
 pr_32 :: ClassName
-pr_32 = ClassName "xl\:pr-32"
+pr_32 = ClassName "xl\\:pr-32"
 
 pr_4 :: ClassName
-pr_4 = ClassName "xl\:pr-4"
+pr_4 = ClassName "xl\\:pr-4"
 
 pr_40 :: ClassName
-pr_40 = ClassName "xl\:pr-40"
+pr_40 = ClassName "xl\\:pr-40"
 
 pr_48 :: ClassName
-pr_48 = ClassName "xl\:pr-48"
+pr_48 = ClassName "xl\\:pr-48"
 
 pr_5 :: ClassName
-pr_5 = ClassName "xl\:pr-5"
+pr_5 = ClassName "xl\\:pr-5"
 
 pr_50 :: ClassName
-pr_50 = ClassName "xl\:pr-50"
+pr_50 = ClassName "xl\\:pr-50"
 
 pr_56 :: ClassName
-pr_56 = ClassName "xl\:pr-56"
+pr_56 = ClassName "xl\\:pr-56"
 
 pr_6 :: ClassName
-pr_6 = ClassName "xl\:pr-6"
+pr_6 = ClassName "xl\\:pr-6"
 
 pr_60 :: ClassName
-pr_60 = ClassName "xl\:pr-60"
+pr_60 = ClassName "xl\\:pr-60"
 
 pr_64 :: ClassName
-pr_64 = ClassName "xl\:pr-64"
+pr_64 = ClassName "xl\\:pr-64"
 
 pr_7 :: ClassName
-pr_7 = ClassName "xl\:pr-7"
+pr_7 = ClassName "xl\\:pr-7"
 
 pr_8 :: ClassName
-pr_8 = ClassName "xl\:pr-8"
+pr_8 = ClassName "xl\\:pr-8"
 
 pr_80 :: ClassName
-pr_80 = ClassName "xl\:pr-80"
+pr_80 = ClassName "xl\\:pr-80"
 
 pr_9 :: ClassName
-pr_9 = ClassName "xl\:pr-9"
+pr_9 = ClassName "xl\\:pr-9"
 
 pr_90 :: ClassName
-pr_90 = ClassName "xl\:pr-90"
+pr_90 = ClassName "xl\\:pr-90"
 
 pr_px :: ClassName
-pr_px = ClassName "xl\:pr-px"
+pr_px = ClassName "xl\\:pr-px"
 
 pt_0 :: ClassName
-pt_0 = ClassName "xl\:pt-0"
+pt_0 = ClassName "xl\\:pt-0"
 
 pt_1 :: ClassName
-pt_1 = ClassName "xl\:pt-1"
+pt_1 = ClassName "xl\\:pt-1"
 
 pt_10 :: ClassName
-pt_10 = ClassName "xl\:pt-10"
+pt_10 = ClassName "xl\\:pt-10"
 
 pt_12 :: ClassName
-pt_12 = ClassName "xl\:pt-12"
+pt_12 = ClassName "xl\\:pt-12"
 
 pt_120 :: ClassName
-pt_120 = ClassName "xl\:pt-120"
+pt_120 = ClassName "xl\\:pt-120"
 
 pt_14 :: ClassName
-pt_14 = ClassName "xl\:pt-14"
+pt_14 = ClassName "xl\\:pt-14"
 
 pt_16 :: ClassName
-pt_16 = ClassName "xl\:pt-16"
+pt_16 = ClassName "xl\\:pt-16"
 
 pt_160 :: ClassName
-pt_160 = ClassName "xl\:pt-160"
+pt_160 = ClassName "xl\\:pt-160"
 
 pt_2 :: ClassName
-pt_2 = ClassName "xl\:pt-2"
+pt_2 = ClassName "xl\\:pt-2"
 
 pt_20 :: ClassName
-pt_20 = ClassName "xl\:pt-20"
+pt_20 = ClassName "xl\\:pt-20"
 
 pt_24 :: ClassName
-pt_24 = ClassName "xl\:pt-24"
+pt_24 = ClassName "xl\\:pt-24"
 
 pt_3 :: ClassName
-pt_3 = ClassName "xl\:pt-3"
+pt_3 = ClassName "xl\\:pt-3"
 
 pt_30 :: ClassName
-pt_30 = ClassName "xl\:pt-30"
+pt_30 = ClassName "xl\\:pt-30"
 
 pt_32 :: ClassName
-pt_32 = ClassName "xl\:pt-32"
+pt_32 = ClassName "xl\\:pt-32"
 
 pt_4 :: ClassName
-pt_4 = ClassName "xl\:pt-4"
+pt_4 = ClassName "xl\\:pt-4"
 
 pt_40 :: ClassName
-pt_40 = ClassName "xl\:pt-40"
+pt_40 = ClassName "xl\\:pt-40"
 
 pt_48 :: ClassName
-pt_48 = ClassName "xl\:pt-48"
+pt_48 = ClassName "xl\\:pt-48"
 
 pt_5 :: ClassName
-pt_5 = ClassName "xl\:pt-5"
+pt_5 = ClassName "xl\\:pt-5"
 
 pt_50 :: ClassName
-pt_50 = ClassName "xl\:pt-50"
+pt_50 = ClassName "xl\\:pt-50"
 
 pt_56 :: ClassName
-pt_56 = ClassName "xl\:pt-56"
+pt_56 = ClassName "xl\\:pt-56"
 
 pt_6 :: ClassName
-pt_6 = ClassName "xl\:pt-6"
+pt_6 = ClassName "xl\\:pt-6"
 
 pt_60 :: ClassName
-pt_60 = ClassName "xl\:pt-60"
+pt_60 = ClassName "xl\\:pt-60"
 
 pt_64 :: ClassName
-pt_64 = ClassName "xl\:pt-64"
+pt_64 = ClassName "xl\\:pt-64"
 
 pt_7 :: ClassName
-pt_7 = ClassName "xl\:pt-7"
+pt_7 = ClassName "xl\\:pt-7"
 
 pt_8 :: ClassName
-pt_8 = ClassName "xl\:pt-8"
+pt_8 = ClassName "xl\\:pt-8"
 
 pt_80 :: ClassName
-pt_80 = ClassName "xl\:pt-80"
+pt_80 = ClassName "xl\\:pt-80"
 
 pt_9 :: ClassName
-pt_9 = ClassName "xl\:pt-9"
+pt_9 = ClassName "xl\\:pt-9"
 
 pt_90 :: ClassName
-pt_90 = ClassName "xl\:pt-90"
+pt_90 = ClassName "xl\\:pt-90"
 
 pt_px :: ClassName
-pt_px = ClassName "xl\:pt-px"
+pt_px = ClassName "xl\\:pt-px"
 
 px_0 :: ClassName
-px_0 = ClassName "xl\:px-0"
+px_0 = ClassName "xl\\:px-0"
 
 px_1 :: ClassName
-px_1 = ClassName "xl\:px-1"
+px_1 = ClassName "xl\\:px-1"
 
 px_10 :: ClassName
-px_10 = ClassName "xl\:px-10"
+px_10 = ClassName "xl\\:px-10"
 
 px_12 :: ClassName
-px_12 = ClassName "xl\:px-12"
+px_12 = ClassName "xl\\:px-12"
 
 px_120 :: ClassName
-px_120 = ClassName "xl\:px-120"
+px_120 = ClassName "xl\\:px-120"
 
 px_14 :: ClassName
-px_14 = ClassName "xl\:px-14"
+px_14 = ClassName "xl\\:px-14"
 
 px_16 :: ClassName
-px_16 = ClassName "xl\:px-16"
+px_16 = ClassName "xl\\:px-16"
 
 px_160 :: ClassName
-px_160 = ClassName "xl\:px-160"
+px_160 = ClassName "xl\\:px-160"
 
 px_2 :: ClassName
-px_2 = ClassName "xl\:px-2"
+px_2 = ClassName "xl\\:px-2"
 
 px_20 :: ClassName
-px_20 = ClassName "xl\:px-20"
+px_20 = ClassName "xl\\:px-20"
 
 px_24 :: ClassName
-px_24 = ClassName "xl\:px-24"
+px_24 = ClassName "xl\\:px-24"
 
 px_3 :: ClassName
-px_3 = ClassName "xl\:px-3"
+px_3 = ClassName "xl\\:px-3"
 
 px_30 :: ClassName
-px_30 = ClassName "xl\:px-30"
+px_30 = ClassName "xl\\:px-30"
 
 px_32 :: ClassName
-px_32 = ClassName "xl\:px-32"
+px_32 = ClassName "xl\\:px-32"
 
 px_4 :: ClassName
-px_4 = ClassName "xl\:px-4"
+px_4 = ClassName "xl\\:px-4"
 
 px_40 :: ClassName
-px_40 = ClassName "xl\:px-40"
+px_40 = ClassName "xl\\:px-40"
 
 px_48 :: ClassName
-px_48 = ClassName "xl\:px-48"
+px_48 = ClassName "xl\\:px-48"
 
 px_5 :: ClassName
-px_5 = ClassName "xl\:px-5"
+px_5 = ClassName "xl\\:px-5"
 
 px_50 :: ClassName
-px_50 = ClassName "xl\:px-50"
+px_50 = ClassName "xl\\:px-50"
 
 px_56 :: ClassName
-px_56 = ClassName "xl\:px-56"
+px_56 = ClassName "xl\\:px-56"
 
 px_6 :: ClassName
-px_6 = ClassName "xl\:px-6"
+px_6 = ClassName "xl\\:px-6"
 
 px_60 :: ClassName
-px_60 = ClassName "xl\:px-60"
+px_60 = ClassName "xl\\:px-60"
 
 px_64 :: ClassName
-px_64 = ClassName "xl\:px-64"
+px_64 = ClassName "xl\\:px-64"
 
 px_7 :: ClassName
-px_7 = ClassName "xl\:px-7"
+px_7 = ClassName "xl\\:px-7"
 
 px_8 :: ClassName
-px_8 = ClassName "xl\:px-8"
+px_8 = ClassName "xl\\:px-8"
 
 px_80 :: ClassName
-px_80 = ClassName "xl\:px-80"
+px_80 = ClassName "xl\\:px-80"
 
 px_9 :: ClassName
-px_9 = ClassName "xl\:px-9"
+px_9 = ClassName "xl\\:px-9"
 
 px_90 :: ClassName
-px_90 = ClassName "xl\:px-90"
+px_90 = ClassName "xl\\:px-90"
 
 px_px :: ClassName
-px_px = ClassName "xl\:px-px"
+px_px = ClassName "xl\\:px-px"
 
 py_0 :: ClassName
-py_0 = ClassName "xl\:py-0"
+py_0 = ClassName "xl\\:py-0"
 
 py_1 :: ClassName
-py_1 = ClassName "xl\:py-1"
+py_1 = ClassName "xl\\:py-1"
 
 py_10 :: ClassName
-py_10 = ClassName "xl\:py-10"
+py_10 = ClassName "xl\\:py-10"
 
 py_12 :: ClassName
-py_12 = ClassName "xl\:py-12"
+py_12 = ClassName "xl\\:py-12"
 
 py_120 :: ClassName
-py_120 = ClassName "xl\:py-120"
+py_120 = ClassName "xl\\:py-120"
 
 py_14 :: ClassName
-py_14 = ClassName "xl\:py-14"
+py_14 = ClassName "xl\\:py-14"
 
 py_16 :: ClassName
-py_16 = ClassName "xl\:py-16"
+py_16 = ClassName "xl\\:py-16"
 
 py_160 :: ClassName
-py_160 = ClassName "xl\:py-160"
+py_160 = ClassName "xl\\:py-160"
 
 py_2 :: ClassName
-py_2 = ClassName "xl\:py-2"
+py_2 = ClassName "xl\\:py-2"
 
 py_20 :: ClassName
-py_20 = ClassName "xl\:py-20"
+py_20 = ClassName "xl\\:py-20"
 
 py_24 :: ClassName
-py_24 = ClassName "xl\:py-24"
+py_24 = ClassName "xl\\:py-24"
 
 py_3 :: ClassName
-py_3 = ClassName "xl\:py-3"
+py_3 = ClassName "xl\\:py-3"
 
 py_30 :: ClassName
-py_30 = ClassName "xl\:py-30"
+py_30 = ClassName "xl\\:py-30"
 
 py_32 :: ClassName
-py_32 = ClassName "xl\:py-32"
+py_32 = ClassName "xl\\:py-32"
 
 py_4 :: ClassName
-py_4 = ClassName "xl\:py-4"
+py_4 = ClassName "xl\\:py-4"
 
 py_40 :: ClassName
-py_40 = ClassName "xl\:py-40"
+py_40 = ClassName "xl\\:py-40"
 
 py_48 :: ClassName
-py_48 = ClassName "xl\:py-48"
+py_48 = ClassName "xl\\:py-48"
 
 py_5 :: ClassName
-py_5 = ClassName "xl\:py-5"
+py_5 = ClassName "xl\\:py-5"
 
 py_50 :: ClassName
-py_50 = ClassName "xl\:py-50"
+py_50 = ClassName "xl\\:py-50"
 
 py_56 :: ClassName
-py_56 = ClassName "xl\:py-56"
+py_56 = ClassName "xl\\:py-56"
 
 py_6 :: ClassName
-py_6 = ClassName "xl\:py-6"
+py_6 = ClassName "xl\\:py-6"
 
 py_60 :: ClassName
-py_60 = ClassName "xl\:py-60"
+py_60 = ClassName "xl\\:py-60"
 
 py_64 :: ClassName
-py_64 = ClassName "xl\:py-64"
+py_64 = ClassName "xl\\:py-64"
 
 py_7 :: ClassName
-py_7 = ClassName "xl\:py-7"
+py_7 = ClassName "xl\\:py-7"
 
 py_8 :: ClassName
-py_8 = ClassName "xl\:py-8"
+py_8 = ClassName "xl\\:py-8"
 
 py_80 :: ClassName
-py_80 = ClassName "xl\:py-80"
+py_80 = ClassName "xl\\:py-80"
 
 py_9 :: ClassName
-py_9 = ClassName "xl\:py-9"
+py_9 = ClassName "xl\\:py-9"
 
 py_90 :: ClassName
-py_90 = ClassName "xl\:py-90"
+py_90 = ClassName "xl\\:py-90"
 
 py_px :: ClassName
-py_px = ClassName "xl\:py-px"
+py_px = ClassName "xl\\:py-px"
 
 relative :: ClassName
-relative = ClassName "xl\:relative"
+relative = ClassName "xl\\:relative"
 
 resize :: ClassName
-resize = ClassName "xl\:resize"
+resize = ClassName "xl\\:resize"
 
 resize_none :: ClassName
-resize_none = ClassName "xl\:resize-none"
+resize_none = ClassName "xl\\:resize-none"
 
 resize_x :: ClassName
-resize_x = ClassName "xl\:resize-x"
+resize_x = ClassName "xl\\:resize-x"
 
 resize_y :: ClassName
-resize_y = ClassName "xl\:resize-y"
+resize_y = ClassName "xl\\:resize-y"
 
 right_0 :: ClassName
-right_0 = ClassName "xl\:right-0"
+right_0 = ClassName "xl\\:right-0"
 
 right_auto :: ClassName
-right_auto = ClassName "xl\:right-auto"
+right_auto = ClassName "xl\\:right-auto"
 
 rotate_0 :: ClassName
-rotate_0 = ClassName "xl\:rotate-0"
+rotate_0 = ClassName "xl\\:rotate-0"
 
 rotate_180 :: ClassName
-rotate_180 = ClassName "xl\:rotate-180"
+rotate_180 = ClassName "xl\\:rotate-180"
 
 rotate_45 :: ClassName
-rotate_45 = ClassName "xl\:rotate-45"
+rotate_45 = ClassName "xl\\:rotate-45"
 
 rotate_90 :: ClassName
-rotate_90 = ClassName "xl\:rotate-90"
+rotate_90 = ClassName "xl\\:rotate-90"
 
 rounded :: ClassName
-rounded = ClassName "xl\:rounded"
+rounded = ClassName "xl\\:rounded"
 
 rounded_b :: ClassName
-rounded_b = ClassName "xl\:rounded-b"
+rounded_b = ClassName "xl\\:rounded-b"
 
 rounded_b_full :: ClassName
-rounded_b_full = ClassName "xl\:rounded-b-full"
+rounded_b_full = ClassName "xl\\:rounded-b-full"
 
 rounded_b_lg :: ClassName
-rounded_b_lg = ClassName "xl\:rounded-b-lg"
+rounded_b_lg = ClassName "xl\\:rounded-b-lg"
 
 rounded_b_md :: ClassName
-rounded_b_md = ClassName "xl\:rounded-b-md"
+rounded_b_md = ClassName "xl\\:rounded-b-md"
 
 rounded_b_none :: ClassName
-rounded_b_none = ClassName "xl\:rounded-b-none"
+rounded_b_none = ClassName "xl\\:rounded-b-none"
 
 rounded_b_sm :: ClassName
-rounded_b_sm = ClassName "xl\:rounded-b-sm"
+rounded_b_sm = ClassName "xl\\:rounded-b-sm"
 
 rounded_bl :: ClassName
-rounded_bl = ClassName "xl\:rounded-bl"
+rounded_bl = ClassName "xl\\:rounded-bl"
 
 rounded_bl_full :: ClassName
-rounded_bl_full = ClassName "xl\:rounded-bl-full"
+rounded_bl_full = ClassName "xl\\:rounded-bl-full"
 
 rounded_bl_lg :: ClassName
-rounded_bl_lg = ClassName "xl\:rounded-bl-lg"
+rounded_bl_lg = ClassName "xl\\:rounded-bl-lg"
 
 rounded_bl_md :: ClassName
-rounded_bl_md = ClassName "xl\:rounded-bl-md"
+rounded_bl_md = ClassName "xl\\:rounded-bl-md"
 
 rounded_bl_none :: ClassName
-rounded_bl_none = ClassName "xl\:rounded-bl-none"
+rounded_bl_none = ClassName "xl\\:rounded-bl-none"
 
 rounded_bl_sm :: ClassName
-rounded_bl_sm = ClassName "xl\:rounded-bl-sm"
+rounded_bl_sm = ClassName "xl\\:rounded-bl-sm"
 
 rounded_br :: ClassName
-rounded_br = ClassName "xl\:rounded-br"
+rounded_br = ClassName "xl\\:rounded-br"
 
 rounded_br_full :: ClassName
-rounded_br_full = ClassName "xl\:rounded-br-full"
+rounded_br_full = ClassName "xl\\:rounded-br-full"
 
 rounded_br_lg :: ClassName
-rounded_br_lg = ClassName "xl\:rounded-br-lg"
+rounded_br_lg = ClassName "xl\\:rounded-br-lg"
 
 rounded_br_md :: ClassName
-rounded_br_md = ClassName "xl\:rounded-br-md"
+rounded_br_md = ClassName "xl\\:rounded-br-md"
 
 rounded_br_none :: ClassName
-rounded_br_none = ClassName "xl\:rounded-br-none"
+rounded_br_none = ClassName "xl\\:rounded-br-none"
 
 rounded_br_sm :: ClassName
-rounded_br_sm = ClassName "xl\:rounded-br-sm"
+rounded_br_sm = ClassName "xl\\:rounded-br-sm"
 
 rounded_full :: ClassName
-rounded_full = ClassName "xl\:rounded-full"
+rounded_full = ClassName "xl\\:rounded-full"
 
 rounded_l :: ClassName
-rounded_l = ClassName "xl\:rounded-l"
+rounded_l = ClassName "xl\\:rounded-l"
 
 rounded_l_full :: ClassName
-rounded_l_full = ClassName "xl\:rounded-l-full"
+rounded_l_full = ClassName "xl\\:rounded-l-full"
 
 rounded_l_lg :: ClassName
-rounded_l_lg = ClassName "xl\:rounded-l-lg"
+rounded_l_lg = ClassName "xl\\:rounded-l-lg"
 
 rounded_l_md :: ClassName
-rounded_l_md = ClassName "xl\:rounded-l-md"
+rounded_l_md = ClassName "xl\\:rounded-l-md"
 
 rounded_l_none :: ClassName
-rounded_l_none = ClassName "xl\:rounded-l-none"
+rounded_l_none = ClassName "xl\\:rounded-l-none"
 
 rounded_l_sm :: ClassName
-rounded_l_sm = ClassName "xl\:rounded-l-sm"
+rounded_l_sm = ClassName "xl\\:rounded-l-sm"
 
 rounded_lg :: ClassName
-rounded_lg = ClassName "xl\:rounded-lg"
+rounded_lg = ClassName "xl\\:rounded-lg"
 
 rounded_md :: ClassName
-rounded_md = ClassName "xl\:rounded-md"
+rounded_md = ClassName "xl\\:rounded-md"
 
 rounded_none :: ClassName
-rounded_none = ClassName "xl\:rounded-none"
+rounded_none = ClassName "xl\\:rounded-none"
 
 rounded_r :: ClassName
-rounded_r = ClassName "xl\:rounded-r"
+rounded_r = ClassName "xl\\:rounded-r"
 
 rounded_r_full :: ClassName
-rounded_r_full = ClassName "xl\:rounded-r-full"
+rounded_r_full = ClassName "xl\\:rounded-r-full"
 
 rounded_r_lg :: ClassName
-rounded_r_lg = ClassName "xl\:rounded-r-lg"
+rounded_r_lg = ClassName "xl\\:rounded-r-lg"
 
 rounded_r_md :: ClassName
-rounded_r_md = ClassName "xl\:rounded-r-md"
+rounded_r_md = ClassName "xl\\:rounded-r-md"
 
 rounded_r_none :: ClassName
-rounded_r_none = ClassName "xl\:rounded-r-none"
+rounded_r_none = ClassName "xl\\:rounded-r-none"
 
 rounded_r_sm :: ClassName
-rounded_r_sm = ClassName "xl\:rounded-r-sm"
+rounded_r_sm = ClassName "xl\\:rounded-r-sm"
 
 rounded_sm :: ClassName
-rounded_sm = ClassName "xl\:rounded-sm"
+rounded_sm = ClassName "xl\\:rounded-sm"
 
 rounded_t :: ClassName
-rounded_t = ClassName "xl\:rounded-t"
+rounded_t = ClassName "xl\\:rounded-t"
 
 rounded_t_full :: ClassName
-rounded_t_full = ClassName "xl\:rounded-t-full"
+rounded_t_full = ClassName "xl\\:rounded-t-full"
 
 rounded_t_lg :: ClassName
-rounded_t_lg = ClassName "xl\:rounded-t-lg"
+rounded_t_lg = ClassName "xl\\:rounded-t-lg"
 
 rounded_t_md :: ClassName
-rounded_t_md = ClassName "xl\:rounded-t-md"
+rounded_t_md = ClassName "xl\\:rounded-t-md"
 
 rounded_t_none :: ClassName
-rounded_t_none = ClassName "xl\:rounded-t-none"
+rounded_t_none = ClassName "xl\\:rounded-t-none"
 
 rounded_t_sm :: ClassName
-rounded_t_sm = ClassName "xl\:rounded-t-sm"
+rounded_t_sm = ClassName "xl\\:rounded-t-sm"
 
 rounded_tl :: ClassName
-rounded_tl = ClassName "xl\:rounded-tl"
+rounded_tl = ClassName "xl\\:rounded-tl"
 
 rounded_tl_full :: ClassName
-rounded_tl_full = ClassName "xl\:rounded-tl-full"
+rounded_tl_full = ClassName "xl\\:rounded-tl-full"
 
 rounded_tl_lg :: ClassName
-rounded_tl_lg = ClassName "xl\:rounded-tl-lg"
+rounded_tl_lg = ClassName "xl\\:rounded-tl-lg"
 
 rounded_tl_md :: ClassName
-rounded_tl_md = ClassName "xl\:rounded-tl-md"
+rounded_tl_md = ClassName "xl\\:rounded-tl-md"
 
 rounded_tl_none :: ClassName
-rounded_tl_none = ClassName "xl\:rounded-tl-none"
+rounded_tl_none = ClassName "xl\\:rounded-tl-none"
 
 rounded_tl_sm :: ClassName
-rounded_tl_sm = ClassName "xl\:rounded-tl-sm"
+rounded_tl_sm = ClassName "xl\\:rounded-tl-sm"
 
 rounded_tr :: ClassName
-rounded_tr = ClassName "xl\:rounded-tr"
+rounded_tr = ClassName "xl\\:rounded-tr"
 
 rounded_tr_full :: ClassName
-rounded_tr_full = ClassName "xl\:rounded-tr-full"
+rounded_tr_full = ClassName "xl\\:rounded-tr-full"
 
 rounded_tr_lg :: ClassName
-rounded_tr_lg = ClassName "xl\:rounded-tr-lg"
+rounded_tr_lg = ClassName "xl\\:rounded-tr-lg"
 
 rounded_tr_md :: ClassName
-rounded_tr_md = ClassName "xl\:rounded-tr-md"
+rounded_tr_md = ClassName "xl\\:rounded-tr-md"
 
 rounded_tr_none :: ClassName
-rounded_tr_none = ClassName "xl\:rounded-tr-none"
+rounded_tr_none = ClassName "xl\\:rounded-tr-none"
 
 rounded_tr_sm :: ClassName
-rounded_tr_sm = ClassName "xl\:rounded-tr-sm"
+rounded_tr_sm = ClassName "xl\\:rounded-tr-sm"
 
 row_auto :: ClassName
-row_auto = ClassName "xl\:row-auto"
+row_auto = ClassName "xl\\:row-auto"
 
 row_end_1 :: ClassName
-row_end_1 = ClassName "xl\:row-end-1"
+row_end_1 = ClassName "xl\\:row-end-1"
 
 row_end_2 :: ClassName
-row_end_2 = ClassName "xl\:row-end-2"
+row_end_2 = ClassName "xl\\:row-end-2"
 
 row_end_3 :: ClassName
-row_end_3 = ClassName "xl\:row-end-3"
+row_end_3 = ClassName "xl\\:row-end-3"
 
 row_end_4 :: ClassName
-row_end_4 = ClassName "xl\:row-end-4"
+row_end_4 = ClassName "xl\\:row-end-4"
 
 row_end_5 :: ClassName
-row_end_5 = ClassName "xl\:row-end-5"
+row_end_5 = ClassName "xl\\:row-end-5"
 
 row_end_6 :: ClassName
-row_end_6 = ClassName "xl\:row-end-6"
+row_end_6 = ClassName "xl\\:row-end-6"
 
 row_end_7 :: ClassName
-row_end_7 = ClassName "xl\:row-end-7"
+row_end_7 = ClassName "xl\\:row-end-7"
 
 row_end_auto :: ClassName
-row_end_auto = ClassName "xl\:row-end-auto"
+row_end_auto = ClassName "xl\\:row-end-auto"
 
 row_gap_0 :: ClassName
-row_gap_0 = ClassName "xl\:row-gap-0"
+row_gap_0 = ClassName "xl\\:row-gap-0"
 
 row_gap_1 :: ClassName
-row_gap_1 = ClassName "xl\:row-gap-1"
+row_gap_1 = ClassName "xl\\:row-gap-1"
 
 row_gap_10 :: ClassName
-row_gap_10 = ClassName "xl\:row-gap-10"
+row_gap_10 = ClassName "xl\\:row-gap-10"
 
 row_gap_12 :: ClassName
-row_gap_12 = ClassName "xl\:row-gap-12"
+row_gap_12 = ClassName "xl\\:row-gap-12"
 
 row_gap_120 :: ClassName
-row_gap_120 = ClassName "xl\:row-gap-120"
+row_gap_120 = ClassName "xl\\:row-gap-120"
 
 row_gap_14 :: ClassName
-row_gap_14 = ClassName "xl\:row-gap-14"
+row_gap_14 = ClassName "xl\\:row-gap-14"
 
 row_gap_16 :: ClassName
-row_gap_16 = ClassName "xl\:row-gap-16"
+row_gap_16 = ClassName "xl\\:row-gap-16"
 
 row_gap_160 :: ClassName
-row_gap_160 = ClassName "xl\:row-gap-160"
+row_gap_160 = ClassName "xl\\:row-gap-160"
 
 row_gap_2 :: ClassName
-row_gap_2 = ClassName "xl\:row-gap-2"
+row_gap_2 = ClassName "xl\\:row-gap-2"
 
 row_gap_20 :: ClassName
-row_gap_20 = ClassName "xl\:row-gap-20"
+row_gap_20 = ClassName "xl\\:row-gap-20"
 
 row_gap_24 :: ClassName
-row_gap_24 = ClassName "xl\:row-gap-24"
+row_gap_24 = ClassName "xl\\:row-gap-24"
 
 row_gap_3 :: ClassName
-row_gap_3 = ClassName "xl\:row-gap-3"
+row_gap_3 = ClassName "xl\\:row-gap-3"
 
 row_gap_30 :: ClassName
-row_gap_30 = ClassName "xl\:row-gap-30"
+row_gap_30 = ClassName "xl\\:row-gap-30"
 
 row_gap_32 :: ClassName
-row_gap_32 = ClassName "xl\:row-gap-32"
+row_gap_32 = ClassName "xl\\:row-gap-32"
 
 row_gap_4 :: ClassName
-row_gap_4 = ClassName "xl\:row-gap-4"
+row_gap_4 = ClassName "xl\\:row-gap-4"
 
 row_gap_40 :: ClassName
-row_gap_40 = ClassName "xl\:row-gap-40"
+row_gap_40 = ClassName "xl\\:row-gap-40"
 
 row_gap_48 :: ClassName
-row_gap_48 = ClassName "xl\:row-gap-48"
+row_gap_48 = ClassName "xl\\:row-gap-48"
 
 row_gap_5 :: ClassName
-row_gap_5 = ClassName "xl\:row-gap-5"
+row_gap_5 = ClassName "xl\\:row-gap-5"
 
 row_gap_50 :: ClassName
-row_gap_50 = ClassName "xl\:row-gap-50"
+row_gap_50 = ClassName "xl\\:row-gap-50"
 
 row_gap_56 :: ClassName
-row_gap_56 = ClassName "xl\:row-gap-56"
+row_gap_56 = ClassName "xl\\:row-gap-56"
 
 row_gap_6 :: ClassName
-row_gap_6 = ClassName "xl\:row-gap-6"
+row_gap_6 = ClassName "xl\\:row-gap-6"
 
 row_gap_60 :: ClassName
-row_gap_60 = ClassName "xl\:row-gap-60"
+row_gap_60 = ClassName "xl\\:row-gap-60"
 
 row_gap_64 :: ClassName
-row_gap_64 = ClassName "xl\:row-gap-64"
+row_gap_64 = ClassName "xl\\:row-gap-64"
 
 row_gap_7 :: ClassName
-row_gap_7 = ClassName "xl\:row-gap-7"
+row_gap_7 = ClassName "xl\\:row-gap-7"
 
 row_gap_8 :: ClassName
-row_gap_8 = ClassName "xl\:row-gap-8"
+row_gap_8 = ClassName "xl\\:row-gap-8"
 
 row_gap_80 :: ClassName
-row_gap_80 = ClassName "xl\:row-gap-80"
+row_gap_80 = ClassName "xl\\:row-gap-80"
 
 row_gap_9 :: ClassName
-row_gap_9 = ClassName "xl\:row-gap-9"
+row_gap_9 = ClassName "xl\\:row-gap-9"
 
 row_gap_90 :: ClassName
-row_gap_90 = ClassName "xl\:row-gap-90"
+row_gap_90 = ClassName "xl\\:row-gap-90"
 
 row_gap_px :: ClassName
-row_gap_px = ClassName "xl\:row-gap-px"
+row_gap_px = ClassName "xl\\:row-gap-px"
 
 row_span_1 :: ClassName
-row_span_1 = ClassName "xl\:row-span-1"
+row_span_1 = ClassName "xl\\:row-span-1"
 
 row_span_2 :: ClassName
-row_span_2 = ClassName "xl\:row-span-2"
+row_span_2 = ClassName "xl\\:row-span-2"
 
 row_span_3 :: ClassName
-row_span_3 = ClassName "xl\:row-span-3"
+row_span_3 = ClassName "xl\\:row-span-3"
 
 row_span_4 :: ClassName
-row_span_4 = ClassName "xl\:row-span-4"
+row_span_4 = ClassName "xl\\:row-span-4"
 
 row_span_5 :: ClassName
-row_span_5 = ClassName "xl\:row-span-5"
+row_span_5 = ClassName "xl\\:row-span-5"
 
 row_span_6 :: ClassName
-row_span_6 = ClassName "xl\:row-span-6"
+row_span_6 = ClassName "xl\\:row-span-6"
 
 row_start_1 :: ClassName
-row_start_1 = ClassName "xl\:row-start-1"
+row_start_1 = ClassName "xl\\:row-start-1"
 
 row_start_2 :: ClassName
-row_start_2 = ClassName "xl\:row-start-2"
+row_start_2 = ClassName "xl\\:row-start-2"
 
 row_start_3 :: ClassName
-row_start_3 = ClassName "xl\:row-start-3"
+row_start_3 = ClassName "xl\\:row-start-3"
 
 row_start_4 :: ClassName
-row_start_4 = ClassName "xl\:row-start-4"
+row_start_4 = ClassName "xl\\:row-start-4"
 
 row_start_5 :: ClassName
-row_start_5 = ClassName "xl\:row-start-5"
+row_start_5 = ClassName "xl\\:row-start-5"
 
 row_start_6 :: ClassName
-row_start_6 = ClassName "xl\:row-start-6"
+row_start_6 = ClassName "xl\\:row-start-6"
 
 row_start_7 :: ClassName
-row_start_7 = ClassName "xl\:row-start-7"
+row_start_7 = ClassName "xl\\:row-start-7"
 
 row_start_auto :: ClassName
-row_start_auto = ClassName "xl\:row-start-auto"
+row_start_auto = ClassName "xl\\:row-start-auto"
 
 scale_0 :: ClassName
-scale_0 = ClassName "xl\:scale-0"
+scale_0 = ClassName "xl\\:scale-0"
 
 scale_100 :: ClassName
-scale_100 = ClassName "xl\:scale-100"
+scale_100 = ClassName "xl\\:scale-100"
 
 scale_105 :: ClassName
-scale_105 = ClassName "xl\:scale-105"
+scale_105 = ClassName "xl\\:scale-105"
 
 scale_110 :: ClassName
-scale_110 = ClassName "xl\:scale-110"
+scale_110 = ClassName "xl\\:scale-110"
 
 scale_125 :: ClassName
-scale_125 = ClassName "xl\:scale-125"
+scale_125 = ClassName "xl\\:scale-125"
 
 scale_150 :: ClassName
-scale_150 = ClassName "xl\:scale-150"
+scale_150 = ClassName "xl\\:scale-150"
 
 scale_50 :: ClassName
-scale_50 = ClassName "xl\:scale-50"
+scale_50 = ClassName "xl\\:scale-50"
 
 scale_75 :: ClassName
-scale_75 = ClassName "xl\:scale-75"
+scale_75 = ClassName "xl\\:scale-75"
 
 scale_90 :: ClassName
-scale_90 = ClassName "xl\:scale-90"
+scale_90 = ClassName "xl\\:scale-90"
 
 scale_95 :: ClassName
-scale_95 = ClassName "xl\:scale-95"
+scale_95 = ClassName "xl\\:scale-95"
 
 scale_x_0 :: ClassName
-scale_x_0 = ClassName "xl\:scale-x-0"
+scale_x_0 = ClassName "xl\\:scale-x-0"
 
 scale_x_100 :: ClassName
-scale_x_100 = ClassName "xl\:scale-x-100"
+scale_x_100 = ClassName "xl\\:scale-x-100"
 
 scale_x_105 :: ClassName
-scale_x_105 = ClassName "xl\:scale-x-105"
+scale_x_105 = ClassName "xl\\:scale-x-105"
 
 scale_x_110 :: ClassName
-scale_x_110 = ClassName "xl\:scale-x-110"
+scale_x_110 = ClassName "xl\\:scale-x-110"
 
 scale_x_125 :: ClassName
-scale_x_125 = ClassName "xl\:scale-x-125"
+scale_x_125 = ClassName "xl\\:scale-x-125"
 
 scale_x_150 :: ClassName
-scale_x_150 = ClassName "xl\:scale-x-150"
+scale_x_150 = ClassName "xl\\:scale-x-150"
 
 scale_x_50 :: ClassName
-scale_x_50 = ClassName "xl\:scale-x-50"
+scale_x_50 = ClassName "xl\\:scale-x-50"
 
 scale_x_75 :: ClassName
-scale_x_75 = ClassName "xl\:scale-x-75"
+scale_x_75 = ClassName "xl\\:scale-x-75"
 
 scale_x_90 :: ClassName
-scale_x_90 = ClassName "xl\:scale-x-90"
+scale_x_90 = ClassName "xl\\:scale-x-90"
 
 scale_x_95 :: ClassName
-scale_x_95 = ClassName "xl\:scale-x-95"
+scale_x_95 = ClassName "xl\\:scale-x-95"
 
 scale_y_0 :: ClassName
-scale_y_0 = ClassName "xl\:scale-y-0"
+scale_y_0 = ClassName "xl\\:scale-y-0"
 
 scale_y_100 :: ClassName
-scale_y_100 = ClassName "xl\:scale-y-100"
+scale_y_100 = ClassName "xl\\:scale-y-100"
 
 scale_y_105 :: ClassName
-scale_y_105 = ClassName "xl\:scale-y-105"
+scale_y_105 = ClassName "xl\\:scale-y-105"
 
 scale_y_110 :: ClassName
-scale_y_110 = ClassName "xl\:scale-y-110"
+scale_y_110 = ClassName "xl\\:scale-y-110"
 
 scale_y_125 :: ClassName
-scale_y_125 = ClassName "xl\:scale-y-125"
+scale_y_125 = ClassName "xl\\:scale-y-125"
 
 scale_y_150 :: ClassName
-scale_y_150 = ClassName "xl\:scale-y-150"
+scale_y_150 = ClassName "xl\\:scale-y-150"
 
 scale_y_50 :: ClassName
-scale_y_50 = ClassName "xl\:scale-y-50"
+scale_y_50 = ClassName "xl\\:scale-y-50"
 
 scale_y_75 :: ClassName
-scale_y_75 = ClassName "xl\:scale-y-75"
+scale_y_75 = ClassName "xl\\:scale-y-75"
 
 scale_y_90 :: ClassName
-scale_y_90 = ClassName "xl\:scale-y-90"
+scale_y_90 = ClassName "xl\\:scale-y-90"
 
 scale_y_95 :: ClassName
-scale_y_95 = ClassName "xl\:scale-y-95"
+scale_y_95 = ClassName "xl\\:scale-y-95"
 
 scrolling_auto :: ClassName
-scrolling_auto = ClassName "xl\:scrolling-auto"
+scrolling_auto = ClassName "xl\\:scrolling-auto"
 
 scrolling_touch :: ClassName
-scrolling_touch = ClassName "xl\:scrolling-touch"
+scrolling_touch = ClassName "xl\\:scrolling-touch"
 
 select_all :: ClassName
-select_all = ClassName "xl\:select-all"
+select_all = ClassName "xl\\:select-all"
 
 select_auto :: ClassName
-select_auto = ClassName "xl\:select-auto"
+select_auto = ClassName "xl\\:select-auto"
 
 select_none :: ClassName
-select_none = ClassName "xl\:select-none"
+select_none = ClassName "xl\\:select-none"
 
 select_text :: ClassName
-select_text = ClassName "xl\:select-text"
+select_text = ClassName "xl\\:select-text"
 
 self_auto :: ClassName
-self_auto = ClassName "xl\:self-auto"
+self_auto = ClassName "xl\\:self-auto"
 
 self_center :: ClassName
-self_center = ClassName "xl\:self-center"
+self_center = ClassName "xl\\:self-center"
 
 self_end :: ClassName
-self_end = ClassName "xl\:self-end"
+self_end = ClassName "xl\\:self-end"
 
 self_start :: ClassName
-self_start = ClassName "xl\:self-start"
+self_start = ClassName "xl\\:self-start"
 
 self_stretch :: ClassName
-self_stretch = ClassName "xl\:self-stretch"
+self_stretch = ClassName "xl\\:self-stretch"
 
 shadow :: ClassName
-shadow = ClassName "xl\:shadow"
+shadow = ClassName "xl\\:shadow"
 
 shadow_2xl :: ClassName
-shadow_2xl = ClassName "xl\:shadow-2xl"
+shadow_2xl = ClassName "xl\\:shadow-2xl"
 
 shadow_inner :: ClassName
-shadow_inner = ClassName "xl\:shadow-inner"
+shadow_inner = ClassName "xl\\:shadow-inner"
 
 shadow_lg :: ClassName
-shadow_lg = ClassName "xl\:shadow-lg"
+shadow_lg = ClassName "xl\\:shadow-lg"
 
 shadow_md :: ClassName
-shadow_md = ClassName "xl\:shadow-md"
+shadow_md = ClassName "xl\\:shadow-md"
 
 shadow_none :: ClassName
-shadow_none = ClassName "xl\:shadow-none"
+shadow_none = ClassName "xl\\:shadow-none"
 
 shadow_outline :: ClassName
-shadow_outline = ClassName "xl\:shadow-outline"
+shadow_outline = ClassName "xl\\:shadow-outline"
 
 shadow_sm :: ClassName
-shadow_sm = ClassName "xl\:shadow-sm"
+shadow_sm = ClassName "xl\\:shadow-sm"
 
 shadow_xl :: ClassName
-shadow_xl = ClassName "xl\:shadow-xl"
+shadow_xl = ClassName "xl\\:shadow-xl"
 
 shadow_xs :: ClassName
-shadow_xs = ClassName "xl\:shadow-xs"
+shadow_xs = ClassName "xl\\:shadow-xs"
 
 skew_x_0 :: ClassName
-skew_x_0 = ClassName "xl\:skew-x-0"
+skew_x_0 = ClassName "xl\\:skew-x-0"
 
 skew_x_12 :: ClassName
-skew_x_12 = ClassName "xl\:skew-x-12"
+skew_x_12 = ClassName "xl\\:skew-x-12"
 
 skew_x_3 :: ClassName
-skew_x_3 = ClassName "xl\:skew-x-3"
+skew_x_3 = ClassName "xl\\:skew-x-3"
 
 skew_x_6 :: ClassName
-skew_x_6 = ClassName "xl\:skew-x-6"
+skew_x_6 = ClassName "xl\\:skew-x-6"
 
 skew_y_0 :: ClassName
-skew_y_0 = ClassName "xl\:skew-y-0"
+skew_y_0 = ClassName "xl\\:skew-y-0"
 
 skew_y_12 :: ClassName
-skew_y_12 = ClassName "xl\:skew-y-12"
+skew_y_12 = ClassName "xl\\:skew-y-12"
 
 skew_y_3 :: ClassName
-skew_y_3 = ClassName "xl\:skew-y-3"
+skew_y_3 = ClassName "xl\\:skew-y-3"
 
 skew_y_6 :: ClassName
-skew_y_6 = ClassName "xl\:skew-y-6"
+skew_y_6 = ClassName "xl\\:skew-y-6"
 
 space_x_0 :: ClassName
-space_x_0 = ClassName "xl\:space-x-0"
+space_x_0 = ClassName "xl\\:space-x-0"
 
 space_x_1 :: ClassName
-space_x_1 = ClassName "xl\:space-x-1"
+space_x_1 = ClassName "xl\\:space-x-1"
 
 space_x_10 :: ClassName
-space_x_10 = ClassName "xl\:space-x-10"
+space_x_10 = ClassName "xl\\:space-x-10"
 
 space_x_12 :: ClassName
-space_x_12 = ClassName "xl\:space-x-12"
+space_x_12 = ClassName "xl\\:space-x-12"
 
 space_x_120 :: ClassName
-space_x_120 = ClassName "xl\:space-x-120"
+space_x_120 = ClassName "xl\\:space-x-120"
 
 space_x_14 :: ClassName
-space_x_14 = ClassName "xl\:space-x-14"
+space_x_14 = ClassName "xl\\:space-x-14"
 
 space_x_16 :: ClassName
-space_x_16 = ClassName "xl\:space-x-16"
+space_x_16 = ClassName "xl\\:space-x-16"
 
 space_x_160 :: ClassName
-space_x_160 = ClassName "xl\:space-x-160"
+space_x_160 = ClassName "xl\\:space-x-160"
 
 space_x_2 :: ClassName
-space_x_2 = ClassName "xl\:space-x-2"
+space_x_2 = ClassName "xl\\:space-x-2"
 
 space_x_20 :: ClassName
-space_x_20 = ClassName "xl\:space-x-20"
+space_x_20 = ClassName "xl\\:space-x-20"
 
 space_x_24 :: ClassName
-space_x_24 = ClassName "xl\:space-x-24"
+space_x_24 = ClassName "xl\\:space-x-24"
 
 space_x_3 :: ClassName
-space_x_3 = ClassName "xl\:space-x-3"
+space_x_3 = ClassName "xl\\:space-x-3"
 
 space_x_30 :: ClassName
-space_x_30 = ClassName "xl\:space-x-30"
+space_x_30 = ClassName "xl\\:space-x-30"
 
 space_x_32 :: ClassName
-space_x_32 = ClassName "xl\:space-x-32"
+space_x_32 = ClassName "xl\\:space-x-32"
 
 space_x_4 :: ClassName
-space_x_4 = ClassName "xl\:space-x-4"
+space_x_4 = ClassName "xl\\:space-x-4"
 
 space_x_40 :: ClassName
-space_x_40 = ClassName "xl\:space-x-40"
+space_x_40 = ClassName "xl\\:space-x-40"
 
 space_x_48 :: ClassName
-space_x_48 = ClassName "xl\:space-x-48"
+space_x_48 = ClassName "xl\\:space-x-48"
 
 space_x_5 :: ClassName
-space_x_5 = ClassName "xl\:space-x-5"
+space_x_5 = ClassName "xl\\:space-x-5"
 
 space_x_50 :: ClassName
-space_x_50 = ClassName "xl\:space-x-50"
+space_x_50 = ClassName "xl\\:space-x-50"
 
 space_x_56 :: ClassName
-space_x_56 = ClassName "xl\:space-x-56"
+space_x_56 = ClassName "xl\\:space-x-56"
 
 space_x_6 :: ClassName
-space_x_6 = ClassName "xl\:space-x-6"
+space_x_6 = ClassName "xl\\:space-x-6"
 
 space_x_60 :: ClassName
-space_x_60 = ClassName "xl\:space-x-60"
+space_x_60 = ClassName "xl\\:space-x-60"
 
 space_x_64 :: ClassName
-space_x_64 = ClassName "xl\:space-x-64"
+space_x_64 = ClassName "xl\\:space-x-64"
 
 space_x_7 :: ClassName
-space_x_7 = ClassName "xl\:space-x-7"
+space_x_7 = ClassName "xl\\:space-x-7"
 
 space_x_8 :: ClassName
-space_x_8 = ClassName "xl\:space-x-8"
+space_x_8 = ClassName "xl\\:space-x-8"
 
 space_x_80 :: ClassName
-space_x_80 = ClassName "xl\:space-x-80"
+space_x_80 = ClassName "xl\\:space-x-80"
 
 space_x_9 :: ClassName
-space_x_9 = ClassName "xl\:space-x-9"
+space_x_9 = ClassName "xl\\:space-x-9"
 
 space_x_90 :: ClassName
-space_x_90 = ClassName "xl\:space-x-90"
+space_x_90 = ClassName "xl\\:space-x-90"
 
 space_x_px :: ClassName
-space_x_px = ClassName "xl\:space-x-px"
+space_x_px = ClassName "xl\\:space-x-px"
 
 space_x_reverse :: ClassName
-space_x_reverse = ClassName "xl\:space-x-reverse"
+space_x_reverse = ClassName "xl\\:space-x-reverse"
 
 space_y_0 :: ClassName
-space_y_0 = ClassName "xl\:space-y-0"
+space_y_0 = ClassName "xl\\:space-y-0"
 
 space_y_1 :: ClassName
-space_y_1 = ClassName "xl\:space-y-1"
+space_y_1 = ClassName "xl\\:space-y-1"
 
 space_y_10 :: ClassName
-space_y_10 = ClassName "xl\:space-y-10"
+space_y_10 = ClassName "xl\\:space-y-10"
 
 space_y_12 :: ClassName
-space_y_12 = ClassName "xl\:space-y-12"
+space_y_12 = ClassName "xl\\:space-y-12"
 
 space_y_120 :: ClassName
-space_y_120 = ClassName "xl\:space-y-120"
+space_y_120 = ClassName "xl\\:space-y-120"
 
 space_y_14 :: ClassName
-space_y_14 = ClassName "xl\:space-y-14"
+space_y_14 = ClassName "xl\\:space-y-14"
 
 space_y_16 :: ClassName
-space_y_16 = ClassName "xl\:space-y-16"
+space_y_16 = ClassName "xl\\:space-y-16"
 
 space_y_160 :: ClassName
-space_y_160 = ClassName "xl\:space-y-160"
+space_y_160 = ClassName "xl\\:space-y-160"
 
 space_y_2 :: ClassName
-space_y_2 = ClassName "xl\:space-y-2"
+space_y_2 = ClassName "xl\\:space-y-2"
 
 space_y_20 :: ClassName
-space_y_20 = ClassName "xl\:space-y-20"
+space_y_20 = ClassName "xl\\:space-y-20"
 
 space_y_24 :: ClassName
-space_y_24 = ClassName "xl\:space-y-24"
+space_y_24 = ClassName "xl\\:space-y-24"
 
 space_y_3 :: ClassName
-space_y_3 = ClassName "xl\:space-y-3"
+space_y_3 = ClassName "xl\\:space-y-3"
 
 space_y_30 :: ClassName
-space_y_30 = ClassName "xl\:space-y-30"
+space_y_30 = ClassName "xl\\:space-y-30"
 
 space_y_32 :: ClassName
-space_y_32 = ClassName "xl\:space-y-32"
+space_y_32 = ClassName "xl\\:space-y-32"
 
 space_y_4 :: ClassName
-space_y_4 = ClassName "xl\:space-y-4"
+space_y_4 = ClassName "xl\\:space-y-4"
 
 space_y_40 :: ClassName
-space_y_40 = ClassName "xl\:space-y-40"
+space_y_40 = ClassName "xl\\:space-y-40"
 
 space_y_48 :: ClassName
-space_y_48 = ClassName "xl\:space-y-48"
+space_y_48 = ClassName "xl\\:space-y-48"
 
 space_y_5 :: ClassName
-space_y_5 = ClassName "xl\:space-y-5"
+space_y_5 = ClassName "xl\\:space-y-5"
 
 space_y_50 :: ClassName
-space_y_50 = ClassName "xl\:space-y-50"
+space_y_50 = ClassName "xl\\:space-y-50"
 
 space_y_56 :: ClassName
-space_y_56 = ClassName "xl\:space-y-56"
+space_y_56 = ClassName "xl\\:space-y-56"
 
 space_y_6 :: ClassName
-space_y_6 = ClassName "xl\:space-y-6"
+space_y_6 = ClassName "xl\\:space-y-6"
 
 space_y_60 :: ClassName
-space_y_60 = ClassName "xl\:space-y-60"
+space_y_60 = ClassName "xl\\:space-y-60"
 
 space_y_64 :: ClassName
-space_y_64 = ClassName "xl\:space-y-64"
+space_y_64 = ClassName "xl\\:space-y-64"
 
 space_y_7 :: ClassName
-space_y_7 = ClassName "xl\:space-y-7"
+space_y_7 = ClassName "xl\\:space-y-7"
 
 space_y_8 :: ClassName
-space_y_8 = ClassName "xl\:space-y-8"
+space_y_8 = ClassName "xl\\:space-y-8"
 
 space_y_80 :: ClassName
-space_y_80 = ClassName "xl\:space-y-80"
+space_y_80 = ClassName "xl\\:space-y-80"
 
 space_y_9 :: ClassName
-space_y_9 = ClassName "xl\:space-y-9"
+space_y_9 = ClassName "xl\\:space-y-9"
 
 space_y_90 :: ClassName
-space_y_90 = ClassName "xl\:space-y-90"
+space_y_90 = ClassName "xl\\:space-y-90"
 
 space_y_px :: ClassName
-space_y_px = ClassName "xl\:space-y-px"
+space_y_px = ClassName "xl\\:space-y-px"
 
 space_y_reverse :: ClassName
-space_y_reverse = ClassName "xl\:space-y-reverse"
+space_y_reverse = ClassName "xl\\:space-y-reverse"
 
 sr_only :: ClassName
-sr_only = ClassName "xl\:sr-only"
+sr_only = ClassName "xl\\:sr-only"
 
 static :: ClassName
-static = ClassName "xl\:static"
+static = ClassName "xl\\:static"
 
 sticky :: ClassName
-sticky = ClassName "xl\:sticky"
+sticky = ClassName "xl\\:sticky"
 
 stroke_0 :: ClassName
-stroke_0 = ClassName "xl\:stroke-0"
+stroke_0 = ClassName "xl\\:stroke-0"
 
 stroke_1 :: ClassName
-stroke_1 = ClassName "xl\:stroke-1"
+stroke_1 = ClassName "xl\\:stroke-1"
 
 stroke_2 :: ClassName
-stroke_2 = ClassName "xl\:stroke-2"
+stroke_2 = ClassName "xl\\:stroke-2"
 
 stroke_current :: ClassName
-stroke_current = ClassName "xl\:stroke-current"
+stroke_current = ClassName "xl\\:stroke-current"
 
 subpixel_antialiased :: ClassName
-subpixel_antialiased = ClassName "xl\:subpixel-antialiased"
+subpixel_antialiased = ClassName "xl\\:subpixel-antialiased"
 
 table :: ClassName
-table = ClassName "xl\:table"
+table = ClassName "xl\\:table"
 
 table_auto :: ClassName
-table_auto = ClassName "xl\:table-auto"
+table_auto = ClassName "xl\\:table-auto"
 
 table_caption :: ClassName
-table_caption = ClassName "xl\:table-caption"
+table_caption = ClassName "xl\\:table-caption"
 
 table_cell :: ClassName
-table_cell = ClassName "xl\:table-cell"
+table_cell = ClassName "xl\\:table-cell"
 
 table_column :: ClassName
-table_column = ClassName "xl\:table-column"
+table_column = ClassName "xl\\:table-column"
 
 table_column_group :: ClassName
-table_column_group = ClassName "xl\:table-column-group"
+table_column_group = ClassName "xl\\:table-column-group"
 
 table_fixed :: ClassName
-table_fixed = ClassName "xl\:table-fixed"
+table_fixed = ClassName "xl\\:table-fixed"
 
 table_footer_group :: ClassName
-table_footer_group = ClassName "xl\:table-footer-group"
+table_footer_group = ClassName "xl\\:table-footer-group"
 
 table_header_group :: ClassName
-table_header_group = ClassName "xl\:table-header-group"
+table_header_group = ClassName "xl\\:table-header-group"
 
 table_row :: ClassName
-table_row = ClassName "xl\:table-row"
+table_row = ClassName "xl\\:table-row"
 
 table_row_group :: ClassName
-table_row_group = ClassName "xl\:table-row-group"
+table_row_group = ClassName "xl\\:table-row-group"
 
 text_2xl :: ClassName
-text_2xl = ClassName "xl\:text-2xl"
+text_2xl = ClassName "xl\\:text-2xl"
 
 text_3xl :: ClassName
-text_3xl = ClassName "xl\:text-3xl"
+text_3xl = ClassName "xl\\:text-3xl"
 
 text_4xl :: ClassName
-text_4xl = ClassName "xl\:text-4xl"
+text_4xl = ClassName "xl\\:text-4xl"
 
 text_5xl :: ClassName
-text_5xl = ClassName "xl\:text-5xl"
+text_5xl = ClassName "xl\\:text-5xl"
 
 text_6xl :: ClassName
-text_6xl = ClassName "xl\:text-6xl"
+text_6xl = ClassName "xl\\:text-6xl"
 
 text_base :: ClassName
-text_base = ClassName "xl\:text-base"
+text_base = ClassName "xl\\:text-base"
 
 text_black :: ClassName
-text_black = ClassName "xl\:text-black"
+text_black = ClassName "xl\\:text-black"
 
 text_black_10 :: ClassName
-text_black_10 = ClassName "xl\:text-black-10"
+text_black_10 = ClassName "xl\\:text-black-10"
 
 text_black_20 :: ClassName
-text_black_20 = ClassName "xl\:text-black-20"
+text_black_20 = ClassName "xl\\:text-black-20"
 
 text_black_modal_a90 :: ClassName
-text_black_modal_a90 = ClassName "xl\:text-black-modal-a90"
+text_black_modal_a90 = ClassName "xl\\:text-black-modal-a90"
 
 text_blue_100 :: ClassName
-text_blue_100 = ClassName "xl\:text-blue-100"
+text_blue_100 = ClassName "xl\\:text-blue-100"
 
 text_blue_200 :: ClassName
-text_blue_200 = ClassName "xl\:text-blue-200"
+text_blue_200 = ClassName "xl\\:text-blue-200"
 
 text_blue_300 :: ClassName
-text_blue_300 = ClassName "xl\:text-blue-300"
+text_blue_300 = ClassName "xl\\:text-blue-300"
 
 text_blue_400 :: ClassName
-text_blue_400 = ClassName "xl\:text-blue-400"
+text_blue_400 = ClassName "xl\\:text-blue-400"
 
 text_blue_500 :: ClassName
-text_blue_500 = ClassName "xl\:text-blue-500"
+text_blue_500 = ClassName "xl\\:text-blue-500"
 
 text_blue_600 :: ClassName
-text_blue_600 = ClassName "xl\:text-blue-600"
+text_blue_600 = ClassName "xl\\:text-blue-600"
 
 text_blue_65 :: ClassName
-text_blue_65 = ClassName "xl\:text-blue-65"
+text_blue_65 = ClassName "xl\\:text-blue-65"
 
 text_blue_700 :: ClassName
-text_blue_700 = ClassName "xl\:text-blue-700"
+text_blue_700 = ClassName "xl\\:text-blue-700"
 
 text_blue_75 :: ClassName
-text_blue_75 = ClassName "xl\:text-blue-75"
+text_blue_75 = ClassName "xl\\:text-blue-75"
 
 text_blue_800 :: ClassName
-text_blue_800 = ClassName "xl\:text-blue-800"
+text_blue_800 = ClassName "xl\\:text-blue-800"
 
 text_blue_82 :: ClassName
-text_blue_82 = ClassName "xl\:text-blue-82"
+text_blue_82 = ClassName "xl\\:text-blue-82"
 
 text_blue_88 :: ClassName
-text_blue_88 = ClassName "xl\:text-blue-88"
+text_blue_88 = ClassName "xl\\:text-blue-88"
 
 text_blue_900 :: ClassName
-text_blue_900 = ClassName "xl\:text-blue-900"
+text_blue_900 = ClassName "xl\\:text-blue-900"
 
 text_center :: ClassName
-text_center = ClassName "xl\:text-center"
+text_center = ClassName "xl\\:text-center"
 
 text_current :: ClassName
-text_current = ClassName "xl\:text-current"
+text_current = ClassName "xl\\:text-current"
 
 text_fb_blue :: ClassName
-text_fb_blue = ClassName "xl\:text-fb-blue"
+text_fb_blue = ClassName "xl\\:text-fb-blue"
 
 text_gray_100 :: ClassName
-text_gray_100 = ClassName "xl\:text-gray-100"
+text_gray_100 = ClassName "xl\\:text-gray-100"
 
 text_gray_200 :: ClassName
-text_gray_200 = ClassName "xl\:text-gray-200"
+text_gray_200 = ClassName "xl\\:text-gray-200"
 
 text_gray_300 :: ClassName
-text_gray_300 = ClassName "xl\:text-gray-300"
+text_gray_300 = ClassName "xl\\:text-gray-300"
 
 text_gray_400 :: ClassName
-text_gray_400 = ClassName "xl\:text-gray-400"
+text_gray_400 = ClassName "xl\\:text-gray-400"
 
 text_gray_500 :: ClassName
-text_gray_500 = ClassName "xl\:text-gray-500"
+text_gray_500 = ClassName "xl\\:text-gray-500"
 
 text_gray_600 :: ClassName
-text_gray_600 = ClassName "xl\:text-gray-600"
+text_gray_600 = ClassName "xl\\:text-gray-600"
 
 text_gray_700 :: ClassName
-text_gray_700 = ClassName "xl\:text-gray-700"
+text_gray_700 = ClassName "xl\\:text-gray-700"
 
 text_gray_800 :: ClassName
-text_gray_800 = ClassName "xl\:text-gray-800"
+text_gray_800 = ClassName "xl\\:text-gray-800"
 
 text_gray_900 :: ClassName
-text_gray_900 = ClassName "xl\:text-gray-900"
+text_gray_900 = ClassName "xl\\:text-gray-900"
 
 text_green :: ClassName
-text_green = ClassName "xl\:text-green"
+text_green = ClassName "xl\\:text-green"
 
 text_grey_50 :: ClassName
-text_grey_50 = ClassName "xl\:text-grey-50"
+text_grey_50 = ClassName "xl\\:text-grey-50"
 
 text_grey_50_a20 :: ClassName
-text_grey_50_a20 = ClassName "xl\:text-grey-50-a20"
+text_grey_50_a20 = ClassName "xl\\:text-grey-50-a20"
 
 text_grey_50_a30 :: ClassName
-text_grey_50_a30 = ClassName "xl\:text-grey-50-a30"
+text_grey_50_a30 = ClassName "xl\\:text-grey-50-a30"
 
 text_grey_50_a80 :: ClassName
-text_grey_50_a80 = ClassName "xl\:text-grey-50-a80"
+text_grey_50_a80 = ClassName "xl\\:text-grey-50-a80"
 
 text_grey_50_a90 :: ClassName
-text_grey_50_a90 = ClassName "xl\:text-grey-50-a90"
+text_grey_50_a90 = ClassName "xl\\:text-grey-50-a90"
 
 text_grey_70 :: ClassName
-text_grey_70 = ClassName "xl\:text-grey-70"
+text_grey_70 = ClassName "xl\\:text-grey-70"
 
 text_grey_70_a30 :: ClassName
-text_grey_70_a30 = ClassName "xl\:text-grey-70-a30"
+text_grey_70_a30 = ClassName "xl\\:text-grey-70-a30"
 
 text_grey_70_a40 :: ClassName
-text_grey_70_a40 = ClassName "xl\:text-grey-70-a40"
+text_grey_70_a40 = ClassName "xl\\:text-grey-70-a40"
 
 text_grey_80 :: ClassName
-text_grey_80 = ClassName "xl\:text-grey-80"
+text_grey_80 = ClassName "xl\\:text-grey-80"
 
 text_grey_90 :: ClassName
-text_grey_90 = ClassName "xl\:text-grey-90"
+text_grey_90 = ClassName "xl\\:text-grey-90"
 
 text_grey_95 :: ClassName
-text_grey_95 = ClassName "xl\:text-grey-95"
+text_grey_95 = ClassName "xl\\:text-grey-95"
 
 text_grey_97 :: ClassName
-text_grey_97 = ClassName "xl\:text-grey-97"
+text_grey_97 = ClassName "xl\\:text-grey-97"
 
 text_ig_brown :: ClassName
-text_ig_brown = ClassName "xl\:text-ig-brown"
+text_ig_brown = ClassName "xl\\:text-ig-brown"
 
 text_indigo_100 :: ClassName
-text_indigo_100 = ClassName "xl\:text-indigo-100"
+text_indigo_100 = ClassName "xl\\:text-indigo-100"
 
 text_indigo_200 :: ClassName
-text_indigo_200 = ClassName "xl\:text-indigo-200"
+text_indigo_200 = ClassName "xl\\:text-indigo-200"
 
 text_indigo_300 :: ClassName
-text_indigo_300 = ClassName "xl\:text-indigo-300"
+text_indigo_300 = ClassName "xl\\:text-indigo-300"
 
 text_indigo_400 :: ClassName
-text_indigo_400 = ClassName "xl\:text-indigo-400"
+text_indigo_400 = ClassName "xl\\:text-indigo-400"
 
 text_indigo_500 :: ClassName
-text_indigo_500 = ClassName "xl\:text-indigo-500"
+text_indigo_500 = ClassName "xl\\:text-indigo-500"
 
 text_indigo_600 :: ClassName
-text_indigo_600 = ClassName "xl\:text-indigo-600"
+text_indigo_600 = ClassName "xl\\:text-indigo-600"
 
 text_indigo_700 :: ClassName
-text_indigo_700 = ClassName "xl\:text-indigo-700"
+text_indigo_700 = ClassName "xl\\:text-indigo-700"
 
 text_indigo_800 :: ClassName
-text_indigo_800 = ClassName "xl\:text-indigo-800"
+text_indigo_800 = ClassName "xl\\:text-indigo-800"
 
 text_indigo_900 :: ClassName
-text_indigo_900 = ClassName "xl\:text-indigo-900"
+text_indigo_900 = ClassName "xl\\:text-indigo-900"
 
 text_justify :: ClassName
-text_justify = ClassName "xl\:text-justify"
+text_justify = ClassName "xl\\:text-justify"
 
 text_left :: ClassName
-text_left = ClassName "xl\:text-left"
+text_left = ClassName "xl\\:text-left"
 
 text_lg :: ClassName
-text_lg = ClassName "xl\:text-lg"
+text_lg = ClassName "xl\\:text-lg"
 
 text_opacity_0 :: ClassName
-text_opacity_0 = ClassName "xl\:text-opacity-0"
+text_opacity_0 = ClassName "xl\\:text-opacity-0"
 
 text_opacity_100 :: ClassName
-text_opacity_100 = ClassName "xl\:text-opacity-100"
+text_opacity_100 = ClassName "xl\\:text-opacity-100"
 
 text_opacity_25 :: ClassName
-text_opacity_25 = ClassName "xl\:text-opacity-25"
+text_opacity_25 = ClassName "xl\\:text-opacity-25"
 
 text_opacity_50 :: ClassName
-text_opacity_50 = ClassName "xl\:text-opacity-50"
+text_opacity_50 = ClassName "xl\\:text-opacity-50"
 
 text_opacity_75 :: ClassName
-text_opacity_75 = ClassName "xl\:text-opacity-75"
+text_opacity_75 = ClassName "xl\\:text-opacity-75"
 
 text_orange_100 :: ClassName
-text_orange_100 = ClassName "xl\:text-orange-100"
+text_orange_100 = ClassName "xl\\:text-orange-100"
 
 text_orange_200 :: ClassName
-text_orange_200 = ClassName "xl\:text-orange-200"
+text_orange_200 = ClassName "xl\\:text-orange-200"
 
 text_orange_300 :: ClassName
-text_orange_300 = ClassName "xl\:text-orange-300"
+text_orange_300 = ClassName "xl\\:text-orange-300"
 
 text_orange_400 :: ClassName
-text_orange_400 = ClassName "xl\:text-orange-400"
+text_orange_400 = ClassName "xl\\:text-orange-400"
 
 text_orange_500 :: ClassName
-text_orange_500 = ClassName "xl\:text-orange-500"
+text_orange_500 = ClassName "xl\\:text-orange-500"
 
 text_orange_600 :: ClassName
-text_orange_600 = ClassName "xl\:text-orange-600"
+text_orange_600 = ClassName "xl\\:text-orange-600"
 
 text_orange_700 :: ClassName
-text_orange_700 = ClassName "xl\:text-orange-700"
+text_orange_700 = ClassName "xl\\:text-orange-700"
 
 text_orange_800 :: ClassName
-text_orange_800 = ClassName "xl\:text-orange-800"
+text_orange_800 = ClassName "xl\\:text-orange-800"
 
 text_orange_900 :: ClassName
-text_orange_900 = ClassName "xl\:text-orange-900"
+text_orange_900 = ClassName "xl\\:text-orange-900"
 
 text_pink_100 :: ClassName
-text_pink_100 = ClassName "xl\:text-pink-100"
+text_pink_100 = ClassName "xl\\:text-pink-100"
 
 text_pink_200 :: ClassName
-text_pink_200 = ClassName "xl\:text-pink-200"
+text_pink_200 = ClassName "xl\\:text-pink-200"
 
 text_pink_300 :: ClassName
-text_pink_300 = ClassName "xl\:text-pink-300"
+text_pink_300 = ClassName "xl\\:text-pink-300"
 
 text_pink_400 :: ClassName
-text_pink_400 = ClassName "xl\:text-pink-400"
+text_pink_400 = ClassName "xl\\:text-pink-400"
 
 text_pink_500 :: ClassName
-text_pink_500 = ClassName "xl\:text-pink-500"
+text_pink_500 = ClassName "xl\\:text-pink-500"
 
 text_pink_600 :: ClassName
-text_pink_600 = ClassName "xl\:text-pink-600"
+text_pink_600 = ClassName "xl\\:text-pink-600"
 
 text_pink_700 :: ClassName
-text_pink_700 = ClassName "xl\:text-pink-700"
+text_pink_700 = ClassName "xl\\:text-pink-700"
 
 text_pink_800 :: ClassName
-text_pink_800 = ClassName "xl\:text-pink-800"
+text_pink_800 = ClassName "xl\\:text-pink-800"
 
 text_pink_900 :: ClassName
-text_pink_900 = ClassName "xl\:text-pink-900"
+text_pink_900 = ClassName "xl\\:text-pink-900"
 
 text_purple_100 :: ClassName
-text_purple_100 = ClassName "xl\:text-purple-100"
+text_purple_100 = ClassName "xl\\:text-purple-100"
 
 text_purple_200 :: ClassName
-text_purple_200 = ClassName "xl\:text-purple-200"
+text_purple_200 = ClassName "xl\\:text-purple-200"
 
 text_purple_300 :: ClassName
-text_purple_300 = ClassName "xl\:text-purple-300"
+text_purple_300 = ClassName "xl\\:text-purple-300"
 
 text_purple_400 :: ClassName
-text_purple_400 = ClassName "xl\:text-purple-400"
+text_purple_400 = ClassName "xl\\:text-purple-400"
 
 text_purple_500 :: ClassName
-text_purple_500 = ClassName "xl\:text-purple-500"
+text_purple_500 = ClassName "xl\\:text-purple-500"
 
 text_purple_600 :: ClassName
-text_purple_600 = ClassName "xl\:text-purple-600"
+text_purple_600 = ClassName "xl\\:text-purple-600"
 
 text_purple_700 :: ClassName
-text_purple_700 = ClassName "xl\:text-purple-700"
+text_purple_700 = ClassName "xl\\:text-purple-700"
 
 text_purple_800 :: ClassName
-text_purple_800 = ClassName "xl\:text-purple-800"
+text_purple_800 = ClassName "xl\\:text-purple-800"
 
 text_purple_900 :: ClassName
-text_purple_900 = ClassName "xl\:text-purple-900"
+text_purple_900 = ClassName "xl\\:text-purple-900"
 
 text_red :: ClassName
-text_red = ClassName "xl\:text-red"
+text_red = ClassName "xl\\:text-red"
 
 text_right :: ClassName
-text_right = ClassName "xl\:text-right"
+text_right = ClassName "xl\\:text-right"
 
 text_sm :: ClassName
-text_sm = ClassName "xl\:text-sm"
+text_sm = ClassName "xl\\:text-sm"
 
 text_steel_100 :: ClassName
-text_steel_100 = ClassName "xl\:text-steel-100"
+text_steel_100 = ClassName "xl\\:text-steel-100"
 
 text_steel_75 :: ClassName
-text_steel_75 = ClassName "xl\:text-steel-75"
+text_steel_75 = ClassName "xl\\:text-steel-75"
 
 text_steel_85 :: ClassName
-text_steel_85 = ClassName "xl\:text-steel-85"
+text_steel_85 = ClassName "xl\\:text-steel-85"
 
 text_teal_100 :: ClassName
-text_teal_100 = ClassName "xl\:text-teal-100"
+text_teal_100 = ClassName "xl\\:text-teal-100"
 
 text_teal_200 :: ClassName
-text_teal_200 = ClassName "xl\:text-teal-200"
+text_teal_200 = ClassName "xl\\:text-teal-200"
 
 text_teal_300 :: ClassName
-text_teal_300 = ClassName "xl\:text-teal-300"
+text_teal_300 = ClassName "xl\\:text-teal-300"
 
 text_teal_400 :: ClassName
-text_teal_400 = ClassName "xl\:text-teal-400"
+text_teal_400 = ClassName "xl\\:text-teal-400"
 
 text_teal_500 :: ClassName
-text_teal_500 = ClassName "xl\:text-teal-500"
+text_teal_500 = ClassName "xl\\:text-teal-500"
 
 text_teal_600 :: ClassName
-text_teal_600 = ClassName "xl\:text-teal-600"
+text_teal_600 = ClassName "xl\\:text-teal-600"
 
 text_teal_700 :: ClassName
-text_teal_700 = ClassName "xl\:text-teal-700"
+text_teal_700 = ClassName "xl\\:text-teal-700"
 
 text_teal_800 :: ClassName
-text_teal_800 = ClassName "xl\:text-teal-800"
+text_teal_800 = ClassName "xl\\:text-teal-800"
 
 text_teal_900 :: ClassName
-text_teal_900 = ClassName "xl\:text-teal-900"
+text_teal_900 = ClassName "xl\\:text-teal-900"
 
 text_transparent :: ClassName
-text_transparent = ClassName "xl\:text-transparent"
+text_transparent = ClassName "xl\\:text-transparent"
 
 text_tw_blue :: ClassName
-text_tw_blue = ClassName "xl\:text-tw-blue"
+text_tw_blue = ClassName "xl\\:text-tw-blue"
 
 text_white :: ClassName
-text_white = ClassName "xl\:text-white"
+text_white = ClassName "xl\\:text-white"
 
 text_xl :: ClassName
-text_xl = ClassName "xl\:text-xl"
+text_xl = ClassName "xl\\:text-xl"
 
 text_xs :: ClassName
-text_xs = ClassName "xl\:text-xs"
+text_xs = ClassName "xl\\:text-xs"
 
 text_yellow :: ClassName
-text_yellow = ClassName "xl\:text-yellow"
+text_yellow = ClassName "xl\\:text-yellow"
 
 top_0 :: ClassName
-top_0 = ClassName "xl\:top-0"
+top_0 = ClassName "xl\\:top-0"
 
 top_auto :: ClassName
-top_auto = ClassName "xl\:top-auto"
+top_auto = ClassName "xl\\:top-auto"
 
 tracking_normal :: ClassName
-tracking_normal = ClassName "xl\:tracking-normal"
+tracking_normal = ClassName "xl\\:tracking-normal"
 
 tracking_tight :: ClassName
-tracking_tight = ClassName "xl\:tracking-tight"
+tracking_tight = ClassName "xl\\:tracking-tight"
 
 tracking_tighter :: ClassName
-tracking_tighter = ClassName "xl\:tracking-tighter"
+tracking_tighter = ClassName "xl\\:tracking-tighter"
 
 tracking_wide :: ClassName
-tracking_wide = ClassName "xl\:tracking-wide"
+tracking_wide = ClassName "xl\\:tracking-wide"
 
 tracking_wider :: ClassName
-tracking_wider = ClassName "xl\:tracking-wider"
+tracking_wider = ClassName "xl\\:tracking-wider"
 
 tracking_widest :: ClassName
-tracking_widest = ClassName "xl\:tracking-widest"
+tracking_widest = ClassName "xl\\:tracking-widest"
 
 transform :: ClassName
-transform = ClassName "xl\:transform"
+transform = ClassName "xl\\:transform"
 
 transform_none :: ClassName
-transform_none = ClassName "xl\:transform-none"
+transform_none = ClassName "xl\\:transform-none"
 
 transition :: ClassName
-transition = ClassName "xl\:transition"
+transition = ClassName "xl\\:transition"
 
 transition_all :: ClassName
-transition_all = ClassName "xl\:transition-all"
+transition_all = ClassName "xl\\:transition-all"
 
 transition_colors :: ClassName
-transition_colors = ClassName "xl\:transition-colors"
+transition_colors = ClassName "xl\\:transition-colors"
 
 transition_none :: ClassName
-transition_none = ClassName "xl\:transition-none"
+transition_none = ClassName "xl\\:transition-none"
 
 transition_opacity :: ClassName
-transition_opacity = ClassName "xl\:transition-opacity"
+transition_opacity = ClassName "xl\\:transition-opacity"
 
 transition_shadow :: ClassName
-transition_shadow = ClassName "xl\:transition-shadow"
+transition_shadow = ClassName "xl\\:transition-shadow"
 
 transition_transform :: ClassName
-transition_transform = ClassName "xl\:transition-transform"
+transition_transform = ClassName "xl\\:transition-transform"
 
 translate_x_0 :: ClassName
-translate_x_0 = ClassName "xl\:translate-x-0"
+translate_x_0 = ClassName "xl\\:translate-x-0"
 
 translate_x_1 :: ClassName
-translate_x_1 = ClassName "xl\:translate-x-1"
+translate_x_1 = ClassName "xl\\:translate-x-1"
 
 translate_x_10 :: ClassName
-translate_x_10 = ClassName "xl\:translate-x-10"
+translate_x_10 = ClassName "xl\\:translate-x-10"
 
 translate_x_12 :: ClassName
-translate_x_12 = ClassName "xl\:translate-x-12"
+translate_x_12 = ClassName "xl\\:translate-x-12"
 
 translate_x_120 :: ClassName
-translate_x_120 = ClassName "xl\:translate-x-120"
+translate_x_120 = ClassName "xl\\:translate-x-120"
 
 translate_x_14 :: ClassName
-translate_x_14 = ClassName "xl\:translate-x-14"
+translate_x_14 = ClassName "xl\\:translate-x-14"
 
 translate_x_16 :: ClassName
-translate_x_16 = ClassName "xl\:translate-x-16"
+translate_x_16 = ClassName "xl\\:translate-x-16"
 
 translate_x_160 :: ClassName
-translate_x_160 = ClassName "xl\:translate-x-160"
+translate_x_160 = ClassName "xl\\:translate-x-160"
 
 translate_x_2 :: ClassName
-translate_x_2 = ClassName "xl\:translate-x-2"
+translate_x_2 = ClassName "xl\\:translate-x-2"
 
 translate_x_20 :: ClassName
-translate_x_20 = ClassName "xl\:translate-x-20"
+translate_x_20 = ClassName "xl\\:translate-x-20"
 
 translate_x_24 :: ClassName
-translate_x_24 = ClassName "xl\:translate-x-24"
+translate_x_24 = ClassName "xl\\:translate-x-24"
 
 translate_x_3 :: ClassName
-translate_x_3 = ClassName "xl\:translate-x-3"
+translate_x_3 = ClassName "xl\\:translate-x-3"
 
 translate_x_30 :: ClassName
-translate_x_30 = ClassName "xl\:translate-x-30"
+translate_x_30 = ClassName "xl\\:translate-x-30"
 
 translate_x_32 :: ClassName
-translate_x_32 = ClassName "xl\:translate-x-32"
+translate_x_32 = ClassName "xl\\:translate-x-32"
 
 translate_x_4 :: ClassName
-translate_x_4 = ClassName "xl\:translate-x-4"
+translate_x_4 = ClassName "xl\\:translate-x-4"
 
 translate_x_40 :: ClassName
-translate_x_40 = ClassName "xl\:translate-x-40"
+translate_x_40 = ClassName "xl\\:translate-x-40"
 
 translate_x_48 :: ClassName
-translate_x_48 = ClassName "xl\:translate-x-48"
+translate_x_48 = ClassName "xl\\:translate-x-48"
 
 translate_x_5 :: ClassName
-translate_x_5 = ClassName "xl\:translate-x-5"
+translate_x_5 = ClassName "xl\\:translate-x-5"
 
 translate_x_50 :: ClassName
-translate_x_50 = ClassName "xl\:translate-x-50"
+translate_x_50 = ClassName "xl\\:translate-x-50"
 
 translate_x_56 :: ClassName
-translate_x_56 = ClassName "xl\:translate-x-56"
+translate_x_56 = ClassName "xl\\:translate-x-56"
 
 translate_x_6 :: ClassName
-translate_x_6 = ClassName "xl\:translate-x-6"
+translate_x_6 = ClassName "xl\\:translate-x-6"
 
 translate_x_60 :: ClassName
-translate_x_60 = ClassName "xl\:translate-x-60"
+translate_x_60 = ClassName "xl\\:translate-x-60"
 
 translate_x_64 :: ClassName
-translate_x_64 = ClassName "xl\:translate-x-64"
+translate_x_64 = ClassName "xl\\:translate-x-64"
 
 translate_x_7 :: ClassName
-translate_x_7 = ClassName "xl\:translate-x-7"
+translate_x_7 = ClassName "xl\\:translate-x-7"
 
 translate_x_8 :: ClassName
-translate_x_8 = ClassName "xl\:translate-x-8"
+translate_x_8 = ClassName "xl\\:translate-x-8"
 
 translate_x_80 :: ClassName
-translate_x_80 = ClassName "xl\:translate-x-80"
+translate_x_80 = ClassName "xl\\:translate-x-80"
 
 translate_x_9 :: ClassName
-translate_x_9 = ClassName "xl\:translate-x-9"
+translate_x_9 = ClassName "xl\\:translate-x-9"
 
 translate_x_90 :: ClassName
-translate_x_90 = ClassName "xl\:translate-x-90"
+translate_x_90 = ClassName "xl\\:translate-x-90"
 
 translate_x_full :: ClassName
-translate_x_full = ClassName "xl\:translate-x-full"
+translate_x_full = ClassName "xl\\:translate-x-full"
 
 translate_x_px :: ClassName
-translate_x_px = ClassName "xl\:translate-x-px"
+translate_x_px = ClassName "xl\\:translate-x-px"
 
 translate_y_0 :: ClassName
-translate_y_0 = ClassName "xl\:translate-y-0"
+translate_y_0 = ClassName "xl\\:translate-y-0"
 
 translate_y_1 :: ClassName
-translate_y_1 = ClassName "xl\:translate-y-1"
+translate_y_1 = ClassName "xl\\:translate-y-1"
 
 translate_y_10 :: ClassName
-translate_y_10 = ClassName "xl\:translate-y-10"
+translate_y_10 = ClassName "xl\\:translate-y-10"
 
 translate_y_12 :: ClassName
-translate_y_12 = ClassName "xl\:translate-y-12"
+translate_y_12 = ClassName "xl\\:translate-y-12"
 
 translate_y_120 :: ClassName
-translate_y_120 = ClassName "xl\:translate-y-120"
+translate_y_120 = ClassName "xl\\:translate-y-120"
 
 translate_y_14 :: ClassName
-translate_y_14 = ClassName "xl\:translate-y-14"
+translate_y_14 = ClassName "xl\\:translate-y-14"
 
 translate_y_16 :: ClassName
-translate_y_16 = ClassName "xl\:translate-y-16"
+translate_y_16 = ClassName "xl\\:translate-y-16"
 
 translate_y_160 :: ClassName
-translate_y_160 = ClassName "xl\:translate-y-160"
+translate_y_160 = ClassName "xl\\:translate-y-160"
 
 translate_y_2 :: ClassName
-translate_y_2 = ClassName "xl\:translate-y-2"
+translate_y_2 = ClassName "xl\\:translate-y-2"
 
 translate_y_20 :: ClassName
-translate_y_20 = ClassName "xl\:translate-y-20"
+translate_y_20 = ClassName "xl\\:translate-y-20"
 
 translate_y_24 :: ClassName
-translate_y_24 = ClassName "xl\:translate-y-24"
+translate_y_24 = ClassName "xl\\:translate-y-24"
 
 translate_y_3 :: ClassName
-translate_y_3 = ClassName "xl\:translate-y-3"
+translate_y_3 = ClassName "xl\\:translate-y-3"
 
 translate_y_30 :: ClassName
-translate_y_30 = ClassName "xl\:translate-y-30"
+translate_y_30 = ClassName "xl\\:translate-y-30"
 
 translate_y_32 :: ClassName
-translate_y_32 = ClassName "xl\:translate-y-32"
+translate_y_32 = ClassName "xl\\:translate-y-32"
 
 translate_y_4 :: ClassName
-translate_y_4 = ClassName "xl\:translate-y-4"
+translate_y_4 = ClassName "xl\\:translate-y-4"
 
 translate_y_40 :: ClassName
-translate_y_40 = ClassName "xl\:translate-y-40"
+translate_y_40 = ClassName "xl\\:translate-y-40"
 
 translate_y_48 :: ClassName
-translate_y_48 = ClassName "xl\:translate-y-48"
+translate_y_48 = ClassName "xl\\:translate-y-48"
 
 translate_y_5 :: ClassName
-translate_y_5 = ClassName "xl\:translate-y-5"
+translate_y_5 = ClassName "xl\\:translate-y-5"
 
 translate_y_50 :: ClassName
-translate_y_50 = ClassName "xl\:translate-y-50"
+translate_y_50 = ClassName "xl\\:translate-y-50"
 
 translate_y_56 :: ClassName
-translate_y_56 = ClassName "xl\:translate-y-56"
+translate_y_56 = ClassName "xl\\:translate-y-56"
 
 translate_y_6 :: ClassName
-translate_y_6 = ClassName "xl\:translate-y-6"
+translate_y_6 = ClassName "xl\\:translate-y-6"
 
 translate_y_60 :: ClassName
-translate_y_60 = ClassName "xl\:translate-y-60"
+translate_y_60 = ClassName "xl\\:translate-y-60"
 
 translate_y_64 :: ClassName
-translate_y_64 = ClassName "xl\:translate-y-64"
+translate_y_64 = ClassName "xl\\:translate-y-64"
 
 translate_y_7 :: ClassName
-translate_y_7 = ClassName "xl\:translate-y-7"
+translate_y_7 = ClassName "xl\\:translate-y-7"
 
 translate_y_8 :: ClassName
-translate_y_8 = ClassName "xl\:translate-y-8"
+translate_y_8 = ClassName "xl\\:translate-y-8"
 
 translate_y_80 :: ClassName
-translate_y_80 = ClassName "xl\:translate-y-80"
+translate_y_80 = ClassName "xl\\:translate-y-80"
 
 translate_y_9 :: ClassName
-translate_y_9 = ClassName "xl\:translate-y-9"
+translate_y_9 = ClassName "xl\\:translate-y-9"
 
 translate_y_90 :: ClassName
-translate_y_90 = ClassName "xl\:translate-y-90"
+translate_y_90 = ClassName "xl\\:translate-y-90"
 
 translate_y_full :: ClassName
-translate_y_full = ClassName "xl\:translate-y-full"
+translate_y_full = ClassName "xl\\:translate-y-full"
 
 translate_y_px :: ClassName
-translate_y_px = ClassName "xl\:translate-y-px"
+translate_y_px = ClassName "xl\\:translate-y-px"
 
 truncate :: ClassName
-truncate = ClassName "xl\:truncate"
+truncate = ClassName "xl\\:truncate"
 
 underline :: ClassName
-underline = ClassName "xl\:underline"
+underline = ClassName "xl\\:underline"
 
 uppercase :: ClassName
-uppercase = ClassName "xl\:uppercase"
+uppercase = ClassName "xl\\:uppercase"
 
 visible :: ClassName
-visible = ClassName "xl\:visible"
+visible = ClassName "xl\\:visible"
 
 w_0 :: ClassName
-w_0 = ClassName "xl\:w-0"
+w_0 = ClassName "xl\\:w-0"
 
 w_1 :: ClassName
-w_1 = ClassName "xl\:w-1"
+w_1 = ClassName "xl\\:w-1"
 
 w_10 :: ClassName
-w_10 = ClassName "xl\:w-10"
+w_10 = ClassName "xl\\:w-10"
 
 w_11 :: ClassName
-w_11 = ClassName "xl\:w-11"
+w_11 = ClassName "xl\\:w-11"
 
 w_12 :: ClassName
-w_12 = ClassName "xl\:w-12"
+w_12 = ClassName "xl\\:w-12"
 
 w_120 :: ClassName
-w_120 = ClassName "xl\:w-120"
+w_120 = ClassName "xl\\:w-120"
 
 w_14 :: ClassName
-w_14 = ClassName "xl\:w-14"
+w_14 = ClassName "xl\\:w-14"
 
 w_16 :: ClassName
-w_16 = ClassName "xl\:w-16"
+w_16 = ClassName "xl\\:w-16"
 
 w_160 :: ClassName
-w_160 = ClassName "xl\:w-160"
+w_160 = ClassName "xl\\:w-160"
 
 w_2 :: ClassName
-w_2 = ClassName "xl\:w-2"
+w_2 = ClassName "xl\\:w-2"
 
 w_20 :: ClassName
-w_20 = ClassName "xl\:w-20"
+w_20 = ClassName "xl\\:w-20"
 
 w_24 :: ClassName
-w_24 = ClassName "xl\:w-24"
+w_24 = ClassName "xl\\:w-24"
 
 w_3 :: ClassName
-w_3 = ClassName "xl\:w-3"
+w_3 = ClassName "xl\\:w-3"
 
 w_30 :: ClassName
-w_30 = ClassName "xl\:w-30"
+w_30 = ClassName "xl\\:w-30"
 
 w_32 :: ClassName
-w_32 = ClassName "xl\:w-32"
+w_32 = ClassName "xl\\:w-32"
 
 w_4 :: ClassName
-w_4 = ClassName "xl\:w-4"
+w_4 = ClassName "xl\\:w-4"
 
 w_40 :: ClassName
-w_40 = ClassName "xl\:w-40"
+w_40 = ClassName "xl\\:w-40"
 
 w_48 :: ClassName
-w_48 = ClassName "xl\:w-48"
+w_48 = ClassName "xl\\:w-48"
 
 w_5 :: ClassName
-w_5 = ClassName "xl\:w-5"
+w_5 = ClassName "xl\\:w-5"
 
 w_50 :: ClassName
-w_50 = ClassName "xl\:w-50"
+w_50 = ClassName "xl\\:w-50"
 
 w_56 :: ClassName
-w_56 = ClassName "xl\:w-56"
+w_56 = ClassName "xl\\:w-56"
 
 w_6 :: ClassName
-w_6 = ClassName "xl\:w-6"
+w_6 = ClassName "xl\\:w-6"
 
 w_60 :: ClassName
-w_60 = ClassName "xl\:w-60"
+w_60 = ClassName "xl\\:w-60"
 
 w_64 :: ClassName
-w_64 = ClassName "xl\:w-64"
+w_64 = ClassName "xl\\:w-64"
 
 w_7 :: ClassName
-w_7 = ClassName "xl\:w-7"
+w_7 = ClassName "xl\\:w-7"
 
 w_8 :: ClassName
-w_8 = ClassName "xl\:w-8"
+w_8 = ClassName "xl\\:w-8"
 
 w_80 :: ClassName
-w_80 = ClassName "xl\:w-80"
+w_80 = ClassName "xl\\:w-80"
 
 w_9 :: ClassName
-w_9 = ClassName "xl\:w-9"
+w_9 = ClassName "xl\\:w-9"
 
 w_90 :: ClassName
-w_90 = ClassName "xl\:w-90"
+w_90 = ClassName "xl\\:w-90"
 
 w_auto :: ClassName
-w_auto = ClassName "xl\:w-auto"
+w_auto = ClassName "xl\\:w-auto"
 
 w_full :: ClassName
-w_full = ClassName "xl\:w-full"
+w_full = ClassName "xl\\:w-full"
 
 w_px :: ClassName
-w_px = ClassName "xl\:w-px"
+w_px = ClassName "xl\\:w-px"
 
 w_screen :: ClassName
-w_screen = ClassName "xl\:w-screen"
+w_screen = ClassName "xl\\:w-screen"
 
 whitespace_no_wrap :: ClassName
-whitespace_no_wrap = ClassName "xl\:whitespace-no-wrap"
+whitespace_no_wrap = ClassName "xl\\:whitespace-no-wrap"
 
 whitespace_normal :: ClassName
-whitespace_normal = ClassName "xl\:whitespace-normal"
+whitespace_normal = ClassName "xl\\:whitespace-normal"
 
 whitespace_pre :: ClassName
-whitespace_pre = ClassName "xl\:whitespace-pre"
+whitespace_pre = ClassName "xl\\:whitespace-pre"
 
 whitespace_pre_line :: ClassName
-whitespace_pre_line = ClassName "xl\:whitespace-pre-line"
+whitespace_pre_line = ClassName "xl\\:whitespace-pre-line"
 
 whitespace_pre_wrap :: ClassName
-whitespace_pre_wrap = ClassName "xl\:whitespace-pre-wrap"
+whitespace_pre_wrap = ClassName "xl\\:whitespace-pre-wrap"
 
 z_0 :: ClassName
-z_0 = ClassName "xl\:z-0"
+z_0 = ClassName "xl\\:z-0"
 
 z_10 :: ClassName
-z_10 = ClassName "xl\:z-10"
+z_10 = ClassName "xl\\:z-10"
 
 z_20 :: ClassName
-z_20 = ClassName "xl\:z-20"
+z_20 = ClassName "xl\\:z-20"
 
 z_30 :: ClassName
-z_30 = ClassName "xl\:z-30"
+z_30 = ClassName "xl\\:z-30"
 
 z_40 :: ClassName
-z_40 = ClassName "xl\:z-40"
+z_40 = ClassName "xl\\:z-40"
 
 z_50 :: ClassName
-z_50 = ClassName "xl\:z-50"
+z_50 = ClassName "xl\\:z-50"
 
 z_60 :: ClassName
-z_60 = ClassName "xl\:z-60"
+z_60 = ClassName "xl\\:z-60"
 
 z_auto :: ClassName
-z_auto = ClassName "xl\:z-auto"
+z_auto = ClassName "xl\\:z-auto"
 
