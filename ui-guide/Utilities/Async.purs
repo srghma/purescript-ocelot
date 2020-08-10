@@ -141,7 +141,11 @@ userToObject (User { name, eyeColor, hairColor, skinColor }) =
 renderFuzzyUser :: ∀ p i. Fuzzy User -> HH.HTML p i
 renderFuzzyUser f@(Fuzzy { original: u }) =
   HH.div
-    [ HP.classes $ HH.ClassName <$> [ "flex", "items-center" ] ]
+    [ HP.classes $
+      [ HH.ClassName "flex"
+      , HH.ClassName "items-center"
+      ]
+    ]
     [ renderUserImg u
     , HH.span_ $ ItemContainer.boldMatches "name" f
     ]
@@ -152,49 +156,49 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
       skinColor1 = fromMaybe "" $ head skinColors
       skinColor2 = fromMaybe skinColor1 $ last skinColors in
   HH.span
-    [ HP.classes $ HH.ClassName <$>
-      [ "inline-block"
-      , "mr-3"
-      , "w-6"
-      , "h-6"
-      , "rounded-full"
-      , "overflow-hidden"
-      , "border-t-4"
-      , "border-l-2"
-      , "border-r-2"
-      , "border-" <> colorToCSSColor hairColor
-      , "bg-" <> colorToCSSColor skinColor1
-      , "relative"
-      , "shadow"
+    [ HP.classes $
+      [ HH.ClassName "inline-block"
+      , HH.ClassName "mr-3"
+      , HH.ClassName "w-6"
+      , HH.ClassName "h-6"
+      , HH.ClassName "rounded-full"
+      , HH.ClassName "overflow-hidden"
+      , HH.ClassName "border-t-4"
+      , HH.ClassName "border-l-2"
+      , HH.ClassName "border-r-2"
+      , HH.ClassName ("border-" <> colorToCSSColor hairColor)
+      , HH.ClassName ("bg-" <> colorToCSSColor skinColor1)
+      , HH.ClassName "relative"
+      , HH.ClassName "shadow"
       ]
     ]
     [ HH.span
-      [ HP.classes $ HH.ClassName <$>
-        [ "flex"
-        , "justify-around"
-        , "pt-1"
+      [ HP.classes $
+        [ HH.ClassName "flex"
+        , HH.ClassName "justify-around"
+        , HH.ClassName "pt-1"
         ]
       ]
       ( ( \_ ->
           HH.span
-            [ HP.classes $ HH.ClassName <$>
-              [ "w-1"
-              , "h-1"
-              , "rounded-full"
-              , "bg-" <> colorToCSSColor eyeColor
-              , "shadow-inner"
+            [ HP.classes $
+              [ HH.ClassName "w-1"
+              , HH.ClassName "h-1"
+              , HH.ClassName "rounded-full"
+              , HH.ClassName ("bg-" <> colorToCSSColor eyeColor)
+              , HH.ClassName "shadow-inner"
               ]
             ]
             []
         ) <$> [ 1, 2 ]
       )
     , HH.span
-      [ HP.classes $ HH.ClassName <$>
-        [ "bottom-0"
-        , "h-1"
-        , "w-full"
-        , "bg-" <> colorToCSSColor skinColor2
-        , "absolute"
+      [ HP.classes $
+        [ HH.ClassName "bottom-0"
+        , HH.ClassName "h-1"
+        , HH.ClassName "w-full"
+        , HH.ClassName ("bg-" <> colorToCSSColor skinColor2)
+        , HH.ClassName "absolute"
         ]
       ]
       []

@@ -6,10 +6,10 @@ import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 
 headerClasses :: Array HH.ClassName
-headerClasses = HH.ClassName <$>
-  [ "bg-blue-darkest"
-  , "h-12"
-  , "w-full"
+headerClasses =
+  [ HH.ClassName "bg-blue-darkest"
+  , HH.ClassName "h-12"
+  , HH.ClassName "w-full"
   ]
 
 header :: ∀ p i. HH.HTML p i

@@ -11,44 +11,44 @@ type ToggleProps =
   { label :: String }
 
 labelClasses :: Array HH.ClassName
-labelClasses = HH.ClassName <$>
-  [ "flex"
-  , "flex-row"
-  , "items-center"
-  , "inline-block"
-  , "py-1"
-  , "cursor-pointer"
-  , "leading-loose"
-  , "text-black-20"
+labelClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "flex-row"
+  , HH.ClassName "items-center"
+  , HH.ClassName "inline-block"
+  , HH.ClassName "py-1"
+  , HH.ClassName "cursor-pointer"
+  , HH.ClassName "leading-loose"
+  , HH.ClassName "text-black-20"
   ]
 
 inputClasses :: Array HH.ClassName
-inputClasses = HH.ClassName <$>
-  [ "checked:sibling:bg-blue-88"
-  , "checked:sibling:pl-5"
-  , "!checked:sibling:bg-grey-80"
-  , "!checked:sibling:pr-5"
-  , "offscreen"
+inputClasses =
+  [ HH.ClassName "checked:sibling:bg-blue-88"
+  , HH.ClassName "checked:sibling:pl-5"
+  , HH.ClassName "!checked:sibling:bg-grey-80"
+  , HH.ClassName "!checked:sibling:pr-5"
+  , HH.ClassName "offscreen"
   ]
 
 toggleClasses :: Array HH.ClassName
-toggleClasses = HH.ClassName <$>
-  [ "transition-1/8"
-  , "inline-flex"
-  , "justify-center"
-  , "items-center"
-  , "content-box"
-  , "h-5"
-  , "w-5"
-  , "p-1"
-  , "rounded-full"
-  , "mr-3"
-  , "before:bg-white"
-  , "before:h-full"
-  , "before:w-full"
-  , "before:rounded-full"
-  , "before:no-content"
-  , "before:shadow"
+toggleClasses =
+  [ HH.ClassName "transition-1/8"
+  , HH.ClassName "inline-flex"
+  , HH.ClassName "justify-center"
+  , HH.ClassName "items-center"
+  , HH.ClassName "content-box"
+  , HH.ClassName "h-5"
+  , HH.ClassName "w-5"
+  , HH.ClassName "p-1"
+  , HH.ClassName "rounded-full"
+  , HH.ClassName "mr-3"
+  , HH.ClassName "before:bg-white"
+  , HH.ClassName "before:h-full"
+  , HH.ClassName "before:w-full"
+  , HH.ClassName "before:rounded-full"
+  , HH.ClassName "before:no-content"
+  , HH.ClassName "before:shadow"
   ]
 
 toggle

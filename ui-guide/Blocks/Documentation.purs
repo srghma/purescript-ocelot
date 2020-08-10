@@ -14,35 +14,35 @@ type DocumentationConfig =
   }
 
 blockClasses :: Array HH.ClassName
-blockClasses = HH.ClassName <$>
-  [ "my-20"
+blockClasses =
+  [ HH.ClassName "my-20"
   ]
 
 introClasses :: Array HH.ClassName
-introClasses = HH.ClassName <$>
-  [ "my-12"
+introClasses =
+  [ HH.ClassName "my-12"
   ]
 
 headingClasses :: Array HH.ClassName
-headingClasses = HH.ClassName <$>
-  [ "w-1/2"
+headingClasses =
+  [ HH.ClassName "w-1/2"
   ]
 
 subHeadingClasses :: Array HH.ClassName
-subHeadingClasses = HH.ClassName <$>
-  [ "w-1/2"
-  , "font-light"
-  , "text-grey-50"
+subHeadingClasses =
+  [ HH.ClassName "w-1/2"
+  , HH.ClassName "font-light"
+  , HH.ClassName "text-grey-50"
   ]
 
 calloutClasses :: Array HH.ClassName
-calloutClasses = HH.ClassName <$>
-  [ "border-dotted"
-  , "border"
-  , "rounded"
-  , "flex"
-  , "items-stretch"
-  , "my-6"
+calloutClasses =
+  [ HH.ClassName "border-dotted"
+  , HH.ClassName "border"
+  , HH.ClassName "rounded"
+  , HH.ClassName "flex"
+  , HH.ClassName "items-stretch"
+  , HH.ClassName "my-6"
   ]
 
 callout

@@ -20,28 +20,30 @@ open :: ∀ r i. Boolean -> HP.IProp ( open :: Boolean | r ) i
 open = HP.prop (HH.PropName "open")
 
 trayClasses :: Array HH.ClassName
-trayClasses = HH.ClassName <$>
-  [ "fixed"
-  , "bg-white"
-  , "p-6"
-  , "bottom-0"
-  , "left-0"
-  , "shadow"
-  , "border-t"
-  , "border-grey-90"
-  , "transition-1/4-out"
-  , "w-full"
-  , "flex"
-  , "items-center"
+trayClasses =
+  [ HH.ClassName "fixed"
+  , HH.ClassName "bg-white"
+  , HH.ClassName "p-6"
+  , HH.ClassName "bottom-0"
+  , HH.ClassName "left-0"
+  , HH.ClassName "shadow"
+  , HH.ClassName "border-t"
+  , HH.ClassName "border-grey-90"
+  , HH.ClassName "transition-1/4-out"
+  , HH.ClassName "w-full"
+  , HH.ClassName "flex"
+  , HH.ClassName "items-center"
   ]
 
 trayOpenClasses :: Array HH.ClassName
-trayOpenClasses = HH.ClassName <$>
-  [ "bottom-0" ]
+trayOpenClasses =
+  [ HH.ClassName "bottom-0"
+  ]
 
 trayClosedClasses :: Array HH.ClassName
-trayClosedClasses = HH.ClassName <$>
-  [ "-bottom-40" ]
+trayClosedClasses =
+  [ HH.ClassName "-bottom-40"
+  ]
 
 tray
   :: ∀ p i

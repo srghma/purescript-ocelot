@@ -8,10 +8,10 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 bodyClasses :: Array HH.ClassName
-bodyClasses = HH.ClassName <$>
-  [ "flex"
-  , "flex-col"
-  , "w-90"
+bodyClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "flex-col"
+  , HH.ClassName "w-90"
   ]
 
 body
@@ -31,12 +31,12 @@ body_ =
   body []
 
 optionClasses :: Array HH.ClassName
-optionClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "flex"
-  , "items-center"
-  , "justify-center"
-  , "cursor-pointer"
+optionClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "flex"
+  , HH.ClassName "items-center"
+  , HH.ClassName "justify-center"
+  , HH.ClassName "cursor-pointer"
   ]
 
 option
@@ -56,6 +56,7 @@ option_ =
   option []
 
 highlightedOptionClasses :: Array HH.ClassName
-highlightedOptionClasses = HH.ClassName <$>
-  [ "bg-grey-97" ]
+highlightedOptionClasses =
+  [ HH.ClassName "bg-grey-97"
+  ]
 

@@ -8,16 +8,16 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 baseCardClasses :: Array HH.ClassName
-baseCardClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "mb-6"
-  , "rounded"
-  , "clearfix"
+baseCardClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "mb-6"
+  , HH.ClassName "rounded"
+  , HH.ClassName "clearfix"
   ]
 
 innerCardClasses :: Array HH.ClassName
-innerCardClasses = HH.ClassName <$>
-  [ "m-6"
+innerCardClasses =
+  [ HH.ClassName "m-6"
   ]
 
 baseCard

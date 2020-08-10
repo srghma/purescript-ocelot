@@ -28,27 +28,27 @@ toggleButton iprops inprops html =
     [ HP.classes toggleButtonClasses ] <&> iprops
 
 inputClasses :: Array HH.ClassName
-inputClasses = HH.ClassName <$>
-  [ "checked:neighbor:bg-grey-50"
-  , "checked:neighbor:text-white"
-  , "checked:neighbor:border-grey-50"
-  , "!checked:neighbor:hover:bg-grey-80"
-  , "!checked:neighbor:hover:text-black-10!"
-  , "offscreen"
+inputClasses =
+  [ HH.ClassName "checked:neighbor:bg-grey-50"
+  , HH.ClassName "checked:neighbor:text-white"
+  , HH.ClassName "checked:neighbor:border-grey-50"
+  , HH.ClassName "!checked:neighbor:hover:bg-grey-80"
+  , HH.ClassName "!checked:neighbor:hover:text-black-10!"
+  , HH.ClassName "offscreen"
   ]
 
 toggleButtonClasses :: Array HH.ClassName
-toggleButtonClasses = HH.ClassName <$>
-  [ "no-outline"
-  , "px-4"
-  , "py-2"
-  , "disabled:opacity-50"
-  , "disabled:cursor-default"
-  , "!disabled:cursor-pointer"
-  , "bg-white"
-  , "border-grey-80"
-  , "border-2"
-  , "focus:bg-grey-50-a30"
-  , "text-black-20"
-  , "inline-block"
+toggleButtonClasses =
+  [ HH.ClassName "no-outline"
+  , HH.ClassName "px-4"
+  , HH.ClassName "py-2"
+  , HH.ClassName "disabled:opacity-50"
+  , HH.ClassName "disabled:cursor-default"
+  , HH.ClassName "!disabled:cursor-pointer"
+  , HH.ClassName "bg-white"
+  , HH.ClassName "border-grey-80"
+  , HH.ClassName "border-2"
+  , HH.ClassName "focus:bg-grey-50-a30"
+  , HH.ClassName "text-black-20"
+  , HH.ClassName "inline-block"
   ]

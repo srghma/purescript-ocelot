@@ -6,11 +6,12 @@ import DOM.HTML.Indexed (HTMLspan)
 import Halogen.HTML (HTML, IProp)
 import Halogen.HTML as HH
 import Ocelot.Block.Builder (blockBuilder)
+import TailwindClasses as TailwindClasses
 
 baseClasses :: Array HH.ClassName
 baseClasses =
-  [ HH.ClassName "rounded-full"
-  , HH.ClassName "relative"
+  [ TailwindClasses.rounded_full
+  , TailwindClasses.relative
   , HH.ClassName "before:no-content"
   , HH.ClassName "before:w-full"
   , HH.ClassName "before:h-full"

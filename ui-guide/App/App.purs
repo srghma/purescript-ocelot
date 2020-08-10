@@ -138,25 +138,23 @@ app =
     Backdrop.backdrop
     [ HP.id_ "sidebar"
     , HP.classes
-      ( HH.ClassName <$>
-        [ "hidden"
-        , "fixed"
-        , "inset-y-0"
-        , "left-0"
-        , "overflow-y-auto"
-        , "md:overflow-visible"
-        , "scrolling-touch"
-        , "md:scrolling-auto"
-        , "w-4/5"
-        , "md:w-full"
-        , "md:max-w-xs"
-        , "flex-none"
-        -- , "border-r-2"
-        -- , "border-grey-light"
-        , "md:flex"
-        , "flex-col"
+        [ HH.ClassName "hidden"
+        , HH.ClassName "fixed"
+        , HH.ClassName "inset-y-0"
+        , HH.ClassName "left-0"
+        , HH.ClassName "overflow-y-auto"
+        , HH.ClassName "md:overflow-visible"
+        , HH.ClassName "scrolling-touch"
+        , HH.ClassName "md:scrolling-auto"
+        , HH.ClassName "w-4/5"
+        , HH.ClassName "md:w-full"
+        , HH.ClassName "md:max-w-xs"
+        , HH.ClassName "flex-none"
+        -- , HH.ClassName "border-r-2"
+        -- , HH.ClassName "border-grey-light"
+        , HH.ClassName "md:flex"
+        , HH.ClassName "flex-col"
         ]
-      )
     ]
     [ HH.div
       [ HP.class_ $ HH.ClassName "flex-1 p-6 overflow-y-auto" ]

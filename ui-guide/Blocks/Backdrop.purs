@@ -9,39 +9,36 @@ import Ocelot.HTML.Properties ((<&>))
 
 
 backdropClasses :: Array HH.ClassName
-backdropClasses = HH.ClassName <$>
-  [ "p-6"
-  , "flex"
-  , "flex-1"
+backdropClasses =
+  [ HH.ClassName "p-6"
+  , HH.ClassName "flex"
+  , HH.ClassName "flex-1"
   ]
 
 backdropDefaultClasses :: Array HH.ClassName
 backdropDefaultClasses = backdropClasses <>
-  ( HH.ClassName <$>
-    [ "bg-grey-95"
+
+    [ HH.ClassName "bg-grey-95"
     ]
-  )
 
 backdropWhiteClasses :: Array HH.ClassName
 backdropWhiteClasses = backdropClasses <>
-  ( HH.ClassName <$>
-    [ "bg-white"
+
+    [ HH.ClassName "bg-white"
     ]
-  )
 
 backdropDarkClasses :: Array HH.ClassName
 backdropDarkClasses = backdropClasses <>
-  ( HH.ClassName <$>
-    [ "bg-black"
-    , "text-grey-lighter"
+
+    [ HH.ClassName "bg-black"
+    , HH.ClassName "text-grey-lighter"
     ]
-  )
 
 contentClasses :: Array HH.ClassName
-contentClasses = HH.ClassName <$>
-  [ "flex-1"
-  , "mx-6"
-  , "mt-6"
+contentClasses =
+  [ HH.ClassName "flex-1"
+  , HH.ClassName "mx-6"
+  , HH.ClassName "mt-6"
   ]
 
 backdrop

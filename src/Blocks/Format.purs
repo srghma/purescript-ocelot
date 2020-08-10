@@ -8,86 +8,84 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 headingClasses :: Array HH.ClassName
-headingClasses = HH.ClassName <$>
-  [ "mb-6"
-  , "text-3xl"
-  , "font-normal"
-  , "leading-loose"
-  , "flex"
-  , "items-center"
+headingClasses =
+  [ HH.ClassName "mb-6"
+  , HH.ClassName "text-3xl"
+  , HH.ClassName "font-normal"
+  , HH.ClassName "leading-loose"
+  , HH.ClassName "flex"
+  , HH.ClassName "items-center"
   ]
 
 headingDarkClasses :: Array HH.ClassName
 headingDarkClasses = headingClasses <>
-  ( HH.ClassName <$>
-    [ "text-white"
+
+    [ HH.ClassName "text-white"
     ]
-  )
 
 subHeadingClasses :: Array HH.ClassName
-subHeadingClasses = HH.ClassName <$>
-  [ "text-xl"
-  , "font-medium"
-  , "leading-loose"
-  , "flex"
-  , "items-center"
-  , "mb-6"
+subHeadingClasses =
+  [ HH.ClassName "text-xl"
+  , HH.ClassName "font-medium"
+  , HH.ClassName "leading-loose"
+  , HH.ClassName "flex"
+  , HH.ClassName "items-center"
+  , HH.ClassName "mb-6"
   ]
 
 subHeadingDarkClasses :: Array HH.ClassName
 subHeadingDarkClasses = subHeadingClasses <>
-  ( HH.ClassName <$>
-    [ "text-white"
+
+    [ HH.ClassName "text-white"
     ]
-  )
 
 contentHeadingClasses :: Array HH.ClassName
-contentHeadingClasses = HH.ClassName <$>
-  [ "mb-6"
-  , "text-lg"
-  , "font-normal"
-  , "leading-loose"
-  , "flex"
-  , "items-center"
+contentHeadingClasses =
+  [ HH.ClassName "mb-6"
+  , HH.ClassName "text-lg"
+  , HH.ClassName "font-normal"
+  , HH.ClassName "leading-loose"
+  , HH.ClassName "flex"
+  , HH.ClassName "items-center"
   ]
 
 captionClasses :: Array HH.ClassName
-captionClasses = HH.ClassName <$>
-  [ "block"
-  , "font-light"
-  , "mb-6"
-  , "text-grey-70"
-  , "text-sm"
-  , "tracking-wide"
-  , "uppercase"
+captionClasses =
+  [ HH.ClassName "block"
+  , HH.ClassName "font-light"
+  , HH.ClassName "mb-6"
+  , HH.ClassName "text-grey-70"
+  , HH.ClassName "text-sm"
+  , HH.ClassName "tracking-wide"
+  , HH.ClassName "uppercase"
   ]
 
 linkClasses :: Array HH.ClassName
-linkClasses = HH.ClassName <$>
-  [ "text-blue-75"
-  , "hover:text-blue-65"
-  , "no-underline"
-  , "font-medium"
-  , "cursor-pointer"
+linkClasses =
+  [ HH.ClassName "text-blue-75"
+  , HH.ClassName "hover:text-blue-65"
+  , HH.ClassName "no-underline"
+  , HH.ClassName "font-medium"
+  , HH.ClassName "cursor-pointer"
   ]
 
 linkDarkClasses :: Array HH.ClassName
-linkDarkClasses = HH.ClassName <$>
-  [ "text-grey-light"
-  , "hover:text-grey-lighter"
-  , "no-underline"
-  , "font-medium"
-  , "cursor-pointer"
+linkDarkClasses =
+  [ HH.ClassName "text-grey-light"
+  , HH.ClassName "hover:text-grey-lighter"
+  , HH.ClassName "no-underline"
+  , HH.ClassName "font-medium"
+  , HH.ClassName "cursor-pointer"
   ]
 
 mutedClasses :: Array HH.ClassName
-mutedClasses = HH.ClassName <$>
-  [ "text-grey-50"
+mutedClasses =
+  [ HH.ClassName "text-grey-50"
   ]
 
 pClasses :: Array HH.ClassName
-pClasses = HH.ClassName <$>
-  [ "mb-6"
+pClasses =
+  [ HH.ClassName "mb-6"
   ]
 
 heading

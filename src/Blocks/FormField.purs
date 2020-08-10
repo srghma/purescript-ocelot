@@ -9,34 +9,33 @@ import Ocelot.Block.Format as Format
 import Ocelot.HTML.Properties (css, (<&>))
 
 fieldClasses :: Array HH.ClassName
-fieldClasses = HH.ClassName <$>
-  [ "w-full"
-  , "mb-10"
+fieldClasses =
+  [ HH.ClassName "w-full"
+  , HH.ClassName "mb-10"
   ]
 
 helpTextClasses :: Array HH.ClassName
 helpTextClasses = Format.mutedClasses <>
-  ( HH.ClassName <$>
-    [ "block"
-    , "font-light"
-    , "pt-3"
+
+    [ HH.ClassName "block"
+    , HH.ClassName "font-light"
+    , HH.ClassName "pt-3"
     ]
-  )
 
 errorTextClasses :: Array HH.ClassName
-errorTextClasses = HH.ClassName <$>
-  [ "block"
-  , "text-red"
-  , "font-medium"
-  , "pt-3"
+errorTextClasses =
+  [ HH.ClassName "block"
+  , HH.ClassName "text-red"
+  , HH.ClassName "font-medium"
+  , HH.ClassName "pt-3"
   ]
 
 labelClasses :: Array HH.ClassName
-labelClasses = HH.ClassName <$>
-  [ "block"
-  , "font-medium"
-  , "leading-loose"
-  , "text-black-20"
+labelClasses =
+  [ HH.ClassName "block"
+  , HH.ClassName "font-medium"
+  , HH.ClassName "leading-loose"
+  , HH.ClassName "text-black-20"
   ]
 
 type FieldConfig p i =

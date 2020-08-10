@@ -8,14 +8,14 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 choiceClasses :: Array HH.ClassName
-choiceClasses = HH.ClassName <$>
-  [ "absolute"
-  , "bg-white"
-  , "rounded-lg"
-  , "border"
-  , "border-grey-90"
-  , "shadow"
-  , "overflow-hidden"
+choiceClasses =
+  [ HH.ClassName "absolute"
+  , HH.ClassName "bg-white"
+  , HH.ClassName "rounded-lg"
+  , HH.ClassName "border"
+  , HH.ClassName "border-grey-90"
+  , HH.ClassName "shadow"
+  , HH.ClassName "overflow-hidden"
   ]
 
 choice
@@ -35,13 +35,13 @@ choice_ =
   choice []
 
 headerClasses :: Array HH.ClassName
-headerClasses = HH.ClassName <$>
-  [ "flex"
-  , "h-10"
-  , "justify-center"
-  , "items-center"
-  , "border-b"
-  , "border-grey-90"
+headerClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "h-10"
+  , HH.ClassName "justify-center"
+  , HH.ClassName "items-center"
+  , HH.ClassName "border-b"
+  , HH.ClassName "border-grey-90"
   ]
 
 header
@@ -61,7 +61,7 @@ header_ =
   header []
 
 bodyClasses :: Array HH.ClassName
-bodyClasses = HH.ClassName <$> [ "flex" ]
+bodyClasses =  [ HH.ClassName "flex" ]
 
 body
   :: ∀ p i
@@ -80,15 +80,15 @@ body_ =
   body []
 
 optionClasses :: Array HH.ClassName
-optionClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "flex"
-  , "flex-col"
-  , "items-center"
-  , "h-30"
-  , "justify-center"
-  , "w-40"
-  , "cursor-pointer"
+optionClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "flex"
+  , HH.ClassName "flex-col"
+  , HH.ClassName "items-center"
+  , HH.ClassName "h-30"
+  , HH.ClassName "justify-center"
+  , HH.ClassName "w-40"
+  , HH.ClassName "cursor-pointer"
   ]
 
 option
@@ -108,6 +108,6 @@ option_ =
   option []
 
 highlightedOptionClasses :: Array HH.ClassName
-highlightedOptionClasses = HH.ClassName <$>
-  [ "bg-grey-97" ]
+highlightedOptionClasses =
+  [ HH.ClassName "bg-grey-97" ]
 

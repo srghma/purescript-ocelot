@@ -57,41 +57,41 @@ instance heytingAlgebraStatus :: HeytingAlgebra Status where
   not Collapsed = Expanded
 
 headingClasses :: Array HH.ClassName
-headingClasses = HH.ClassName <$>
-  [ "flex"
-  , "justify-between"
-  , "cursor-pointer"
+headingClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "justify-between"
+  , HH.ClassName "cursor-pointer"
   ]
 
 headingInnerClasses :: Array HH.ClassName
-headingInnerClasses = HH.ClassName <$>
-  [ "flex-initial"
+headingInnerClasses =
+  [ HH.ClassName "flex-initial"
   ]
 
 chevronClasses :: Array HH.ClassName
-chevronClasses = HH.ClassName <$>
-  [ "text-grey-70"
-  , "text-lg"
-  , "leading-loose"
+chevronClasses =
+  [ HH.ClassName "text-grey-70"
+  , HH.ClassName "text-lg"
+  , HH.ClassName "leading-loose"
   ]
 
 contentSharedClasses :: Array HH.ClassName
-contentSharedClasses = HH.ClassName <$>
+contentSharedClasses =
   []
 
 contentClasses :: Status -> Array HH.ClassName
 contentClasses status_ = contentSharedClasses <>
   ( case status_ of
-    Collapsed -> HH.ClassName <$>
-      [ "max-h-0"
-      , "opacity-0"
-      , "overflow-hidden"
-      , "transition-1/4-in"
+    Collapsed ->
+      [ HH.ClassName "max-h-0"
+      , HH.ClassName "opacity-0"
+      , HH.ClassName "overflow-hidden"
+      , HH.ClassName "transition-1/4-in"
       ]
-    Expanded -> HH.ClassName <$>
-      [ "max-h-full"
-      , "opacity-1"
-      , "transition-1/2-out"
+    Expanded ->
+      [ HH.ClassName "max-h-full"
+      , HH.ClassName "opacity-1"
+      , HH.ClassName "transition-1/2-out"
       ]
   )
 

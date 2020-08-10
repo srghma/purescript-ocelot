@@ -41,9 +41,9 @@ hover_
 hover_ = hover []
 
 hoverClasses :: Array HH.ClassName
-hoverClasses = HH.ClassName <$>
-  [ "absolute"
-  , "invisible"
-  , "group-hover:visible"
-  , "z-60"
+hoverClasses =
+  [ HH.ClassName "absolute"
+  , HH.ClassName "invisible"
+  , HH.ClassName "group-hover:visible"
+  , HH.ClassName "z-60"
   ]

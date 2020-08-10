@@ -96,14 +96,14 @@ data SelectedStatus
   | Selected
 
 dropdownClasses :: Array HH.ClassName
-dropdownClasses = HH.ClassName <$>
-  [ "max-h-80"
-  , "w-full"
-  , "overflow-y-scroll"
-  , "top-0"
-  , "left-0"
-  , "bg-white"
-  , "text-center"
+dropdownClasses =
+  [ HH.ClassName "max-h-80"
+  , HH.ClassName "w-full"
+  , HH.ClassName "overflow-y-scroll"
+  , HH.ClassName "top-0"
+  , HH.ClassName "left-0"
+  , HH.ClassName "bg-white"
+  , HH.ClassName "text-center"
   ]
 
 component :: forall m. MonadAff m => Component m

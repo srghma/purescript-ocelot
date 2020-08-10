@@ -232,7 +232,11 @@ renderSearchDropdown resetLabel label renderFuzzy st =
 
 linkClasses :: Boolean -> Array HH.ClassName
 linkClasses = if _
-  then HH.ClassName <$> [ "text-grey-70", "no-underline", "font-medium" ]
+  then
+    [ HH.ClassName "text-grey-70"
+    , HH.ClassName "no-underline"
+    , HH.ClassName "font-medium"
+    ]
   else Format.linkClasses
 
 
@@ -249,19 +253,19 @@ inputProps disabled iprops = if disabled
 
 
 disabledClasses :: Array HH.ClassName
-disabledClasses = HH.ClassName <$>
-  [ "bg-grey-95"
-  , "text-grey-70"
-  , "sibling:bg-grey-95"
-  , "sibling:text-grey-50"
-  , "border-t-2"
-  , "border-b-2"
-  , "font-light"
-  , "focus:no-outline"
-  , "py-2"
-  , "border-l-2"
-  , "w-full"
-  , "px-3"
+disabledClasses =
+  [ HH.ClassName "bg-grey-95"
+  , HH.ClassName "text-grey-70"
+  , HH.ClassName "sibling:bg-grey-95"
+  , HH.ClassName "sibling:text-grey-50"
+  , HH.ClassName "border-t-2"
+  , HH.ClassName "border-b-2"
+  , HH.ClassName "font-light"
+  , HH.ClassName "focus:no-outline"
+  , HH.ClassName "py-2"
+  , HH.ClassName "border-l-2"
+  , HH.ClassName "w-full"
+  , HH.ClassName "px-3"
   ]
 
 isDisabled :: ∀ i. Array (HH.IProp HTMLinput i) -> Boolean

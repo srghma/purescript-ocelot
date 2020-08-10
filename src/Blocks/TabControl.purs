@@ -23,62 +23,62 @@ type TabConfig tabType page =
 type IsActive = Boolean
 
 outerClasses :: Array HH.ClassName
-outerClasses = HH.ClassName <$>
-  [ "bg-black-10"
-  , "w-full"
+outerClasses =
+  [ HH.ClassName "bg-black-10"
+  , HH.ClassName "w-full"
   ]
 
 innerClasses :: Array HH.ClassName
-innerClasses = HH.ClassName <$>
-  [ "container"
-  , "items-end"
-  , "mx-auto"
-  , "flex"
-  , "h-16"
+innerClasses =
+  [ HH.ClassName "container"
+  , HH.ClassName "items-end"
+  , HH.ClassName "mx-auto"
+  , HH.ClassName "flex"
+  , HH.ClassName "h-16"
   ]
 
 tabClasses :: Array HH.ClassName
-tabClasses = HH.ClassName <$>
-  [ "pt-5"
-  , "pb-6"
-  , "inline-flex"
-  , "no-underline"
+tabClasses =
+  [ HH.ClassName "pt-5"
+  , HH.ClassName "pb-6"
+  , HH.ClassName "inline-flex"
+  , HH.ClassName "no-underline"
   ]
 
 activeTabClasses :: Array HH.ClassName
-activeTabClasses = HH.ClassName <$>
-  [ "border-b-2"
-  , "border-blue-88"
-  , "text-white"
+activeTabClasses =
+  [ HH.ClassName "border-b-2"
+  , HH.ClassName "border-blue-88"
+  , HH.ClassName "text-white"
   ]
 
 inactiveTabClasses :: Array HH.ClassName
-inactiveTabClasses = HH.ClassName <$>
-  [ "border-b-2"
-  , "border-black-10"
-  , "hover:border-blue-88"
-  , "hover:text-white"
-  , "text-grey-70"
+inactiveTabClasses =
+  [ HH.ClassName "border-b-2"
+  , HH.ClassName "border-black-10"
+  , HH.ClassName "hover:border-blue-88"
+  , HH.ClassName "hover:text-white"
+  , HH.ClassName "text-grey-70"
   ]
 
 tabTextClasses :: Array HH.ClassName
-tabTextClasses = HH.ClassName <$>
-  [ "text-sm"
-  , "tracking-wide"
-  , "uppercase"
-  , "bold"
-  , "inline-flex"
-  , "self-end"
+tabTextClasses =
+  [ HH.ClassName "text-sm"
+  , HH.ClassName "tracking-wide"
+  , HH.ClassName "uppercase"
+  , HH.ClassName "bold"
+  , HH.ClassName "inline-flex"
+  , HH.ClassName "self-end"
   ]
 
 errorIconClasses :: Array HH.ClassName
-errorIconClasses = HH.ClassName <$>
-  [ "text-2xl"
-  , "text-red"
-  , "mr-1"
-  , "inline-flex"
-  , "align-bottom"
-  , "my-px"
+errorIconClasses =
+  [ HH.ClassName "text-2xl"
+  , HH.ClassName "text-red"
+  , HH.ClassName "mr-1"
+  , HH.ClassName "inline-flex"
+  , HH.ClassName "align-bottom"
+  , HH.ClassName "my-px"
   ]
 
 tabControl

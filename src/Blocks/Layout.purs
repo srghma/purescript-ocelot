@@ -7,13 +7,13 @@ import Halogen.HTML as HH
 import Ocelot.Block.Builder (blockBuilder)
 
 popoverClasses :: Array HH.ClassName
-popoverClasses = HH.ClassName <$>
-  [ "absolute"
-  , "shadow"
-  , "z-50"
-  , "border"
-  , "border-grey-90"
-  , "rounded"
+popoverClasses =
+  [ HH.ClassName "absolute"
+  , HH.ClassName "shadow"
+  , HH.ClassName "z-50"
+  , HH.ClassName "border"
+  , HH.ClassName "border-grey-90"
+  , HH.ClassName "rounded"
   ]
 
 popover
@@ -30,13 +30,13 @@ popover_
 popover_ = popover []
 
 stickyClasses :: Array HH.ClassName
-stickyClasses = HH.ClassName <$>
-  [ "fixed"
-  , "top-0"
-  , "inset-x-0"
-  , "w-full"
-  , "shadow-md"
-  , "z-60"
+stickyClasses =
+  [ HH.ClassName "fixed"
+  , HH.ClassName "top-0"
+  , HH.ClassName "inset-x-0"
+  , HH.ClassName "w-full"
+  , HH.ClassName "shadow-md"
+  , HH.ClassName "z-60"
   ]
 
 sticky
@@ -53,9 +53,9 @@ sticky_
 sticky_ = sticky []
 
 containerClasses :: Array HH.ClassName
-containerClasses = HH.ClassName <$>
-  [ "container"
-  , "m-auto"
+containerClasses =
+  [ HH.ClassName "container"
+  , HH.ClassName "m-auto"
   ]
 
 container
@@ -72,8 +72,8 @@ container_
 container_ = container []
 
 sectionClasses :: Array HH.ClassName
-sectionClasses = HH.ClassName <$>
-  [ "my-8"
+sectionClasses =
+  [ HH.ClassName "my-8"
   ]
 
 section
@@ -90,11 +90,11 @@ section_
 section_ = section []
 
 gridClasses :: Array HH.ClassName
-gridClasses = HH.ClassName <$>
-  [ "container"
-  , "m-auto"
-  , "p-8"
-  , "flex"
+gridClasses =
+  [ HH.ClassName "container"
+  , HH.ClassName "m-auto"
+  , HH.ClassName "p-8"
+  , HH.ClassName "flex"
   ]
 
 grid
@@ -111,9 +111,9 @@ grid_
 grid_ = grid []
 
 columnClasses :: Array HH.ClassName
-columnClasses = HH.ClassName <$>
-  [ "flex-1"
-  , "p-8"
+columnClasses =
+  [ HH.ClassName "flex-1"
+  , HH.ClassName "p-8"
   ]
 
 column
@@ -130,9 +130,9 @@ column_
 column_ = column []
 
 mainClasses :: Array HH.ClassName
-mainClasses = HH.ClassName <$>
-  [ "flex-3"
-  , "p-8"
+mainClasses =
+  [ HH.ClassName "flex-3"
+  , HH.ClassName "p-8"
   ]
 
 main
@@ -149,9 +149,9 @@ main_
 main_ = main []
 
 sideClasses :: Array HH.ClassName
-sideClasses = HH.ClassName <$>
-  [ "flex-2"
-  , "p-8"
+sideClasses =
+  [ HH.ClassName "flex-2"
+  , HH.ClassName "p-8"
   ]
 
 side

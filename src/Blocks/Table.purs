@@ -8,10 +8,10 @@ import Halogen.HTML as HH
 import Ocelot.Block.Builder (blockBuilder)
 
 tableClasses :: Array HH.ClassName
-tableClasses = HH.ClassName <$>
-  [ "w-full"
-  , "text-left"
-  , "border-collapse"
+tableClasses =
+  [ HH.ClassName "w-full"
+  , HH.ClassName "text-left"
+  , HH.ClassName "border-collapse"
   ]
 
 table
@@ -41,12 +41,12 @@ row_
 row_ = HH.tr_
 
 headerClasses :: Array HH.ClassName
-headerClasses = HH.ClassName <$>
-  [ "bg-grey-90"
-  , "py-4"
-  , "px-5"
-  , "font-medium"
-  , "text-black-20"
+headerClasses =
+  [ HH.ClassName "bg-grey-90"
+  , HH.ClassName "py-4"
+  , HH.ClassName "px-5"
+  , HH.ClassName "font-medium"
+  , HH.ClassName "text-black-20"
   ]
 
 header
@@ -63,12 +63,12 @@ header_
 header_ = header []
 
 cellClasses :: Array HH.ClassName
-cellClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "p-5"
-  , "min-h-20"
-  , "border-b"
-  , "border-grey-95"
+cellClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "p-5"
+  , HH.ClassName "min-h-20"
+  , HH.ClassName "border-b"
+  , HH.ClassName "border-grey-95"
   ]
 
 cell

@@ -22,37 +22,39 @@ visible = HP.prop (HH.PropName "visible")
 
 -- Necessary for centering the toast
 toastContainerClasses :: Array HH.ClassName
-toastContainerClasses = HH.ClassName <$>
-  [ "flex"
-  , "transition-1/4-in"
-  , "transition-1/2-out"
-  , "items-center"
-  , "fixed"
-  , "left-0"
-  , "right-0"
-  , "bottom-0"
+toastContainerClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "transition-1/4-in"
+  , HH.ClassName "transition-1/2-out"
+  , HH.ClassName "items-center"
+  , HH.ClassName "fixed"
+  , HH.ClassName "left-0"
+  , HH.ClassName "right-0"
+  , HH.ClassName "bottom-0"
   ]
 
 containerVisibleClasses :: Array HH.ClassName
-containerVisibleClasses = HH.ClassName <$>
-  [ "mb-8" ]
+containerVisibleClasses =
+  [ HH.ClassName "mb-8"
+  ]
 
 containerClosedClasses :: Array HH.ClassName
-containerClosedClasses = HH.ClassName <$>
-  [ "-mb-40" ]
+containerClosedClasses =
+  [ HH.ClassName "-mb-40"
+  ]
 
 toastClasses :: Array HH.ClassName
-toastClasses = HH.ClassName <$>
-  [ "shadow-md"
-  , "p-4"
-  , "ml-auto"
-  , "mr-auto"
-  , "items-center"
-  , "border"
-  , "border-grey-80"
-  , "bg-white"
-  , "rounded"
-  , "flex"
+toastClasses =
+  [ HH.ClassName "shadow-md"
+  , HH.ClassName "p-4"
+  , HH.ClassName "ml-auto"
+  , HH.ClassName "mr-auto"
+  , HH.ClassName "items-center"
+  , HH.ClassName "border"
+  , HH.ClassName "border-grey-80"
+  , HH.ClassName "bg-white"
+  , HH.ClassName "rounded"
+  , HH.ClassName "flex"
   ]
 
 toast

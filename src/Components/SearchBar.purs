@@ -194,61 +194,82 @@ render st@{ query, open } =
       [ Icon.delete_ ]
     ]
    where
-     containerClasses = HH.ClassName <$>
-       [ "flex"
-       , "no-outline"
-       , "items-stretch"
-       , "transition-1/4"
-       , "border-b-2"
-       , "group"
+     containerClasses =
+       [ HH.ClassName "flex"
+       , HH.ClassName "no-outline"
+       , HH.ClassName "items-stretch"
+       , HH.ClassName "transition-1/4"
+       , HH.ClassName "border-b-2"
+       , HH.ClassName "group"
        ]
 
      containerCondClasses =
        ifOpen
-         [ "max-w-160", "border-blue-88" ]
-         [ "max-w-12", "border-transparent", "cursor-pointer" ]
+         [ HH.ClassName "max-w-160"
+         , HH.ClassName "border-blue-88"
+         ]
+         [ HH.ClassName "max-w-12"
+         , HH.ClassName "border-transparent"
+         , HH.ClassName "cursor-pointer"
+         ]
 
-     iconClasses = HH.ClassName <$>
-       [ "pr-3"
-       , "text-2xl"
-       , "group-hover:text-grey-50"
-       , "transition-1/4"
+     iconClasses =
+       [ HH.ClassName "pr-3"
+       , HH.ClassName "text-2xl"
+       , HH.ClassName "group-hover:text-grey-50"
+       , HH.ClassName "transition-1/4"
        ]
 
      iconCondClasses =
        ifOpen
-         [ "text-grey-50", "mb-0", "mt-0" ]
-         [ "text-grey-70", "-mb-1", "mt-1" ]
+         [ HH.ClassName "text-grey-50"
+         , HH.ClassName "mb-0"
+         , HH.ClassName "mt-0"
+         ]
+         [ HH.ClassName "text-grey-70"
+         , HH.ClassName "-mb-1"
+         , HH.ClassName "mt-1"
+         ]
 
-     inputClasses = HH.ClassName <$>
-       [ "no-outline"
-       , "flex-1"
-       , "bg-transparent"
-       , "h-full"
-       , "transition-1/4"
+     inputClasses =
+       [ HH.ClassName "no-outline"
+       , HH.ClassName "flex-1"
+       , HH.ClassName "bg-transparent"
+       , HH.ClassName "h-full"
+       , HH.ClassName "transition-1/4"
        ]
 
      inputCondClasses =
        ifOpen
-         [ "w-full" ]
-         [ "w-0" ]
+         [ HH.ClassName "w-full"
+         ]
+         [ HH.ClassName "w-0"
+         ]
 
-     buttonClasses = HH.ClassName <$>
-       [ "no-outline"
-       , "text-grey-70"
-       , "hover:text-grey-50"
-       , "text-xs"
-       , "transition-1/4"
-       , "flex-shrink"
+     buttonClasses =
+       [ HH.ClassName "no-outline"
+       , HH.ClassName "text-grey-70"
+       , HH.ClassName "hover:text-grey-50"
+       , HH.ClassName "text-xs"
+       , HH.ClassName "transition-1/4"
+       , HH.ClassName "flex-shrink"
        ]
 
      buttonCondClasses =
        ifOpen
-         [ "opacity-100", "visible" ]
-         [ "opacity-0", "invisible" ]
+         [ HH.ClassName "opacity-100"
+         , HH.ClassName "visible"
+         ]
+         [ HH.ClassName "opacity-0"
+         , HH.ClassName "invisible"
+         ]
 
-     keepOpenClasses = HH.ClassName <$>
-       if st.keepOpen then ["hidden"] else []
+     keepOpenClasses =
+       if st.keepOpen
+         then
+          [ HH.ClassName "hidden"
+          ]
+         else []
 
      ifOpen openClasses closedClasses =
-       HH.ClassName <$> if open then openClasses else closedClasses
+        if open then openClasses else closedClasses

@@ -9,57 +9,57 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 labelClasses :: Array HH.ClassName
-labelClasses = HH.ClassName <$>
-  [ "flex"
-  , "flex-row"
-  , "inline-block"
-  , "py-2"
-  , "cursor-pointer"
-  , "text-black-20"
-  , "items-center"
-  , "text-left" -- styles get messed up otherwise
+labelClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "flex-row"
+  , HH.ClassName "inline-block"
+  , HH.ClassName "py-2"
+  , HH.ClassName "cursor-pointer"
+  , HH.ClassName "text-black-20"
+  , HH.ClassName "items-center"
+  , HH.ClassName "text-left" -- styles get messed up otherwise
   ]
 
 inputClasses :: Array HH.ClassName
-inputClasses = HH.ClassName <$>
-  [ "!disabled:sibling:bg-white"
-  , "disabled:sibling:bg-grey-95"
-  , "checked:sibling:before:opacity-100"
-  , "checked:sibling:before:scale-1"
-  , "checked:!disabled:sibling:border-blue-88"
-  , "focus:sibling:border-blue-88"
-  , "!checked:sibling:before:opacity-0"
-  , "!checked:sibling:before:scale-0"
-  , "!focus:hover:!checked:!disabled:sibling:border-grey-70"
-  , "focus:sibling:shadow"
-  , "checked:!disabled:sibling:before:bg-blue-88"
-  , "checked:disabled:sibling:before:bg-grey-80"
-  , "checked:disabled:sibling:border-grey-80"
-  , "offscreen"
+inputClasses =
+  [ HH.ClassName "!disabled:sibling:bg-white"
+  , HH.ClassName "disabled:sibling:bg-grey-95"
+  , HH.ClassName "checked:sibling:before:opacity-100"
+  , HH.ClassName "checked:sibling:before:scale-1"
+  , HH.ClassName "checked:!disabled:sibling:border-blue-88"
+  , HH.ClassName "focus:sibling:border-blue-88"
+  , HH.ClassName "!checked:sibling:before:opacity-0"
+  , HH.ClassName "!checked:sibling:before:scale-0"
+  , HH.ClassName "!focus:hover:!checked:!disabled:sibling:border-grey-70"
+  , HH.ClassName "focus:sibling:shadow"
+  , HH.ClassName "checked:!disabled:sibling:before:bg-blue-88"
+  , HH.ClassName "checked:disabled:sibling:before:bg-grey-80"
+  , HH.ClassName "checked:disabled:sibling:border-grey-80"
+  , HH.ClassName "offscreen"
   ]
 
 radioClasses :: Array HH.ClassName
-radioClasses = HH.ClassName <$>
-  [ "inline-flex"
-  , "justify-center"
-  , "items-center"
-  , "content-box"
-  , "border-2"
-  , "border-solid"
-  , "h-4"
-  , "w-4"
-  , "p-1"
-  , "flex-none"
-  , "no-content"
-  , "rounded-full"
-  , "mr-3"
-  , "before:transition-1/4-bounce"
-  , "before:h-full"
-  , "before:w-full"
-  , "before:bg-blue-88"
-  , "before:no-content"
-  , "before:rounded-full"
-  , "before:shadow"
+radioClasses =
+  [ HH.ClassName "inline-flex"
+  , HH.ClassName "justify-center"
+  , HH.ClassName "items-center"
+  , HH.ClassName "content-box"
+  , HH.ClassName "border-2"
+  , HH.ClassName "border-solid"
+  , HH.ClassName "h-4"
+  , HH.ClassName "w-4"
+  , HH.ClassName "p-1"
+  , HH.ClassName "flex-none"
+  , HH.ClassName "no-content"
+  , HH.ClassName "rounded-full"
+  , HH.ClassName "mr-3"
+  , HH.ClassName "before:transition-1/4-bounce"
+  , HH.ClassName "before:h-full"
+  , HH.ClassName "before:w-full"
+  , HH.ClassName "before:bg-blue-88"
+  , HH.ClassName "before:no-content"
+  , HH.ClassName "before:rounded-full"
+  , HH.ClassName "before:shadow"
   ]
 
 radio

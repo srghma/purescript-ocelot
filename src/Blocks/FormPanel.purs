@@ -12,10 +12,10 @@ type FormPanelProps =
   }
 
 buttonClasses :: Array HH.ClassName
-buttonClasses = HH.ClassName <$>
-  [ "font-medium"
-  , "no-outline"
-  , "text-blue-82"
+buttonClasses =
+  [ HH.ClassName "font-medium"
+  , HH.ClassName "no-outline"
+  , HH.ClassName "text-blue-82"
   ]
 
 formPanel

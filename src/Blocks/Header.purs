@@ -11,19 +11,19 @@ import Ocelot.Block.NavigationTab as NavigationTab
 import Ocelot.HTML.Properties (css, (<&>))
 
 outerClasses :: Array HH.ClassName
-outerClasses = HH.ClassName <$>
-  [ "bg-black-10"
-  , "w-full"
-  , "px-6"
+outerClasses =
+  [ HH.ClassName "bg-black-10"
+  , HH.ClassName "w-full"
+  , HH.ClassName "px-6"
   ]
 
 innerClasses :: Array HH.ClassName
-innerClasses = HH.ClassName <$>
-  [ "container"
-  , "items-center"
-  , "mx-auto"
-  , "flex"
-  , "h-24"
+innerClasses =
+  [ HH.ClassName "container"
+  , HH.ClassName "items-center"
+  , HH.ClassName "mx-auto"
+  , HH.ClassName "flex"
+  , HH.ClassName "h-24"
   ]
 
 header

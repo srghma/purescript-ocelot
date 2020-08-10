@@ -34,13 +34,13 @@ popover_ =
   popover []
 
 hoverClasses :: Array HH.ClassName
-hoverClasses = HH.ClassName <$>
-  [ "p-4"
-  , "my-1"
-  , "bg-white"
-  , "border"
-  , "border-grey-80"
-  , "rounded"
-  , "shadow-md"
-  , "items-center"
+hoverClasses =
+  [ HH.ClassName "p-4"
+  , HH.ClassName "my-1"
+  , HH.ClassName "bg-white"
+  , HH.ClassName "border"
+  , HH.ClassName "border-grey-80"
+  , HH.ClassName "rounded"
+  , HH.ClassName "shadow-md"
+  , HH.ClassName "items-center"
   ]

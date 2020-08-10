@@ -8,80 +8,78 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 buttonSharedClasses :: Array HH.ClassName
-buttonSharedClasses = HH.ClassName <$>
-  [ "no-outline"
-  , "px-4"
-  , "py-2"
-  , "!active:border-b"
-  , "active:border-t"
-  , "disabled:opacity-50"
-  , "disabled:cursor-default"
-  , "!disabled:cursor-pointer"
+buttonSharedClasses =
+  [ HH.ClassName "no-outline"
+  , HH.ClassName "px-4"
+  , HH.ClassName "py-2"
+  , HH.ClassName "!active:border-b"
+  , HH.ClassName "active:border-t"
+  , HH.ClassName "disabled:opacity-50"
+  , HH.ClassName "disabled:cursor-default"
+  , HH.ClassName "!disabled:cursor-pointer"
   ]
 
 buttonMainClasses :: Array HH.ClassName
 buttonMainClasses = buttonSharedClasses <>
-  ( HH.ClassName <$>
-    [ "rounded"
+    [ HH.ClassName "rounded"
     ]
-  )
 
 buttonClasses :: Array HH.ClassName
-buttonClasses = HH.ClassName <$>
-  [ "bg-grey-50-a20"
-  , "border-grey-50-a20"
-  , "hover:!disabled:bg-grey-50-a30"
-  , "focus:bg-grey-50-a30"
-  , "text-black-20"
+buttonClasses =
+  [ HH.ClassName "bg-grey-50-a20"
+  , HH.ClassName "border-grey-50-a20"
+  , HH.ClassName "hover:!disabled:bg-grey-50-a30"
+  , HH.ClassName "focus:bg-grey-50-a30"
+  , HH.ClassName "text-black-20"
   ]
 
 buttonPrimaryClasses :: Array HH.ClassName
-buttonPrimaryClasses = HH.ClassName <$>
-  [ "bg-blue-88"
-  , "border-blue-88"
-  , "hover:!disabled:bg-blue-82"
-  , "focus:bg-blue-82"
-  , "text-white"
+buttonPrimaryClasses =
+  [ HH.ClassName "bg-blue-88"
+  , HH.ClassName "border-blue-88"
+  , HH.ClassName "hover:!disabled:bg-blue-82"
+  , HH.ClassName "focus:bg-blue-82"
+  , HH.ClassName "text-white"
   ]
 
 buttonDarkClasses :: Array HH.ClassName
-buttonDarkClasses = HH.ClassName <$>
-  [ "bg-grey-70-a30"
-  , "border-grey-70-a30"
-  , "hover:!disabled:bg-grey-70-a40"
-  , "focus:bg-grey-70-a40"
-  , "text-white"
+buttonDarkClasses =
+  [ HH.ClassName "bg-grey-70-a30"
+  , HH.ClassName "border-grey-70-a30"
+  , HH.ClassName "hover:!disabled:bg-grey-70-a40"
+  , HH.ClassName "focus:bg-grey-70-a40"
+  , HH.ClassName "text-white"
   ]
 
 buttonClearClasses :: Array HH.ClassName
-buttonClearClasses = HH.ClassName <$>
-  [ "bg-transparent"
-  , "border-transparent"
-  , "text-grey-70"
-  , "hover:text-grey-70-a30"
-  , "focus:text-grey-70-a30"
+buttonClearClasses =
+  [ HH.ClassName "bg-transparent"
+  , HH.ClassName "border-transparent"
+  , HH.ClassName "text-grey-70"
+  , HH.ClassName "hover:text-grey-70-a30"
+  , HH.ClassName "focus:text-grey-70-a30"
   ]
 
 buttonGroupClasses :: Array HH.ClassName
-buttonGroupClasses = HH.ClassName <$>
-  [ "flex"
-  , "items-center"
+buttonGroupClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "items-center"
   ]
 
 centerClasses :: Array HH.ClassName
-centerClasses = HH.ClassName <$>
-  [ "mr-px"
+centerClasses =
+  [ HH.ClassName "mr-px"
   ]
 
 leftClasses :: Array HH.ClassName
-leftClasses = HH.ClassName <$>
-  [ "mr-px"
-  , "rounded-l"
+leftClasses =
+  [ HH.ClassName "mr-px"
+  , HH.ClassName "rounded-l"
   ]
 
 rightClasses :: Array HH.ClassName
-rightClasses = HH.ClassName <$>
-  [ "rounded-r"
+rightClasses =
+  [ HH.ClassName "rounded-r"
   ]
 
 buttonBuilder

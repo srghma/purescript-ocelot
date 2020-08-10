@@ -8,76 +8,71 @@ import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 
 inputSharedClasses :: Array HH.ClassName
-inputSharedClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "border-t-2"
-  , "border-b-2"
-  , "font-light"
-  , "cc-blue-88"
-  , "border-grey-80"
-  , "disabled:bg-grey-95"
-  , "disabled:text-grey-70"
-  , "focus:no-outline"
-  , "py-2"
+inputSharedClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "border-t-2"
+  , HH.ClassName "border-b-2"
+  , HH.ClassName "font-light"
+  , HH.ClassName "cc-blue-88"
+  , HH.ClassName "border-grey-80"
+  , HH.ClassName "disabled:bg-grey-95"
+  , HH.ClassName "disabled:text-grey-70"
+  , HH.ClassName "focus:no-outline"
+  , HH.ClassName "py-2"
   ]
 
 inputClasses :: Array HH.ClassName
 inputClasses = inputSharedClasses <>
-  ( HH.ClassName <$>
-    [ "border-l-2"
-    , "border-r-2"
-    , "w-full"
-    , "px-3"
-    , "focus:border-blue-88"
-    , "!focus:!disabled:hover:border-grey-70"
+
+    [ HH.ClassName "border-l-2"
+    , HH.ClassName "border-r-2"
+    , HH.ClassName "w-full"
+    , HH.ClassName "px-3"
+    , HH.ClassName "focus:border-blue-88"
+    , HH.ClassName "!focus:!disabled:hover:border-grey-70"
     ]
-  )
 
 inputGroupClasses :: Array HH.ClassName
-inputGroupClasses = HH.ClassName <$>
-  [ "flex"
-  , "group"
-  , "w-full"
-  , "items-center"
+inputGroupClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "group"
+  , HH.ClassName "w-full"
+  , HH.ClassName "items-center"
   ]
 
 mainItemClasses :: Array HH.ClassName
 mainItemClasses = inputSharedClasses <>
-  ( HH.ClassName <$>
-    [ "w-full"
-    , "focus:border-blue-88"
-    , "focus:sibling:border-blue-88"
-    , "group-hover:!focus:!disabled:border-grey-70"
-    , "group-hover:!focus:!disabled:sibling:border-grey-70"
-    , "disabled:sibling:bg-grey-95"
+
+    [ HH.ClassName "w-full"
+    , HH.ClassName "focus:border-blue-88"
+    , HH.ClassName "focus:sibling:border-blue-88"
+    , HH.ClassName "group-hover:!focus:!disabled:border-grey-70"
+    , HH.ClassName "group-hover:!focus:!disabled:sibling:border-grey-70"
+    , HH.ClassName "disabled:sibling:bg-grey-95"
     ]
-  )
 
 centerClasses :: Array HH.ClassName
 centerClasses = inputSharedClasses <>
-  ( HH.ClassName <$>
-    [ "pl-1"
-    , "pr-1"
+
+    [ HH.ClassName "pl-1"
+    , HH.ClassName "pr-1"
     ]
-  )
 
 leftClasses :: Array HH.ClassName
 leftClasses = inputSharedClasses <>
-  ( HH.ClassName <$>
-    [ "border-l-2"
-    , "pl-3"
-    , "pr-1"
+
+    [ HH.ClassName "border-l-2"
+    , HH.ClassName "pl-3"
+    , HH.ClassName "pr-1"
     ]
-  )
 
 rightClasses :: Array HH.ClassName
 rightClasses = inputSharedClasses <>
-  ( HH.ClassName <$>
-    [ "border-r-2"
-    , "pr-3"
-    , "pl-1"
+
+    [ HH.ClassName "border-r-2"
+    , HH.ClassName "pr-3"
+    , HH.ClassName "pl-1"
     ]
-  )
 
 mainCenterClasses :: Array HH.ClassName
 mainCenterClasses = mainItemClasses <> centerClasses
@@ -90,21 +85,19 @@ mainRightClasses = mainItemClasses <> rightClasses
 
 addonClasses :: Array HH.ClassName
 addonClasses = inputSharedClasses <>
-  ( HH.ClassName <$>
-    [ "cursor-pointer"
-    , "text-grey-70"
+
+    [ HH.ClassName "cursor-pointer"
+    , HH.ClassName "text-grey-70"
     ]
-  )
 
 addonCenterClasses :: Array HH.ClassName
 addonCenterClasses = addonClasses <> centerClasses
 
 addonLeftClassess :: Array HH.ClassName
 addonLeftClassess = addonClasses <> leftClasses <>
-  ( HH.ClassName <$>
-    [ "order-start"
+
+    [ HH.ClassName "order-start"
     ]
-  )
 
 addonRightClasses :: Array HH.ClassName
 addonRightClasses = addonClasses <> rightClasses
@@ -114,27 +107,24 @@ borderClasses = []
 
 borderLeftClasses :: Array HH.ClassName
 borderLeftClasses = borderClasses <>
-  ( HH.ClassName <$>
-    [ "border-r"
-    , "pr-3"
-    , "order-start"
+
+    [ HH.ClassName "border-r"
+    , HH.ClassName "pr-3"
+    , HH.ClassName "order-start"
     ]
-  )
 
 borderRightClasses :: Array HH.ClassName
 borderRightClasses = borderClasses <>
-  ( HH.ClassName <$>
-    [ "border-l"
-    , "pl-3"
+
+    [ HH.ClassName "border-l"
+    , HH.ClassName "pl-3"
     ]
-  )
 
 textareaClasses :: Array HH.ClassName
 textareaClasses = inputClasses <>
-  ( HH.ClassName <$>
-    [ "min-h-40"
+
+    [ HH.ClassName "min-h-40"
     ]
-  )
 
 input
   :: ∀ p i

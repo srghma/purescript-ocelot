@@ -52,19 +52,19 @@ tooltip' msg outerProps innerProps html =
     ]
 
 tooltipClasses :: Array HH.ClassName
-tooltipClasses = HH.ClassName <$> classesArr <> [ "-my-8" ]
+tooltipClasses =  classesArr <> [ HH.ClassName "-my-8" ]
 
 tooltipClasses' :: Array HH.ClassName
-tooltipClasses' = HH.ClassName <$> classesArr
+tooltipClasses' =  classesArr
 
-classesArr :: Array String
+classesArr :: Array HH.ClassName
 classesArr =
-  [ "absolute"
-  , "invisible"
-  , "group-hover:visible"
-  , "text-white"
-  , "bg-grey-50"
-  , "px-2"
-  , "rounded"
-  , "z-60"
+  [ HH.ClassName "absolute"
+  , HH.ClassName "invisible"
+  , HH.ClassName "group-hover:visible"
+  , HH.ClassName "text-white"
+  , HH.ClassName "bg-grey-50"
+  , HH.ClassName "px-2"
+  , HH.ClassName "rounded"
+  , HH.ClassName "z-60"
   ]

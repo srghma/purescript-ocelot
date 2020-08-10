@@ -90,36 +90,36 @@ type HeaderProps p i =
   }
 
 backgroundClasses :: Array HH.ClassName
-backgroundClasses = HH.ClassName <$>
-  [ "fixed"
-  , "inset-0"
-  , "bg-black-modal-a90"
-  , "fade-in"
-  , "z-10"
+backgroundClasses =
+  [ HH.ClassName "fixed"
+  , HH.ClassName "inset-0"
+  , HH.ClassName "bg-black-modal-a90"
+  , HH.ClassName "fade-in"
+  , HH.ClassName "z-10"
   ]
 
 modalClasses :: Array HH.ClassName
-modalClasses = HH.ClassName <$>
-  [ "fixed"
-  , "inset-x-0"
-  , "top-0"
-  , "my-20"
-  , "m-auto"
-  , "max-w-lg"
-  , "slide-down"
-  , "z-10"
+modalClasses =
+  [ HH.ClassName "fixed"
+  , HH.ClassName "inset-x-0"
+  , HH.ClassName "top-0"
+  , HH.ClassName "my-20"
+  , HH.ClassName "m-auto"
+  , HH.ClassName "max-w-lg"
+  , HH.ClassName "slide-down"
+  , HH.ClassName "z-10"
   ]
 
 bodyClasses :: Array HH.ClassName
-bodyClasses = HH.ClassName <$>
-  [ "relative"
-  , "bg-grey-95"
-  , "overflow-auto"
-  , "max-h-full"
-  , "w-full"
-  , "flex-col"
-  , "flex"
-  , "rounded-b"
+bodyClasses =
+  [ HH.ClassName "relative"
+  , HH.ClassName "bg-grey-95"
+  , HH.ClassName "overflow-auto"
+  , HH.ClassName "max-h-full"
+  , HH.ClassName "w-full"
+  , HH.ClassName "flex-col"
+  , HH.ClassName "flex"
+  , HH.ClassName "rounded-b"
   ]
 
 body
@@ -139,27 +139,27 @@ body_
 body_ = body []
 
 headerClasses :: Array HH.ClassName
-headerClasses = HH.ClassName <$>
-  [ "h-24"
-  , "flex"
+headerClasses =
+  [ HH.ClassName "h-24"
+  , HH.ClassName "flex"
   ]
 
 outerHeaderClasses :: Array HH.ClassName
-outerHeaderClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "w-full"
-  , "px-6"
-  , "items-center"
-  , "flex"
-  , "rounded-t"
+outerHeaderClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "w-full"
+  , HH.ClassName "px-6"
+  , HH.ClassName "items-center"
+  , HH.ClassName "flex"
+  , HH.ClassName "rounded-t"
   ]
 
 innerHeaderClasses :: Array HH.ClassName
-innerHeaderClasses = HH.ClassName <$>
-  [ "w-full"
-  , "items-center"
-  , "mx-auto"
-  , "flex"
+innerHeaderClasses =
+  [ HH.ClassName "w-full"
+  , HH.ClassName "items-center"
+  , HH.ClassName "mx-auto"
+  , HH.ClassName "flex"
   ]
 
 header

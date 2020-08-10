@@ -380,13 +380,13 @@ renderCalendar y m calendarItems =
     ]
   where
     dropdownClasses :: Array HH.ClassName
-    dropdownClasses = HH.ClassName <$>
-      [ "top-0"
-      , "left-0"
-      , "p-6"
-      , "bg-white"
-      , "text-center"
-      , "text-lg"
+    dropdownClasses =
+      [ HH.ClassName "top-0"
+      , HH.ClassName "left-0"
+      , HH.ClassName "p-6"
+      , HH.ClassName "bg-white"
+      , HH.ClassName "text-center"
+      , HH.ClassName "text-lg"
       ]
 
 -- Given a string ("Month YYYY"), creates the calendar navigation.

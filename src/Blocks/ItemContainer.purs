@@ -17,94 +17,90 @@ import Select as Select
 import Select.Setters as Setters
 
 menuClasses :: Array HH.ClassName
-menuClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "text-black-20"
-  , "border"
-  , "rounded"
-  , "shadow"
-  , "absolute"
-  , "z-60"
-  , "min-w-50"
+menuClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "text-black-20"
+  , HH.ClassName "border"
+  , HH.ClassName "rounded"
+  , HH.ClassName "shadow"
+  , HH.ClassName "absolute"
+  , HH.ClassName "z-60"
+  , HH.ClassName "min-w-50"
   ]
 
 dropdownClasses :: Array HH.ClassName
 dropdownClasses = menuClasses <>
-  ( HH.ClassName <$>
-    [ "absolute"
-    , "top-full"
-    , "left-0"
-    , "max-h-160"
-    , "overflow-y-auto"
+
+    [ HH.ClassName "absolute"
+    , HH.ClassName "top-full"
+    , HH.ClassName "left-0"
+    , HH.ClassName "max-h-160"
+    , HH.ClassName "overflow-y-auto"
     ]
-  )
 
 droprightClasses :: Array HH.ClassName
 droprightClasses = menuClasses <>
-  ( HH.ClassName <$>
-    [ "absolute"
-    , "top-0"
-    , "left-full"
+
+    [ HH.ClassName "absolute"
+    , HH.ClassName "top-0"
+    , HH.ClassName "left-full"
     ]
-  )
 
 baseClasses :: Array HH.ClassName
-baseClasses = HH.ClassName <$>
-  [ "bg-white"
-  , "border-grey-80"
-  , "border-l-2"
-  , "border-r-2"
-  , "w-full"
+baseClasses =
+  [ HH.ClassName "bg-white"
+  , HH.ClassName "border-grey-80"
+  , HH.ClassName "border-l-2"
+  , HH.ClassName "border-r-2"
+  , HH.ClassName "w-full"
   ]
 
 selectionContainerClasses :: Array HH.ClassName
 selectionContainerClasses = baseClasses <>
-  ( HH.ClassName <$>
-    [ "border-t-2"
+
+    [ HH.ClassName "border-t-2"
     ]
-  )
 
 itemContainerClasses :: Array HH.ClassName
 itemContainerClasses = baseClasses <>
-  ( HH.ClassName <$>
-    [ "absolute"
-    , "shadow"
-    , "max-h-120"
-    , "overflow-y-auto"
-    , "z-50"
-    , "border-b-2"
-    , "top-full"
-    , "left-0"
+
+    [ HH.ClassName "absolute"
+    , HH.ClassName "shadow"
+    , HH.ClassName "max-h-120"
+    , HH.ClassName "overflow-y-auto"
+    , HH.ClassName "z-50"
+    , HH.ClassName "border-b-2"
+    , HH.ClassName "top-full"
+    , HH.ClassName "left-0"
     ]
-  )
 
 ulClasses :: Array HH.ClassName
-ulClasses = HH.ClassName <$> []
+ulClasses =  []
 
 liClasses :: Array HH.ClassName
-liClasses = HH.ClassName <$>
-  [ "px-4"
-  , "py-2"
-  , "rounded-sm"
-  , "text-black-20"
-  , "group"
-  , "hover:bg-grey-97"
-  , "cursor-pointer"
+liClasses =
+  [ HH.ClassName "px-4"
+  , HH.ClassName "py-2"
+  , HH.ClassName "rounded-sm"
+  , HH.ClassName "text-black-20"
+  , HH.ClassName "group"
+  , HH.ClassName "hover:bg-grey-97"
+  , HH.ClassName "cursor-pointer"
   ]
 
 selectionGroupClasses :: Array HH.ClassName
-selectionGroupClasses = HH.ClassName <$>
-  [ "flex"
-  , "items-start"
-  , "justify-between"
+selectionGroupClasses =
+  [ HH.ClassName "flex"
+  , HH.ClassName "items-start"
+  , HH.ClassName "justify-between"
   ]
 
 buttonClasses :: Array HH.ClassName
-buttonClasses = HH.ClassName <$>
-  [ "invisible"
-  , "text-grey-80"
-  , "hover:text-grey-70"
-  , "group-hover:visible"
+buttonClasses =
+  [ HH.ClassName "invisible"
+  , HH.ClassName "text-grey-80"
+  , HH.ClassName "hover:text-grey-70"
+  , HH.ClassName "group-hover:visible"
   ]
 
 dropdownButton
@@ -168,7 +164,10 @@ dropdownItem elem props html selected highlighted =
 
     checkmarkClass :: Array HH.ClassName
     checkmarkClass =
-      (HH.ClassName <$> [ "mr-2", "text-green" ])
+      ( [ HH.ClassName "mr-2"
+        , HH.ClassName "text-green"
+        ]
+      )
       <> if selected then [] else [ HH.ClassName "invisible" ]
 
 -- Provided an array of items and any additional HTML, renders the container
@@ -185,7 +184,7 @@ itemContainer highlightIndex itemsHTML addlHTML =
     ( renderItems <> addlHTML )
   where
     hover :: Int -> Array HH.ClassName
-    hover i = if highlightIndex == Just i then HH.ClassName <$> [ "bg-grey-lighter" ] else mempty
+    hover i = if highlightIndex == Just i then  [ HH.ClassName "bg-grey-lighter" ] else mempty
 
     renderItems :: Array (HH.HTML p (Select.Action action))
     renderItems =
