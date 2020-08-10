@@ -1,5 +1,5 @@
-{ name = "ocelot-ui-guide"
+{ name = "ocelot-app"
 , dependencies = (../spago.dhall).dependencies
 , packages = (../spago.dhall).packages
-, sources = (../spago.dhall).sources # ["ui-guide/**/*.purs"]
+, sources = (../spago.dhall).sources # ["app/**/*.purs"]
 }

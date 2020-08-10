@@ -17,8 +17,7 @@ yarn.lock
 
 # Allow the CSS file only; Circle CI will overwrite whatever you
 # put so feel free to handle merge conflicts however you want.
-dist/*.css
-dist/*.js
+dist/*
 
 # IDE
 *.log

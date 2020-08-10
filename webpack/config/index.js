@@ -4,19 +4,18 @@ import * as webpack from 'webpack'
 
 import root from '../lib/root'
 
-console.log(path.resolve(root, 'dist'))
-export default async function ({
+export default async function({
   watch,
   production,
-  serverPort,
 }) {
   return {
     watch: watch,
-
     target: 'web',
+    node: false,
 
-    mode: production ? 'production' : 'development',
-    // mode: 'development',
+    // mode: production ? 'production' : 'development',
+    // mode: 'production',
+    mode: 'development',
 
     output: {
       path: path.resolve(root, 'dist'),
@@ -24,7 +23,7 @@ export default async function ({
       publicPath: '/',
     },
 
-    entry: { main: path.resolve(root, "app", "indexs") },
+    entry: { main: path.resolve(root, "app", "index.js") },
 
     bail: true,
     profile: false,
@@ -50,11 +49,20 @@ export default async function ({
 
       new webpack.NoEmitOnErrorsPlugin(),
 
+      // new webpack.ProvidePlugin({
+      //   'module.require': false,
+      // }),
+
       new (require('clean-webpack-plugin').CleanWebpackPlugin)(),
 
       new (require('html-webpack-plugin'))({
         minify: false,
-      })
+      }),
     ],
+
+    optimization: {
+      nodeEnv: false,
+      noEmitOnErrors: true,
+    }
   }
 }

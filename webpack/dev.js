@@ -9,7 +9,7 @@ require('webpack-spago-loader/watcher-job')({
   onStart: () => {},
   onError: () => {},
   onSuccess: async () => {
-    const config = createConfig({ production: false })
+    const config = await createConfig({ production: false })
 
     const compiler = webpack(config)
 
@@ -19,6 +19,7 @@ require('webpack-spago-loader/watcher-job')({
       const error = webpackGetError(err, stats)
 
       if (error) {
+        console.log(stats)
         console.error(error)
         return
       }
