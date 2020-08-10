@@ -8,29 +8,27 @@ import Halogen.HTML as HH
 import Ocelot.Block.Builder (blockBuilder)
 
 baseClasses :: Array HH.ClassName
-baseClasses = HH.ClassName <$>
-  [ "rounded-full"
-  , "relative"
-  , "before:no-content"
-  , "before:w-full"
-  , "before:h-full"
-  , "before:absolute"
-  , "before:top-0"
-  , "before:left-0"
-  , "flex"
-  , "justify-center"
-  , "items-center"
-  , "bg-blue-88"
-  , "text-white"
+baseClasses =
+  [ HH.ClassName "rounded-full"
+  , HH.ClassName "relative"
+  , HH.ClassName "before:no-content"
+  , HH.ClassName "before:w-full"
+  , HH.ClassName "before:h-full"
+  , HH.ClassName "before:absolute"
+  , HH.ClassName "before:top-0"
+  , HH.ClassName "before:left-0"
+  , HH.ClassName "flex"
+  , HH.ClassName "justify-center"
+  , HH.ClassName "items-center"
+  , HH.ClassName "bg-blue-88"
+  , HH.ClassName "text-white"
   ]
 
 badgeClasses :: Array HH.ClassName
 badgeClasses = baseClasses <>
-  ( HH.ClassName <$>
-    [ "w-8"
-    , "h-8"
-    ]
-  )
+  [ HH.ClassName "w-8"
+  , HH.ClassName "h-8"
+  ]
 
 badge
   :: ∀ p i
@@ -47,12 +45,10 @@ badge_ = badge []
 
 badgeSmallClasses :: Array HH.ClassName
 badgeSmallClasses = baseClasses <>
-  ( HH.ClassName <$>
-    [ "w-6"
-    , "h-6"
-    , "text-sm"
-    ]
-  )
+  [ HH.ClassName "w-6"
+  , HH.ClassName "h-6"
+  , HH.ClassName "text-sm"
+  ]
 
 badgeSmall
   :: ∀ p i
@@ -69,11 +65,9 @@ badgeSmall_ = badgeSmall []
 
 badgeLargeClasses :: Array HH.ClassName
 badgeLargeClasses = baseClasses <>
-  ( HH.ClassName <$>
-    [ "w-12"
-    , "h-12"
-    ]
-  )
+  [ HH.ClassName "w-12"
+  , HH.ClassName "h-12"
+  ]
 
 badgeLarge
   :: ∀ p i
