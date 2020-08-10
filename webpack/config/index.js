@@ -4,6 +4,7 @@ import * as webpack from 'webpack'
 
 import root from '../lib/root'
 
+console.log(path.resolve(root, 'dist'))
 export default async function ({
   watch,
   production,
@@ -18,7 +19,7 @@ export default async function ({
     // mode: 'development',
 
     output: {
-      path: path.resolve(root, '.dist'),
+      path: path.resolve(root, 'dist'),
       filename: 'index.js',
       publicPath: '/',
     },
