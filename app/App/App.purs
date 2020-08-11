@@ -14,6 +14,7 @@ module UIGuide.App
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Const (Const)
 import Data.Functor (mapFlipped)
 import Data.Map as M
@@ -160,7 +161,7 @@ app =
       [ HP.class_ $ HH.ClassName "flex-1 p-6 overflow-y-auto" ]
       [ HH.header_
         [ Format.heading
-          [ HP.class_ $ HH.ClassName "flex" ]
+          [ HP.class_ $ TailwindClasses.flex ]
           [ HH.img
             [ HP.class_ $ HH.ClassName "mr-2"
             , HP.src "https://citizennet.com/manager/images/logo.svg"

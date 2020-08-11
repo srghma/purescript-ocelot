@@ -2,6 +2,7 @@ module Ocelot.Block.Popover where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Ocelot.Block.Hover as Hover
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH

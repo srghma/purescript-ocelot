@@ -2,6 +2,7 @@ module Ocelot.Block.FormPanel where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLbutton)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP

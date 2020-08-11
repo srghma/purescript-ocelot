@@ -2,6 +2,7 @@ module Ocelot.Block.Header where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Data.Maybe (Maybe(..))
 import Halogen.HTML as HH
@@ -22,7 +23,7 @@ innerClasses =
   [ HH.ClassName "container"
   , HH.ClassName "items-center"
   , HH.ClassName "mx-auto"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "h-24"
   ]
 

@@ -2,6 +2,7 @@ module Ocelot.Block.Toast where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Data.Array (snoc)
 import Data.Bifunctor (lmap, rmap)
@@ -23,7 +24,7 @@ visible = HP.prop (HH.PropName "visible")
 -- Necessary for centering the toast
 toastContainerClasses :: Array HH.ClassName
 toastContainerClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "transition-1/4-in"
   , HH.ClassName "transition-1/2-out"
   , HH.ClassName "items-center"
@@ -54,7 +55,7 @@ toastClasses =
   , HH.ClassName "border-grey-80"
   , HH.ClassName "bg-white"
   , HH.ClassName "rounded"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   ]
 
 toast

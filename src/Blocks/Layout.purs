@@ -2,6 +2,7 @@ module Ocelot.Block.Layout where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Ocelot.Block.Builder (blockBuilder)
@@ -94,7 +95,7 @@ gridClasses =
   [ HH.ClassName "container"
   , HH.ClassName "m-auto"
   , HH.ClassName "p-8"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   ]
 
 grid

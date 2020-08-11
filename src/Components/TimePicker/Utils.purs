@@ -2,6 +2,7 @@ module Ocelot.Components.TimePicker.Utils where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Array (length)
 import Data.Array.NonEmpty (catMaybes, head)
 import Data.DateTime (time)

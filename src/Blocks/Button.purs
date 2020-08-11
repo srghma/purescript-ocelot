@@ -6,6 +6,7 @@ import DOM.HTML.Indexed (HTMLbutton, HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
+import TailwindClasses as TailwindClasses
 
 buttonSharedClasses :: Array HH.ClassName
 buttonSharedClasses =
@@ -62,7 +63,7 @@ buttonClearClasses =
 
 buttonGroupClasses :: Array HH.ClassName
 buttonGroupClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "items-center"
   ]
 

@@ -2,6 +2,7 @@ module Ocelot.Block.Format where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLh1, HTMLh2, HTMLh3, HTMLh4, HTMLp)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -13,7 +14,7 @@ headingClasses =
   , HH.ClassName "text-3xl"
   , HH.ClassName "font-normal"
   , HH.ClassName "leading-loose"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "items-center"
   ]
 
@@ -28,7 +29,7 @@ subHeadingClasses =
   [ HH.ClassName "text-xl"
   , HH.ClassName "font-medium"
   , HH.ClassName "leading-loose"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "items-center"
   , HH.ClassName "mb-6"
   ]
@@ -45,7 +46,7 @@ contentHeadingClasses =
   , HH.ClassName "text-lg"
   , HH.ClassName "font-normal"
   , HH.ClassName "leading-loose"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "items-center"
   ]
 

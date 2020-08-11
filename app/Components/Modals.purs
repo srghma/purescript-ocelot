@@ -2,6 +2,7 @@ module UIGuide.Component.Modals where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Foldable (traverse_)
 import Data.Maybe (Maybe(..), isJust)
 import Data.Symbol (SProxy(..))

@@ -2,6 +2,7 @@ module Ocelot.Component.SearchBar where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Control.Monad.State (class MonadState)
 import Data.Maybe (Maybe(..), fromMaybe)
 import Data.String (null)
@@ -195,7 +196,7 @@ render st@{ query, open } =
     ]
    where
      containerClasses =
-       [ HH.ClassName "flex"
+       [ TailwindClasses.flex
        , HH.ClassName "no-outline"
        , HH.ClassName "items-stretch"
        , HH.ClassName "transition-1/4"

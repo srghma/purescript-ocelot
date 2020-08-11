@@ -2,6 +2,7 @@ module Ocelot.Components.TimePicker.Component where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Array ((!!))
 import Data.Array as Array
 import Data.FunctorWithIndex (mapWithIndex)

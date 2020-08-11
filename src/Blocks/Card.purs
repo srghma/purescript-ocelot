@@ -6,6 +6,7 @@ import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
+import TailwindClasses as TailwindClasses
 
 baseCardClasses :: Array HH.ClassName
 baseCardClasses =

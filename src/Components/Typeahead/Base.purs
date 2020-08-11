@@ -2,6 +2,7 @@ module Ocelot.Component.Typeahead.Base where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Control.Alternative (class Plus, empty)
 import Control.Comonad (extract)
 import Control.Comonad.Store (Store, store)

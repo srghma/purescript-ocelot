@@ -2,6 +2,7 @@ module Ocelot.Block.Loading where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Data.Either (either)
 import Halogen.HTML as HH

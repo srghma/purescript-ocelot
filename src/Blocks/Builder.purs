@@ -5,6 +5,7 @@ import Prelude
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties (IProp, (<&>))
+import TailwindClasses as TailwindClasses
 
 blockBuilder
   :: ∀ r p i

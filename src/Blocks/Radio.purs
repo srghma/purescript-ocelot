@@ -2,6 +2,7 @@ module Ocelot.Block.Radio where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLinput, HTMLlabel)
 import DOM.HTML.Indexed.InputType (InputType(InputRadio))
 import Halogen.HTML as HH
@@ -10,7 +11,7 @@ import Ocelot.HTML.Properties ((<&>))
 
 labelClasses :: Array HH.ClassName
 labelClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "flex-row"
   , HH.ClassName "inline-block"
   , HH.ClassName "py-2"

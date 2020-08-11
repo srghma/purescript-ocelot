@@ -2,6 +2,7 @@ module Ocelot.Block.Progress where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLspan, HTMLdiv)
 import Data.Ratio (Ratio, denominator, numerator)
 import Halogen.HTML as HH

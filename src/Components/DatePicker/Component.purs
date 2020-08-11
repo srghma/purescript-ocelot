@@ -2,6 +2,7 @@ module Ocelot.Components.DatePicker.Component where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Array ((!!), mapWithIndex)
 import Data.Array as Array
 import Data.Date (Date, Month, Year, canonicalDate, month, year)

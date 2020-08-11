@@ -2,6 +2,7 @@ module UIGuide.Block.Backdrop where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -11,7 +12,7 @@ import Ocelot.HTML.Properties ((<&>))
 backdropClasses :: Array HH.ClassName
 backdropClasses =
   [ HH.ClassName "p-6"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "flex-1"
   ]
 

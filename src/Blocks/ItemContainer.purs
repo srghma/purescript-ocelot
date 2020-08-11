@@ -2,6 +2,7 @@ module Ocelot.Block.ItemContainer where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLbutton, HTMLdiv)
 import Data.Array ((:))
 import Data.Either (Either(..))
@@ -90,7 +91,7 @@ liClasses =
 
 selectionGroupClasses :: Array HH.ClassName
 selectionGroupClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "items-start"
   , HH.ClassName "justify-between"
   ]
@@ -158,7 +159,7 @@ dropdownItem elem props html selected highlighted =
     itemClasses :: Array HH.ClassName
     itemClasses =
       liClasses
-      <> [ HH.ClassName "flex" ]
+      <> [ TailwindClasses.flex ]
       <> ( if highlighted then [ HH.ClassName "bg-grey-lighter" ] else [] )
       <> if selected then [ HH.ClassName "font-medium" ] else []
 

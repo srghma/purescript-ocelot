@@ -2,6 +2,7 @@ module Ocelot.Block.Icon where
 
 import Prelude hiding (add)
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLspan)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP

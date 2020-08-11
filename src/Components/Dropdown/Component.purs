@@ -2,6 +2,7 @@ module Ocelot.Components.Dropdown.Component where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Control.Comonad (extract)
 import Control.Comonad.Store (Store, store)
 import Data.Array ((!!))

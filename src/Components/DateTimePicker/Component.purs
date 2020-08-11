@@ -2,6 +2,7 @@ module Ocelot.Components.DateTimePicker.Component where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.DateTime (Date, DateTime(..), Month, Time, Year, date, time)
 import Data.Maybe (Maybe(..))
 import Data.Tuple.Nested (type (/\))

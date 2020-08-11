@@ -2,6 +2,7 @@ module Ocelot.Block.Toggle (toggle) where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLinput)
 import DOM.HTML.Indexed.InputType (InputType(InputCheckbox))
 import Halogen.HTML as HH
@@ -12,7 +13,7 @@ type ToggleProps =
 
 labelClasses :: Array HH.ClassName
 labelClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "flex-row"
   , HH.ClassName "items-center"
   , HH.ClassName "inline-block"

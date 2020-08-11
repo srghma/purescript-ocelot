@@ -2,6 +2,7 @@ module Ocelot.Block.Input where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (GlobalAttributes, HTMLinput, HTMLlabel, HTMLspan, HTMLtextarea)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -34,7 +35,7 @@ inputClasses = inputSharedClasses <>
 
 inputGroupClasses :: Array HH.ClassName
 inputGroupClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "group"
   , HH.ClassName "w-full"
   , HH.ClassName "items-center"

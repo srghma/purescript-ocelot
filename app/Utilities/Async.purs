@@ -2,6 +2,7 @@ module UIGuide.Utility.Async where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Affjax (get, printError)
 import Affjax.ResponseFormat as Response
 import Data.Argonaut (Json, JsonDecodeError, decodeJson, printJsonDecodeError, (.:))
@@ -142,7 +143,7 @@ renderFuzzyUser :: ∀ p i. Fuzzy User -> HH.HTML p i
 renderFuzzyUser f@(Fuzzy { original: u }) =
   HH.div
     [ HP.classes $
-      [ HH.ClassName "flex"
+      [ TailwindClasses.flex
       , HH.ClassName "items-center"
       ]
     ]
@@ -174,7 +175,7 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
     ]
     [ HH.span
       [ HP.classes $
-        [ HH.ClassName "flex"
+        [ TailwindClasses.flex
         , HH.ClassName "justify-around"
         , HH.ClassName "pt-1"
         ]

@@ -2,6 +2,7 @@ module Ocelot.Component.Tree where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Array as A
 import Data.Lens (class Wander, Lens', Optic', over, set)
 import Data.Lens.Index (ix) as Lens

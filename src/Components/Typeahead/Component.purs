@@ -12,6 +12,7 @@ module Ocelot.Component.Typeahead
 
 import Ocelot.Component.Typeahead.Base
 
+import TailwindClasses as TailwindClasses
 import Prelude (class Eq, (<<<), ($))
 import DOM.HTML.Indexed (HTMLinput)
 import Data.Fuzzy (Fuzzy, match)

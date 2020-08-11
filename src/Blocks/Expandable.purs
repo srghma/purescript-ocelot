@@ -2,6 +2,7 @@ module Ocelot.Block.Expandable where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv, HTMLspan, Interactive)
 import Data.Array (snoc)
 import Data.Bifunctor (lmap, rmap)
@@ -58,7 +59,7 @@ instance heytingAlgebraStatus :: HeytingAlgebra Status where
 
 headingClasses :: Array HH.ClassName
 headingClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "justify-between"
   , HH.ClassName "cursor-pointer"
   ]

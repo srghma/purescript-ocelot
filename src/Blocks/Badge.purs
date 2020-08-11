@@ -12,13 +12,7 @@ baseClasses :: Array HH.ClassName
 baseClasses =
   [ TailwindClasses.rounded_full
   , TailwindClasses.relative
-  , HH.ClassName "before:no-content"
-  , HH.ClassName "before:w-full"
-  , HH.ClassName "before:h-full"
-  , HH.ClassName "before:absolute"
-  , HH.ClassName "before:top-0"
-  , HH.ClassName "before:left-0"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "justify-center"
   , HH.ClassName "items-center"
   , HH.ClassName "bg-blue-88"

@@ -2,6 +2,7 @@ module UIGuide.Block.Documentation where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv, HTMLsection, HTMLheader)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -40,7 +41,7 @@ calloutClasses =
   [ HH.ClassName "border-dotted"
   , HH.ClassName "border"
   , HH.ClassName "rounded"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "items-stretch"
   , HH.ClassName "my-6"
   ]

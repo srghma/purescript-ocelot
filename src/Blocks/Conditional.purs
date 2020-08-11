@@ -2,6 +2,7 @@ module Ocelot.Block.Conditional where
 
 import DOM.HTML.Indexed (HTMLspan)
 import Halogen.HTML as HH
+import TailwindClasses as TailwindClasses
 
 conditional
   :: ∀ p i

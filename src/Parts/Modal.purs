@@ -5,6 +5,7 @@ module Ocelot.Part.Modal where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Data.Maybe (Maybe(..))
 import Effect.Aff.Class (class MonadAff)
@@ -118,7 +119,7 @@ bodyClasses =
   , HH.ClassName "max-h-full"
   , HH.ClassName "w-full"
   , HH.ClassName "flex-col"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "rounded-b"
   ]
 
@@ -141,7 +142,7 @@ body_ = body []
 headerClasses :: Array HH.ClassName
 headerClasses =
   [ HH.ClassName "h-24"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   ]
 
 outerHeaderClasses :: Array HH.ClassName
@@ -150,7 +151,7 @@ outerHeaderClasses =
   , HH.ClassName "w-full"
   , HH.ClassName "px-6"
   , HH.ClassName "items-center"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "rounded-t"
   ]
 
@@ -159,7 +160,7 @@ innerHeaderClasses =
   [ HH.ClassName "w-full"
   , HH.ClassName "items-center"
   , HH.ClassName "mx-auto"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   ]
 
 header

@@ -2,6 +2,7 @@ module Ocelot.Block.Range (range) where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLinput)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP

@@ -2,6 +2,7 @@ module Ocelot.Block.Pager where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Web.UIEvent.MouseEvent (MouseEvent)
 import Data.Array ((..))
 import Data.FoldableWithIndex (foldlWithIndex)

@@ -2,6 +2,7 @@ module Ocelot.Component.Typeahead.Render where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLinput)
 import Data.Array (foldr, (:))
 import Data.Array as Array

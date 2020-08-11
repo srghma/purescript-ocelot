@@ -2,6 +2,7 @@ module Ocelot.Block.Tray where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import Data.Array (foldr, snoc)
 import Data.Bifunctor (lmap, rmap)
 import Data.Tuple (Tuple(..))
@@ -31,7 +32,7 @@ trayClasses =
   , HH.ClassName "border-grey-90"
   , HH.ClassName "transition-1/4-out"
   , HH.ClassName "w-full"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "items-center"
   ]
 

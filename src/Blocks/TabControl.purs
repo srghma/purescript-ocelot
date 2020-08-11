@@ -2,6 +2,7 @@ module Ocelot.Block.TabControl where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv, HTMLa)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -33,7 +34,7 @@ innerClasses =
   [ HH.ClassName "container"
   , HH.ClassName "items-end"
   , HH.ClassName "mx-auto"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "h-16"
   ]
 

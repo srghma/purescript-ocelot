@@ -2,6 +2,7 @@ module Ocelot.Components.Dropdown.Render where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLbutton)
 import Data.Maybe (Maybe(..), maybe)
 import Halogen.HTML as HH

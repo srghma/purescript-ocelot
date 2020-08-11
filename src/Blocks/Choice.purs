@@ -2,6 +2,7 @@ module Ocelot.Block.Choice where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -36,7 +37,7 @@ choice_ =
 
 headerClasses :: Array HH.ClassName
 headerClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "h-10"
   , HH.ClassName "justify-center"
   , HH.ClassName "items-center"
@@ -61,7 +62,7 @@ header_ =
   header []
 
 bodyClasses :: Array HH.ClassName
-bodyClasses =  [ HH.ClassName "flex" ]
+bodyClasses =  [ TailwindClasses.flex ]
 
 body
   :: ∀ p i
@@ -82,7 +83,7 @@ body_ =
 optionClasses :: Array HH.ClassName
 optionClasses =
   [ HH.ClassName "bg-white"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "flex-col"
   , HH.ClassName "items-center"
   , HH.ClassName "h-30"

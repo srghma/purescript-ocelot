@@ -2,6 +2,7 @@ module Ocelot.Block.Menu where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -9,7 +10,7 @@ import Ocelot.HTML.Properties ((<&>))
 
 bodyClasses :: Array HH.ClassName
 bodyClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "flex-col"
   , HH.ClassName "w-90"
   ]
@@ -33,7 +34,7 @@ body_ =
 optionClasses :: Array HH.ClassName
 optionClasses =
   [ HH.ClassName "bg-white"
-  , HH.ClassName "flex"
+  , TailwindClasses.flex
   , HH.ClassName "items-center"
   , HH.ClassName "justify-center"
   , HH.ClassName "cursor-pointer"

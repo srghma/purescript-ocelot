@@ -2,6 +2,7 @@ module Ocelot.Block.Table where
 
 import Prelude
 
+import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLtable, HTMLtd, HTMLth, HTMLtr)
 import Halogen.HTML (HTML, IProp)
 import Halogen.HTML as HH

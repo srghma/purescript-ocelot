@@ -7,10 +7,11 @@ import DOM.HTML.Indexed.InputType (InputType(..))
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
+import TailwindClasses as TailwindClasses
 
 labelClasses :: Array HH.ClassName
 labelClasses =
-  [ HH.ClassName "flex"
+  [ TailwindClasses.flex
   , HH.ClassName "flex-row"
   , HH.ClassName "inline-block"
   , HH.ClassName "py-2"
