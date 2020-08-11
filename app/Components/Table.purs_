@@ -54,9 +54,9 @@ component =
 
         renderHeader =
           Table.row_
-            [ Table.header  [ css "w-10" ] [ HH.text "" ]
+            [ Table.header  [ HP.classes [ HH.ClassName "w-10" ] ] [ HH.text "" ]
             , Table.header_ [ HH.text "Icon" ]
-            , Table.header  [ css "w-2/3 text-left" ] [ HH.text "Description" ]
+            , Table.header  [ HP.classes [ HH.ClassName "w-2/3", HH.ClassName "text-left" ] ] [ HH.text "Description" ]
             , Table.header_ [ HH.text "" ]
             ]
 
@@ -66,9 +66,9 @@ component =
         renderData :: ∀ p i. TestData p i -> Array (HH.HTML p i)
         renderData { name, icon } =
           [ Table.cell_ [ Checkbox.checkbox_ [] [] ]
-          , Table.cell  [ css "text-2xl" ] [ icon ]
-          , Table.cell  [ css "text-left" ] [ HH.text name ]
-          , Table.cell  [ css "text-right" ] [ Button.button_ [ HH.text "Do Nothing" ] ]
+          , Table.cell  [ HP.classes [ HH.ClassName "text-2xl" ] ] [ icon ]
+          , Table.cell  [ HP.classes [ HH.ClassName "text-left" ] ] [ HH.text name ]
+          , Table.cell  [ HP.classes [ HH.ClassName "text-right" ] ] [ Button.button_ [ HH.text "Do Nothing" ] ]
           ]
 
 type TestData p i = { name :: String, icon :: HH.HTML p i }
@@ -88,33 +88,33 @@ tableData =
     , icon: Icon.share_
     }
   , { name: "This is what an error badge looks like"
-    , icon: Icon.error [ css "text-red" ]
+    , icon: Icon.error [ HP.classes [ HH.ClassName "text-red" ] ]
     }
   , { name: "This is what a tip bulb looks like"
-    , icon: Icon.tip [ css "text-yellow" ]
+    , icon: Icon.tip [ HP.classes [ HH.ClassName "text-yellow" ] ]
     }
   , { name: "This is what an info badge looks like"
-    , icon: Icon.info [ css "text-blue" ]
+    , icon: Icon.info [ HP.classes [ HH.ClassName "text-blue" ] ]
     }
   , { name: "This is what a success badge looks like"
-    , icon: Icon.success [ css "text-green" ]
+    , icon: Icon.success [ HP.classes [ HH.ClassName "text-green" ] ]
     }
   , { name: "This is what the Facebook icon looks like"
-    , icon: Icon.facebook [ css "text-fb-blue" ]
+    , icon: Icon.facebook [ HP.classes [ HH.ClassName "text-fb-blue" ] ]
     }
   , { name: "This is what the Instagram icon looks like"
-    , icon: Icon.instagram [ css "text-ig-brown" ]
+    , icon: Icon.instagram [ HP.classes [ HH.ClassName "text-ig-brown" ] ]
     }
   , { name: "This is what the Twitter icon looks like"
-    , icon: Icon.twitter [ css "text-tw-blue" ]
+    , icon: Icon.twitter [ HP.classes [ HH.ClassName "text-tw-blue" ] ]
     }
   , { name: "This is what a progress bar looks like"
-    , icon: Progress.bar (3.0 % 5.0) [ css "w-2/3 h-2" ] [ css "bg-blue h-2" ]
+    , icon: Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", HH.ClassName "h-2" ] ] [ HP.classes [ HH.ClassName "bg-blue", HH.ClassName "h-2" ] ]
     }
   , { name: "This is what a progress bar with a top caption looks like"
     , icon: HH.div_
-        [ HH.p [ css "text-sm pb-2" ] [ HH.text "60% of campaign spent" ]
-        , Progress.bar (3.0 % 5.0) [ css "w-2/3 h-2" ] [ css "bg-blue h-2" ]
+        [ HH.p [ HP.classes [ HH.ClassName "text-sm", HH.ClassName "pb-2" ] ] [ HH.text "60% of campaign spent" ]
+        , Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", HH.ClassName "h-2" ] ] [ HP.classes [ HH.ClassName "bg-blue", HH.ClassName "h-2" ] ]
         ]
     }
   ]

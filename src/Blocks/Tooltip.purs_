@@ -17,7 +17,7 @@ tooltip
   -> HH.HTML p i
 tooltip msg props html =
   HH.div
-    ([ css "group cursor-pointer inline-block" ] <&> props)
+    ([ HP.classes [ HH.ClassName "group", HH.ClassName "cursor-pointer", HH.ClassName "inline-block" ] ] <&> props)
     [ HH.div
       [ HP.classes tooltipClasses ]
       [ HH.text msg ]
@@ -42,10 +42,10 @@ tooltip' ::
   HH.HTML p i
 tooltip' msg outerProps innerProps html =
   HH.div
-    ([ css "group cursor-pointer inline-block" ] <&> outerProps)
+    ([ HP.classes [ HH.ClassName "group", HH.ClassName "cursor-pointer", HH.ClassName "inline-block" ] ] <&> outerProps)
     [ html
     , HH.div
-        ([ css "relative" ])
+        ([ HP.classes [ HH.ClassName "relative" ] ])
         [ HH.div
             ([ HP.classes tooltipClasses' ] <&> innerProps)
             [ HH.text msg ]

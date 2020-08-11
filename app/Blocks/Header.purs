@@ -1,7 +1,6 @@
 module UIGuide.Blocks.Header (header) where
 
 import Prelude
-
 import TailwindClasses as TailwindClasses
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP

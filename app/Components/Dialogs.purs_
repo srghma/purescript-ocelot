@@ -70,21 +70,21 @@ component =
           }
           [ Backdrop.backdrop_
             [ Backdrop.content
-              [ css "mt-0" ]
+              [ HP.classes [ HH.ClassName "mt-0" ] ]
               [ Card.card
-                [ css "w-1/2 m-auto" ]
+                [ HP.classes [ HH.ClassName "w-1/2", HH.ClassName "m-auto" ] ]
                 [ FormField.field
                   { helpText: [ HH.text "The function of this field is not clear." ]
                   , label: HH.div_
                     [ HH.text "Account Id"
                     , Tooltip.tooltip_
                         "This tooltip can explain more about what Account Id does"
-                        (Icon.info [ css "ml-2" ])
+                        (Icon.info [ HP.classes [ HH.ClassName "ml-2" ] ])
                     ]
                   , error: []
                   , inputId: "tooltip-input"
                   }
-                  [ css "mb-6 pt-3" ]
+                  [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "pt-3" ] ]
                   [ Input.input [] ]
                 ]
               ]
@@ -97,7 +97,7 @@ component =
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Success" ]
                 , Button.button
@@ -106,7 +106,7 @@ component =
                 , Toast.toast
                   [ Toast.visible $ state.toast == Just Success ]
                   [ Icon.success
-                    [ css "text-green text-2xl mr-2" ]
+                    [ HP.classes [ HH.ClassName "text-green", HH.ClassName "text-2xl", HH.ClassName "mr-2" ] ]
                   , HH.p_
                     [ HH.text "Campaign saved." ]
                   ]
@@ -116,7 +116,7 @@ component =
           , Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Error" ]
                 , Button.button
@@ -125,7 +125,7 @@ component =
                 , Toast.toast
                   [ Toast.visible $ state.toast == Just Error ]
                   [ Icon.error
-                    [ css "text-red text-2xl mr-2" ]
+                    [ HP.classes [ HH.ClassName "text-red", HH.ClassName "text-2xl", HH.ClassName "mr-2" ] ]
                   , HH.p_
                     [ HH.text "Fix errors before saving." ]
                   ]
@@ -135,7 +135,7 @@ component =
           , Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Info" ]
                 ]

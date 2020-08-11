@@ -1,7 +1,6 @@
 module Ocelot.Block.Format where
 
 import Prelude
-
 import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLh1, HTMLh2, HTMLh3, HTMLh4, HTMLp)
 import Halogen.HTML as HH
@@ -18,9 +17,10 @@ headingClasses =
   ]
 
 headingDarkClasses :: Array HH.ClassName
-headingDarkClasses = headingClasses <>
-  [ HH.ClassName "text-white"
-  ]
+headingDarkClasses =
+  headingClasses
+    <> [ HH.ClassName "text-white"
+      ]
 
 subHeadingClasses :: Array HH.ClassName
 subHeadingClasses =
@@ -33,9 +33,10 @@ subHeadingClasses =
   ]
 
 subHeadingDarkClasses :: Array HH.ClassName
-subHeadingDarkClasses = subHeadingClasses <>
-  [ HH.ClassName "text-white"
-  ]
+subHeadingDarkClasses =
+  subHeadingClasses
+    <> [ HH.ClassName "text-white"
+      ]
 
 contentHeadingClasses :: Array HH.ClassName
 contentHeadingClasses =
@@ -86,108 +87,108 @@ pClasses =
   [ HH.ClassName "mb-6"
   ]
 
-heading
-  :: ∀ p i
-   . Array (HH.IProp HTMLh1 i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+heading ::
+  ∀ p i.
+  Array (HH.IProp HTMLh1 i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 heading iprops =
   HH.h1
-    ( [ HP.classes headingClasses ] <> iprops )
+    ([ HP.classes headingClasses ] <> iprops)
 
-heading_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+heading_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 heading_ = heading []
 
-headingDark
-  :: ∀ p i
-   . Array (HH.IProp HTMLh1 i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+headingDark ::
+  ∀ p i.
+  Array (HH.IProp HTMLh1 i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 headingDark iprops =
   HH.h1
-    ( [ HP.classes headingDarkClasses ] <> iprops )
+    ([ HP.classes headingDarkClasses ] <> iprops)
 
-headingDark_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+headingDark_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 headingDark_ = headingDark []
 
-subHeading
-  :: ∀ p i
-   . Array (HH.IProp HTMLh2 i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+subHeading ::
+  ∀ p i.
+  Array (HH.IProp HTMLh2 i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 subHeading iprops html =
   HH.h2
-    ( [ HP.classes subHeadingClasses ] <> iprops )
+    ([ HP.classes subHeadingClasses ] <> iprops)
     html
 
-subHeading_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+subHeading_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 subHeading_ = subHeading []
 
-subHeadingDark
-  :: ∀ p i
-   . Array (HH.IProp HTMLh2 i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+subHeadingDark ::
+  ∀ p i.
+  Array (HH.IProp HTMLh2 i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 subHeadingDark iprops =
   HH.h2
-    ( [ HP.classes subHeadingDarkClasses ] <> iprops )
+    ([ HP.classes subHeadingDarkClasses ] <> iprops)
 
-subHeadingDark_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+subHeadingDark_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 subHeadingDark_ = subHeadingDark []
 
-contentHeading
-  :: ∀ p i
-   . Array (HH.IProp HTMLh3 i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+contentHeading ::
+  ∀ p i.
+  Array (HH.IProp HTMLh3 i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 contentHeading iprops =
   HH.h3
-    ( [ HP.classes contentHeadingClasses ] <> iprops )
+    ([ HP.classes contentHeadingClasses ] <> iprops)
 
-contentHeading_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+contentHeading_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 contentHeading_ = contentHeading []
 
-caption
-  :: ∀ p i
-   . Array (HH.IProp HTMLh4 i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+caption ::
+  ∀ p i.
+  Array (HH.IProp HTMLh4 i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 caption iprops =
   HH.h4
-    ( [ HP.classes captionClasses ] <> iprops )
+    ([ HP.classes captionClasses ] <> iprops)
 
-caption_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+caption_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 caption_ = caption []
 
-p
-  :: ∀ p i
-   . Array (HH.IProp HTMLp i)
-  -> Array (HH.HTML p i)
-  -> HH.HTML p i
+p ::
+  ∀ p i.
+  Array (HH.IProp HTMLp i) ->
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 p iprops =
   HH.p
-      ( [ HP.classes pClasses ] <> iprops )
+    ([ HP.classes pClasses ] <> iprops)
 
-p_
-  :: ∀ p i
-   . Array (HH.HTML p i)
-  -> HH.HTML p i
+p_ ::
+  ∀ p i.
+  Array (HH.HTML p i) ->
+  HH.HTML p i
 p_ = p []

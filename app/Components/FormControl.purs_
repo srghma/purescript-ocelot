@@ -48,13 +48,13 @@ component =
 
     render :: State -> H.ComponentHTML Action () Aff
     render state =
-      let content = Backdrop.content [ css "flex" ]
+      let content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ]
           accessibilityCallout =
             Documentation.callout_
               [ Backdrop.backdropWhite
-                [ css "flex-col" ]
+                [ HP.classes [ HH.ClassName "flex-col" ] ]
                 [ Format.subHeading_
-                  [ Icon.tip [ css "text-yellow pr-2" ]
+                  [ Icon.tip [ HP.classes [ HH.ClassName "text-yellow", HH.ClassName "pr-2" ] ]
                   , HH.text "Accessibility Note"
                   ]
                 , HH.p_
@@ -77,7 +77,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Vertical List" ]
@@ -103,7 +103,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Horizontal List" ]
@@ -114,19 +114,19 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ css "flex" ]
+                      [ HP.classes [ HH.ClassName "flex" ] ]
                       [ Checkbox.checkbox
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform"
                         , HP.checked true
                         ]
                         [ HH.text "Facebook" ]
                       , Checkbox.checkbox
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform" ]
                         [ HH.text "Instagram" ]
                       , Checkbox.checkbox
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform" ]
                         [ HH.text "Twitter" ]
                       ]
@@ -139,7 +139,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Disabled Vertical List" ]
@@ -170,7 +170,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Disabled Horizontal List" ]
@@ -181,22 +181,22 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ css "flex" ]
+                      [ HP.classes [ HH.ClassName "flex" ] ]
                       [ Checkbox.checkbox
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform-disabled"
                         , HP.checked true
                         , HP.disabled true
                         ]
                         [ HH.text "Facebook" ]
                       , Checkbox.checkbox
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform-disabled"
                         , HP.disabled true
                         ]
                         [ HH.text "Instagram" ]
                       , Checkbox.checkbox
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform-disabled"
                         , HP.disabled true
                         ]
@@ -217,7 +217,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Vertical List" ]
@@ -243,7 +243,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Horizontal List" ]
@@ -254,19 +254,19 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ css "flex" ]
+                      [ HP.classes [ HH.ClassName "flex" ] ]
                       [ Radio.radio
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview"
                         , HP.checked true
                         ]
                         [ HH.text "Desktop" ]
                       , Radio.radio
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview" ]
                         [ HH.text "Story" ]
                       , Radio.radio
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview" ]
                         [ HH.text "Mobile" ]
                       ]
@@ -279,7 +279,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Disabled Vertical List" ]
@@ -310,7 +310,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ css "flex-1" ]
+                  [ HP.classes [ HH.ClassName "flex-1" ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Horizontal List" ]
@@ -321,22 +321,22 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ css "flex" ]
+                      [ HP.classes [ HH.ClassName "flex" ] ]
                       [ Radio.radio
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview-disabled"
                         , HP.checked true
                         , HP.disabled true
                         ]
                         [ HH.text "Desktop" ]
                       , Radio.radio
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview-disabled"
                         , HP.disabled true
                         ]
                         [ HH.text "Story" ]
                       , Radio.radio
-                        [ css "pr-6" ]
+                        [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview-disabled"
                         , HP.disabled true
                         ]

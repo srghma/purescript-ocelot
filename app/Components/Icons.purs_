@@ -33,20 +33,20 @@ component =
     renderIcon :: ∀ p i. Tuple String (HH.HTML p i) -> HH.HTML p i
     renderIcon (Tuple name icon) =
       HH.div
-        [ HP.class_ $ HH.ClassName "mx-6" ]
+        [ HP.classes [ HH.ClassName "mx-6" ] ]
         [ Documentation.callout_
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.p
                 ( [ HP.classes Format.subHeadingClasses ] <&>
-                  [ HP.class_ $ HH.ClassName "min-w-9 justify-center" ]
+                  [ HP.classes [ HH.ClassName "min-w-9", HH.ClassName "justify-center" ] ]
                 )
                 [ icon ]
               ]
             ]
           ]
         , Format.caption
-          [ HP.class_ $ HH.ClassName "text-center" ]
+          [ HP.classes [ HH.ClassName "text-center" ] ]
           [ HH.text name ]
         ]
 
@@ -59,7 +59,7 @@ component =
         }
 
         [ HH.div
-          [ css "flex flex-wrap -mx-6 justify-start" ]
+          [ HP.classes [ HH.ClassName "flex", HH.ClassName "flex-wrap", HH.ClassName "-mx-6", HH.ClassName "justify-start" ] ]
           ( renderIcon <$>
             [ Tuple "Settings" Icon.settings_
             , Tuple "Share" Icon.share_
@@ -74,7 +74,7 @@ component =
             , Tuple "Delete" Icon.delete_
             , Tuple "Delete Circle" Icon.deleteCircle_
             , Tuple "Add" Icon.add_
-            , Tuple "Added" $ Icon.added [ css "text-blue-88" ]
+            , Tuple "Added" $ Icon.added [ HP.classes [ HH.ClassName "text-blue-88" ] ]
             , Tuple "Arrow Up" Icon.arrowUp_
             , Tuple "Arrow Down" Icon.arrowDown_
             , Tuple "Arrow Left" Icon.arrowLeft_
@@ -87,13 +87,13 @@ component =
             , Tuple "Carat Down" Icon.caratDown_
             , Tuple "Carat Left" Icon.caratLeft_
             , Tuple "Carat Right" Icon.caratRight_
-            , Tuple "Error" $ Icon.error [ css "text-red" ]
-            , Tuple "Tip" $ Icon.tip [ css "text-yellow" ]
-            , Tuple "Info" $ Icon.info [ css "text-blue" ]
-            , Tuple "Success" $ Icon.success [ css "text-green" ]
-            , Tuple "Facebook" $ Icon.facebook [ css "text-fb-blue" ]
-            , Tuple "Instagram" $ Icon.instagram [ css "text-ig-brown" ]
-            , Tuple "Twitter" $ Icon.twitter [ css "text-tw-blue" ]
+            , Tuple "Error" $ Icon.error [ HP.classes [ HH.ClassName "text-red" ] ]
+            , Tuple "Tip" $ Icon.tip [ HP.classes [ HH.ClassName "text-yellow" ] ]
+            , Tuple "Info" $ Icon.info [ HP.classes [ HH.ClassName "text-blue" ] ]
+            , Tuple "Success" $ Icon.success [ HP.classes [ HH.ClassName "text-green" ] ]
+            , Tuple "Facebook" $ Icon.facebook [ HP.classes [ HH.ClassName "text-fb-blue" ] ]
+            , Tuple "Instagram" $ Icon.instagram [ HP.classes [ HH.ClassName "text-ig-brown" ] ]
+            , Tuple "Twitter" $ Icon.twitter [ HP.classes [ HH.ClassName "text-tw-blue" ] ]
             , Tuple "Timeline" Icon.timeline_
             , Tuple "Navigate" Icon.navigate_
             , Tuple "Data Sources" Icon.dataSources_

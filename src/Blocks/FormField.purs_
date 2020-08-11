@@ -75,7 +75,7 @@ field config iprops html =
   field'
     config
     iprops
-    ( HH.div [ css "my-1" ] html )
+    ( HH.div [ HP.classes [ HH.ClassName "my-1" ] ] html )
 
 field_
   :: ∀ p i
@@ -94,7 +94,7 @@ fieldSmall config iprops html =
   field'
     config
     iprops
-    ( HH.div [ css "my-1 md:w-1/4" ] html )
+    ( HH.div [ HP.classes [ HH.ClassName "my-1", HH.ClassName "md:w-1/4" ] ] html )
 
 fieldSmall_
   :: ∀ p i
@@ -113,7 +113,7 @@ fieldMid config iprops html =
   field'
     config
     iprops
-    ( HH.div [ css "my-1 md:w-1/2" ] html )
+    ( HH.div [ HP.classes [ HH.ClassName "my-1", HH.ClassName "md:w-1/2" ] ] html )
 
 fieldMid_
   :: ∀ p i
@@ -137,7 +137,7 @@ fieldset config iprops html =
         [ HP.classes labelClasses ]
         [ HH.fromPlainHTML config.label ]
       , HH.div
-        [ css "my-1" ]
+        [ HP.classes [ HH.ClassName "my-1" ] ]
         html
       , error_ config.error
       , helpText_ config.helpText

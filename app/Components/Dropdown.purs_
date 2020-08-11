@@ -90,7 +90,7 @@ component =
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Standard" ]
                 , HH.slot
@@ -104,7 +104,7 @@ component =
                     ( Just <<< HandleDropdown )
                 ]
               , HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
                 , HH.slot
@@ -122,7 +122,7 @@ component =
           , Backdrop.backdropWhite_
             [ Backdrop.content_
               [ HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Primary" ]
                 , HH.slot
@@ -136,7 +136,7 @@ component =
                   ( Just <<< HandleDropdown )
                 ]
               , HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
                 , HH.slot
@@ -154,7 +154,7 @@ component =
           , Backdrop.backdropDark_
             [ Backdrop.content_
               [ HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Dark" ]
                 , HH.slot
@@ -168,7 +168,7 @@ component =
                   ( Just <<< HandleDropdown )
                 ]
               , HH.div
-                [ css "mb-6" ]
+                [ HP.classes [ HH.ClassName "mb-6" ] ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
                 , HH.slot
@@ -189,7 +189,7 @@ component =
           , subheader: "A specialized dropdown for making selections."
           }
           [ Backdrop.backdrop
-            [ css "h-40 flex items-center justify-center" ]
+            [ HP.classes [ HH.ClassName "h-40", HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "justify-center" ] ]
             [ HH.slot
                 _select
                 unit
@@ -237,7 +237,7 @@ component =
 
         renderPlatformChoice state' =
           HH.div
-            [ css "flex items-center flex-col" ]
+            [ HP.classes [ HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "flex-col" ] ]
             [ menu
             , Button.buttonPrimary
               ( SelectSetters.setToggleProps [] )
@@ -246,14 +246,14 @@ component =
             where
               visibilityClasses = case state'.visibility of
                 Select.On -> css ""
-                Select.Off -> css "hidden"
+                Select.Off -> HP.classes [ HH.ClassName "hidden" ]
 
               menu =
                 Choice.choice
                   ( SelectSetters.setContainerProps [ visibilityClasses ] )
                   [ Choice.header_
                     [ HH.span
-                      [ css "font-medium text-grey-50" ]
+                      [ HP.classes [ HH.ClassName "font-medium", HH.ClassName "text-grey-50" ] ]
                       [ HH.text "Advertise on..." ]
                     ]
                   , Choice.body_ $
@@ -276,21 +276,21 @@ component =
                 Facebook ->
                   [ HH.div_
                     [ Icon.facebook
-                      [ css "text-fb-blue text-4xl" ]
+                      [ HP.classes [ HH.ClassName "text-fb-blue", HH.ClassName "text-4xl" ] ]
                     ]
                   , HH.div_
                     [ HH.p
-                      [ css "text-black-20 font-light" ]
+                      [ HP.classes [ HH.ClassName "text-black-20", HH.ClassName "font-light" ] ]
                       [ HH.text "Facebook" ]
                     ]
                   ]
                 Twitter ->
                   [ HH.div_
                     [ Icon.twitter
-                      [ css "text-tw-blue text-4xl" ] ]
+                      [ HP.classes [ HH.ClassName "text-tw-blue", HH.ClassName "text-4xl" ] ] ]
                   , HH.div_
                     [ HH.p
-                      [ css "text-black-20 font-light" ]
+                      [ HP.classes [ HH.ClassName "text-black-20", HH.ClassName "font-light" ] ]
                       [ HH.text "Twitter" ]
                     ]
                   ]

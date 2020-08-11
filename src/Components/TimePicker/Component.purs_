@@ -247,7 +247,7 @@ renderSearch search =
 renderSelect :: forall m. S.Visibility -> Array TimeUnit -> CompositeComponentHTML m
 renderSelect visibility timeUnits =
   HH.div
-    [ css "relative" ]
+    [ HP.classes [ HH.ClassName "relative" ] ]
     $ if visibility == S.On
       then [ renderTimes ]
       else [ ]

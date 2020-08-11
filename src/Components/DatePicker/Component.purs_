@@ -364,7 +364,7 @@ renderSearch search =
 renderSelect :: forall m. Year -> Month -> S.Visibility -> Array CalendarItem -> CompositeComponentHTML m
 renderSelect y m visibility calendarItems =
   HH.div
-    [ css "relative" ]
+    [ HP.classes [ HH.ClassName "relative" ] ]
     $ if visibility == S.On
       then [ renderCalendar y m calendarItems ]
       else []
@@ -395,7 +395,7 @@ renderCalendar y m calendarItems =
 calendarNav :: forall m. Year -> Month -> CompositeComponentHTML m
 calendarNav y m =
   Format.contentHeading
-    [ css "flex" ]
+    [ HP.classes [ HH.ClassName "flex" ] ]
     [ arrowButton (ToggleMonth Prev) [ Icon.chevronLeft_ ]
     , dateHeader
     , arrowButton (ToggleMonth Next) [ Icon.chevronRight_ ]
@@ -418,23 +418,23 @@ calendarNav y m =
     arrowButton q =
       Button.buttonClear
         [ HE.onClick $ Just <<< S.Action <<< const q
-        , css "text-grey-70 p-3"
+        , HP.classes [ HH.ClassName "text-grey-70", HH.ClassName "p-3" ]
         ]
 
     -- Show the month and year
     dateHeader =
       HH.div
-        [ css "flex-1" ]
+        [ HP.classes [ HH.ClassName "flex-1" ] ]
         [ HH.text monthYear ]
 
 calendarHeader :: forall m. CompositeComponentHTML m
 calendarHeader =
   HH.div
-    [ css "flex text-grey-70" ]
+    [ HP.classes [ HH.ClassName "flex", HH.ClassName "text-grey-70" ] ]
     ( headers <#>
       \day ->
         HH.div
-          [ css "w-14 h-14 flex items-center justify-center" ]
+          [ HP.classes [ HH.ClassName "w-14", HH.ClassName "h-14", HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "$6" ] ]
           [ HH.text day ]
     )
   where
@@ -447,7 +447,7 @@ renderRows =
   where
     renderRow offset items =
       HH.div
-        [ css "flex font-light" ]
+        [ HP.classes [ HH.ClassName "flex", HH.ClassName "font-light" ] ]
         ( mapWithIndex
           (\column item -> renderItem (column + offset) item) items
         )

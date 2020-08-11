@@ -175,7 +175,7 @@ header props =
       ( [ HH.div
         [ HP.classes innerHeaderClasses ]
           [ Format.subHeading
-            [ css "mb-0" ]
+            [ HP.classes [ HH.ClassName "mb-0" ] ]
             props.title
           ]
         ]

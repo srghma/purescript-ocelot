@@ -111,7 +111,7 @@ singleTab
   -> HH.HTML p i
 singleTab activePage tab =
   HH.li
-    [ HP.class_ $ HH.ClassName "mr-12" ]
+    [ HP.classes [ HH.ClassName "mr-12" ] ]
     [ HH.a
       ( tab.props
         <> [ HP.classes $ tabClasses <> conditionalTabClasses isActive ]

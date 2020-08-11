@@ -177,7 +177,7 @@ render st@{ query, open } =
       [ HP.classes $ iconClasses <> iconCondClasses ]
       [ Icon.search_ ]
     , HH.div
-      [ css "flex-grow" ]
+      [ HP.classes [ HH.ClassName "flex-grow" ] ]
       [ HH.input
         [ HE.onValueInput (Just <<< Search)
         , HP.placeholder "Search"

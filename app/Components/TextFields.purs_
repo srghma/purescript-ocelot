@@ -60,7 +60,7 @@ component =
 
 cnDocumentationBlocks :: ∀ m. MonadAff m => H.ComponentHTML Action ChildSlot m
 cnDocumentationBlocks =
-  let content = Backdrop.content [ css "flex" ] in
+  let content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ] in
   HH.div_
   [ Documentation.block_
     { header: "Text Fields"
@@ -69,7 +69,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -105,7 +105,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -146,7 +146,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -178,7 +178,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -219,7 +219,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -250,7 +250,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -291,7 +291,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -304,7 +304,7 @@ cnDocumentationBlocks =
             [ Input.inputGroup_
               [ Input.inputCenter
                 [ HP.id_ "search"
-                , HP.class_ $ HH.ClassName "focus:next:text-blue-88"
+                , HP.classes [ HH.ClassName "focus:next:text-blue-88" ]
                 ]
               , Input.addonLeft_ [ Icon.search_ ]
               , Input.borderRight
@@ -316,7 +316,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Loading" ]
@@ -328,11 +328,11 @@ cnDocumentationBlocks =
             }
             [ Input.inputGroup_
               [ Input.inputCenter
-                [ HP.class_ $ HH.ClassName "focus:next:text-blue-88"
+                [ HP.classes [ HH.ClassName "focus:next:text-blue-88" ]
                 , HP.id_ "search-loading"
                 , HP.value "Something"
                 ]
-              , Input.addonCenter_ [ Loading.spinner [ HP.class_ $ HH.ClassName "w-6 text-blue-88" ] ]
+              , Input.addonCenter_ [ Loading.spinner [ HP.classes [ HH.ClassName "w-6", HH.ClassName "text-blue-88" ] ] ]
               , Input.addonLeft_ [ Icon.search_ ]
               , Input.borderRight
                 [ HP.classes Format.linkClasses ]
@@ -350,7 +350,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -383,7 +383,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.class_ $ HH.ClassName "flex-1" ]
+          [ HP.classes [ HH.ClassName "flex-1" ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -424,7 +424,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ Backdrop.content_
         [ HH.div
-          [ css "w-1/3 pb-6" ]
+          [ HP.classes [ HH.ClassName "w-1/3", HH.ClassName "pb-6" ] ]
           [ HH.slot _search unit SearchBar.component
             { debounceTime: Just (Milliseconds 250.0) }
             ( Just <<< HandleSearch )
@@ -439,9 +439,9 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ Backdrop.content_
         [ HH.div
-          [ css "flex items-center pb-6" ]
+          [ HP.classes [ HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "pb-6" ] ]
           [ HH.div
-            [ css "mr-8" ]
+            [ HP.classes [ HH.ClassName "mr-8" ] ]
             [ HH.slot _search unit SearchBar.component
               { debounceTime: Just (Milliseconds 250.0) }
               ( Just <<< HandleSearch )

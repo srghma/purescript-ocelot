@@ -31,7 +31,7 @@ defDropdown
   -> String
   -> CompositeComponentRender item m
 defDropdown button props toString label st =
-  HH.div [ css "relative" ] [ toggle, menu ]
+  HH.div [ HP.classes [ HH.ClassName "relative" ] ] [ toggle, menu ]
 
   where
     toggle =

@@ -112,8 +112,8 @@ dropdownButton
   -> HH.HTML p i
 dropdownButton button iprops html =
   button
-    ( [ css "font-medium flex items-center" ] <&> iprops )
-    $ html <> [ Icon.caratDown [ css "ml-3 text-xs" ] ]
+    ( [ HP.classes [ HH.ClassName "font-medium", HH.ClassName "flex", HH.ClassName "items-center" ] ] <&> iprops )
+    $ html <> [ Icon.caratDown [ HP.classes [ HH.ClassName "ml-3", HH.ClassName "text-xs" ] ] ]
 
 dropdownContainer
   :: ∀ p action item
@@ -246,4 +246,4 @@ boldMatches :: ∀ item i p. String -> Fuzzy item -> Array (HH.HTML i p)
 boldMatches key (Fuzzy { segments }) = boldMatch <$> (fromMaybe [ Left key ] $ lookup key segments)
   where
     boldMatch (Left str) = HH.text str
-    boldMatch (Right str) = HH.span [ HP.class_ $ HH.ClassName "font-bold" ] [ HH.text str ]
+    boldMatch (Right str) = HH.span [ HP.classes [ HH.ClassName "font-bold" ] ] [ HH.text str ]

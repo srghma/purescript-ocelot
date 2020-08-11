@@ -63,7 +63,7 @@ component =
 -- HTML
 
 content :: forall t1 t2. Array (HH.HTML t2 t1) -> HH.HTML t2 t1
-content = Backdrop.content [ css "flex" ]
+content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ]
 
 cnDocumentationBlocks :: ∀ m
   . MonadAff m
@@ -77,7 +77,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ Card.card
-            [ css "flex-1" ]
+            [ HP.classes [ HH.ClassName "flex-1" ] ]
             [ Format.caption_ [ HH.text "Standard" ]
             , FormField.fieldMid_
               { label: HH.text "Start"
@@ -110,7 +110,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ css "flex-1" ]
+            [ HP.classes [ HH.ClassName "flex-1" ] ]
             [ Format.caption_ [ HH.text "Hydrated" ]
             , FormField.fieldMid_
               { label: HH.text "End"
@@ -150,7 +150,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ Card.card
-            [ css "flex-1" ]
+            [ HP.classes [ HH.ClassName "flex-1" ] ]
             [ Format.caption_ [ HH.text "Standard" ]
             , FormField.fieldMid_
               { label: HH.text "Start"
@@ -181,7 +181,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ css "flex-1" ]
+            [ HP.classes [ HH.ClassName "flex-1" ] ]
             [ Format.caption_ [ HH.text "Hydrated" ]
             , FormField.fieldMid_
               { label: HH.text "End"
@@ -219,7 +219,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ Card.card
-            [ css "flex-1" ]
+            [ HP.classes [ HH.ClassName "flex-1" ] ]
             [ Format.caption_ [ HH.text "Standard" ]
             , FormField.field_
               { label: HH.text "Start"
@@ -252,7 +252,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ css "flex-1" ]
+            [ HP.classes [ HH.ClassName "flex-1" ] ]
             [ Format.caption_ [ HH.text "Hydrated" ]
             , FormField.field_
               { label: HH.text "End"
