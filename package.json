@@ -5,6 +5,7 @@
   "scripts": {
     "clean": "rm -rfd output .spago node_modules dist/*.css dist/*.js",
     "build": "babel-node --presets '@babel/preset-env' ./webpack/build.js",
+    "dev": "babel-node --presets '@babel/preset-env' ./webpack/dev.js",
     "build:css": "tailwindcss build ./css/index.css -o ./dist/cn-tailwind.css"
   },
   "devDependencies": {
@@ -28,6 +29,7 @@
     "purescript-psa": "^0.7.3",
     "purs-loader": "^3.7.1",
     "raw-loader": "^4.0.1",
+    "serve-handler": "^6.1.3",
     "style-loader": "^1.2.1",
     "tailwindcss": "^1.6.2",
     "webpack": "^4.44.1",
