@@ -8,6 +8,7 @@ import Ocelot.Block.Badge as Badge
 import Ocelot.Block.Format as Format
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
+import TailwindClasses as TailwindClasses
 
 type State
   = Unit
@@ -44,7 +45,7 @@ component =
           [ Backdrop.backdrop_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "flex", HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
                       [ Format.p_
                           [ Badge.badgeSmall_ [ HH.text "1" ]
                           ]
@@ -60,7 +61,7 @@ component =
           , Backdrop.backdrop_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "flex", HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
                       [ row
                           [ HH.text "Leading text"
                           , Badge.badgeSmall
@@ -85,7 +86,7 @@ component =
           , Backdrop.backdropDark_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "flex", HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
                       [ Format.p_
                           [ Badge.badgeSmall_ [ HH.text "1" ]
                           ]
@@ -101,7 +102,7 @@ component =
           , Backdrop.backdropDark_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "flex", HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
                       [ row
                           [ HH.text "Leading text"
                           , Badge.badgeSmall
@@ -127,4 +128,4 @@ component =
       ]
 
   row :: ∀ p i. Array (HH.HTML p i) -> HH.HTML p i
-  row = Format.p [ HP.classes [ HH.ClassName "flex", HH.ClassName "items-center" ] ]
+  row = Format.p [ HP.classes [ TailwindClasses.flex, HH.ClassName "items-center" ] ]

@@ -11,12 +11,12 @@ import Ocelot.HTML.Properties ((<&>))
 choiceClasses :: Array HH.ClassName
 choiceClasses =
   [ TailwindClasses.absolute
-  , HH.ClassName "bg-white"
-  , HH.ClassName "rounded-lg"
+  , TailwindClasses.bg_white
+  , TailwindClasses.rounded_lg
   , TailwindClasses.border
   , HH.ClassName "border-grey-90"
   , TailwindClasses.shadow
-  , HH.ClassName "overflow-hidden"
+  , TailwindClasses.overflow_hidden
   ]
 
 choice
@@ -38,10 +38,10 @@ choice_ =
 headerClasses :: Array HH.ClassName
 headerClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "h-10"
-  , HH.ClassName "justify-center"
-  , HH.ClassName "items-center"
-  , HH.ClassName "border-b"
+  , TailwindClasses.h_10
+  , TailwindClasses.justify_center
+  , TailwindClasses.items_center
+  , TailwindClasses.border_b
   , HH.ClassName "border-grey-90"
   ]
 
@@ -82,14 +82,14 @@ body_ =
 
 optionClasses :: Array HH.ClassName
 optionClasses =
-  [ HH.ClassName "bg-white"
+  [ TailwindClasses.bg_white
   , TailwindClasses.flex
-  , HH.ClassName "flex-col"
-  , HH.ClassName "items-center"
-  , HH.ClassName "h-30"
-  , HH.ClassName "justify-center"
-  , HH.ClassName "w-40"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.flex_col
+  , TailwindClasses.items_center
+  , TailwindClasses.h_30
+  , TailwindClasses.justify_center
+  , TailwindClasses.w_40
+  , TailwindClasses.cursor_pointer
   ]
 
 option

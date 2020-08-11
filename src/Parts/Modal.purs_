@@ -93,34 +93,34 @@ type HeaderProps p i =
 backgroundClasses :: Array HH.ClassName
 backgroundClasses =
   [ TailwindClasses.fixed
-  , HH.ClassName "inset-0"
+  , TailwindClasses.inset_0
   , HH.ClassName "bg-black-modal-a90"
-  , HH.ClassName "fade-in"
-  , HH.ClassName "z-10"
+  , TailwindClasses.fade_in
+  , TailwindClasses.z_10
   ]
 
 modalClasses :: Array HH.ClassName
 modalClasses =
   [ TailwindClasses.fixed
   , HH.ClassName "inset-x-0"
-  , HH.ClassName "top-0"
-  , HH.ClassName "my-20"
-  , HH.ClassName "m-auto"
+  , TailwindClasses.top_0
+  , TailwindClasses.my_20
+  , TailwindClasses.m_auto
   , HH.ClassName "max-w-lg"
-  , HH.ClassName "slide-down"
-  , HH.ClassName "z-10"
+  , TailwindClasses.slide_down
+  , TailwindClasses.z_10
   ]
 
 bodyClasses :: Array HH.ClassName
 bodyClasses =
   [ TailwindClasses.relative
   , HH.ClassName "bg-grey-95"
-  , HH.ClassName "overflow-auto"
+  , TailwindClasses.overflow_auto
   , HH.ClassName "max-h-full"
-  , HH.ClassName "w-full"
-  , HH.ClassName "flex-col"
+  , TailwindClasses.w_full
+  , TailwindClasses.flex_col
   , TailwindClasses.flex
-  , HH.ClassName "rounded-b"
+  , TailwindClasses.rounded_b
   ]
 
 body
@@ -141,25 +141,25 @@ body_ = body []
 
 headerClasses :: Array HH.ClassName
 headerClasses =
-  [ HH.ClassName "h-24"
+  [ TailwindClasses.h_24
   , TailwindClasses.flex
   ]
 
 outerHeaderClasses :: Array HH.ClassName
 outerHeaderClasses =
-  [ HH.ClassName "bg-white"
-  , HH.ClassName "w-full"
-  , HH.ClassName "px-6"
-  , HH.ClassName "items-center"
+  [ TailwindClasses.bg_white
+  , TailwindClasses.w_full
+  , TailwindClasses.px_6
+  , TailwindClasses.items_center
   , TailwindClasses.flex
-  , HH.ClassName "rounded-t"
+  , TailwindClasses.rounded_t
   ]
 
 innerHeaderClasses :: Array HH.ClassName
 innerHeaderClasses =
-  [ HH.ClassName "w-full"
-  , HH.ClassName "items-center"
-  , HH.ClassName "mx-auto"
+  [ TailwindClasses.w_full
+  , TailwindClasses.items_center
+  , TailwindClasses.mx_auto
   , TailwindClasses.flex
   ]
 
@@ -175,7 +175,7 @@ header props =
       ( [ HH.div
         [ HP.classes innerHeaderClasses ]
           [ Format.subHeading
-            [ HP.classes [ HH.ClassName "mb-0" ] ]
+            [ HP.classes [ TailwindClasses.mb_0 ] ]
             props.title
           ]
         ]

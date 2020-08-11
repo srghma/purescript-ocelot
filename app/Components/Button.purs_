@@ -42,7 +42,7 @@ component =
         [ Backdrop.backdrop_
           [ Backdrop.content_
             [ HH.div
-              [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "flex" ] ]
+              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
               [ HH.div
                 [ HP.classes [ HH.ClassName "flex-1" ] ]
                 [ Format.caption_
@@ -60,7 +60,7 @@ component =
                 ]
               ]
             , HH.div
-              [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "flex" ] ]
+              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
               [ HH.div
                 [ HP.classes [ HH.ClassName "flex-1" ] ]
                 [ Format.caption_
@@ -82,7 +82,7 @@ component =
         , Backdrop.backdropWhite_
           [ Backdrop.content_
             [ HH.div
-              [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "flex" ] ]
+              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
               [ HH.div
                 [ HP.classes [ HH.ClassName "flex-1" ] ]
                 [ Format.caption_
@@ -100,7 +100,7 @@ component =
                 ]
               ]
             , HH.div
-              [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "flex" ] ]
+              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
               [ HH.div
                 [ HP.classes [ HH.ClassName "flex-1" ] ]
                 [ Format.caption_
@@ -122,7 +122,7 @@ component =
         , Backdrop.backdropDark_
           [ Backdrop.content_
             [ HH.div
-              [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "flex" ] ]
+              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
               [ HH.div
                 [ HP.classes [ HH.ClassName "flex-1" ] ]
                 [ Format.caption_
@@ -140,7 +140,7 @@ component =
                 ]
               ]
             , HH.div
-              [ HP.classes [ HH.ClassName "mb-6", HH.ClassName "flex" ] ]
+              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
               [ HH.div
                 [ HP.classes [ HH.ClassName "flex-1" ] ]
                 [ Format.caption_

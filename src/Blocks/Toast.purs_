@@ -27,16 +27,16 @@ toastContainerClasses =
   [ TailwindClasses.flex
   , HH.ClassName "transition-1/4-in"
   , HH.ClassName "transition-1/2-out"
-  , HH.ClassName "items-center"
+  , TailwindClasses.items_center
   , TailwindClasses.fixed
-  , HH.ClassName "left-0"
-  , HH.ClassName "right-0"
-  , HH.ClassName "bottom-0"
+  , TailwindClasses.left_0
+  , TailwindClasses.right_0
+  , TailwindClasses.bottom_0
   ]
 
 containerVisibleClasses :: Array HH.ClassName
 containerVisibleClasses =
-  [ HH.ClassName "mb-8"
+  [ TailwindClasses.mb_8
   ]
 
 containerClosedClasses :: Array HH.ClassName
@@ -46,14 +46,14 @@ containerClosedClasses =
 
 toastClasses :: Array HH.ClassName
 toastClasses =
-  [ HH.ClassName "shadow-md"
-  , HH.ClassName "p-4"
-  , HH.ClassName "ml-auto"
-  , HH.ClassName "mr-auto"
-  , HH.ClassName "items-center"
+  [ TailwindClasses.shadow_md
+  , TailwindClasses.p_4
+  , TailwindClasses.ml_auto
+  , TailwindClasses.mr_auto
+  , TailwindClasses.items_center
   , TailwindClasses.border
   , HH.ClassName "border-grey-80"
-  , HH.ClassName "bg-white"
+  , TailwindClasses.bg_white
   , TailwindClasses.rounded
   , TailwindClasses.flex
   ]

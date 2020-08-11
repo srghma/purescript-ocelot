@@ -126,7 +126,7 @@ component =
 -- HTML
 
 content :: ∀ p i. Array (HH.HTML p i) -> HH.HTML p i
-content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ]
+content = Backdrop.content [ HP.classes [ TailwindClasses.flex ] ]
 
 cnDocumentationBlocks :: ∀ m
   . MonadAff m
@@ -536,7 +536,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ HH.div
-            [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "bg-black", HH.ClassName "mb-6", HH.ClassName "rounded", HH.ClassName "clearfix" ] ]
+            [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "bg-black", HH.ClassName "mb-6", TailwindClasses.rounded, TailwindClasses.clearfix ] ]
             [ HH.div
               [ HP.classes [ HH.ClassName "m-6" ] ]
               [ HH.h3

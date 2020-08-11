@@ -11,8 +11,8 @@ import Ocelot.HTML.Properties ((<&>))
 bodyClasses :: Array HH.ClassName
 bodyClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "flex-col"
-  , HH.ClassName "w-90"
+  , TailwindClasses.flex_col
+  , TailwindClasses.w_90
   ]
 
 body
@@ -33,11 +33,11 @@ body_ =
 
 optionClasses :: Array HH.ClassName
 optionClasses =
-  [ HH.ClassName "bg-white"
+  [ TailwindClasses.bg_white
   , TailwindClasses.flex
-  , HH.ClassName "items-center"
-  , HH.ClassName "justify-center"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.items_center
+  , TailwindClasses.justify_center
+  , TailwindClasses.cursor_pointer
   ]
 
 option

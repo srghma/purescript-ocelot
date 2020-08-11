@@ -99,12 +99,12 @@ data SelectedStatus
 dropdownClasses :: Array HH.ClassName
 dropdownClasses =
   [ HH.ClassName "max-h-80"
-  , HH.ClassName "w-full"
+  , TailwindClasses.w_full
   , HH.ClassName "overflow-y-scroll"
-  , HH.ClassName "top-0"
-  , HH.ClassName "left-0"
-  , HH.ClassName "bg-white"
-  , HH.ClassName "text-center"
+  , TailwindClasses.top_0
+  , TailwindClasses.left_0
+  , TailwindClasses.bg_white
+  , TailwindClasses.text_center
   ]
 
 component :: forall m. MonadAff m => Component m
@@ -247,7 +247,7 @@ renderSearch search =
 renderSelect :: forall m. S.Visibility -> Array TimeUnit -> CompositeComponentHTML m
 renderSelect visibility timeUnits =
   HH.div
-    [ HP.classes [ HH.ClassName "relative" ] ]
+    [ HP.classes [ TailwindClasses.relative ] ]
     $ if visibility == S.On
       then [ renderTimes ]
       else [ ]

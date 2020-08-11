@@ -10,16 +10,16 @@ import Ocelot.HTML.Properties ((<&>))
 
 inputSharedClasses :: Array HH.ClassName
 inputSharedClasses =
-  [ HH.ClassName "bg-white"
+  [ TailwindClasses.bg_white
   , HH.ClassName "border-t-2"
   , HH.ClassName "border-b-2"
-  , HH.ClassName "font-light"
+  , TailwindClasses.font_light
   , HH.ClassName "cc-blue-88"
   , HH.ClassName "border-grey-80"
   , HH.ClassName "disabled:bg-grey-95"
   , HH.ClassName "disabled:text-grey-70"
   , HH.ClassName "focus:no-outline"
-  , HH.ClassName "py-2"
+  , TailwindClasses.py_2
   ]
 
 inputClasses :: Array HH.ClassName
@@ -27,8 +27,8 @@ inputClasses = inputSharedClasses <>
 
     [ HH.ClassName "border-l-2"
     , HH.ClassName "border-r-2"
-    , HH.ClassName "w-full"
-    , HH.ClassName "px-3"
+    , TailwindClasses.w_full
+    , TailwindClasses.px_3
     , HH.ClassName "focus:border-blue-88"
     , HH.ClassName "!focus:!disabled:hover:border-grey-70"
     ]
@@ -37,14 +37,14 @@ inputGroupClasses :: Array HH.ClassName
 inputGroupClasses =
   [ TailwindClasses.flex
   , TailwindClasses.group
-  , HH.ClassName "w-full"
-  , HH.ClassName "items-center"
+  , TailwindClasses.w_full
+  , TailwindClasses.items_center
   ]
 
 mainItemClasses :: Array HH.ClassName
 mainItemClasses = inputSharedClasses <>
 
-    [ HH.ClassName "w-full"
+    [ TailwindClasses.w_full
     , HH.ClassName "focus:border-blue-88"
     , HH.ClassName "focus:sibling:border-blue-88"
     , HH.ClassName "group-hover:!focus:!disabled:border-grey-70"
@@ -55,24 +55,24 @@ mainItemClasses = inputSharedClasses <>
 centerClasses :: Array HH.ClassName
 centerClasses = inputSharedClasses <>
 
-    [ HH.ClassName "pl-1"
-    , HH.ClassName "pr-1"
+    [ TailwindClasses.pl_1
+    , TailwindClasses.pr_1
     ]
 
 leftClasses :: Array HH.ClassName
 leftClasses = inputSharedClasses <>
 
     [ HH.ClassName "border-l-2"
-    , HH.ClassName "pl-3"
-    , HH.ClassName "pr-1"
+    , TailwindClasses.pl_3
+    , TailwindClasses.pr_1
     ]
 
 rightClasses :: Array HH.ClassName
 rightClasses = inputSharedClasses <>
 
     [ HH.ClassName "border-r-2"
-    , HH.ClassName "pr-3"
-    , HH.ClassName "pl-1"
+    , TailwindClasses.pr_3
+    , TailwindClasses.pl_1
     ]
 
 mainCenterClasses :: Array HH.ClassName
@@ -87,7 +87,7 @@ mainRightClasses = mainItemClasses <> rightClasses
 addonClasses :: Array HH.ClassName
 addonClasses = inputSharedClasses <>
 
-    [ HH.ClassName "cursor-pointer"
+    [ TailwindClasses.cursor_pointer
     , HH.ClassName "text-grey-70"
     ]
 
@@ -97,7 +97,7 @@ addonCenterClasses = addonClasses <> centerClasses
 addonLeftClassess :: Array HH.ClassName
 addonLeftClassess = addonClasses <> leftClasses <>
 
-    [ HH.ClassName "order-start"
+    [ TailwindClasses.order_start
     ]
 
 addonRightClasses :: Array HH.ClassName
@@ -109,16 +109,16 @@ borderClasses = []
 borderLeftClasses :: Array HH.ClassName
 borderLeftClasses = borderClasses <>
 
-    [ HH.ClassName "border-r"
-    , HH.ClassName "pr-3"
-    , HH.ClassName "order-start"
+    [ TailwindClasses.border_r
+    , TailwindClasses.pr_3
+    , TailwindClasses.order_start
     ]
 
 borderRightClasses :: Array HH.ClassName
 borderRightClasses = borderClasses <>
 
-    [ HH.ClassName "border-l"
-    , HH.ClassName "pl-3"
+    [ TailwindClasses.border_l
+    , TailwindClasses.pl_3
     ]
 
 textareaClasses :: Array HH.ClassName

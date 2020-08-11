@@ -36,12 +36,12 @@ popover_ =
 
 hoverClasses :: Array HH.ClassName
 hoverClasses =
-  [ HH.ClassName "p-4"
-  , HH.ClassName "my-1"
-  , HH.ClassName "bg-white"
+  [ TailwindClasses.p_4
+  , TailwindClasses.my_1
+  , TailwindClasses.bg_white
   , TailwindClasses.border
   , HH.ClassName "border-grey-80"
   , TailwindClasses.rounded
-  , HH.ClassName "shadow-md"
-  , HH.ClassName "items-center"
+  , TailwindClasses.shadow_md
+  , TailwindClasses.items_center
   ]

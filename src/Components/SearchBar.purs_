@@ -177,7 +177,7 @@ render st@{ query, open } =
       [ HP.classes $ iconClasses <> iconCondClasses ]
       [ Icon.search_ ]
     , HH.div
-      [ HP.classes [ HH.ClassName "flex-grow" ] ]
+      [ HP.classes [ TailwindClasses.flex_grow ] ]
       [ HH.input
         [ HE.onValueInput (Just <<< Search)
         , HP.placeholder "Search"
@@ -197,8 +197,8 @@ render st@{ query, open } =
    where
      containerClasses =
        [ TailwindClasses.flex
-       , HH.ClassName "no-outline"
-       , HH.ClassName "items-stretch"
+       , TailwindClasses.no_outline
+       , TailwindClasses.items_stretch
        , HH.ClassName "transition-1/4"
        , HH.ClassName "border-b-2"
        , TailwindClasses.group
@@ -210,13 +210,13 @@ render st@{ query, open } =
          , HH.ClassName "border-blue-88"
          ]
          [ HH.ClassName "max-w-12"
-         , HH.ClassName "border-transparent"
-         , HH.ClassName "cursor-pointer"
+         , TailwindClasses.border_transparent
+         , TailwindClasses.cursor_pointer
          ]
 
      iconClasses =
-       [ HH.ClassName "pr-3"
-       , HH.ClassName "text-2xl"
+       [ TailwindClasses.pr_3
+       , TailwindClasses.text_2xl
        , HH.ClassName "group-hover:text-grey-50"
        , HH.ClassName "transition-1/4"
        ]
@@ -224,44 +224,44 @@ render st@{ query, open } =
      iconCondClasses =
        ifOpen
          [ HH.ClassName "text-grey-50"
-         , HH.ClassName "mb-0"
-         , HH.ClassName "mt-0"
+         , TailwindClasses.mb_0
+         , TailwindClasses.mt_0
          ]
          [ HH.ClassName "text-grey-70"
          , HH.ClassName "-mb-1"
-         , HH.ClassName "mt-1"
+         , TailwindClasses.mt_1
          ]
 
      inputClasses =
-       [ HH.ClassName "no-outline"
-       , HH.ClassName "flex-1"
-       , HH.ClassName "bg-transparent"
-       , HH.ClassName "h-full"
+       [ TailwindClasses.no_outline
+       , TailwindClasses.flex_1
+       , TailwindClasses.bg_transparent
+       , TailwindClasses.h_full
        , HH.ClassName "transition-1/4"
        ]
 
      inputCondClasses =
        ifOpen
-         [ HH.ClassName "w-full"
+         [ TailwindClasses.w_full
          ]
-         [ HH.ClassName "w-0"
+         [ TailwindClasses.w_0
          ]
 
      buttonClasses =
-       [ HH.ClassName "no-outline"
+       [ TailwindClasses.no_outline
        , HH.ClassName "text-grey-70"
        , HH.ClassName "hover:text-grey-50"
-       , HH.ClassName "text-xs"
+       , TailwindClasses.text_xs
        , HH.ClassName "transition-1/4"
-       , HH.ClassName "flex-shrink"
+       , TailwindClasses.flex_shrink
        ]
 
      buttonCondClasses =
        ifOpen
-         [ HH.ClassName "opacity-100"
+         [ TailwindClasses.opacity_100
          , TailwindClasses.visible
          ]
-         [ HH.ClassName "opacity-0"
+         [ TailwindClasses.opacity_0
          , TailwindClasses.invisible
          ]
 

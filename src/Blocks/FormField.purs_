@@ -11,31 +11,31 @@ import Ocelot.HTML.Properties (css, (<&>))
 
 fieldClasses :: Array HH.ClassName
 fieldClasses =
-  [ HH.ClassName "w-full"
-  , HH.ClassName "mb-10"
+  [ TailwindClasses.w_full
+  , TailwindClasses.mb_10
   ]
 
 helpTextClasses :: Array HH.ClassName
 helpTextClasses = Format.mutedClasses <>
 
     [ TailwindClasses.block
-    , HH.ClassName "font-light"
-    , HH.ClassName "pt-3"
+    , TailwindClasses.font_light
+    , TailwindClasses.pt_3
     ]
 
 errorTextClasses :: Array HH.ClassName
 errorTextClasses =
   [ TailwindClasses.block
-  , HH.ClassName "text-red"
-  , HH.ClassName "font-medium"
-  , HH.ClassName "pt-3"
+  , TailwindClasses.text_red
+  , TailwindClasses.font_medium
+  , TailwindClasses.pt_3
   ]
 
 labelClasses :: Array HH.ClassName
 labelClasses =
   [ TailwindClasses.block
-  , HH.ClassName "font-medium"
-  , HH.ClassName "leading-loose"
+  , TailwindClasses.font_medium
+  , TailwindClasses.leading_loose
   , HH.ClassName "text-black-20"
   ]
 
@@ -75,7 +75,7 @@ field config iprops html =
   field'
     config
     iprops
-    ( HH.div [ HP.classes [ HH.ClassName "my-1" ] ] html )
+    ( HH.div [ HP.classes [ TailwindClasses.my_1 ] ] html )
 
 field_
   :: ∀ p i
@@ -94,7 +94,7 @@ fieldSmall config iprops html =
   field'
     config
     iprops
-    ( HH.div [ HP.classes [ HH.ClassName "my-1", HH.ClassName "md:w-1/4" ] ] html )
+    ( HH.div [ HP.classes [ TailwindClasses.my_1, HH.ClassName "md:w-1/4" ] ] html )
 
 fieldSmall_
   :: ∀ p i
@@ -113,7 +113,7 @@ fieldMid config iprops html =
   field'
     config
     iprops
-    ( HH.div [ HP.classes [ HH.ClassName "my-1", HH.ClassName "md:w-1/2" ] ] html )
+    ( HH.div [ HP.classes [ TailwindClasses.my_1, HH.ClassName "md:w-1/2" ] ] html )
 
 fieldMid_
   :: ∀ p i
@@ -137,7 +137,7 @@ fieldset config iprops html =
         [ HP.classes labelClasses ]
         [ HH.fromPlainHTML config.label ]
       , HH.div
-        [ HP.classes [ HH.ClassName "my-1" ] ]
+        [ HP.classes [ TailwindClasses.my_1 ] ]
         html
       , error_ config.error
       , helpText_ config.helpText

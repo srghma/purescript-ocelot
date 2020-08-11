@@ -17,7 +17,7 @@ tooltip
   -> HH.HTML p i
 tooltip msg props html =
   HH.div
-    ([ HP.classes [ HH.ClassName "group", HH.ClassName "cursor-pointer", HH.ClassName "inline-block" ] ] <&> props)
+    ([ HP.classes [ TailwindClasses.group, TailwindClasses.cursor_pointer, TailwindClasses.inline_block ] ] <&> props)
     [ HH.div
       [ HP.classes tooltipClasses ]
       [ HH.text msg ]
@@ -42,10 +42,10 @@ tooltip' ::
   HH.HTML p i
 tooltip' msg outerProps innerProps html =
   HH.div
-    ([ HP.classes [ HH.ClassName "group", HH.ClassName "cursor-pointer", HH.ClassName "inline-block" ] ] <&> outerProps)
+    ([ HP.classes [ TailwindClasses.group, TailwindClasses.cursor_pointer, TailwindClasses.inline_block ] ] <&> outerProps)
     [ html
     , HH.div
-        ([ HP.classes [ HH.ClassName "relative" ] ])
+        ([ HP.classes [ TailwindClasses.relative ] ])
         [ HH.div
             ([ HP.classes tooltipClasses' ] <&> innerProps)
             [ HH.text msg ]
@@ -63,9 +63,9 @@ classesArr =
   [ TailwindClasses.absolute
   , TailwindClasses.invisible
   , HH.ClassName "group-hover:visible"
-  , HH.ClassName "text-white"
+  , TailwindClasses.text_white
   , HH.ClassName "bg-grey-50"
-  , HH.ClassName "px-2"
+  , TailwindClasses.px_2
   , TailwindClasses.rounded
-  , HH.ClassName "z-60"
+  , TailwindClasses.z_60
   ]

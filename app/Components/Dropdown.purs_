@@ -189,7 +189,7 @@ component =
           , subheader: "A specialized dropdown for making selections."
           }
           [ Backdrop.backdrop
-            [ HP.classes [ HH.ClassName "h-40", HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "justify-center" ] ]
+            [ HP.classes [ HH.ClassName "h-40", TailwindClasses.flex, HH.ClassName "items-center", HH.ClassName "justify-center" ] ]
             [ HH.slot
                 _select
                 unit
@@ -237,7 +237,7 @@ component =
 
         renderPlatformChoice state' =
           HH.div
-            [ HP.classes [ HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "flex-col" ] ]
+            [ HP.classes [ TailwindClasses.flex, HH.ClassName "items-center", HH.ClassName "flex-col" ] ]
             [ menu
             , Button.buttonPrimary
               ( SelectSetters.setToggleProps [] )
@@ -246,7 +246,7 @@ component =
             where
               visibilityClasses = case state'.visibility of
                 Select.On -> css ""
-                Select.Off -> HP.classes [ HH.ClassName "hidden" ]
+                Select.Off -> HP.classes [ TailwindClasses.hidden ]
 
               menu =
                 Choice.choice

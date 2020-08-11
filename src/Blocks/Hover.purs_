@@ -46,5 +46,5 @@ hoverClasses =
   [ TailwindClasses.absolute
   , TailwindClasses.invisible
   , HH.ClassName "group-hover:visible"
-  , HH.ClassName "z-60"
+  , TailwindClasses.z_60
   ]

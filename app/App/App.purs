@@ -121,12 +121,12 @@ app =
       [ HP.classes [ HH.ClassName "md:ml-80" ] ]
       [ HH.div
           [ HP.classes
-            [ HH.ClassName "fixed"
+            [ TailwindClasses.fixed
             , HH.ClassName "w-full"
             ]
           ]
           [ HH.div
-              [ HP.classes [ HH.ClassName "top-0", HH.ClassName "bg-white", HH.ClassName "md:hidden", HH.ClassName "relative", HH.ClassName "border-b", HH.ClassName "border-grey-light", HH.ClassName "h-12", HH.ClassName "py-8", HH.ClassName "flex", HH.ClassName "items-center" ] ]
+              [ HP.classes [ HH.ClassName "top-0", HH.ClassName "bg-white", HH.ClassName "md:hidden", TailwindClasses.relative, HH.ClassName "border-b", HH.ClassName "border-grey-light", HH.ClassName "h-12", HH.ClassName "py-8", TailwindClasses.flex, HH.ClassName "items-center" ] ]
               [ HH.a
                   [ HP.classes [ HH.ClassName "mx-auto", HH.ClassName "inline-flex", HH.ClassName "items-center" ]
                   , HP.href ""
@@ -135,7 +135,7 @@ app =
               ]
           ]
       , HH.div
-          [ HP.classes [ HH.ClassName "p-12", HH.ClassName "w-full", HH.ClassName "container", HH.ClassName "mx-auto" ] ]
+          [ HP.classes [ HH.ClassName "p-12", HH.ClassName "w-full", TailwindClasses.container, HH.ClassName "mx-auto" ] ]
           [ renderSlot state ]
       ]
 

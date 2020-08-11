@@ -85,9 +85,9 @@ initialState { selection, targetDate, disabled } =
 render :: forall m. MonadAff m => ComponentRender m
 render { date, time, targetDate, disabled } =
   HH.div
-    [ HP.classes [ HH.ClassName "flex" ] ]
+    [ HP.classes [ TailwindClasses.flex ] ]
     [ HH.div
-      [ HP.classes [ HH.ClassName "w-1/2", HH.ClassName "mr-2" ] ]
+      [ HP.classes [ HH.ClassName "w-1/2", TailwindClasses.mr_2 ] ]
       [ HH.slot _datepicker unit DatePicker.component
         { targetDate
         , selection: date
@@ -96,7 +96,7 @@ render { date, time, targetDate, disabled } =
         (Just <<< HandleDate)
       ]
     , HH.div
-      [ HP.classes [ HH.ClassName "flex-1" ] ]
+      [ HP.classes [ TailwindClasses.flex_1 ] ]
       [ HH.slot _timepicker unit TimePicker.component
         { selection: time, disabled }
         (Just <<< HandleTime)

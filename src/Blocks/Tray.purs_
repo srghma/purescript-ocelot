@@ -23,22 +23,22 @@ open = HP.prop (HH.PropName "open")
 trayClasses :: Array HH.ClassName
 trayClasses =
   [ TailwindClasses.fixed
-  , HH.ClassName "bg-white"
-  , HH.ClassName "p-6"
-  , HH.ClassName "bottom-0"
-  , HH.ClassName "left-0"
+  , TailwindClasses.bg_white
+  , TailwindClasses.p_6
+  , TailwindClasses.bottom_0
+  , TailwindClasses.left_0
   , TailwindClasses.shadow
-  , HH.ClassName "border-t"
+  , TailwindClasses.border_t
   , HH.ClassName "border-grey-90"
   , HH.ClassName "transition-1/4-out"
-  , HH.ClassName "w-full"
+  , TailwindClasses.w_full
   , TailwindClasses.flex
-  , HH.ClassName "items-center"
+  , TailwindClasses.items_center
   ]
 
 trayOpenClasses :: Array HH.ClassName
 trayOpenClasses =
-  [ HH.ClassName "bottom-0"
+  [ TailwindClasses.bottom_0
   ]
 
 trayClosedClasses :: Array HH.ClassName

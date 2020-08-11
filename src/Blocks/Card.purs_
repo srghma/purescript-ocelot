@@ -10,15 +10,15 @@ import TailwindClasses as TailwindClasses
 
 baseCardClasses :: Array HH.ClassName
 baseCardClasses =
-  [ HH.ClassName "bg-white"
-  , HH.ClassName "mb-6"
+  [ TailwindClasses.bg_white
+  , TailwindClasses.mb_6
   , TailwindClasses.rounded
   , TailwindClasses.clearfix
   ]
 
 innerCardClasses :: Array HH.ClassName
 innerCardClasses =
-  [ HH.ClassName "m-6"
+  [ TailwindClasses.m_6
   ]
 
 baseCard

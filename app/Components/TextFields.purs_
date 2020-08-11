@@ -60,7 +60,7 @@ component =
 
 cnDocumentationBlocks :: ∀ m. MonadAff m => H.ComponentHTML Action ChildSlot m
 cnDocumentationBlocks =
-  let content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ] in
+  let content = Backdrop.content [ HP.classes [ TailwindClasses.flex ] ] in
   HH.div_
   [ Documentation.block_
     { header: "Text Fields"
@@ -439,7 +439,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ Backdrop.content_
         [ HH.div
-          [ HP.classes [ HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "pb-6" ] ]
+          [ HP.classes [ TailwindClasses.flex, HH.ClassName "items-center", HH.ClassName "pb-6" ] ]
           [ HH.div
             [ HP.classes [ HH.ClassName "mr-8" ] ]
             [ HH.slot _search unit SearchBar.component

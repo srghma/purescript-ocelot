@@ -12,17 +12,17 @@ baseClasses =
   [ TailwindClasses.rounded_full
   , TailwindClasses.relative
   , TailwindClasses.flex
-  , HH.ClassName "justify-center"
-  , HH.ClassName "items-center"
+  , TailwindClasses.justify_center
+  , TailwindClasses.items_center
   , HH.ClassName "bg-blue-88"
-  , HH.ClassName "text-white"
+  , TailwindClasses.text_white
   ]
 
 badgeClasses :: Array HH.ClassName
 badgeClasses =
   baseClasses
-    <> [ HH.ClassName "w-8"
-      , HH.ClassName "h-8"
+    <> [ TailwindClasses.w_8
+      , TailwindClasses.h_8
       ]
 
 badge ::
@@ -41,9 +41,9 @@ badge_ = badge []
 badgeSmallClasses :: Array HH.ClassName
 badgeSmallClasses =
   baseClasses
-    <> [ HH.ClassName "w-6"
-      , HH.ClassName "h-6"
-      , HH.ClassName "text-sm"
+    <> [ TailwindClasses.w_6
+      , TailwindClasses.h_6
+      , TailwindClasses.text_sm
       ]
 
 badgeSmall ::
@@ -62,8 +62,8 @@ badgeSmall_ = badgeSmall []
 badgeLargeClasses :: Array HH.ClassName
 badgeLargeClasses =
   baseClasses
-    <> [ HH.ClassName "w-12"
-      , HH.ClassName "h-12"
+    <> [ TailwindClasses.w_12
+      , TailwindClasses.h_12
       ]
 
 badgeLarge ::

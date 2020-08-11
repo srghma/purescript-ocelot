@@ -11,7 +11,7 @@ popoverClasses :: Array HH.ClassName
 popoverClasses =
   [ TailwindClasses.absolute
   , TailwindClasses.shadow
-  , HH.ClassName "z-50"
+  , TailwindClasses.z_50
   , TailwindClasses.border
   , HH.ClassName "border-grey-90"
   , TailwindClasses.rounded
@@ -33,11 +33,11 @@ popover_ = popover []
 stickyClasses :: Array HH.ClassName
 stickyClasses =
   [ TailwindClasses.fixed
-  , HH.ClassName "top-0"
+  , TailwindClasses.top_0
   , HH.ClassName "inset-x-0"
-  , HH.ClassName "w-full"
-  , HH.ClassName "shadow-md"
-  , HH.ClassName "z-60"
+  , TailwindClasses.w_full
+  , TailwindClasses.shadow_md
+  , TailwindClasses.z_60
   ]
 
 sticky
@@ -56,7 +56,7 @@ sticky_ = sticky []
 containerClasses :: Array HH.ClassName
 containerClasses =
   [ TailwindClasses.container
-  , HH.ClassName "m-auto"
+  , TailwindClasses.m_auto
   ]
 
 container
@@ -74,7 +74,7 @@ container_ = container []
 
 sectionClasses :: Array HH.ClassName
 sectionClasses =
-  [ HH.ClassName "my-8"
+  [ TailwindClasses.my_8
   ]
 
 section
@@ -93,8 +93,8 @@ section_ = section []
 gridClasses :: Array HH.ClassName
 gridClasses =
   [ TailwindClasses.container
-  , HH.ClassName "m-auto"
-  , HH.ClassName "p-8"
+  , TailwindClasses.m_auto
+  , TailwindClasses.p_8
   , TailwindClasses.flex
   ]
 
@@ -113,8 +113,8 @@ grid_ = grid []
 
 columnClasses :: Array HH.ClassName
 columnClasses =
-  [ HH.ClassName "flex-1"
-  , HH.ClassName "p-8"
+  [ TailwindClasses.flex_1
+  , TailwindClasses.p_8
   ]
 
 column
@@ -132,8 +132,8 @@ column_ = column []
 
 mainClasses :: Array HH.ClassName
 mainClasses =
-  [ HH.ClassName "flex-3"
-  , HH.ClassName "p-8"
+  [ TailwindClasses.flex_3
+  , TailwindClasses.p_8
   ]
 
 main
@@ -151,8 +151,8 @@ main_ = main []
 
 sideClasses :: Array HH.ClassName
 sideClasses =
-  [ HH.ClassName "flex-2"
-  , HH.ClassName "p-8"
+  [ TailwindClasses.flex_2
+  , TailwindClasses.p_8
   ]
 
 side

@@ -18,7 +18,7 @@ icon (HH.ClassName className) iprops =
   HH.span
     [ HA.label className
     , HP.classes $
-      [ HH.ClassName "inline-block"
+      [ TailwindClasses.inline_block
       ]
     ]
     [ HH.span
@@ -26,7 +26,7 @@ icon (HH.ClassName className) iprops =
           [ HA.hidden "true"
           , HP.classes $
             [ HH.ClassName className
-            , HH.ClassName "inline-block"
+            , TailwindClasses.inline_block
             ]
           ]
         )
@@ -34,13 +34,13 @@ icon (HH.ClassName className) iprops =
     ]
 
 add :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-add = icon (HH.ClassName "icon-add")
+add = icon (TailwindClasses.icon_add)
 
 add_ :: ∀ p i. HH.HTML p i
 add_ = add []
 
 added :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-added = icon (HH.ClassName "icon-added")
+added = icon (TailwindClasses.icon_added)
 
 added_ :: ∀ p i. HH.HTML p i
 added_ = added []
@@ -70,7 +70,7 @@ arrowUp_ :: ∀ p i. HH.HTML p i
 arrowUp_ = arrowUp []
 
 back :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-back = icon (HH.ClassName "icon-back")
+back = icon (TailwindClasses.icon_back)
 
 back_ :: ∀ p i. HH.HTML p i
 back_ = back []
@@ -112,13 +112,13 @@ chevronRight_ :: ∀ p i. HH.HTML p i
 chevronRight_ = chevronRight []
 
 close :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-close = icon (HH.ClassName "icon-close")
+close = icon (TailwindClasses.icon_close)
 
 close_ :: ∀ p i. HH.HTML p i
 close_ = close []
 
 collapse :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-collapse = icon (HH.ClassName "icon-collapse")
+collapse = icon (TailwindClasses.icon_collapse)
 
 collapse_ :: ∀ p i. HH.HTML p i
 collapse_ = collapse []
@@ -130,7 +130,7 @@ dataSources_ :: ∀ p i. HH.HTML p i
 dataSources_ = dataSources []
 
 delete :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-delete = icon (HH.ClassName "icon-delete")
+delete = icon (TailwindClasses.icon_delete)
 
 delete_ :: ∀ p i. HH.HTML p i
 delete_ = delete []
@@ -142,115 +142,115 @@ deleteCircle_ :: ∀ p i. HH.HTML p i
 deleteCircle_ = deleteCircle []
 
 download :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-download = icon (HH.ClassName "icon-download")
+download = icon (TailwindClasses.icon_download)
 
 download_ :: ∀ p i. HH.HTML p i
 download_ = download []
 
 error :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-error = icon (HH.ClassName "icon-error")
+error = icon (TailwindClasses.icon_error)
 
 error_ :: ∀ p i. HH.HTML p i
 error_ = error []
 
 expand :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-expand = icon (HH.ClassName "icon-expand")
+expand = icon (TailwindClasses.icon_expand)
 
 expand_ :: ∀ p i. HH.HTML p i
 expand_ = expand []
 
 facebook :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-facebook = icon (HH.ClassName "icon-facebook")
+facebook = icon (TailwindClasses.icon_facebook)
 
 facebook_ :: ∀ p i. HH.HTML p i
 facebook_ = facebook []
 
 info :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-info = icon (HH.ClassName "icon-info")
+info = icon (TailwindClasses.icon_info)
 
 info_ :: ∀ p i. HH.HTML p i
 info_ = info []
 
 instagram :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-instagram = icon (HH.ClassName "icon-instagram")
+instagram = icon (TailwindClasses.icon_instagram)
 
 instagram_ :: ∀ p i. HH.HTML p i
 instagram_ = instagram []
 
 menu :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-menu = icon (HH.ClassName "icon-menu")
+menu = icon (TailwindClasses.icon_menu)
 
 menu_ :: ∀ p i. HH.HTML p i
 menu_ = menu []
 
 navigate :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-navigate = icon (HH.ClassName "icon-navigate")
+navigate = icon (TailwindClasses.icon_navigate)
 
 navigate_ :: ∀ p i. HH.HTML p i
 navigate_ = navigate []
 
 options :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-options = icon (HH.ClassName "icon-options")
+options = icon (TailwindClasses.icon_options)
 
 options_ :: ∀ p i. HH.HTML p i
 options_ = options []
 
 plus :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-plus = icon (HH.ClassName "icon-plus")
+plus = icon (TailwindClasses.icon_plus)
 
 plus_ :: ∀ p i. HH.HTML p i
 plus_ = plus []
 
 refresh :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-refresh = icon (HH.ClassName "icon-refresh")
+refresh = icon (TailwindClasses.icon_refresh)
 
 refresh_ :: ∀ p i. HH.HTML p i
 refresh_ = refresh []
 
 search :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-search = icon (HH.ClassName "icon-search")
+search = icon (TailwindClasses.icon_search)
 
 search_ :: ∀ p i. HH.HTML p i
 search_ = search []
 
 selected :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-selected = icon (HH.ClassName "icon-selected")
+selected = icon (TailwindClasses.icon_selected)
 
 selected_ :: ∀ p i. HH.HTML p i
 selected_ = selected []
 
 settings :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-settings = icon (HH.ClassName "icon-settings")
+settings = icon (TailwindClasses.icon_settings)
 
 settings_ :: ∀ p i. HH.HTML p i
 settings_ = settings []
 
 share :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-share = icon (HH.ClassName "icon-share")
+share = icon (TailwindClasses.icon_share)
 
 share_ :: ∀ p i. HH.HTML p i
 share_ = share []
 
 success :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-success = icon (HH.ClassName "icon-success")
+success = icon (TailwindClasses.icon_success)
 
 success_ :: ∀ p i. HH.HTML p i
 success_ = success []
 
 timeline :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-timeline = icon (HH.ClassName "icon-timeline")
+timeline = icon (TailwindClasses.icon_timeline)
 
 timeline_ :: ∀ p i. HH.HTML p i
 timeline_ = timeline []
 
 tip :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-tip = icon (HH.ClassName "icon-tip")
+tip = icon (TailwindClasses.icon_tip)
 
 tip_ :: ∀ p i. HH.HTML p i
 tip_ = tip []
 
 twitter :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-twitter = icon (HH.ClassName "icon-twitter")
+twitter = icon (TailwindClasses.icon_twitter)
 
 twitter_ :: ∀ p i. HH.HTML p i
 twitter_ = twitter []

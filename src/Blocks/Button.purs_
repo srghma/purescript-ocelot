@@ -10,9 +10,9 @@ import TailwindClasses as TailwindClasses
 
 buttonSharedClasses :: Array HH.ClassName
 buttonSharedClasses =
-  [ HH.ClassName "no-outline"
-  , HH.ClassName "px-4"
-  , HH.ClassName "py-2"
+  [ TailwindClasses.no_outline
+  , TailwindClasses.px_4
+  , TailwindClasses.py_2
   , HH.ClassName "!active:border-b"
   , HH.ClassName "active:border-t"
   , HH.ClassName "disabled:opacity-50"
@@ -40,7 +40,7 @@ buttonPrimaryClasses =
   , HH.ClassName "border-blue-88"
   , HH.ClassName "hover:!disabled:bg-blue-82"
   , HH.ClassName "focus:bg-blue-82"
-  , HH.ClassName "text-white"
+  , TailwindClasses.text_white
   ]
 
 buttonDarkClasses :: Array HH.ClassName
@@ -49,13 +49,13 @@ buttonDarkClasses =
   , HH.ClassName "border-grey-70-a30"
   , HH.ClassName "hover:!disabled:bg-grey-70-a40"
   , HH.ClassName "focus:bg-grey-70-a40"
-  , HH.ClassName "text-white"
+  , TailwindClasses.text_white
   ]
 
 buttonClearClasses :: Array HH.ClassName
 buttonClearClasses =
-  [ HH.ClassName "bg-transparent"
-  , HH.ClassName "border-transparent"
+  [ TailwindClasses.bg_transparent
+  , TailwindClasses.border_transparent
   , HH.ClassName "text-grey-70"
   , HH.ClassName "hover:text-grey-70-a30"
   , HH.ClassName "focus:text-grey-70-a30"
@@ -64,23 +64,23 @@ buttonClearClasses =
 buttonGroupClasses :: Array HH.ClassName
 buttonGroupClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "items-center"
+  , TailwindClasses.items_center
   ]
 
 centerClasses :: Array HH.ClassName
 centerClasses =
-  [ HH.ClassName "mr-px"
+  [ TailwindClasses.mr_px
   ]
 
 leftClasses :: Array HH.ClassName
 leftClasses =
-  [ HH.ClassName "mr-px"
-  , HH.ClassName "rounded-l"
+  [ TailwindClasses.mr_px
+  , TailwindClasses.rounded_l
   ]
 
 rightClasses :: Array HH.ClassName
 rightClasses =
-  [ HH.ClassName "rounded-r"
+  [ TailwindClasses.rounded_r
   ]
 
 buttonBuilder

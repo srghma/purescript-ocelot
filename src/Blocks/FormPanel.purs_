@@ -14,8 +14,8 @@ type FormPanelProps =
 
 buttonClasses :: Array HH.ClassName
 buttonClasses =
-  [ HH.ClassName "font-medium"
-  , HH.ClassName "no-outline"
+  [ TailwindClasses.font_medium
+  , TailwindClasses.no_outline
   , HH.ClassName "text-blue-82"
   ]
 
@@ -27,7 +27,7 @@ formPanel
   -> HH.HTML p i
 formPanel props iprops html =
   HH.div
-    [ HP.class_ (HH.ClassName "w-full") ]
+    [ HP.class_ (TailwindClasses.w_full) ]
     [ HH.div
         [ HP.classes contentClasses ]
         html
@@ -38,5 +38,5 @@ formPanel props iprops html =
   where
     contentClasses =
       if props.isOpen
-        then [ HH.ClassName "mb-6" ]
+        then [ TailwindClasses.mb_6 ]
         else [ TailwindClasses.hidden ]

@@ -364,7 +364,7 @@ renderSearch search =
 renderSelect :: forall m. Year -> Month -> S.Visibility -> Array CalendarItem -> CompositeComponentHTML m
 renderSelect y m visibility calendarItems =
   HH.div
-    [ HP.classes [ HH.ClassName "relative" ] ]
+    [ HP.classes [ TailwindClasses.relative ] ]
     $ if visibility == S.On
       then [ renderCalendar y m calendarItems ]
       else []
@@ -382,12 +382,12 @@ renderCalendar y m calendarItems =
   where
     dropdownClasses :: Array HH.ClassName
     dropdownClasses =
-      [ HH.ClassName "top-0"
-      , HH.ClassName "left-0"
-      , HH.ClassName "p-6"
-      , HH.ClassName "bg-white"
-      , HH.ClassName "text-center"
-      , HH.ClassName "text-lg"
+      [ TailwindClasses.top_0
+      , TailwindClasses.left_0
+      , TailwindClasses.p_6
+      , TailwindClasses.bg_white
+      , TailwindClasses.text_center
+      , TailwindClasses.text_lg
       ]
 
 -- Given a string ("Month YYYY"), creates the calendar navigation.
@@ -395,7 +395,7 @@ renderCalendar y m calendarItems =
 calendarNav :: forall m. Year -> Month -> CompositeComponentHTML m
 calendarNav y m =
   Format.contentHeading
-    [ HP.classes [ HH.ClassName "flex" ] ]
+    [ HP.classes [ TailwindClasses.flex ] ]
     [ arrowButton (ToggleMonth Prev) [ Icon.chevronLeft_ ]
     , dateHeader
     , arrowButton (ToggleMonth Next) [ Icon.chevronRight_ ]
@@ -418,23 +418,23 @@ calendarNav y m =
     arrowButton q =
       Button.buttonClear
         [ HE.onClick $ Just <<< S.Action <<< const q
-        , HP.classes [ HH.ClassName "text-grey-70", HH.ClassName "p-3" ]
+        , HP.classes [ HH.ClassName "text-grey-70", TailwindClasses.p_3 ]
         ]
 
     -- Show the month and year
     dateHeader =
       HH.div
-        [ HP.classes [ HH.ClassName "flex-1" ] ]
+        [ HP.classes [ TailwindClasses.flex_1 ] ]
         [ HH.text monthYear ]
 
 calendarHeader :: forall m. CompositeComponentHTML m
 calendarHeader =
   HH.div
-    [ HP.classes [ HH.ClassName "flex", HH.ClassName "text-grey-70" ] ]
+    [ HP.classes [ TailwindClasses.flex, HH.ClassName "text-grey-70" ] ]
     ( headers <#>
       \day ->
         HH.div
-          [ HP.classes [ HH.ClassName "w-14", HH.ClassName "h-14", HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "$6" ] ]
+          [ HP.classes [ TailwindClasses.w_14, TailwindClasses.h_14, TailwindClasses.flex, TailwindClasses.items_center, HH.ClassName "$6" ] ]
           [ HH.text day ]
     )
   where
@@ -447,7 +447,7 @@ renderRows =
   where
     renderRow offset items =
       HH.div
-        [ HP.classes [ HH.ClassName "flex", HH.ClassName "font-light" ] ]
+        [ HP.classes [ TailwindClasses.flex, TailwindClasses.font_light ] ]
         ( mapWithIndex
           (\column item -> renderItem (column + offset) item) items
         )

@@ -59,7 +59,7 @@ component =
         }
 
         [ HH.div
-          [ HP.classes [ HH.ClassName "flex", HH.ClassName "flex-wrap", HH.ClassName "-mx-6", HH.ClassName "justify-start" ] ]
+          [ HP.classes [ TailwindClasses.flex, HH.ClassName "flex-wrap", HH.ClassName "-mx-6", HH.ClassName "justify-start" ] ]
           ( renderIcon <$>
             [ Tuple "Settings" Icon.settings_
             , Tuple "Share" Icon.share_

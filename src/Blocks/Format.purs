@@ -8,54 +8,54 @@ import Halogen.HTML.Properties as HP
 
 headingClasses :: Array HH.ClassName
 headingClasses =
-  [ HH.ClassName "mb-6"
-  , HH.ClassName "text-3xl"
-  , HH.ClassName "font-normal"
-  , HH.ClassName "leading-loose"
+  [ TailwindClasses.mb_6
+  , TailwindClasses.text_3xl
+  , TailwindClasses.font_normal
+  , TailwindClasses.leading_loose
   , TailwindClasses.flex
-  , HH.ClassName "items-center"
+  , TailwindClasses.items_center
   ]
 
 headingDarkClasses :: Array HH.ClassName
 headingDarkClasses =
   headingClasses
-    <> [ HH.ClassName "text-white"
+    <> [ TailwindClasses.text_white
       ]
 
 subHeadingClasses :: Array HH.ClassName
 subHeadingClasses =
-  [ HH.ClassName "text-xl"
-  , HH.ClassName "font-medium"
-  , HH.ClassName "leading-loose"
+  [ TailwindClasses.text_xl
+  , TailwindClasses.font_medium
+  , TailwindClasses.leading_loose
   , TailwindClasses.flex
-  , HH.ClassName "items-center"
-  , HH.ClassName "mb-6"
+  , TailwindClasses.items_center
+  , TailwindClasses.mb_6
   ]
 
 subHeadingDarkClasses :: Array HH.ClassName
 subHeadingDarkClasses =
   subHeadingClasses
-    <> [ HH.ClassName "text-white"
+    <> [ TailwindClasses.text_white
       ]
 
 contentHeadingClasses :: Array HH.ClassName
 contentHeadingClasses =
-  [ HH.ClassName "mb-6"
-  , HH.ClassName "text-lg"
-  , HH.ClassName "font-normal"
-  , HH.ClassName "leading-loose"
+  [ TailwindClasses.mb_6
+  , TailwindClasses.text_lg
+  , TailwindClasses.font_normal
+  , TailwindClasses.leading_loose
   , TailwindClasses.flex
-  , HH.ClassName "items-center"
+  , TailwindClasses.items_center
   ]
 
 captionClasses :: Array HH.ClassName
 captionClasses =
   [ TailwindClasses.block
-  , HH.ClassName "font-light"
-  , HH.ClassName "mb-6"
+  , TailwindClasses.font_light
+  , TailwindClasses.mb_6
   , HH.ClassName "text-grey-70"
-  , HH.ClassName "text-sm"
-  , HH.ClassName "tracking-wide"
+  , TailwindClasses.text_sm
+  , TailwindClasses.tracking_wide
   , TailwindClasses.uppercase
   ]
 
@@ -63,18 +63,18 @@ linkClasses :: Array HH.ClassName
 linkClasses =
   [ HH.ClassName "text-blue-75"
   , HH.ClassName "hover:text-blue-65"
-  , HH.ClassName "no-underline"
-  , HH.ClassName "font-medium"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.no_underline
+  , TailwindClasses.font_medium
+  , TailwindClasses.cursor_pointer
   ]
 
 linkDarkClasses :: Array HH.ClassName
 linkDarkClasses =
   [ HH.ClassName "text-grey-light"
   , HH.ClassName "hover:text-grey-lighter"
-  , HH.ClassName "no-underline"
-  , HH.ClassName "font-medium"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.no_underline
+  , TailwindClasses.font_medium
+  , TailwindClasses.cursor_pointer
   ]
 
 mutedClasses :: Array HH.ClassName
@@ -84,7 +84,7 @@ mutedClasses =
 
 pClasses :: Array HH.ClassName
 pClasses =
-  [ HH.ClassName "mb-6"
+  [ TailwindClasses.mb_6
   ]
 
 heading ::

@@ -13,9 +13,9 @@ import Ocelot.HTML.Properties (css, (<&>))
 bar :: ∀ p i. Ratio Number -> Array (HH.IProp HTMLdiv i) -> Array (HH.IProp HTMLspan i) -> HH.HTML p i
 bar r divProps spanProps =
   HH.div
-    ( [ HP.classes [ HH.ClassName "bg-grey-light", HH.ClassName "relative" ] ] <&> divProps )
+    ( [ HP.classes [ HH.ClassName "bg-grey-light", TailwindClasses.relative ] ] <&> divProps )
     [ HH.span
-      ( [ HP.classes [ HH.ClassName "block" ], HP.attr (HH.AttrName "style") ("width: " <> value <> "%; text-indent: -9999px;") ] <&> spanProps )
+      ( [ HP.classes [ TailwindClasses.block ], HP.attr (HH.AttrName "style") ("width: " <> value <> "%; text-indent: -9999px;") ] <&> spanProps )
       [ HH.text $ "Progress: " <> value ]
     ]
   where
@@ -27,5 +27,5 @@ bar r divProps spanProps =
 
 -- Defaults
 bar_ :: ∀ p i. Ratio Number -> HH.HTML p i
-bar_ r = bar r [] [ HP.classes [ HH.ClassName "bg-blue" ] ]
+bar_ r = bar r [] [ HP.classes [ TailwindClasses.bg_blue ] ]
 

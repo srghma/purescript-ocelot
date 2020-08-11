@@ -60,20 +60,20 @@ instance heytingAlgebraStatus :: HeytingAlgebra Status where
 headingClasses :: Array HH.ClassName
 headingClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "justify-between"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.justify_between
+  , TailwindClasses.cursor_pointer
   ]
 
 headingInnerClasses :: Array HH.ClassName
 headingInnerClasses =
-  [ HH.ClassName "flex-initial"
+  [ TailwindClasses.flex_initial
   ]
 
 chevronClasses :: Array HH.ClassName
 chevronClasses =
   [ HH.ClassName "text-grey-70"
-  , HH.ClassName "text-lg"
-  , HH.ClassName "leading-loose"
+  , TailwindClasses.text_lg
+  , TailwindClasses.leading_loose
   ]
 
 contentSharedClasses :: Array HH.ClassName
@@ -85,13 +85,13 @@ contentClasses status_ = contentSharedClasses <>
   ( case status_ of
     Collapsed ->
       [ HH.ClassName "max-h-0"
-      , HH.ClassName "opacity-0"
-      , HH.ClassName "overflow-hidden"
+      , TailwindClasses.opacity_0
+      , TailwindClasses.overflow_hidden
       , HH.ClassName "transition-1/4-in"
       ]
     Expanded ->
       [ HH.ClassName "max-h-full"
-      , HH.ClassName "opacity-1"
+      , TailwindClasses.opacity_1
       , HH.ClassName "transition-1/2-out"
       ]
   )

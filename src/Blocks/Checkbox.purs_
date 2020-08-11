@@ -12,13 +12,13 @@ import TailwindClasses as TailwindClasses
 labelClasses :: Array HH.ClassName
 labelClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "flex-row"
-  , HH.ClassName "inline-block"
-  , HH.ClassName "py-2"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.flex_row
+  , TailwindClasses.inline_block
+  , TailwindClasses.py_2
+  , TailwindClasses.cursor_pointer
   , HH.ClassName "text-black-20"
-  , HH.ClassName "items-center"
-  , HH.ClassName "text-left" -- styles get messed up otherwise
+  , TailwindClasses.items_center
+  , TailwindClasses.text_left -- styles get messed up otherwise
   ]
 
 inputClasses :: Array HH.ClassName
@@ -47,14 +47,14 @@ inputClasses =
 checkboxClasses :: Array HH.ClassName
 checkboxClasses =
   [ TailwindClasses.relative
-  , HH.ClassName "content-box"
-  , HH.ClassName "border-2"
-  , HH.ClassName "border-solid"
-  , HH.ClassName "h-5"
-  , HH.ClassName "w-5"
-  , HH.ClassName "flex-none"
-  , HH.ClassName "no-content"
-  , HH.ClassName "mr-3"
+  , TailwindClasses.content_box
+  , TailwindClasses.border_2
+  , TailwindClasses.border_solid
+  , TailwindClasses.h_5
+  , TailwindClasses.w_5
+  , TailwindClasses.flex_none
+  , TailwindClasses.no_content
+  , TailwindClasses.mr_3
   , TailwindClasses.rounded
   , HH.ClassName "before:transition-1/4-bounce"
   , HH.ClassName "before:absolute"

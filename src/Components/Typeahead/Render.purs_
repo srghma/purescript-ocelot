@@ -74,7 +74,7 @@ renderSingle iprops renderItem renderContainer st =
         [ HH.text "Browse" ]
       ]
     , conditional (st.visibility == S.On)
-        [ HP.classes [ HH.ClassName "relative", HH.ClassName "block" ] ]
+        [ HP.classes [ TailwindClasses.relative, TailwindClasses.block ] ]
         [ renderContainer st ]
     , renderError $ isFailure st.items
     ]
@@ -93,11 +93,11 @@ renderMulti
   -> TA.CompositeComponentRender action Array item m
 renderMulti iprops renderItem renderContainer st =
   HH.div
-    [ HP.classes [ HH.ClassName "relative" ] ]
+    [ HP.classes [ TailwindClasses.relative ] ]
     [ if (not disabled && not Array.null st.selected)
         then
           HH.a
-            [ HP.classes [ HH.ClassName "absolute", HH.ClassName "-mt-7", HH.ClassName "right-0", HH.ClassName "underline", HH.ClassName "text-grey-70", HH.ClassName "cursor-pointer" ]
+            [ HP.classes [ TailwindClasses.absolute, HH.ClassName "-mt-7", TailwindClasses.right_0, TailwindClasses.underline, HH.ClassName "text-grey-70", TailwindClasses.cursor_pointer ]
             , HE.onClick $ const <<< Just <<< S.Action $ TA.RemoveAll
             ]
             [ HH.text "Remove All" ]
@@ -126,7 +126,7 @@ renderMulti iprops renderItem renderContainer st =
         [ HH.text "Browse" ]
       ]
     , conditional (st.visibility == S.On)
-        [ HP.classes [ HH.ClassName "relative", HH.ClassName "block" ] ]
+        [ HP.classes [ TailwindClasses.relative, TailwindClasses.block ] ]
         [ renderContainer st ]
     , renderError $ isFailure st.items
     ]
@@ -179,9 +179,9 @@ renderHeaderSearchDropdown defaultLabel resetLabel renderItem renderFuzzy st =
   renderSearchDropdown resetLabel label renderFuzzy st
   where
     label = HH.span
-      [ HP.classes [ HH.ClassName "text-white", HH.ClassName "text-3xl", HH.ClassName "font-thin", HH.ClassName "cursor-pointer", HH.ClassName "$6" ] ]
+      [ HP.classes [ TailwindClasses.text_white, TailwindClasses.text_3xl, TailwindClasses.font_thin, TailwindClasses.cursor_pointer, HH.ClassName "$6" ] ]
       [ maybe (HH.text defaultLabel) (HH.fromPlainHTML <<< renderItem) st.selected
-      , Icon.collapse [ HP.classes [ HH.ClassName "ml-3", HH.ClassName "text-xl", HH.ClassName "text-grey-50", HH.ClassName "align-middle" ] ]
+      , Icon.collapse [ HP.classes [ TailwindClasses.ml_3, TailwindClasses.text_xl, HH.ClassName "text-grey-50", TailwindClasses.align_middle ] ]
       ]
 
 renderSearchDropdown
@@ -193,7 +193,7 @@ renderSearchDropdown
   -> TA.CompositeComponentRender action Maybe item m
 renderSearchDropdown resetLabel label renderFuzzy st =
   HH.label
-    [ HP.classes [ HH.ClassName "relative" ] ]
+    [ HP.classes [ TailwindClasses.relative ] ]
     [ HH.fromPlainHTML label
     , HH.div
       [ HP.classes
@@ -215,10 +215,10 @@ renderSearchDropdown resetLabel label renderFuzzy st =
   where
     renderInput =
       HH.div
-        [ HP.classes [ HH.ClassName "m-4", HH.ClassName "border-b-2", HH.ClassName "border-blue-88", HH.ClassName "pb-2", HH.ClassName "$6" ] ]
-        [ Icon.search [ HP.classes [ HH.ClassName "mr-4", HH.ClassName "text-xl", HH.ClassName "text-grey-70" ] ]
+        [ HP.classes [ TailwindClasses.m_4, HH.ClassName "border-b-2", HH.ClassName "border-blue-88", TailwindClasses.pb_2, HH.ClassName "$6" ] ]
+        [ Icon.search [ HP.classes [ TailwindClasses.mr_4, TailwindClasses.text_xl, HH.ClassName "text-grey-70" ] ]
         , HH.input
-          $ inputProps false [ HP.classes [ HH.ClassName "no-outline", HH.ClassName "w-full" ], HP.placeholder "Search" ]
+          $ inputProps false [ HP.classes [ TailwindClasses.no_outline, TailwindClasses.w_full ], HP.placeholder "Search" ]
         ]
 
     renderReset =
@@ -237,8 +237,8 @@ linkClasses :: Boolean -> Array HH.ClassName
 linkClasses = if _
   then
     [ HH.ClassName "text-grey-70"
-    , HH.ClassName "no-underline"
-    , HH.ClassName "font-medium"
+    , TailwindClasses.no_underline
+    , TailwindClasses.font_medium
     ]
   else Format.linkClasses
 
@@ -263,12 +263,12 @@ disabledClasses =
   , HH.ClassName "sibling:text-grey-50"
   , HH.ClassName "border-t-2"
   , HH.ClassName "border-b-2"
-  , HH.ClassName "font-light"
+  , TailwindClasses.font_light
   , HH.ClassName "focus:no-outline"
-  , HH.ClassName "py-2"
+  , TailwindClasses.py_2
   , HH.ClassName "border-l-2"
-  , HH.ClassName "w-full"
-  , HH.ClassName "px-3"
+  , TailwindClasses.w_full
+  , TailwindClasses.px_3
   ]
 
 isDisabled :: ∀ i. Array (HH.IProp HTMLinput i) -> Boolean
@@ -283,13 +283,13 @@ isDisabled = foldr f false
 renderError :: ∀ p i. Boolean -> HH.HTML p i
 renderError error =
   conditional error
-    [ HP.classes [ HH.ClassName "flex", HH.ClassName "items-center", HH.ClassName "mt-1" ] ]
+    [ HP.classes [ TailwindClasses.flex, TailwindClasses.items_center, TailwindClasses.mt_1 ] ]
     [ Icon.error
-      [ HP.classes [ HH.ClassName "text-2xl", HH.ClassName "text-yellow" ] ]
+      [ HP.classes [ TailwindClasses.text_2xl, TailwindClasses.text_yellow ] ]
     , HH.p
-      [ HP.classes [ HH.ClassName "ml-3", HH.ClassName "text-grey-50", HH.ClassName "font-light" ] ]
+      [ HP.classes [ TailwindClasses.ml_3, HH.ClassName "text-grey-50", TailwindClasses.font_light ] ]
       [ HH.text "Some data could not be retrieved here." ]
     ]
 
 spinner :: ∀ p i. HH.HTML p i
-spinner = Loading.spinner [ HP.classes [ HH.ClassName "w-6", HH.ClassName "text-blue-88" ] ]
+spinner = Loading.spinner [ HP.classes [ TailwindClasses.w_6, HH.ClassName "text-blue-88" ] ]

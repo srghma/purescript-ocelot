@@ -48,7 +48,7 @@ component =
 
     render :: State -> H.ComponentHTML Action () Aff
     render state =
-      let content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ]
+      let content = Backdrop.content [ HP.classes [ TailwindClasses.flex ] ]
           accessibilityCallout =
             Documentation.callout_
               [ Backdrop.backdropWhite
@@ -114,7 +114,7 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ HP.classes [ HH.ClassName "flex" ] ]
+                      [ HP.classes [ TailwindClasses.flex ] ]
                       [ Checkbox.checkbox
                         [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform"
@@ -181,7 +181,7 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ HP.classes [ HH.ClassName "flex" ] ]
+                      [ HP.classes [ TailwindClasses.flex ] ]
                       [ Checkbox.checkbox
                         [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "platform-disabled"
@@ -254,7 +254,7 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ HP.classes [ HH.ClassName "flex" ] ]
+                      [ HP.classes [ TailwindClasses.flex ] ]
                       [ Radio.radio
                         [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview"
@@ -321,7 +321,7 @@ component =
                     , error: []
                     }
                     [ HH.div
-                      [ HP.classes [ HH.ClassName "flex" ] ]
+                      [ HP.classes [ TailwindClasses.flex ] ]
                       [ Radio.radio
                         [ HP.classes [ HH.ClassName "pr-6" ] ]
                         [ HP.name "preview-disabled"

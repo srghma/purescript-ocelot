@@ -14,17 +14,17 @@ import Ocelot.HTML.Properties (css, (<&>))
 outerClasses :: Array HH.ClassName
 outerClasses =
   [ HH.ClassName "bg-black-10"
-  , HH.ClassName "w-full"
-  , HH.ClassName "px-6"
+  , TailwindClasses.w_full
+  , TailwindClasses.px_6
   ]
 
 innerClasses :: Array HH.ClassName
 innerClasses =
   [ TailwindClasses.container
-  , HH.ClassName "items-center"
-  , HH.ClassName "mx-auto"
+  , TailwindClasses.items_center
+  , TailwindClasses.mx_auto
   , TailwindClasses.flex
-  , HH.ClassName "h-24"
+  , TailwindClasses.h_24
   ]
 
 header
@@ -58,18 +58,18 @@ stickyFormHeader
   -> HH.HTML p i
 stickyFormHeader hConfig tConfig =
   HH.div
-    [ HP.classes [ HH.ClassName "h-40" ] ]
+    [ HP.classes [ TailwindClasses.h_40 ] ]
     [ HH.div
       [ HP.classes Layout.stickyClasses ]
       [ formHeader hConfig
-      , NavigationTab.navigationTabs tConfig [ HP.classes [ HH.ClassName "px-16" ] ]
+      , NavigationTab.navigationTabs tConfig [ HP.classes [ TailwindClasses.px_16 ] ]
       ]
     ]
 
 stickyHeader_ :: ∀ p i. FormHeaderProps p i -> HH.HTML p i
 stickyHeader_ config =
   HH.div
-    [ HP.classes [ HH.ClassName "h-24" ] ]
+    [ HP.classes [ TailwindClasses.h_24 ] ]
     [ HH.div
       [ HP.classes Layout.stickyClasses ]
       [ formHeader config ]
@@ -81,18 +81,18 @@ formHeader props =
     case props.brand of
       Just src  ->
         [ HH.div
-          [ HP.classes [ HH.ClassName "w-16" ] ]
+          [ HP.classes [ TailwindClasses.w_16 ] ]
           [ HH.img [ HP.src src ] ]
         ]
       Nothing -> []
     <>
     [ HH.h2
-      [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "font-medium" ] ]
+      [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.font_medium ] ]
         [ HH.span
-            [ HP.classes [ HH.ClassName "text-lg", HH.ClassName "text-grey-70", HH.ClassName "mr-4" ] ]
+            [ HP.classes [ TailwindClasses.text_lg, HH.ClassName "text-grey-70", TailwindClasses.mr_4 ] ]
             props.name
         , HH.span
-            [ HP.classes [ HH.ClassName "text-lg", HH.ClassName "text-white" ] ]
+            [ HP.classes [ TailwindClasses.text_lg, TailwindClasses.text_white ] ]
             props.title
         ]
     ]

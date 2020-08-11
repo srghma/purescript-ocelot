@@ -26,31 +26,31 @@ type IsActive = Boolean
 outerClasses :: Array HH.ClassName
 outerClasses =
   [ HH.ClassName "bg-black-10"
-  , HH.ClassName "w-full"
+  , TailwindClasses.w_full
   ]
 
 innerClasses :: Array HH.ClassName
 innerClasses =
   [ TailwindClasses.container
-  , HH.ClassName "items-end"
-  , HH.ClassName "mx-auto"
+  , TailwindClasses.items_end
+  , TailwindClasses.mx_auto
   , TailwindClasses.flex
-  , HH.ClassName "h-16"
+  , TailwindClasses.h_16
   ]
 
 tabClasses :: Array HH.ClassName
 tabClasses =
-  [ HH.ClassName "pt-5"
-  , HH.ClassName "pb-6"
-  , HH.ClassName "inline-flex"
-  , HH.ClassName "no-underline"
+  [ TailwindClasses.pt_5
+  , TailwindClasses.pb_6
+  , TailwindClasses.inline_flex
+  , TailwindClasses.no_underline
   ]
 
 activeTabClasses :: Array HH.ClassName
 activeTabClasses =
   [ HH.ClassName "border-b-2"
   , HH.ClassName "border-blue-88"
-  , HH.ClassName "text-white"
+  , TailwindClasses.text_white
   ]
 
 inactiveTabClasses :: Array HH.ClassName
@@ -64,22 +64,22 @@ inactiveTabClasses =
 
 tabTextClasses :: Array HH.ClassName
 tabTextClasses =
-  [ HH.ClassName "text-sm"
-  , HH.ClassName "tracking-wide"
+  [ TailwindClasses.text_sm
+  , TailwindClasses.tracking_wide
   , TailwindClasses.uppercase
   , TailwindClasses.font_bold
-  , HH.ClassName "inline-flex"
-  , HH.ClassName "self-end"
+  , TailwindClasses.inline_flex
+  , TailwindClasses.self_end
   ]
 
 errorIconClasses :: Array HH.ClassName
 errorIconClasses =
-  [ HH.ClassName "text-2xl"
-  , HH.ClassName "text-red"
-  , HH.ClassName "mr-1"
-  , HH.ClassName "inline-flex"
-  , HH.ClassName "align-bottom"
-  , HH.ClassName "my-px"
+  [ TailwindClasses.text_2xl
+  , TailwindClasses.text_red
+  , TailwindClasses.mr_1
+  , TailwindClasses.inline_flex
+  , TailwindClasses.align_bottom
+  , TailwindClasses.my_px
   ]
 
 tabControl
@@ -111,7 +111,7 @@ singleTab
   -> HH.HTML p i
 singleTab activePage tab =
   HH.li
-    [ HP.classes [ HH.ClassName "mr-12" ] ]
+    [ HP.classes [ TailwindClasses.mr_12 ] ]
     [ HH.a
       ( tab.props
         <> [ HP.classes $ tabClasses <> conditionalTabClasses isActive ]

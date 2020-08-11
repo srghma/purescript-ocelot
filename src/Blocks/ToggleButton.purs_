@@ -39,16 +39,16 @@ inputClasses =
 
 toggleButtonClasses :: Array HH.ClassName
 toggleButtonClasses =
-  [ HH.ClassName "no-outline"
-  , HH.ClassName "px-4"
-  , HH.ClassName "py-2"
+  [ TailwindClasses.no_outline
+  , TailwindClasses.px_4
+  , TailwindClasses.py_2
   , HH.ClassName "disabled:opacity-50"
   , HH.ClassName "disabled:cursor-default"
   , HH.ClassName "!disabled:cursor-pointer"
-  , HH.ClassName "bg-white"
+  , TailwindClasses.bg_white
   , HH.ClassName "border-grey-80"
-  , HH.ClassName "border-2"
+  , TailwindClasses.border_2
   , HH.ClassName "focus:bg-grey-50-a30"
   , HH.ClassName "text-black-20"
-  , HH.ClassName "inline-block"
+  , TailwindClasses.inline_block
   ]

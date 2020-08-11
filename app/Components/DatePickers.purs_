@@ -63,7 +63,7 @@ component =
 -- HTML
 
 content :: forall t1 t2. Array (HH.HTML t2 t1) -> HH.HTML t2 t1
-content = Backdrop.content [ HP.classes [ HH.ClassName "flex" ] ]
+content = Backdrop.content [ HP.classes [ TailwindClasses.flex ] ]
 
 cnDocumentationBlocks :: ∀ m
   . MonadAff m

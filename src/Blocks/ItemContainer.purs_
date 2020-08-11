@@ -19,13 +19,13 @@ import Select.Setters as Setters
 
 menuClasses :: Array HH.ClassName
 menuClasses =
-  [ HH.ClassName "bg-white"
+  [ TailwindClasses.bg_white
   , HH.ClassName "text-black-20"
   , TailwindClasses.border
   , TailwindClasses.rounded
   , TailwindClasses.shadow
   , TailwindClasses.absolute
-  , HH.ClassName "z-60"
+  , TailwindClasses.z_60
   , HH.ClassName "min-w-50"
   ]
 
@@ -33,8 +33,8 @@ dropdownClasses :: Array HH.ClassName
 dropdownClasses = menuClasses <>
 
     [ TailwindClasses.absolute
-    , HH.ClassName "top-full"
-    , HH.ClassName "left-0"
+    , TailwindClasses.top_full
+    , TailwindClasses.left_0
     , HH.ClassName "max-h-160"
     , HH.ClassName "overflow-y-auto"
     ]
@@ -43,17 +43,17 @@ droprightClasses :: Array HH.ClassName
 droprightClasses = menuClasses <>
 
     [ TailwindClasses.absolute
-    , HH.ClassName "top-0"
-    , HH.ClassName "left-full"
+    , TailwindClasses.top_0
+    , TailwindClasses.left_full
     ]
 
 baseClasses :: Array HH.ClassName
 baseClasses =
-  [ HH.ClassName "bg-white"
+  [ TailwindClasses.bg_white
   , HH.ClassName "border-grey-80"
   , HH.ClassName "border-l-2"
   , HH.ClassName "border-r-2"
-  , HH.ClassName "w-full"
+  , TailwindClasses.w_full
   ]
 
 selectionContainerClasses :: Array HH.ClassName
@@ -69,10 +69,10 @@ itemContainerClasses = baseClasses <>
     , TailwindClasses.shadow
     , HH.ClassName "max-h-120"
     , HH.ClassName "overflow-y-auto"
-    , HH.ClassName "z-50"
+    , TailwindClasses.z_50
     , HH.ClassName "border-b-2"
-    , HH.ClassName "top-full"
-    , HH.ClassName "left-0"
+    , TailwindClasses.top_full
+    , TailwindClasses.left_0
     ]
 
 ulClasses :: Array HH.ClassName
@@ -80,20 +80,20 @@ ulClasses =  []
 
 liClasses :: Array HH.ClassName
 liClasses =
-  [ HH.ClassName "px-4"
-  , HH.ClassName "py-2"
-  , HH.ClassName "rounded-sm"
+  [ TailwindClasses.px_4
+  , TailwindClasses.py_2
+  , TailwindClasses.rounded_sm
   , HH.ClassName "text-black-20"
   , TailwindClasses.group
   , HH.ClassName "hover:bg-grey-97"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.cursor_pointer
   ]
 
 selectionGroupClasses :: Array HH.ClassName
 selectionGroupClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "items-start"
-  , HH.ClassName "justify-between"
+  , TailwindClasses.items_start
+  , TailwindClasses.justify_between
   ]
 
 buttonClasses :: Array HH.ClassName
@@ -112,8 +112,8 @@ dropdownButton
   -> HH.HTML p i
 dropdownButton button iprops html =
   button
-    ( [ HP.classes [ HH.ClassName "font-medium", HH.ClassName "flex", HH.ClassName "items-center" ] ] <&> iprops )
-    $ html <> [ Icon.caratDown [ HP.classes [ HH.ClassName "ml-3", HH.ClassName "text-xs" ] ] ]
+    ( [ HP.classes [ TailwindClasses.font_medium, TailwindClasses.flex, TailwindClasses.items_center ] ] <&> iprops )
+    $ html <> [ Icon.caratDown [ HP.classes [ TailwindClasses.ml_3, TailwindClasses.text_xs ] ] ]
 
 dropdownContainer
   :: ∀ p action item
@@ -161,12 +161,12 @@ dropdownItem elem props html selected highlighted =
       liClasses
       <> [ TailwindClasses.flex ]
       <> ( if highlighted then [ HH.ClassName "bg-grey-lighter" ] else [] )
-      <> if selected then [ HH.ClassName "font-medium" ] else []
+      <> if selected then [ TailwindClasses.font_medium ] else []
 
     checkmarkClass :: Array HH.ClassName
     checkmarkClass =
-      ( [ HH.ClassName "mr-2"
-        , HH.ClassName "text-green"
+      ( [ TailwindClasses.mr_2
+        , TailwindClasses.text_green
         ]
       )
       <> if selected then [] else [ TailwindClasses.invisible ]
@@ -216,7 +216,7 @@ selectionContainer html =
     $ html <#>
     ( \h ->
         HH.li
-          [ HP.classes (HH.ClassName "py-2" : liClasses) ]
+          [ HP.classes (TailwindClasses.py_2 : liClasses) ]
           [ h ]
     )
   ]
@@ -246,4 +246,4 @@ boldMatches :: ∀ item i p. String -> Fuzzy item -> Array (HH.HTML i p)
 boldMatches key (Fuzzy { segments }) = boldMatch <$> (fromMaybe [ Left key ] $ lookup key segments)
   where
     boldMatch (Left str) = HH.text str
-    boldMatch (Right str) = HH.span [ HP.classes [ HH.ClassName "font-bold" ] ] [ HH.text str ]
+    boldMatch (Right str) = HH.span [ HP.classes [ TailwindClasses.font_bold ] ] [ HH.text str ]
