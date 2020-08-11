@@ -22,7 +22,12 @@ svgElem = either (const $ HH.text "") identity $ parse svgString
 spinner :: ∀ p i. Array (HH.IProp HTMLdiv i) -> HH.HTML p i
 spinner props =
   HH.div
-    ( [ HP.class_ $ HH.ClassName "loader" ] <&> props )
+    ( [ HP.classes
+        [ -- TailwindClasses.loader
+        ]
+      ]
+      <&> props
+    )
     [ svgElem ]
 
 spinner_ :: ∀ p i. HH.HTML p i

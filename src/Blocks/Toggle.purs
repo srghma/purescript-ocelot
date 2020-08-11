@@ -29,7 +29,6 @@ inputClasses =
   , HH.ClassName "checked:sibling:pl-5"
   , HH.ClassName "!checked:sibling:bg-grey-80"
   , HH.ClassName "!checked:sibling:pr-5"
-  , HH.ClassName "offscreen"
   ]
 
 toggleClasses :: Array HH.ClassName

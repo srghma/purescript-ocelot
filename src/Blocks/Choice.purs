@@ -10,12 +10,12 @@ import Ocelot.HTML.Properties ((<&>))
 
 choiceClasses :: Array HH.ClassName
 choiceClasses =
-  [ HH.ClassName "absolute"
+  [ TailwindClasses.absolute
   , HH.ClassName "bg-white"
   , HH.ClassName "rounded-lg"
-  , HH.ClassName "border"
+  , TailwindClasses.border
   , HH.ClassName "border-grey-90"
-  , HH.ClassName "shadow"
+  , TailwindClasses.shadow
   , HH.ClassName "overflow-hidden"
   ]
 

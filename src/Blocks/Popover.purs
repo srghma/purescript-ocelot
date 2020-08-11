@@ -39,9 +39,9 @@ hoverClasses =
   [ HH.ClassName "p-4"
   , HH.ClassName "my-1"
   , HH.ClassName "bg-white"
-  , HH.ClassName "border"
+  , TailwindClasses.border
   , HH.ClassName "border-grey-80"
-  , HH.ClassName "rounded"
+  , TailwindClasses.rounded
   , HH.ClassName "shadow-md"
   , HH.ClassName "items-center"
   ]

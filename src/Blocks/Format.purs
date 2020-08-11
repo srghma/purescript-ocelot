@@ -52,13 +52,13 @@ contentHeadingClasses =
 
 captionClasses :: Array HH.ClassName
 captionClasses =
-  [ HH.ClassName "block"
+  [ TailwindClasses.block
   , HH.ClassName "font-light"
   , HH.ClassName "mb-6"
   , HH.ClassName "text-grey-70"
   , HH.ClassName "text-sm"
   , HH.ClassName "tracking-wide"
-  , HH.ClassName "uppercase"
+  , TailwindClasses.uppercase
   ]
 
 linkClasses :: Array HH.ClassName

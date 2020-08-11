@@ -43,8 +43,8 @@ hover_ = hover []
 
 hoverClasses :: Array HH.ClassName
 hoverClasses =
-  [ HH.ClassName "absolute"
-  , HH.ClassName "invisible"
+  [ TailwindClasses.absolute
+  , TailwindClasses.invisible
   , HH.ClassName "group-hover:visible"
   , HH.ClassName "z-60"
   ]

@@ -28,7 +28,7 @@ toastContainerClasses =
   , HH.ClassName "transition-1/4-in"
   , HH.ClassName "transition-1/2-out"
   , HH.ClassName "items-center"
-  , HH.ClassName "fixed"
+  , TailwindClasses.fixed
   , HH.ClassName "left-0"
   , HH.ClassName "right-0"
   , HH.ClassName "bottom-0"
@@ -51,10 +51,10 @@ toastClasses =
   , HH.ClassName "ml-auto"
   , HH.ClassName "mr-auto"
   , HH.ClassName "items-center"
-  , HH.ClassName "border"
+  , TailwindClasses.border
   , HH.ClassName "border-grey-80"
   , HH.ClassName "bg-white"
-  , HH.ClassName "rounded"
+  , TailwindClasses.rounded
   , TailwindClasses.flex
   ]
 

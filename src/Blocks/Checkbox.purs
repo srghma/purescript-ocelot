@@ -37,7 +37,6 @@ inputClasses =
   , HH.ClassName "checked:!disabled:sibling:before:bg-blue-88"
   , HH.ClassName "checked:disabled:sibling:before:bg-grey-80"
   , HH.ClassName "checked:disabled:sibling:border-grey-80"
-  , HH.ClassName "offscreen"
   -- end shared custom radio classes --
   , HH.ClassName "checked:sibling:after:opacity-100"
   , HH.ClassName "checked:sibling:after:scale-1"
@@ -47,7 +46,7 @@ inputClasses =
 
 checkboxClasses :: Array HH.ClassName
 checkboxClasses =
-  [ HH.ClassName "relative"
+  [ TailwindClasses.relative
   , HH.ClassName "content-box"
   , HH.ClassName "border-2"
   , HH.ClassName "border-solid"
@@ -56,7 +55,7 @@ checkboxClasses =
   , HH.ClassName "flex-none"
   , HH.ClassName "no-content"
   , HH.ClassName "mr-3"
-  , HH.ClassName "rounded"
+  , TailwindClasses.rounded
   , HH.ClassName "before:transition-1/4-bounce"
   , HH.ClassName "before:absolute"
   , HH.ClassName "before:h-full"

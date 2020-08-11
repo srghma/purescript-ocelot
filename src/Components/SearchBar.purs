@@ -201,7 +201,7 @@ render st@{ query, open } =
        , HH.ClassName "items-stretch"
        , HH.ClassName "transition-1/4"
        , HH.ClassName "border-b-2"
-       , HH.ClassName "group"
+       , TailwindClasses.group
        ]
 
      containerCondClasses =
@@ -259,16 +259,16 @@ render st@{ query, open } =
      buttonCondClasses =
        ifOpen
          [ HH.ClassName "opacity-100"
-         , HH.ClassName "visible"
+         , TailwindClasses.visible
          ]
          [ HH.ClassName "opacity-0"
-         , HH.ClassName "invisible"
+         , TailwindClasses.invisible
          ]
 
      keepOpenClasses =
        if st.keepOpen
          then
-          [ HH.ClassName "hidden"
+          [ TailwindClasses.hidden
           ]
          else []
 

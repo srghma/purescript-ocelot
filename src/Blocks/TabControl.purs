@@ -31,7 +31,7 @@ outerClasses =
 
 innerClasses :: Array HH.ClassName
 innerClasses =
-  [ HH.ClassName "container"
+  [ TailwindClasses.container
   , HH.ClassName "items-end"
   , HH.ClassName "mx-auto"
   , TailwindClasses.flex
@@ -66,8 +66,8 @@ tabTextClasses :: Array HH.ClassName
 tabTextClasses =
   [ HH.ClassName "text-sm"
   , HH.ClassName "tracking-wide"
-  , HH.ClassName "uppercase"
-  , HH.ClassName "bold"
+  , TailwindClasses.uppercase
+  , TailwindClasses.font_bold
   , HH.ClassName "inline-flex"
   , HH.ClassName "self-end"
   ]

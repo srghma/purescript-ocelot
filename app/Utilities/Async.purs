@@ -169,8 +169,8 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
       , HH.ClassName "border-r-2"
       , HH.ClassName ("border-" <> colorToCSSColor hairColor)
       , HH.ClassName ("bg-" <> colorToCSSColor skinColor1)
-      , HH.ClassName "relative"
-      , HH.ClassName "shadow"
+      , TailwindClasses.relative
+      , TailwindClasses.shadow
       ]
     ]
     [ HH.span
@@ -199,7 +199,7 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
         , HH.ClassName "h-1"
         , HH.ClassName "w-full"
         , HH.ClassName ("bg-" <> colorToCSSColor skinColor2)
-        , HH.ClassName "absolute"
+        , TailwindClasses.absolute
         ]
       ]
       []

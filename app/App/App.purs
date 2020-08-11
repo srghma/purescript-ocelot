@@ -139,8 +139,8 @@ app =
     Backdrop.backdrop
     [ HP.id_ "sidebar"
     , HP.classes
-        [ HH.ClassName "hidden"
-        , HH.ClassName "fixed"
+        [ TailwindClasses.hidden
+        , TailwindClasses.fixed
         , HH.ClassName "inset-y-0"
         , HH.ClassName "left-0"
         , HH.ClassName "overflow-y-auto"

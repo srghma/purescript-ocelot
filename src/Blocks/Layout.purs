@@ -9,12 +9,12 @@ import Ocelot.Block.Builder (blockBuilder)
 
 popoverClasses :: Array HH.ClassName
 popoverClasses =
-  [ HH.ClassName "absolute"
-  , HH.ClassName "shadow"
+  [ TailwindClasses.absolute
+  , TailwindClasses.shadow
   , HH.ClassName "z-50"
-  , HH.ClassName "border"
+  , TailwindClasses.border
   , HH.ClassName "border-grey-90"
-  , HH.ClassName "rounded"
+  , TailwindClasses.rounded
   ]
 
 popover
@@ -32,7 +32,7 @@ popover_ = popover []
 
 stickyClasses :: Array HH.ClassName
 stickyClasses =
-  [ HH.ClassName "fixed"
+  [ TailwindClasses.fixed
   , HH.ClassName "top-0"
   , HH.ClassName "inset-x-0"
   , HH.ClassName "w-full"
@@ -55,7 +55,7 @@ sticky_ = sticky []
 
 containerClasses :: Array HH.ClassName
 containerClasses =
-  [ HH.ClassName "container"
+  [ TailwindClasses.container
   , HH.ClassName "m-auto"
   ]
 
@@ -92,7 +92,7 @@ section_ = section []
 
 gridClasses :: Array HH.ClassName
 gridClasses =
-  [ HH.ClassName "container"
+  [ TailwindClasses.container
   , HH.ClassName "m-auto"
   , HH.ClassName "p-8"
   , TailwindClasses.flex

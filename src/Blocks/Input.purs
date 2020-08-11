@@ -36,7 +36,7 @@ inputClasses = inputSharedClasses <>
 inputGroupClasses :: Array HH.ClassName
 inputGroupClasses =
   [ TailwindClasses.flex
-  , HH.ClassName "group"
+  , TailwindClasses.group
   , HH.ClassName "w-full"
   , HH.ClassName "items-center"
   ]

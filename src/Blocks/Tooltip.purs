@@ -60,12 +60,12 @@ tooltipClasses' =  classesArr
 
 classesArr :: Array HH.ClassName
 classesArr =
-  [ HH.ClassName "absolute"
-  , HH.ClassName "invisible"
+  [ TailwindClasses.absolute
+  , TailwindClasses.invisible
   , HH.ClassName "group-hover:visible"
   , HH.ClassName "text-white"
   , HH.ClassName "bg-grey-50"
   , HH.ClassName "px-2"
-  , HH.ClassName "rounded"
+  , TailwindClasses.rounded
   , HH.ClassName "z-60"
   ]

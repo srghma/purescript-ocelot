@@ -22,7 +22,7 @@ buttonSharedClasses =
 
 buttonMainClasses :: Array HH.ClassName
 buttonMainClasses = buttonSharedClasses <>
-    [ HH.ClassName "rounded"
+    [ TailwindClasses.rounded
     ]
 
 buttonClasses :: Array HH.ClassName

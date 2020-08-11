@@ -18,14 +18,14 @@ fieldClasses =
 helpTextClasses :: Array HH.ClassName
 helpTextClasses = Format.mutedClasses <>
 
-    [ HH.ClassName "block"
+    [ TailwindClasses.block
     , HH.ClassName "font-light"
     , HH.ClassName "pt-3"
     ]
 
 errorTextClasses :: Array HH.ClassName
 errorTextClasses =
-  [ HH.ClassName "block"
+  [ TailwindClasses.block
   , HH.ClassName "text-red"
   , HH.ClassName "font-medium"
   , HH.ClassName "pt-3"
@@ -33,7 +33,7 @@ errorTextClasses =
 
 labelClasses :: Array HH.ClassName
 labelClasses =
-  [ HH.ClassName "block"
+  [ TailwindClasses.block
   , HH.ClassName "font-medium"
   , HH.ClassName "leading-loose"
   , HH.ClassName "text-black-20"

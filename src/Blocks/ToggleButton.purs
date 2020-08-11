@@ -35,7 +35,6 @@ inputClasses =
   , HH.ClassName "checked:neighbor:border-grey-50"
   , HH.ClassName "!checked:neighbor:hover:bg-grey-80"
   , HH.ClassName "!checked:neighbor:hover:text-black-10!"
-  , HH.ClassName "offscreen"
   ]
 
 toggleButtonClasses :: Array HH.ClassName

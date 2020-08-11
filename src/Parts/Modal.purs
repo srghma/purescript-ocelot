@@ -92,7 +92,7 @@ type HeaderProps p i =
 
 backgroundClasses :: Array HH.ClassName
 backgroundClasses =
-  [ HH.ClassName "fixed"
+  [ TailwindClasses.fixed
   , HH.ClassName "inset-0"
   , HH.ClassName "bg-black-modal-a90"
   , HH.ClassName "fade-in"
@@ -101,7 +101,7 @@ backgroundClasses =
 
 modalClasses :: Array HH.ClassName
 modalClasses =
-  [ HH.ClassName "fixed"
+  [ TailwindClasses.fixed
   , HH.ClassName "inset-x-0"
   , HH.ClassName "top-0"
   , HH.ClassName "my-20"
@@ -113,7 +113,7 @@ modalClasses =
 
 bodyClasses :: Array HH.ClassName
 bodyClasses =
-  [ HH.ClassName "relative"
+  [ TailwindClasses.relative
   , HH.ClassName "bg-grey-95"
   , HH.ClassName "overflow-auto"
   , HH.ClassName "max-h-full"

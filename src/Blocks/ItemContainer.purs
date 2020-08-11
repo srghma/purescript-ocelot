@@ -21,10 +21,10 @@ menuClasses :: Array HH.ClassName
 menuClasses =
   [ HH.ClassName "bg-white"
   , HH.ClassName "text-black-20"
-  , HH.ClassName "border"
-  , HH.ClassName "rounded"
-  , HH.ClassName "shadow"
-  , HH.ClassName "absolute"
+  , TailwindClasses.border
+  , TailwindClasses.rounded
+  , TailwindClasses.shadow
+  , TailwindClasses.absolute
   , HH.ClassName "z-60"
   , HH.ClassName "min-w-50"
   ]
@@ -32,7 +32,7 @@ menuClasses =
 dropdownClasses :: Array HH.ClassName
 dropdownClasses = menuClasses <>
 
-    [ HH.ClassName "absolute"
+    [ TailwindClasses.absolute
     , HH.ClassName "top-full"
     , HH.ClassName "left-0"
     , HH.ClassName "max-h-160"
@@ -42,7 +42,7 @@ dropdownClasses = menuClasses <>
 droprightClasses :: Array HH.ClassName
 droprightClasses = menuClasses <>
 
-    [ HH.ClassName "absolute"
+    [ TailwindClasses.absolute
     , HH.ClassName "top-0"
     , HH.ClassName "left-full"
     ]
@@ -65,8 +65,8 @@ selectionContainerClasses = baseClasses <>
 itemContainerClasses :: Array HH.ClassName
 itemContainerClasses = baseClasses <>
 
-    [ HH.ClassName "absolute"
-    , HH.ClassName "shadow"
+    [ TailwindClasses.absolute
+    , TailwindClasses.shadow
     , HH.ClassName "max-h-120"
     , HH.ClassName "overflow-y-auto"
     , HH.ClassName "z-50"
@@ -84,7 +84,7 @@ liClasses =
   , HH.ClassName "py-2"
   , HH.ClassName "rounded-sm"
   , HH.ClassName "text-black-20"
-  , HH.ClassName "group"
+  , TailwindClasses.group
   , HH.ClassName "hover:bg-grey-97"
   , HH.ClassName "cursor-pointer"
   ]
@@ -98,7 +98,7 @@ selectionGroupClasses =
 
 buttonClasses :: Array HH.ClassName
 buttonClasses =
-  [ HH.ClassName "invisible"
+  [ TailwindClasses.invisible
   , HH.ClassName "text-grey-80"
   , HH.ClassName "hover:text-grey-70"
   , HH.ClassName "group-hover:visible"
@@ -169,7 +169,7 @@ dropdownItem elem props html selected highlighted =
         , HH.ClassName "text-green"
         ]
       )
-      <> if selected then [] else [ HH.ClassName "invisible" ]
+      <> if selected then [] else [ TailwindClasses.invisible ]
 
 -- Provided an array of items and any additional HTML, renders the container
 -- Items should have already been treated with `boldMatches` by this point.

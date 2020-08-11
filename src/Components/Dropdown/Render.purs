@@ -51,5 +51,5 @@ defDropdown button props toString label st =
       ]
 
     containerClasses = case st.visibility of
-      S.Off -> [ HH.ClassName "invisible" ]
+      S.Off -> [ TailwindClasses.invisible ]
       S.On -> []

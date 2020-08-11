@@ -12,8 +12,8 @@ baseCardClasses :: Array HH.ClassName
 baseCardClasses =
   [ HH.ClassName "bg-white"
   , HH.ClassName "mb-6"
-  , HH.ClassName "rounded"
-  , HH.ClassName "clearfix"
+  , TailwindClasses.rounded
+  , TailwindClasses.clearfix
   ]
 
 innerCardClasses :: Array HH.ClassName

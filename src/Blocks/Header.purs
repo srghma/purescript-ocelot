@@ -20,7 +20,7 @@ outerClasses =
 
 innerClasses :: Array HH.ClassName
 innerClasses =
-  [ HH.ClassName "container"
+  [ TailwindClasses.container
   , HH.ClassName "items-center"
   , HH.ClassName "mx-auto"
   , TailwindClasses.flex

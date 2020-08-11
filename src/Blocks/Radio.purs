@@ -36,7 +36,6 @@ inputClasses =
   , HH.ClassName "checked:!disabled:sibling:before:bg-blue-88"
   , HH.ClassName "checked:disabled:sibling:before:bg-grey-80"
   , HH.ClassName "checked:disabled:sibling:border-grey-80"
-  , HH.ClassName "offscreen"
   ]
 
 radioClasses :: Array HH.ClassName

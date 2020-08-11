@@ -39,8 +39,8 @@ subHeadingClasses =
 calloutClasses :: Array HH.ClassName
 calloutClasses =
   [ HH.ClassName "border-dotted"
-  , HH.ClassName "border"
-  , HH.ClassName "rounded"
+  , TailwindClasses.border
+  , TailwindClasses.rounded
   , TailwindClasses.flex
   , HH.ClassName "items-stretch"
   , HH.ClassName "my-6"

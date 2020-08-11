@@ -39,4 +39,4 @@ formPanel props iprops html =
     contentClasses =
       if props.isOpen
         then [ HH.ClassName "mb-6" ]
-        else [ HH.ClassName "hidden" ]
+        else [ TailwindClasses.hidden ]

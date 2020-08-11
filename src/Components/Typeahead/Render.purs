@@ -199,7 +199,9 @@ renderSearchDropdown resetLabel label renderFuzzy st =
       [ HP.classes
         $ HH.ClassName "min-w-80" :
           if st.visibility == S.Off
-            then [ HH.ClassName "offscreen" ]
+            then
+              [ -- TailwindClasses.offscreen
+              ]
             else []
       ]
       [ IC.dropdownContainer
