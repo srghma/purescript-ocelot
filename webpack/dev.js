@@ -8,18 +8,20 @@ import webpackGetError from './lib/webpackGetError'
 (async function () {
   const config = await createConfig({ production: false })
 
-  http.createServer((request, response) => {
-    return serveHandler(
-      request,
-      response,
-      {
-        public: config.output.path,
-        cleanUrls: true,
-      }
-    )
-  }).listen(3000, () => {
-    console.log('Running at http://localhost:3000');
-  })
+  http
+    .createServer((request, response) => {
+      return serveHandler(
+        request,
+        response,
+        {
+          public: config.output.path,
+          cleanUrls: true,
+        }
+      )
+    })
+    .listen(3000, () => {
+      console.log('Running at http://localhost:3000')
+    })
 
   require('webpack-spago-loader/watcher-job')({
     additionalWatchGlobs: ['app/**/*.css', 'src/**/*.css'],
