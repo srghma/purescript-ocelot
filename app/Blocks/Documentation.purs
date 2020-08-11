@@ -7,7 +7,6 @@ import DOM.HTML.Indexed (HTMLdiv, HTMLsection, HTMLheader)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.Block.Format as Format
-import Ocelot.HTML.Properties ((<&>))
 
 type DocumentationConfig =
   { header :: String
@@ -53,7 +52,7 @@ callout
   -> HH.HTML p i
 callout iprops html =
   HH.div
-    ( [ HP.classes calloutClasses ] <&> iprops )
+    ( [ HP.classes calloutClasses ] <> iprops )
     html
 
 callout_
@@ -69,7 +68,7 @@ intro
   -> HH.HTML p i
 intro config iprops =
   HH.header
-    ( [ HP.classes introClasses ] <&> iprops )
+    ( [ HP.classes introClasses ] <> iprops )
     [ Format.heading
       [ HP.classes headingClasses ]
       [ HH.text config.header ]
@@ -92,7 +91,7 @@ customBlock
   -> HH.HTML p i
 customBlock config iprops html =
   HH.section
-    ( [ HP.classes blockClasses ] <&> iprops )
+    ( [ HP.classes blockClasses ] <> iprops )
     [ intro_ config
     , HH.div_
       html

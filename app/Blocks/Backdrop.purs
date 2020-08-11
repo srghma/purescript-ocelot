@@ -6,7 +6,6 @@ import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
-import Ocelot.HTML.Properties ((<&>))
 
 
 backdropClasses :: Array HH.ClassName
@@ -49,7 +48,7 @@ backdrop
   -> HH.HTML p i
 backdrop iprops html =
   HH.div
-    ( [ HP.classes backdropDefaultClasses ] <&> iprops )
+    ( [ HP.classes backdropDefaultClasses ] <> iprops )
     html
 
 backdrop_
@@ -65,7 +64,7 @@ backdropWhite
   -> HH.HTML p i
 backdropWhite iprops html =
   HH.div
-    ( [ HP.classes backdropWhiteClasses ] <&> iprops )
+    ( [ HP.classes backdropWhiteClasses ] <> iprops )
     html
 
 backdropWhite_
@@ -81,7 +80,7 @@ backdropDark
   -> HH.HTML p i
 backdropDark iprops html =
   HH.div
-    ( [ HP.classes backdropDarkClasses ] <&> iprops )
+    ( [ HP.classes backdropDarkClasses ] <> iprops )
     html
 
 backdropDark_
@@ -97,7 +96,7 @@ content
   -> HH.HTML p i
 content iprops html =
   HH.div
-    ( [ HP.classes contentClasses ] <&> iprops )
+    ( [ HP.classes contentClasses ] <> iprops )
     html
 
 content_

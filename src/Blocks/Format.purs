@@ -6,7 +6,6 @@ import TailwindClasses as TailwindClasses
 import DOM.HTML.Indexed (HTMLh1, HTMLh2, HTMLh3, HTMLh4, HTMLp)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
-import Ocelot.HTML.Properties ((<&>))
 
 headingClasses :: Array HH.ClassName
 headingClasses =
@@ -20,9 +19,8 @@ headingClasses =
 
 headingDarkClasses :: Array HH.ClassName
 headingDarkClasses = headingClasses <>
-
-    [ HH.ClassName "text-white"
-    ]
+  [ HH.ClassName "text-white"
+  ]
 
 subHeadingClasses :: Array HH.ClassName
 subHeadingClasses =
@@ -36,9 +34,8 @@ subHeadingClasses =
 
 subHeadingDarkClasses :: Array HH.ClassName
 subHeadingDarkClasses = subHeadingClasses <>
-
-    [ HH.ClassName "text-white"
-    ]
+  [ HH.ClassName "text-white"
+  ]
 
 contentHeadingClasses :: Array HH.ClassName
 contentHeadingClasses =
@@ -96,7 +93,7 @@ heading
   -> HH.HTML p i
 heading iprops =
   HH.h1
-    ( [ HP.classes headingClasses ] <&> iprops )
+    ( [ HP.classes headingClasses ] <> iprops )
 
 heading_
   :: ∀ p i
@@ -111,7 +108,7 @@ headingDark
   -> HH.HTML p i
 headingDark iprops =
   HH.h1
-    ( [ HP.classes headingDarkClasses ] <&> iprops )
+    ( [ HP.classes headingDarkClasses ] <> iprops )
 
 headingDark_
   :: ∀ p i
@@ -126,7 +123,7 @@ subHeading
   -> HH.HTML p i
 subHeading iprops html =
   HH.h2
-    ( [ HP.classes subHeadingClasses ] <&> iprops )
+    ( [ HP.classes subHeadingClasses ] <> iprops )
     html
 
 subHeading_
@@ -142,7 +139,7 @@ subHeadingDark
   -> HH.HTML p i
 subHeadingDark iprops =
   HH.h2
-    ( [ HP.classes subHeadingDarkClasses ] <&> iprops )
+    ( [ HP.classes subHeadingDarkClasses ] <> iprops )
 
 subHeadingDark_
   :: ∀ p i
@@ -157,7 +154,7 @@ contentHeading
   -> HH.HTML p i
 contentHeading iprops =
   HH.h3
-    ( [ HP.classes contentHeadingClasses ] <&> iprops )
+    ( [ HP.classes contentHeadingClasses ] <> iprops )
 
 contentHeading_
   :: ∀ p i
@@ -172,7 +169,7 @@ caption
   -> HH.HTML p i
 caption iprops =
   HH.h4
-    ( [ HP.classes captionClasses ] <&> iprops )
+    ( [ HP.classes captionClasses ] <> iprops )
 
 caption_
   :: ∀ p i
@@ -187,7 +184,7 @@ p
   -> HH.HTML p i
 p iprops =
   HH.p
-      ( [ HP.classes pClasses ] <&> iprops )
+      ( [ HP.classes pClasses ] <> iprops )
 
 p_
   :: ∀ p i

@@ -6,13 +6,13 @@ import Halogen as H
 import Halogen.HTML as HH
 import Ocelot.Block.Badge as Badge
 import Ocelot.Block.Format as Format
-import Ocelot.HTML.Properties (css)
 import UIGuide.Block.Backdrop as Backdrop
 import UIGuide.Block.Documentation as Documentation
 
 type State = Unit
 
 data Query a
+
 type Action = Unit
 
 type Input = Unit
