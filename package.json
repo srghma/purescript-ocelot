@@ -6,7 +6,7 @@
     "clean": "rm -rfd output .spago node_modules dist/*.css dist/*.js",
     "build": "babel-node --presets '@babel/preset-env' ./webpack/build.js",
     "dev": "babel-node --presets '@babel/preset-env' ./webpack/dev.js",
-    "build:css": "tailwindcss build ./css/index.css -o ./dist/cn-tailwind.css"
+    "build:css": "tailwindcss build ./app/index.css -o ./dist/index.css"
   },
   "devDependencies": {
     "@babel/core": "^7.11.1",

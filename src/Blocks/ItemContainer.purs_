@@ -85,7 +85,7 @@ liClasses =
   , TailwindClasses.rounded_sm
   , TailwindClasses.text_black_20
   , TailwindClasses.group
-  , HH.ClassName "hover:bg-gray-97"
+  , TailwindClasses.Hover.bg_gray_97
   , TailwindClasses.cursor_pointer
   ]
 
@@ -100,7 +100,7 @@ buttonClasses :: Array HH.ClassName
 buttonClasses =
   [ TailwindClasses.invisible
   , TailwindClasses.text_gray_80
-  , HH.ClassName "hover:text-gray-70"
+  , TailwindClasses.Hover.text_gray_70
   , HH.ClassName "group-hover:visible"
   ]
 

@@ -250,7 +250,7 @@ render st@{ query, open } =
      buttonClasses =
        [ TailwindClasses.outline_none
        , TailwindClasses.text_gray_70
-       , HH.ClassName "hover:text-gray-50"
+       , TailwindClasses.Hover.text_gray_50
        , TailwindClasses.text_xs
        , TailwindClasses.transition_1_over_4
        , TailwindClasses.flex_shrink

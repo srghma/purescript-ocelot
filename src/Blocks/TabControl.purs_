@@ -57,8 +57,8 @@ inactiveTabClasses :: Array HH.ClassName
 inactiveTabClasses =
   [ TailwindClasses.border_b_2
   , TailwindClasses.border_black_10
-  , HH.ClassName "hover:border-blue-88"
-  , HH.ClassName "hover:text-white"
+  , TailwindClasses.Hover.border_blue_88
+  , TailwindClasses.Hover.text_white
   , TailwindClasses.text_gray_70
   ]
 

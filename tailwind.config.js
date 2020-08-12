@@ -70,9 +70,9 @@ module.exports = {
   },
 
   variants: {
-    borderWidth:     config.variants.borderWidth.concat(['hover']),
+    borderWidth:     config.variants.borderWidth.concat(['active', 'hover']),
     visibility:      config.variants.visibility.concat(['hover', 'focus', 'group-hover']),
-    borderColor:     config.variants.borderColor.concat(['group-hover']),
+    borderColor:     config.variants.borderColor.concat(['active', 'group-hover']),
     textColor:       config.variants.textColor.concat(['group-hover']),
     backgroundColor: config.variants.backgroundColor.concat(['active', 'group-hover']),
   },

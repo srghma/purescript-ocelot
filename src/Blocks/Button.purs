@@ -7,17 +7,19 @@ import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
 import Ocelot.HTML.Properties ((<&>))
 import TailwindClasses as TailwindClasses
+import TailwindClasses.Active as TailwindClasses.Active
+import TailwindClasses.Hover as TailwindClasses.Hover
 
 buttonSharedClasses :: Array HH.ClassName
 buttonSharedClasses =
   [ TailwindClasses.outline_none
   , TailwindClasses.px_4
   , TailwindClasses.py_2
-  , HH.ClassName "!active:border-b"
-  , HH.ClassName "active:border-t"
+  , HH.ClassName "border-b"
+  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.Active.border_t
   , HH.ClassName "disabled:opacity-50"
   , HH.ClassName "disabled:cursor-default"
-  , HH.ClassName "!disabled:cursor-pointer"
   ]
 
 buttonMainClasses :: Array HH.ClassName

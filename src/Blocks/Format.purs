@@ -1,7 +1,9 @@
 module Ocelot.Block.Format where
 
 import Prelude
+import Ocelot.HTML.Properties
 import TailwindClasses as TailwindClasses
+import TailwindClasses.Hover as TailwindClasses.Hover
 import DOM.HTML.Indexed (HTMLh1, HTMLh2, HTMLh3, HTMLh4, HTMLp)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
@@ -19,7 +21,8 @@ headingClasses =
 headingDarkClasses :: Array HH.ClassName
 headingDarkClasses =
   headingClasses
-    <> [ TailwindClasses.text_white
+    <>
+      [ TailwindClasses.text_white
       ]
 
 subHeadingClasses :: Array HH.ClassName
@@ -62,7 +65,7 @@ captionClasses =
 linkClasses :: Array HH.ClassName
 linkClasses =
   [ TailwindClasses.text_blue_75
-  , HH.ClassName "hover:text-blue-65"
+  , TailwindClasses.Hover.text_blue_65
   , TailwindClasses.no_underline
   , TailwindClasses.font_medium
   , TailwindClasses.cursor_pointer
@@ -71,7 +74,7 @@ linkClasses =
 linkDarkClasses :: Array HH.ClassName
 linkDarkClasses =
   [ TailwindClasses.text_gray_300
-  , HH.ClassName "hover:text-gray-lighter"
+  , TailwindClasses.Hover.text_gray_200
   , TailwindClasses.no_underline
   , TailwindClasses.font_medium
   , TailwindClasses.cursor_pointer
@@ -94,7 +97,7 @@ heading ::
   HH.HTML p i
 heading iprops =
   HH.h1
-    ([ HP.classes headingClasses ] <> iprops)
+    ([ HP.classes headingClasses ] <&> iprops)
 
 heading_ ::
   ∀ p i.
@@ -109,7 +112,7 @@ headingDark ::
   HH.HTML p i
 headingDark iprops =
   HH.h1
-    ([ HP.classes headingDarkClasses ] <> iprops)
+    ([ HP.classes headingDarkClasses ] <&> iprops)
 
 headingDark_ ::
   ∀ p i.
@@ -124,7 +127,7 @@ subHeading ::
   HH.HTML p i
 subHeading iprops html =
   HH.h2
-    ([ HP.classes subHeadingClasses ] <> iprops)
+    ([ HP.classes subHeadingClasses ] <&> iprops)
     html
 
 subHeading_ ::
@@ -140,7 +143,7 @@ subHeadingDark ::
   HH.HTML p i
 subHeadingDark iprops =
   HH.h2
-    ([ HP.classes subHeadingDarkClasses ] <> iprops)
+    ([ HP.classes subHeadingDarkClasses ] <&> iprops)
 
 subHeadingDark_ ::
   ∀ p i.
@@ -155,7 +158,7 @@ contentHeading ::
   HH.HTML p i
 contentHeading iprops =
   HH.h3
-    ([ HP.classes contentHeadingClasses ] <> iprops)
+    ([ HP.classes contentHeadingClasses ] <&> iprops)
 
 contentHeading_ ::
   ∀ p i.
@@ -170,7 +173,7 @@ caption ::
   HH.HTML p i
 caption iprops =
   HH.h4
-    ([ HP.classes captionClasses ] <> iprops)
+    ([ HP.classes captionClasses ] <&> iprops)
 
 caption_ ::
   ∀ p i.
@@ -185,7 +188,7 @@ p ::
   HH.HTML p i
 p iprops =
   HH.p
-    ([ HP.classes pClasses ] <> iprops)
+    ([ HP.classes pClasses ] <&> iprops)
 
 p_ ::
   ∀ p i.

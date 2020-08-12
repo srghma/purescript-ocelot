@@ -6,7 +6,7 @@ import DOM.HTML.Indexed (HTMLspan)
 import Halogen.HTML (HTML, IProp)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
-import Ocelot.HTML.Properties (joinClasses)
+import Ocelot.HTML.Properties
 import TailwindClasses as TailwindClasses
 
 baseClasses :: Array HH.ClassName
@@ -33,7 +33,7 @@ badge ::
   Array (IProp HTMLspan i) ->
   Array (HTML p i) ->
   HTML p i
-badge iprops = HH.span $ joinClasses $ [ HP.classes badgeClasses ] <> iprops
+badge iprops = HH.span $ [ HP.classes badgeClasses ] <&> iprops
 
 badge_ ::
   ∀ p i.
@@ -55,7 +55,7 @@ badgeSmall ::
   Array (IProp HTMLspan i) ->
   Array (HTML p i) ->
   HTML p i
-badgeSmall iprops = HH.span $ joinClasses $ [ HP.classes badgeSmallClasses ] <> iprops
+badgeSmall iprops = HH.span $ [ HP.classes badgeSmallClasses ] <&> iprops
 
 badgeSmall_ ::
   ∀ p i.
@@ -76,7 +76,7 @@ badgeLarge ::
   Array (IProp HTMLspan i) ->
   Array (HTML p i) ->
   HTML p i
-badgeLarge iprops = HH.span $ joinClasses $ [ HP.classes badgeLargeClasses ] <> iprops
+badgeLarge iprops = HH.span $ [ HP.classes badgeLargeClasses ] <&> iprops
 
 badgeLarge_ ::
   ∀ p i.
