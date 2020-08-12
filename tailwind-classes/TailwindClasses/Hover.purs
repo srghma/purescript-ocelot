@@ -6,1724 +6,1724 @@ module TailwindClasses.Hover (not_rotate_180, not_rotate_45, not_rotate_90, not_
 import Halogen.HTML (ClassName(..))
 
 not_rotate_180 :: ClassName
-not_rotate_180 = ClassName "hover\\:-rotate-180"
+not_rotate_180 = ClassName "hover:-rotate-180"
 
 not_rotate_45 :: ClassName
-not_rotate_45 = ClassName "hover\\:-rotate-45"
+not_rotate_45 = ClassName "hover:-rotate-45"
 
 not_rotate_90 :: ClassName
-not_rotate_90 = ClassName "hover\\:-rotate-90"
+not_rotate_90 = ClassName "hover:-rotate-90"
 
 not_skew_x_12 :: ClassName
-not_skew_x_12 = ClassName "hover\\:-skew-x-12"
+not_skew_x_12 = ClassName "hover:-skew-x-12"
 
 not_skew_x_3 :: ClassName
-not_skew_x_3 = ClassName "hover\\:-skew-x-3"
+not_skew_x_3 = ClassName "hover:-skew-x-3"
 
 not_skew_x_6 :: ClassName
-not_skew_x_6 = ClassName "hover\\:-skew-x-6"
+not_skew_x_6 = ClassName "hover:-skew-x-6"
 
 not_skew_y_12 :: ClassName
-not_skew_y_12 = ClassName "hover\\:-skew-y-12"
+not_skew_y_12 = ClassName "hover:-skew-y-12"
 
 not_skew_y_3 :: ClassName
-not_skew_y_3 = ClassName "hover\\:-skew-y-3"
+not_skew_y_3 = ClassName "hover:-skew-y-3"
 
 not_skew_y_6 :: ClassName
-not_skew_y_6 = ClassName "hover\\:-skew-y-6"
+not_skew_y_6 = ClassName "hover:-skew-y-6"
 
 not_translate_x_1 :: ClassName
-not_translate_x_1 = ClassName "hover\\:-translate-x-1"
+not_translate_x_1 = ClassName "hover:-translate-x-1"
 
 not_translate_x_10 :: ClassName
-not_translate_x_10 = ClassName "hover\\:-translate-x-10"
+not_translate_x_10 = ClassName "hover:-translate-x-10"
 
 not_translate_x_12 :: ClassName
-not_translate_x_12 = ClassName "hover\\:-translate-x-12"
+not_translate_x_12 = ClassName "hover:-translate-x-12"
 
 not_translate_x_120 :: ClassName
-not_translate_x_120 = ClassName "hover\\:-translate-x-120"
+not_translate_x_120 = ClassName "hover:-translate-x-120"
 
 not_translate_x_14 :: ClassName
-not_translate_x_14 = ClassName "hover\\:-translate-x-14"
+not_translate_x_14 = ClassName "hover:-translate-x-14"
 
 not_translate_x_16 :: ClassName
-not_translate_x_16 = ClassName "hover\\:-translate-x-16"
+not_translate_x_16 = ClassName "hover:-translate-x-16"
 
 not_translate_x_160 :: ClassName
-not_translate_x_160 = ClassName "hover\\:-translate-x-160"
+not_translate_x_160 = ClassName "hover:-translate-x-160"
 
 not_translate_x_1_over_2 :: ClassName
-not_translate_x_1_over_2 = ClassName "hover\\:-translate-x-1\\/2"
+not_translate_x_1_over_2 = ClassName "hover:-translate-x-1/2"
 
 not_translate_x_2 :: ClassName
-not_translate_x_2 = ClassName "hover\\:-translate-x-2"
+not_translate_x_2 = ClassName "hover:-translate-x-2"
 
 not_translate_x_20 :: ClassName
-not_translate_x_20 = ClassName "hover\\:-translate-x-20"
+not_translate_x_20 = ClassName "hover:-translate-x-20"
 
 not_translate_x_24 :: ClassName
-not_translate_x_24 = ClassName "hover\\:-translate-x-24"
+not_translate_x_24 = ClassName "hover:-translate-x-24"
 
 not_translate_x_3 :: ClassName
-not_translate_x_3 = ClassName "hover\\:-translate-x-3"
+not_translate_x_3 = ClassName "hover:-translate-x-3"
 
 not_translate_x_30 :: ClassName
-not_translate_x_30 = ClassName "hover\\:-translate-x-30"
+not_translate_x_30 = ClassName "hover:-translate-x-30"
 
 not_translate_x_32 :: ClassName
-not_translate_x_32 = ClassName "hover\\:-translate-x-32"
+not_translate_x_32 = ClassName "hover:-translate-x-32"
 
 not_translate_x_4 :: ClassName
-not_translate_x_4 = ClassName "hover\\:-translate-x-4"
+not_translate_x_4 = ClassName "hover:-translate-x-4"
 
 not_translate_x_40 :: ClassName
-not_translate_x_40 = ClassName "hover\\:-translate-x-40"
+not_translate_x_40 = ClassName "hover:-translate-x-40"
 
 not_translate_x_48 :: ClassName
-not_translate_x_48 = ClassName "hover\\:-translate-x-48"
+not_translate_x_48 = ClassName "hover:-translate-x-48"
 
 not_translate_x_5 :: ClassName
-not_translate_x_5 = ClassName "hover\\:-translate-x-5"
+not_translate_x_5 = ClassName "hover:-translate-x-5"
 
 not_translate_x_50 :: ClassName
-not_translate_x_50 = ClassName "hover\\:-translate-x-50"
+not_translate_x_50 = ClassName "hover:-translate-x-50"
 
 not_translate_x_56 :: ClassName
-not_translate_x_56 = ClassName "hover\\:-translate-x-56"
+not_translate_x_56 = ClassName "hover:-translate-x-56"
 
 not_translate_x_6 :: ClassName
-not_translate_x_6 = ClassName "hover\\:-translate-x-6"
+not_translate_x_6 = ClassName "hover:-translate-x-6"
 
 not_translate_x_60 :: ClassName
-not_translate_x_60 = ClassName "hover\\:-translate-x-60"
+not_translate_x_60 = ClassName "hover:-translate-x-60"
 
 not_translate_x_64 :: ClassName
-not_translate_x_64 = ClassName "hover\\:-translate-x-64"
+not_translate_x_64 = ClassName "hover:-translate-x-64"
 
 not_translate_x_7 :: ClassName
-not_translate_x_7 = ClassName "hover\\:-translate-x-7"
+not_translate_x_7 = ClassName "hover:-translate-x-7"
 
 not_translate_x_8 :: ClassName
-not_translate_x_8 = ClassName "hover\\:-translate-x-8"
+not_translate_x_8 = ClassName "hover:-translate-x-8"
 
 not_translate_x_80 :: ClassName
-not_translate_x_80 = ClassName "hover\\:-translate-x-80"
+not_translate_x_80 = ClassName "hover:-translate-x-80"
 
 not_translate_x_9 :: ClassName
-not_translate_x_9 = ClassName "hover\\:-translate-x-9"
+not_translate_x_9 = ClassName "hover:-translate-x-9"
 
 not_translate_x_90 :: ClassName
-not_translate_x_90 = ClassName "hover\\:-translate-x-90"
+not_translate_x_90 = ClassName "hover:-translate-x-90"
 
 not_translate_x_full :: ClassName
-not_translate_x_full = ClassName "hover\\:-translate-x-full"
+not_translate_x_full = ClassName "hover:-translate-x-full"
 
 not_translate_x_px :: ClassName
-not_translate_x_px = ClassName "hover\\:-translate-x-px"
+not_translate_x_px = ClassName "hover:-translate-x-px"
 
 not_translate_y_1 :: ClassName
-not_translate_y_1 = ClassName "hover\\:-translate-y-1"
+not_translate_y_1 = ClassName "hover:-translate-y-1"
 
 not_translate_y_10 :: ClassName
-not_translate_y_10 = ClassName "hover\\:-translate-y-10"
+not_translate_y_10 = ClassName "hover:-translate-y-10"
 
 not_translate_y_12 :: ClassName
-not_translate_y_12 = ClassName "hover\\:-translate-y-12"
+not_translate_y_12 = ClassName "hover:-translate-y-12"
 
 not_translate_y_120 :: ClassName
-not_translate_y_120 = ClassName "hover\\:-translate-y-120"
+not_translate_y_120 = ClassName "hover:-translate-y-120"
 
 not_translate_y_14 :: ClassName
-not_translate_y_14 = ClassName "hover\\:-translate-y-14"
+not_translate_y_14 = ClassName "hover:-translate-y-14"
 
 not_translate_y_16 :: ClassName
-not_translate_y_16 = ClassName "hover\\:-translate-y-16"
+not_translate_y_16 = ClassName "hover:-translate-y-16"
 
 not_translate_y_160 :: ClassName
-not_translate_y_160 = ClassName "hover\\:-translate-y-160"
+not_translate_y_160 = ClassName "hover:-translate-y-160"
 
 not_translate_y_1_over_2 :: ClassName
-not_translate_y_1_over_2 = ClassName "hover\\:-translate-y-1\\/2"
+not_translate_y_1_over_2 = ClassName "hover:-translate-y-1/2"
 
 not_translate_y_2 :: ClassName
-not_translate_y_2 = ClassName "hover\\:-translate-y-2"
+not_translate_y_2 = ClassName "hover:-translate-y-2"
 
 not_translate_y_20 :: ClassName
-not_translate_y_20 = ClassName "hover\\:-translate-y-20"
+not_translate_y_20 = ClassName "hover:-translate-y-20"
 
 not_translate_y_24 :: ClassName
-not_translate_y_24 = ClassName "hover\\:-translate-y-24"
+not_translate_y_24 = ClassName "hover:-translate-y-24"
 
 not_translate_y_3 :: ClassName
-not_translate_y_3 = ClassName "hover\\:-translate-y-3"
+not_translate_y_3 = ClassName "hover:-translate-y-3"
 
 not_translate_y_30 :: ClassName
-not_translate_y_30 = ClassName "hover\\:-translate-y-30"
+not_translate_y_30 = ClassName "hover:-translate-y-30"
 
 not_translate_y_32 :: ClassName
-not_translate_y_32 = ClassName "hover\\:-translate-y-32"
+not_translate_y_32 = ClassName "hover:-translate-y-32"
 
 not_translate_y_4 :: ClassName
-not_translate_y_4 = ClassName "hover\\:-translate-y-4"
+not_translate_y_4 = ClassName "hover:-translate-y-4"
 
 not_translate_y_40 :: ClassName
-not_translate_y_40 = ClassName "hover\\:-translate-y-40"
+not_translate_y_40 = ClassName "hover:-translate-y-40"
 
 not_translate_y_48 :: ClassName
-not_translate_y_48 = ClassName "hover\\:-translate-y-48"
+not_translate_y_48 = ClassName "hover:-translate-y-48"
 
 not_translate_y_5 :: ClassName
-not_translate_y_5 = ClassName "hover\\:-translate-y-5"
+not_translate_y_5 = ClassName "hover:-translate-y-5"
 
 not_translate_y_50 :: ClassName
-not_translate_y_50 = ClassName "hover\\:-translate-y-50"
+not_translate_y_50 = ClassName "hover:-translate-y-50"
 
 not_translate_y_56 :: ClassName
-not_translate_y_56 = ClassName "hover\\:-translate-y-56"
+not_translate_y_56 = ClassName "hover:-translate-y-56"
 
 not_translate_y_6 :: ClassName
-not_translate_y_6 = ClassName "hover\\:-translate-y-6"
+not_translate_y_6 = ClassName "hover:-translate-y-6"
 
 not_translate_y_60 :: ClassName
-not_translate_y_60 = ClassName "hover\\:-translate-y-60"
+not_translate_y_60 = ClassName "hover:-translate-y-60"
 
 not_translate_y_64 :: ClassName
-not_translate_y_64 = ClassName "hover\\:-translate-y-64"
+not_translate_y_64 = ClassName "hover:-translate-y-64"
 
 not_translate_y_7 :: ClassName
-not_translate_y_7 = ClassName "hover\\:-translate-y-7"
+not_translate_y_7 = ClassName "hover:-translate-y-7"
 
 not_translate_y_8 :: ClassName
-not_translate_y_8 = ClassName "hover\\:-translate-y-8"
+not_translate_y_8 = ClassName "hover:-translate-y-8"
 
 not_translate_y_80 :: ClassName
-not_translate_y_80 = ClassName "hover\\:-translate-y-80"
+not_translate_y_80 = ClassName "hover:-translate-y-80"
 
 not_translate_y_9 :: ClassName
-not_translate_y_9 = ClassName "hover\\:-translate-y-9"
+not_translate_y_9 = ClassName "hover:-translate-y-9"
 
 not_translate_y_90 :: ClassName
-not_translate_y_90 = ClassName "hover\\:-translate-y-90"
+not_translate_y_90 = ClassName "hover:-translate-y-90"
 
 not_translate_y_full :: ClassName
-not_translate_y_full = ClassName "hover\\:-translate-y-full"
+not_translate_y_full = ClassName "hover:-translate-y-full"
 
 not_translate_y_px :: ClassName
-not_translate_y_px = ClassName "hover\\:-translate-y-px"
+not_translate_y_px = ClassName "hover:-translate-y-px"
 
 bg_black :: ClassName
-bg_black = ClassName "hover\\:bg-black"
+bg_black = ClassName "hover:bg-black"
 
 bg_black_10 :: ClassName
-bg_black_10 = ClassName "hover\\:bg-black-10"
+bg_black_10 = ClassName "hover:bg-black-10"
 
 bg_black_20 :: ClassName
-bg_black_20 = ClassName "hover\\:bg-black-20"
+bg_black_20 = ClassName "hover:bg-black-20"
 
 bg_blue_100 :: ClassName
-bg_blue_100 = ClassName "hover\\:bg-blue-100"
+bg_blue_100 = ClassName "hover:bg-blue-100"
 
 bg_blue_200 :: ClassName
-bg_blue_200 = ClassName "hover\\:bg-blue-200"
+bg_blue_200 = ClassName "hover:bg-blue-200"
 
 bg_blue_300 :: ClassName
-bg_blue_300 = ClassName "hover\\:bg-blue-300"
+bg_blue_300 = ClassName "hover:bg-blue-300"
 
 bg_blue_400 :: ClassName
-bg_blue_400 = ClassName "hover\\:bg-blue-400"
+bg_blue_400 = ClassName "hover:bg-blue-400"
 
 bg_blue_500 :: ClassName
-bg_blue_500 = ClassName "hover\\:bg-blue-500"
+bg_blue_500 = ClassName "hover:bg-blue-500"
 
 bg_blue_600 :: ClassName
-bg_blue_600 = ClassName "hover\\:bg-blue-600"
+bg_blue_600 = ClassName "hover:bg-blue-600"
 
 bg_blue_65 :: ClassName
-bg_blue_65 = ClassName "hover\\:bg-blue-65"
+bg_blue_65 = ClassName "hover:bg-blue-65"
 
 bg_blue_700 :: ClassName
-bg_blue_700 = ClassName "hover\\:bg-blue-700"
+bg_blue_700 = ClassName "hover:bg-blue-700"
 
 bg_blue_75 :: ClassName
-bg_blue_75 = ClassName "hover\\:bg-blue-75"
+bg_blue_75 = ClassName "hover:bg-blue-75"
 
 bg_blue_800 :: ClassName
-bg_blue_800 = ClassName "hover\\:bg-blue-800"
+bg_blue_800 = ClassName "hover:bg-blue-800"
 
 bg_blue_82 :: ClassName
-bg_blue_82 = ClassName "hover\\:bg-blue-82"
+bg_blue_82 = ClassName "hover:bg-blue-82"
 
 bg_blue_88 :: ClassName
-bg_blue_88 = ClassName "hover\\:bg-blue-88"
+bg_blue_88 = ClassName "hover:bg-blue-88"
 
 bg_blue_900 :: ClassName
-bg_blue_900 = ClassName "hover\\:bg-blue-900"
+bg_blue_900 = ClassName "hover:bg-blue-900"
 
 bg_current :: ClassName
-bg_current = ClassName "hover\\:bg-current"
+bg_current = ClassName "hover:bg-current"
 
 bg_gray_100 :: ClassName
-bg_gray_100 = ClassName "hover\\:bg-gray-100"
+bg_gray_100 = ClassName "hover:bg-gray-100"
 
 bg_gray_200 :: ClassName
-bg_gray_200 = ClassName "hover\\:bg-gray-200"
+bg_gray_200 = ClassName "hover:bg-gray-200"
 
 bg_gray_300 :: ClassName
-bg_gray_300 = ClassName "hover\\:bg-gray-300"
+bg_gray_300 = ClassName "hover:bg-gray-300"
 
 bg_gray_400 :: ClassName
-bg_gray_400 = ClassName "hover\\:bg-gray-400"
+bg_gray_400 = ClassName "hover:bg-gray-400"
 
 bg_gray_50 :: ClassName
-bg_gray_50 = ClassName "hover\\:bg-gray-50"
+bg_gray_50 = ClassName "hover:bg-gray-50"
 
 bg_gray_500 :: ClassName
-bg_gray_500 = ClassName "hover\\:bg-gray-500"
+bg_gray_500 = ClassName "hover:bg-gray-500"
 
 bg_gray_600 :: ClassName
-bg_gray_600 = ClassName "hover\\:bg-gray-600"
+bg_gray_600 = ClassName "hover:bg-gray-600"
 
 bg_gray_70 :: ClassName
-bg_gray_70 = ClassName "hover\\:bg-gray-70"
+bg_gray_70 = ClassName "hover:bg-gray-70"
 
 bg_gray_700 :: ClassName
-bg_gray_700 = ClassName "hover\\:bg-gray-700"
+bg_gray_700 = ClassName "hover:bg-gray-700"
 
 bg_gray_80 :: ClassName
-bg_gray_80 = ClassName "hover\\:bg-gray-80"
+bg_gray_80 = ClassName "hover:bg-gray-80"
 
 bg_gray_800 :: ClassName
-bg_gray_800 = ClassName "hover\\:bg-gray-800"
+bg_gray_800 = ClassName "hover:bg-gray-800"
 
 bg_gray_90 :: ClassName
-bg_gray_90 = ClassName "hover\\:bg-gray-90"
+bg_gray_90 = ClassName "hover:bg-gray-90"
 
 bg_gray_900 :: ClassName
-bg_gray_900 = ClassName "hover\\:bg-gray-900"
+bg_gray_900 = ClassName "hover:bg-gray-900"
 
 bg_gray_95 :: ClassName
-bg_gray_95 = ClassName "hover\\:bg-gray-95"
+bg_gray_95 = ClassName "hover:bg-gray-95"
 
 bg_gray_97 :: ClassName
-bg_gray_97 = ClassName "hover\\:bg-gray-97"
+bg_gray_97 = ClassName "hover:bg-gray-97"
 
 bg_green_100 :: ClassName
-bg_green_100 = ClassName "hover\\:bg-green-100"
+bg_green_100 = ClassName "hover:bg-green-100"
 
 bg_green_200 :: ClassName
-bg_green_200 = ClassName "hover\\:bg-green-200"
+bg_green_200 = ClassName "hover:bg-green-200"
 
 bg_green_300 :: ClassName
-bg_green_300 = ClassName "hover\\:bg-green-300"
+bg_green_300 = ClassName "hover:bg-green-300"
 
 bg_green_400 :: ClassName
-bg_green_400 = ClassName "hover\\:bg-green-400"
+bg_green_400 = ClassName "hover:bg-green-400"
 
 bg_green_500 :: ClassName
-bg_green_500 = ClassName "hover\\:bg-green-500"
+bg_green_500 = ClassName "hover:bg-green-500"
 
 bg_green_600 :: ClassName
-bg_green_600 = ClassName "hover\\:bg-green-600"
+bg_green_600 = ClassName "hover:bg-green-600"
 
 bg_green_700 :: ClassName
-bg_green_700 = ClassName "hover\\:bg-green-700"
+bg_green_700 = ClassName "hover:bg-green-700"
 
 bg_green_800 :: ClassName
-bg_green_800 = ClassName "hover\\:bg-green-800"
+bg_green_800 = ClassName "hover:bg-green-800"
 
 bg_green_900 :: ClassName
-bg_green_900 = ClassName "hover\\:bg-green-900"
+bg_green_900 = ClassName "hover:bg-green-900"
 
 bg_indigo_100 :: ClassName
-bg_indigo_100 = ClassName "hover\\:bg-indigo-100"
+bg_indigo_100 = ClassName "hover:bg-indigo-100"
 
 bg_indigo_200 :: ClassName
-bg_indigo_200 = ClassName "hover\\:bg-indigo-200"
+bg_indigo_200 = ClassName "hover:bg-indigo-200"
 
 bg_indigo_300 :: ClassName
-bg_indigo_300 = ClassName "hover\\:bg-indigo-300"
+bg_indigo_300 = ClassName "hover:bg-indigo-300"
 
 bg_indigo_400 :: ClassName
-bg_indigo_400 = ClassName "hover\\:bg-indigo-400"
+bg_indigo_400 = ClassName "hover:bg-indigo-400"
 
 bg_indigo_500 :: ClassName
-bg_indigo_500 = ClassName "hover\\:bg-indigo-500"
+bg_indigo_500 = ClassName "hover:bg-indigo-500"
 
 bg_indigo_600 :: ClassName
-bg_indigo_600 = ClassName "hover\\:bg-indigo-600"
+bg_indigo_600 = ClassName "hover:bg-indigo-600"
 
 bg_indigo_700 :: ClassName
-bg_indigo_700 = ClassName "hover\\:bg-indigo-700"
+bg_indigo_700 = ClassName "hover:bg-indigo-700"
 
 bg_indigo_800 :: ClassName
-bg_indigo_800 = ClassName "hover\\:bg-indigo-800"
+bg_indigo_800 = ClassName "hover:bg-indigo-800"
 
 bg_indigo_900 :: ClassName
-bg_indigo_900 = ClassName "hover\\:bg-indigo-900"
+bg_indigo_900 = ClassName "hover:bg-indigo-900"
 
 bg_opacity_0 :: ClassName
-bg_opacity_0 = ClassName "hover\\:bg-opacity-0"
+bg_opacity_0 = ClassName "hover:bg-opacity-0"
 
 bg_opacity_100 :: ClassName
-bg_opacity_100 = ClassName "hover\\:bg-opacity-100"
+bg_opacity_100 = ClassName "hover:bg-opacity-100"
 
 bg_opacity_25 :: ClassName
-bg_opacity_25 = ClassName "hover\\:bg-opacity-25"
+bg_opacity_25 = ClassName "hover:bg-opacity-25"
 
 bg_opacity_50 :: ClassName
-bg_opacity_50 = ClassName "hover\\:bg-opacity-50"
+bg_opacity_50 = ClassName "hover:bg-opacity-50"
 
 bg_opacity_75 :: ClassName
-bg_opacity_75 = ClassName "hover\\:bg-opacity-75"
+bg_opacity_75 = ClassName "hover:bg-opacity-75"
 
 bg_orange_100 :: ClassName
-bg_orange_100 = ClassName "hover\\:bg-orange-100"
+bg_orange_100 = ClassName "hover:bg-orange-100"
 
 bg_orange_200 :: ClassName
-bg_orange_200 = ClassName "hover\\:bg-orange-200"
+bg_orange_200 = ClassName "hover:bg-orange-200"
 
 bg_orange_300 :: ClassName
-bg_orange_300 = ClassName "hover\\:bg-orange-300"
+bg_orange_300 = ClassName "hover:bg-orange-300"
 
 bg_orange_400 :: ClassName
-bg_orange_400 = ClassName "hover\\:bg-orange-400"
+bg_orange_400 = ClassName "hover:bg-orange-400"
 
 bg_orange_500 :: ClassName
-bg_orange_500 = ClassName "hover\\:bg-orange-500"
+bg_orange_500 = ClassName "hover:bg-orange-500"
 
 bg_orange_600 :: ClassName
-bg_orange_600 = ClassName "hover\\:bg-orange-600"
+bg_orange_600 = ClassName "hover:bg-orange-600"
 
 bg_orange_700 :: ClassName
-bg_orange_700 = ClassName "hover\\:bg-orange-700"
+bg_orange_700 = ClassName "hover:bg-orange-700"
 
 bg_orange_800 :: ClassName
-bg_orange_800 = ClassName "hover\\:bg-orange-800"
+bg_orange_800 = ClassName "hover:bg-orange-800"
 
 bg_orange_900 :: ClassName
-bg_orange_900 = ClassName "hover\\:bg-orange-900"
+bg_orange_900 = ClassName "hover:bg-orange-900"
 
 bg_pink_100 :: ClassName
-bg_pink_100 = ClassName "hover\\:bg-pink-100"
+bg_pink_100 = ClassName "hover:bg-pink-100"
 
 bg_pink_200 :: ClassName
-bg_pink_200 = ClassName "hover\\:bg-pink-200"
+bg_pink_200 = ClassName "hover:bg-pink-200"
 
 bg_pink_300 :: ClassName
-bg_pink_300 = ClassName "hover\\:bg-pink-300"
+bg_pink_300 = ClassName "hover:bg-pink-300"
 
 bg_pink_400 :: ClassName
-bg_pink_400 = ClassName "hover\\:bg-pink-400"
+bg_pink_400 = ClassName "hover:bg-pink-400"
 
 bg_pink_500 :: ClassName
-bg_pink_500 = ClassName "hover\\:bg-pink-500"
+bg_pink_500 = ClassName "hover:bg-pink-500"
 
 bg_pink_600 :: ClassName
-bg_pink_600 = ClassName "hover\\:bg-pink-600"
+bg_pink_600 = ClassName "hover:bg-pink-600"
 
 bg_pink_700 :: ClassName
-bg_pink_700 = ClassName "hover\\:bg-pink-700"
+bg_pink_700 = ClassName "hover:bg-pink-700"
 
 bg_pink_800 :: ClassName
-bg_pink_800 = ClassName "hover\\:bg-pink-800"
+bg_pink_800 = ClassName "hover:bg-pink-800"
 
 bg_pink_900 :: ClassName
-bg_pink_900 = ClassName "hover\\:bg-pink-900"
+bg_pink_900 = ClassName "hover:bg-pink-900"
 
 bg_purple_100 :: ClassName
-bg_purple_100 = ClassName "hover\\:bg-purple-100"
+bg_purple_100 = ClassName "hover:bg-purple-100"
 
 bg_purple_200 :: ClassName
-bg_purple_200 = ClassName "hover\\:bg-purple-200"
+bg_purple_200 = ClassName "hover:bg-purple-200"
 
 bg_purple_300 :: ClassName
-bg_purple_300 = ClassName "hover\\:bg-purple-300"
+bg_purple_300 = ClassName "hover:bg-purple-300"
 
 bg_purple_400 :: ClassName
-bg_purple_400 = ClassName "hover\\:bg-purple-400"
+bg_purple_400 = ClassName "hover:bg-purple-400"
 
 bg_purple_500 :: ClassName
-bg_purple_500 = ClassName "hover\\:bg-purple-500"
+bg_purple_500 = ClassName "hover:bg-purple-500"
 
 bg_purple_600 :: ClassName
-bg_purple_600 = ClassName "hover\\:bg-purple-600"
+bg_purple_600 = ClassName "hover:bg-purple-600"
 
 bg_purple_700 :: ClassName
-bg_purple_700 = ClassName "hover\\:bg-purple-700"
+bg_purple_700 = ClassName "hover:bg-purple-700"
 
 bg_purple_800 :: ClassName
-bg_purple_800 = ClassName "hover\\:bg-purple-800"
+bg_purple_800 = ClassName "hover:bg-purple-800"
 
 bg_purple_900 :: ClassName
-bg_purple_900 = ClassName "hover\\:bg-purple-900"
+bg_purple_900 = ClassName "hover:bg-purple-900"
 
 bg_red_100 :: ClassName
-bg_red_100 = ClassName "hover\\:bg-red-100"
+bg_red_100 = ClassName "hover:bg-red-100"
 
 bg_red_200 :: ClassName
-bg_red_200 = ClassName "hover\\:bg-red-200"
+bg_red_200 = ClassName "hover:bg-red-200"
 
 bg_red_300 :: ClassName
-bg_red_300 = ClassName "hover\\:bg-red-300"
+bg_red_300 = ClassName "hover:bg-red-300"
 
 bg_red_400 :: ClassName
-bg_red_400 = ClassName "hover\\:bg-red-400"
+bg_red_400 = ClassName "hover:bg-red-400"
 
 bg_red_500 :: ClassName
-bg_red_500 = ClassName "hover\\:bg-red-500"
+bg_red_500 = ClassName "hover:bg-red-500"
 
 bg_red_600 :: ClassName
-bg_red_600 = ClassName "hover\\:bg-red-600"
+bg_red_600 = ClassName "hover:bg-red-600"
 
 bg_red_700 :: ClassName
-bg_red_700 = ClassName "hover\\:bg-red-700"
+bg_red_700 = ClassName "hover:bg-red-700"
 
 bg_red_800 :: ClassName
-bg_red_800 = ClassName "hover\\:bg-red-800"
+bg_red_800 = ClassName "hover:bg-red-800"
 
 bg_red_900 :: ClassName
-bg_red_900 = ClassName "hover\\:bg-red-900"
+bg_red_900 = ClassName "hover:bg-red-900"
 
 bg_steel_100 :: ClassName
-bg_steel_100 = ClassName "hover\\:bg-steel-100"
+bg_steel_100 = ClassName "hover:bg-steel-100"
 
 bg_steel_75 :: ClassName
-bg_steel_75 = ClassName "hover\\:bg-steel-75"
+bg_steel_75 = ClassName "hover:bg-steel-75"
 
 bg_steel_85 :: ClassName
-bg_steel_85 = ClassName "hover\\:bg-steel-85"
+bg_steel_85 = ClassName "hover:bg-steel-85"
 
 bg_teal_100 :: ClassName
-bg_teal_100 = ClassName "hover\\:bg-teal-100"
+bg_teal_100 = ClassName "hover:bg-teal-100"
 
 bg_teal_200 :: ClassName
-bg_teal_200 = ClassName "hover\\:bg-teal-200"
+bg_teal_200 = ClassName "hover:bg-teal-200"
 
 bg_teal_300 :: ClassName
-bg_teal_300 = ClassName "hover\\:bg-teal-300"
+bg_teal_300 = ClassName "hover:bg-teal-300"
 
 bg_teal_400 :: ClassName
-bg_teal_400 = ClassName "hover\\:bg-teal-400"
+bg_teal_400 = ClassName "hover:bg-teal-400"
 
 bg_teal_500 :: ClassName
-bg_teal_500 = ClassName "hover\\:bg-teal-500"
+bg_teal_500 = ClassName "hover:bg-teal-500"
 
 bg_teal_600 :: ClassName
-bg_teal_600 = ClassName "hover\\:bg-teal-600"
+bg_teal_600 = ClassName "hover:bg-teal-600"
 
 bg_teal_700 :: ClassName
-bg_teal_700 = ClassName "hover\\:bg-teal-700"
+bg_teal_700 = ClassName "hover:bg-teal-700"
 
 bg_teal_800 :: ClassName
-bg_teal_800 = ClassName "hover\\:bg-teal-800"
+bg_teal_800 = ClassName "hover:bg-teal-800"
 
 bg_teal_900 :: ClassName
-bg_teal_900 = ClassName "hover\\:bg-teal-900"
+bg_teal_900 = ClassName "hover:bg-teal-900"
 
 bg_transparent :: ClassName
-bg_transparent = ClassName "hover\\:bg-transparent"
+bg_transparent = ClassName "hover:bg-transparent"
 
 bg_white :: ClassName
-bg_white = ClassName "hover\\:bg-white"
+bg_white = ClassName "hover:bg-white"
 
 bg_yellow_100 :: ClassName
-bg_yellow_100 = ClassName "hover\\:bg-yellow-100"
+bg_yellow_100 = ClassName "hover:bg-yellow-100"
 
 bg_yellow_200 :: ClassName
-bg_yellow_200 = ClassName "hover\\:bg-yellow-200"
+bg_yellow_200 = ClassName "hover:bg-yellow-200"
 
 bg_yellow_300 :: ClassName
-bg_yellow_300 = ClassName "hover\\:bg-yellow-300"
+bg_yellow_300 = ClassName "hover:bg-yellow-300"
 
 bg_yellow_400 :: ClassName
-bg_yellow_400 = ClassName "hover\\:bg-yellow-400"
+bg_yellow_400 = ClassName "hover:bg-yellow-400"
 
 bg_yellow_500 :: ClassName
-bg_yellow_500 = ClassName "hover\\:bg-yellow-500"
+bg_yellow_500 = ClassName "hover:bg-yellow-500"
 
 bg_yellow_600 :: ClassName
-bg_yellow_600 = ClassName "hover\\:bg-yellow-600"
+bg_yellow_600 = ClassName "hover:bg-yellow-600"
 
 bg_yellow_700 :: ClassName
-bg_yellow_700 = ClassName "hover\\:bg-yellow-700"
+bg_yellow_700 = ClassName "hover:bg-yellow-700"
 
 bg_yellow_800 :: ClassName
-bg_yellow_800 = ClassName "hover\\:bg-yellow-800"
+bg_yellow_800 = ClassName "hover:bg-yellow-800"
 
 bg_yellow_900 :: ClassName
-bg_yellow_900 = ClassName "hover\\:bg-yellow-900"
+bg_yellow_900 = ClassName "hover:bg-yellow-900"
 
 border :: ClassName
-border = ClassName "hover\\:border"
+border = ClassName "hover:border"
 
 border_0 :: ClassName
-border_0 = ClassName "hover\\:border-0"
+border_0 = ClassName "hover:border-0"
 
 border_2 :: ClassName
-border_2 = ClassName "hover\\:border-2"
+border_2 = ClassName "hover:border-2"
 
 border_3 :: ClassName
-border_3 = ClassName "hover\\:border-3"
+border_3 = ClassName "hover:border-3"
 
 border_4 :: ClassName
-border_4 = ClassName "hover\\:border-4"
+border_4 = ClassName "hover:border-4"
 
 border_8 :: ClassName
-border_8 = ClassName "hover\\:border-8"
+border_8 = ClassName "hover:border-8"
 
 border_b :: ClassName
-border_b = ClassName "hover\\:border-b"
+border_b = ClassName "hover:border-b"
 
 border_b_0 :: ClassName
-border_b_0 = ClassName "hover\\:border-b-0"
+border_b_0 = ClassName "hover:border-b-0"
 
 border_b_2 :: ClassName
-border_b_2 = ClassName "hover\\:border-b-2"
+border_b_2 = ClassName "hover:border-b-2"
 
 border_b_3 :: ClassName
-border_b_3 = ClassName "hover\\:border-b-3"
+border_b_3 = ClassName "hover:border-b-3"
 
 border_b_4 :: ClassName
-border_b_4 = ClassName "hover\\:border-b-4"
+border_b_4 = ClassName "hover:border-b-4"
 
 border_b_8 :: ClassName
-border_b_8 = ClassName "hover\\:border-b-8"
+border_b_8 = ClassName "hover:border-b-8"
 
 border_black :: ClassName
-border_black = ClassName "hover\\:border-black"
+border_black = ClassName "hover:border-black"
 
 border_black_10 :: ClassName
-border_black_10 = ClassName "hover\\:border-black-10"
+border_black_10 = ClassName "hover:border-black-10"
 
 border_black_20 :: ClassName
-border_black_20 = ClassName "hover\\:border-black-20"
+border_black_20 = ClassName "hover:border-black-20"
 
 border_blue_100 :: ClassName
-border_blue_100 = ClassName "hover\\:border-blue-100"
+border_blue_100 = ClassName "hover:border-blue-100"
 
 border_blue_200 :: ClassName
-border_blue_200 = ClassName "hover\\:border-blue-200"
+border_blue_200 = ClassName "hover:border-blue-200"
 
 border_blue_300 :: ClassName
-border_blue_300 = ClassName "hover\\:border-blue-300"
+border_blue_300 = ClassName "hover:border-blue-300"
 
 border_blue_400 :: ClassName
-border_blue_400 = ClassName "hover\\:border-blue-400"
+border_blue_400 = ClassName "hover:border-blue-400"
 
 border_blue_500 :: ClassName
-border_blue_500 = ClassName "hover\\:border-blue-500"
+border_blue_500 = ClassName "hover:border-blue-500"
 
 border_blue_600 :: ClassName
-border_blue_600 = ClassName "hover\\:border-blue-600"
+border_blue_600 = ClassName "hover:border-blue-600"
 
 border_blue_65 :: ClassName
-border_blue_65 = ClassName "hover\\:border-blue-65"
+border_blue_65 = ClassName "hover:border-blue-65"
 
 border_blue_700 :: ClassName
-border_blue_700 = ClassName "hover\\:border-blue-700"
+border_blue_700 = ClassName "hover:border-blue-700"
 
 border_blue_75 :: ClassName
-border_blue_75 = ClassName "hover\\:border-blue-75"
+border_blue_75 = ClassName "hover:border-blue-75"
 
 border_blue_800 :: ClassName
-border_blue_800 = ClassName "hover\\:border-blue-800"
+border_blue_800 = ClassName "hover:border-blue-800"
 
 border_blue_82 :: ClassName
-border_blue_82 = ClassName "hover\\:border-blue-82"
+border_blue_82 = ClassName "hover:border-blue-82"
 
 border_blue_88 :: ClassName
-border_blue_88 = ClassName "hover\\:border-blue-88"
+border_blue_88 = ClassName "hover:border-blue-88"
 
 border_blue_900 :: ClassName
-border_blue_900 = ClassName "hover\\:border-blue-900"
+border_blue_900 = ClassName "hover:border-blue-900"
 
 border_current :: ClassName
-border_current = ClassName "hover\\:border-current"
+border_current = ClassName "hover:border-current"
 
 border_gray_100 :: ClassName
-border_gray_100 = ClassName "hover\\:border-gray-100"
+border_gray_100 = ClassName "hover:border-gray-100"
 
 border_gray_200 :: ClassName
-border_gray_200 = ClassName "hover\\:border-gray-200"
+border_gray_200 = ClassName "hover:border-gray-200"
 
 border_gray_300 :: ClassName
-border_gray_300 = ClassName "hover\\:border-gray-300"
+border_gray_300 = ClassName "hover:border-gray-300"
 
 border_gray_400 :: ClassName
-border_gray_400 = ClassName "hover\\:border-gray-400"
+border_gray_400 = ClassName "hover:border-gray-400"
 
 border_gray_50 :: ClassName
-border_gray_50 = ClassName "hover\\:border-gray-50"
+border_gray_50 = ClassName "hover:border-gray-50"
 
 border_gray_500 :: ClassName
-border_gray_500 = ClassName "hover\\:border-gray-500"
+border_gray_500 = ClassName "hover:border-gray-500"
 
 border_gray_600 :: ClassName
-border_gray_600 = ClassName "hover\\:border-gray-600"
+border_gray_600 = ClassName "hover:border-gray-600"
 
 border_gray_70 :: ClassName
-border_gray_70 = ClassName "hover\\:border-gray-70"
+border_gray_70 = ClassName "hover:border-gray-70"
 
 border_gray_700 :: ClassName
-border_gray_700 = ClassName "hover\\:border-gray-700"
+border_gray_700 = ClassName "hover:border-gray-700"
 
 border_gray_80 :: ClassName
-border_gray_80 = ClassName "hover\\:border-gray-80"
+border_gray_80 = ClassName "hover:border-gray-80"
 
 border_gray_800 :: ClassName
-border_gray_800 = ClassName "hover\\:border-gray-800"
+border_gray_800 = ClassName "hover:border-gray-800"
 
 border_gray_90 :: ClassName
-border_gray_90 = ClassName "hover\\:border-gray-90"
+border_gray_90 = ClassName "hover:border-gray-90"
 
 border_gray_900 :: ClassName
-border_gray_900 = ClassName "hover\\:border-gray-900"
+border_gray_900 = ClassName "hover:border-gray-900"
 
 border_gray_95 :: ClassName
-border_gray_95 = ClassName "hover\\:border-gray-95"
+border_gray_95 = ClassName "hover:border-gray-95"
 
 border_gray_97 :: ClassName
-border_gray_97 = ClassName "hover\\:border-gray-97"
+border_gray_97 = ClassName "hover:border-gray-97"
 
 border_green_100 :: ClassName
-border_green_100 = ClassName "hover\\:border-green-100"
+border_green_100 = ClassName "hover:border-green-100"
 
 border_green_200 :: ClassName
-border_green_200 = ClassName "hover\\:border-green-200"
+border_green_200 = ClassName "hover:border-green-200"
 
 border_green_300 :: ClassName
-border_green_300 = ClassName "hover\\:border-green-300"
+border_green_300 = ClassName "hover:border-green-300"
 
 border_green_400 :: ClassName
-border_green_400 = ClassName "hover\\:border-green-400"
+border_green_400 = ClassName "hover:border-green-400"
 
 border_green_500 :: ClassName
-border_green_500 = ClassName "hover\\:border-green-500"
+border_green_500 = ClassName "hover:border-green-500"
 
 border_green_600 :: ClassName
-border_green_600 = ClassName "hover\\:border-green-600"
+border_green_600 = ClassName "hover:border-green-600"
 
 border_green_700 :: ClassName
-border_green_700 = ClassName "hover\\:border-green-700"
+border_green_700 = ClassName "hover:border-green-700"
 
 border_green_800 :: ClassName
-border_green_800 = ClassName "hover\\:border-green-800"
+border_green_800 = ClassName "hover:border-green-800"
 
 border_green_900 :: ClassName
-border_green_900 = ClassName "hover\\:border-green-900"
+border_green_900 = ClassName "hover:border-green-900"
 
 border_indigo_100 :: ClassName
-border_indigo_100 = ClassName "hover\\:border-indigo-100"
+border_indigo_100 = ClassName "hover:border-indigo-100"
 
 border_indigo_200 :: ClassName
-border_indigo_200 = ClassName "hover\\:border-indigo-200"
+border_indigo_200 = ClassName "hover:border-indigo-200"
 
 border_indigo_300 :: ClassName
-border_indigo_300 = ClassName "hover\\:border-indigo-300"
+border_indigo_300 = ClassName "hover:border-indigo-300"
 
 border_indigo_400 :: ClassName
-border_indigo_400 = ClassName "hover\\:border-indigo-400"
+border_indigo_400 = ClassName "hover:border-indigo-400"
 
 border_indigo_500 :: ClassName
-border_indigo_500 = ClassName "hover\\:border-indigo-500"
+border_indigo_500 = ClassName "hover:border-indigo-500"
 
 border_indigo_600 :: ClassName
-border_indigo_600 = ClassName "hover\\:border-indigo-600"
+border_indigo_600 = ClassName "hover:border-indigo-600"
 
 border_indigo_700 :: ClassName
-border_indigo_700 = ClassName "hover\\:border-indigo-700"
+border_indigo_700 = ClassName "hover:border-indigo-700"
 
 border_indigo_800 :: ClassName
-border_indigo_800 = ClassName "hover\\:border-indigo-800"
+border_indigo_800 = ClassName "hover:border-indigo-800"
 
 border_indigo_900 :: ClassName
-border_indigo_900 = ClassName "hover\\:border-indigo-900"
+border_indigo_900 = ClassName "hover:border-indigo-900"
 
 border_l :: ClassName
-border_l = ClassName "hover\\:border-l"
+border_l = ClassName "hover:border-l"
 
 border_l_0 :: ClassName
-border_l_0 = ClassName "hover\\:border-l-0"
+border_l_0 = ClassName "hover:border-l-0"
 
 border_l_2 :: ClassName
-border_l_2 = ClassName "hover\\:border-l-2"
+border_l_2 = ClassName "hover:border-l-2"
 
 border_l_3 :: ClassName
-border_l_3 = ClassName "hover\\:border-l-3"
+border_l_3 = ClassName "hover:border-l-3"
 
 border_l_4 :: ClassName
-border_l_4 = ClassName "hover\\:border-l-4"
+border_l_4 = ClassName "hover:border-l-4"
 
 border_l_8 :: ClassName
-border_l_8 = ClassName "hover\\:border-l-8"
+border_l_8 = ClassName "hover:border-l-8"
 
 border_opacity_0 :: ClassName
-border_opacity_0 = ClassName "hover\\:border-opacity-0"
+border_opacity_0 = ClassName "hover:border-opacity-0"
 
 border_opacity_100 :: ClassName
-border_opacity_100 = ClassName "hover\\:border-opacity-100"
+border_opacity_100 = ClassName "hover:border-opacity-100"
 
 border_opacity_25 :: ClassName
-border_opacity_25 = ClassName "hover\\:border-opacity-25"
+border_opacity_25 = ClassName "hover:border-opacity-25"
 
 border_opacity_50 :: ClassName
-border_opacity_50 = ClassName "hover\\:border-opacity-50"
+border_opacity_50 = ClassName "hover:border-opacity-50"
 
 border_opacity_75 :: ClassName
-border_opacity_75 = ClassName "hover\\:border-opacity-75"
+border_opacity_75 = ClassName "hover:border-opacity-75"
 
 border_orange_100 :: ClassName
-border_orange_100 = ClassName "hover\\:border-orange-100"
+border_orange_100 = ClassName "hover:border-orange-100"
 
 border_orange_200 :: ClassName
-border_orange_200 = ClassName "hover\\:border-orange-200"
+border_orange_200 = ClassName "hover:border-orange-200"
 
 border_orange_300 :: ClassName
-border_orange_300 = ClassName "hover\\:border-orange-300"
+border_orange_300 = ClassName "hover:border-orange-300"
 
 border_orange_400 :: ClassName
-border_orange_400 = ClassName "hover\\:border-orange-400"
+border_orange_400 = ClassName "hover:border-orange-400"
 
 border_orange_500 :: ClassName
-border_orange_500 = ClassName "hover\\:border-orange-500"
+border_orange_500 = ClassName "hover:border-orange-500"
 
 border_orange_600 :: ClassName
-border_orange_600 = ClassName "hover\\:border-orange-600"
+border_orange_600 = ClassName "hover:border-orange-600"
 
 border_orange_700 :: ClassName
-border_orange_700 = ClassName "hover\\:border-orange-700"
+border_orange_700 = ClassName "hover:border-orange-700"
 
 border_orange_800 :: ClassName
-border_orange_800 = ClassName "hover\\:border-orange-800"
+border_orange_800 = ClassName "hover:border-orange-800"
 
 border_orange_900 :: ClassName
-border_orange_900 = ClassName "hover\\:border-orange-900"
+border_orange_900 = ClassName "hover:border-orange-900"
 
 border_pink_100 :: ClassName
-border_pink_100 = ClassName "hover\\:border-pink-100"
+border_pink_100 = ClassName "hover:border-pink-100"
 
 border_pink_200 :: ClassName
-border_pink_200 = ClassName "hover\\:border-pink-200"
+border_pink_200 = ClassName "hover:border-pink-200"
 
 border_pink_300 :: ClassName
-border_pink_300 = ClassName "hover\\:border-pink-300"
+border_pink_300 = ClassName "hover:border-pink-300"
 
 border_pink_400 :: ClassName
-border_pink_400 = ClassName "hover\\:border-pink-400"
+border_pink_400 = ClassName "hover:border-pink-400"
 
 border_pink_500 :: ClassName
-border_pink_500 = ClassName "hover\\:border-pink-500"
+border_pink_500 = ClassName "hover:border-pink-500"
 
 border_pink_600 :: ClassName
-border_pink_600 = ClassName "hover\\:border-pink-600"
+border_pink_600 = ClassName "hover:border-pink-600"
 
 border_pink_700 :: ClassName
-border_pink_700 = ClassName "hover\\:border-pink-700"
+border_pink_700 = ClassName "hover:border-pink-700"
 
 border_pink_800 :: ClassName
-border_pink_800 = ClassName "hover\\:border-pink-800"
+border_pink_800 = ClassName "hover:border-pink-800"
 
 border_pink_900 :: ClassName
-border_pink_900 = ClassName "hover\\:border-pink-900"
+border_pink_900 = ClassName "hover:border-pink-900"
 
 border_purple_100 :: ClassName
-border_purple_100 = ClassName "hover\\:border-purple-100"
+border_purple_100 = ClassName "hover:border-purple-100"
 
 border_purple_200 :: ClassName
-border_purple_200 = ClassName "hover\\:border-purple-200"
+border_purple_200 = ClassName "hover:border-purple-200"
 
 border_purple_300 :: ClassName
-border_purple_300 = ClassName "hover\\:border-purple-300"
+border_purple_300 = ClassName "hover:border-purple-300"
 
 border_purple_400 :: ClassName
-border_purple_400 = ClassName "hover\\:border-purple-400"
+border_purple_400 = ClassName "hover:border-purple-400"
 
 border_purple_500 :: ClassName
-border_purple_500 = ClassName "hover\\:border-purple-500"
+border_purple_500 = ClassName "hover:border-purple-500"
 
 border_purple_600 :: ClassName
-border_purple_600 = ClassName "hover\\:border-purple-600"
+border_purple_600 = ClassName "hover:border-purple-600"
 
 border_purple_700 :: ClassName
-border_purple_700 = ClassName "hover\\:border-purple-700"
+border_purple_700 = ClassName "hover:border-purple-700"
 
 border_purple_800 :: ClassName
-border_purple_800 = ClassName "hover\\:border-purple-800"
+border_purple_800 = ClassName "hover:border-purple-800"
 
 border_purple_900 :: ClassName
-border_purple_900 = ClassName "hover\\:border-purple-900"
+border_purple_900 = ClassName "hover:border-purple-900"
 
 border_r :: ClassName
-border_r = ClassName "hover\\:border-r"
+border_r = ClassName "hover:border-r"
 
 border_r_0 :: ClassName
-border_r_0 = ClassName "hover\\:border-r-0"
+border_r_0 = ClassName "hover:border-r-0"
 
 border_r_2 :: ClassName
-border_r_2 = ClassName "hover\\:border-r-2"
+border_r_2 = ClassName "hover:border-r-2"
 
 border_r_3 :: ClassName
-border_r_3 = ClassName "hover\\:border-r-3"
+border_r_3 = ClassName "hover:border-r-3"
 
 border_r_4 :: ClassName
-border_r_4 = ClassName "hover\\:border-r-4"
+border_r_4 = ClassName "hover:border-r-4"
 
 border_r_8 :: ClassName
-border_r_8 = ClassName "hover\\:border-r-8"
+border_r_8 = ClassName "hover:border-r-8"
 
 border_red_100 :: ClassName
-border_red_100 = ClassName "hover\\:border-red-100"
+border_red_100 = ClassName "hover:border-red-100"
 
 border_red_200 :: ClassName
-border_red_200 = ClassName "hover\\:border-red-200"
+border_red_200 = ClassName "hover:border-red-200"
 
 border_red_300 :: ClassName
-border_red_300 = ClassName "hover\\:border-red-300"
+border_red_300 = ClassName "hover:border-red-300"
 
 border_red_400 :: ClassName
-border_red_400 = ClassName "hover\\:border-red-400"
+border_red_400 = ClassName "hover:border-red-400"
 
 border_red_500 :: ClassName
-border_red_500 = ClassName "hover\\:border-red-500"
+border_red_500 = ClassName "hover:border-red-500"
 
 border_red_600 :: ClassName
-border_red_600 = ClassName "hover\\:border-red-600"
+border_red_600 = ClassName "hover:border-red-600"
 
 border_red_700 :: ClassName
-border_red_700 = ClassName "hover\\:border-red-700"
+border_red_700 = ClassName "hover:border-red-700"
 
 border_red_800 :: ClassName
-border_red_800 = ClassName "hover\\:border-red-800"
+border_red_800 = ClassName "hover:border-red-800"
 
 border_red_900 :: ClassName
-border_red_900 = ClassName "hover\\:border-red-900"
+border_red_900 = ClassName "hover:border-red-900"
 
 border_steel_100 :: ClassName
-border_steel_100 = ClassName "hover\\:border-steel-100"
+border_steel_100 = ClassName "hover:border-steel-100"
 
 border_steel_75 :: ClassName
-border_steel_75 = ClassName "hover\\:border-steel-75"
+border_steel_75 = ClassName "hover:border-steel-75"
 
 border_steel_85 :: ClassName
-border_steel_85 = ClassName "hover\\:border-steel-85"
+border_steel_85 = ClassName "hover:border-steel-85"
 
 border_t :: ClassName
-border_t = ClassName "hover\\:border-t"
+border_t = ClassName "hover:border-t"
 
 border_t_0 :: ClassName
-border_t_0 = ClassName "hover\\:border-t-0"
+border_t_0 = ClassName "hover:border-t-0"
 
 border_t_2 :: ClassName
-border_t_2 = ClassName "hover\\:border-t-2"
+border_t_2 = ClassName "hover:border-t-2"
 
 border_t_3 :: ClassName
-border_t_3 = ClassName "hover\\:border-t-3"
+border_t_3 = ClassName "hover:border-t-3"
 
 border_t_4 :: ClassName
-border_t_4 = ClassName "hover\\:border-t-4"
+border_t_4 = ClassName "hover:border-t-4"
 
 border_t_8 :: ClassName
-border_t_8 = ClassName "hover\\:border-t-8"
+border_t_8 = ClassName "hover:border-t-8"
 
 border_teal_100 :: ClassName
-border_teal_100 = ClassName "hover\\:border-teal-100"
+border_teal_100 = ClassName "hover:border-teal-100"
 
 border_teal_200 :: ClassName
-border_teal_200 = ClassName "hover\\:border-teal-200"
+border_teal_200 = ClassName "hover:border-teal-200"
 
 border_teal_300 :: ClassName
-border_teal_300 = ClassName "hover\\:border-teal-300"
+border_teal_300 = ClassName "hover:border-teal-300"
 
 border_teal_400 :: ClassName
-border_teal_400 = ClassName "hover\\:border-teal-400"
+border_teal_400 = ClassName "hover:border-teal-400"
 
 border_teal_500 :: ClassName
-border_teal_500 = ClassName "hover\\:border-teal-500"
+border_teal_500 = ClassName "hover:border-teal-500"
 
 border_teal_600 :: ClassName
-border_teal_600 = ClassName "hover\\:border-teal-600"
+border_teal_600 = ClassName "hover:border-teal-600"
 
 border_teal_700 :: ClassName
-border_teal_700 = ClassName "hover\\:border-teal-700"
+border_teal_700 = ClassName "hover:border-teal-700"
 
 border_teal_800 :: ClassName
-border_teal_800 = ClassName "hover\\:border-teal-800"
+border_teal_800 = ClassName "hover:border-teal-800"
 
 border_teal_900 :: ClassName
-border_teal_900 = ClassName "hover\\:border-teal-900"
+border_teal_900 = ClassName "hover:border-teal-900"
 
 border_transparent :: ClassName
-border_transparent = ClassName "hover\\:border-transparent"
+border_transparent = ClassName "hover:border-transparent"
 
 border_white :: ClassName
-border_white = ClassName "hover\\:border-white"
+border_white = ClassName "hover:border-white"
 
 border_yellow_100 :: ClassName
-border_yellow_100 = ClassName "hover\\:border-yellow-100"
+border_yellow_100 = ClassName "hover:border-yellow-100"
 
 border_yellow_200 :: ClassName
-border_yellow_200 = ClassName "hover\\:border-yellow-200"
+border_yellow_200 = ClassName "hover:border-yellow-200"
 
 border_yellow_300 :: ClassName
-border_yellow_300 = ClassName "hover\\:border-yellow-300"
+border_yellow_300 = ClassName "hover:border-yellow-300"
 
 border_yellow_400 :: ClassName
-border_yellow_400 = ClassName "hover\\:border-yellow-400"
+border_yellow_400 = ClassName "hover:border-yellow-400"
 
 border_yellow_500 :: ClassName
-border_yellow_500 = ClassName "hover\\:border-yellow-500"
+border_yellow_500 = ClassName "hover:border-yellow-500"
 
 border_yellow_600 :: ClassName
-border_yellow_600 = ClassName "hover\\:border-yellow-600"
+border_yellow_600 = ClassName "hover:border-yellow-600"
 
 border_yellow_700 :: ClassName
-border_yellow_700 = ClassName "hover\\:border-yellow-700"
+border_yellow_700 = ClassName "hover:border-yellow-700"
 
 border_yellow_800 :: ClassName
-border_yellow_800 = ClassName "hover\\:border-yellow-800"
+border_yellow_800 = ClassName "hover:border-yellow-800"
 
 border_yellow_900 :: ClassName
-border_yellow_900 = ClassName "hover\\:border-yellow-900"
+border_yellow_900 = ClassName "hover:border-yellow-900"
 
 font_black :: ClassName
-font_black = ClassName "hover\\:font-black"
+font_black = ClassName "hover:font-black"
 
 font_bold :: ClassName
-font_bold = ClassName "hover\\:font-bold"
+font_bold = ClassName "hover:font-bold"
 
 font_extrabold :: ClassName
-font_extrabold = ClassName "hover\\:font-extrabold"
+font_extrabold = ClassName "hover:font-extrabold"
 
 font_hairline :: ClassName
-font_hairline = ClassName "hover\\:font-hairline"
+font_hairline = ClassName "hover:font-hairline"
 
 font_light :: ClassName
-font_light = ClassName "hover\\:font-light"
+font_light = ClassName "hover:font-light"
 
 font_medium :: ClassName
-font_medium = ClassName "hover\\:font-medium"
+font_medium = ClassName "hover:font-medium"
 
 font_normal :: ClassName
-font_normal = ClassName "hover\\:font-normal"
+font_normal = ClassName "hover:font-normal"
 
 font_semibold :: ClassName
-font_semibold = ClassName "hover\\:font-semibold"
+font_semibold = ClassName "hover:font-semibold"
 
 font_thin :: ClassName
-font_thin = ClassName "hover\\:font-thin"
+font_thin = ClassName "hover:font-thin"
 
 invisible :: ClassName
-invisible = ClassName "hover\\:invisible"
+invisible = ClassName "hover:invisible"
 
 line_through :: ClassName
-line_through = ClassName "hover\\:line-through"
+line_through = ClassName "hover:line-through"
 
 no_underline :: ClassName
-no_underline = ClassName "hover\\:no-underline"
+no_underline = ClassName "hover:no-underline"
 
 opacity_0 :: ClassName
-opacity_0 = ClassName "hover\\:opacity-0"
+opacity_0 = ClassName "hover:opacity-0"
 
 opacity_100 :: ClassName
-opacity_100 = ClassName "hover\\:opacity-100"
+opacity_100 = ClassName "hover:opacity-100"
 
 opacity_25 :: ClassName
-opacity_25 = ClassName "hover\\:opacity-25"
+opacity_25 = ClassName "hover:opacity-25"
 
 opacity_50 :: ClassName
-opacity_50 = ClassName "hover\\:opacity-50"
+opacity_50 = ClassName "hover:opacity-50"
 
 opacity_75 :: ClassName
-opacity_75 = ClassName "hover\\:opacity-75"
+opacity_75 = ClassName "hover:opacity-75"
 
 rotate_0 :: ClassName
-rotate_0 = ClassName "hover\\:rotate-0"
+rotate_0 = ClassName "hover:rotate-0"
 
 rotate_180 :: ClassName
-rotate_180 = ClassName "hover\\:rotate-180"
+rotate_180 = ClassName "hover:rotate-180"
 
 rotate_45 :: ClassName
-rotate_45 = ClassName "hover\\:rotate-45"
+rotate_45 = ClassName "hover:rotate-45"
 
 rotate_90 :: ClassName
-rotate_90 = ClassName "hover\\:rotate-90"
+rotate_90 = ClassName "hover:rotate-90"
 
 scale_0 :: ClassName
-scale_0 = ClassName "hover\\:scale-0"
+scale_0 = ClassName "hover:scale-0"
 
 scale_100 :: ClassName
-scale_100 = ClassName "hover\\:scale-100"
+scale_100 = ClassName "hover:scale-100"
 
 scale_105 :: ClassName
-scale_105 = ClassName "hover\\:scale-105"
+scale_105 = ClassName "hover:scale-105"
 
 scale_110 :: ClassName
-scale_110 = ClassName "hover\\:scale-110"
+scale_110 = ClassName "hover:scale-110"
 
 scale_125 :: ClassName
-scale_125 = ClassName "hover\\:scale-125"
+scale_125 = ClassName "hover:scale-125"
 
 scale_150 :: ClassName
-scale_150 = ClassName "hover\\:scale-150"
+scale_150 = ClassName "hover:scale-150"
 
 scale_50 :: ClassName
-scale_50 = ClassName "hover\\:scale-50"
+scale_50 = ClassName "hover:scale-50"
 
 scale_75 :: ClassName
-scale_75 = ClassName "hover\\:scale-75"
+scale_75 = ClassName "hover:scale-75"
 
 scale_90 :: ClassName
-scale_90 = ClassName "hover\\:scale-90"
+scale_90 = ClassName "hover:scale-90"
 
 scale_95 :: ClassName
-scale_95 = ClassName "hover\\:scale-95"
+scale_95 = ClassName "hover:scale-95"
 
 scale_x_0 :: ClassName
-scale_x_0 = ClassName "hover\\:scale-x-0"
+scale_x_0 = ClassName "hover:scale-x-0"
 
 scale_x_100 :: ClassName
-scale_x_100 = ClassName "hover\\:scale-x-100"
+scale_x_100 = ClassName "hover:scale-x-100"
 
 scale_x_105 :: ClassName
-scale_x_105 = ClassName "hover\\:scale-x-105"
+scale_x_105 = ClassName "hover:scale-x-105"
 
 scale_x_110 :: ClassName
-scale_x_110 = ClassName "hover\\:scale-x-110"
+scale_x_110 = ClassName "hover:scale-x-110"
 
 scale_x_125 :: ClassName
-scale_x_125 = ClassName "hover\\:scale-x-125"
+scale_x_125 = ClassName "hover:scale-x-125"
 
 scale_x_150 :: ClassName
-scale_x_150 = ClassName "hover\\:scale-x-150"
+scale_x_150 = ClassName "hover:scale-x-150"
 
 scale_x_50 :: ClassName
-scale_x_50 = ClassName "hover\\:scale-x-50"
+scale_x_50 = ClassName "hover:scale-x-50"
 
 scale_x_75 :: ClassName
-scale_x_75 = ClassName "hover\\:scale-x-75"
+scale_x_75 = ClassName "hover:scale-x-75"
 
 scale_x_90 :: ClassName
-scale_x_90 = ClassName "hover\\:scale-x-90"
+scale_x_90 = ClassName "hover:scale-x-90"
 
 scale_x_95 :: ClassName
-scale_x_95 = ClassName "hover\\:scale-x-95"
+scale_x_95 = ClassName "hover:scale-x-95"
 
 scale_y_0 :: ClassName
-scale_y_0 = ClassName "hover\\:scale-y-0"
+scale_y_0 = ClassName "hover:scale-y-0"
 
 scale_y_100 :: ClassName
-scale_y_100 = ClassName "hover\\:scale-y-100"
+scale_y_100 = ClassName "hover:scale-y-100"
 
 scale_y_105 :: ClassName
-scale_y_105 = ClassName "hover\\:scale-y-105"
+scale_y_105 = ClassName "hover:scale-y-105"
 
 scale_y_110 :: ClassName
-scale_y_110 = ClassName "hover\\:scale-y-110"
+scale_y_110 = ClassName "hover:scale-y-110"
 
 scale_y_125 :: ClassName
-scale_y_125 = ClassName "hover\\:scale-y-125"
+scale_y_125 = ClassName "hover:scale-y-125"
 
 scale_y_150 :: ClassName
-scale_y_150 = ClassName "hover\\:scale-y-150"
+scale_y_150 = ClassName "hover:scale-y-150"
 
 scale_y_50 :: ClassName
-scale_y_50 = ClassName "hover\\:scale-y-50"
+scale_y_50 = ClassName "hover:scale-y-50"
 
 scale_y_75 :: ClassName
-scale_y_75 = ClassName "hover\\:scale-y-75"
+scale_y_75 = ClassName "hover:scale-y-75"
 
 scale_y_90 :: ClassName
-scale_y_90 = ClassName "hover\\:scale-y-90"
+scale_y_90 = ClassName "hover:scale-y-90"
 
 scale_y_95 :: ClassName
-scale_y_95 = ClassName "hover\\:scale-y-95"
+scale_y_95 = ClassName "hover:scale-y-95"
 
 shadow :: ClassName
-shadow = ClassName "hover\\:shadow"
+shadow = ClassName "hover:shadow"
 
 shadow_2xl :: ClassName
-shadow_2xl = ClassName "hover\\:shadow-2xl"
+shadow_2xl = ClassName "hover:shadow-2xl"
 
 shadow_inner :: ClassName
-shadow_inner = ClassName "hover\\:shadow-inner"
+shadow_inner = ClassName "hover:shadow-inner"
 
 shadow_lg :: ClassName
-shadow_lg = ClassName "hover\\:shadow-lg"
+shadow_lg = ClassName "hover:shadow-lg"
 
 shadow_md :: ClassName
-shadow_md = ClassName "hover\\:shadow-md"
+shadow_md = ClassName "hover:shadow-md"
 
 shadow_none :: ClassName
-shadow_none = ClassName "hover\\:shadow-none"
+shadow_none = ClassName "hover:shadow-none"
 
 shadow_outline :: ClassName
-shadow_outline = ClassName "hover\\:shadow-outline"
+shadow_outline = ClassName "hover:shadow-outline"
 
 shadow_sm :: ClassName
-shadow_sm = ClassName "hover\\:shadow-sm"
+shadow_sm = ClassName "hover:shadow-sm"
 
 shadow_xl :: ClassName
-shadow_xl = ClassName "hover\\:shadow-xl"
+shadow_xl = ClassName "hover:shadow-xl"
 
 shadow_xs :: ClassName
-shadow_xs = ClassName "hover\\:shadow-xs"
+shadow_xs = ClassName "hover:shadow-xs"
 
 skew_x_0 :: ClassName
-skew_x_0 = ClassName "hover\\:skew-x-0"
+skew_x_0 = ClassName "hover:skew-x-0"
 
 skew_x_12 :: ClassName
-skew_x_12 = ClassName "hover\\:skew-x-12"
+skew_x_12 = ClassName "hover:skew-x-12"
 
 skew_x_3 :: ClassName
-skew_x_3 = ClassName "hover\\:skew-x-3"
+skew_x_3 = ClassName "hover:skew-x-3"
 
 skew_x_6 :: ClassName
-skew_x_6 = ClassName "hover\\:skew-x-6"
+skew_x_6 = ClassName "hover:skew-x-6"
 
 skew_y_0 :: ClassName
-skew_y_0 = ClassName "hover\\:skew-y-0"
+skew_y_0 = ClassName "hover:skew-y-0"
 
 skew_y_12 :: ClassName
-skew_y_12 = ClassName "hover\\:skew-y-12"
+skew_y_12 = ClassName "hover:skew-y-12"
 
 skew_y_3 :: ClassName
-skew_y_3 = ClassName "hover\\:skew-y-3"
+skew_y_3 = ClassName "hover:skew-y-3"
 
 skew_y_6 :: ClassName
-skew_y_6 = ClassName "hover\\:skew-y-6"
+skew_y_6 = ClassName "hover:skew-y-6"
 
 text_black :: ClassName
-text_black = ClassName "hover\\:text-black"
+text_black = ClassName "hover:text-black"
 
 text_black_10 :: ClassName
-text_black_10 = ClassName "hover\\:text-black-10"
+text_black_10 = ClassName "hover:text-black-10"
 
 text_black_20 :: ClassName
-text_black_20 = ClassName "hover\\:text-black-20"
+text_black_20 = ClassName "hover:text-black-20"
 
 text_blue_100 :: ClassName
-text_blue_100 = ClassName "hover\\:text-blue-100"
+text_blue_100 = ClassName "hover:text-blue-100"
 
 text_blue_200 :: ClassName
-text_blue_200 = ClassName "hover\\:text-blue-200"
+text_blue_200 = ClassName "hover:text-blue-200"
 
 text_blue_300 :: ClassName
-text_blue_300 = ClassName "hover\\:text-blue-300"
+text_blue_300 = ClassName "hover:text-blue-300"
 
 text_blue_400 :: ClassName
-text_blue_400 = ClassName "hover\\:text-blue-400"
+text_blue_400 = ClassName "hover:text-blue-400"
 
 text_blue_500 :: ClassName
-text_blue_500 = ClassName "hover\\:text-blue-500"
+text_blue_500 = ClassName "hover:text-blue-500"
 
 text_blue_600 :: ClassName
-text_blue_600 = ClassName "hover\\:text-blue-600"
+text_blue_600 = ClassName "hover:text-blue-600"
 
 text_blue_65 :: ClassName
-text_blue_65 = ClassName "hover\\:text-blue-65"
+text_blue_65 = ClassName "hover:text-blue-65"
 
 text_blue_700 :: ClassName
-text_blue_700 = ClassName "hover\\:text-blue-700"
+text_blue_700 = ClassName "hover:text-blue-700"
 
 text_blue_75 :: ClassName
-text_blue_75 = ClassName "hover\\:text-blue-75"
+text_blue_75 = ClassName "hover:text-blue-75"
 
 text_blue_800 :: ClassName
-text_blue_800 = ClassName "hover\\:text-blue-800"
+text_blue_800 = ClassName "hover:text-blue-800"
 
 text_blue_82 :: ClassName
-text_blue_82 = ClassName "hover\\:text-blue-82"
+text_blue_82 = ClassName "hover:text-blue-82"
 
 text_blue_88 :: ClassName
-text_blue_88 = ClassName "hover\\:text-blue-88"
+text_blue_88 = ClassName "hover:text-blue-88"
 
 text_blue_900 :: ClassName
-text_blue_900 = ClassName "hover\\:text-blue-900"
+text_blue_900 = ClassName "hover:text-blue-900"
 
 text_current :: ClassName
-text_current = ClassName "hover\\:text-current"
+text_current = ClassName "hover:text-current"
 
 text_gray_100 :: ClassName
-text_gray_100 = ClassName "hover\\:text-gray-100"
+text_gray_100 = ClassName "hover:text-gray-100"
 
 text_gray_200 :: ClassName
-text_gray_200 = ClassName "hover\\:text-gray-200"
+text_gray_200 = ClassName "hover:text-gray-200"
 
 text_gray_300 :: ClassName
-text_gray_300 = ClassName "hover\\:text-gray-300"
+text_gray_300 = ClassName "hover:text-gray-300"
 
 text_gray_400 :: ClassName
-text_gray_400 = ClassName "hover\\:text-gray-400"
+text_gray_400 = ClassName "hover:text-gray-400"
 
 text_gray_50 :: ClassName
-text_gray_50 = ClassName "hover\\:text-gray-50"
+text_gray_50 = ClassName "hover:text-gray-50"
 
 text_gray_500 :: ClassName
-text_gray_500 = ClassName "hover\\:text-gray-500"
+text_gray_500 = ClassName "hover:text-gray-500"
 
 text_gray_600 :: ClassName
-text_gray_600 = ClassName "hover\\:text-gray-600"
+text_gray_600 = ClassName "hover:text-gray-600"
 
 text_gray_70 :: ClassName
-text_gray_70 = ClassName "hover\\:text-gray-70"
+text_gray_70 = ClassName "hover:text-gray-70"
 
 text_gray_700 :: ClassName
-text_gray_700 = ClassName "hover\\:text-gray-700"
+text_gray_700 = ClassName "hover:text-gray-700"
 
 text_gray_80 :: ClassName
-text_gray_80 = ClassName "hover\\:text-gray-80"
+text_gray_80 = ClassName "hover:text-gray-80"
 
 text_gray_800 :: ClassName
-text_gray_800 = ClassName "hover\\:text-gray-800"
+text_gray_800 = ClassName "hover:text-gray-800"
 
 text_gray_90 :: ClassName
-text_gray_90 = ClassName "hover\\:text-gray-90"
+text_gray_90 = ClassName "hover:text-gray-90"
 
 text_gray_900 :: ClassName
-text_gray_900 = ClassName "hover\\:text-gray-900"
+text_gray_900 = ClassName "hover:text-gray-900"
 
 text_gray_95 :: ClassName
-text_gray_95 = ClassName "hover\\:text-gray-95"
+text_gray_95 = ClassName "hover:text-gray-95"
 
 text_gray_97 :: ClassName
-text_gray_97 = ClassName "hover\\:text-gray-97"
+text_gray_97 = ClassName "hover:text-gray-97"
 
 text_green_100 :: ClassName
-text_green_100 = ClassName "hover\\:text-green-100"
+text_green_100 = ClassName "hover:text-green-100"
 
 text_green_200 :: ClassName
-text_green_200 = ClassName "hover\\:text-green-200"
+text_green_200 = ClassName "hover:text-green-200"
 
 text_green_300 :: ClassName
-text_green_300 = ClassName "hover\\:text-green-300"
+text_green_300 = ClassName "hover:text-green-300"
 
 text_green_400 :: ClassName
-text_green_400 = ClassName "hover\\:text-green-400"
+text_green_400 = ClassName "hover:text-green-400"
 
 text_green_500 :: ClassName
-text_green_500 = ClassName "hover\\:text-green-500"
+text_green_500 = ClassName "hover:text-green-500"
 
 text_green_600 :: ClassName
-text_green_600 = ClassName "hover\\:text-green-600"
+text_green_600 = ClassName "hover:text-green-600"
 
 text_green_700 :: ClassName
-text_green_700 = ClassName "hover\\:text-green-700"
+text_green_700 = ClassName "hover:text-green-700"
 
 text_green_800 :: ClassName
-text_green_800 = ClassName "hover\\:text-green-800"
+text_green_800 = ClassName "hover:text-green-800"
 
 text_green_900 :: ClassName
-text_green_900 = ClassName "hover\\:text-green-900"
+text_green_900 = ClassName "hover:text-green-900"
 
 text_indigo_100 :: ClassName
-text_indigo_100 = ClassName "hover\\:text-indigo-100"
+text_indigo_100 = ClassName "hover:text-indigo-100"
 
 text_indigo_200 :: ClassName
-text_indigo_200 = ClassName "hover\\:text-indigo-200"
+text_indigo_200 = ClassName "hover:text-indigo-200"
 
 text_indigo_300 :: ClassName
-text_indigo_300 = ClassName "hover\\:text-indigo-300"
+text_indigo_300 = ClassName "hover:text-indigo-300"
 
 text_indigo_400 :: ClassName
-text_indigo_400 = ClassName "hover\\:text-indigo-400"
+text_indigo_400 = ClassName "hover:text-indigo-400"
 
 text_indigo_500 :: ClassName
-text_indigo_500 = ClassName "hover\\:text-indigo-500"
+text_indigo_500 = ClassName "hover:text-indigo-500"
 
 text_indigo_600 :: ClassName
-text_indigo_600 = ClassName "hover\\:text-indigo-600"
+text_indigo_600 = ClassName "hover:text-indigo-600"
 
 text_indigo_700 :: ClassName
-text_indigo_700 = ClassName "hover\\:text-indigo-700"
+text_indigo_700 = ClassName "hover:text-indigo-700"
 
 text_indigo_800 :: ClassName
-text_indigo_800 = ClassName "hover\\:text-indigo-800"
+text_indigo_800 = ClassName "hover:text-indigo-800"
 
 text_indigo_900 :: ClassName
-text_indigo_900 = ClassName "hover\\:text-indigo-900"
+text_indigo_900 = ClassName "hover:text-indigo-900"
 
 text_opacity_0 :: ClassName
-text_opacity_0 = ClassName "hover\\:text-opacity-0"
+text_opacity_0 = ClassName "hover:text-opacity-0"
 
 text_opacity_100 :: ClassName
-text_opacity_100 = ClassName "hover\\:text-opacity-100"
+text_opacity_100 = ClassName "hover:text-opacity-100"
 
 text_opacity_25 :: ClassName
-text_opacity_25 = ClassName "hover\\:text-opacity-25"
+text_opacity_25 = ClassName "hover:text-opacity-25"
 
 text_opacity_50 :: ClassName
-text_opacity_50 = ClassName "hover\\:text-opacity-50"
+text_opacity_50 = ClassName "hover:text-opacity-50"
 
 text_opacity_75 :: ClassName
-text_opacity_75 = ClassName "hover\\:text-opacity-75"
+text_opacity_75 = ClassName "hover:text-opacity-75"
 
 text_orange_100 :: ClassName
-text_orange_100 = ClassName "hover\\:text-orange-100"
+text_orange_100 = ClassName "hover:text-orange-100"
 
 text_orange_200 :: ClassName
-text_orange_200 = ClassName "hover\\:text-orange-200"
+text_orange_200 = ClassName "hover:text-orange-200"
 
 text_orange_300 :: ClassName
-text_orange_300 = ClassName "hover\\:text-orange-300"
+text_orange_300 = ClassName "hover:text-orange-300"
 
 text_orange_400 :: ClassName
-text_orange_400 = ClassName "hover\\:text-orange-400"
+text_orange_400 = ClassName "hover:text-orange-400"
 
 text_orange_500 :: ClassName
-text_orange_500 = ClassName "hover\\:text-orange-500"
+text_orange_500 = ClassName "hover:text-orange-500"
 
 text_orange_600 :: ClassName
-text_orange_600 = ClassName "hover\\:text-orange-600"
+text_orange_600 = ClassName "hover:text-orange-600"
 
 text_orange_700 :: ClassName
-text_orange_700 = ClassName "hover\\:text-orange-700"
+text_orange_700 = ClassName "hover:text-orange-700"
 
 text_orange_800 :: ClassName
-text_orange_800 = ClassName "hover\\:text-orange-800"
+text_orange_800 = ClassName "hover:text-orange-800"
 
 text_orange_900 :: ClassName
-text_orange_900 = ClassName "hover\\:text-orange-900"
+text_orange_900 = ClassName "hover:text-orange-900"
 
 text_pink_100 :: ClassName
-text_pink_100 = ClassName "hover\\:text-pink-100"
+text_pink_100 = ClassName "hover:text-pink-100"
 
 text_pink_200 :: ClassName
-text_pink_200 = ClassName "hover\\:text-pink-200"
+text_pink_200 = ClassName "hover:text-pink-200"
 
 text_pink_300 :: ClassName
-text_pink_300 = ClassName "hover\\:text-pink-300"
+text_pink_300 = ClassName "hover:text-pink-300"
 
 text_pink_400 :: ClassName
-text_pink_400 = ClassName "hover\\:text-pink-400"
+text_pink_400 = ClassName "hover:text-pink-400"
 
 text_pink_500 :: ClassName
-text_pink_500 = ClassName "hover\\:text-pink-500"
+text_pink_500 = ClassName "hover:text-pink-500"
 
 text_pink_600 :: ClassName
-text_pink_600 = ClassName "hover\\:text-pink-600"
+text_pink_600 = ClassName "hover:text-pink-600"
 
 text_pink_700 :: ClassName
-text_pink_700 = ClassName "hover\\:text-pink-700"
+text_pink_700 = ClassName "hover:text-pink-700"
 
 text_pink_800 :: ClassName
-text_pink_800 = ClassName "hover\\:text-pink-800"
+text_pink_800 = ClassName "hover:text-pink-800"
 
 text_pink_900 :: ClassName
-text_pink_900 = ClassName "hover\\:text-pink-900"
+text_pink_900 = ClassName "hover:text-pink-900"
 
 text_purple_100 :: ClassName
-text_purple_100 = ClassName "hover\\:text-purple-100"
+text_purple_100 = ClassName "hover:text-purple-100"
 
 text_purple_200 :: ClassName
-text_purple_200 = ClassName "hover\\:text-purple-200"
+text_purple_200 = ClassName "hover:text-purple-200"
 
 text_purple_300 :: ClassName
-text_purple_300 = ClassName "hover\\:text-purple-300"
+text_purple_300 = ClassName "hover:text-purple-300"
 
 text_purple_400 :: ClassName
-text_purple_400 = ClassName "hover\\:text-purple-400"
+text_purple_400 = ClassName "hover:text-purple-400"
 
 text_purple_500 :: ClassName
-text_purple_500 = ClassName "hover\\:text-purple-500"
+text_purple_500 = ClassName "hover:text-purple-500"
 
 text_purple_600 :: ClassName
-text_purple_600 = ClassName "hover\\:text-purple-600"
+text_purple_600 = ClassName "hover:text-purple-600"
 
 text_purple_700 :: ClassName
-text_purple_700 = ClassName "hover\\:text-purple-700"
+text_purple_700 = ClassName "hover:text-purple-700"
 
 text_purple_800 :: ClassName
-text_purple_800 = ClassName "hover\\:text-purple-800"
+text_purple_800 = ClassName "hover:text-purple-800"
 
 text_purple_900 :: ClassName
-text_purple_900 = ClassName "hover\\:text-purple-900"
+text_purple_900 = ClassName "hover:text-purple-900"
 
 text_red_100 :: ClassName
-text_red_100 = ClassName "hover\\:text-red-100"
+text_red_100 = ClassName "hover:text-red-100"
 
 text_red_200 :: ClassName
-text_red_200 = ClassName "hover\\:text-red-200"
+text_red_200 = ClassName "hover:text-red-200"
 
 text_red_300 :: ClassName
-text_red_300 = ClassName "hover\\:text-red-300"
+text_red_300 = ClassName "hover:text-red-300"
 
 text_red_400 :: ClassName
-text_red_400 = ClassName "hover\\:text-red-400"
+text_red_400 = ClassName "hover:text-red-400"
 
 text_red_500 :: ClassName
-text_red_500 = ClassName "hover\\:text-red-500"
+text_red_500 = ClassName "hover:text-red-500"
 
 text_red_600 :: ClassName
-text_red_600 = ClassName "hover\\:text-red-600"
+text_red_600 = ClassName "hover:text-red-600"
 
 text_red_700 :: ClassName
-text_red_700 = ClassName "hover\\:text-red-700"
+text_red_700 = ClassName "hover:text-red-700"
 
 text_red_800 :: ClassName
-text_red_800 = ClassName "hover\\:text-red-800"
+text_red_800 = ClassName "hover:text-red-800"
 
 text_red_900 :: ClassName
-text_red_900 = ClassName "hover\\:text-red-900"
+text_red_900 = ClassName "hover:text-red-900"
 
 text_steel_100 :: ClassName
-text_steel_100 = ClassName "hover\\:text-steel-100"
+text_steel_100 = ClassName "hover:text-steel-100"
 
 text_steel_75 :: ClassName
-text_steel_75 = ClassName "hover\\:text-steel-75"
+text_steel_75 = ClassName "hover:text-steel-75"
 
 text_steel_85 :: ClassName
-text_steel_85 = ClassName "hover\\:text-steel-85"
+text_steel_85 = ClassName "hover:text-steel-85"
 
 text_teal_100 :: ClassName
-text_teal_100 = ClassName "hover\\:text-teal-100"
+text_teal_100 = ClassName "hover:text-teal-100"
 
 text_teal_200 :: ClassName
-text_teal_200 = ClassName "hover\\:text-teal-200"
+text_teal_200 = ClassName "hover:text-teal-200"
 
 text_teal_300 :: ClassName
-text_teal_300 = ClassName "hover\\:text-teal-300"
+text_teal_300 = ClassName "hover:text-teal-300"
 
 text_teal_400 :: ClassName
-text_teal_400 = ClassName "hover\\:text-teal-400"
+text_teal_400 = ClassName "hover:text-teal-400"
 
 text_teal_500 :: ClassName
-text_teal_500 = ClassName "hover\\:text-teal-500"
+text_teal_500 = ClassName "hover:text-teal-500"
 
 text_teal_600 :: ClassName
-text_teal_600 = ClassName "hover\\:text-teal-600"
+text_teal_600 = ClassName "hover:text-teal-600"
 
 text_teal_700 :: ClassName
-text_teal_700 = ClassName "hover\\:text-teal-700"
+text_teal_700 = ClassName "hover:text-teal-700"
 
 text_teal_800 :: ClassName
-text_teal_800 = ClassName "hover\\:text-teal-800"
+text_teal_800 = ClassName "hover:text-teal-800"
 
 text_teal_900 :: ClassName
-text_teal_900 = ClassName "hover\\:text-teal-900"
+text_teal_900 = ClassName "hover:text-teal-900"
 
 text_transparent :: ClassName
-text_transparent = ClassName "hover\\:text-transparent"
+text_transparent = ClassName "hover:text-transparent"
 
 text_white :: ClassName
-text_white = ClassName "hover\\:text-white"
+text_white = ClassName "hover:text-white"
 
 text_yellow_100 :: ClassName
-text_yellow_100 = ClassName "hover\\:text-yellow-100"
+text_yellow_100 = ClassName "hover:text-yellow-100"
 
 text_yellow_200 :: ClassName
-text_yellow_200 = ClassName "hover\\:text-yellow-200"
+text_yellow_200 = ClassName "hover:text-yellow-200"
 
 text_yellow_300 :: ClassName
-text_yellow_300 = ClassName "hover\\:text-yellow-300"
+text_yellow_300 = ClassName "hover:text-yellow-300"
 
 text_yellow_400 :: ClassName
-text_yellow_400 = ClassName "hover\\:text-yellow-400"
+text_yellow_400 = ClassName "hover:text-yellow-400"
 
 text_yellow_500 :: ClassName
-text_yellow_500 = ClassName "hover\\:text-yellow-500"
+text_yellow_500 = ClassName "hover:text-yellow-500"
 
 text_yellow_600 :: ClassName
-text_yellow_600 = ClassName "hover\\:text-yellow-600"
+text_yellow_600 = ClassName "hover:text-yellow-600"
 
 text_yellow_700 :: ClassName
-text_yellow_700 = ClassName "hover\\:text-yellow-700"
+text_yellow_700 = ClassName "hover:text-yellow-700"
 
 text_yellow_800 :: ClassName
-text_yellow_800 = ClassName "hover\\:text-yellow-800"
+text_yellow_800 = ClassName "hover:text-yellow-800"
 
 text_yellow_900 :: ClassName
-text_yellow_900 = ClassName "hover\\:text-yellow-900"
+text_yellow_900 = ClassName "hover:text-yellow-900"
 
 translate_x_0 :: ClassName
-translate_x_0 = ClassName "hover\\:translate-x-0"
+translate_x_0 = ClassName "hover:translate-x-0"
 
 translate_x_1 :: ClassName
-translate_x_1 = ClassName "hover\\:translate-x-1"
+translate_x_1 = ClassName "hover:translate-x-1"
 
 translate_x_10 :: ClassName
-translate_x_10 = ClassName "hover\\:translate-x-10"
+translate_x_10 = ClassName "hover:translate-x-10"
 
 translate_x_12 :: ClassName
-translate_x_12 = ClassName "hover\\:translate-x-12"
+translate_x_12 = ClassName "hover:translate-x-12"
 
 translate_x_120 :: ClassName
-translate_x_120 = ClassName "hover\\:translate-x-120"
+translate_x_120 = ClassName "hover:translate-x-120"
 
 translate_x_14 :: ClassName
-translate_x_14 = ClassName "hover\\:translate-x-14"
+translate_x_14 = ClassName "hover:translate-x-14"
 
 translate_x_16 :: ClassName
-translate_x_16 = ClassName "hover\\:translate-x-16"
+translate_x_16 = ClassName "hover:translate-x-16"
 
 translate_x_160 :: ClassName
-translate_x_160 = ClassName "hover\\:translate-x-160"
+translate_x_160 = ClassName "hover:translate-x-160"
 
 translate_x_1_over_2 :: ClassName
-translate_x_1_over_2 = ClassName "hover\\:translate-x-1\\/2"
+translate_x_1_over_2 = ClassName "hover:translate-x-1/2"
 
 translate_x_2 :: ClassName
-translate_x_2 = ClassName "hover\\:translate-x-2"
+translate_x_2 = ClassName "hover:translate-x-2"
 
 translate_x_20 :: ClassName
-translate_x_20 = ClassName "hover\\:translate-x-20"
+translate_x_20 = ClassName "hover:translate-x-20"
 
 translate_x_24 :: ClassName
-translate_x_24 = ClassName "hover\\:translate-x-24"
+translate_x_24 = ClassName "hover:translate-x-24"
 
 translate_x_3 :: ClassName
-translate_x_3 = ClassName "hover\\:translate-x-3"
+translate_x_3 = ClassName "hover:translate-x-3"
 
 translate_x_30 :: ClassName
-translate_x_30 = ClassName "hover\\:translate-x-30"
+translate_x_30 = ClassName "hover:translate-x-30"
 
 translate_x_32 :: ClassName
-translate_x_32 = ClassName "hover\\:translate-x-32"
+translate_x_32 = ClassName "hover:translate-x-32"
 
 translate_x_4 :: ClassName
-translate_x_4 = ClassName "hover\\:translate-x-4"
+translate_x_4 = ClassName "hover:translate-x-4"
 
 translate_x_40 :: ClassName
-translate_x_40 = ClassName "hover\\:translate-x-40"
+translate_x_40 = ClassName "hover:translate-x-40"
 
 translate_x_48 :: ClassName
-translate_x_48 = ClassName "hover\\:translate-x-48"
+translate_x_48 = ClassName "hover:translate-x-48"
 
 translate_x_5 :: ClassName
-translate_x_5 = ClassName "hover\\:translate-x-5"
+translate_x_5 = ClassName "hover:translate-x-5"
 
 translate_x_50 :: ClassName
-translate_x_50 = ClassName "hover\\:translate-x-50"
+translate_x_50 = ClassName "hover:translate-x-50"
 
 translate_x_56 :: ClassName
-translate_x_56 = ClassName "hover\\:translate-x-56"
+translate_x_56 = ClassName "hover:translate-x-56"
 
 translate_x_6 :: ClassName
-translate_x_6 = ClassName "hover\\:translate-x-6"
+translate_x_6 = ClassName "hover:translate-x-6"
 
 translate_x_60 :: ClassName
-translate_x_60 = ClassName "hover\\:translate-x-60"
+translate_x_60 = ClassName "hover:translate-x-60"
 
 translate_x_64 :: ClassName
-translate_x_64 = ClassName "hover\\:translate-x-64"
+translate_x_64 = ClassName "hover:translate-x-64"
 
 translate_x_7 :: ClassName
-translate_x_7 = ClassName "hover\\:translate-x-7"
+translate_x_7 = ClassName "hover:translate-x-7"
 
 translate_x_8 :: ClassName
-translate_x_8 = ClassName "hover\\:translate-x-8"
+translate_x_8 = ClassName "hover:translate-x-8"
 
 translate_x_80 :: ClassName
-translate_x_80 = ClassName "hover\\:translate-x-80"
+translate_x_80 = ClassName "hover:translate-x-80"
 
 translate_x_9 :: ClassName
-translate_x_9 = ClassName "hover\\:translate-x-9"
+translate_x_9 = ClassName "hover:translate-x-9"
 
 translate_x_90 :: ClassName
-translate_x_90 = ClassName "hover\\:translate-x-90"
+translate_x_90 = ClassName "hover:translate-x-90"
 
 translate_x_full :: ClassName
-translate_x_full = ClassName "hover\\:translate-x-full"
+translate_x_full = ClassName "hover:translate-x-full"
 
 translate_x_px :: ClassName
-translate_x_px = ClassName "hover\\:translate-x-px"
+translate_x_px = ClassName "hover:translate-x-px"
 
 translate_y_0 :: ClassName
-translate_y_0 = ClassName "hover\\:translate-y-0"
+translate_y_0 = ClassName "hover:translate-y-0"
 
 translate_y_1 :: ClassName
-translate_y_1 = ClassName "hover\\:translate-y-1"
+translate_y_1 = ClassName "hover:translate-y-1"
 
 translate_y_10 :: ClassName
-translate_y_10 = ClassName "hover\\:translate-y-10"
+translate_y_10 = ClassName "hover:translate-y-10"
 
 translate_y_12 :: ClassName
-translate_y_12 = ClassName "hover\\:translate-y-12"
+translate_y_12 = ClassName "hover:translate-y-12"
 
 translate_y_120 :: ClassName
-translate_y_120 = ClassName "hover\\:translate-y-120"
+translate_y_120 = ClassName "hover:translate-y-120"
 
 translate_y_14 :: ClassName
-translate_y_14 = ClassName "hover\\:translate-y-14"
+translate_y_14 = ClassName "hover:translate-y-14"
 
 translate_y_16 :: ClassName
-translate_y_16 = ClassName "hover\\:translate-y-16"
+translate_y_16 = ClassName "hover:translate-y-16"
 
 translate_y_160 :: ClassName
-translate_y_160 = ClassName "hover\\:translate-y-160"
+translate_y_160 = ClassName "hover:translate-y-160"
 
 translate_y_1_over_2 :: ClassName
-translate_y_1_over_2 = ClassName "hover\\:translate-y-1\\/2"
+translate_y_1_over_2 = ClassName "hover:translate-y-1/2"
 
 translate_y_2 :: ClassName
-translate_y_2 = ClassName "hover\\:translate-y-2"
+translate_y_2 = ClassName "hover:translate-y-2"
 
 translate_y_20 :: ClassName
-translate_y_20 = ClassName "hover\\:translate-y-20"
+translate_y_20 = ClassName "hover:translate-y-20"
 
 translate_y_24 :: ClassName
-translate_y_24 = ClassName "hover\\:translate-y-24"
+translate_y_24 = ClassName "hover:translate-y-24"
 
 translate_y_3 :: ClassName
-translate_y_3 = ClassName "hover\\:translate-y-3"
+translate_y_3 = ClassName "hover:translate-y-3"
 
 translate_y_30 :: ClassName
-translate_y_30 = ClassName "hover\\:translate-y-30"
+translate_y_30 = ClassName "hover:translate-y-30"
 
 translate_y_32 :: ClassName
-translate_y_32 = ClassName "hover\\:translate-y-32"
+translate_y_32 = ClassName "hover:translate-y-32"
 
 translate_y_4 :: ClassName
-translate_y_4 = ClassName "hover\\:translate-y-4"
+translate_y_4 = ClassName "hover:translate-y-4"
 
 translate_y_40 :: ClassName
-translate_y_40 = ClassName "hover\\:translate-y-40"
+translate_y_40 = ClassName "hover:translate-y-40"
 
 translate_y_48 :: ClassName
-translate_y_48 = ClassName "hover\\:translate-y-48"
+translate_y_48 = ClassName "hover:translate-y-48"
 
 translate_y_5 :: ClassName
-translate_y_5 = ClassName "hover\\:translate-y-5"
+translate_y_5 = ClassName "hover:translate-y-5"
 
 translate_y_50 :: ClassName
-translate_y_50 = ClassName "hover\\:translate-y-50"
+translate_y_50 = ClassName "hover:translate-y-50"
 
 translate_y_56 :: ClassName
-translate_y_56 = ClassName "hover\\:translate-y-56"
+translate_y_56 = ClassName "hover:translate-y-56"
 
 translate_y_6 :: ClassName
-translate_y_6 = ClassName "hover\\:translate-y-6"
+translate_y_6 = ClassName "hover:translate-y-6"
 
 translate_y_60 :: ClassName
-translate_y_60 = ClassName "hover\\:translate-y-60"
+translate_y_60 = ClassName "hover:translate-y-60"
 
 translate_y_64 :: ClassName
-translate_y_64 = ClassName "hover\\:translate-y-64"
+translate_y_64 = ClassName "hover:translate-y-64"
 
 translate_y_7 :: ClassName
-translate_y_7 = ClassName "hover\\:translate-y-7"
+translate_y_7 = ClassName "hover:translate-y-7"
 
 translate_y_8 :: ClassName
-translate_y_8 = ClassName "hover\\:translate-y-8"
+translate_y_8 = ClassName "hover:translate-y-8"
 
 translate_y_80 :: ClassName
-translate_y_80 = ClassName "hover\\:translate-y-80"
+translate_y_80 = ClassName "hover:translate-y-80"
 
 translate_y_9 :: ClassName
-translate_y_9 = ClassName "hover\\:translate-y-9"
+translate_y_9 = ClassName "hover:translate-y-9"
 
 translate_y_90 :: ClassName
-translate_y_90 = ClassName "hover\\:translate-y-90"
+translate_y_90 = ClassName "hover:translate-y-90"
 
 translate_y_full :: ClassName
-translate_y_full = ClassName "hover\\:translate-y-full"
+translate_y_full = ClassName "hover:translate-y-full"
 
 translate_y_px :: ClassName
-translate_y_px = ClassName "hover\\:translate-y-px"
+translate_y_px = ClassName "hover:translate-y-px"
 
 underline :: ClassName
-underline = ClassName "hover\\:underline"
+underline = ClassName "hover:underline"
 
 visible :: ClassName
-visible = ClassName "hover\\:visible"
+visible = ClassName "hover:visible"
 

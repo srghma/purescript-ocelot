@@ -21,7 +21,8 @@ baseClasses =
 badgeClasses :: Array HH.ClassName
 badgeClasses =
   baseClasses
-    <> [ TailwindClasses.w_8
+    <>
+      [ TailwindClasses.w_8
       , TailwindClasses.h_8
       ]
 
@@ -41,7 +42,8 @@ badge_ = badge []
 badgeSmallClasses :: Array HH.ClassName
 badgeSmallClasses =
   baseClasses
-    <> [ TailwindClasses.w_6
+    <>
+      [ TailwindClasses.w_6
       , TailwindClasses.h_6
       , TailwindClasses.text_sm
       ]
@@ -62,7 +64,8 @@ badgeSmall_ = badgeSmall []
 badgeLargeClasses :: Array HH.ClassName
 badgeLargeClasses =
   baseClasses
-    <> [ TailwindClasses.w_12
+    <>
+      [ TailwindClasses.w_12
       , TailwindClasses.h_12
       ]
 

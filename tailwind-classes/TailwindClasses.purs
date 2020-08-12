@@ -810,7 +810,7 @@ not_translate_x_160 :: ClassName
 not_translate_x_160 = ClassName "-translate-x-160"
 
 not_translate_x_1_over_2 :: ClassName
-not_translate_x_1_over_2 = ClassName "-translate-x-1\\/2"
+not_translate_x_1_over_2 = ClassName "-translate-x-1/2"
 
 not_translate_x_2 :: ClassName
 not_translate_x_2 = ClassName "-translate-x-2"
@@ -900,7 +900,7 @@ not_translate_y_160 :: ClassName
 not_translate_y_160 = ClassName "-translate-y-160"
 
 not_translate_y_1_over_2 :: ClassName
-not_translate_y_1_over_2 = ClassName "-translate-y-1\\/2"
+not_translate_y_1_over_2 = ClassName "-translate-y-1/2"
 
 not_translate_y_2 :: ClassName
 not_translate_y_2 = ClassName "-translate-y-2"
@@ -6195,7 +6195,7 @@ translate_x_160 :: ClassName
 translate_x_160 = ClassName "translate-x-160"
 
 translate_x_1_over_2 :: ClassName
-translate_x_1_over_2 = ClassName "translate-x-1\\/2"
+translate_x_1_over_2 = ClassName "translate-x-1/2"
 
 translate_x_2 :: ClassName
 translate_x_2 = ClassName "translate-x-2"
@@ -6288,7 +6288,7 @@ translate_y_160 :: ClassName
 translate_y_160 = ClassName "translate-y-160"
 
 translate_y_1_over_2 :: ClassName
-translate_y_1_over_2 = ClassName "translate-y-1\\/2"
+translate_y_1_over_2 = ClassName "translate-y-1/2"
 
 translate_y_2 :: ClassName
 translate_y_2 = ClassName "translate-y-2"
@@ -6378,10 +6378,10 @@ w_10 :: ClassName
 w_10 = ClassName "w-10"
 
 w_10_over_12 :: ClassName
-w_10_over_12 = ClassName "w-10\\/12"
+w_10_over_12 = ClassName "w-10/12"
 
 w_11_over_12 :: ClassName
-w_11_over_12 = ClassName "w-11\\/12"
+w_11_over_12 = ClassName "w-11/12"
 
 w_12 :: ClassName
 w_12 = ClassName "w-12"
@@ -6399,22 +6399,22 @@ w_160 :: ClassName
 w_160 = ClassName "w-160"
 
 w_1_over_12 :: ClassName
-w_1_over_12 = ClassName "w-1\\/12"
+w_1_over_12 = ClassName "w-1/12"
 
 w_1_over_2 :: ClassName
-w_1_over_2 = ClassName "w-1\\/2"
+w_1_over_2 = ClassName "w-1/2"
 
 w_1_over_3 :: ClassName
-w_1_over_3 = ClassName "w-1\\/3"
+w_1_over_3 = ClassName "w-1/3"
 
 w_1_over_4 :: ClassName
-w_1_over_4 = ClassName "w-1\\/4"
+w_1_over_4 = ClassName "w-1/4"
 
 w_1_over_5 :: ClassName
-w_1_over_5 = ClassName "w-1\\/5"
+w_1_over_5 = ClassName "w-1/5"
 
 w_1_over_6 :: ClassName
-w_1_over_6 = ClassName "w-1\\/6"
+w_1_over_6 = ClassName "w-1/6"
 
 w_2 :: ClassName
 w_2 = ClassName "w-2"
@@ -6426,19 +6426,19 @@ w_24 :: ClassName
 w_24 = ClassName "w-24"
 
 w_2_over_12 :: ClassName
-w_2_over_12 = ClassName "w-2\\/12"
+w_2_over_12 = ClassName "w-2/12"
 
 w_2_over_3 :: ClassName
-w_2_over_3 = ClassName "w-2\\/3"
+w_2_over_3 = ClassName "w-2/3"
 
 w_2_over_4 :: ClassName
-w_2_over_4 = ClassName "w-2\\/4"
+w_2_over_4 = ClassName "w-2/4"
 
 w_2_over_5 :: ClassName
-w_2_over_5 = ClassName "w-2\\/5"
+w_2_over_5 = ClassName "w-2/5"
 
 w_2_over_6 :: ClassName
-w_2_over_6 = ClassName "w-2\\/6"
+w_2_over_6 = ClassName "w-2/6"
 
 w_3 :: ClassName
 w_3 = ClassName "w-3"
@@ -6450,16 +6450,16 @@ w_32 :: ClassName
 w_32 = ClassName "w-32"
 
 w_3_over_12 :: ClassName
-w_3_over_12 = ClassName "w-3\\/12"
+w_3_over_12 = ClassName "w-3/12"
 
 w_3_over_4 :: ClassName
-w_3_over_4 = ClassName "w-3\\/4"
+w_3_over_4 = ClassName "w-3/4"
 
 w_3_over_5 :: ClassName
-w_3_over_5 = ClassName "w-3\\/5"
+w_3_over_5 = ClassName "w-3/5"
 
 w_3_over_6 :: ClassName
-w_3_over_6 = ClassName "w-3\\/6"
+w_3_over_6 = ClassName "w-3/6"
 
 w_4 :: ClassName
 w_4 = ClassName "w-4"
@@ -6471,13 +6471,13 @@ w_48 :: ClassName
 w_48 = ClassName "w-48"
 
 w_4_over_12 :: ClassName
-w_4_over_12 = ClassName "w-4\\/12"
+w_4_over_12 = ClassName "w-4/12"
 
 w_4_over_5 :: ClassName
-w_4_over_5 = ClassName "w-4\\/5"
+w_4_over_5 = ClassName "w-4/5"
 
 w_4_over_6 :: ClassName
-w_4_over_6 = ClassName "w-4\\/6"
+w_4_over_6 = ClassName "w-4/6"
 
 w_5 :: ClassName
 w_5 = ClassName "w-5"
@@ -6489,10 +6489,10 @@ w_56 :: ClassName
 w_56 = ClassName "w-56"
 
 w_5_over_12 :: ClassName
-w_5_over_12 = ClassName "w-5\\/12"
+w_5_over_12 = ClassName "w-5/12"
 
 w_5_over_6 :: ClassName
-w_5_over_6 = ClassName "w-5\\/6"
+w_5_over_6 = ClassName "w-5/6"
 
 w_6 :: ClassName
 w_6 = ClassName "w-6"
@@ -6504,13 +6504,13 @@ w_64 :: ClassName
 w_64 = ClassName "w-64"
 
 w_6_over_12 :: ClassName
-w_6_over_12 = ClassName "w-6\\/12"
+w_6_over_12 = ClassName "w-6/12"
 
 w_7 :: ClassName
 w_7 = ClassName "w-7"
 
 w_7_over_12 :: ClassName
-w_7_over_12 = ClassName "w-7\\/12"
+w_7_over_12 = ClassName "w-7/12"
 
 w_8 :: ClassName
 w_8 = ClassName "w-8"
@@ -6519,7 +6519,7 @@ w_80 :: ClassName
 w_80 = ClassName "w-80"
 
 w_8_over_12 :: ClassName
-w_8_over_12 = ClassName "w-8\\/12"
+w_8_over_12 = ClassName "w-8/12"
 
 w_9 :: ClassName
 w_9 = ClassName "w-9"
@@ -6528,7 +6528,7 @@ w_90 :: ClassName
 w_90 = ClassName "w-90"
 
 w_9_over_12 :: ClassName
-w_9_over_12 = ClassName "w-9\\/12"
+w_9_over_12 = ClassName "w-9/12"
 
 w_auto :: ClassName
 w_auto = ClassName "w-auto"

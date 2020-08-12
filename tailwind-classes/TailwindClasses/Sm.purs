@@ -6,6572 +6,6572 @@ module TailwindClasses.Sm (not_m_1, not_m_10, not_m_12, not_m_120, not_m_14, not
 import Halogen.HTML (ClassName(..))
 
 not_m_1 :: ClassName
-not_m_1 = ClassName "sm\\:-m-1"
+not_m_1 = ClassName "sm:-m-1"
 
 not_m_10 :: ClassName
-not_m_10 = ClassName "sm\\:-m-10"
+not_m_10 = ClassName "sm:-m-10"
 
 not_m_12 :: ClassName
-not_m_12 = ClassName "sm\\:-m-12"
+not_m_12 = ClassName "sm:-m-12"
 
 not_m_120 :: ClassName
-not_m_120 = ClassName "sm\\:-m-120"
+not_m_120 = ClassName "sm:-m-120"
 
 not_m_14 :: ClassName
-not_m_14 = ClassName "sm\\:-m-14"
+not_m_14 = ClassName "sm:-m-14"
 
 not_m_16 :: ClassName
-not_m_16 = ClassName "sm\\:-m-16"
+not_m_16 = ClassName "sm:-m-16"
 
 not_m_160 :: ClassName
-not_m_160 = ClassName "sm\\:-m-160"
+not_m_160 = ClassName "sm:-m-160"
 
 not_m_2 :: ClassName
-not_m_2 = ClassName "sm\\:-m-2"
+not_m_2 = ClassName "sm:-m-2"
 
 not_m_20 :: ClassName
-not_m_20 = ClassName "sm\\:-m-20"
+not_m_20 = ClassName "sm:-m-20"
 
 not_m_24 :: ClassName
-not_m_24 = ClassName "sm\\:-m-24"
+not_m_24 = ClassName "sm:-m-24"
 
 not_m_3 :: ClassName
-not_m_3 = ClassName "sm\\:-m-3"
+not_m_3 = ClassName "sm:-m-3"
 
 not_m_30 :: ClassName
-not_m_30 = ClassName "sm\\:-m-30"
+not_m_30 = ClassName "sm:-m-30"
 
 not_m_32 :: ClassName
-not_m_32 = ClassName "sm\\:-m-32"
+not_m_32 = ClassName "sm:-m-32"
 
 not_m_4 :: ClassName
-not_m_4 = ClassName "sm\\:-m-4"
+not_m_4 = ClassName "sm:-m-4"
 
 not_m_40 :: ClassName
-not_m_40 = ClassName "sm\\:-m-40"
+not_m_40 = ClassName "sm:-m-40"
 
 not_m_48 :: ClassName
-not_m_48 = ClassName "sm\\:-m-48"
+not_m_48 = ClassName "sm:-m-48"
 
 not_m_5 :: ClassName
-not_m_5 = ClassName "sm\\:-m-5"
+not_m_5 = ClassName "sm:-m-5"
 
 not_m_50 :: ClassName
-not_m_50 = ClassName "sm\\:-m-50"
+not_m_50 = ClassName "sm:-m-50"
 
 not_m_56 :: ClassName
-not_m_56 = ClassName "sm\\:-m-56"
+not_m_56 = ClassName "sm:-m-56"
 
 not_m_6 :: ClassName
-not_m_6 = ClassName "sm\\:-m-6"
+not_m_6 = ClassName "sm:-m-6"
 
 not_m_60 :: ClassName
-not_m_60 = ClassName "sm\\:-m-60"
+not_m_60 = ClassName "sm:-m-60"
 
 not_m_64 :: ClassName
-not_m_64 = ClassName "sm\\:-m-64"
+not_m_64 = ClassName "sm:-m-64"
 
 not_m_7 :: ClassName
-not_m_7 = ClassName "sm\\:-m-7"
+not_m_7 = ClassName "sm:-m-7"
 
 not_m_8 :: ClassName
-not_m_8 = ClassName "sm\\:-m-8"
+not_m_8 = ClassName "sm:-m-8"
 
 not_m_80 :: ClassName
-not_m_80 = ClassName "sm\\:-m-80"
+not_m_80 = ClassName "sm:-m-80"
 
 not_m_9 :: ClassName
-not_m_9 = ClassName "sm\\:-m-9"
+not_m_9 = ClassName "sm:-m-9"
 
 not_m_90 :: ClassName
-not_m_90 = ClassName "sm\\:-m-90"
+not_m_90 = ClassName "sm:-m-90"
 
 not_m_px :: ClassName
-not_m_px = ClassName "sm\\:-m-px"
+not_m_px = ClassName "sm:-m-px"
 
 not_mb_1 :: ClassName
-not_mb_1 = ClassName "sm\\:-mb-1"
+not_mb_1 = ClassName "sm:-mb-1"
 
 not_mb_10 :: ClassName
-not_mb_10 = ClassName "sm\\:-mb-10"
+not_mb_10 = ClassName "sm:-mb-10"
 
 not_mb_12 :: ClassName
-not_mb_12 = ClassName "sm\\:-mb-12"
+not_mb_12 = ClassName "sm:-mb-12"
 
 not_mb_120 :: ClassName
-not_mb_120 = ClassName "sm\\:-mb-120"
+not_mb_120 = ClassName "sm:-mb-120"
 
 not_mb_14 :: ClassName
-not_mb_14 = ClassName "sm\\:-mb-14"
+not_mb_14 = ClassName "sm:-mb-14"
 
 not_mb_16 :: ClassName
-not_mb_16 = ClassName "sm\\:-mb-16"
+not_mb_16 = ClassName "sm:-mb-16"
 
 not_mb_160 :: ClassName
-not_mb_160 = ClassName "sm\\:-mb-160"
+not_mb_160 = ClassName "sm:-mb-160"
 
 not_mb_2 :: ClassName
-not_mb_2 = ClassName "sm\\:-mb-2"
+not_mb_2 = ClassName "sm:-mb-2"
 
 not_mb_20 :: ClassName
-not_mb_20 = ClassName "sm\\:-mb-20"
+not_mb_20 = ClassName "sm:-mb-20"
 
 not_mb_24 :: ClassName
-not_mb_24 = ClassName "sm\\:-mb-24"
+not_mb_24 = ClassName "sm:-mb-24"
 
 not_mb_3 :: ClassName
-not_mb_3 = ClassName "sm\\:-mb-3"
+not_mb_3 = ClassName "sm:-mb-3"
 
 not_mb_30 :: ClassName
-not_mb_30 = ClassName "sm\\:-mb-30"
+not_mb_30 = ClassName "sm:-mb-30"
 
 not_mb_32 :: ClassName
-not_mb_32 = ClassName "sm\\:-mb-32"
+not_mb_32 = ClassName "sm:-mb-32"
 
 not_mb_4 :: ClassName
-not_mb_4 = ClassName "sm\\:-mb-4"
+not_mb_4 = ClassName "sm:-mb-4"
 
 not_mb_40 :: ClassName
-not_mb_40 = ClassName "sm\\:-mb-40"
+not_mb_40 = ClassName "sm:-mb-40"
 
 not_mb_48 :: ClassName
-not_mb_48 = ClassName "sm\\:-mb-48"
+not_mb_48 = ClassName "sm:-mb-48"
 
 not_mb_5 :: ClassName
-not_mb_5 = ClassName "sm\\:-mb-5"
+not_mb_5 = ClassName "sm:-mb-5"
 
 not_mb_50 :: ClassName
-not_mb_50 = ClassName "sm\\:-mb-50"
+not_mb_50 = ClassName "sm:-mb-50"
 
 not_mb_56 :: ClassName
-not_mb_56 = ClassName "sm\\:-mb-56"
+not_mb_56 = ClassName "sm:-mb-56"
 
 not_mb_6 :: ClassName
-not_mb_6 = ClassName "sm\\:-mb-6"
+not_mb_6 = ClassName "sm:-mb-6"
 
 not_mb_60 :: ClassName
-not_mb_60 = ClassName "sm\\:-mb-60"
+not_mb_60 = ClassName "sm:-mb-60"
 
 not_mb_64 :: ClassName
-not_mb_64 = ClassName "sm\\:-mb-64"
+not_mb_64 = ClassName "sm:-mb-64"
 
 not_mb_7 :: ClassName
-not_mb_7 = ClassName "sm\\:-mb-7"
+not_mb_7 = ClassName "sm:-mb-7"
 
 not_mb_8 :: ClassName
-not_mb_8 = ClassName "sm\\:-mb-8"
+not_mb_8 = ClassName "sm:-mb-8"
 
 not_mb_80 :: ClassName
-not_mb_80 = ClassName "sm\\:-mb-80"
+not_mb_80 = ClassName "sm:-mb-80"
 
 not_mb_9 :: ClassName
-not_mb_9 = ClassName "sm\\:-mb-9"
+not_mb_9 = ClassName "sm:-mb-9"
 
 not_mb_90 :: ClassName
-not_mb_90 = ClassName "sm\\:-mb-90"
+not_mb_90 = ClassName "sm:-mb-90"
 
 not_mb_px :: ClassName
-not_mb_px = ClassName "sm\\:-mb-px"
+not_mb_px = ClassName "sm:-mb-px"
 
 not_ml_1 :: ClassName
-not_ml_1 = ClassName "sm\\:-ml-1"
+not_ml_1 = ClassName "sm:-ml-1"
 
 not_ml_10 :: ClassName
-not_ml_10 = ClassName "sm\\:-ml-10"
+not_ml_10 = ClassName "sm:-ml-10"
 
 not_ml_12 :: ClassName
-not_ml_12 = ClassName "sm\\:-ml-12"
+not_ml_12 = ClassName "sm:-ml-12"
 
 not_ml_120 :: ClassName
-not_ml_120 = ClassName "sm\\:-ml-120"
+not_ml_120 = ClassName "sm:-ml-120"
 
 not_ml_14 :: ClassName
-not_ml_14 = ClassName "sm\\:-ml-14"
+not_ml_14 = ClassName "sm:-ml-14"
 
 not_ml_16 :: ClassName
-not_ml_16 = ClassName "sm\\:-ml-16"
+not_ml_16 = ClassName "sm:-ml-16"
 
 not_ml_160 :: ClassName
-not_ml_160 = ClassName "sm\\:-ml-160"
+not_ml_160 = ClassName "sm:-ml-160"
 
 not_ml_2 :: ClassName
-not_ml_2 = ClassName "sm\\:-ml-2"
+not_ml_2 = ClassName "sm:-ml-2"
 
 not_ml_20 :: ClassName
-not_ml_20 = ClassName "sm\\:-ml-20"
+not_ml_20 = ClassName "sm:-ml-20"
 
 not_ml_24 :: ClassName
-not_ml_24 = ClassName "sm\\:-ml-24"
+not_ml_24 = ClassName "sm:-ml-24"
 
 not_ml_3 :: ClassName
-not_ml_3 = ClassName "sm\\:-ml-3"
+not_ml_3 = ClassName "sm:-ml-3"
 
 not_ml_30 :: ClassName
-not_ml_30 = ClassName "sm\\:-ml-30"
+not_ml_30 = ClassName "sm:-ml-30"
 
 not_ml_32 :: ClassName
-not_ml_32 = ClassName "sm\\:-ml-32"
+not_ml_32 = ClassName "sm:-ml-32"
 
 not_ml_4 :: ClassName
-not_ml_4 = ClassName "sm\\:-ml-4"
+not_ml_4 = ClassName "sm:-ml-4"
 
 not_ml_40 :: ClassName
-not_ml_40 = ClassName "sm\\:-ml-40"
+not_ml_40 = ClassName "sm:-ml-40"
 
 not_ml_48 :: ClassName
-not_ml_48 = ClassName "sm\\:-ml-48"
+not_ml_48 = ClassName "sm:-ml-48"
 
 not_ml_5 :: ClassName
-not_ml_5 = ClassName "sm\\:-ml-5"
+not_ml_5 = ClassName "sm:-ml-5"
 
 not_ml_50 :: ClassName
-not_ml_50 = ClassName "sm\\:-ml-50"
+not_ml_50 = ClassName "sm:-ml-50"
 
 not_ml_56 :: ClassName
-not_ml_56 = ClassName "sm\\:-ml-56"
+not_ml_56 = ClassName "sm:-ml-56"
 
 not_ml_6 :: ClassName
-not_ml_6 = ClassName "sm\\:-ml-6"
+not_ml_6 = ClassName "sm:-ml-6"
 
 not_ml_60 :: ClassName
-not_ml_60 = ClassName "sm\\:-ml-60"
+not_ml_60 = ClassName "sm:-ml-60"
 
 not_ml_64 :: ClassName
-not_ml_64 = ClassName "sm\\:-ml-64"
+not_ml_64 = ClassName "sm:-ml-64"
 
 not_ml_7 :: ClassName
-not_ml_7 = ClassName "sm\\:-ml-7"
+not_ml_7 = ClassName "sm:-ml-7"
 
 not_ml_8 :: ClassName
-not_ml_8 = ClassName "sm\\:-ml-8"
+not_ml_8 = ClassName "sm:-ml-8"
 
 not_ml_80 :: ClassName
-not_ml_80 = ClassName "sm\\:-ml-80"
+not_ml_80 = ClassName "sm:-ml-80"
 
 not_ml_9 :: ClassName
-not_ml_9 = ClassName "sm\\:-ml-9"
+not_ml_9 = ClassName "sm:-ml-9"
 
 not_ml_90 :: ClassName
-not_ml_90 = ClassName "sm\\:-ml-90"
+not_ml_90 = ClassName "sm:-ml-90"
 
 not_ml_px :: ClassName
-not_ml_px = ClassName "sm\\:-ml-px"
+not_ml_px = ClassName "sm:-ml-px"
 
 not_mr_1 :: ClassName
-not_mr_1 = ClassName "sm\\:-mr-1"
+not_mr_1 = ClassName "sm:-mr-1"
 
 not_mr_10 :: ClassName
-not_mr_10 = ClassName "sm\\:-mr-10"
+not_mr_10 = ClassName "sm:-mr-10"
 
 not_mr_12 :: ClassName
-not_mr_12 = ClassName "sm\\:-mr-12"
+not_mr_12 = ClassName "sm:-mr-12"
 
 not_mr_120 :: ClassName
-not_mr_120 = ClassName "sm\\:-mr-120"
+not_mr_120 = ClassName "sm:-mr-120"
 
 not_mr_14 :: ClassName
-not_mr_14 = ClassName "sm\\:-mr-14"
+not_mr_14 = ClassName "sm:-mr-14"
 
 not_mr_16 :: ClassName
-not_mr_16 = ClassName "sm\\:-mr-16"
+not_mr_16 = ClassName "sm:-mr-16"
 
 not_mr_160 :: ClassName
-not_mr_160 = ClassName "sm\\:-mr-160"
+not_mr_160 = ClassName "sm:-mr-160"
 
 not_mr_2 :: ClassName
-not_mr_2 = ClassName "sm\\:-mr-2"
+not_mr_2 = ClassName "sm:-mr-2"
 
 not_mr_20 :: ClassName
-not_mr_20 = ClassName "sm\\:-mr-20"
+not_mr_20 = ClassName "sm:-mr-20"
 
 not_mr_24 :: ClassName
-not_mr_24 = ClassName "sm\\:-mr-24"
+not_mr_24 = ClassName "sm:-mr-24"
 
 not_mr_3 :: ClassName
-not_mr_3 = ClassName "sm\\:-mr-3"
+not_mr_3 = ClassName "sm:-mr-3"
 
 not_mr_30 :: ClassName
-not_mr_30 = ClassName "sm\\:-mr-30"
+not_mr_30 = ClassName "sm:-mr-30"
 
 not_mr_32 :: ClassName
-not_mr_32 = ClassName "sm\\:-mr-32"
+not_mr_32 = ClassName "sm:-mr-32"
 
 not_mr_4 :: ClassName
-not_mr_4 = ClassName "sm\\:-mr-4"
+not_mr_4 = ClassName "sm:-mr-4"
 
 not_mr_40 :: ClassName
-not_mr_40 = ClassName "sm\\:-mr-40"
+not_mr_40 = ClassName "sm:-mr-40"
 
 not_mr_48 :: ClassName
-not_mr_48 = ClassName "sm\\:-mr-48"
+not_mr_48 = ClassName "sm:-mr-48"
 
 not_mr_5 :: ClassName
-not_mr_5 = ClassName "sm\\:-mr-5"
+not_mr_5 = ClassName "sm:-mr-5"
 
 not_mr_50 :: ClassName
-not_mr_50 = ClassName "sm\\:-mr-50"
+not_mr_50 = ClassName "sm:-mr-50"
 
 not_mr_56 :: ClassName
-not_mr_56 = ClassName "sm\\:-mr-56"
+not_mr_56 = ClassName "sm:-mr-56"
 
 not_mr_6 :: ClassName
-not_mr_6 = ClassName "sm\\:-mr-6"
+not_mr_6 = ClassName "sm:-mr-6"
 
 not_mr_60 :: ClassName
-not_mr_60 = ClassName "sm\\:-mr-60"
+not_mr_60 = ClassName "sm:-mr-60"
 
 not_mr_64 :: ClassName
-not_mr_64 = ClassName "sm\\:-mr-64"
+not_mr_64 = ClassName "sm:-mr-64"
 
 not_mr_7 :: ClassName
-not_mr_7 = ClassName "sm\\:-mr-7"
+not_mr_7 = ClassName "sm:-mr-7"
 
 not_mr_8 :: ClassName
-not_mr_8 = ClassName "sm\\:-mr-8"
+not_mr_8 = ClassName "sm:-mr-8"
 
 not_mr_80 :: ClassName
-not_mr_80 = ClassName "sm\\:-mr-80"
+not_mr_80 = ClassName "sm:-mr-80"
 
 not_mr_9 :: ClassName
-not_mr_9 = ClassName "sm\\:-mr-9"
+not_mr_9 = ClassName "sm:-mr-9"
 
 not_mr_90 :: ClassName
-not_mr_90 = ClassName "sm\\:-mr-90"
+not_mr_90 = ClassName "sm:-mr-90"
 
 not_mr_px :: ClassName
-not_mr_px = ClassName "sm\\:-mr-px"
+not_mr_px = ClassName "sm:-mr-px"
 
 not_mt_1 :: ClassName
-not_mt_1 = ClassName "sm\\:-mt-1"
+not_mt_1 = ClassName "sm:-mt-1"
 
 not_mt_10 :: ClassName
-not_mt_10 = ClassName "sm\\:-mt-10"
+not_mt_10 = ClassName "sm:-mt-10"
 
 not_mt_12 :: ClassName
-not_mt_12 = ClassName "sm\\:-mt-12"
+not_mt_12 = ClassName "sm:-mt-12"
 
 not_mt_120 :: ClassName
-not_mt_120 = ClassName "sm\\:-mt-120"
+not_mt_120 = ClassName "sm:-mt-120"
 
 not_mt_14 :: ClassName
-not_mt_14 = ClassName "sm\\:-mt-14"
+not_mt_14 = ClassName "sm:-mt-14"
 
 not_mt_16 :: ClassName
-not_mt_16 = ClassName "sm\\:-mt-16"
+not_mt_16 = ClassName "sm:-mt-16"
 
 not_mt_160 :: ClassName
-not_mt_160 = ClassName "sm\\:-mt-160"
+not_mt_160 = ClassName "sm:-mt-160"
 
 not_mt_2 :: ClassName
-not_mt_2 = ClassName "sm\\:-mt-2"
+not_mt_2 = ClassName "sm:-mt-2"
 
 not_mt_20 :: ClassName
-not_mt_20 = ClassName "sm\\:-mt-20"
+not_mt_20 = ClassName "sm:-mt-20"
 
 not_mt_24 :: ClassName
-not_mt_24 = ClassName "sm\\:-mt-24"
+not_mt_24 = ClassName "sm:-mt-24"
 
 not_mt_3 :: ClassName
-not_mt_3 = ClassName "sm\\:-mt-3"
+not_mt_3 = ClassName "sm:-mt-3"
 
 not_mt_30 :: ClassName
-not_mt_30 = ClassName "sm\\:-mt-30"
+not_mt_30 = ClassName "sm:-mt-30"
 
 not_mt_32 :: ClassName
-not_mt_32 = ClassName "sm\\:-mt-32"
+not_mt_32 = ClassName "sm:-mt-32"
 
 not_mt_4 :: ClassName
-not_mt_4 = ClassName "sm\\:-mt-4"
+not_mt_4 = ClassName "sm:-mt-4"
 
 not_mt_40 :: ClassName
-not_mt_40 = ClassName "sm\\:-mt-40"
+not_mt_40 = ClassName "sm:-mt-40"
 
 not_mt_48 :: ClassName
-not_mt_48 = ClassName "sm\\:-mt-48"
+not_mt_48 = ClassName "sm:-mt-48"
 
 not_mt_5 :: ClassName
-not_mt_5 = ClassName "sm\\:-mt-5"
+not_mt_5 = ClassName "sm:-mt-5"
 
 not_mt_50 :: ClassName
-not_mt_50 = ClassName "sm\\:-mt-50"
+not_mt_50 = ClassName "sm:-mt-50"
 
 not_mt_56 :: ClassName
-not_mt_56 = ClassName "sm\\:-mt-56"
+not_mt_56 = ClassName "sm:-mt-56"
 
 not_mt_6 :: ClassName
-not_mt_6 = ClassName "sm\\:-mt-6"
+not_mt_6 = ClassName "sm:-mt-6"
 
 not_mt_60 :: ClassName
-not_mt_60 = ClassName "sm\\:-mt-60"
+not_mt_60 = ClassName "sm:-mt-60"
 
 not_mt_64 :: ClassName
-not_mt_64 = ClassName "sm\\:-mt-64"
+not_mt_64 = ClassName "sm:-mt-64"
 
 not_mt_7 :: ClassName
-not_mt_7 = ClassName "sm\\:-mt-7"
+not_mt_7 = ClassName "sm:-mt-7"
 
 not_mt_8 :: ClassName
-not_mt_8 = ClassName "sm\\:-mt-8"
+not_mt_8 = ClassName "sm:-mt-8"
 
 not_mt_80 :: ClassName
-not_mt_80 = ClassName "sm\\:-mt-80"
+not_mt_80 = ClassName "sm:-mt-80"
 
 not_mt_9 :: ClassName
-not_mt_9 = ClassName "sm\\:-mt-9"
+not_mt_9 = ClassName "sm:-mt-9"
 
 not_mt_90 :: ClassName
-not_mt_90 = ClassName "sm\\:-mt-90"
+not_mt_90 = ClassName "sm:-mt-90"
 
 not_mt_px :: ClassName
-not_mt_px = ClassName "sm\\:-mt-px"
+not_mt_px = ClassName "sm:-mt-px"
 
 not_mx_1 :: ClassName
-not_mx_1 = ClassName "sm\\:-mx-1"
+not_mx_1 = ClassName "sm:-mx-1"
 
 not_mx_10 :: ClassName
-not_mx_10 = ClassName "sm\\:-mx-10"
+not_mx_10 = ClassName "sm:-mx-10"
 
 not_mx_12 :: ClassName
-not_mx_12 = ClassName "sm\\:-mx-12"
+not_mx_12 = ClassName "sm:-mx-12"
 
 not_mx_120 :: ClassName
-not_mx_120 = ClassName "sm\\:-mx-120"
+not_mx_120 = ClassName "sm:-mx-120"
 
 not_mx_14 :: ClassName
-not_mx_14 = ClassName "sm\\:-mx-14"
+not_mx_14 = ClassName "sm:-mx-14"
 
 not_mx_16 :: ClassName
-not_mx_16 = ClassName "sm\\:-mx-16"
+not_mx_16 = ClassName "sm:-mx-16"
 
 not_mx_160 :: ClassName
-not_mx_160 = ClassName "sm\\:-mx-160"
+not_mx_160 = ClassName "sm:-mx-160"
 
 not_mx_2 :: ClassName
-not_mx_2 = ClassName "sm\\:-mx-2"
+not_mx_2 = ClassName "sm:-mx-2"
 
 not_mx_20 :: ClassName
-not_mx_20 = ClassName "sm\\:-mx-20"
+not_mx_20 = ClassName "sm:-mx-20"
 
 not_mx_24 :: ClassName
-not_mx_24 = ClassName "sm\\:-mx-24"
+not_mx_24 = ClassName "sm:-mx-24"
 
 not_mx_3 :: ClassName
-not_mx_3 = ClassName "sm\\:-mx-3"
+not_mx_3 = ClassName "sm:-mx-3"
 
 not_mx_30 :: ClassName
-not_mx_30 = ClassName "sm\\:-mx-30"
+not_mx_30 = ClassName "sm:-mx-30"
 
 not_mx_32 :: ClassName
-not_mx_32 = ClassName "sm\\:-mx-32"
+not_mx_32 = ClassName "sm:-mx-32"
 
 not_mx_4 :: ClassName
-not_mx_4 = ClassName "sm\\:-mx-4"
+not_mx_4 = ClassName "sm:-mx-4"
 
 not_mx_40 :: ClassName
-not_mx_40 = ClassName "sm\\:-mx-40"
+not_mx_40 = ClassName "sm:-mx-40"
 
 not_mx_48 :: ClassName
-not_mx_48 = ClassName "sm\\:-mx-48"
+not_mx_48 = ClassName "sm:-mx-48"
 
 not_mx_5 :: ClassName
-not_mx_5 = ClassName "sm\\:-mx-5"
+not_mx_5 = ClassName "sm:-mx-5"
 
 not_mx_50 :: ClassName
-not_mx_50 = ClassName "sm\\:-mx-50"
+not_mx_50 = ClassName "sm:-mx-50"
 
 not_mx_56 :: ClassName
-not_mx_56 = ClassName "sm\\:-mx-56"
+not_mx_56 = ClassName "sm:-mx-56"
 
 not_mx_6 :: ClassName
-not_mx_6 = ClassName "sm\\:-mx-6"
+not_mx_6 = ClassName "sm:-mx-6"
 
 not_mx_60 :: ClassName
-not_mx_60 = ClassName "sm\\:-mx-60"
+not_mx_60 = ClassName "sm:-mx-60"
 
 not_mx_64 :: ClassName
-not_mx_64 = ClassName "sm\\:-mx-64"
+not_mx_64 = ClassName "sm:-mx-64"
 
 not_mx_7 :: ClassName
-not_mx_7 = ClassName "sm\\:-mx-7"
+not_mx_7 = ClassName "sm:-mx-7"
 
 not_mx_8 :: ClassName
-not_mx_8 = ClassName "sm\\:-mx-8"
+not_mx_8 = ClassName "sm:-mx-8"
 
 not_mx_80 :: ClassName
-not_mx_80 = ClassName "sm\\:-mx-80"
+not_mx_80 = ClassName "sm:-mx-80"
 
 not_mx_9 :: ClassName
-not_mx_9 = ClassName "sm\\:-mx-9"
+not_mx_9 = ClassName "sm:-mx-9"
 
 not_mx_90 :: ClassName
-not_mx_90 = ClassName "sm\\:-mx-90"
+not_mx_90 = ClassName "sm:-mx-90"
 
 not_mx_px :: ClassName
-not_mx_px = ClassName "sm\\:-mx-px"
+not_mx_px = ClassName "sm:-mx-px"
 
 not_my_1 :: ClassName
-not_my_1 = ClassName "sm\\:-my-1"
+not_my_1 = ClassName "sm:-my-1"
 
 not_my_10 :: ClassName
-not_my_10 = ClassName "sm\\:-my-10"
+not_my_10 = ClassName "sm:-my-10"
 
 not_my_12 :: ClassName
-not_my_12 = ClassName "sm\\:-my-12"
+not_my_12 = ClassName "sm:-my-12"
 
 not_my_120 :: ClassName
-not_my_120 = ClassName "sm\\:-my-120"
+not_my_120 = ClassName "sm:-my-120"
 
 not_my_14 :: ClassName
-not_my_14 = ClassName "sm\\:-my-14"
+not_my_14 = ClassName "sm:-my-14"
 
 not_my_16 :: ClassName
-not_my_16 = ClassName "sm\\:-my-16"
+not_my_16 = ClassName "sm:-my-16"
 
 not_my_160 :: ClassName
-not_my_160 = ClassName "sm\\:-my-160"
+not_my_160 = ClassName "sm:-my-160"
 
 not_my_2 :: ClassName
-not_my_2 = ClassName "sm\\:-my-2"
+not_my_2 = ClassName "sm:-my-2"
 
 not_my_20 :: ClassName
-not_my_20 = ClassName "sm\\:-my-20"
+not_my_20 = ClassName "sm:-my-20"
 
 not_my_24 :: ClassName
-not_my_24 = ClassName "sm\\:-my-24"
+not_my_24 = ClassName "sm:-my-24"
 
 not_my_3 :: ClassName
-not_my_3 = ClassName "sm\\:-my-3"
+not_my_3 = ClassName "sm:-my-3"
 
 not_my_30 :: ClassName
-not_my_30 = ClassName "sm\\:-my-30"
+not_my_30 = ClassName "sm:-my-30"
 
 not_my_32 :: ClassName
-not_my_32 = ClassName "sm\\:-my-32"
+not_my_32 = ClassName "sm:-my-32"
 
 not_my_4 :: ClassName
-not_my_4 = ClassName "sm\\:-my-4"
+not_my_4 = ClassName "sm:-my-4"
 
 not_my_40 :: ClassName
-not_my_40 = ClassName "sm\\:-my-40"
+not_my_40 = ClassName "sm:-my-40"
 
 not_my_48 :: ClassName
-not_my_48 = ClassName "sm\\:-my-48"
+not_my_48 = ClassName "sm:-my-48"
 
 not_my_5 :: ClassName
-not_my_5 = ClassName "sm\\:-my-5"
+not_my_5 = ClassName "sm:-my-5"
 
 not_my_50 :: ClassName
-not_my_50 = ClassName "sm\\:-my-50"
+not_my_50 = ClassName "sm:-my-50"
 
 not_my_56 :: ClassName
-not_my_56 = ClassName "sm\\:-my-56"
+not_my_56 = ClassName "sm:-my-56"
 
 not_my_6 :: ClassName
-not_my_6 = ClassName "sm\\:-my-6"
+not_my_6 = ClassName "sm:-my-6"
 
 not_my_60 :: ClassName
-not_my_60 = ClassName "sm\\:-my-60"
+not_my_60 = ClassName "sm:-my-60"
 
 not_my_64 :: ClassName
-not_my_64 = ClassName "sm\\:-my-64"
+not_my_64 = ClassName "sm:-my-64"
 
 not_my_7 :: ClassName
-not_my_7 = ClassName "sm\\:-my-7"
+not_my_7 = ClassName "sm:-my-7"
 
 not_my_8 :: ClassName
-not_my_8 = ClassName "sm\\:-my-8"
+not_my_8 = ClassName "sm:-my-8"
 
 not_my_80 :: ClassName
-not_my_80 = ClassName "sm\\:-my-80"
+not_my_80 = ClassName "sm:-my-80"
 
 not_my_9 :: ClassName
-not_my_9 = ClassName "sm\\:-my-9"
+not_my_9 = ClassName "sm:-my-9"
 
 not_my_90 :: ClassName
-not_my_90 = ClassName "sm\\:-my-90"
+not_my_90 = ClassName "sm:-my-90"
 
 not_my_px :: ClassName
-not_my_px = ClassName "sm\\:-my-px"
+not_my_px = ClassName "sm:-my-px"
 
 not_rotate_180 :: ClassName
-not_rotate_180 = ClassName "sm\\:-rotate-180"
+not_rotate_180 = ClassName "sm:-rotate-180"
 
 not_rotate_45 :: ClassName
-not_rotate_45 = ClassName "sm\\:-rotate-45"
+not_rotate_45 = ClassName "sm:-rotate-45"
 
 not_rotate_90 :: ClassName
-not_rotate_90 = ClassName "sm\\:-rotate-90"
+not_rotate_90 = ClassName "sm:-rotate-90"
 
 not_skew_x_12 :: ClassName
-not_skew_x_12 = ClassName "sm\\:-skew-x-12"
+not_skew_x_12 = ClassName "sm:-skew-x-12"
 
 not_skew_x_3 :: ClassName
-not_skew_x_3 = ClassName "sm\\:-skew-x-3"
+not_skew_x_3 = ClassName "sm:-skew-x-3"
 
 not_skew_x_6 :: ClassName
-not_skew_x_6 = ClassName "sm\\:-skew-x-6"
+not_skew_x_6 = ClassName "sm:-skew-x-6"
 
 not_skew_y_12 :: ClassName
-not_skew_y_12 = ClassName "sm\\:-skew-y-12"
+not_skew_y_12 = ClassName "sm:-skew-y-12"
 
 not_skew_y_3 :: ClassName
-not_skew_y_3 = ClassName "sm\\:-skew-y-3"
+not_skew_y_3 = ClassName "sm:-skew-y-3"
 
 not_skew_y_6 :: ClassName
-not_skew_y_6 = ClassName "sm\\:-skew-y-6"
+not_skew_y_6 = ClassName "sm:-skew-y-6"
 
 not_space_x_1 :: ClassName
-not_space_x_1 = ClassName "sm\\:-space-x-1"
+not_space_x_1 = ClassName "sm:-space-x-1"
 
 not_space_x_10 :: ClassName
-not_space_x_10 = ClassName "sm\\:-space-x-10"
+not_space_x_10 = ClassName "sm:-space-x-10"
 
 not_space_x_12 :: ClassName
-not_space_x_12 = ClassName "sm\\:-space-x-12"
+not_space_x_12 = ClassName "sm:-space-x-12"
 
 not_space_x_120 :: ClassName
-not_space_x_120 = ClassName "sm\\:-space-x-120"
+not_space_x_120 = ClassName "sm:-space-x-120"
 
 not_space_x_14 :: ClassName
-not_space_x_14 = ClassName "sm\\:-space-x-14"
+not_space_x_14 = ClassName "sm:-space-x-14"
 
 not_space_x_16 :: ClassName
-not_space_x_16 = ClassName "sm\\:-space-x-16"
+not_space_x_16 = ClassName "sm:-space-x-16"
 
 not_space_x_160 :: ClassName
-not_space_x_160 = ClassName "sm\\:-space-x-160"
+not_space_x_160 = ClassName "sm:-space-x-160"
 
 not_space_x_2 :: ClassName
-not_space_x_2 = ClassName "sm\\:-space-x-2"
+not_space_x_2 = ClassName "sm:-space-x-2"
 
 not_space_x_20 :: ClassName
-not_space_x_20 = ClassName "sm\\:-space-x-20"
+not_space_x_20 = ClassName "sm:-space-x-20"
 
 not_space_x_24 :: ClassName
-not_space_x_24 = ClassName "sm\\:-space-x-24"
+not_space_x_24 = ClassName "sm:-space-x-24"
 
 not_space_x_3 :: ClassName
-not_space_x_3 = ClassName "sm\\:-space-x-3"
+not_space_x_3 = ClassName "sm:-space-x-3"
 
 not_space_x_30 :: ClassName
-not_space_x_30 = ClassName "sm\\:-space-x-30"
+not_space_x_30 = ClassName "sm:-space-x-30"
 
 not_space_x_32 :: ClassName
-not_space_x_32 = ClassName "sm\\:-space-x-32"
+not_space_x_32 = ClassName "sm:-space-x-32"
 
 not_space_x_4 :: ClassName
-not_space_x_4 = ClassName "sm\\:-space-x-4"
+not_space_x_4 = ClassName "sm:-space-x-4"
 
 not_space_x_40 :: ClassName
-not_space_x_40 = ClassName "sm\\:-space-x-40"
+not_space_x_40 = ClassName "sm:-space-x-40"
 
 not_space_x_48 :: ClassName
-not_space_x_48 = ClassName "sm\\:-space-x-48"
+not_space_x_48 = ClassName "sm:-space-x-48"
 
 not_space_x_5 :: ClassName
-not_space_x_5 = ClassName "sm\\:-space-x-5"
+not_space_x_5 = ClassName "sm:-space-x-5"
 
 not_space_x_50 :: ClassName
-not_space_x_50 = ClassName "sm\\:-space-x-50"
+not_space_x_50 = ClassName "sm:-space-x-50"
 
 not_space_x_56 :: ClassName
-not_space_x_56 = ClassName "sm\\:-space-x-56"
+not_space_x_56 = ClassName "sm:-space-x-56"
 
 not_space_x_6 :: ClassName
-not_space_x_6 = ClassName "sm\\:-space-x-6"
+not_space_x_6 = ClassName "sm:-space-x-6"
 
 not_space_x_60 :: ClassName
-not_space_x_60 = ClassName "sm\\:-space-x-60"
+not_space_x_60 = ClassName "sm:-space-x-60"
 
 not_space_x_64 :: ClassName
-not_space_x_64 = ClassName "sm\\:-space-x-64"
+not_space_x_64 = ClassName "sm:-space-x-64"
 
 not_space_x_7 :: ClassName
-not_space_x_7 = ClassName "sm\\:-space-x-7"
+not_space_x_7 = ClassName "sm:-space-x-7"
 
 not_space_x_8 :: ClassName
-not_space_x_8 = ClassName "sm\\:-space-x-8"
+not_space_x_8 = ClassName "sm:-space-x-8"
 
 not_space_x_80 :: ClassName
-not_space_x_80 = ClassName "sm\\:-space-x-80"
+not_space_x_80 = ClassName "sm:-space-x-80"
 
 not_space_x_9 :: ClassName
-not_space_x_9 = ClassName "sm\\:-space-x-9"
+not_space_x_9 = ClassName "sm:-space-x-9"
 
 not_space_x_90 :: ClassName
-not_space_x_90 = ClassName "sm\\:-space-x-90"
+not_space_x_90 = ClassName "sm:-space-x-90"
 
 not_space_x_px :: ClassName
-not_space_x_px = ClassName "sm\\:-space-x-px"
+not_space_x_px = ClassName "sm:-space-x-px"
 
 not_space_y_1 :: ClassName
-not_space_y_1 = ClassName "sm\\:-space-y-1"
+not_space_y_1 = ClassName "sm:-space-y-1"
 
 not_space_y_10 :: ClassName
-not_space_y_10 = ClassName "sm\\:-space-y-10"
+not_space_y_10 = ClassName "sm:-space-y-10"
 
 not_space_y_12 :: ClassName
-not_space_y_12 = ClassName "sm\\:-space-y-12"
+not_space_y_12 = ClassName "sm:-space-y-12"
 
 not_space_y_120 :: ClassName
-not_space_y_120 = ClassName "sm\\:-space-y-120"
+not_space_y_120 = ClassName "sm:-space-y-120"
 
 not_space_y_14 :: ClassName
-not_space_y_14 = ClassName "sm\\:-space-y-14"
+not_space_y_14 = ClassName "sm:-space-y-14"
 
 not_space_y_16 :: ClassName
-not_space_y_16 = ClassName "sm\\:-space-y-16"
+not_space_y_16 = ClassName "sm:-space-y-16"
 
 not_space_y_160 :: ClassName
-not_space_y_160 = ClassName "sm\\:-space-y-160"
+not_space_y_160 = ClassName "sm:-space-y-160"
 
 not_space_y_2 :: ClassName
-not_space_y_2 = ClassName "sm\\:-space-y-2"
+not_space_y_2 = ClassName "sm:-space-y-2"
 
 not_space_y_20 :: ClassName
-not_space_y_20 = ClassName "sm\\:-space-y-20"
+not_space_y_20 = ClassName "sm:-space-y-20"
 
 not_space_y_24 :: ClassName
-not_space_y_24 = ClassName "sm\\:-space-y-24"
+not_space_y_24 = ClassName "sm:-space-y-24"
 
 not_space_y_3 :: ClassName
-not_space_y_3 = ClassName "sm\\:-space-y-3"
+not_space_y_3 = ClassName "sm:-space-y-3"
 
 not_space_y_30 :: ClassName
-not_space_y_30 = ClassName "sm\\:-space-y-30"
+not_space_y_30 = ClassName "sm:-space-y-30"
 
 not_space_y_32 :: ClassName
-not_space_y_32 = ClassName "sm\\:-space-y-32"
+not_space_y_32 = ClassName "sm:-space-y-32"
 
 not_space_y_4 :: ClassName
-not_space_y_4 = ClassName "sm\\:-space-y-4"
+not_space_y_4 = ClassName "sm:-space-y-4"
 
 not_space_y_40 :: ClassName
-not_space_y_40 = ClassName "sm\\:-space-y-40"
+not_space_y_40 = ClassName "sm:-space-y-40"
 
 not_space_y_48 :: ClassName
-not_space_y_48 = ClassName "sm\\:-space-y-48"
+not_space_y_48 = ClassName "sm:-space-y-48"
 
 not_space_y_5 :: ClassName
-not_space_y_5 = ClassName "sm\\:-space-y-5"
+not_space_y_5 = ClassName "sm:-space-y-5"
 
 not_space_y_50 :: ClassName
-not_space_y_50 = ClassName "sm\\:-space-y-50"
+not_space_y_50 = ClassName "sm:-space-y-50"
 
 not_space_y_56 :: ClassName
-not_space_y_56 = ClassName "sm\\:-space-y-56"
+not_space_y_56 = ClassName "sm:-space-y-56"
 
 not_space_y_6 :: ClassName
-not_space_y_6 = ClassName "sm\\:-space-y-6"
+not_space_y_6 = ClassName "sm:-space-y-6"
 
 not_space_y_60 :: ClassName
-not_space_y_60 = ClassName "sm\\:-space-y-60"
+not_space_y_60 = ClassName "sm:-space-y-60"
 
 not_space_y_64 :: ClassName
-not_space_y_64 = ClassName "sm\\:-space-y-64"
+not_space_y_64 = ClassName "sm:-space-y-64"
 
 not_space_y_7 :: ClassName
-not_space_y_7 = ClassName "sm\\:-space-y-7"
+not_space_y_7 = ClassName "sm:-space-y-7"
 
 not_space_y_8 :: ClassName
-not_space_y_8 = ClassName "sm\\:-space-y-8"
+not_space_y_8 = ClassName "sm:-space-y-8"
 
 not_space_y_80 :: ClassName
-not_space_y_80 = ClassName "sm\\:-space-y-80"
+not_space_y_80 = ClassName "sm:-space-y-80"
 
 not_space_y_9 :: ClassName
-not_space_y_9 = ClassName "sm\\:-space-y-9"
+not_space_y_9 = ClassName "sm:-space-y-9"
 
 not_space_y_90 :: ClassName
-not_space_y_90 = ClassName "sm\\:-space-y-90"
+not_space_y_90 = ClassName "sm:-space-y-90"
 
 not_space_y_px :: ClassName
-not_space_y_px = ClassName "sm\\:-space-y-px"
+not_space_y_px = ClassName "sm:-space-y-px"
 
 not_translate_x_1 :: ClassName
-not_translate_x_1 = ClassName "sm\\:-translate-x-1"
+not_translate_x_1 = ClassName "sm:-translate-x-1"
 
 not_translate_x_10 :: ClassName
-not_translate_x_10 = ClassName "sm\\:-translate-x-10"
+not_translate_x_10 = ClassName "sm:-translate-x-10"
 
 not_translate_x_12 :: ClassName
-not_translate_x_12 = ClassName "sm\\:-translate-x-12"
+not_translate_x_12 = ClassName "sm:-translate-x-12"
 
 not_translate_x_120 :: ClassName
-not_translate_x_120 = ClassName "sm\\:-translate-x-120"
+not_translate_x_120 = ClassName "sm:-translate-x-120"
 
 not_translate_x_14 :: ClassName
-not_translate_x_14 = ClassName "sm\\:-translate-x-14"
+not_translate_x_14 = ClassName "sm:-translate-x-14"
 
 not_translate_x_16 :: ClassName
-not_translate_x_16 = ClassName "sm\\:-translate-x-16"
+not_translate_x_16 = ClassName "sm:-translate-x-16"
 
 not_translate_x_160 :: ClassName
-not_translate_x_160 = ClassName "sm\\:-translate-x-160"
+not_translate_x_160 = ClassName "sm:-translate-x-160"
 
 not_translate_x_1_over_2 :: ClassName
-not_translate_x_1_over_2 = ClassName "sm\\:-translate-x-1\\/2"
+not_translate_x_1_over_2 = ClassName "sm:-translate-x-1/2"
 
 not_translate_x_2 :: ClassName
-not_translate_x_2 = ClassName "sm\\:-translate-x-2"
+not_translate_x_2 = ClassName "sm:-translate-x-2"
 
 not_translate_x_20 :: ClassName
-not_translate_x_20 = ClassName "sm\\:-translate-x-20"
+not_translate_x_20 = ClassName "sm:-translate-x-20"
 
 not_translate_x_24 :: ClassName
-not_translate_x_24 = ClassName "sm\\:-translate-x-24"
+not_translate_x_24 = ClassName "sm:-translate-x-24"
 
 not_translate_x_3 :: ClassName
-not_translate_x_3 = ClassName "sm\\:-translate-x-3"
+not_translate_x_3 = ClassName "sm:-translate-x-3"
 
 not_translate_x_30 :: ClassName
-not_translate_x_30 = ClassName "sm\\:-translate-x-30"
+not_translate_x_30 = ClassName "sm:-translate-x-30"
 
 not_translate_x_32 :: ClassName
-not_translate_x_32 = ClassName "sm\\:-translate-x-32"
+not_translate_x_32 = ClassName "sm:-translate-x-32"
 
 not_translate_x_4 :: ClassName
-not_translate_x_4 = ClassName "sm\\:-translate-x-4"
+not_translate_x_4 = ClassName "sm:-translate-x-4"
 
 not_translate_x_40 :: ClassName
-not_translate_x_40 = ClassName "sm\\:-translate-x-40"
+not_translate_x_40 = ClassName "sm:-translate-x-40"
 
 not_translate_x_48 :: ClassName
-not_translate_x_48 = ClassName "sm\\:-translate-x-48"
+not_translate_x_48 = ClassName "sm:-translate-x-48"
 
 not_translate_x_5 :: ClassName
-not_translate_x_5 = ClassName "sm\\:-translate-x-5"
+not_translate_x_5 = ClassName "sm:-translate-x-5"
 
 not_translate_x_50 :: ClassName
-not_translate_x_50 = ClassName "sm\\:-translate-x-50"
+not_translate_x_50 = ClassName "sm:-translate-x-50"
 
 not_translate_x_56 :: ClassName
-not_translate_x_56 = ClassName "sm\\:-translate-x-56"
+not_translate_x_56 = ClassName "sm:-translate-x-56"
 
 not_translate_x_6 :: ClassName
-not_translate_x_6 = ClassName "sm\\:-translate-x-6"
+not_translate_x_6 = ClassName "sm:-translate-x-6"
 
 not_translate_x_60 :: ClassName
-not_translate_x_60 = ClassName "sm\\:-translate-x-60"
+not_translate_x_60 = ClassName "sm:-translate-x-60"
 
 not_translate_x_64 :: ClassName
-not_translate_x_64 = ClassName "sm\\:-translate-x-64"
+not_translate_x_64 = ClassName "sm:-translate-x-64"
 
 not_translate_x_7 :: ClassName
-not_translate_x_7 = ClassName "sm\\:-translate-x-7"
+not_translate_x_7 = ClassName "sm:-translate-x-7"
 
 not_translate_x_8 :: ClassName
-not_translate_x_8 = ClassName "sm\\:-translate-x-8"
+not_translate_x_8 = ClassName "sm:-translate-x-8"
 
 not_translate_x_80 :: ClassName
-not_translate_x_80 = ClassName "sm\\:-translate-x-80"
+not_translate_x_80 = ClassName "sm:-translate-x-80"
 
 not_translate_x_9 :: ClassName
-not_translate_x_9 = ClassName "sm\\:-translate-x-9"
+not_translate_x_9 = ClassName "sm:-translate-x-9"
 
 not_translate_x_90 :: ClassName
-not_translate_x_90 = ClassName "sm\\:-translate-x-90"
+not_translate_x_90 = ClassName "sm:-translate-x-90"
 
 not_translate_x_full :: ClassName
-not_translate_x_full = ClassName "sm\\:-translate-x-full"
+not_translate_x_full = ClassName "sm:-translate-x-full"
 
 not_translate_x_px :: ClassName
-not_translate_x_px = ClassName "sm\\:-translate-x-px"
+not_translate_x_px = ClassName "sm:-translate-x-px"
 
 not_translate_y_1 :: ClassName
-not_translate_y_1 = ClassName "sm\\:-translate-y-1"
+not_translate_y_1 = ClassName "sm:-translate-y-1"
 
 not_translate_y_10 :: ClassName
-not_translate_y_10 = ClassName "sm\\:-translate-y-10"
+not_translate_y_10 = ClassName "sm:-translate-y-10"
 
 not_translate_y_12 :: ClassName
-not_translate_y_12 = ClassName "sm\\:-translate-y-12"
+not_translate_y_12 = ClassName "sm:-translate-y-12"
 
 not_translate_y_120 :: ClassName
-not_translate_y_120 = ClassName "sm\\:-translate-y-120"
+not_translate_y_120 = ClassName "sm:-translate-y-120"
 
 not_translate_y_14 :: ClassName
-not_translate_y_14 = ClassName "sm\\:-translate-y-14"
+not_translate_y_14 = ClassName "sm:-translate-y-14"
 
 not_translate_y_16 :: ClassName
-not_translate_y_16 = ClassName "sm\\:-translate-y-16"
+not_translate_y_16 = ClassName "sm:-translate-y-16"
 
 not_translate_y_160 :: ClassName
-not_translate_y_160 = ClassName "sm\\:-translate-y-160"
+not_translate_y_160 = ClassName "sm:-translate-y-160"
 
 not_translate_y_1_over_2 :: ClassName
-not_translate_y_1_over_2 = ClassName "sm\\:-translate-y-1\\/2"
+not_translate_y_1_over_2 = ClassName "sm:-translate-y-1/2"
 
 not_translate_y_2 :: ClassName
-not_translate_y_2 = ClassName "sm\\:-translate-y-2"
+not_translate_y_2 = ClassName "sm:-translate-y-2"
 
 not_translate_y_20 :: ClassName
-not_translate_y_20 = ClassName "sm\\:-translate-y-20"
+not_translate_y_20 = ClassName "sm:-translate-y-20"
 
 not_translate_y_24 :: ClassName
-not_translate_y_24 = ClassName "sm\\:-translate-y-24"
+not_translate_y_24 = ClassName "sm:-translate-y-24"
 
 not_translate_y_3 :: ClassName
-not_translate_y_3 = ClassName "sm\\:-translate-y-3"
+not_translate_y_3 = ClassName "sm:-translate-y-3"
 
 not_translate_y_30 :: ClassName
-not_translate_y_30 = ClassName "sm\\:-translate-y-30"
+not_translate_y_30 = ClassName "sm:-translate-y-30"
 
 not_translate_y_32 :: ClassName
-not_translate_y_32 = ClassName "sm\\:-translate-y-32"
+not_translate_y_32 = ClassName "sm:-translate-y-32"
 
 not_translate_y_4 :: ClassName
-not_translate_y_4 = ClassName "sm\\:-translate-y-4"
+not_translate_y_4 = ClassName "sm:-translate-y-4"
 
 not_translate_y_40 :: ClassName
-not_translate_y_40 = ClassName "sm\\:-translate-y-40"
+not_translate_y_40 = ClassName "sm:-translate-y-40"
 
 not_translate_y_48 :: ClassName
-not_translate_y_48 = ClassName "sm\\:-translate-y-48"
+not_translate_y_48 = ClassName "sm:-translate-y-48"
 
 not_translate_y_5 :: ClassName
-not_translate_y_5 = ClassName "sm\\:-translate-y-5"
+not_translate_y_5 = ClassName "sm:-translate-y-5"
 
 not_translate_y_50 :: ClassName
-not_translate_y_50 = ClassName "sm\\:-translate-y-50"
+not_translate_y_50 = ClassName "sm:-translate-y-50"
 
 not_translate_y_56 :: ClassName
-not_translate_y_56 = ClassName "sm\\:-translate-y-56"
+not_translate_y_56 = ClassName "sm:-translate-y-56"
 
 not_translate_y_6 :: ClassName
-not_translate_y_6 = ClassName "sm\\:-translate-y-6"
+not_translate_y_6 = ClassName "sm:-translate-y-6"
 
 not_translate_y_60 :: ClassName
-not_translate_y_60 = ClassName "sm\\:-translate-y-60"
+not_translate_y_60 = ClassName "sm:-translate-y-60"
 
 not_translate_y_64 :: ClassName
-not_translate_y_64 = ClassName "sm\\:-translate-y-64"
+not_translate_y_64 = ClassName "sm:-translate-y-64"
 
 not_translate_y_7 :: ClassName
-not_translate_y_7 = ClassName "sm\\:-translate-y-7"
+not_translate_y_7 = ClassName "sm:-translate-y-7"
 
 not_translate_y_8 :: ClassName
-not_translate_y_8 = ClassName "sm\\:-translate-y-8"
+not_translate_y_8 = ClassName "sm:-translate-y-8"
 
 not_translate_y_80 :: ClassName
-not_translate_y_80 = ClassName "sm\\:-translate-y-80"
+not_translate_y_80 = ClassName "sm:-translate-y-80"
 
 not_translate_y_9 :: ClassName
-not_translate_y_9 = ClassName "sm\\:-translate-y-9"
+not_translate_y_9 = ClassName "sm:-translate-y-9"
 
 not_translate_y_90 :: ClassName
-not_translate_y_90 = ClassName "sm\\:-translate-y-90"
+not_translate_y_90 = ClassName "sm:-translate-y-90"
 
 not_translate_y_full :: ClassName
-not_translate_y_full = ClassName "sm\\:-translate-y-full"
+not_translate_y_full = ClassName "sm:-translate-y-full"
 
 not_translate_y_px :: ClassName
-not_translate_y_px = ClassName "sm\\:-translate-y-px"
+not_translate_y_px = ClassName "sm:-translate-y-px"
 
 absolute :: ClassName
-absolute = ClassName "sm\\:absolute"
+absolute = ClassName "sm:absolute"
 
 align_baseline :: ClassName
-align_baseline = ClassName "sm\\:align-baseline"
+align_baseline = ClassName "sm:align-baseline"
 
 align_bottom :: ClassName
-align_bottom = ClassName "sm\\:align-bottom"
+align_bottom = ClassName "sm:align-bottom"
 
 align_middle :: ClassName
-align_middle = ClassName "sm\\:align-middle"
+align_middle = ClassName "sm:align-middle"
 
 align_text_bottom :: ClassName
-align_text_bottom = ClassName "sm\\:align-text-bottom"
+align_text_bottom = ClassName "sm:align-text-bottom"
 
 align_text_top :: ClassName
-align_text_top = ClassName "sm\\:align-text-top"
+align_text_top = ClassName "sm:align-text-top"
 
 align_top :: ClassName
-align_top = ClassName "sm\\:align-top"
+align_top = ClassName "sm:align-top"
 
 animate_bounce :: ClassName
-animate_bounce = ClassName "sm\\:animate-bounce"
+animate_bounce = ClassName "sm:animate-bounce"
 
 animate_none :: ClassName
-animate_none = ClassName "sm\\:animate-none"
+animate_none = ClassName "sm:animate-none"
 
 animate_ping :: ClassName
-animate_ping = ClassName "sm\\:animate-ping"
+animate_ping = ClassName "sm:animate-ping"
 
 animate_pulse :: ClassName
-animate_pulse = ClassName "sm\\:animate-pulse"
+animate_pulse = ClassName "sm:animate-pulse"
 
 animate_spin :: ClassName
-animate_spin = ClassName "sm\\:animate-spin"
+animate_spin = ClassName "sm:animate-spin"
 
 antialiased :: ClassName
-antialiased = ClassName "sm\\:antialiased"
+antialiased = ClassName "sm:antialiased"
 
 appearance_none :: ClassName
-appearance_none = ClassName "sm\\:appearance-none"
+appearance_none = ClassName "sm:appearance-none"
 
 bg_auto :: ClassName
-bg_auto = ClassName "sm\\:bg-auto"
+bg_auto = ClassName "sm:bg-auto"
 
 bg_black :: ClassName
-bg_black = ClassName "sm\\:bg-black"
+bg_black = ClassName "sm:bg-black"
 
 bg_black_10 :: ClassName
-bg_black_10 = ClassName "sm\\:bg-black-10"
+bg_black_10 = ClassName "sm:bg-black-10"
 
 bg_black_20 :: ClassName
-bg_black_20 = ClassName "sm\\:bg-black-20"
+bg_black_20 = ClassName "sm:bg-black-20"
 
 bg_blue_100 :: ClassName
-bg_blue_100 = ClassName "sm\\:bg-blue-100"
+bg_blue_100 = ClassName "sm:bg-blue-100"
 
 bg_blue_200 :: ClassName
-bg_blue_200 = ClassName "sm\\:bg-blue-200"
+bg_blue_200 = ClassName "sm:bg-blue-200"
 
 bg_blue_300 :: ClassName
-bg_blue_300 = ClassName "sm\\:bg-blue-300"
+bg_blue_300 = ClassName "sm:bg-blue-300"
 
 bg_blue_400 :: ClassName
-bg_blue_400 = ClassName "sm\\:bg-blue-400"
+bg_blue_400 = ClassName "sm:bg-blue-400"
 
 bg_blue_500 :: ClassName
-bg_blue_500 = ClassName "sm\\:bg-blue-500"
+bg_blue_500 = ClassName "sm:bg-blue-500"
 
 bg_blue_600 :: ClassName
-bg_blue_600 = ClassName "sm\\:bg-blue-600"
+bg_blue_600 = ClassName "sm:bg-blue-600"
 
 bg_blue_65 :: ClassName
-bg_blue_65 = ClassName "sm\\:bg-blue-65"
+bg_blue_65 = ClassName "sm:bg-blue-65"
 
 bg_blue_700 :: ClassName
-bg_blue_700 = ClassName "sm\\:bg-blue-700"
+bg_blue_700 = ClassName "sm:bg-blue-700"
 
 bg_blue_75 :: ClassName
-bg_blue_75 = ClassName "sm\\:bg-blue-75"
+bg_blue_75 = ClassName "sm:bg-blue-75"
 
 bg_blue_800 :: ClassName
-bg_blue_800 = ClassName "sm\\:bg-blue-800"
+bg_blue_800 = ClassName "sm:bg-blue-800"
 
 bg_blue_82 :: ClassName
-bg_blue_82 = ClassName "sm\\:bg-blue-82"
+bg_blue_82 = ClassName "sm:bg-blue-82"
 
 bg_blue_88 :: ClassName
-bg_blue_88 = ClassName "sm\\:bg-blue-88"
+bg_blue_88 = ClassName "sm:bg-blue-88"
 
 bg_blue_900 :: ClassName
-bg_blue_900 = ClassName "sm\\:bg-blue-900"
+bg_blue_900 = ClassName "sm:bg-blue-900"
 
 bg_bottom :: ClassName
-bg_bottom = ClassName "sm\\:bg-bottom"
+bg_bottom = ClassName "sm:bg-bottom"
 
 bg_center :: ClassName
-bg_center = ClassName "sm\\:bg-center"
+bg_center = ClassName "sm:bg-center"
 
 bg_contain :: ClassName
-bg_contain = ClassName "sm\\:bg-contain"
+bg_contain = ClassName "sm:bg-contain"
 
 bg_cover :: ClassName
-bg_cover = ClassName "sm\\:bg-cover"
+bg_cover = ClassName "sm:bg-cover"
 
 bg_current :: ClassName
-bg_current = ClassName "sm\\:bg-current"
+bg_current = ClassName "sm:bg-current"
 
 bg_fixed :: ClassName
-bg_fixed = ClassName "sm\\:bg-fixed"
+bg_fixed = ClassName "sm:bg-fixed"
 
 bg_gray_100 :: ClassName
-bg_gray_100 = ClassName "sm\\:bg-gray-100"
+bg_gray_100 = ClassName "sm:bg-gray-100"
 
 bg_gray_200 :: ClassName
-bg_gray_200 = ClassName "sm\\:bg-gray-200"
+bg_gray_200 = ClassName "sm:bg-gray-200"
 
 bg_gray_300 :: ClassName
-bg_gray_300 = ClassName "sm\\:bg-gray-300"
+bg_gray_300 = ClassName "sm:bg-gray-300"
 
 bg_gray_400 :: ClassName
-bg_gray_400 = ClassName "sm\\:bg-gray-400"
+bg_gray_400 = ClassName "sm:bg-gray-400"
 
 bg_gray_50 :: ClassName
-bg_gray_50 = ClassName "sm\\:bg-gray-50"
+bg_gray_50 = ClassName "sm:bg-gray-50"
 
 bg_gray_500 :: ClassName
-bg_gray_500 = ClassName "sm\\:bg-gray-500"
+bg_gray_500 = ClassName "sm:bg-gray-500"
 
 bg_gray_600 :: ClassName
-bg_gray_600 = ClassName "sm\\:bg-gray-600"
+bg_gray_600 = ClassName "sm:bg-gray-600"
 
 bg_gray_70 :: ClassName
-bg_gray_70 = ClassName "sm\\:bg-gray-70"
+bg_gray_70 = ClassName "sm:bg-gray-70"
 
 bg_gray_700 :: ClassName
-bg_gray_700 = ClassName "sm\\:bg-gray-700"
+bg_gray_700 = ClassName "sm:bg-gray-700"
 
 bg_gray_80 :: ClassName
-bg_gray_80 = ClassName "sm\\:bg-gray-80"
+bg_gray_80 = ClassName "sm:bg-gray-80"
 
 bg_gray_800 :: ClassName
-bg_gray_800 = ClassName "sm\\:bg-gray-800"
+bg_gray_800 = ClassName "sm:bg-gray-800"
 
 bg_gray_90 :: ClassName
-bg_gray_90 = ClassName "sm\\:bg-gray-90"
+bg_gray_90 = ClassName "sm:bg-gray-90"
 
 bg_gray_900 :: ClassName
-bg_gray_900 = ClassName "sm\\:bg-gray-900"
+bg_gray_900 = ClassName "sm:bg-gray-900"
 
 bg_gray_95 :: ClassName
-bg_gray_95 = ClassName "sm\\:bg-gray-95"
+bg_gray_95 = ClassName "sm:bg-gray-95"
 
 bg_gray_97 :: ClassName
-bg_gray_97 = ClassName "sm\\:bg-gray-97"
+bg_gray_97 = ClassName "sm:bg-gray-97"
 
 bg_green_100 :: ClassName
-bg_green_100 = ClassName "sm\\:bg-green-100"
+bg_green_100 = ClassName "sm:bg-green-100"
 
 bg_green_200 :: ClassName
-bg_green_200 = ClassName "sm\\:bg-green-200"
+bg_green_200 = ClassName "sm:bg-green-200"
 
 bg_green_300 :: ClassName
-bg_green_300 = ClassName "sm\\:bg-green-300"
+bg_green_300 = ClassName "sm:bg-green-300"
 
 bg_green_400 :: ClassName
-bg_green_400 = ClassName "sm\\:bg-green-400"
+bg_green_400 = ClassName "sm:bg-green-400"
 
 bg_green_500 :: ClassName
-bg_green_500 = ClassName "sm\\:bg-green-500"
+bg_green_500 = ClassName "sm:bg-green-500"
 
 bg_green_600 :: ClassName
-bg_green_600 = ClassName "sm\\:bg-green-600"
+bg_green_600 = ClassName "sm:bg-green-600"
 
 bg_green_700 :: ClassName
-bg_green_700 = ClassName "sm\\:bg-green-700"
+bg_green_700 = ClassName "sm:bg-green-700"
 
 bg_green_800 :: ClassName
-bg_green_800 = ClassName "sm\\:bg-green-800"
+bg_green_800 = ClassName "sm:bg-green-800"
 
 bg_green_900 :: ClassName
-bg_green_900 = ClassName "sm\\:bg-green-900"
+bg_green_900 = ClassName "sm:bg-green-900"
 
 bg_indigo_100 :: ClassName
-bg_indigo_100 = ClassName "sm\\:bg-indigo-100"
+bg_indigo_100 = ClassName "sm:bg-indigo-100"
 
 bg_indigo_200 :: ClassName
-bg_indigo_200 = ClassName "sm\\:bg-indigo-200"
+bg_indigo_200 = ClassName "sm:bg-indigo-200"
 
 bg_indigo_300 :: ClassName
-bg_indigo_300 = ClassName "sm\\:bg-indigo-300"
+bg_indigo_300 = ClassName "sm:bg-indigo-300"
 
 bg_indigo_400 :: ClassName
-bg_indigo_400 = ClassName "sm\\:bg-indigo-400"
+bg_indigo_400 = ClassName "sm:bg-indigo-400"
 
 bg_indigo_500 :: ClassName
-bg_indigo_500 = ClassName "sm\\:bg-indigo-500"
+bg_indigo_500 = ClassName "sm:bg-indigo-500"
 
 bg_indigo_600 :: ClassName
-bg_indigo_600 = ClassName "sm\\:bg-indigo-600"
+bg_indigo_600 = ClassName "sm:bg-indigo-600"
 
 bg_indigo_700 :: ClassName
-bg_indigo_700 = ClassName "sm\\:bg-indigo-700"
+bg_indigo_700 = ClassName "sm:bg-indigo-700"
 
 bg_indigo_800 :: ClassName
-bg_indigo_800 = ClassName "sm\\:bg-indigo-800"
+bg_indigo_800 = ClassName "sm:bg-indigo-800"
 
 bg_indigo_900 :: ClassName
-bg_indigo_900 = ClassName "sm\\:bg-indigo-900"
+bg_indigo_900 = ClassName "sm:bg-indigo-900"
 
 bg_left :: ClassName
-bg_left = ClassName "sm\\:bg-left"
+bg_left = ClassName "sm:bg-left"
 
 bg_left_bottom :: ClassName
-bg_left_bottom = ClassName "sm\\:bg-left-bottom"
+bg_left_bottom = ClassName "sm:bg-left-bottom"
 
 bg_left_top :: ClassName
-bg_left_top = ClassName "sm\\:bg-left-top"
+bg_left_top = ClassName "sm:bg-left-top"
 
 bg_local :: ClassName
-bg_local = ClassName "sm\\:bg-local"
+bg_local = ClassName "sm:bg-local"
 
 bg_no_repeat :: ClassName
-bg_no_repeat = ClassName "sm\\:bg-no-repeat"
+bg_no_repeat = ClassName "sm:bg-no-repeat"
 
 bg_opacity_0 :: ClassName
-bg_opacity_0 = ClassName "sm\\:bg-opacity-0"
+bg_opacity_0 = ClassName "sm:bg-opacity-0"
 
 bg_opacity_100 :: ClassName
-bg_opacity_100 = ClassName "sm\\:bg-opacity-100"
+bg_opacity_100 = ClassName "sm:bg-opacity-100"
 
 bg_opacity_25 :: ClassName
-bg_opacity_25 = ClassName "sm\\:bg-opacity-25"
+bg_opacity_25 = ClassName "sm:bg-opacity-25"
 
 bg_opacity_50 :: ClassName
-bg_opacity_50 = ClassName "sm\\:bg-opacity-50"
+bg_opacity_50 = ClassName "sm:bg-opacity-50"
 
 bg_opacity_75 :: ClassName
-bg_opacity_75 = ClassName "sm\\:bg-opacity-75"
+bg_opacity_75 = ClassName "sm:bg-opacity-75"
 
 bg_orange_100 :: ClassName
-bg_orange_100 = ClassName "sm\\:bg-orange-100"
+bg_orange_100 = ClassName "sm:bg-orange-100"
 
 bg_orange_200 :: ClassName
-bg_orange_200 = ClassName "sm\\:bg-orange-200"
+bg_orange_200 = ClassName "sm:bg-orange-200"
 
 bg_orange_300 :: ClassName
-bg_orange_300 = ClassName "sm\\:bg-orange-300"
+bg_orange_300 = ClassName "sm:bg-orange-300"
 
 bg_orange_400 :: ClassName
-bg_orange_400 = ClassName "sm\\:bg-orange-400"
+bg_orange_400 = ClassName "sm:bg-orange-400"
 
 bg_orange_500 :: ClassName
-bg_orange_500 = ClassName "sm\\:bg-orange-500"
+bg_orange_500 = ClassName "sm:bg-orange-500"
 
 bg_orange_600 :: ClassName
-bg_orange_600 = ClassName "sm\\:bg-orange-600"
+bg_orange_600 = ClassName "sm:bg-orange-600"
 
 bg_orange_700 :: ClassName
-bg_orange_700 = ClassName "sm\\:bg-orange-700"
+bg_orange_700 = ClassName "sm:bg-orange-700"
 
 bg_orange_800 :: ClassName
-bg_orange_800 = ClassName "sm\\:bg-orange-800"
+bg_orange_800 = ClassName "sm:bg-orange-800"
 
 bg_orange_900 :: ClassName
-bg_orange_900 = ClassName "sm\\:bg-orange-900"
+bg_orange_900 = ClassName "sm:bg-orange-900"
 
 bg_pink_100 :: ClassName
-bg_pink_100 = ClassName "sm\\:bg-pink-100"
+bg_pink_100 = ClassName "sm:bg-pink-100"
 
 bg_pink_200 :: ClassName
-bg_pink_200 = ClassName "sm\\:bg-pink-200"
+bg_pink_200 = ClassName "sm:bg-pink-200"
 
 bg_pink_300 :: ClassName
-bg_pink_300 = ClassName "sm\\:bg-pink-300"
+bg_pink_300 = ClassName "sm:bg-pink-300"
 
 bg_pink_400 :: ClassName
-bg_pink_400 = ClassName "sm\\:bg-pink-400"
+bg_pink_400 = ClassName "sm:bg-pink-400"
 
 bg_pink_500 :: ClassName
-bg_pink_500 = ClassName "sm\\:bg-pink-500"
+bg_pink_500 = ClassName "sm:bg-pink-500"
 
 bg_pink_600 :: ClassName
-bg_pink_600 = ClassName "sm\\:bg-pink-600"
+bg_pink_600 = ClassName "sm:bg-pink-600"
 
 bg_pink_700 :: ClassName
-bg_pink_700 = ClassName "sm\\:bg-pink-700"
+bg_pink_700 = ClassName "sm:bg-pink-700"
 
 bg_pink_800 :: ClassName
-bg_pink_800 = ClassName "sm\\:bg-pink-800"
+bg_pink_800 = ClassName "sm:bg-pink-800"
 
 bg_pink_900 :: ClassName
-bg_pink_900 = ClassName "sm\\:bg-pink-900"
+bg_pink_900 = ClassName "sm:bg-pink-900"
 
 bg_purple_100 :: ClassName
-bg_purple_100 = ClassName "sm\\:bg-purple-100"
+bg_purple_100 = ClassName "sm:bg-purple-100"
 
 bg_purple_200 :: ClassName
-bg_purple_200 = ClassName "sm\\:bg-purple-200"
+bg_purple_200 = ClassName "sm:bg-purple-200"
 
 bg_purple_300 :: ClassName
-bg_purple_300 = ClassName "sm\\:bg-purple-300"
+bg_purple_300 = ClassName "sm:bg-purple-300"
 
 bg_purple_400 :: ClassName
-bg_purple_400 = ClassName "sm\\:bg-purple-400"
+bg_purple_400 = ClassName "sm:bg-purple-400"
 
 bg_purple_500 :: ClassName
-bg_purple_500 = ClassName "sm\\:bg-purple-500"
+bg_purple_500 = ClassName "sm:bg-purple-500"
 
 bg_purple_600 :: ClassName
-bg_purple_600 = ClassName "sm\\:bg-purple-600"
+bg_purple_600 = ClassName "sm:bg-purple-600"
 
 bg_purple_700 :: ClassName
-bg_purple_700 = ClassName "sm\\:bg-purple-700"
+bg_purple_700 = ClassName "sm:bg-purple-700"
 
 bg_purple_800 :: ClassName
-bg_purple_800 = ClassName "sm\\:bg-purple-800"
+bg_purple_800 = ClassName "sm:bg-purple-800"
 
 bg_purple_900 :: ClassName
-bg_purple_900 = ClassName "sm\\:bg-purple-900"
+bg_purple_900 = ClassName "sm:bg-purple-900"
 
 bg_red_100 :: ClassName
-bg_red_100 = ClassName "sm\\:bg-red-100"
+bg_red_100 = ClassName "sm:bg-red-100"
 
 bg_red_200 :: ClassName
-bg_red_200 = ClassName "sm\\:bg-red-200"
+bg_red_200 = ClassName "sm:bg-red-200"
 
 bg_red_300 :: ClassName
-bg_red_300 = ClassName "sm\\:bg-red-300"
+bg_red_300 = ClassName "sm:bg-red-300"
 
 bg_red_400 :: ClassName
-bg_red_400 = ClassName "sm\\:bg-red-400"
+bg_red_400 = ClassName "sm:bg-red-400"
 
 bg_red_500 :: ClassName
-bg_red_500 = ClassName "sm\\:bg-red-500"
+bg_red_500 = ClassName "sm:bg-red-500"
 
 bg_red_600 :: ClassName
-bg_red_600 = ClassName "sm\\:bg-red-600"
+bg_red_600 = ClassName "sm:bg-red-600"
 
 bg_red_700 :: ClassName
-bg_red_700 = ClassName "sm\\:bg-red-700"
+bg_red_700 = ClassName "sm:bg-red-700"
 
 bg_red_800 :: ClassName
-bg_red_800 = ClassName "sm\\:bg-red-800"
+bg_red_800 = ClassName "sm:bg-red-800"
 
 bg_red_900 :: ClassName
-bg_red_900 = ClassName "sm\\:bg-red-900"
+bg_red_900 = ClassName "sm:bg-red-900"
 
 bg_repeat :: ClassName
-bg_repeat = ClassName "sm\\:bg-repeat"
+bg_repeat = ClassName "sm:bg-repeat"
 
 bg_repeat_round :: ClassName
-bg_repeat_round = ClassName "sm\\:bg-repeat-round"
+bg_repeat_round = ClassName "sm:bg-repeat-round"
 
 bg_repeat_space :: ClassName
-bg_repeat_space = ClassName "sm\\:bg-repeat-space"
+bg_repeat_space = ClassName "sm:bg-repeat-space"
 
 bg_repeat_x :: ClassName
-bg_repeat_x = ClassName "sm\\:bg-repeat-x"
+bg_repeat_x = ClassName "sm:bg-repeat-x"
 
 bg_repeat_y :: ClassName
-bg_repeat_y = ClassName "sm\\:bg-repeat-y"
+bg_repeat_y = ClassName "sm:bg-repeat-y"
 
 bg_right :: ClassName
-bg_right = ClassName "sm\\:bg-right"
+bg_right = ClassName "sm:bg-right"
 
 bg_right_bottom :: ClassName
-bg_right_bottom = ClassName "sm\\:bg-right-bottom"
+bg_right_bottom = ClassName "sm:bg-right-bottom"
 
 bg_right_top :: ClassName
-bg_right_top = ClassName "sm\\:bg-right-top"
+bg_right_top = ClassName "sm:bg-right-top"
 
 bg_scroll :: ClassName
-bg_scroll = ClassName "sm\\:bg-scroll"
+bg_scroll = ClassName "sm:bg-scroll"
 
 bg_steel_100 :: ClassName
-bg_steel_100 = ClassName "sm\\:bg-steel-100"
+bg_steel_100 = ClassName "sm:bg-steel-100"
 
 bg_steel_75 :: ClassName
-bg_steel_75 = ClassName "sm\\:bg-steel-75"
+bg_steel_75 = ClassName "sm:bg-steel-75"
 
 bg_steel_85 :: ClassName
-bg_steel_85 = ClassName "sm\\:bg-steel-85"
+bg_steel_85 = ClassName "sm:bg-steel-85"
 
 bg_teal_100 :: ClassName
-bg_teal_100 = ClassName "sm\\:bg-teal-100"
+bg_teal_100 = ClassName "sm:bg-teal-100"
 
 bg_teal_200 :: ClassName
-bg_teal_200 = ClassName "sm\\:bg-teal-200"
+bg_teal_200 = ClassName "sm:bg-teal-200"
 
 bg_teal_300 :: ClassName
-bg_teal_300 = ClassName "sm\\:bg-teal-300"
+bg_teal_300 = ClassName "sm:bg-teal-300"
 
 bg_teal_400 :: ClassName
-bg_teal_400 = ClassName "sm\\:bg-teal-400"
+bg_teal_400 = ClassName "sm:bg-teal-400"
 
 bg_teal_500 :: ClassName
-bg_teal_500 = ClassName "sm\\:bg-teal-500"
+bg_teal_500 = ClassName "sm:bg-teal-500"
 
 bg_teal_600 :: ClassName
-bg_teal_600 = ClassName "sm\\:bg-teal-600"
+bg_teal_600 = ClassName "sm:bg-teal-600"
 
 bg_teal_700 :: ClassName
-bg_teal_700 = ClassName "sm\\:bg-teal-700"
+bg_teal_700 = ClassName "sm:bg-teal-700"
 
 bg_teal_800 :: ClassName
-bg_teal_800 = ClassName "sm\\:bg-teal-800"
+bg_teal_800 = ClassName "sm:bg-teal-800"
 
 bg_teal_900 :: ClassName
-bg_teal_900 = ClassName "sm\\:bg-teal-900"
+bg_teal_900 = ClassName "sm:bg-teal-900"
 
 bg_top :: ClassName
-bg_top = ClassName "sm\\:bg-top"
+bg_top = ClassName "sm:bg-top"
 
 bg_transparent :: ClassName
-bg_transparent = ClassName "sm\\:bg-transparent"
+bg_transparent = ClassName "sm:bg-transparent"
 
 bg_white :: ClassName
-bg_white = ClassName "sm\\:bg-white"
+bg_white = ClassName "sm:bg-white"
 
 bg_yellow_100 :: ClassName
-bg_yellow_100 = ClassName "sm\\:bg-yellow-100"
+bg_yellow_100 = ClassName "sm:bg-yellow-100"
 
 bg_yellow_200 :: ClassName
-bg_yellow_200 = ClassName "sm\\:bg-yellow-200"
+bg_yellow_200 = ClassName "sm:bg-yellow-200"
 
 bg_yellow_300 :: ClassName
-bg_yellow_300 = ClassName "sm\\:bg-yellow-300"
+bg_yellow_300 = ClassName "sm:bg-yellow-300"
 
 bg_yellow_400 :: ClassName
-bg_yellow_400 = ClassName "sm\\:bg-yellow-400"
+bg_yellow_400 = ClassName "sm:bg-yellow-400"
 
 bg_yellow_500 :: ClassName
-bg_yellow_500 = ClassName "sm\\:bg-yellow-500"
+bg_yellow_500 = ClassName "sm:bg-yellow-500"
 
 bg_yellow_600 :: ClassName
-bg_yellow_600 = ClassName "sm\\:bg-yellow-600"
+bg_yellow_600 = ClassName "sm:bg-yellow-600"
 
 bg_yellow_700 :: ClassName
-bg_yellow_700 = ClassName "sm\\:bg-yellow-700"
+bg_yellow_700 = ClassName "sm:bg-yellow-700"
 
 bg_yellow_800 :: ClassName
-bg_yellow_800 = ClassName "sm\\:bg-yellow-800"
+bg_yellow_800 = ClassName "sm:bg-yellow-800"
 
 bg_yellow_900 :: ClassName
-bg_yellow_900 = ClassName "sm\\:bg-yellow-900"
+bg_yellow_900 = ClassName "sm:bg-yellow-900"
 
 block :: ClassName
-block = ClassName "sm\\:block"
+block = ClassName "sm:block"
 
 border :: ClassName
-border = ClassName "sm\\:border"
+border = ClassName "sm:border"
 
 border_0 :: ClassName
-border_0 = ClassName "sm\\:border-0"
+border_0 = ClassName "sm:border-0"
 
 border_2 :: ClassName
-border_2 = ClassName "sm\\:border-2"
+border_2 = ClassName "sm:border-2"
 
 border_3 :: ClassName
-border_3 = ClassName "sm\\:border-3"
+border_3 = ClassName "sm:border-3"
 
 border_4 :: ClassName
-border_4 = ClassName "sm\\:border-4"
+border_4 = ClassName "sm:border-4"
 
 border_8 :: ClassName
-border_8 = ClassName "sm\\:border-8"
+border_8 = ClassName "sm:border-8"
 
 border_b :: ClassName
-border_b = ClassName "sm\\:border-b"
+border_b = ClassName "sm:border-b"
 
 border_b_0 :: ClassName
-border_b_0 = ClassName "sm\\:border-b-0"
+border_b_0 = ClassName "sm:border-b-0"
 
 border_b_2 :: ClassName
-border_b_2 = ClassName "sm\\:border-b-2"
+border_b_2 = ClassName "sm:border-b-2"
 
 border_b_3 :: ClassName
-border_b_3 = ClassName "sm\\:border-b-3"
+border_b_3 = ClassName "sm:border-b-3"
 
 border_b_4 :: ClassName
-border_b_4 = ClassName "sm\\:border-b-4"
+border_b_4 = ClassName "sm:border-b-4"
 
 border_b_8 :: ClassName
-border_b_8 = ClassName "sm\\:border-b-8"
+border_b_8 = ClassName "sm:border-b-8"
 
 border_black :: ClassName
-border_black = ClassName "sm\\:border-black"
+border_black = ClassName "sm:border-black"
 
 border_black_10 :: ClassName
-border_black_10 = ClassName "sm\\:border-black-10"
+border_black_10 = ClassName "sm:border-black-10"
 
 border_black_20 :: ClassName
-border_black_20 = ClassName "sm\\:border-black-20"
+border_black_20 = ClassName "sm:border-black-20"
 
 border_blue_100 :: ClassName
-border_blue_100 = ClassName "sm\\:border-blue-100"
+border_blue_100 = ClassName "sm:border-blue-100"
 
 border_blue_200 :: ClassName
-border_blue_200 = ClassName "sm\\:border-blue-200"
+border_blue_200 = ClassName "sm:border-blue-200"
 
 border_blue_300 :: ClassName
-border_blue_300 = ClassName "sm\\:border-blue-300"
+border_blue_300 = ClassName "sm:border-blue-300"
 
 border_blue_400 :: ClassName
-border_blue_400 = ClassName "sm\\:border-blue-400"
+border_blue_400 = ClassName "sm:border-blue-400"
 
 border_blue_500 :: ClassName
-border_blue_500 = ClassName "sm\\:border-blue-500"
+border_blue_500 = ClassName "sm:border-blue-500"
 
 border_blue_600 :: ClassName
-border_blue_600 = ClassName "sm\\:border-blue-600"
+border_blue_600 = ClassName "sm:border-blue-600"
 
 border_blue_65 :: ClassName
-border_blue_65 = ClassName "sm\\:border-blue-65"
+border_blue_65 = ClassName "sm:border-blue-65"
 
 border_blue_700 :: ClassName
-border_blue_700 = ClassName "sm\\:border-blue-700"
+border_blue_700 = ClassName "sm:border-blue-700"
 
 border_blue_75 :: ClassName
-border_blue_75 = ClassName "sm\\:border-blue-75"
+border_blue_75 = ClassName "sm:border-blue-75"
 
 border_blue_800 :: ClassName
-border_blue_800 = ClassName "sm\\:border-blue-800"
+border_blue_800 = ClassName "sm:border-blue-800"
 
 border_blue_82 :: ClassName
-border_blue_82 = ClassName "sm\\:border-blue-82"
+border_blue_82 = ClassName "sm:border-blue-82"
 
 border_blue_88 :: ClassName
-border_blue_88 = ClassName "sm\\:border-blue-88"
+border_blue_88 = ClassName "sm:border-blue-88"
 
 border_blue_900 :: ClassName
-border_blue_900 = ClassName "sm\\:border-blue-900"
+border_blue_900 = ClassName "sm:border-blue-900"
 
 border_collapse :: ClassName
-border_collapse = ClassName "sm\\:border-collapse"
+border_collapse = ClassName "sm:border-collapse"
 
 border_current :: ClassName
-border_current = ClassName "sm\\:border-current"
+border_current = ClassName "sm:border-current"
 
 border_dashed :: ClassName
-border_dashed = ClassName "sm\\:border-dashed"
+border_dashed = ClassName "sm:border-dashed"
 
 border_dotted :: ClassName
-border_dotted = ClassName "sm\\:border-dotted"
+border_dotted = ClassName "sm:border-dotted"
 
 border_double :: ClassName
-border_double = ClassName "sm\\:border-double"
+border_double = ClassName "sm:border-double"
 
 border_gray_100 :: ClassName
-border_gray_100 = ClassName "sm\\:border-gray-100"
+border_gray_100 = ClassName "sm:border-gray-100"
 
 border_gray_200 :: ClassName
-border_gray_200 = ClassName "sm\\:border-gray-200"
+border_gray_200 = ClassName "sm:border-gray-200"
 
 border_gray_300 :: ClassName
-border_gray_300 = ClassName "sm\\:border-gray-300"
+border_gray_300 = ClassName "sm:border-gray-300"
 
 border_gray_400 :: ClassName
-border_gray_400 = ClassName "sm\\:border-gray-400"
+border_gray_400 = ClassName "sm:border-gray-400"
 
 border_gray_50 :: ClassName
-border_gray_50 = ClassName "sm\\:border-gray-50"
+border_gray_50 = ClassName "sm:border-gray-50"
 
 border_gray_500 :: ClassName
-border_gray_500 = ClassName "sm\\:border-gray-500"
+border_gray_500 = ClassName "sm:border-gray-500"
 
 border_gray_600 :: ClassName
-border_gray_600 = ClassName "sm\\:border-gray-600"
+border_gray_600 = ClassName "sm:border-gray-600"
 
 border_gray_70 :: ClassName
-border_gray_70 = ClassName "sm\\:border-gray-70"
+border_gray_70 = ClassName "sm:border-gray-70"
 
 border_gray_700 :: ClassName
-border_gray_700 = ClassName "sm\\:border-gray-700"
+border_gray_700 = ClassName "sm:border-gray-700"
 
 border_gray_80 :: ClassName
-border_gray_80 = ClassName "sm\\:border-gray-80"
+border_gray_80 = ClassName "sm:border-gray-80"
 
 border_gray_800 :: ClassName
-border_gray_800 = ClassName "sm\\:border-gray-800"
+border_gray_800 = ClassName "sm:border-gray-800"
 
 border_gray_90 :: ClassName
-border_gray_90 = ClassName "sm\\:border-gray-90"
+border_gray_90 = ClassName "sm:border-gray-90"
 
 border_gray_900 :: ClassName
-border_gray_900 = ClassName "sm\\:border-gray-900"
+border_gray_900 = ClassName "sm:border-gray-900"
 
 border_gray_95 :: ClassName
-border_gray_95 = ClassName "sm\\:border-gray-95"
+border_gray_95 = ClassName "sm:border-gray-95"
 
 border_gray_97 :: ClassName
-border_gray_97 = ClassName "sm\\:border-gray-97"
+border_gray_97 = ClassName "sm:border-gray-97"
 
 border_green_100 :: ClassName
-border_green_100 = ClassName "sm\\:border-green-100"
+border_green_100 = ClassName "sm:border-green-100"
 
 border_green_200 :: ClassName
-border_green_200 = ClassName "sm\\:border-green-200"
+border_green_200 = ClassName "sm:border-green-200"
 
 border_green_300 :: ClassName
-border_green_300 = ClassName "sm\\:border-green-300"
+border_green_300 = ClassName "sm:border-green-300"
 
 border_green_400 :: ClassName
-border_green_400 = ClassName "sm\\:border-green-400"
+border_green_400 = ClassName "sm:border-green-400"
 
 border_green_500 :: ClassName
-border_green_500 = ClassName "sm\\:border-green-500"
+border_green_500 = ClassName "sm:border-green-500"
 
 border_green_600 :: ClassName
-border_green_600 = ClassName "sm\\:border-green-600"
+border_green_600 = ClassName "sm:border-green-600"
 
 border_green_700 :: ClassName
-border_green_700 = ClassName "sm\\:border-green-700"
+border_green_700 = ClassName "sm:border-green-700"
 
 border_green_800 :: ClassName
-border_green_800 = ClassName "sm\\:border-green-800"
+border_green_800 = ClassName "sm:border-green-800"
 
 border_green_900 :: ClassName
-border_green_900 = ClassName "sm\\:border-green-900"
+border_green_900 = ClassName "sm:border-green-900"
 
 border_indigo_100 :: ClassName
-border_indigo_100 = ClassName "sm\\:border-indigo-100"
+border_indigo_100 = ClassName "sm:border-indigo-100"
 
 border_indigo_200 :: ClassName
-border_indigo_200 = ClassName "sm\\:border-indigo-200"
+border_indigo_200 = ClassName "sm:border-indigo-200"
 
 border_indigo_300 :: ClassName
-border_indigo_300 = ClassName "sm\\:border-indigo-300"
+border_indigo_300 = ClassName "sm:border-indigo-300"
 
 border_indigo_400 :: ClassName
-border_indigo_400 = ClassName "sm\\:border-indigo-400"
+border_indigo_400 = ClassName "sm:border-indigo-400"
 
 border_indigo_500 :: ClassName
-border_indigo_500 = ClassName "sm\\:border-indigo-500"
+border_indigo_500 = ClassName "sm:border-indigo-500"
 
 border_indigo_600 :: ClassName
-border_indigo_600 = ClassName "sm\\:border-indigo-600"
+border_indigo_600 = ClassName "sm:border-indigo-600"
 
 border_indigo_700 :: ClassName
-border_indigo_700 = ClassName "sm\\:border-indigo-700"
+border_indigo_700 = ClassName "sm:border-indigo-700"
 
 border_indigo_800 :: ClassName
-border_indigo_800 = ClassName "sm\\:border-indigo-800"
+border_indigo_800 = ClassName "sm:border-indigo-800"
 
 border_indigo_900 :: ClassName
-border_indigo_900 = ClassName "sm\\:border-indigo-900"
+border_indigo_900 = ClassName "sm:border-indigo-900"
 
 border_l :: ClassName
-border_l = ClassName "sm\\:border-l"
+border_l = ClassName "sm:border-l"
 
 border_l_0 :: ClassName
-border_l_0 = ClassName "sm\\:border-l-0"
+border_l_0 = ClassName "sm:border-l-0"
 
 border_l_2 :: ClassName
-border_l_2 = ClassName "sm\\:border-l-2"
+border_l_2 = ClassName "sm:border-l-2"
 
 border_l_3 :: ClassName
-border_l_3 = ClassName "sm\\:border-l-3"
+border_l_3 = ClassName "sm:border-l-3"
 
 border_l_4 :: ClassName
-border_l_4 = ClassName "sm\\:border-l-4"
+border_l_4 = ClassName "sm:border-l-4"
 
 border_l_8 :: ClassName
-border_l_8 = ClassName "sm\\:border-l-8"
+border_l_8 = ClassName "sm:border-l-8"
 
 border_none :: ClassName
-border_none = ClassName "sm\\:border-none"
+border_none = ClassName "sm:border-none"
 
 border_opacity_0 :: ClassName
-border_opacity_0 = ClassName "sm\\:border-opacity-0"
+border_opacity_0 = ClassName "sm:border-opacity-0"
 
 border_opacity_100 :: ClassName
-border_opacity_100 = ClassName "sm\\:border-opacity-100"
+border_opacity_100 = ClassName "sm:border-opacity-100"
 
 border_opacity_25 :: ClassName
-border_opacity_25 = ClassName "sm\\:border-opacity-25"
+border_opacity_25 = ClassName "sm:border-opacity-25"
 
 border_opacity_50 :: ClassName
-border_opacity_50 = ClassName "sm\\:border-opacity-50"
+border_opacity_50 = ClassName "sm:border-opacity-50"
 
 border_opacity_75 :: ClassName
-border_opacity_75 = ClassName "sm\\:border-opacity-75"
+border_opacity_75 = ClassName "sm:border-opacity-75"
 
 border_orange_100 :: ClassName
-border_orange_100 = ClassName "sm\\:border-orange-100"
+border_orange_100 = ClassName "sm:border-orange-100"
 
 border_orange_200 :: ClassName
-border_orange_200 = ClassName "sm\\:border-orange-200"
+border_orange_200 = ClassName "sm:border-orange-200"
 
 border_orange_300 :: ClassName
-border_orange_300 = ClassName "sm\\:border-orange-300"
+border_orange_300 = ClassName "sm:border-orange-300"
 
 border_orange_400 :: ClassName
-border_orange_400 = ClassName "sm\\:border-orange-400"
+border_orange_400 = ClassName "sm:border-orange-400"
 
 border_orange_500 :: ClassName
-border_orange_500 = ClassName "sm\\:border-orange-500"
+border_orange_500 = ClassName "sm:border-orange-500"
 
 border_orange_600 :: ClassName
-border_orange_600 = ClassName "sm\\:border-orange-600"
+border_orange_600 = ClassName "sm:border-orange-600"
 
 border_orange_700 :: ClassName
-border_orange_700 = ClassName "sm\\:border-orange-700"
+border_orange_700 = ClassName "sm:border-orange-700"
 
 border_orange_800 :: ClassName
-border_orange_800 = ClassName "sm\\:border-orange-800"
+border_orange_800 = ClassName "sm:border-orange-800"
 
 border_orange_900 :: ClassName
-border_orange_900 = ClassName "sm\\:border-orange-900"
+border_orange_900 = ClassName "sm:border-orange-900"
 
 border_pink_100 :: ClassName
-border_pink_100 = ClassName "sm\\:border-pink-100"
+border_pink_100 = ClassName "sm:border-pink-100"
 
 border_pink_200 :: ClassName
-border_pink_200 = ClassName "sm\\:border-pink-200"
+border_pink_200 = ClassName "sm:border-pink-200"
 
 border_pink_300 :: ClassName
-border_pink_300 = ClassName "sm\\:border-pink-300"
+border_pink_300 = ClassName "sm:border-pink-300"
 
 border_pink_400 :: ClassName
-border_pink_400 = ClassName "sm\\:border-pink-400"
+border_pink_400 = ClassName "sm:border-pink-400"
 
 border_pink_500 :: ClassName
-border_pink_500 = ClassName "sm\\:border-pink-500"
+border_pink_500 = ClassName "sm:border-pink-500"
 
 border_pink_600 :: ClassName
-border_pink_600 = ClassName "sm\\:border-pink-600"
+border_pink_600 = ClassName "sm:border-pink-600"
 
 border_pink_700 :: ClassName
-border_pink_700 = ClassName "sm\\:border-pink-700"
+border_pink_700 = ClassName "sm:border-pink-700"
 
 border_pink_800 :: ClassName
-border_pink_800 = ClassName "sm\\:border-pink-800"
+border_pink_800 = ClassName "sm:border-pink-800"
 
 border_pink_900 :: ClassName
-border_pink_900 = ClassName "sm\\:border-pink-900"
+border_pink_900 = ClassName "sm:border-pink-900"
 
 border_purple_100 :: ClassName
-border_purple_100 = ClassName "sm\\:border-purple-100"
+border_purple_100 = ClassName "sm:border-purple-100"
 
 border_purple_200 :: ClassName
-border_purple_200 = ClassName "sm\\:border-purple-200"
+border_purple_200 = ClassName "sm:border-purple-200"
 
 border_purple_300 :: ClassName
-border_purple_300 = ClassName "sm\\:border-purple-300"
+border_purple_300 = ClassName "sm:border-purple-300"
 
 border_purple_400 :: ClassName
-border_purple_400 = ClassName "sm\\:border-purple-400"
+border_purple_400 = ClassName "sm:border-purple-400"
 
 border_purple_500 :: ClassName
-border_purple_500 = ClassName "sm\\:border-purple-500"
+border_purple_500 = ClassName "sm:border-purple-500"
 
 border_purple_600 :: ClassName
-border_purple_600 = ClassName "sm\\:border-purple-600"
+border_purple_600 = ClassName "sm:border-purple-600"
 
 border_purple_700 :: ClassName
-border_purple_700 = ClassName "sm\\:border-purple-700"
+border_purple_700 = ClassName "sm:border-purple-700"
 
 border_purple_800 :: ClassName
-border_purple_800 = ClassName "sm\\:border-purple-800"
+border_purple_800 = ClassName "sm:border-purple-800"
 
 border_purple_900 :: ClassName
-border_purple_900 = ClassName "sm\\:border-purple-900"
+border_purple_900 = ClassName "sm:border-purple-900"
 
 border_r :: ClassName
-border_r = ClassName "sm\\:border-r"
+border_r = ClassName "sm:border-r"
 
 border_r_0 :: ClassName
-border_r_0 = ClassName "sm\\:border-r-0"
+border_r_0 = ClassName "sm:border-r-0"
 
 border_r_2 :: ClassName
-border_r_2 = ClassName "sm\\:border-r-2"
+border_r_2 = ClassName "sm:border-r-2"
 
 border_r_3 :: ClassName
-border_r_3 = ClassName "sm\\:border-r-3"
+border_r_3 = ClassName "sm:border-r-3"
 
 border_r_4 :: ClassName
-border_r_4 = ClassName "sm\\:border-r-4"
+border_r_4 = ClassName "sm:border-r-4"
 
 border_r_8 :: ClassName
-border_r_8 = ClassName "sm\\:border-r-8"
+border_r_8 = ClassName "sm:border-r-8"
 
 border_red_100 :: ClassName
-border_red_100 = ClassName "sm\\:border-red-100"
+border_red_100 = ClassName "sm:border-red-100"
 
 border_red_200 :: ClassName
-border_red_200 = ClassName "sm\\:border-red-200"
+border_red_200 = ClassName "sm:border-red-200"
 
 border_red_300 :: ClassName
-border_red_300 = ClassName "sm\\:border-red-300"
+border_red_300 = ClassName "sm:border-red-300"
 
 border_red_400 :: ClassName
-border_red_400 = ClassName "sm\\:border-red-400"
+border_red_400 = ClassName "sm:border-red-400"
 
 border_red_500 :: ClassName
-border_red_500 = ClassName "sm\\:border-red-500"
+border_red_500 = ClassName "sm:border-red-500"
 
 border_red_600 :: ClassName
-border_red_600 = ClassName "sm\\:border-red-600"
+border_red_600 = ClassName "sm:border-red-600"
 
 border_red_700 :: ClassName
-border_red_700 = ClassName "sm\\:border-red-700"
+border_red_700 = ClassName "sm:border-red-700"
 
 border_red_800 :: ClassName
-border_red_800 = ClassName "sm\\:border-red-800"
+border_red_800 = ClassName "sm:border-red-800"
 
 border_red_900 :: ClassName
-border_red_900 = ClassName "sm\\:border-red-900"
+border_red_900 = ClassName "sm:border-red-900"
 
 border_separate :: ClassName
-border_separate = ClassName "sm\\:border-separate"
+border_separate = ClassName "sm:border-separate"
 
 border_solid :: ClassName
-border_solid = ClassName "sm\\:border-solid"
+border_solid = ClassName "sm:border-solid"
 
 border_steel_100 :: ClassName
-border_steel_100 = ClassName "sm\\:border-steel-100"
+border_steel_100 = ClassName "sm:border-steel-100"
 
 border_steel_75 :: ClassName
-border_steel_75 = ClassName "sm\\:border-steel-75"
+border_steel_75 = ClassName "sm:border-steel-75"
 
 border_steel_85 :: ClassName
-border_steel_85 = ClassName "sm\\:border-steel-85"
+border_steel_85 = ClassName "sm:border-steel-85"
 
 border_t :: ClassName
-border_t = ClassName "sm\\:border-t"
+border_t = ClassName "sm:border-t"
 
 border_t_0 :: ClassName
-border_t_0 = ClassName "sm\\:border-t-0"
+border_t_0 = ClassName "sm:border-t-0"
 
 border_t_2 :: ClassName
-border_t_2 = ClassName "sm\\:border-t-2"
+border_t_2 = ClassName "sm:border-t-2"
 
 border_t_3 :: ClassName
-border_t_3 = ClassName "sm\\:border-t-3"
+border_t_3 = ClassName "sm:border-t-3"
 
 border_t_4 :: ClassName
-border_t_4 = ClassName "sm\\:border-t-4"
+border_t_4 = ClassName "sm:border-t-4"
 
 border_t_8 :: ClassName
-border_t_8 = ClassName "sm\\:border-t-8"
+border_t_8 = ClassName "sm:border-t-8"
 
 border_teal_100 :: ClassName
-border_teal_100 = ClassName "sm\\:border-teal-100"
+border_teal_100 = ClassName "sm:border-teal-100"
 
 border_teal_200 :: ClassName
-border_teal_200 = ClassName "sm\\:border-teal-200"
+border_teal_200 = ClassName "sm:border-teal-200"
 
 border_teal_300 :: ClassName
-border_teal_300 = ClassName "sm\\:border-teal-300"
+border_teal_300 = ClassName "sm:border-teal-300"
 
 border_teal_400 :: ClassName
-border_teal_400 = ClassName "sm\\:border-teal-400"
+border_teal_400 = ClassName "sm:border-teal-400"
 
 border_teal_500 :: ClassName
-border_teal_500 = ClassName "sm\\:border-teal-500"
+border_teal_500 = ClassName "sm:border-teal-500"
 
 border_teal_600 :: ClassName
-border_teal_600 = ClassName "sm\\:border-teal-600"
+border_teal_600 = ClassName "sm:border-teal-600"
 
 border_teal_700 :: ClassName
-border_teal_700 = ClassName "sm\\:border-teal-700"
+border_teal_700 = ClassName "sm:border-teal-700"
 
 border_teal_800 :: ClassName
-border_teal_800 = ClassName "sm\\:border-teal-800"
+border_teal_800 = ClassName "sm:border-teal-800"
 
 border_teal_900 :: ClassName
-border_teal_900 = ClassName "sm\\:border-teal-900"
+border_teal_900 = ClassName "sm:border-teal-900"
 
 border_transparent :: ClassName
-border_transparent = ClassName "sm\\:border-transparent"
+border_transparent = ClassName "sm:border-transparent"
 
 border_white :: ClassName
-border_white = ClassName "sm\\:border-white"
+border_white = ClassName "sm:border-white"
 
 border_yellow_100 :: ClassName
-border_yellow_100 = ClassName "sm\\:border-yellow-100"
+border_yellow_100 = ClassName "sm:border-yellow-100"
 
 border_yellow_200 :: ClassName
-border_yellow_200 = ClassName "sm\\:border-yellow-200"
+border_yellow_200 = ClassName "sm:border-yellow-200"
 
 border_yellow_300 :: ClassName
-border_yellow_300 = ClassName "sm\\:border-yellow-300"
+border_yellow_300 = ClassName "sm:border-yellow-300"
 
 border_yellow_400 :: ClassName
-border_yellow_400 = ClassName "sm\\:border-yellow-400"
+border_yellow_400 = ClassName "sm:border-yellow-400"
 
 border_yellow_500 :: ClassName
-border_yellow_500 = ClassName "sm\\:border-yellow-500"
+border_yellow_500 = ClassName "sm:border-yellow-500"
 
 border_yellow_600 :: ClassName
-border_yellow_600 = ClassName "sm\\:border-yellow-600"
+border_yellow_600 = ClassName "sm:border-yellow-600"
 
 border_yellow_700 :: ClassName
-border_yellow_700 = ClassName "sm\\:border-yellow-700"
+border_yellow_700 = ClassName "sm:border-yellow-700"
 
 border_yellow_800 :: ClassName
-border_yellow_800 = ClassName "sm\\:border-yellow-800"
+border_yellow_800 = ClassName "sm:border-yellow-800"
 
 border_yellow_900 :: ClassName
-border_yellow_900 = ClassName "sm\\:border-yellow-900"
+border_yellow_900 = ClassName "sm:border-yellow-900"
 
 bottom_0 :: ClassName
-bottom_0 = ClassName "sm\\:bottom-0"
+bottom_0 = ClassName "sm:bottom-0"
 
 bottom_auto :: ClassName
-bottom_auto = ClassName "sm\\:bottom-auto"
+bottom_auto = ClassName "sm:bottom-auto"
 
 box_border :: ClassName
-box_border = ClassName "sm\\:box-border"
+box_border = ClassName "sm:box-border"
 
 box_content :: ClassName
-box_content = ClassName "sm\\:box-content"
+box_content = ClassName "sm:box-content"
 
 break_all :: ClassName
-break_all = ClassName "sm\\:break-all"
+break_all = ClassName "sm:break-all"
 
 break_normal :: ClassName
-break_normal = ClassName "sm\\:break-normal"
+break_normal = ClassName "sm:break-normal"
 
 break_words :: ClassName
-break_words = ClassName "sm\\:break-words"
+break_words = ClassName "sm:break-words"
 
 capitalize :: ClassName
-capitalize = ClassName "sm\\:capitalize"
+capitalize = ClassName "sm:capitalize"
 
 clear_both :: ClassName
-clear_both = ClassName "sm\\:clear-both"
+clear_both = ClassName "sm:clear-both"
 
 clear_left :: ClassName
-clear_left = ClassName "sm\\:clear-left"
+clear_left = ClassName "sm:clear-left"
 
 clear_none :: ClassName
-clear_none = ClassName "sm\\:clear-none"
+clear_none = ClassName "sm:clear-none"
 
 clear_right :: ClassName
-clear_right = ClassName "sm\\:clear-right"
+clear_right = ClassName "sm:clear-right"
 
 clearfix :: ClassName
-clearfix = ClassName "sm\\:clearfix"
+clearfix = ClassName "sm:clearfix"
 
 col_auto :: ClassName
-col_auto = ClassName "sm\\:col-auto"
+col_auto = ClassName "sm:col-auto"
 
 col_end_1 :: ClassName
-col_end_1 = ClassName "sm\\:col-end-1"
+col_end_1 = ClassName "sm:col-end-1"
 
 col_end_10 :: ClassName
-col_end_10 = ClassName "sm\\:col-end-10"
+col_end_10 = ClassName "sm:col-end-10"
 
 col_end_11 :: ClassName
-col_end_11 = ClassName "sm\\:col-end-11"
+col_end_11 = ClassName "sm:col-end-11"
 
 col_end_12 :: ClassName
-col_end_12 = ClassName "sm\\:col-end-12"
+col_end_12 = ClassName "sm:col-end-12"
 
 col_end_13 :: ClassName
-col_end_13 = ClassName "sm\\:col-end-13"
+col_end_13 = ClassName "sm:col-end-13"
 
 col_end_2 :: ClassName
-col_end_2 = ClassName "sm\\:col-end-2"
+col_end_2 = ClassName "sm:col-end-2"
 
 col_end_3 :: ClassName
-col_end_3 = ClassName "sm\\:col-end-3"
+col_end_3 = ClassName "sm:col-end-3"
 
 col_end_4 :: ClassName
-col_end_4 = ClassName "sm\\:col-end-4"
+col_end_4 = ClassName "sm:col-end-4"
 
 col_end_5 :: ClassName
-col_end_5 = ClassName "sm\\:col-end-5"
+col_end_5 = ClassName "sm:col-end-5"
 
 col_end_6 :: ClassName
-col_end_6 = ClassName "sm\\:col-end-6"
+col_end_6 = ClassName "sm:col-end-6"
 
 col_end_7 :: ClassName
-col_end_7 = ClassName "sm\\:col-end-7"
+col_end_7 = ClassName "sm:col-end-7"
 
 col_end_8 :: ClassName
-col_end_8 = ClassName "sm\\:col-end-8"
+col_end_8 = ClassName "sm:col-end-8"
 
 col_end_9 :: ClassName
-col_end_9 = ClassName "sm\\:col-end-9"
+col_end_9 = ClassName "sm:col-end-9"
 
 col_end_auto :: ClassName
-col_end_auto = ClassName "sm\\:col-end-auto"
+col_end_auto = ClassName "sm:col-end-auto"
 
 col_gap_0 :: ClassName
-col_gap_0 = ClassName "sm\\:col-gap-0"
+col_gap_0 = ClassName "sm:col-gap-0"
 
 col_gap_1 :: ClassName
-col_gap_1 = ClassName "sm\\:col-gap-1"
+col_gap_1 = ClassName "sm:col-gap-1"
 
 col_gap_10 :: ClassName
-col_gap_10 = ClassName "sm\\:col-gap-10"
+col_gap_10 = ClassName "sm:col-gap-10"
 
 col_gap_12 :: ClassName
-col_gap_12 = ClassName "sm\\:col-gap-12"
+col_gap_12 = ClassName "sm:col-gap-12"
 
 col_gap_120 :: ClassName
-col_gap_120 = ClassName "sm\\:col-gap-120"
+col_gap_120 = ClassName "sm:col-gap-120"
 
 col_gap_14 :: ClassName
-col_gap_14 = ClassName "sm\\:col-gap-14"
+col_gap_14 = ClassName "sm:col-gap-14"
 
 col_gap_16 :: ClassName
-col_gap_16 = ClassName "sm\\:col-gap-16"
+col_gap_16 = ClassName "sm:col-gap-16"
 
 col_gap_160 :: ClassName
-col_gap_160 = ClassName "sm\\:col-gap-160"
+col_gap_160 = ClassName "sm:col-gap-160"
 
 col_gap_2 :: ClassName
-col_gap_2 = ClassName "sm\\:col-gap-2"
+col_gap_2 = ClassName "sm:col-gap-2"
 
 col_gap_20 :: ClassName
-col_gap_20 = ClassName "sm\\:col-gap-20"
+col_gap_20 = ClassName "sm:col-gap-20"
 
 col_gap_24 :: ClassName
-col_gap_24 = ClassName "sm\\:col-gap-24"
+col_gap_24 = ClassName "sm:col-gap-24"
 
 col_gap_3 :: ClassName
-col_gap_3 = ClassName "sm\\:col-gap-3"
+col_gap_3 = ClassName "sm:col-gap-3"
 
 col_gap_30 :: ClassName
-col_gap_30 = ClassName "sm\\:col-gap-30"
+col_gap_30 = ClassName "sm:col-gap-30"
 
 col_gap_32 :: ClassName
-col_gap_32 = ClassName "sm\\:col-gap-32"
+col_gap_32 = ClassName "sm:col-gap-32"
 
 col_gap_4 :: ClassName
-col_gap_4 = ClassName "sm\\:col-gap-4"
+col_gap_4 = ClassName "sm:col-gap-4"
 
 col_gap_40 :: ClassName
-col_gap_40 = ClassName "sm\\:col-gap-40"
+col_gap_40 = ClassName "sm:col-gap-40"
 
 col_gap_48 :: ClassName
-col_gap_48 = ClassName "sm\\:col-gap-48"
+col_gap_48 = ClassName "sm:col-gap-48"
 
 col_gap_5 :: ClassName
-col_gap_5 = ClassName "sm\\:col-gap-5"
+col_gap_5 = ClassName "sm:col-gap-5"
 
 col_gap_50 :: ClassName
-col_gap_50 = ClassName "sm\\:col-gap-50"
+col_gap_50 = ClassName "sm:col-gap-50"
 
 col_gap_56 :: ClassName
-col_gap_56 = ClassName "sm\\:col-gap-56"
+col_gap_56 = ClassName "sm:col-gap-56"
 
 col_gap_6 :: ClassName
-col_gap_6 = ClassName "sm\\:col-gap-6"
+col_gap_6 = ClassName "sm:col-gap-6"
 
 col_gap_60 :: ClassName
-col_gap_60 = ClassName "sm\\:col-gap-60"
+col_gap_60 = ClassName "sm:col-gap-60"
 
 col_gap_64 :: ClassName
-col_gap_64 = ClassName "sm\\:col-gap-64"
+col_gap_64 = ClassName "sm:col-gap-64"
 
 col_gap_7 :: ClassName
-col_gap_7 = ClassName "sm\\:col-gap-7"
+col_gap_7 = ClassName "sm:col-gap-7"
 
 col_gap_8 :: ClassName
-col_gap_8 = ClassName "sm\\:col-gap-8"
+col_gap_8 = ClassName "sm:col-gap-8"
 
 col_gap_80 :: ClassName
-col_gap_80 = ClassName "sm\\:col-gap-80"
+col_gap_80 = ClassName "sm:col-gap-80"
 
 col_gap_9 :: ClassName
-col_gap_9 = ClassName "sm\\:col-gap-9"
+col_gap_9 = ClassName "sm:col-gap-9"
 
 col_gap_90 :: ClassName
-col_gap_90 = ClassName "sm\\:col-gap-90"
+col_gap_90 = ClassName "sm:col-gap-90"
 
 col_gap_px :: ClassName
-col_gap_px = ClassName "sm\\:col-gap-px"
+col_gap_px = ClassName "sm:col-gap-px"
 
 col_span_1 :: ClassName
-col_span_1 = ClassName "sm\\:col-span-1"
+col_span_1 = ClassName "sm:col-span-1"
 
 col_span_10 :: ClassName
-col_span_10 = ClassName "sm\\:col-span-10"
+col_span_10 = ClassName "sm:col-span-10"
 
 col_span_11 :: ClassName
-col_span_11 = ClassName "sm\\:col-span-11"
+col_span_11 = ClassName "sm:col-span-11"
 
 col_span_12 :: ClassName
-col_span_12 = ClassName "sm\\:col-span-12"
+col_span_12 = ClassName "sm:col-span-12"
 
 col_span_2 :: ClassName
-col_span_2 = ClassName "sm\\:col-span-2"
+col_span_2 = ClassName "sm:col-span-2"
 
 col_span_3 :: ClassName
-col_span_3 = ClassName "sm\\:col-span-3"
+col_span_3 = ClassName "sm:col-span-3"
 
 col_span_4 :: ClassName
-col_span_4 = ClassName "sm\\:col-span-4"
+col_span_4 = ClassName "sm:col-span-4"
 
 col_span_5 :: ClassName
-col_span_5 = ClassName "sm\\:col-span-5"
+col_span_5 = ClassName "sm:col-span-5"
 
 col_span_6 :: ClassName
-col_span_6 = ClassName "sm\\:col-span-6"
+col_span_6 = ClassName "sm:col-span-6"
 
 col_span_7 :: ClassName
-col_span_7 = ClassName "sm\\:col-span-7"
+col_span_7 = ClassName "sm:col-span-7"
 
 col_span_8 :: ClassName
-col_span_8 = ClassName "sm\\:col-span-8"
+col_span_8 = ClassName "sm:col-span-8"
 
 col_span_9 :: ClassName
-col_span_9 = ClassName "sm\\:col-span-9"
+col_span_9 = ClassName "sm:col-span-9"
 
 col_start_1 :: ClassName
-col_start_1 = ClassName "sm\\:col-start-1"
+col_start_1 = ClassName "sm:col-start-1"
 
 col_start_10 :: ClassName
-col_start_10 = ClassName "sm\\:col-start-10"
+col_start_10 = ClassName "sm:col-start-10"
 
 col_start_11 :: ClassName
-col_start_11 = ClassName "sm\\:col-start-11"
+col_start_11 = ClassName "sm:col-start-11"
 
 col_start_12 :: ClassName
-col_start_12 = ClassName "sm\\:col-start-12"
+col_start_12 = ClassName "sm:col-start-12"
 
 col_start_13 :: ClassName
-col_start_13 = ClassName "sm\\:col-start-13"
+col_start_13 = ClassName "sm:col-start-13"
 
 col_start_2 :: ClassName
-col_start_2 = ClassName "sm\\:col-start-2"
+col_start_2 = ClassName "sm:col-start-2"
 
 col_start_3 :: ClassName
-col_start_3 = ClassName "sm\\:col-start-3"
+col_start_3 = ClassName "sm:col-start-3"
 
 col_start_4 :: ClassName
-col_start_4 = ClassName "sm\\:col-start-4"
+col_start_4 = ClassName "sm:col-start-4"
 
 col_start_5 :: ClassName
-col_start_5 = ClassName "sm\\:col-start-5"
+col_start_5 = ClassName "sm:col-start-5"
 
 col_start_6 :: ClassName
-col_start_6 = ClassName "sm\\:col-start-6"
+col_start_6 = ClassName "sm:col-start-6"
 
 col_start_7 :: ClassName
-col_start_7 = ClassName "sm\\:col-start-7"
+col_start_7 = ClassName "sm:col-start-7"
 
 col_start_8 :: ClassName
-col_start_8 = ClassName "sm\\:col-start-8"
+col_start_8 = ClassName "sm:col-start-8"
 
 col_start_9 :: ClassName
-col_start_9 = ClassName "sm\\:col-start-9"
+col_start_9 = ClassName "sm:col-start-9"
 
 col_start_auto :: ClassName
-col_start_auto = ClassName "sm\\:col-start-auto"
+col_start_auto = ClassName "sm:col-start-auto"
 
 content_around :: ClassName
-content_around = ClassName "sm\\:content-around"
+content_around = ClassName "sm:content-around"
 
 content_between :: ClassName
-content_between = ClassName "sm\\:content-between"
+content_between = ClassName "sm:content-between"
 
 content_center :: ClassName
-content_center = ClassName "sm\\:content-center"
+content_center = ClassName "sm:content-center"
 
 content_end :: ClassName
-content_end = ClassName "sm\\:content-end"
+content_end = ClassName "sm:content-end"
 
 content_start :: ClassName
-content_start = ClassName "sm\\:content-start"
+content_start = ClassName "sm:content-start"
 
 cursor_auto :: ClassName
-cursor_auto = ClassName "sm\\:cursor-auto"
+cursor_auto = ClassName "sm:cursor-auto"
 
 cursor_default :: ClassName
-cursor_default = ClassName "sm\\:cursor-default"
+cursor_default = ClassName "sm:cursor-default"
 
 cursor_move :: ClassName
-cursor_move = ClassName "sm\\:cursor-move"
+cursor_move = ClassName "sm:cursor-move"
 
 cursor_not_allowed :: ClassName
-cursor_not_allowed = ClassName "sm\\:cursor-not-allowed"
+cursor_not_allowed = ClassName "sm:cursor-not-allowed"
 
 cursor_pointer :: ClassName
-cursor_pointer = ClassName "sm\\:cursor-pointer"
+cursor_pointer = ClassName "sm:cursor-pointer"
 
 cursor_text :: ClassName
-cursor_text = ClassName "sm\\:cursor-text"
+cursor_text = ClassName "sm:cursor-text"
 
 cursor_wait :: ClassName
-cursor_wait = ClassName "sm\\:cursor-wait"
+cursor_wait = ClassName "sm:cursor-wait"
 
 delay_100 :: ClassName
-delay_100 = ClassName "sm\\:delay-100"
+delay_100 = ClassName "sm:delay-100"
 
 delay_1000 :: ClassName
-delay_1000 = ClassName "sm\\:delay-1000"
+delay_1000 = ClassName "sm:delay-1000"
 
 delay_150 :: ClassName
-delay_150 = ClassName "sm\\:delay-150"
+delay_150 = ClassName "sm:delay-150"
 
 delay_200 :: ClassName
-delay_200 = ClassName "sm\\:delay-200"
+delay_200 = ClassName "sm:delay-200"
 
 delay_300 :: ClassName
-delay_300 = ClassName "sm\\:delay-300"
+delay_300 = ClassName "sm:delay-300"
 
 delay_500 :: ClassName
-delay_500 = ClassName "sm\\:delay-500"
+delay_500 = ClassName "sm:delay-500"
 
 delay_700 :: ClassName
-delay_700 = ClassName "sm\\:delay-700"
+delay_700 = ClassName "sm:delay-700"
 
 delay_75 :: ClassName
-delay_75 = ClassName "sm\\:delay-75"
+delay_75 = ClassName "sm:delay-75"
 
 divide_black :: ClassName
-divide_black = ClassName "sm\\:divide-black"
+divide_black = ClassName "sm:divide-black"
 
 divide_black_10 :: ClassName
-divide_black_10 = ClassName "sm\\:divide-black-10"
+divide_black_10 = ClassName "sm:divide-black-10"
 
 divide_black_20 :: ClassName
-divide_black_20 = ClassName "sm\\:divide-black-20"
+divide_black_20 = ClassName "sm:divide-black-20"
 
 divide_blue_100 :: ClassName
-divide_blue_100 = ClassName "sm\\:divide-blue-100"
+divide_blue_100 = ClassName "sm:divide-blue-100"
 
 divide_blue_200 :: ClassName
-divide_blue_200 = ClassName "sm\\:divide-blue-200"
+divide_blue_200 = ClassName "sm:divide-blue-200"
 
 divide_blue_300 :: ClassName
-divide_blue_300 = ClassName "sm\\:divide-blue-300"
+divide_blue_300 = ClassName "sm:divide-blue-300"
 
 divide_blue_400 :: ClassName
-divide_blue_400 = ClassName "sm\\:divide-blue-400"
+divide_blue_400 = ClassName "sm:divide-blue-400"
 
 divide_blue_500 :: ClassName
-divide_blue_500 = ClassName "sm\\:divide-blue-500"
+divide_blue_500 = ClassName "sm:divide-blue-500"
 
 divide_blue_600 :: ClassName
-divide_blue_600 = ClassName "sm\\:divide-blue-600"
+divide_blue_600 = ClassName "sm:divide-blue-600"
 
 divide_blue_65 :: ClassName
-divide_blue_65 = ClassName "sm\\:divide-blue-65"
+divide_blue_65 = ClassName "sm:divide-blue-65"
 
 divide_blue_700 :: ClassName
-divide_blue_700 = ClassName "sm\\:divide-blue-700"
+divide_blue_700 = ClassName "sm:divide-blue-700"
 
 divide_blue_75 :: ClassName
-divide_blue_75 = ClassName "sm\\:divide-blue-75"
+divide_blue_75 = ClassName "sm:divide-blue-75"
 
 divide_blue_800 :: ClassName
-divide_blue_800 = ClassName "sm\\:divide-blue-800"
+divide_blue_800 = ClassName "sm:divide-blue-800"
 
 divide_blue_82 :: ClassName
-divide_blue_82 = ClassName "sm\\:divide-blue-82"
+divide_blue_82 = ClassName "sm:divide-blue-82"
 
 divide_blue_88 :: ClassName
-divide_blue_88 = ClassName "sm\\:divide-blue-88"
+divide_blue_88 = ClassName "sm:divide-blue-88"
 
 divide_blue_900 :: ClassName
-divide_blue_900 = ClassName "sm\\:divide-blue-900"
+divide_blue_900 = ClassName "sm:divide-blue-900"
 
 divide_current :: ClassName
-divide_current = ClassName "sm\\:divide-current"
+divide_current = ClassName "sm:divide-current"
 
 divide_gray_100 :: ClassName
-divide_gray_100 = ClassName "sm\\:divide-gray-100"
+divide_gray_100 = ClassName "sm:divide-gray-100"
 
 divide_gray_200 :: ClassName
-divide_gray_200 = ClassName "sm\\:divide-gray-200"
+divide_gray_200 = ClassName "sm:divide-gray-200"
 
 divide_gray_300 :: ClassName
-divide_gray_300 = ClassName "sm\\:divide-gray-300"
+divide_gray_300 = ClassName "sm:divide-gray-300"
 
 divide_gray_400 :: ClassName
-divide_gray_400 = ClassName "sm\\:divide-gray-400"
+divide_gray_400 = ClassName "sm:divide-gray-400"
 
 divide_gray_50 :: ClassName
-divide_gray_50 = ClassName "sm\\:divide-gray-50"
+divide_gray_50 = ClassName "sm:divide-gray-50"
 
 divide_gray_500 :: ClassName
-divide_gray_500 = ClassName "sm\\:divide-gray-500"
+divide_gray_500 = ClassName "sm:divide-gray-500"
 
 divide_gray_600 :: ClassName
-divide_gray_600 = ClassName "sm\\:divide-gray-600"
+divide_gray_600 = ClassName "sm:divide-gray-600"
 
 divide_gray_70 :: ClassName
-divide_gray_70 = ClassName "sm\\:divide-gray-70"
+divide_gray_70 = ClassName "sm:divide-gray-70"
 
 divide_gray_700 :: ClassName
-divide_gray_700 = ClassName "sm\\:divide-gray-700"
+divide_gray_700 = ClassName "sm:divide-gray-700"
 
 divide_gray_80 :: ClassName
-divide_gray_80 = ClassName "sm\\:divide-gray-80"
+divide_gray_80 = ClassName "sm:divide-gray-80"
 
 divide_gray_800 :: ClassName
-divide_gray_800 = ClassName "sm\\:divide-gray-800"
+divide_gray_800 = ClassName "sm:divide-gray-800"
 
 divide_gray_90 :: ClassName
-divide_gray_90 = ClassName "sm\\:divide-gray-90"
+divide_gray_90 = ClassName "sm:divide-gray-90"
 
 divide_gray_900 :: ClassName
-divide_gray_900 = ClassName "sm\\:divide-gray-900"
+divide_gray_900 = ClassName "sm:divide-gray-900"
 
 divide_gray_95 :: ClassName
-divide_gray_95 = ClassName "sm\\:divide-gray-95"
+divide_gray_95 = ClassName "sm:divide-gray-95"
 
 divide_gray_97 :: ClassName
-divide_gray_97 = ClassName "sm\\:divide-gray-97"
+divide_gray_97 = ClassName "sm:divide-gray-97"
 
 divide_green_100 :: ClassName
-divide_green_100 = ClassName "sm\\:divide-green-100"
+divide_green_100 = ClassName "sm:divide-green-100"
 
 divide_green_200 :: ClassName
-divide_green_200 = ClassName "sm\\:divide-green-200"
+divide_green_200 = ClassName "sm:divide-green-200"
 
 divide_green_300 :: ClassName
-divide_green_300 = ClassName "sm\\:divide-green-300"
+divide_green_300 = ClassName "sm:divide-green-300"
 
 divide_green_400 :: ClassName
-divide_green_400 = ClassName "sm\\:divide-green-400"
+divide_green_400 = ClassName "sm:divide-green-400"
 
 divide_green_500 :: ClassName
-divide_green_500 = ClassName "sm\\:divide-green-500"
+divide_green_500 = ClassName "sm:divide-green-500"
 
 divide_green_600 :: ClassName
-divide_green_600 = ClassName "sm\\:divide-green-600"
+divide_green_600 = ClassName "sm:divide-green-600"
 
 divide_green_700 :: ClassName
-divide_green_700 = ClassName "sm\\:divide-green-700"
+divide_green_700 = ClassName "sm:divide-green-700"
 
 divide_green_800 :: ClassName
-divide_green_800 = ClassName "sm\\:divide-green-800"
+divide_green_800 = ClassName "sm:divide-green-800"
 
 divide_green_900 :: ClassName
-divide_green_900 = ClassName "sm\\:divide-green-900"
+divide_green_900 = ClassName "sm:divide-green-900"
 
 divide_indigo_100 :: ClassName
-divide_indigo_100 = ClassName "sm\\:divide-indigo-100"
+divide_indigo_100 = ClassName "sm:divide-indigo-100"
 
 divide_indigo_200 :: ClassName
-divide_indigo_200 = ClassName "sm\\:divide-indigo-200"
+divide_indigo_200 = ClassName "sm:divide-indigo-200"
 
 divide_indigo_300 :: ClassName
-divide_indigo_300 = ClassName "sm\\:divide-indigo-300"
+divide_indigo_300 = ClassName "sm:divide-indigo-300"
 
 divide_indigo_400 :: ClassName
-divide_indigo_400 = ClassName "sm\\:divide-indigo-400"
+divide_indigo_400 = ClassName "sm:divide-indigo-400"
 
 divide_indigo_500 :: ClassName
-divide_indigo_500 = ClassName "sm\\:divide-indigo-500"
+divide_indigo_500 = ClassName "sm:divide-indigo-500"
 
 divide_indigo_600 :: ClassName
-divide_indigo_600 = ClassName "sm\\:divide-indigo-600"
+divide_indigo_600 = ClassName "sm:divide-indigo-600"
 
 divide_indigo_700 :: ClassName
-divide_indigo_700 = ClassName "sm\\:divide-indigo-700"
+divide_indigo_700 = ClassName "sm:divide-indigo-700"
 
 divide_indigo_800 :: ClassName
-divide_indigo_800 = ClassName "sm\\:divide-indigo-800"
+divide_indigo_800 = ClassName "sm:divide-indigo-800"
 
 divide_indigo_900 :: ClassName
-divide_indigo_900 = ClassName "sm\\:divide-indigo-900"
+divide_indigo_900 = ClassName "sm:divide-indigo-900"
 
 divide_opacity_0 :: ClassName
-divide_opacity_0 = ClassName "sm\\:divide-opacity-0"
+divide_opacity_0 = ClassName "sm:divide-opacity-0"
 
 divide_opacity_100 :: ClassName
-divide_opacity_100 = ClassName "sm\\:divide-opacity-100"
+divide_opacity_100 = ClassName "sm:divide-opacity-100"
 
 divide_opacity_25 :: ClassName
-divide_opacity_25 = ClassName "sm\\:divide-opacity-25"
+divide_opacity_25 = ClassName "sm:divide-opacity-25"
 
 divide_opacity_50 :: ClassName
-divide_opacity_50 = ClassName "sm\\:divide-opacity-50"
+divide_opacity_50 = ClassName "sm:divide-opacity-50"
 
 divide_opacity_75 :: ClassName
-divide_opacity_75 = ClassName "sm\\:divide-opacity-75"
+divide_opacity_75 = ClassName "sm:divide-opacity-75"
 
 divide_orange_100 :: ClassName
-divide_orange_100 = ClassName "sm\\:divide-orange-100"
+divide_orange_100 = ClassName "sm:divide-orange-100"
 
 divide_orange_200 :: ClassName
-divide_orange_200 = ClassName "sm\\:divide-orange-200"
+divide_orange_200 = ClassName "sm:divide-orange-200"
 
 divide_orange_300 :: ClassName
-divide_orange_300 = ClassName "sm\\:divide-orange-300"
+divide_orange_300 = ClassName "sm:divide-orange-300"
 
 divide_orange_400 :: ClassName
-divide_orange_400 = ClassName "sm\\:divide-orange-400"
+divide_orange_400 = ClassName "sm:divide-orange-400"
 
 divide_orange_500 :: ClassName
-divide_orange_500 = ClassName "sm\\:divide-orange-500"
+divide_orange_500 = ClassName "sm:divide-orange-500"
 
 divide_orange_600 :: ClassName
-divide_orange_600 = ClassName "sm\\:divide-orange-600"
+divide_orange_600 = ClassName "sm:divide-orange-600"
 
 divide_orange_700 :: ClassName
-divide_orange_700 = ClassName "sm\\:divide-orange-700"
+divide_orange_700 = ClassName "sm:divide-orange-700"
 
 divide_orange_800 :: ClassName
-divide_orange_800 = ClassName "sm\\:divide-orange-800"
+divide_orange_800 = ClassName "sm:divide-orange-800"
 
 divide_orange_900 :: ClassName
-divide_orange_900 = ClassName "sm\\:divide-orange-900"
+divide_orange_900 = ClassName "sm:divide-orange-900"
 
 divide_pink_100 :: ClassName
-divide_pink_100 = ClassName "sm\\:divide-pink-100"
+divide_pink_100 = ClassName "sm:divide-pink-100"
 
 divide_pink_200 :: ClassName
-divide_pink_200 = ClassName "sm\\:divide-pink-200"
+divide_pink_200 = ClassName "sm:divide-pink-200"
 
 divide_pink_300 :: ClassName
-divide_pink_300 = ClassName "sm\\:divide-pink-300"
+divide_pink_300 = ClassName "sm:divide-pink-300"
 
 divide_pink_400 :: ClassName
-divide_pink_400 = ClassName "sm\\:divide-pink-400"
+divide_pink_400 = ClassName "sm:divide-pink-400"
 
 divide_pink_500 :: ClassName
-divide_pink_500 = ClassName "sm\\:divide-pink-500"
+divide_pink_500 = ClassName "sm:divide-pink-500"
 
 divide_pink_600 :: ClassName
-divide_pink_600 = ClassName "sm\\:divide-pink-600"
+divide_pink_600 = ClassName "sm:divide-pink-600"
 
 divide_pink_700 :: ClassName
-divide_pink_700 = ClassName "sm\\:divide-pink-700"
+divide_pink_700 = ClassName "sm:divide-pink-700"
 
 divide_pink_800 :: ClassName
-divide_pink_800 = ClassName "sm\\:divide-pink-800"
+divide_pink_800 = ClassName "sm:divide-pink-800"
 
 divide_pink_900 :: ClassName
-divide_pink_900 = ClassName "sm\\:divide-pink-900"
+divide_pink_900 = ClassName "sm:divide-pink-900"
 
 divide_purple_100 :: ClassName
-divide_purple_100 = ClassName "sm\\:divide-purple-100"
+divide_purple_100 = ClassName "sm:divide-purple-100"
 
 divide_purple_200 :: ClassName
-divide_purple_200 = ClassName "sm\\:divide-purple-200"
+divide_purple_200 = ClassName "sm:divide-purple-200"
 
 divide_purple_300 :: ClassName
-divide_purple_300 = ClassName "sm\\:divide-purple-300"
+divide_purple_300 = ClassName "sm:divide-purple-300"
 
 divide_purple_400 :: ClassName
-divide_purple_400 = ClassName "sm\\:divide-purple-400"
+divide_purple_400 = ClassName "sm:divide-purple-400"
 
 divide_purple_500 :: ClassName
-divide_purple_500 = ClassName "sm\\:divide-purple-500"
+divide_purple_500 = ClassName "sm:divide-purple-500"
 
 divide_purple_600 :: ClassName
-divide_purple_600 = ClassName "sm\\:divide-purple-600"
+divide_purple_600 = ClassName "sm:divide-purple-600"
 
 divide_purple_700 :: ClassName
-divide_purple_700 = ClassName "sm\\:divide-purple-700"
+divide_purple_700 = ClassName "sm:divide-purple-700"
 
 divide_purple_800 :: ClassName
-divide_purple_800 = ClassName "sm\\:divide-purple-800"
+divide_purple_800 = ClassName "sm:divide-purple-800"
 
 divide_purple_900 :: ClassName
-divide_purple_900 = ClassName "sm\\:divide-purple-900"
+divide_purple_900 = ClassName "sm:divide-purple-900"
 
 divide_red_100 :: ClassName
-divide_red_100 = ClassName "sm\\:divide-red-100"
+divide_red_100 = ClassName "sm:divide-red-100"
 
 divide_red_200 :: ClassName
-divide_red_200 = ClassName "sm\\:divide-red-200"
+divide_red_200 = ClassName "sm:divide-red-200"
 
 divide_red_300 :: ClassName
-divide_red_300 = ClassName "sm\\:divide-red-300"
+divide_red_300 = ClassName "sm:divide-red-300"
 
 divide_red_400 :: ClassName
-divide_red_400 = ClassName "sm\\:divide-red-400"
+divide_red_400 = ClassName "sm:divide-red-400"
 
 divide_red_500 :: ClassName
-divide_red_500 = ClassName "sm\\:divide-red-500"
+divide_red_500 = ClassName "sm:divide-red-500"
 
 divide_red_600 :: ClassName
-divide_red_600 = ClassName "sm\\:divide-red-600"
+divide_red_600 = ClassName "sm:divide-red-600"
 
 divide_red_700 :: ClassName
-divide_red_700 = ClassName "sm\\:divide-red-700"
+divide_red_700 = ClassName "sm:divide-red-700"
 
 divide_red_800 :: ClassName
-divide_red_800 = ClassName "sm\\:divide-red-800"
+divide_red_800 = ClassName "sm:divide-red-800"
 
 divide_red_900 :: ClassName
-divide_red_900 = ClassName "sm\\:divide-red-900"
+divide_red_900 = ClassName "sm:divide-red-900"
 
 divide_steel_100 :: ClassName
-divide_steel_100 = ClassName "sm\\:divide-steel-100"
+divide_steel_100 = ClassName "sm:divide-steel-100"
 
 divide_steel_75 :: ClassName
-divide_steel_75 = ClassName "sm\\:divide-steel-75"
+divide_steel_75 = ClassName "sm:divide-steel-75"
 
 divide_steel_85 :: ClassName
-divide_steel_85 = ClassName "sm\\:divide-steel-85"
+divide_steel_85 = ClassName "sm:divide-steel-85"
 
 divide_teal_100 :: ClassName
-divide_teal_100 = ClassName "sm\\:divide-teal-100"
+divide_teal_100 = ClassName "sm:divide-teal-100"
 
 divide_teal_200 :: ClassName
-divide_teal_200 = ClassName "sm\\:divide-teal-200"
+divide_teal_200 = ClassName "sm:divide-teal-200"
 
 divide_teal_300 :: ClassName
-divide_teal_300 = ClassName "sm\\:divide-teal-300"
+divide_teal_300 = ClassName "sm:divide-teal-300"
 
 divide_teal_400 :: ClassName
-divide_teal_400 = ClassName "sm\\:divide-teal-400"
+divide_teal_400 = ClassName "sm:divide-teal-400"
 
 divide_teal_500 :: ClassName
-divide_teal_500 = ClassName "sm\\:divide-teal-500"
+divide_teal_500 = ClassName "sm:divide-teal-500"
 
 divide_teal_600 :: ClassName
-divide_teal_600 = ClassName "sm\\:divide-teal-600"
+divide_teal_600 = ClassName "sm:divide-teal-600"
 
 divide_teal_700 :: ClassName
-divide_teal_700 = ClassName "sm\\:divide-teal-700"
+divide_teal_700 = ClassName "sm:divide-teal-700"
 
 divide_teal_800 :: ClassName
-divide_teal_800 = ClassName "sm\\:divide-teal-800"
+divide_teal_800 = ClassName "sm:divide-teal-800"
 
 divide_teal_900 :: ClassName
-divide_teal_900 = ClassName "sm\\:divide-teal-900"
+divide_teal_900 = ClassName "sm:divide-teal-900"
 
 divide_transparent :: ClassName
-divide_transparent = ClassName "sm\\:divide-transparent"
+divide_transparent = ClassName "sm:divide-transparent"
 
 divide_white :: ClassName
-divide_white = ClassName "sm\\:divide-white"
+divide_white = ClassName "sm:divide-white"
 
 divide_x :: ClassName
-divide_x = ClassName "sm\\:divide-x"
+divide_x = ClassName "sm:divide-x"
 
 divide_x_0 :: ClassName
-divide_x_0 = ClassName "sm\\:divide-x-0"
+divide_x_0 = ClassName "sm:divide-x-0"
 
 divide_x_2 :: ClassName
-divide_x_2 = ClassName "sm\\:divide-x-2"
+divide_x_2 = ClassName "sm:divide-x-2"
 
 divide_x_3 :: ClassName
-divide_x_3 = ClassName "sm\\:divide-x-3"
+divide_x_3 = ClassName "sm:divide-x-3"
 
 divide_x_4 :: ClassName
-divide_x_4 = ClassName "sm\\:divide-x-4"
+divide_x_4 = ClassName "sm:divide-x-4"
 
 divide_x_8 :: ClassName
-divide_x_8 = ClassName "sm\\:divide-x-8"
+divide_x_8 = ClassName "sm:divide-x-8"
 
 divide_x_reverse :: ClassName
-divide_x_reverse = ClassName "sm\\:divide-x-reverse"
+divide_x_reverse = ClassName "sm:divide-x-reverse"
 
 divide_y :: ClassName
-divide_y = ClassName "sm\\:divide-y"
+divide_y = ClassName "sm:divide-y"
 
 divide_y_0 :: ClassName
-divide_y_0 = ClassName "sm\\:divide-y-0"
+divide_y_0 = ClassName "sm:divide-y-0"
 
 divide_y_2 :: ClassName
-divide_y_2 = ClassName "sm\\:divide-y-2"
+divide_y_2 = ClassName "sm:divide-y-2"
 
 divide_y_3 :: ClassName
-divide_y_3 = ClassName "sm\\:divide-y-3"
+divide_y_3 = ClassName "sm:divide-y-3"
 
 divide_y_4 :: ClassName
-divide_y_4 = ClassName "sm\\:divide-y-4"
+divide_y_4 = ClassName "sm:divide-y-4"
 
 divide_y_8 :: ClassName
-divide_y_8 = ClassName "sm\\:divide-y-8"
+divide_y_8 = ClassName "sm:divide-y-8"
 
 divide_y_reverse :: ClassName
-divide_y_reverse = ClassName "sm\\:divide-y-reverse"
+divide_y_reverse = ClassName "sm:divide-y-reverse"
 
 divide_yellow_100 :: ClassName
-divide_yellow_100 = ClassName "sm\\:divide-yellow-100"
+divide_yellow_100 = ClassName "sm:divide-yellow-100"
 
 divide_yellow_200 :: ClassName
-divide_yellow_200 = ClassName "sm\\:divide-yellow-200"
+divide_yellow_200 = ClassName "sm:divide-yellow-200"
 
 divide_yellow_300 :: ClassName
-divide_yellow_300 = ClassName "sm\\:divide-yellow-300"
+divide_yellow_300 = ClassName "sm:divide-yellow-300"
 
 divide_yellow_400 :: ClassName
-divide_yellow_400 = ClassName "sm\\:divide-yellow-400"
+divide_yellow_400 = ClassName "sm:divide-yellow-400"
 
 divide_yellow_500 :: ClassName
-divide_yellow_500 = ClassName "sm\\:divide-yellow-500"
+divide_yellow_500 = ClassName "sm:divide-yellow-500"
 
 divide_yellow_600 :: ClassName
-divide_yellow_600 = ClassName "sm\\:divide-yellow-600"
+divide_yellow_600 = ClassName "sm:divide-yellow-600"
 
 divide_yellow_700 :: ClassName
-divide_yellow_700 = ClassName "sm\\:divide-yellow-700"
+divide_yellow_700 = ClassName "sm:divide-yellow-700"
 
 divide_yellow_800 :: ClassName
-divide_yellow_800 = ClassName "sm\\:divide-yellow-800"
+divide_yellow_800 = ClassName "sm:divide-yellow-800"
 
 divide_yellow_900 :: ClassName
-divide_yellow_900 = ClassName "sm\\:divide-yellow-900"
+divide_yellow_900 = ClassName "sm:divide-yellow-900"
 
 duration_100 :: ClassName
-duration_100 = ClassName "sm\\:duration-100"
+duration_100 = ClassName "sm:duration-100"
 
 duration_1000 :: ClassName
-duration_1000 = ClassName "sm\\:duration-1000"
+duration_1000 = ClassName "sm:duration-1000"
 
 duration_150 :: ClassName
-duration_150 = ClassName "sm\\:duration-150"
+duration_150 = ClassName "sm:duration-150"
 
 duration_200 :: ClassName
-duration_200 = ClassName "sm\\:duration-200"
+duration_200 = ClassName "sm:duration-200"
 
 duration_300 :: ClassName
-duration_300 = ClassName "sm\\:duration-300"
+duration_300 = ClassName "sm:duration-300"
 
 duration_500 :: ClassName
-duration_500 = ClassName "sm\\:duration-500"
+duration_500 = ClassName "sm:duration-500"
 
 duration_700 :: ClassName
-duration_700 = ClassName "sm\\:duration-700"
+duration_700 = ClassName "sm:duration-700"
 
 duration_75 :: ClassName
-duration_75 = ClassName "sm\\:duration-75"
+duration_75 = ClassName "sm:duration-75"
 
 ease_in :: ClassName
-ease_in = ClassName "sm\\:ease-in"
+ease_in = ClassName "sm:ease-in"
 
 ease_in_out :: ClassName
-ease_in_out = ClassName "sm\\:ease-in-out"
+ease_in_out = ClassName "sm:ease-in-out"
 
 ease_linear :: ClassName
-ease_linear = ClassName "sm\\:ease-linear"
+ease_linear = ClassName "sm:ease-linear"
 
 ease_out :: ClassName
-ease_out = ClassName "sm\\:ease-out"
+ease_out = ClassName "sm:ease-out"
 
 fill_current :: ClassName
-fill_current = ClassName "sm\\:fill-current"
+fill_current = ClassName "sm:fill-current"
 
 fixed :: ClassName
-fixed = ClassName "sm\\:fixed"
+fixed = ClassName "sm:fixed"
 
 flex :: ClassName
-flex = ClassName "sm\\:flex"
+flex = ClassName "sm:flex"
 
 flex_1 :: ClassName
-flex_1 = ClassName "sm\\:flex-1"
+flex_1 = ClassName "sm:flex-1"
 
 flex_auto :: ClassName
-flex_auto = ClassName "sm\\:flex-auto"
+flex_auto = ClassName "sm:flex-auto"
 
 flex_col :: ClassName
-flex_col = ClassName "sm\\:flex-col"
+flex_col = ClassName "sm:flex-col"
 
 flex_col_reverse :: ClassName
-flex_col_reverse = ClassName "sm\\:flex-col-reverse"
+flex_col_reverse = ClassName "sm:flex-col-reverse"
 
 flex_grow :: ClassName
-flex_grow = ClassName "sm\\:flex-grow"
+flex_grow = ClassName "sm:flex-grow"
 
 flex_grow_0 :: ClassName
-flex_grow_0 = ClassName "sm\\:flex-grow-0"
+flex_grow_0 = ClassName "sm:flex-grow-0"
 
 flex_initial :: ClassName
-flex_initial = ClassName "sm\\:flex-initial"
+flex_initial = ClassName "sm:flex-initial"
 
 flex_no_wrap :: ClassName
-flex_no_wrap = ClassName "sm\\:flex-no-wrap"
+flex_no_wrap = ClassName "sm:flex-no-wrap"
 
 flex_none :: ClassName
-flex_none = ClassName "sm\\:flex-none"
+flex_none = ClassName "sm:flex-none"
 
 flex_row :: ClassName
-flex_row = ClassName "sm\\:flex-row"
+flex_row = ClassName "sm:flex-row"
 
 flex_row_reverse :: ClassName
-flex_row_reverse = ClassName "sm\\:flex-row-reverse"
+flex_row_reverse = ClassName "sm:flex-row-reverse"
 
 flex_shrink :: ClassName
-flex_shrink = ClassName "sm\\:flex-shrink"
+flex_shrink = ClassName "sm:flex-shrink"
 
 flex_shrink_0 :: ClassName
-flex_shrink_0 = ClassName "sm\\:flex-shrink-0"
+flex_shrink_0 = ClassName "sm:flex-shrink-0"
 
 flex_wrap :: ClassName
-flex_wrap = ClassName "sm\\:flex-wrap"
+flex_wrap = ClassName "sm:flex-wrap"
 
 flex_wrap_reverse :: ClassName
-flex_wrap_reverse = ClassName "sm\\:flex-wrap-reverse"
+flex_wrap_reverse = ClassName "sm:flex-wrap-reverse"
 
 float_left :: ClassName
-float_left = ClassName "sm\\:float-left"
+float_left = ClassName "sm:float-left"
 
 float_none :: ClassName
-float_none = ClassName "sm\\:float-none"
+float_none = ClassName "sm:float-none"
 
 float_right :: ClassName
-float_right = ClassName "sm\\:float-right"
+float_right = ClassName "sm:float-right"
 
 flow_root :: ClassName
-flow_root = ClassName "sm\\:flow-root"
+flow_root = ClassName "sm:flow-root"
 
 font_black :: ClassName
-font_black = ClassName "sm\\:font-black"
+font_black = ClassName "sm:font-black"
 
 font_bold :: ClassName
-font_bold = ClassName "sm\\:font-bold"
+font_bold = ClassName "sm:font-bold"
 
 font_extrabold :: ClassName
-font_extrabold = ClassName "sm\\:font-extrabold"
+font_extrabold = ClassName "sm:font-extrabold"
 
 font_hairline :: ClassName
-font_hairline = ClassName "sm\\:font-hairline"
+font_hairline = ClassName "sm:font-hairline"
 
 font_light :: ClassName
-font_light = ClassName "sm\\:font-light"
+font_light = ClassName "sm:font-light"
 
 font_medium :: ClassName
-font_medium = ClassName "sm\\:font-medium"
+font_medium = ClassName "sm:font-medium"
 
 font_mono :: ClassName
-font_mono = ClassName "sm\\:font-mono"
+font_mono = ClassName "sm:font-mono"
 
 font_normal :: ClassName
-font_normal = ClassName "sm\\:font-normal"
+font_normal = ClassName "sm:font-normal"
 
 font_sans :: ClassName
-font_sans = ClassName "sm\\:font-sans"
+font_sans = ClassName "sm:font-sans"
 
 font_semibold :: ClassName
-font_semibold = ClassName "sm\\:font-semibold"
+font_semibold = ClassName "sm:font-semibold"
 
 font_serif :: ClassName
-font_serif = ClassName "sm\\:font-serif"
+font_serif = ClassName "sm:font-serif"
 
 font_thin :: ClassName
-font_thin = ClassName "sm\\:font-thin"
+font_thin = ClassName "sm:font-thin"
 
 gap_0 :: ClassName
-gap_0 = ClassName "sm\\:gap-0"
+gap_0 = ClassName "sm:gap-0"
 
 gap_1 :: ClassName
-gap_1 = ClassName "sm\\:gap-1"
+gap_1 = ClassName "sm:gap-1"
 
 gap_10 :: ClassName
-gap_10 = ClassName "sm\\:gap-10"
+gap_10 = ClassName "sm:gap-10"
 
 gap_12 :: ClassName
-gap_12 = ClassName "sm\\:gap-12"
+gap_12 = ClassName "sm:gap-12"
 
 gap_120 :: ClassName
-gap_120 = ClassName "sm\\:gap-120"
+gap_120 = ClassName "sm:gap-120"
 
 gap_14 :: ClassName
-gap_14 = ClassName "sm\\:gap-14"
+gap_14 = ClassName "sm:gap-14"
 
 gap_16 :: ClassName
-gap_16 = ClassName "sm\\:gap-16"
+gap_16 = ClassName "sm:gap-16"
 
 gap_160 :: ClassName
-gap_160 = ClassName "sm\\:gap-160"
+gap_160 = ClassName "sm:gap-160"
 
 gap_2 :: ClassName
-gap_2 = ClassName "sm\\:gap-2"
+gap_2 = ClassName "sm:gap-2"
 
 gap_20 :: ClassName
-gap_20 = ClassName "sm\\:gap-20"
+gap_20 = ClassName "sm:gap-20"
 
 gap_24 :: ClassName
-gap_24 = ClassName "sm\\:gap-24"
+gap_24 = ClassName "sm:gap-24"
 
 gap_3 :: ClassName
-gap_3 = ClassName "sm\\:gap-3"
+gap_3 = ClassName "sm:gap-3"
 
 gap_30 :: ClassName
-gap_30 = ClassName "sm\\:gap-30"
+gap_30 = ClassName "sm:gap-30"
 
 gap_32 :: ClassName
-gap_32 = ClassName "sm\\:gap-32"
+gap_32 = ClassName "sm:gap-32"
 
 gap_4 :: ClassName
-gap_4 = ClassName "sm\\:gap-4"
+gap_4 = ClassName "sm:gap-4"
 
 gap_40 :: ClassName
-gap_40 = ClassName "sm\\:gap-40"
+gap_40 = ClassName "sm:gap-40"
 
 gap_48 :: ClassName
-gap_48 = ClassName "sm\\:gap-48"
+gap_48 = ClassName "sm:gap-48"
 
 gap_5 :: ClassName
-gap_5 = ClassName "sm\\:gap-5"
+gap_5 = ClassName "sm:gap-5"
 
 gap_50 :: ClassName
-gap_50 = ClassName "sm\\:gap-50"
+gap_50 = ClassName "sm:gap-50"
 
 gap_56 :: ClassName
-gap_56 = ClassName "sm\\:gap-56"
+gap_56 = ClassName "sm:gap-56"
 
 gap_6 :: ClassName
-gap_6 = ClassName "sm\\:gap-6"
+gap_6 = ClassName "sm:gap-6"
 
 gap_60 :: ClassName
-gap_60 = ClassName "sm\\:gap-60"
+gap_60 = ClassName "sm:gap-60"
 
 gap_64 :: ClassName
-gap_64 = ClassName "sm\\:gap-64"
+gap_64 = ClassName "sm:gap-64"
 
 gap_7 :: ClassName
-gap_7 = ClassName "sm\\:gap-7"
+gap_7 = ClassName "sm:gap-7"
 
 gap_8 :: ClassName
-gap_8 = ClassName "sm\\:gap-8"
+gap_8 = ClassName "sm:gap-8"
 
 gap_80 :: ClassName
-gap_80 = ClassName "sm\\:gap-80"
+gap_80 = ClassName "sm:gap-80"
 
 gap_9 :: ClassName
-gap_9 = ClassName "sm\\:gap-9"
+gap_9 = ClassName "sm:gap-9"
 
 gap_90 :: ClassName
-gap_90 = ClassName "sm\\:gap-90"
+gap_90 = ClassName "sm:gap-90"
 
 gap_px :: ClassName
-gap_px = ClassName "sm\\:gap-px"
+gap_px = ClassName "sm:gap-px"
 
 grid :: ClassName
-grid = ClassName "sm\\:grid"
+grid = ClassName "sm:grid"
 
 grid_cols_1 :: ClassName
-grid_cols_1 = ClassName "sm\\:grid-cols-1"
+grid_cols_1 = ClassName "sm:grid-cols-1"
 
 grid_cols_10 :: ClassName
-grid_cols_10 = ClassName "sm\\:grid-cols-10"
+grid_cols_10 = ClassName "sm:grid-cols-10"
 
 grid_cols_11 :: ClassName
-grid_cols_11 = ClassName "sm\\:grid-cols-11"
+grid_cols_11 = ClassName "sm:grid-cols-11"
 
 grid_cols_12 :: ClassName
-grid_cols_12 = ClassName "sm\\:grid-cols-12"
+grid_cols_12 = ClassName "sm:grid-cols-12"
 
 grid_cols_2 :: ClassName
-grid_cols_2 = ClassName "sm\\:grid-cols-2"
+grid_cols_2 = ClassName "sm:grid-cols-2"
 
 grid_cols_3 :: ClassName
-grid_cols_3 = ClassName "sm\\:grid-cols-3"
+grid_cols_3 = ClassName "sm:grid-cols-3"
 
 grid_cols_4 :: ClassName
-grid_cols_4 = ClassName "sm\\:grid-cols-4"
+grid_cols_4 = ClassName "sm:grid-cols-4"
 
 grid_cols_5 :: ClassName
-grid_cols_5 = ClassName "sm\\:grid-cols-5"
+grid_cols_5 = ClassName "sm:grid-cols-5"
 
 grid_cols_6 :: ClassName
-grid_cols_6 = ClassName "sm\\:grid-cols-6"
+grid_cols_6 = ClassName "sm:grid-cols-6"
 
 grid_cols_7 :: ClassName
-grid_cols_7 = ClassName "sm\\:grid-cols-7"
+grid_cols_7 = ClassName "sm:grid-cols-7"
 
 grid_cols_8 :: ClassName
-grid_cols_8 = ClassName "sm\\:grid-cols-8"
+grid_cols_8 = ClassName "sm:grid-cols-8"
 
 grid_cols_9 :: ClassName
-grid_cols_9 = ClassName "sm\\:grid-cols-9"
+grid_cols_9 = ClassName "sm:grid-cols-9"
 
 grid_cols_none :: ClassName
-grid_cols_none = ClassName "sm\\:grid-cols-none"
+grid_cols_none = ClassName "sm:grid-cols-none"
 
 grid_flow_col :: ClassName
-grid_flow_col = ClassName "sm\\:grid-flow-col"
+grid_flow_col = ClassName "sm:grid-flow-col"
 
 grid_flow_col_dense :: ClassName
-grid_flow_col_dense = ClassName "sm\\:grid-flow-col-dense"
+grid_flow_col_dense = ClassName "sm:grid-flow-col-dense"
 
 grid_flow_row :: ClassName
-grid_flow_row = ClassName "sm\\:grid-flow-row"
+grid_flow_row = ClassName "sm:grid-flow-row"
 
 grid_flow_row_dense :: ClassName
-grid_flow_row_dense = ClassName "sm\\:grid-flow-row-dense"
+grid_flow_row_dense = ClassName "sm:grid-flow-row-dense"
 
 grid_rows_1 :: ClassName
-grid_rows_1 = ClassName "sm\\:grid-rows-1"
+grid_rows_1 = ClassName "sm:grid-rows-1"
 
 grid_rows_2 :: ClassName
-grid_rows_2 = ClassName "sm\\:grid-rows-2"
+grid_rows_2 = ClassName "sm:grid-rows-2"
 
 grid_rows_3 :: ClassName
-grid_rows_3 = ClassName "sm\\:grid-rows-3"
+grid_rows_3 = ClassName "sm:grid-rows-3"
 
 grid_rows_4 :: ClassName
-grid_rows_4 = ClassName "sm\\:grid-rows-4"
+grid_rows_4 = ClassName "sm:grid-rows-4"
 
 grid_rows_5 :: ClassName
-grid_rows_5 = ClassName "sm\\:grid-rows-5"
+grid_rows_5 = ClassName "sm:grid-rows-5"
 
 grid_rows_6 :: ClassName
-grid_rows_6 = ClassName "sm\\:grid-rows-6"
+grid_rows_6 = ClassName "sm:grid-rows-6"
 
 grid_rows_none :: ClassName
-grid_rows_none = ClassName "sm\\:grid-rows-none"
+grid_rows_none = ClassName "sm:grid-rows-none"
 
 h_0 :: ClassName
-h_0 = ClassName "sm\\:h-0"
+h_0 = ClassName "sm:h-0"
 
 h_1 :: ClassName
-h_1 = ClassName "sm\\:h-1"
+h_1 = ClassName "sm:h-1"
 
 h_10 :: ClassName
-h_10 = ClassName "sm\\:h-10"
+h_10 = ClassName "sm:h-10"
 
 h_12 :: ClassName
-h_12 = ClassName "sm\\:h-12"
+h_12 = ClassName "sm:h-12"
 
 h_120 :: ClassName
-h_120 = ClassName "sm\\:h-120"
+h_120 = ClassName "sm:h-120"
 
 h_14 :: ClassName
-h_14 = ClassName "sm\\:h-14"
+h_14 = ClassName "sm:h-14"
 
 h_16 :: ClassName
-h_16 = ClassName "sm\\:h-16"
+h_16 = ClassName "sm:h-16"
 
 h_160 :: ClassName
-h_160 = ClassName "sm\\:h-160"
+h_160 = ClassName "sm:h-160"
 
 h_2 :: ClassName
-h_2 = ClassName "sm\\:h-2"
+h_2 = ClassName "sm:h-2"
 
 h_20 :: ClassName
-h_20 = ClassName "sm\\:h-20"
+h_20 = ClassName "sm:h-20"
 
 h_24 :: ClassName
-h_24 = ClassName "sm\\:h-24"
+h_24 = ClassName "sm:h-24"
 
 h_3 :: ClassName
-h_3 = ClassName "sm\\:h-3"
+h_3 = ClassName "sm:h-3"
 
 h_30 :: ClassName
-h_30 = ClassName "sm\\:h-30"
+h_30 = ClassName "sm:h-30"
 
 h_32 :: ClassName
-h_32 = ClassName "sm\\:h-32"
+h_32 = ClassName "sm:h-32"
 
 h_4 :: ClassName
-h_4 = ClassName "sm\\:h-4"
+h_4 = ClassName "sm:h-4"
 
 h_40 :: ClassName
-h_40 = ClassName "sm\\:h-40"
+h_40 = ClassName "sm:h-40"
 
 h_48 :: ClassName
-h_48 = ClassName "sm\\:h-48"
+h_48 = ClassName "sm:h-48"
 
 h_5 :: ClassName
-h_5 = ClassName "sm\\:h-5"
+h_5 = ClassName "sm:h-5"
 
 h_50 :: ClassName
-h_50 = ClassName "sm\\:h-50"
+h_50 = ClassName "sm:h-50"
 
 h_56 :: ClassName
-h_56 = ClassName "sm\\:h-56"
+h_56 = ClassName "sm:h-56"
 
 h_6 :: ClassName
-h_6 = ClassName "sm\\:h-6"
+h_6 = ClassName "sm:h-6"
 
 h_60 :: ClassName
-h_60 = ClassName "sm\\:h-60"
+h_60 = ClassName "sm:h-60"
 
 h_64 :: ClassName
-h_64 = ClassName "sm\\:h-64"
+h_64 = ClassName "sm:h-64"
 
 h_7 :: ClassName
-h_7 = ClassName "sm\\:h-7"
+h_7 = ClassName "sm:h-7"
 
 h_8 :: ClassName
-h_8 = ClassName "sm\\:h-8"
+h_8 = ClassName "sm:h-8"
 
 h_80 :: ClassName
-h_80 = ClassName "sm\\:h-80"
+h_80 = ClassName "sm:h-80"
 
 h_9 :: ClassName
-h_9 = ClassName "sm\\:h-9"
+h_9 = ClassName "sm:h-9"
 
 h_90 :: ClassName
-h_90 = ClassName "sm\\:h-90"
+h_90 = ClassName "sm:h-90"
 
 h_auto :: ClassName
-h_auto = ClassName "sm\\:h-auto"
+h_auto = ClassName "sm:h-auto"
 
 h_full :: ClassName
-h_full = ClassName "sm\\:h-full"
+h_full = ClassName "sm:h-full"
 
 h_px :: ClassName
-h_px = ClassName "sm\\:h-px"
+h_px = ClassName "sm:h-px"
 
 h_screen :: ClassName
-h_screen = ClassName "sm\\:h-screen"
+h_screen = ClassName "sm:h-screen"
 
 hidden :: ClassName
-hidden = ClassName "sm\\:hidden"
+hidden = ClassName "sm:hidden"
 
 inline :: ClassName
-inline = ClassName "sm\\:inline"
+inline = ClassName "sm:inline"
 
 inline_block :: ClassName
-inline_block = ClassName "sm\\:inline-block"
+inline_block = ClassName "sm:inline-block"
 
 inline_flex :: ClassName
-inline_flex = ClassName "sm\\:inline-flex"
+inline_flex = ClassName "sm:inline-flex"
 
 inline_grid :: ClassName
-inline_grid = ClassName "sm\\:inline-grid"
+inline_grid = ClassName "sm:inline-grid"
 
 inset_0 :: ClassName
-inset_0 = ClassName "sm\\:inset-0"
+inset_0 = ClassName "sm:inset-0"
 
 inset_auto :: ClassName
-inset_auto = ClassName "sm\\:inset-auto"
+inset_auto = ClassName "sm:inset-auto"
 
 inset_x_0 :: ClassName
-inset_x_0 = ClassName "sm\\:inset-x-0"
+inset_x_0 = ClassName "sm:inset-x-0"
 
 inset_x_auto :: ClassName
-inset_x_auto = ClassName "sm\\:inset-x-auto"
+inset_x_auto = ClassName "sm:inset-x-auto"
 
 inset_y_0 :: ClassName
-inset_y_0 = ClassName "sm\\:inset-y-0"
+inset_y_0 = ClassName "sm:inset-y-0"
 
 inset_y_auto :: ClassName
-inset_y_auto = ClassName "sm\\:inset-y-auto"
+inset_y_auto = ClassName "sm:inset-y-auto"
 
 invisible :: ClassName
-invisible = ClassName "sm\\:invisible"
+invisible = ClassName "sm:invisible"
 
 italic :: ClassName
-italic = ClassName "sm\\:italic"
+italic = ClassName "sm:italic"
 
 items_baseline :: ClassName
-items_baseline = ClassName "sm\\:items-baseline"
+items_baseline = ClassName "sm:items-baseline"
 
 items_center :: ClassName
-items_center = ClassName "sm\\:items-center"
+items_center = ClassName "sm:items-center"
 
 items_end :: ClassName
-items_end = ClassName "sm\\:items-end"
+items_end = ClassName "sm:items-end"
 
 items_start :: ClassName
-items_start = ClassName "sm\\:items-start"
+items_start = ClassName "sm:items-start"
 
 items_stretch :: ClassName
-items_stretch = ClassName "sm\\:items-stretch"
+items_stretch = ClassName "sm:items-stretch"
 
 justify_around :: ClassName
-justify_around = ClassName "sm\\:justify-around"
+justify_around = ClassName "sm:justify-around"
 
 justify_between :: ClassName
-justify_between = ClassName "sm\\:justify-between"
+justify_between = ClassName "sm:justify-between"
 
 justify_center :: ClassName
-justify_center = ClassName "sm\\:justify-center"
+justify_center = ClassName "sm:justify-center"
 
 justify_end :: ClassName
-justify_end = ClassName "sm\\:justify-end"
+justify_end = ClassName "sm:justify-end"
 
 justify_evenly :: ClassName
-justify_evenly = ClassName "sm\\:justify-evenly"
+justify_evenly = ClassName "sm:justify-evenly"
 
 justify_start :: ClassName
-justify_start = ClassName "sm\\:justify-start"
+justify_start = ClassName "sm:justify-start"
 
 leading_10 :: ClassName
-leading_10 = ClassName "sm\\:leading-10"
+leading_10 = ClassName "sm:leading-10"
 
 leading_3 :: ClassName
-leading_3 = ClassName "sm\\:leading-3"
+leading_3 = ClassName "sm:leading-3"
 
 leading_4 :: ClassName
-leading_4 = ClassName "sm\\:leading-4"
+leading_4 = ClassName "sm:leading-4"
 
 leading_5 :: ClassName
-leading_5 = ClassName "sm\\:leading-5"
+leading_5 = ClassName "sm:leading-5"
 
 leading_6 :: ClassName
-leading_6 = ClassName "sm\\:leading-6"
+leading_6 = ClassName "sm:leading-6"
 
 leading_7 :: ClassName
-leading_7 = ClassName "sm\\:leading-7"
+leading_7 = ClassName "sm:leading-7"
 
 leading_8 :: ClassName
-leading_8 = ClassName "sm\\:leading-8"
+leading_8 = ClassName "sm:leading-8"
 
 leading_9 :: ClassName
-leading_9 = ClassName "sm\\:leading-9"
+leading_9 = ClassName "sm:leading-9"
 
 leading_loose :: ClassName
-leading_loose = ClassName "sm\\:leading-loose"
+leading_loose = ClassName "sm:leading-loose"
 
 leading_none :: ClassName
-leading_none = ClassName "sm\\:leading-none"
+leading_none = ClassName "sm:leading-none"
 
 leading_normal :: ClassName
-leading_normal = ClassName "sm\\:leading-normal"
+leading_normal = ClassName "sm:leading-normal"
 
 leading_relaxed :: ClassName
-leading_relaxed = ClassName "sm\\:leading-relaxed"
+leading_relaxed = ClassName "sm:leading-relaxed"
 
 leading_snug :: ClassName
-leading_snug = ClassName "sm\\:leading-snug"
+leading_snug = ClassName "sm:leading-snug"
 
 leading_tight :: ClassName
-leading_tight = ClassName "sm\\:leading-tight"
+leading_tight = ClassName "sm:leading-tight"
 
 left_0 :: ClassName
-left_0 = ClassName "sm\\:left-0"
+left_0 = ClassName "sm:left-0"
 
 left_auto :: ClassName
-left_auto = ClassName "sm\\:left-auto"
+left_auto = ClassName "sm:left-auto"
 
 line_through :: ClassName
-line_through = ClassName "sm\\:line-through"
+line_through = ClassName "sm:line-through"
 
 list_decimal :: ClassName
-list_decimal = ClassName "sm\\:list-decimal"
+list_decimal = ClassName "sm:list-decimal"
 
 list_disc :: ClassName
-list_disc = ClassName "sm\\:list-disc"
+list_disc = ClassName "sm:list-disc"
 
 list_inside :: ClassName
-list_inside = ClassName "sm\\:list-inside"
+list_inside = ClassName "sm:list-inside"
 
 list_none :: ClassName
-list_none = ClassName "sm\\:list-none"
+list_none = ClassName "sm:list-none"
 
 list_outside :: ClassName
-list_outside = ClassName "sm\\:list-outside"
+list_outside = ClassName "sm:list-outside"
 
 lowercase :: ClassName
-lowercase = ClassName "sm\\:lowercase"
+lowercase = ClassName "sm:lowercase"
 
 m_0 :: ClassName
-m_0 = ClassName "sm\\:m-0"
+m_0 = ClassName "sm:m-0"
 
 m_1 :: ClassName
-m_1 = ClassName "sm\\:m-1"
+m_1 = ClassName "sm:m-1"
 
 m_10 :: ClassName
-m_10 = ClassName "sm\\:m-10"
+m_10 = ClassName "sm:m-10"
 
 m_12 :: ClassName
-m_12 = ClassName "sm\\:m-12"
+m_12 = ClassName "sm:m-12"
 
 m_120 :: ClassName
-m_120 = ClassName "sm\\:m-120"
+m_120 = ClassName "sm:m-120"
 
 m_14 :: ClassName
-m_14 = ClassName "sm\\:m-14"
+m_14 = ClassName "sm:m-14"
 
 m_16 :: ClassName
-m_16 = ClassName "sm\\:m-16"
+m_16 = ClassName "sm:m-16"
 
 m_160 :: ClassName
-m_160 = ClassName "sm\\:m-160"
+m_160 = ClassName "sm:m-160"
 
 m_2 :: ClassName
-m_2 = ClassName "sm\\:m-2"
+m_2 = ClassName "sm:m-2"
 
 m_20 :: ClassName
-m_20 = ClassName "sm\\:m-20"
+m_20 = ClassName "sm:m-20"
 
 m_24 :: ClassName
-m_24 = ClassName "sm\\:m-24"
+m_24 = ClassName "sm:m-24"
 
 m_3 :: ClassName
-m_3 = ClassName "sm\\:m-3"
+m_3 = ClassName "sm:m-3"
 
 m_30 :: ClassName
-m_30 = ClassName "sm\\:m-30"
+m_30 = ClassName "sm:m-30"
 
 m_32 :: ClassName
-m_32 = ClassName "sm\\:m-32"
+m_32 = ClassName "sm:m-32"
 
 m_4 :: ClassName
-m_4 = ClassName "sm\\:m-4"
+m_4 = ClassName "sm:m-4"
 
 m_40 :: ClassName
-m_40 = ClassName "sm\\:m-40"
+m_40 = ClassName "sm:m-40"
 
 m_48 :: ClassName
-m_48 = ClassName "sm\\:m-48"
+m_48 = ClassName "sm:m-48"
 
 m_5 :: ClassName
-m_5 = ClassName "sm\\:m-5"
+m_5 = ClassName "sm:m-5"
 
 m_50 :: ClassName
-m_50 = ClassName "sm\\:m-50"
+m_50 = ClassName "sm:m-50"
 
 m_56 :: ClassName
-m_56 = ClassName "sm\\:m-56"
+m_56 = ClassName "sm:m-56"
 
 m_6 :: ClassName
-m_6 = ClassName "sm\\:m-6"
+m_6 = ClassName "sm:m-6"
 
 m_60 :: ClassName
-m_60 = ClassName "sm\\:m-60"
+m_60 = ClassName "sm:m-60"
 
 m_64 :: ClassName
-m_64 = ClassName "sm\\:m-64"
+m_64 = ClassName "sm:m-64"
 
 m_7 :: ClassName
-m_7 = ClassName "sm\\:m-7"
+m_7 = ClassName "sm:m-7"
 
 m_8 :: ClassName
-m_8 = ClassName "sm\\:m-8"
+m_8 = ClassName "sm:m-8"
 
 m_80 :: ClassName
-m_80 = ClassName "sm\\:m-80"
+m_80 = ClassName "sm:m-80"
 
 m_9 :: ClassName
-m_9 = ClassName "sm\\:m-9"
+m_9 = ClassName "sm:m-9"
 
 m_90 :: ClassName
-m_90 = ClassName "sm\\:m-90"
+m_90 = ClassName "sm:m-90"
 
 m_auto :: ClassName
-m_auto = ClassName "sm\\:m-auto"
+m_auto = ClassName "sm:m-auto"
 
 m_px :: ClassName
-m_px = ClassName "sm\\:m-px"
+m_px = ClassName "sm:m-px"
 
 max_h_full :: ClassName
-max_h_full = ClassName "sm\\:max-h-full"
+max_h_full = ClassName "sm:max-h-full"
 
 max_h_screen :: ClassName
-max_h_screen = ClassName "sm\\:max-h-screen"
+max_h_screen = ClassName "sm:max-h-screen"
 
 max_w_2xl :: ClassName
-max_w_2xl = ClassName "sm\\:max-w-2xl"
+max_w_2xl = ClassName "sm:max-w-2xl"
 
 max_w_3xl :: ClassName
-max_w_3xl = ClassName "sm\\:max-w-3xl"
+max_w_3xl = ClassName "sm:max-w-3xl"
 
 max_w_4xl :: ClassName
-max_w_4xl = ClassName "sm\\:max-w-4xl"
+max_w_4xl = ClassName "sm:max-w-4xl"
 
 max_w_5xl :: ClassName
-max_w_5xl = ClassName "sm\\:max-w-5xl"
+max_w_5xl = ClassName "sm:max-w-5xl"
 
 max_w_6xl :: ClassName
-max_w_6xl = ClassName "sm\\:max-w-6xl"
+max_w_6xl = ClassName "sm:max-w-6xl"
 
 max_w_full :: ClassName
-max_w_full = ClassName "sm\\:max-w-full"
+max_w_full = ClassName "sm:max-w-full"
 
 max_w_lg :: ClassName
-max_w_lg = ClassName "sm\\:max-w-lg"
+max_w_lg = ClassName "sm:max-w-lg"
 
 max_w_md :: ClassName
-max_w_md = ClassName "sm\\:max-w-md"
+max_w_md = ClassName "sm:max-w-md"
 
 max_w_none :: ClassName
-max_w_none = ClassName "sm\\:max-w-none"
+max_w_none = ClassName "sm:max-w-none"
 
 max_w_screen_lg :: ClassName
-max_w_screen_lg = ClassName "sm\\:max-w-screen-lg"
+max_w_screen_lg = ClassName "sm:max-w-screen-lg"
 
 max_w_screen_md :: ClassName
-max_w_screen_md = ClassName "sm\\:max-w-screen-md"
+max_w_screen_md = ClassName "sm:max-w-screen-md"
 
 max_w_screen_sm :: ClassName
-max_w_screen_sm = ClassName "sm\\:max-w-screen-sm"
+max_w_screen_sm = ClassName "sm:max-w-screen-sm"
 
 max_w_screen_xl :: ClassName
-max_w_screen_xl = ClassName "sm\\:max-w-screen-xl"
+max_w_screen_xl = ClassName "sm:max-w-screen-xl"
 
 max_w_sm :: ClassName
-max_w_sm = ClassName "sm\\:max-w-sm"
+max_w_sm = ClassName "sm:max-w-sm"
 
 max_w_xl :: ClassName
-max_w_xl = ClassName "sm\\:max-w-xl"
+max_w_xl = ClassName "sm:max-w-xl"
 
 max_w_xs :: ClassName
-max_w_xs = ClassName "sm\\:max-w-xs"
+max_w_xs = ClassName "sm:max-w-xs"
 
 mb_0 :: ClassName
-mb_0 = ClassName "sm\\:mb-0"
+mb_0 = ClassName "sm:mb-0"
 
 mb_1 :: ClassName
-mb_1 = ClassName "sm\\:mb-1"
+mb_1 = ClassName "sm:mb-1"
 
 mb_10 :: ClassName
-mb_10 = ClassName "sm\\:mb-10"
+mb_10 = ClassName "sm:mb-10"
 
 mb_12 :: ClassName
-mb_12 = ClassName "sm\\:mb-12"
+mb_12 = ClassName "sm:mb-12"
 
 mb_120 :: ClassName
-mb_120 = ClassName "sm\\:mb-120"
+mb_120 = ClassName "sm:mb-120"
 
 mb_14 :: ClassName
-mb_14 = ClassName "sm\\:mb-14"
+mb_14 = ClassName "sm:mb-14"
 
 mb_16 :: ClassName
-mb_16 = ClassName "sm\\:mb-16"
+mb_16 = ClassName "sm:mb-16"
 
 mb_160 :: ClassName
-mb_160 = ClassName "sm\\:mb-160"
+mb_160 = ClassName "sm:mb-160"
 
 mb_2 :: ClassName
-mb_2 = ClassName "sm\\:mb-2"
+mb_2 = ClassName "sm:mb-2"
 
 mb_20 :: ClassName
-mb_20 = ClassName "sm\\:mb-20"
+mb_20 = ClassName "sm:mb-20"
 
 mb_24 :: ClassName
-mb_24 = ClassName "sm\\:mb-24"
+mb_24 = ClassName "sm:mb-24"
 
 mb_3 :: ClassName
-mb_3 = ClassName "sm\\:mb-3"
+mb_3 = ClassName "sm:mb-3"
 
 mb_30 :: ClassName
-mb_30 = ClassName "sm\\:mb-30"
+mb_30 = ClassName "sm:mb-30"
 
 mb_32 :: ClassName
-mb_32 = ClassName "sm\\:mb-32"
+mb_32 = ClassName "sm:mb-32"
 
 mb_4 :: ClassName
-mb_4 = ClassName "sm\\:mb-4"
+mb_4 = ClassName "sm:mb-4"
 
 mb_40 :: ClassName
-mb_40 = ClassName "sm\\:mb-40"
+mb_40 = ClassName "sm:mb-40"
 
 mb_48 :: ClassName
-mb_48 = ClassName "sm\\:mb-48"
+mb_48 = ClassName "sm:mb-48"
 
 mb_5 :: ClassName
-mb_5 = ClassName "sm\\:mb-5"
+mb_5 = ClassName "sm:mb-5"
 
 mb_50 :: ClassName
-mb_50 = ClassName "sm\\:mb-50"
+mb_50 = ClassName "sm:mb-50"
 
 mb_56 :: ClassName
-mb_56 = ClassName "sm\\:mb-56"
+mb_56 = ClassName "sm:mb-56"
 
 mb_6 :: ClassName
-mb_6 = ClassName "sm\\:mb-6"
+mb_6 = ClassName "sm:mb-6"
 
 mb_60 :: ClassName
-mb_60 = ClassName "sm\\:mb-60"
+mb_60 = ClassName "sm:mb-60"
 
 mb_64 :: ClassName
-mb_64 = ClassName "sm\\:mb-64"
+mb_64 = ClassName "sm:mb-64"
 
 mb_7 :: ClassName
-mb_7 = ClassName "sm\\:mb-7"
+mb_7 = ClassName "sm:mb-7"
 
 mb_8 :: ClassName
-mb_8 = ClassName "sm\\:mb-8"
+mb_8 = ClassName "sm:mb-8"
 
 mb_80 :: ClassName
-mb_80 = ClassName "sm\\:mb-80"
+mb_80 = ClassName "sm:mb-80"
 
 mb_9 :: ClassName
-mb_9 = ClassName "sm\\:mb-9"
+mb_9 = ClassName "sm:mb-9"
 
 mb_90 :: ClassName
-mb_90 = ClassName "sm\\:mb-90"
+mb_90 = ClassName "sm:mb-90"
 
 mb_auto :: ClassName
-mb_auto = ClassName "sm\\:mb-auto"
+mb_auto = ClassName "sm:mb-auto"
 
 mb_px :: ClassName
-mb_px = ClassName "sm\\:mb-px"
+mb_px = ClassName "sm:mb-px"
 
 min_h_0 :: ClassName
-min_h_0 = ClassName "sm\\:min-h-0"
+min_h_0 = ClassName "sm:min-h-0"
 
 min_h_full :: ClassName
-min_h_full = ClassName "sm\\:min-h-full"
+min_h_full = ClassName "sm:min-h-full"
 
 min_h_screen :: ClassName
-min_h_screen = ClassName "sm\\:min-h-screen"
+min_h_screen = ClassName "sm:min-h-screen"
 
 min_w_0 :: ClassName
-min_w_0 = ClassName "sm\\:min-w-0"
+min_w_0 = ClassName "sm:min-w-0"
 
 min_w_full :: ClassName
-min_w_full = ClassName "sm\\:min-w-full"
+min_w_full = ClassName "sm:min-w-full"
 
 ml_0 :: ClassName
-ml_0 = ClassName "sm\\:ml-0"
+ml_0 = ClassName "sm:ml-0"
 
 ml_1 :: ClassName
-ml_1 = ClassName "sm\\:ml-1"
+ml_1 = ClassName "sm:ml-1"
 
 ml_10 :: ClassName
-ml_10 = ClassName "sm\\:ml-10"
+ml_10 = ClassName "sm:ml-10"
 
 ml_12 :: ClassName
-ml_12 = ClassName "sm\\:ml-12"
+ml_12 = ClassName "sm:ml-12"
 
 ml_120 :: ClassName
-ml_120 = ClassName "sm\\:ml-120"
+ml_120 = ClassName "sm:ml-120"
 
 ml_14 :: ClassName
-ml_14 = ClassName "sm\\:ml-14"
+ml_14 = ClassName "sm:ml-14"
 
 ml_16 :: ClassName
-ml_16 = ClassName "sm\\:ml-16"
+ml_16 = ClassName "sm:ml-16"
 
 ml_160 :: ClassName
-ml_160 = ClassName "sm\\:ml-160"
+ml_160 = ClassName "sm:ml-160"
 
 ml_2 :: ClassName
-ml_2 = ClassName "sm\\:ml-2"
+ml_2 = ClassName "sm:ml-2"
 
 ml_20 :: ClassName
-ml_20 = ClassName "sm\\:ml-20"
+ml_20 = ClassName "sm:ml-20"
 
 ml_24 :: ClassName
-ml_24 = ClassName "sm\\:ml-24"
+ml_24 = ClassName "sm:ml-24"
 
 ml_3 :: ClassName
-ml_3 = ClassName "sm\\:ml-3"
+ml_3 = ClassName "sm:ml-3"
 
 ml_30 :: ClassName
-ml_30 = ClassName "sm\\:ml-30"
+ml_30 = ClassName "sm:ml-30"
 
 ml_32 :: ClassName
-ml_32 = ClassName "sm\\:ml-32"
+ml_32 = ClassName "sm:ml-32"
 
 ml_4 :: ClassName
-ml_4 = ClassName "sm\\:ml-4"
+ml_4 = ClassName "sm:ml-4"
 
 ml_40 :: ClassName
-ml_40 = ClassName "sm\\:ml-40"
+ml_40 = ClassName "sm:ml-40"
 
 ml_48 :: ClassName
-ml_48 = ClassName "sm\\:ml-48"
+ml_48 = ClassName "sm:ml-48"
 
 ml_5 :: ClassName
-ml_5 = ClassName "sm\\:ml-5"
+ml_5 = ClassName "sm:ml-5"
 
 ml_50 :: ClassName
-ml_50 = ClassName "sm\\:ml-50"
+ml_50 = ClassName "sm:ml-50"
 
 ml_56 :: ClassName
-ml_56 = ClassName "sm\\:ml-56"
+ml_56 = ClassName "sm:ml-56"
 
 ml_6 :: ClassName
-ml_6 = ClassName "sm\\:ml-6"
+ml_6 = ClassName "sm:ml-6"
 
 ml_60 :: ClassName
-ml_60 = ClassName "sm\\:ml-60"
+ml_60 = ClassName "sm:ml-60"
 
 ml_64 :: ClassName
-ml_64 = ClassName "sm\\:ml-64"
+ml_64 = ClassName "sm:ml-64"
 
 ml_7 :: ClassName
-ml_7 = ClassName "sm\\:ml-7"
+ml_7 = ClassName "sm:ml-7"
 
 ml_8 :: ClassName
-ml_8 = ClassName "sm\\:ml-8"
+ml_8 = ClassName "sm:ml-8"
 
 ml_80 :: ClassName
-ml_80 = ClassName "sm\\:ml-80"
+ml_80 = ClassName "sm:ml-80"
 
 ml_9 :: ClassName
-ml_9 = ClassName "sm\\:ml-9"
+ml_9 = ClassName "sm:ml-9"
 
 ml_90 :: ClassName
-ml_90 = ClassName "sm\\:ml-90"
+ml_90 = ClassName "sm:ml-90"
 
 ml_auto :: ClassName
-ml_auto = ClassName "sm\\:ml-auto"
+ml_auto = ClassName "sm:ml-auto"
 
 ml_px :: ClassName
-ml_px = ClassName "sm\\:ml-px"
+ml_px = ClassName "sm:ml-px"
 
 mr_0 :: ClassName
-mr_0 = ClassName "sm\\:mr-0"
+mr_0 = ClassName "sm:mr-0"
 
 mr_1 :: ClassName
-mr_1 = ClassName "sm\\:mr-1"
+mr_1 = ClassName "sm:mr-1"
 
 mr_10 :: ClassName
-mr_10 = ClassName "sm\\:mr-10"
+mr_10 = ClassName "sm:mr-10"
 
 mr_12 :: ClassName
-mr_12 = ClassName "sm\\:mr-12"
+mr_12 = ClassName "sm:mr-12"
 
 mr_120 :: ClassName
-mr_120 = ClassName "sm\\:mr-120"
+mr_120 = ClassName "sm:mr-120"
 
 mr_14 :: ClassName
-mr_14 = ClassName "sm\\:mr-14"
+mr_14 = ClassName "sm:mr-14"
 
 mr_16 :: ClassName
-mr_16 = ClassName "sm\\:mr-16"
+mr_16 = ClassName "sm:mr-16"
 
 mr_160 :: ClassName
-mr_160 = ClassName "sm\\:mr-160"
+mr_160 = ClassName "sm:mr-160"
 
 mr_2 :: ClassName
-mr_2 = ClassName "sm\\:mr-2"
+mr_2 = ClassName "sm:mr-2"
 
 mr_20 :: ClassName
-mr_20 = ClassName "sm\\:mr-20"
+mr_20 = ClassName "sm:mr-20"
 
 mr_24 :: ClassName
-mr_24 = ClassName "sm\\:mr-24"
+mr_24 = ClassName "sm:mr-24"
 
 mr_3 :: ClassName
-mr_3 = ClassName "sm\\:mr-3"
+mr_3 = ClassName "sm:mr-3"
 
 mr_30 :: ClassName
-mr_30 = ClassName "sm\\:mr-30"
+mr_30 = ClassName "sm:mr-30"
 
 mr_32 :: ClassName
-mr_32 = ClassName "sm\\:mr-32"
+mr_32 = ClassName "sm:mr-32"
 
 mr_4 :: ClassName
-mr_4 = ClassName "sm\\:mr-4"
+mr_4 = ClassName "sm:mr-4"
 
 mr_40 :: ClassName
-mr_40 = ClassName "sm\\:mr-40"
+mr_40 = ClassName "sm:mr-40"
 
 mr_48 :: ClassName
-mr_48 = ClassName "sm\\:mr-48"
+mr_48 = ClassName "sm:mr-48"
 
 mr_5 :: ClassName
-mr_5 = ClassName "sm\\:mr-5"
+mr_5 = ClassName "sm:mr-5"
 
 mr_50 :: ClassName
-mr_50 = ClassName "sm\\:mr-50"
+mr_50 = ClassName "sm:mr-50"
 
 mr_56 :: ClassName
-mr_56 = ClassName "sm\\:mr-56"
+mr_56 = ClassName "sm:mr-56"
 
 mr_6 :: ClassName
-mr_6 = ClassName "sm\\:mr-6"
+mr_6 = ClassName "sm:mr-6"
 
 mr_60 :: ClassName
-mr_60 = ClassName "sm\\:mr-60"
+mr_60 = ClassName "sm:mr-60"
 
 mr_64 :: ClassName
-mr_64 = ClassName "sm\\:mr-64"
+mr_64 = ClassName "sm:mr-64"
 
 mr_7 :: ClassName
-mr_7 = ClassName "sm\\:mr-7"
+mr_7 = ClassName "sm:mr-7"
 
 mr_8 :: ClassName
-mr_8 = ClassName "sm\\:mr-8"
+mr_8 = ClassName "sm:mr-8"
 
 mr_80 :: ClassName
-mr_80 = ClassName "sm\\:mr-80"
+mr_80 = ClassName "sm:mr-80"
 
 mr_9 :: ClassName
-mr_9 = ClassName "sm\\:mr-9"
+mr_9 = ClassName "sm:mr-9"
 
 mr_90 :: ClassName
-mr_90 = ClassName "sm\\:mr-90"
+mr_90 = ClassName "sm:mr-90"
 
 mr_auto :: ClassName
-mr_auto = ClassName "sm\\:mr-auto"
+mr_auto = ClassName "sm:mr-auto"
 
 mr_px :: ClassName
-mr_px = ClassName "sm\\:mr-px"
+mr_px = ClassName "sm:mr-px"
 
 mt_0 :: ClassName
-mt_0 = ClassName "sm\\:mt-0"
+mt_0 = ClassName "sm:mt-0"
 
 mt_1 :: ClassName
-mt_1 = ClassName "sm\\:mt-1"
+mt_1 = ClassName "sm:mt-1"
 
 mt_10 :: ClassName
-mt_10 = ClassName "sm\\:mt-10"
+mt_10 = ClassName "sm:mt-10"
 
 mt_12 :: ClassName
-mt_12 = ClassName "sm\\:mt-12"
+mt_12 = ClassName "sm:mt-12"
 
 mt_120 :: ClassName
-mt_120 = ClassName "sm\\:mt-120"
+mt_120 = ClassName "sm:mt-120"
 
 mt_14 :: ClassName
-mt_14 = ClassName "sm\\:mt-14"
+mt_14 = ClassName "sm:mt-14"
 
 mt_16 :: ClassName
-mt_16 = ClassName "sm\\:mt-16"
+mt_16 = ClassName "sm:mt-16"
 
 mt_160 :: ClassName
-mt_160 = ClassName "sm\\:mt-160"
+mt_160 = ClassName "sm:mt-160"
 
 mt_2 :: ClassName
-mt_2 = ClassName "sm\\:mt-2"
+mt_2 = ClassName "sm:mt-2"
 
 mt_20 :: ClassName
-mt_20 = ClassName "sm\\:mt-20"
+mt_20 = ClassName "sm:mt-20"
 
 mt_24 :: ClassName
-mt_24 = ClassName "sm\\:mt-24"
+mt_24 = ClassName "sm:mt-24"
 
 mt_3 :: ClassName
-mt_3 = ClassName "sm\\:mt-3"
+mt_3 = ClassName "sm:mt-3"
 
 mt_30 :: ClassName
-mt_30 = ClassName "sm\\:mt-30"
+mt_30 = ClassName "sm:mt-30"
 
 mt_32 :: ClassName
-mt_32 = ClassName "sm\\:mt-32"
+mt_32 = ClassName "sm:mt-32"
 
 mt_4 :: ClassName
-mt_4 = ClassName "sm\\:mt-4"
+mt_4 = ClassName "sm:mt-4"
 
 mt_40 :: ClassName
-mt_40 = ClassName "sm\\:mt-40"
+mt_40 = ClassName "sm:mt-40"
 
 mt_48 :: ClassName
-mt_48 = ClassName "sm\\:mt-48"
+mt_48 = ClassName "sm:mt-48"
 
 mt_5 :: ClassName
-mt_5 = ClassName "sm\\:mt-5"
+mt_5 = ClassName "sm:mt-5"
 
 mt_50 :: ClassName
-mt_50 = ClassName "sm\\:mt-50"
+mt_50 = ClassName "sm:mt-50"
 
 mt_56 :: ClassName
-mt_56 = ClassName "sm\\:mt-56"
+mt_56 = ClassName "sm:mt-56"
 
 mt_6 :: ClassName
-mt_6 = ClassName "sm\\:mt-6"
+mt_6 = ClassName "sm:mt-6"
 
 mt_60 :: ClassName
-mt_60 = ClassName "sm\\:mt-60"
+mt_60 = ClassName "sm:mt-60"
 
 mt_64 :: ClassName
-mt_64 = ClassName "sm\\:mt-64"
+mt_64 = ClassName "sm:mt-64"
 
 mt_7 :: ClassName
-mt_7 = ClassName "sm\\:mt-7"
+mt_7 = ClassName "sm:mt-7"
 
 mt_8 :: ClassName
-mt_8 = ClassName "sm\\:mt-8"
+mt_8 = ClassName "sm:mt-8"
 
 mt_80 :: ClassName
-mt_80 = ClassName "sm\\:mt-80"
+mt_80 = ClassName "sm:mt-80"
 
 mt_9 :: ClassName
-mt_9 = ClassName "sm\\:mt-9"
+mt_9 = ClassName "sm:mt-9"
 
 mt_90 :: ClassName
-mt_90 = ClassName "sm\\:mt-90"
+mt_90 = ClassName "sm:mt-90"
 
 mt_auto :: ClassName
-mt_auto = ClassName "sm\\:mt-auto"
+mt_auto = ClassName "sm:mt-auto"
 
 mt_px :: ClassName
-mt_px = ClassName "sm\\:mt-px"
+mt_px = ClassName "sm:mt-px"
 
 mx_0 :: ClassName
-mx_0 = ClassName "sm\\:mx-0"
+mx_0 = ClassName "sm:mx-0"
 
 mx_1 :: ClassName
-mx_1 = ClassName "sm\\:mx-1"
+mx_1 = ClassName "sm:mx-1"
 
 mx_10 :: ClassName
-mx_10 = ClassName "sm\\:mx-10"
+mx_10 = ClassName "sm:mx-10"
 
 mx_12 :: ClassName
-mx_12 = ClassName "sm\\:mx-12"
+mx_12 = ClassName "sm:mx-12"
 
 mx_120 :: ClassName
-mx_120 = ClassName "sm\\:mx-120"
+mx_120 = ClassName "sm:mx-120"
 
 mx_14 :: ClassName
-mx_14 = ClassName "sm\\:mx-14"
+mx_14 = ClassName "sm:mx-14"
 
 mx_16 :: ClassName
-mx_16 = ClassName "sm\\:mx-16"
+mx_16 = ClassName "sm:mx-16"
 
 mx_160 :: ClassName
-mx_160 = ClassName "sm\\:mx-160"
+mx_160 = ClassName "sm:mx-160"
 
 mx_2 :: ClassName
-mx_2 = ClassName "sm\\:mx-2"
+mx_2 = ClassName "sm:mx-2"
 
 mx_20 :: ClassName
-mx_20 = ClassName "sm\\:mx-20"
+mx_20 = ClassName "sm:mx-20"
 
 mx_24 :: ClassName
-mx_24 = ClassName "sm\\:mx-24"
+mx_24 = ClassName "sm:mx-24"
 
 mx_3 :: ClassName
-mx_3 = ClassName "sm\\:mx-3"
+mx_3 = ClassName "sm:mx-3"
 
 mx_30 :: ClassName
-mx_30 = ClassName "sm\\:mx-30"
+mx_30 = ClassName "sm:mx-30"
 
 mx_32 :: ClassName
-mx_32 = ClassName "sm\\:mx-32"
+mx_32 = ClassName "sm:mx-32"
 
 mx_4 :: ClassName
-mx_4 = ClassName "sm\\:mx-4"
+mx_4 = ClassName "sm:mx-4"
 
 mx_40 :: ClassName
-mx_40 = ClassName "sm\\:mx-40"
+mx_40 = ClassName "sm:mx-40"
 
 mx_48 :: ClassName
-mx_48 = ClassName "sm\\:mx-48"
+mx_48 = ClassName "sm:mx-48"
 
 mx_5 :: ClassName
-mx_5 = ClassName "sm\\:mx-5"
+mx_5 = ClassName "sm:mx-5"
 
 mx_50 :: ClassName
-mx_50 = ClassName "sm\\:mx-50"
+mx_50 = ClassName "sm:mx-50"
 
 mx_56 :: ClassName
-mx_56 = ClassName "sm\\:mx-56"
+mx_56 = ClassName "sm:mx-56"
 
 mx_6 :: ClassName
-mx_6 = ClassName "sm\\:mx-6"
+mx_6 = ClassName "sm:mx-6"
 
 mx_60 :: ClassName
-mx_60 = ClassName "sm\\:mx-60"
+mx_60 = ClassName "sm:mx-60"
 
 mx_64 :: ClassName
-mx_64 = ClassName "sm\\:mx-64"
+mx_64 = ClassName "sm:mx-64"
 
 mx_7 :: ClassName
-mx_7 = ClassName "sm\\:mx-7"
+mx_7 = ClassName "sm:mx-7"
 
 mx_8 :: ClassName
-mx_8 = ClassName "sm\\:mx-8"
+mx_8 = ClassName "sm:mx-8"
 
 mx_80 :: ClassName
-mx_80 = ClassName "sm\\:mx-80"
+mx_80 = ClassName "sm:mx-80"
 
 mx_9 :: ClassName
-mx_9 = ClassName "sm\\:mx-9"
+mx_9 = ClassName "sm:mx-9"
 
 mx_90 :: ClassName
-mx_90 = ClassName "sm\\:mx-90"
+mx_90 = ClassName "sm:mx-90"
 
 mx_auto :: ClassName
-mx_auto = ClassName "sm\\:mx-auto"
+mx_auto = ClassName "sm:mx-auto"
 
 mx_px :: ClassName
-mx_px = ClassName "sm\\:mx-px"
+mx_px = ClassName "sm:mx-px"
 
 my_0 :: ClassName
-my_0 = ClassName "sm\\:my-0"
+my_0 = ClassName "sm:my-0"
 
 my_1 :: ClassName
-my_1 = ClassName "sm\\:my-1"
+my_1 = ClassName "sm:my-1"
 
 my_10 :: ClassName
-my_10 = ClassName "sm\\:my-10"
+my_10 = ClassName "sm:my-10"
 
 my_12 :: ClassName
-my_12 = ClassName "sm\\:my-12"
+my_12 = ClassName "sm:my-12"
 
 my_120 :: ClassName
-my_120 = ClassName "sm\\:my-120"
+my_120 = ClassName "sm:my-120"
 
 my_14 :: ClassName
-my_14 = ClassName "sm\\:my-14"
+my_14 = ClassName "sm:my-14"
 
 my_16 :: ClassName
-my_16 = ClassName "sm\\:my-16"
+my_16 = ClassName "sm:my-16"
 
 my_160 :: ClassName
-my_160 = ClassName "sm\\:my-160"
+my_160 = ClassName "sm:my-160"
 
 my_2 :: ClassName
-my_2 = ClassName "sm\\:my-2"
+my_2 = ClassName "sm:my-2"
 
 my_20 :: ClassName
-my_20 = ClassName "sm\\:my-20"
+my_20 = ClassName "sm:my-20"
 
 my_24 :: ClassName
-my_24 = ClassName "sm\\:my-24"
+my_24 = ClassName "sm:my-24"
 
 my_3 :: ClassName
-my_3 = ClassName "sm\\:my-3"
+my_3 = ClassName "sm:my-3"
 
 my_30 :: ClassName
-my_30 = ClassName "sm\\:my-30"
+my_30 = ClassName "sm:my-30"
 
 my_32 :: ClassName
-my_32 = ClassName "sm\\:my-32"
+my_32 = ClassName "sm:my-32"
 
 my_4 :: ClassName
-my_4 = ClassName "sm\\:my-4"
+my_4 = ClassName "sm:my-4"
 
 my_40 :: ClassName
-my_40 = ClassName "sm\\:my-40"
+my_40 = ClassName "sm:my-40"
 
 my_48 :: ClassName
-my_48 = ClassName "sm\\:my-48"
+my_48 = ClassName "sm:my-48"
 
 my_5 :: ClassName
-my_5 = ClassName "sm\\:my-5"
+my_5 = ClassName "sm:my-5"
 
 my_50 :: ClassName
-my_50 = ClassName "sm\\:my-50"
+my_50 = ClassName "sm:my-50"
 
 my_56 :: ClassName
-my_56 = ClassName "sm\\:my-56"
+my_56 = ClassName "sm:my-56"
 
 my_6 :: ClassName
-my_6 = ClassName "sm\\:my-6"
+my_6 = ClassName "sm:my-6"
 
 my_60 :: ClassName
-my_60 = ClassName "sm\\:my-60"
+my_60 = ClassName "sm:my-60"
 
 my_64 :: ClassName
-my_64 = ClassName "sm\\:my-64"
+my_64 = ClassName "sm:my-64"
 
 my_7 :: ClassName
-my_7 = ClassName "sm\\:my-7"
+my_7 = ClassName "sm:my-7"
 
 my_8 :: ClassName
-my_8 = ClassName "sm\\:my-8"
+my_8 = ClassName "sm:my-8"
 
 my_80 :: ClassName
-my_80 = ClassName "sm\\:my-80"
+my_80 = ClassName "sm:my-80"
 
 my_9 :: ClassName
-my_9 = ClassName "sm\\:my-9"
+my_9 = ClassName "sm:my-9"
 
 my_90 :: ClassName
-my_90 = ClassName "sm\\:my-90"
+my_90 = ClassName "sm:my-90"
 
 my_auto :: ClassName
-my_auto = ClassName "sm\\:my-auto"
+my_auto = ClassName "sm:my-auto"
 
 my_px :: ClassName
-my_px = ClassName "sm\\:my-px"
+my_px = ClassName "sm:my-px"
 
 no_underline :: ClassName
-no_underline = ClassName "sm\\:no-underline"
+no_underline = ClassName "sm:no-underline"
 
 normal_case :: ClassName
-normal_case = ClassName "sm\\:normal-case"
+normal_case = ClassName "sm:normal-case"
 
 not_italic :: ClassName
-not_italic = ClassName "sm\\:not-italic"
+not_italic = ClassName "sm:not-italic"
 
 not_sr_only :: ClassName
-not_sr_only = ClassName "sm\\:not-sr-only"
+not_sr_only = ClassName "sm:not-sr-only"
 
 object_bottom :: ClassName
-object_bottom = ClassName "sm\\:object-bottom"
+object_bottom = ClassName "sm:object-bottom"
 
 object_center :: ClassName
-object_center = ClassName "sm\\:object-center"
+object_center = ClassName "sm:object-center"
 
 object_contain :: ClassName
-object_contain = ClassName "sm\\:object-contain"
+object_contain = ClassName "sm:object-contain"
 
 object_cover :: ClassName
-object_cover = ClassName "sm\\:object-cover"
+object_cover = ClassName "sm:object-cover"
 
 object_fill :: ClassName
-object_fill = ClassName "sm\\:object-fill"
+object_fill = ClassName "sm:object-fill"
 
 object_left :: ClassName
-object_left = ClassName "sm\\:object-left"
+object_left = ClassName "sm:object-left"
 
 object_left_bottom :: ClassName
-object_left_bottom = ClassName "sm\\:object-left-bottom"
+object_left_bottom = ClassName "sm:object-left-bottom"
 
 object_left_top :: ClassName
-object_left_top = ClassName "sm\\:object-left-top"
+object_left_top = ClassName "sm:object-left-top"
 
 object_none :: ClassName
-object_none = ClassName "sm\\:object-none"
+object_none = ClassName "sm:object-none"
 
 object_right :: ClassName
-object_right = ClassName "sm\\:object-right"
+object_right = ClassName "sm:object-right"
 
 object_right_bottom :: ClassName
-object_right_bottom = ClassName "sm\\:object-right-bottom"
+object_right_bottom = ClassName "sm:object-right-bottom"
 
 object_right_top :: ClassName
-object_right_top = ClassName "sm\\:object-right-top"
+object_right_top = ClassName "sm:object-right-top"
 
 object_scale_down :: ClassName
-object_scale_down = ClassName "sm\\:object-scale-down"
+object_scale_down = ClassName "sm:object-scale-down"
 
 object_top :: ClassName
-object_top = ClassName "sm\\:object-top"
+object_top = ClassName "sm:object-top"
 
 opacity_0 :: ClassName
-opacity_0 = ClassName "sm\\:opacity-0"
+opacity_0 = ClassName "sm:opacity-0"
 
 opacity_100 :: ClassName
-opacity_100 = ClassName "sm\\:opacity-100"
+opacity_100 = ClassName "sm:opacity-100"
 
 opacity_25 :: ClassName
-opacity_25 = ClassName "sm\\:opacity-25"
+opacity_25 = ClassName "sm:opacity-25"
 
 opacity_50 :: ClassName
-opacity_50 = ClassName "sm\\:opacity-50"
+opacity_50 = ClassName "sm:opacity-50"
 
 opacity_75 :: ClassName
-opacity_75 = ClassName "sm\\:opacity-75"
+opacity_75 = ClassName "sm:opacity-75"
 
 order_1 :: ClassName
-order_1 = ClassName "sm\\:order-1"
+order_1 = ClassName "sm:order-1"
 
 order_10 :: ClassName
-order_10 = ClassName "sm\\:order-10"
+order_10 = ClassName "sm:order-10"
 
 order_11 :: ClassName
-order_11 = ClassName "sm\\:order-11"
+order_11 = ClassName "sm:order-11"
 
 order_12 :: ClassName
-order_12 = ClassName "sm\\:order-12"
+order_12 = ClassName "sm:order-12"
 
 order_2 :: ClassName
-order_2 = ClassName "sm\\:order-2"
+order_2 = ClassName "sm:order-2"
 
 order_3 :: ClassName
-order_3 = ClassName "sm\\:order-3"
+order_3 = ClassName "sm:order-3"
 
 order_4 :: ClassName
-order_4 = ClassName "sm\\:order-4"
+order_4 = ClassName "sm:order-4"
 
 order_5 :: ClassName
-order_5 = ClassName "sm\\:order-5"
+order_5 = ClassName "sm:order-5"
 
 order_6 :: ClassName
-order_6 = ClassName "sm\\:order-6"
+order_6 = ClassName "sm:order-6"
 
 order_7 :: ClassName
-order_7 = ClassName "sm\\:order-7"
+order_7 = ClassName "sm:order-7"
 
 order_8 :: ClassName
-order_8 = ClassName "sm\\:order-8"
+order_8 = ClassName "sm:order-8"
 
 order_9 :: ClassName
-order_9 = ClassName "sm\\:order-9"
+order_9 = ClassName "sm:order-9"
 
 order_first :: ClassName
-order_first = ClassName "sm\\:order-first"
+order_first = ClassName "sm:order-first"
 
 order_last :: ClassName
-order_last = ClassName "sm\\:order-last"
+order_last = ClassName "sm:order-last"
 
 order_none :: ClassName
-order_none = ClassName "sm\\:order-none"
+order_none = ClassName "sm:order-none"
 
 origin_bottom :: ClassName
-origin_bottom = ClassName "sm\\:origin-bottom"
+origin_bottom = ClassName "sm:origin-bottom"
 
 origin_bottom_left :: ClassName
-origin_bottom_left = ClassName "sm\\:origin-bottom-left"
+origin_bottom_left = ClassName "sm:origin-bottom-left"
 
 origin_bottom_right :: ClassName
-origin_bottom_right = ClassName "sm\\:origin-bottom-right"
+origin_bottom_right = ClassName "sm:origin-bottom-right"
 
 origin_center :: ClassName
-origin_center = ClassName "sm\\:origin-center"
+origin_center = ClassName "sm:origin-center"
 
 origin_left :: ClassName
-origin_left = ClassName "sm\\:origin-left"
+origin_left = ClassName "sm:origin-left"
 
 origin_right :: ClassName
-origin_right = ClassName "sm\\:origin-right"
+origin_right = ClassName "sm:origin-right"
 
 origin_top :: ClassName
-origin_top = ClassName "sm\\:origin-top"
+origin_top = ClassName "sm:origin-top"
 
 origin_top_left :: ClassName
-origin_top_left = ClassName "sm\\:origin-top-left"
+origin_top_left = ClassName "sm:origin-top-left"
 
 origin_top_right :: ClassName
-origin_top_right = ClassName "sm\\:origin-top-right"
+origin_top_right = ClassName "sm:origin-top-right"
 
 outline_none :: ClassName
-outline_none = ClassName "sm\\:outline-none"
+outline_none = ClassName "sm:outline-none"
 
 overflow_auto :: ClassName
-overflow_auto = ClassName "sm\\:overflow-auto"
+overflow_auto = ClassName "sm:overflow-auto"
 
 overflow_hidden :: ClassName
-overflow_hidden = ClassName "sm\\:overflow-hidden"
+overflow_hidden = ClassName "sm:overflow-hidden"
 
 overflow_scroll :: ClassName
-overflow_scroll = ClassName "sm\\:overflow-scroll"
+overflow_scroll = ClassName "sm:overflow-scroll"
 
 overflow_visible :: ClassName
-overflow_visible = ClassName "sm\\:overflow-visible"
+overflow_visible = ClassName "sm:overflow-visible"
 
 overflow_x_auto :: ClassName
-overflow_x_auto = ClassName "sm\\:overflow-x-auto"
+overflow_x_auto = ClassName "sm:overflow-x-auto"
 
 overflow_x_hidden :: ClassName
-overflow_x_hidden = ClassName "sm\\:overflow-x-hidden"
+overflow_x_hidden = ClassName "sm:overflow-x-hidden"
 
 overflow_x_scroll :: ClassName
-overflow_x_scroll = ClassName "sm\\:overflow-x-scroll"
+overflow_x_scroll = ClassName "sm:overflow-x-scroll"
 
 overflow_x_visible :: ClassName
-overflow_x_visible = ClassName "sm\\:overflow-x-visible"
+overflow_x_visible = ClassName "sm:overflow-x-visible"
 
 overflow_y_auto :: ClassName
-overflow_y_auto = ClassName "sm\\:overflow-y-auto"
+overflow_y_auto = ClassName "sm:overflow-y-auto"
 
 overflow_y_hidden :: ClassName
-overflow_y_hidden = ClassName "sm\\:overflow-y-hidden"
+overflow_y_hidden = ClassName "sm:overflow-y-hidden"
 
 overflow_y_scroll :: ClassName
-overflow_y_scroll = ClassName "sm\\:overflow-y-scroll"
+overflow_y_scroll = ClassName "sm:overflow-y-scroll"
 
 overflow_y_visible :: ClassName
-overflow_y_visible = ClassName "sm\\:overflow-y-visible"
+overflow_y_visible = ClassName "sm:overflow-y-visible"
 
 overscroll_auto :: ClassName
-overscroll_auto = ClassName "sm\\:overscroll-auto"
+overscroll_auto = ClassName "sm:overscroll-auto"
 
 overscroll_contain :: ClassName
-overscroll_contain = ClassName "sm\\:overscroll-contain"
+overscroll_contain = ClassName "sm:overscroll-contain"
 
 overscroll_none :: ClassName
-overscroll_none = ClassName "sm\\:overscroll-none"
+overscroll_none = ClassName "sm:overscroll-none"
 
 overscroll_x_auto :: ClassName
-overscroll_x_auto = ClassName "sm\\:overscroll-x-auto"
+overscroll_x_auto = ClassName "sm:overscroll-x-auto"
 
 overscroll_x_contain :: ClassName
-overscroll_x_contain = ClassName "sm\\:overscroll-x-contain"
+overscroll_x_contain = ClassName "sm:overscroll-x-contain"
 
 overscroll_x_none :: ClassName
-overscroll_x_none = ClassName "sm\\:overscroll-x-none"
+overscroll_x_none = ClassName "sm:overscroll-x-none"
 
 overscroll_y_auto :: ClassName
-overscroll_y_auto = ClassName "sm\\:overscroll-y-auto"
+overscroll_y_auto = ClassName "sm:overscroll-y-auto"
 
 overscroll_y_contain :: ClassName
-overscroll_y_contain = ClassName "sm\\:overscroll-y-contain"
+overscroll_y_contain = ClassName "sm:overscroll-y-contain"
 
 overscroll_y_none :: ClassName
-overscroll_y_none = ClassName "sm\\:overscroll-y-none"
+overscroll_y_none = ClassName "sm:overscroll-y-none"
 
 p_0 :: ClassName
-p_0 = ClassName "sm\\:p-0"
+p_0 = ClassName "sm:p-0"
 
 p_1 :: ClassName
-p_1 = ClassName "sm\\:p-1"
+p_1 = ClassName "sm:p-1"
 
 p_10 :: ClassName
-p_10 = ClassName "sm\\:p-10"
+p_10 = ClassName "sm:p-10"
 
 p_12 :: ClassName
-p_12 = ClassName "sm\\:p-12"
+p_12 = ClassName "sm:p-12"
 
 p_120 :: ClassName
-p_120 = ClassName "sm\\:p-120"
+p_120 = ClassName "sm:p-120"
 
 p_14 :: ClassName
-p_14 = ClassName "sm\\:p-14"
+p_14 = ClassName "sm:p-14"
 
 p_16 :: ClassName
-p_16 = ClassName "sm\\:p-16"
+p_16 = ClassName "sm:p-16"
 
 p_160 :: ClassName
-p_160 = ClassName "sm\\:p-160"
+p_160 = ClassName "sm:p-160"
 
 p_2 :: ClassName
-p_2 = ClassName "sm\\:p-2"
+p_2 = ClassName "sm:p-2"
 
 p_20 :: ClassName
-p_20 = ClassName "sm\\:p-20"
+p_20 = ClassName "sm:p-20"
 
 p_24 :: ClassName
-p_24 = ClassName "sm\\:p-24"
+p_24 = ClassName "sm:p-24"
 
 p_3 :: ClassName
-p_3 = ClassName "sm\\:p-3"
+p_3 = ClassName "sm:p-3"
 
 p_30 :: ClassName
-p_30 = ClassName "sm\\:p-30"
+p_30 = ClassName "sm:p-30"
 
 p_32 :: ClassName
-p_32 = ClassName "sm\\:p-32"
+p_32 = ClassName "sm:p-32"
 
 p_4 :: ClassName
-p_4 = ClassName "sm\\:p-4"
+p_4 = ClassName "sm:p-4"
 
 p_40 :: ClassName
-p_40 = ClassName "sm\\:p-40"
+p_40 = ClassName "sm:p-40"
 
 p_48 :: ClassName
-p_48 = ClassName "sm\\:p-48"
+p_48 = ClassName "sm:p-48"
 
 p_5 :: ClassName
-p_5 = ClassName "sm\\:p-5"
+p_5 = ClassName "sm:p-5"
 
 p_50 :: ClassName
-p_50 = ClassName "sm\\:p-50"
+p_50 = ClassName "sm:p-50"
 
 p_56 :: ClassName
-p_56 = ClassName "sm\\:p-56"
+p_56 = ClassName "sm:p-56"
 
 p_6 :: ClassName
-p_6 = ClassName "sm\\:p-6"
+p_6 = ClassName "sm:p-6"
 
 p_60 :: ClassName
-p_60 = ClassName "sm\\:p-60"
+p_60 = ClassName "sm:p-60"
 
 p_64 :: ClassName
-p_64 = ClassName "sm\\:p-64"
+p_64 = ClassName "sm:p-64"
 
 p_7 :: ClassName
-p_7 = ClassName "sm\\:p-7"
+p_7 = ClassName "sm:p-7"
 
 p_8 :: ClassName
-p_8 = ClassName "sm\\:p-8"
+p_8 = ClassName "sm:p-8"
 
 p_80 :: ClassName
-p_80 = ClassName "sm\\:p-80"
+p_80 = ClassName "sm:p-80"
 
 p_9 :: ClassName
-p_9 = ClassName "sm\\:p-9"
+p_9 = ClassName "sm:p-9"
 
 p_90 :: ClassName
-p_90 = ClassName "sm\\:p-90"
+p_90 = ClassName "sm:p-90"
 
 p_px :: ClassName
-p_px = ClassName "sm\\:p-px"
+p_px = ClassName "sm:p-px"
 
 pb_0 :: ClassName
-pb_0 = ClassName "sm\\:pb-0"
+pb_0 = ClassName "sm:pb-0"
 
 pb_1 :: ClassName
-pb_1 = ClassName "sm\\:pb-1"
+pb_1 = ClassName "sm:pb-1"
 
 pb_10 :: ClassName
-pb_10 = ClassName "sm\\:pb-10"
+pb_10 = ClassName "sm:pb-10"
 
 pb_12 :: ClassName
-pb_12 = ClassName "sm\\:pb-12"
+pb_12 = ClassName "sm:pb-12"
 
 pb_120 :: ClassName
-pb_120 = ClassName "sm\\:pb-120"
+pb_120 = ClassName "sm:pb-120"
 
 pb_14 :: ClassName
-pb_14 = ClassName "sm\\:pb-14"
+pb_14 = ClassName "sm:pb-14"
 
 pb_16 :: ClassName
-pb_16 = ClassName "sm\\:pb-16"
+pb_16 = ClassName "sm:pb-16"
 
 pb_160 :: ClassName
-pb_160 = ClassName "sm\\:pb-160"
+pb_160 = ClassName "sm:pb-160"
 
 pb_2 :: ClassName
-pb_2 = ClassName "sm\\:pb-2"
+pb_2 = ClassName "sm:pb-2"
 
 pb_20 :: ClassName
-pb_20 = ClassName "sm\\:pb-20"
+pb_20 = ClassName "sm:pb-20"
 
 pb_24 :: ClassName
-pb_24 = ClassName "sm\\:pb-24"
+pb_24 = ClassName "sm:pb-24"
 
 pb_3 :: ClassName
-pb_3 = ClassName "sm\\:pb-3"
+pb_3 = ClassName "sm:pb-3"
 
 pb_30 :: ClassName
-pb_30 = ClassName "sm\\:pb-30"
+pb_30 = ClassName "sm:pb-30"
 
 pb_32 :: ClassName
-pb_32 = ClassName "sm\\:pb-32"
+pb_32 = ClassName "sm:pb-32"
 
 pb_4 :: ClassName
-pb_4 = ClassName "sm\\:pb-4"
+pb_4 = ClassName "sm:pb-4"
 
 pb_40 :: ClassName
-pb_40 = ClassName "sm\\:pb-40"
+pb_40 = ClassName "sm:pb-40"
 
 pb_48 :: ClassName
-pb_48 = ClassName "sm\\:pb-48"
+pb_48 = ClassName "sm:pb-48"
 
 pb_5 :: ClassName
-pb_5 = ClassName "sm\\:pb-5"
+pb_5 = ClassName "sm:pb-5"
 
 pb_50 :: ClassName
-pb_50 = ClassName "sm\\:pb-50"
+pb_50 = ClassName "sm:pb-50"
 
 pb_56 :: ClassName
-pb_56 = ClassName "sm\\:pb-56"
+pb_56 = ClassName "sm:pb-56"
 
 pb_6 :: ClassName
-pb_6 = ClassName "sm\\:pb-6"
+pb_6 = ClassName "sm:pb-6"
 
 pb_60 :: ClassName
-pb_60 = ClassName "sm\\:pb-60"
+pb_60 = ClassName "sm:pb-60"
 
 pb_64 :: ClassName
-pb_64 = ClassName "sm\\:pb-64"
+pb_64 = ClassName "sm:pb-64"
 
 pb_7 :: ClassName
-pb_7 = ClassName "sm\\:pb-7"
+pb_7 = ClassName "sm:pb-7"
 
 pb_8 :: ClassName
-pb_8 = ClassName "sm\\:pb-8"
+pb_8 = ClassName "sm:pb-8"
 
 pb_80 :: ClassName
-pb_80 = ClassName "sm\\:pb-80"
+pb_80 = ClassName "sm:pb-80"
 
 pb_9 :: ClassName
-pb_9 = ClassName "sm\\:pb-9"
+pb_9 = ClassName "sm:pb-9"
 
 pb_90 :: ClassName
-pb_90 = ClassName "sm\\:pb-90"
+pb_90 = ClassName "sm:pb-90"
 
 pb_px :: ClassName
-pb_px = ClassName "sm\\:pb-px"
+pb_px = ClassName "sm:pb-px"
 
 pl_0 :: ClassName
-pl_0 = ClassName "sm\\:pl-0"
+pl_0 = ClassName "sm:pl-0"
 
 pl_1 :: ClassName
-pl_1 = ClassName "sm\\:pl-1"
+pl_1 = ClassName "sm:pl-1"
 
 pl_10 :: ClassName
-pl_10 = ClassName "sm\\:pl-10"
+pl_10 = ClassName "sm:pl-10"
 
 pl_12 :: ClassName
-pl_12 = ClassName "sm\\:pl-12"
+pl_12 = ClassName "sm:pl-12"
 
 pl_120 :: ClassName
-pl_120 = ClassName "sm\\:pl-120"
+pl_120 = ClassName "sm:pl-120"
 
 pl_14 :: ClassName
-pl_14 = ClassName "sm\\:pl-14"
+pl_14 = ClassName "sm:pl-14"
 
 pl_16 :: ClassName
-pl_16 = ClassName "sm\\:pl-16"
+pl_16 = ClassName "sm:pl-16"
 
 pl_160 :: ClassName
-pl_160 = ClassName "sm\\:pl-160"
+pl_160 = ClassName "sm:pl-160"
 
 pl_2 :: ClassName
-pl_2 = ClassName "sm\\:pl-2"
+pl_2 = ClassName "sm:pl-2"
 
 pl_20 :: ClassName
-pl_20 = ClassName "sm\\:pl-20"
+pl_20 = ClassName "sm:pl-20"
 
 pl_24 :: ClassName
-pl_24 = ClassName "sm\\:pl-24"
+pl_24 = ClassName "sm:pl-24"
 
 pl_3 :: ClassName
-pl_3 = ClassName "sm\\:pl-3"
+pl_3 = ClassName "sm:pl-3"
 
 pl_30 :: ClassName
-pl_30 = ClassName "sm\\:pl-30"
+pl_30 = ClassName "sm:pl-30"
 
 pl_32 :: ClassName
-pl_32 = ClassName "sm\\:pl-32"
+pl_32 = ClassName "sm:pl-32"
 
 pl_4 :: ClassName
-pl_4 = ClassName "sm\\:pl-4"
+pl_4 = ClassName "sm:pl-4"
 
 pl_40 :: ClassName
-pl_40 = ClassName "sm\\:pl-40"
+pl_40 = ClassName "sm:pl-40"
 
 pl_48 :: ClassName
-pl_48 = ClassName "sm\\:pl-48"
+pl_48 = ClassName "sm:pl-48"
 
 pl_5 :: ClassName
-pl_5 = ClassName "sm\\:pl-5"
+pl_5 = ClassName "sm:pl-5"
 
 pl_50 :: ClassName
-pl_50 = ClassName "sm\\:pl-50"
+pl_50 = ClassName "sm:pl-50"
 
 pl_56 :: ClassName
-pl_56 = ClassName "sm\\:pl-56"
+pl_56 = ClassName "sm:pl-56"
 
 pl_6 :: ClassName
-pl_6 = ClassName "sm\\:pl-6"
+pl_6 = ClassName "sm:pl-6"
 
 pl_60 :: ClassName
-pl_60 = ClassName "sm\\:pl-60"
+pl_60 = ClassName "sm:pl-60"
 
 pl_64 :: ClassName
-pl_64 = ClassName "sm\\:pl-64"
+pl_64 = ClassName "sm:pl-64"
 
 pl_7 :: ClassName
-pl_7 = ClassName "sm\\:pl-7"
+pl_7 = ClassName "sm:pl-7"
 
 pl_8 :: ClassName
-pl_8 = ClassName "sm\\:pl-8"
+pl_8 = ClassName "sm:pl-8"
 
 pl_80 :: ClassName
-pl_80 = ClassName "sm\\:pl-80"
+pl_80 = ClassName "sm:pl-80"
 
 pl_9 :: ClassName
-pl_9 = ClassName "sm\\:pl-9"
+pl_9 = ClassName "sm:pl-9"
 
 pl_90 :: ClassName
-pl_90 = ClassName "sm\\:pl-90"
+pl_90 = ClassName "sm:pl-90"
 
 pl_px :: ClassName
-pl_px = ClassName "sm\\:pl-px"
+pl_px = ClassName "sm:pl-px"
 
 placeholder_black :: ClassName
-placeholder_black = ClassName "sm\\:placeholder-black"
+placeholder_black = ClassName "sm:placeholder-black"
 
 placeholder_black_10 :: ClassName
-placeholder_black_10 = ClassName "sm\\:placeholder-black-10"
+placeholder_black_10 = ClassName "sm:placeholder-black-10"
 
 placeholder_black_20 :: ClassName
-placeholder_black_20 = ClassName "sm\\:placeholder-black-20"
+placeholder_black_20 = ClassName "sm:placeholder-black-20"
 
 placeholder_blue_100 :: ClassName
-placeholder_blue_100 = ClassName "sm\\:placeholder-blue-100"
+placeholder_blue_100 = ClassName "sm:placeholder-blue-100"
 
 placeholder_blue_200 :: ClassName
-placeholder_blue_200 = ClassName "sm\\:placeholder-blue-200"
+placeholder_blue_200 = ClassName "sm:placeholder-blue-200"
 
 placeholder_blue_300 :: ClassName
-placeholder_blue_300 = ClassName "sm\\:placeholder-blue-300"
+placeholder_blue_300 = ClassName "sm:placeholder-blue-300"
 
 placeholder_blue_400 :: ClassName
-placeholder_blue_400 = ClassName "sm\\:placeholder-blue-400"
+placeholder_blue_400 = ClassName "sm:placeholder-blue-400"
 
 placeholder_blue_500 :: ClassName
-placeholder_blue_500 = ClassName "sm\\:placeholder-blue-500"
+placeholder_blue_500 = ClassName "sm:placeholder-blue-500"
 
 placeholder_blue_600 :: ClassName
-placeholder_blue_600 = ClassName "sm\\:placeholder-blue-600"
+placeholder_blue_600 = ClassName "sm:placeholder-blue-600"
 
 placeholder_blue_65 :: ClassName
-placeholder_blue_65 = ClassName "sm\\:placeholder-blue-65"
+placeholder_blue_65 = ClassName "sm:placeholder-blue-65"
 
 placeholder_blue_700 :: ClassName
-placeholder_blue_700 = ClassName "sm\\:placeholder-blue-700"
+placeholder_blue_700 = ClassName "sm:placeholder-blue-700"
 
 placeholder_blue_75 :: ClassName
-placeholder_blue_75 = ClassName "sm\\:placeholder-blue-75"
+placeholder_blue_75 = ClassName "sm:placeholder-blue-75"
 
 placeholder_blue_800 :: ClassName
-placeholder_blue_800 = ClassName "sm\\:placeholder-blue-800"
+placeholder_blue_800 = ClassName "sm:placeholder-blue-800"
 
 placeholder_blue_82 :: ClassName
-placeholder_blue_82 = ClassName "sm\\:placeholder-blue-82"
+placeholder_blue_82 = ClassName "sm:placeholder-blue-82"
 
 placeholder_blue_88 :: ClassName
-placeholder_blue_88 = ClassName "sm\\:placeholder-blue-88"
+placeholder_blue_88 = ClassName "sm:placeholder-blue-88"
 
 placeholder_blue_900 :: ClassName
-placeholder_blue_900 = ClassName "sm\\:placeholder-blue-900"
+placeholder_blue_900 = ClassName "sm:placeholder-blue-900"
 
 placeholder_current :: ClassName
-placeholder_current = ClassName "sm\\:placeholder-current"
+placeholder_current = ClassName "sm:placeholder-current"
 
 placeholder_gray_100 :: ClassName
-placeholder_gray_100 = ClassName "sm\\:placeholder-gray-100"
+placeholder_gray_100 = ClassName "sm:placeholder-gray-100"
 
 placeholder_gray_200 :: ClassName
-placeholder_gray_200 = ClassName "sm\\:placeholder-gray-200"
+placeholder_gray_200 = ClassName "sm:placeholder-gray-200"
 
 placeholder_gray_300 :: ClassName
-placeholder_gray_300 = ClassName "sm\\:placeholder-gray-300"
+placeholder_gray_300 = ClassName "sm:placeholder-gray-300"
 
 placeholder_gray_400 :: ClassName
-placeholder_gray_400 = ClassName "sm\\:placeholder-gray-400"
+placeholder_gray_400 = ClassName "sm:placeholder-gray-400"
 
 placeholder_gray_50 :: ClassName
-placeholder_gray_50 = ClassName "sm\\:placeholder-gray-50"
+placeholder_gray_50 = ClassName "sm:placeholder-gray-50"
 
 placeholder_gray_500 :: ClassName
-placeholder_gray_500 = ClassName "sm\\:placeholder-gray-500"
+placeholder_gray_500 = ClassName "sm:placeholder-gray-500"
 
 placeholder_gray_600 :: ClassName
-placeholder_gray_600 = ClassName "sm\\:placeholder-gray-600"
+placeholder_gray_600 = ClassName "sm:placeholder-gray-600"
 
 placeholder_gray_70 :: ClassName
-placeholder_gray_70 = ClassName "sm\\:placeholder-gray-70"
+placeholder_gray_70 = ClassName "sm:placeholder-gray-70"
 
 placeholder_gray_700 :: ClassName
-placeholder_gray_700 = ClassName "sm\\:placeholder-gray-700"
+placeholder_gray_700 = ClassName "sm:placeholder-gray-700"
 
 placeholder_gray_80 :: ClassName
-placeholder_gray_80 = ClassName "sm\\:placeholder-gray-80"
+placeholder_gray_80 = ClassName "sm:placeholder-gray-80"
 
 placeholder_gray_800 :: ClassName
-placeholder_gray_800 = ClassName "sm\\:placeholder-gray-800"
+placeholder_gray_800 = ClassName "sm:placeholder-gray-800"
 
 placeholder_gray_90 :: ClassName
-placeholder_gray_90 = ClassName "sm\\:placeholder-gray-90"
+placeholder_gray_90 = ClassName "sm:placeholder-gray-90"
 
 placeholder_gray_900 :: ClassName
-placeholder_gray_900 = ClassName "sm\\:placeholder-gray-900"
+placeholder_gray_900 = ClassName "sm:placeholder-gray-900"
 
 placeholder_gray_95 :: ClassName
-placeholder_gray_95 = ClassName "sm\\:placeholder-gray-95"
+placeholder_gray_95 = ClassName "sm:placeholder-gray-95"
 
 placeholder_gray_97 :: ClassName
-placeholder_gray_97 = ClassName "sm\\:placeholder-gray-97"
+placeholder_gray_97 = ClassName "sm:placeholder-gray-97"
 
 placeholder_green_100 :: ClassName
-placeholder_green_100 = ClassName "sm\\:placeholder-green-100"
+placeholder_green_100 = ClassName "sm:placeholder-green-100"
 
 placeholder_green_200 :: ClassName
-placeholder_green_200 = ClassName "sm\\:placeholder-green-200"
+placeholder_green_200 = ClassName "sm:placeholder-green-200"
 
 placeholder_green_300 :: ClassName
-placeholder_green_300 = ClassName "sm\\:placeholder-green-300"
+placeholder_green_300 = ClassName "sm:placeholder-green-300"
 
 placeholder_green_400 :: ClassName
-placeholder_green_400 = ClassName "sm\\:placeholder-green-400"
+placeholder_green_400 = ClassName "sm:placeholder-green-400"
 
 placeholder_green_500 :: ClassName
-placeholder_green_500 = ClassName "sm\\:placeholder-green-500"
+placeholder_green_500 = ClassName "sm:placeholder-green-500"
 
 placeholder_green_600 :: ClassName
-placeholder_green_600 = ClassName "sm\\:placeholder-green-600"
+placeholder_green_600 = ClassName "sm:placeholder-green-600"
 
 placeholder_green_700 :: ClassName
-placeholder_green_700 = ClassName "sm\\:placeholder-green-700"
+placeholder_green_700 = ClassName "sm:placeholder-green-700"
 
 placeholder_green_800 :: ClassName
-placeholder_green_800 = ClassName "sm\\:placeholder-green-800"
+placeholder_green_800 = ClassName "sm:placeholder-green-800"
 
 placeholder_green_900 :: ClassName
-placeholder_green_900 = ClassName "sm\\:placeholder-green-900"
+placeholder_green_900 = ClassName "sm:placeholder-green-900"
 
 placeholder_indigo_100 :: ClassName
-placeholder_indigo_100 = ClassName "sm\\:placeholder-indigo-100"
+placeholder_indigo_100 = ClassName "sm:placeholder-indigo-100"
 
 placeholder_indigo_200 :: ClassName
-placeholder_indigo_200 = ClassName "sm\\:placeholder-indigo-200"
+placeholder_indigo_200 = ClassName "sm:placeholder-indigo-200"
 
 placeholder_indigo_300 :: ClassName
-placeholder_indigo_300 = ClassName "sm\\:placeholder-indigo-300"
+placeholder_indigo_300 = ClassName "sm:placeholder-indigo-300"
 
 placeholder_indigo_400 :: ClassName
-placeholder_indigo_400 = ClassName "sm\\:placeholder-indigo-400"
+placeholder_indigo_400 = ClassName "sm:placeholder-indigo-400"
 
 placeholder_indigo_500 :: ClassName
-placeholder_indigo_500 = ClassName "sm\\:placeholder-indigo-500"
+placeholder_indigo_500 = ClassName "sm:placeholder-indigo-500"
 
 placeholder_indigo_600 :: ClassName
-placeholder_indigo_600 = ClassName "sm\\:placeholder-indigo-600"
+placeholder_indigo_600 = ClassName "sm:placeholder-indigo-600"
 
 placeholder_indigo_700 :: ClassName
-placeholder_indigo_700 = ClassName "sm\\:placeholder-indigo-700"
+placeholder_indigo_700 = ClassName "sm:placeholder-indigo-700"
 
 placeholder_indigo_800 :: ClassName
-placeholder_indigo_800 = ClassName "sm\\:placeholder-indigo-800"
+placeholder_indigo_800 = ClassName "sm:placeholder-indigo-800"
 
 placeholder_indigo_900 :: ClassName
-placeholder_indigo_900 = ClassName "sm\\:placeholder-indigo-900"
+placeholder_indigo_900 = ClassName "sm:placeholder-indigo-900"
 
 placeholder_opacity_0 :: ClassName
-placeholder_opacity_0 = ClassName "sm\\:placeholder-opacity-0"
+placeholder_opacity_0 = ClassName "sm:placeholder-opacity-0"
 
 placeholder_opacity_100 :: ClassName
-placeholder_opacity_100 = ClassName "sm\\:placeholder-opacity-100"
+placeholder_opacity_100 = ClassName "sm:placeholder-opacity-100"
 
 placeholder_opacity_25 :: ClassName
-placeholder_opacity_25 = ClassName "sm\\:placeholder-opacity-25"
+placeholder_opacity_25 = ClassName "sm:placeholder-opacity-25"
 
 placeholder_opacity_50 :: ClassName
-placeholder_opacity_50 = ClassName "sm\\:placeholder-opacity-50"
+placeholder_opacity_50 = ClassName "sm:placeholder-opacity-50"
 
 placeholder_opacity_75 :: ClassName
-placeholder_opacity_75 = ClassName "sm\\:placeholder-opacity-75"
+placeholder_opacity_75 = ClassName "sm:placeholder-opacity-75"
 
 placeholder_orange_100 :: ClassName
-placeholder_orange_100 = ClassName "sm\\:placeholder-orange-100"
+placeholder_orange_100 = ClassName "sm:placeholder-orange-100"
 
 placeholder_orange_200 :: ClassName
-placeholder_orange_200 = ClassName "sm\\:placeholder-orange-200"
+placeholder_orange_200 = ClassName "sm:placeholder-orange-200"
 
 placeholder_orange_300 :: ClassName
-placeholder_orange_300 = ClassName "sm\\:placeholder-orange-300"
+placeholder_orange_300 = ClassName "sm:placeholder-orange-300"
 
 placeholder_orange_400 :: ClassName
-placeholder_orange_400 = ClassName "sm\\:placeholder-orange-400"
+placeholder_orange_400 = ClassName "sm:placeholder-orange-400"
 
 placeholder_orange_500 :: ClassName
-placeholder_orange_500 = ClassName "sm\\:placeholder-orange-500"
+placeholder_orange_500 = ClassName "sm:placeholder-orange-500"
 
 placeholder_orange_600 :: ClassName
-placeholder_orange_600 = ClassName "sm\\:placeholder-orange-600"
+placeholder_orange_600 = ClassName "sm:placeholder-orange-600"
 
 placeholder_orange_700 :: ClassName
-placeholder_orange_700 = ClassName "sm\\:placeholder-orange-700"
+placeholder_orange_700 = ClassName "sm:placeholder-orange-700"
 
 placeholder_orange_800 :: ClassName
-placeholder_orange_800 = ClassName "sm\\:placeholder-orange-800"
+placeholder_orange_800 = ClassName "sm:placeholder-orange-800"
 
 placeholder_orange_900 :: ClassName
-placeholder_orange_900 = ClassName "sm\\:placeholder-orange-900"
+placeholder_orange_900 = ClassName "sm:placeholder-orange-900"
 
 placeholder_pink_100 :: ClassName
-placeholder_pink_100 = ClassName "sm\\:placeholder-pink-100"
+placeholder_pink_100 = ClassName "sm:placeholder-pink-100"
 
 placeholder_pink_200 :: ClassName
-placeholder_pink_200 = ClassName "sm\\:placeholder-pink-200"
+placeholder_pink_200 = ClassName "sm:placeholder-pink-200"
 
 placeholder_pink_300 :: ClassName
-placeholder_pink_300 = ClassName "sm\\:placeholder-pink-300"
+placeholder_pink_300 = ClassName "sm:placeholder-pink-300"
 
 placeholder_pink_400 :: ClassName
-placeholder_pink_400 = ClassName "sm\\:placeholder-pink-400"
+placeholder_pink_400 = ClassName "sm:placeholder-pink-400"
 
 placeholder_pink_500 :: ClassName
-placeholder_pink_500 = ClassName "sm\\:placeholder-pink-500"
+placeholder_pink_500 = ClassName "sm:placeholder-pink-500"
 
 placeholder_pink_600 :: ClassName
-placeholder_pink_600 = ClassName "sm\\:placeholder-pink-600"
+placeholder_pink_600 = ClassName "sm:placeholder-pink-600"
 
 placeholder_pink_700 :: ClassName
-placeholder_pink_700 = ClassName "sm\\:placeholder-pink-700"
+placeholder_pink_700 = ClassName "sm:placeholder-pink-700"
 
 placeholder_pink_800 :: ClassName
-placeholder_pink_800 = ClassName "sm\\:placeholder-pink-800"
+placeholder_pink_800 = ClassName "sm:placeholder-pink-800"
 
 placeholder_pink_900 :: ClassName
-placeholder_pink_900 = ClassName "sm\\:placeholder-pink-900"
+placeholder_pink_900 = ClassName "sm:placeholder-pink-900"
 
 placeholder_purple_100 :: ClassName
-placeholder_purple_100 = ClassName "sm\\:placeholder-purple-100"
+placeholder_purple_100 = ClassName "sm:placeholder-purple-100"
 
 placeholder_purple_200 :: ClassName
-placeholder_purple_200 = ClassName "sm\\:placeholder-purple-200"
+placeholder_purple_200 = ClassName "sm:placeholder-purple-200"
 
 placeholder_purple_300 :: ClassName
-placeholder_purple_300 = ClassName "sm\\:placeholder-purple-300"
+placeholder_purple_300 = ClassName "sm:placeholder-purple-300"
 
 placeholder_purple_400 :: ClassName
-placeholder_purple_400 = ClassName "sm\\:placeholder-purple-400"
+placeholder_purple_400 = ClassName "sm:placeholder-purple-400"
 
 placeholder_purple_500 :: ClassName
-placeholder_purple_500 = ClassName "sm\\:placeholder-purple-500"
+placeholder_purple_500 = ClassName "sm:placeholder-purple-500"
 
 placeholder_purple_600 :: ClassName
-placeholder_purple_600 = ClassName "sm\\:placeholder-purple-600"
+placeholder_purple_600 = ClassName "sm:placeholder-purple-600"
 
 placeholder_purple_700 :: ClassName
-placeholder_purple_700 = ClassName "sm\\:placeholder-purple-700"
+placeholder_purple_700 = ClassName "sm:placeholder-purple-700"
 
 placeholder_purple_800 :: ClassName
-placeholder_purple_800 = ClassName "sm\\:placeholder-purple-800"
+placeholder_purple_800 = ClassName "sm:placeholder-purple-800"
 
 placeholder_purple_900 :: ClassName
-placeholder_purple_900 = ClassName "sm\\:placeholder-purple-900"
+placeholder_purple_900 = ClassName "sm:placeholder-purple-900"
 
 placeholder_red_100 :: ClassName
-placeholder_red_100 = ClassName "sm\\:placeholder-red-100"
+placeholder_red_100 = ClassName "sm:placeholder-red-100"
 
 placeholder_red_200 :: ClassName
-placeholder_red_200 = ClassName "sm\\:placeholder-red-200"
+placeholder_red_200 = ClassName "sm:placeholder-red-200"
 
 placeholder_red_300 :: ClassName
-placeholder_red_300 = ClassName "sm\\:placeholder-red-300"
+placeholder_red_300 = ClassName "sm:placeholder-red-300"
 
 placeholder_red_400 :: ClassName
-placeholder_red_400 = ClassName "sm\\:placeholder-red-400"
+placeholder_red_400 = ClassName "sm:placeholder-red-400"
 
 placeholder_red_500 :: ClassName
-placeholder_red_500 = ClassName "sm\\:placeholder-red-500"
+placeholder_red_500 = ClassName "sm:placeholder-red-500"
 
 placeholder_red_600 :: ClassName
-placeholder_red_600 = ClassName "sm\\:placeholder-red-600"
+placeholder_red_600 = ClassName "sm:placeholder-red-600"
 
 placeholder_red_700 :: ClassName
-placeholder_red_700 = ClassName "sm\\:placeholder-red-700"
+placeholder_red_700 = ClassName "sm:placeholder-red-700"
 
 placeholder_red_800 :: ClassName
-placeholder_red_800 = ClassName "sm\\:placeholder-red-800"
+placeholder_red_800 = ClassName "sm:placeholder-red-800"
 
 placeholder_red_900 :: ClassName
-placeholder_red_900 = ClassName "sm\\:placeholder-red-900"
+placeholder_red_900 = ClassName "sm:placeholder-red-900"
 
 placeholder_steel_100 :: ClassName
-placeholder_steel_100 = ClassName "sm\\:placeholder-steel-100"
+placeholder_steel_100 = ClassName "sm:placeholder-steel-100"
 
 placeholder_steel_75 :: ClassName
-placeholder_steel_75 = ClassName "sm\\:placeholder-steel-75"
+placeholder_steel_75 = ClassName "sm:placeholder-steel-75"
 
 placeholder_steel_85 :: ClassName
-placeholder_steel_85 = ClassName "sm\\:placeholder-steel-85"
+placeholder_steel_85 = ClassName "sm:placeholder-steel-85"
 
 placeholder_teal_100 :: ClassName
-placeholder_teal_100 = ClassName "sm\\:placeholder-teal-100"
+placeholder_teal_100 = ClassName "sm:placeholder-teal-100"
 
 placeholder_teal_200 :: ClassName
-placeholder_teal_200 = ClassName "sm\\:placeholder-teal-200"
+placeholder_teal_200 = ClassName "sm:placeholder-teal-200"
 
 placeholder_teal_300 :: ClassName
-placeholder_teal_300 = ClassName "sm\\:placeholder-teal-300"
+placeholder_teal_300 = ClassName "sm:placeholder-teal-300"
 
 placeholder_teal_400 :: ClassName
-placeholder_teal_400 = ClassName "sm\\:placeholder-teal-400"
+placeholder_teal_400 = ClassName "sm:placeholder-teal-400"
 
 placeholder_teal_500 :: ClassName
-placeholder_teal_500 = ClassName "sm\\:placeholder-teal-500"
+placeholder_teal_500 = ClassName "sm:placeholder-teal-500"
 
 placeholder_teal_600 :: ClassName
-placeholder_teal_600 = ClassName "sm\\:placeholder-teal-600"
+placeholder_teal_600 = ClassName "sm:placeholder-teal-600"
 
 placeholder_teal_700 :: ClassName
-placeholder_teal_700 = ClassName "sm\\:placeholder-teal-700"
+placeholder_teal_700 = ClassName "sm:placeholder-teal-700"
 
 placeholder_teal_800 :: ClassName
-placeholder_teal_800 = ClassName "sm\\:placeholder-teal-800"
+placeholder_teal_800 = ClassName "sm:placeholder-teal-800"
 
 placeholder_teal_900 :: ClassName
-placeholder_teal_900 = ClassName "sm\\:placeholder-teal-900"
+placeholder_teal_900 = ClassName "sm:placeholder-teal-900"
 
 placeholder_transparent :: ClassName
-placeholder_transparent = ClassName "sm\\:placeholder-transparent"
+placeholder_transparent = ClassName "sm:placeholder-transparent"
 
 placeholder_white :: ClassName
-placeholder_white = ClassName "sm\\:placeholder-white"
+placeholder_white = ClassName "sm:placeholder-white"
 
 placeholder_yellow_100 :: ClassName
-placeholder_yellow_100 = ClassName "sm\\:placeholder-yellow-100"
+placeholder_yellow_100 = ClassName "sm:placeholder-yellow-100"
 
 placeholder_yellow_200 :: ClassName
-placeholder_yellow_200 = ClassName "sm\\:placeholder-yellow-200"
+placeholder_yellow_200 = ClassName "sm:placeholder-yellow-200"
 
 placeholder_yellow_300 :: ClassName
-placeholder_yellow_300 = ClassName "sm\\:placeholder-yellow-300"
+placeholder_yellow_300 = ClassName "sm:placeholder-yellow-300"
 
 placeholder_yellow_400 :: ClassName
-placeholder_yellow_400 = ClassName "sm\\:placeholder-yellow-400"
+placeholder_yellow_400 = ClassName "sm:placeholder-yellow-400"
 
 placeholder_yellow_500 :: ClassName
-placeholder_yellow_500 = ClassName "sm\\:placeholder-yellow-500"
+placeholder_yellow_500 = ClassName "sm:placeholder-yellow-500"
 
 placeholder_yellow_600 :: ClassName
-placeholder_yellow_600 = ClassName "sm\\:placeholder-yellow-600"
+placeholder_yellow_600 = ClassName "sm:placeholder-yellow-600"
 
 placeholder_yellow_700 :: ClassName
-placeholder_yellow_700 = ClassName "sm\\:placeholder-yellow-700"
+placeholder_yellow_700 = ClassName "sm:placeholder-yellow-700"
 
 placeholder_yellow_800 :: ClassName
-placeholder_yellow_800 = ClassName "sm\\:placeholder-yellow-800"
+placeholder_yellow_800 = ClassName "sm:placeholder-yellow-800"
 
 placeholder_yellow_900 :: ClassName
-placeholder_yellow_900 = ClassName "sm\\:placeholder-yellow-900"
+placeholder_yellow_900 = ClassName "sm:placeholder-yellow-900"
 
 pointer_events_auto :: ClassName
-pointer_events_auto = ClassName "sm\\:pointer-events-auto"
+pointer_events_auto = ClassName "sm:pointer-events-auto"
 
 pointer_events_none :: ClassName
-pointer_events_none = ClassName "sm\\:pointer-events-none"
+pointer_events_none = ClassName "sm:pointer-events-none"
 
 pr_0 :: ClassName
-pr_0 = ClassName "sm\\:pr-0"
+pr_0 = ClassName "sm:pr-0"
 
 pr_1 :: ClassName
-pr_1 = ClassName "sm\\:pr-1"
+pr_1 = ClassName "sm:pr-1"
 
 pr_10 :: ClassName
-pr_10 = ClassName "sm\\:pr-10"
+pr_10 = ClassName "sm:pr-10"
 
 pr_12 :: ClassName
-pr_12 = ClassName "sm\\:pr-12"
+pr_12 = ClassName "sm:pr-12"
 
 pr_120 :: ClassName
-pr_120 = ClassName "sm\\:pr-120"
+pr_120 = ClassName "sm:pr-120"
 
 pr_14 :: ClassName
-pr_14 = ClassName "sm\\:pr-14"
+pr_14 = ClassName "sm:pr-14"
 
 pr_16 :: ClassName
-pr_16 = ClassName "sm\\:pr-16"
+pr_16 = ClassName "sm:pr-16"
 
 pr_160 :: ClassName
-pr_160 = ClassName "sm\\:pr-160"
+pr_160 = ClassName "sm:pr-160"
 
 pr_2 :: ClassName
-pr_2 = ClassName "sm\\:pr-2"
+pr_2 = ClassName "sm:pr-2"
 
 pr_20 :: ClassName
-pr_20 = ClassName "sm\\:pr-20"
+pr_20 = ClassName "sm:pr-20"
 
 pr_24 :: ClassName
-pr_24 = ClassName "sm\\:pr-24"
+pr_24 = ClassName "sm:pr-24"
 
 pr_3 :: ClassName
-pr_3 = ClassName "sm\\:pr-3"
+pr_3 = ClassName "sm:pr-3"
 
 pr_30 :: ClassName
-pr_30 = ClassName "sm\\:pr-30"
+pr_30 = ClassName "sm:pr-30"
 
 pr_32 :: ClassName
-pr_32 = ClassName "sm\\:pr-32"
+pr_32 = ClassName "sm:pr-32"
 
 pr_4 :: ClassName
-pr_4 = ClassName "sm\\:pr-4"
+pr_4 = ClassName "sm:pr-4"
 
 pr_40 :: ClassName
-pr_40 = ClassName "sm\\:pr-40"
+pr_40 = ClassName "sm:pr-40"
 
 pr_48 :: ClassName
-pr_48 = ClassName "sm\\:pr-48"
+pr_48 = ClassName "sm:pr-48"
 
 pr_5 :: ClassName
-pr_5 = ClassName "sm\\:pr-5"
+pr_5 = ClassName "sm:pr-5"
 
 pr_50 :: ClassName
-pr_50 = ClassName "sm\\:pr-50"
+pr_50 = ClassName "sm:pr-50"
 
 pr_56 :: ClassName
-pr_56 = ClassName "sm\\:pr-56"
+pr_56 = ClassName "sm:pr-56"
 
 pr_6 :: ClassName
-pr_6 = ClassName "sm\\:pr-6"
+pr_6 = ClassName "sm:pr-6"
 
 pr_60 :: ClassName
-pr_60 = ClassName "sm\\:pr-60"
+pr_60 = ClassName "sm:pr-60"
 
 pr_64 :: ClassName
-pr_64 = ClassName "sm\\:pr-64"
+pr_64 = ClassName "sm:pr-64"
 
 pr_7 :: ClassName
-pr_7 = ClassName "sm\\:pr-7"
+pr_7 = ClassName "sm:pr-7"
 
 pr_8 :: ClassName
-pr_8 = ClassName "sm\\:pr-8"
+pr_8 = ClassName "sm:pr-8"
 
 pr_80 :: ClassName
-pr_80 = ClassName "sm\\:pr-80"
+pr_80 = ClassName "sm:pr-80"
 
 pr_9 :: ClassName
-pr_9 = ClassName "sm\\:pr-9"
+pr_9 = ClassName "sm:pr-9"
 
 pr_90 :: ClassName
-pr_90 = ClassName "sm\\:pr-90"
+pr_90 = ClassName "sm:pr-90"
 
 pr_px :: ClassName
-pr_px = ClassName "sm\\:pr-px"
+pr_px = ClassName "sm:pr-px"
 
 pt_0 :: ClassName
-pt_0 = ClassName "sm\\:pt-0"
+pt_0 = ClassName "sm:pt-0"
 
 pt_1 :: ClassName
-pt_1 = ClassName "sm\\:pt-1"
+pt_1 = ClassName "sm:pt-1"
 
 pt_10 :: ClassName
-pt_10 = ClassName "sm\\:pt-10"
+pt_10 = ClassName "sm:pt-10"
 
 pt_12 :: ClassName
-pt_12 = ClassName "sm\\:pt-12"
+pt_12 = ClassName "sm:pt-12"
 
 pt_120 :: ClassName
-pt_120 = ClassName "sm\\:pt-120"
+pt_120 = ClassName "sm:pt-120"
 
 pt_14 :: ClassName
-pt_14 = ClassName "sm\\:pt-14"
+pt_14 = ClassName "sm:pt-14"
 
 pt_16 :: ClassName
-pt_16 = ClassName "sm\\:pt-16"
+pt_16 = ClassName "sm:pt-16"
 
 pt_160 :: ClassName
-pt_160 = ClassName "sm\\:pt-160"
+pt_160 = ClassName "sm:pt-160"
 
 pt_2 :: ClassName
-pt_2 = ClassName "sm\\:pt-2"
+pt_2 = ClassName "sm:pt-2"
 
 pt_20 :: ClassName
-pt_20 = ClassName "sm\\:pt-20"
+pt_20 = ClassName "sm:pt-20"
 
 pt_24 :: ClassName
-pt_24 = ClassName "sm\\:pt-24"
+pt_24 = ClassName "sm:pt-24"
 
 pt_3 :: ClassName
-pt_3 = ClassName "sm\\:pt-3"
+pt_3 = ClassName "sm:pt-3"
 
 pt_30 :: ClassName
-pt_30 = ClassName "sm\\:pt-30"
+pt_30 = ClassName "sm:pt-30"
 
 pt_32 :: ClassName
-pt_32 = ClassName "sm\\:pt-32"
+pt_32 = ClassName "sm:pt-32"
 
 pt_4 :: ClassName
-pt_4 = ClassName "sm\\:pt-4"
+pt_4 = ClassName "sm:pt-4"
 
 pt_40 :: ClassName
-pt_40 = ClassName "sm\\:pt-40"
+pt_40 = ClassName "sm:pt-40"
 
 pt_48 :: ClassName
-pt_48 = ClassName "sm\\:pt-48"
+pt_48 = ClassName "sm:pt-48"
 
 pt_5 :: ClassName
-pt_5 = ClassName "sm\\:pt-5"
+pt_5 = ClassName "sm:pt-5"
 
 pt_50 :: ClassName
-pt_50 = ClassName "sm\\:pt-50"
+pt_50 = ClassName "sm:pt-50"
 
 pt_56 :: ClassName
-pt_56 = ClassName "sm\\:pt-56"
+pt_56 = ClassName "sm:pt-56"
 
 pt_6 :: ClassName
-pt_6 = ClassName "sm\\:pt-6"
+pt_6 = ClassName "sm:pt-6"
 
 pt_60 :: ClassName
-pt_60 = ClassName "sm\\:pt-60"
+pt_60 = ClassName "sm:pt-60"
 
 pt_64 :: ClassName
-pt_64 = ClassName "sm\\:pt-64"
+pt_64 = ClassName "sm:pt-64"
 
 pt_7 :: ClassName
-pt_7 = ClassName "sm\\:pt-7"
+pt_7 = ClassName "sm:pt-7"
 
 pt_8 :: ClassName
-pt_8 = ClassName "sm\\:pt-8"
+pt_8 = ClassName "sm:pt-8"
 
 pt_80 :: ClassName
-pt_80 = ClassName "sm\\:pt-80"
+pt_80 = ClassName "sm:pt-80"
 
 pt_9 :: ClassName
-pt_9 = ClassName "sm\\:pt-9"
+pt_9 = ClassName "sm:pt-9"
 
 pt_90 :: ClassName
-pt_90 = ClassName "sm\\:pt-90"
+pt_90 = ClassName "sm:pt-90"
 
 pt_px :: ClassName
-pt_px = ClassName "sm\\:pt-px"
+pt_px = ClassName "sm:pt-px"
 
 px_0 :: ClassName
-px_0 = ClassName "sm\\:px-0"
+px_0 = ClassName "sm:px-0"
 
 px_1 :: ClassName
-px_1 = ClassName "sm\\:px-1"
+px_1 = ClassName "sm:px-1"
 
 px_10 :: ClassName
-px_10 = ClassName "sm\\:px-10"
+px_10 = ClassName "sm:px-10"
 
 px_12 :: ClassName
-px_12 = ClassName "sm\\:px-12"
+px_12 = ClassName "sm:px-12"
 
 px_120 :: ClassName
-px_120 = ClassName "sm\\:px-120"
+px_120 = ClassName "sm:px-120"
 
 px_14 :: ClassName
-px_14 = ClassName "sm\\:px-14"
+px_14 = ClassName "sm:px-14"
 
 px_16 :: ClassName
-px_16 = ClassName "sm\\:px-16"
+px_16 = ClassName "sm:px-16"
 
 px_160 :: ClassName
-px_160 = ClassName "sm\\:px-160"
+px_160 = ClassName "sm:px-160"
 
 px_2 :: ClassName
-px_2 = ClassName "sm\\:px-2"
+px_2 = ClassName "sm:px-2"
 
 px_20 :: ClassName
-px_20 = ClassName "sm\\:px-20"
+px_20 = ClassName "sm:px-20"
 
 px_24 :: ClassName
-px_24 = ClassName "sm\\:px-24"
+px_24 = ClassName "sm:px-24"
 
 px_3 :: ClassName
-px_3 = ClassName "sm\\:px-3"
+px_3 = ClassName "sm:px-3"
 
 px_30 :: ClassName
-px_30 = ClassName "sm\\:px-30"
+px_30 = ClassName "sm:px-30"
 
 px_32 :: ClassName
-px_32 = ClassName "sm\\:px-32"
+px_32 = ClassName "sm:px-32"
 
 px_4 :: ClassName
-px_4 = ClassName "sm\\:px-4"
+px_4 = ClassName "sm:px-4"
 
 px_40 :: ClassName
-px_40 = ClassName "sm\\:px-40"
+px_40 = ClassName "sm:px-40"
 
 px_48 :: ClassName
-px_48 = ClassName "sm\\:px-48"
+px_48 = ClassName "sm:px-48"
 
 px_5 :: ClassName
-px_5 = ClassName "sm\\:px-5"
+px_5 = ClassName "sm:px-5"
 
 px_50 :: ClassName
-px_50 = ClassName "sm\\:px-50"
+px_50 = ClassName "sm:px-50"
 
 px_56 :: ClassName
-px_56 = ClassName "sm\\:px-56"
+px_56 = ClassName "sm:px-56"
 
 px_6 :: ClassName
-px_6 = ClassName "sm\\:px-6"
+px_6 = ClassName "sm:px-6"
 
 px_60 :: ClassName
-px_60 = ClassName "sm\\:px-60"
+px_60 = ClassName "sm:px-60"
 
 px_64 :: ClassName
-px_64 = ClassName "sm\\:px-64"
+px_64 = ClassName "sm:px-64"
 
 px_7 :: ClassName
-px_7 = ClassName "sm\\:px-7"
+px_7 = ClassName "sm:px-7"
 
 px_8 :: ClassName
-px_8 = ClassName "sm\\:px-8"
+px_8 = ClassName "sm:px-8"
 
 px_80 :: ClassName
-px_80 = ClassName "sm\\:px-80"
+px_80 = ClassName "sm:px-80"
 
 px_9 :: ClassName
-px_9 = ClassName "sm\\:px-9"
+px_9 = ClassName "sm:px-9"
 
 px_90 :: ClassName
-px_90 = ClassName "sm\\:px-90"
+px_90 = ClassName "sm:px-90"
 
 px_px :: ClassName
-px_px = ClassName "sm\\:px-px"
+px_px = ClassName "sm:px-px"
 
 py_0 :: ClassName
-py_0 = ClassName "sm\\:py-0"
+py_0 = ClassName "sm:py-0"
 
 py_1 :: ClassName
-py_1 = ClassName "sm\\:py-1"
+py_1 = ClassName "sm:py-1"
 
 py_10 :: ClassName
-py_10 = ClassName "sm\\:py-10"
+py_10 = ClassName "sm:py-10"
 
 py_12 :: ClassName
-py_12 = ClassName "sm\\:py-12"
+py_12 = ClassName "sm:py-12"
 
 py_120 :: ClassName
-py_120 = ClassName "sm\\:py-120"
+py_120 = ClassName "sm:py-120"
 
 py_14 :: ClassName
-py_14 = ClassName "sm\\:py-14"
+py_14 = ClassName "sm:py-14"
 
 py_16 :: ClassName
-py_16 = ClassName "sm\\:py-16"
+py_16 = ClassName "sm:py-16"
 
 py_160 :: ClassName
-py_160 = ClassName "sm\\:py-160"
+py_160 = ClassName "sm:py-160"
 
 py_2 :: ClassName
-py_2 = ClassName "sm\\:py-2"
+py_2 = ClassName "sm:py-2"
 
 py_20 :: ClassName
-py_20 = ClassName "sm\\:py-20"
+py_20 = ClassName "sm:py-20"
 
 py_24 :: ClassName
-py_24 = ClassName "sm\\:py-24"
+py_24 = ClassName "sm:py-24"
 
 py_3 :: ClassName
-py_3 = ClassName "sm\\:py-3"
+py_3 = ClassName "sm:py-3"
 
 py_30 :: ClassName
-py_30 = ClassName "sm\\:py-30"
+py_30 = ClassName "sm:py-30"
 
 py_32 :: ClassName
-py_32 = ClassName "sm\\:py-32"
+py_32 = ClassName "sm:py-32"
 
 py_4 :: ClassName
-py_4 = ClassName "sm\\:py-4"
+py_4 = ClassName "sm:py-4"
 
 py_40 :: ClassName
-py_40 = ClassName "sm\\:py-40"
+py_40 = ClassName "sm:py-40"
 
 py_48 :: ClassName
-py_48 = ClassName "sm\\:py-48"
+py_48 = ClassName "sm:py-48"
 
 py_5 :: ClassName
-py_5 = ClassName "sm\\:py-5"
+py_5 = ClassName "sm:py-5"
 
 py_50 :: ClassName
-py_50 = ClassName "sm\\:py-50"
+py_50 = ClassName "sm:py-50"
 
 py_56 :: ClassName
-py_56 = ClassName "sm\\:py-56"
+py_56 = ClassName "sm:py-56"
 
 py_6 :: ClassName
-py_6 = ClassName "sm\\:py-6"
+py_6 = ClassName "sm:py-6"
 
 py_60 :: ClassName
-py_60 = ClassName "sm\\:py-60"
+py_60 = ClassName "sm:py-60"
 
 py_64 :: ClassName
-py_64 = ClassName "sm\\:py-64"
+py_64 = ClassName "sm:py-64"
 
 py_7 :: ClassName
-py_7 = ClassName "sm\\:py-7"
+py_7 = ClassName "sm:py-7"
 
 py_8 :: ClassName
-py_8 = ClassName "sm\\:py-8"
+py_8 = ClassName "sm:py-8"
 
 py_80 :: ClassName
-py_80 = ClassName "sm\\:py-80"
+py_80 = ClassName "sm:py-80"
 
 py_9 :: ClassName
-py_9 = ClassName "sm\\:py-9"
+py_9 = ClassName "sm:py-9"
 
 py_90 :: ClassName
-py_90 = ClassName "sm\\:py-90"
+py_90 = ClassName "sm:py-90"
 
 py_px :: ClassName
-py_px = ClassName "sm\\:py-px"
+py_px = ClassName "sm:py-px"
 
 relative :: ClassName
-relative = ClassName "sm\\:relative"
+relative = ClassName "sm:relative"
 
 resize :: ClassName
-resize = ClassName "sm\\:resize"
+resize = ClassName "sm:resize"
 
 resize_none :: ClassName
-resize_none = ClassName "sm\\:resize-none"
+resize_none = ClassName "sm:resize-none"
 
 resize_x :: ClassName
-resize_x = ClassName "sm\\:resize-x"
+resize_x = ClassName "sm:resize-x"
 
 resize_y :: ClassName
-resize_y = ClassName "sm\\:resize-y"
+resize_y = ClassName "sm:resize-y"
 
 right_0 :: ClassName
-right_0 = ClassName "sm\\:right-0"
+right_0 = ClassName "sm:right-0"
 
 right_auto :: ClassName
-right_auto = ClassName "sm\\:right-auto"
+right_auto = ClassName "sm:right-auto"
 
 rotate_0 :: ClassName
-rotate_0 = ClassName "sm\\:rotate-0"
+rotate_0 = ClassName "sm:rotate-0"
 
 rotate_180 :: ClassName
-rotate_180 = ClassName "sm\\:rotate-180"
+rotate_180 = ClassName "sm:rotate-180"
 
 rotate_45 :: ClassName
-rotate_45 = ClassName "sm\\:rotate-45"
+rotate_45 = ClassName "sm:rotate-45"
 
 rotate_90 :: ClassName
-rotate_90 = ClassName "sm\\:rotate-90"
+rotate_90 = ClassName "sm:rotate-90"
 
 rounded :: ClassName
-rounded = ClassName "sm\\:rounded"
+rounded = ClassName "sm:rounded"
 
 rounded_b :: ClassName
-rounded_b = ClassName "sm\\:rounded-b"
+rounded_b = ClassName "sm:rounded-b"
 
 rounded_b_full :: ClassName
-rounded_b_full = ClassName "sm\\:rounded-b-full"
+rounded_b_full = ClassName "sm:rounded-b-full"
 
 rounded_b_lg :: ClassName
-rounded_b_lg = ClassName "sm\\:rounded-b-lg"
+rounded_b_lg = ClassName "sm:rounded-b-lg"
 
 rounded_b_md :: ClassName
-rounded_b_md = ClassName "sm\\:rounded-b-md"
+rounded_b_md = ClassName "sm:rounded-b-md"
 
 rounded_b_none :: ClassName
-rounded_b_none = ClassName "sm\\:rounded-b-none"
+rounded_b_none = ClassName "sm:rounded-b-none"
 
 rounded_b_sm :: ClassName
-rounded_b_sm = ClassName "sm\\:rounded-b-sm"
+rounded_b_sm = ClassName "sm:rounded-b-sm"
 
 rounded_bl :: ClassName
-rounded_bl = ClassName "sm\\:rounded-bl"
+rounded_bl = ClassName "sm:rounded-bl"
 
 rounded_bl_full :: ClassName
-rounded_bl_full = ClassName "sm\\:rounded-bl-full"
+rounded_bl_full = ClassName "sm:rounded-bl-full"
 
 rounded_bl_lg :: ClassName
-rounded_bl_lg = ClassName "sm\\:rounded-bl-lg"
+rounded_bl_lg = ClassName "sm:rounded-bl-lg"
 
 rounded_bl_md :: ClassName
-rounded_bl_md = ClassName "sm\\:rounded-bl-md"
+rounded_bl_md = ClassName "sm:rounded-bl-md"
 
 rounded_bl_none :: ClassName
-rounded_bl_none = ClassName "sm\\:rounded-bl-none"
+rounded_bl_none = ClassName "sm:rounded-bl-none"
 
 rounded_bl_sm :: ClassName
-rounded_bl_sm = ClassName "sm\\:rounded-bl-sm"
+rounded_bl_sm = ClassName "sm:rounded-bl-sm"
 
 rounded_br :: ClassName
-rounded_br = ClassName "sm\\:rounded-br"
+rounded_br = ClassName "sm:rounded-br"
 
 rounded_br_full :: ClassName
-rounded_br_full = ClassName "sm\\:rounded-br-full"
+rounded_br_full = ClassName "sm:rounded-br-full"
 
 rounded_br_lg :: ClassName
-rounded_br_lg = ClassName "sm\\:rounded-br-lg"
+rounded_br_lg = ClassName "sm:rounded-br-lg"
 
 rounded_br_md :: ClassName
-rounded_br_md = ClassName "sm\\:rounded-br-md"
+rounded_br_md = ClassName "sm:rounded-br-md"
 
 rounded_br_none :: ClassName
-rounded_br_none = ClassName "sm\\:rounded-br-none"
+rounded_br_none = ClassName "sm:rounded-br-none"
 
 rounded_br_sm :: ClassName
-rounded_br_sm = ClassName "sm\\:rounded-br-sm"
+rounded_br_sm = ClassName "sm:rounded-br-sm"
 
 rounded_full :: ClassName
-rounded_full = ClassName "sm\\:rounded-full"
+rounded_full = ClassName "sm:rounded-full"
 
 rounded_l :: ClassName
-rounded_l = ClassName "sm\\:rounded-l"
+rounded_l = ClassName "sm:rounded-l"
 
 rounded_l_full :: ClassName
-rounded_l_full = ClassName "sm\\:rounded-l-full"
+rounded_l_full = ClassName "sm:rounded-l-full"
 
 rounded_l_lg :: ClassName
-rounded_l_lg = ClassName "sm\\:rounded-l-lg"
+rounded_l_lg = ClassName "sm:rounded-l-lg"
 
 rounded_l_md :: ClassName
-rounded_l_md = ClassName "sm\\:rounded-l-md"
+rounded_l_md = ClassName "sm:rounded-l-md"
 
 rounded_l_none :: ClassName
-rounded_l_none = ClassName "sm\\:rounded-l-none"
+rounded_l_none = ClassName "sm:rounded-l-none"
 
 rounded_l_sm :: ClassName
-rounded_l_sm = ClassName "sm\\:rounded-l-sm"
+rounded_l_sm = ClassName "sm:rounded-l-sm"
 
 rounded_lg :: ClassName
-rounded_lg = ClassName "sm\\:rounded-lg"
+rounded_lg = ClassName "sm:rounded-lg"
 
 rounded_md :: ClassName
-rounded_md = ClassName "sm\\:rounded-md"
+rounded_md = ClassName "sm:rounded-md"
 
 rounded_none :: ClassName
-rounded_none = ClassName "sm\\:rounded-none"
+rounded_none = ClassName "sm:rounded-none"
 
 rounded_r :: ClassName
-rounded_r = ClassName "sm\\:rounded-r"
+rounded_r = ClassName "sm:rounded-r"
 
 rounded_r_full :: ClassName
-rounded_r_full = ClassName "sm\\:rounded-r-full"
+rounded_r_full = ClassName "sm:rounded-r-full"
 
 rounded_r_lg :: ClassName
-rounded_r_lg = ClassName "sm\\:rounded-r-lg"
+rounded_r_lg = ClassName "sm:rounded-r-lg"
 
 rounded_r_md :: ClassName
-rounded_r_md = ClassName "sm\\:rounded-r-md"
+rounded_r_md = ClassName "sm:rounded-r-md"
 
 rounded_r_none :: ClassName
-rounded_r_none = ClassName "sm\\:rounded-r-none"
+rounded_r_none = ClassName "sm:rounded-r-none"
 
 rounded_r_sm :: ClassName
-rounded_r_sm = ClassName "sm\\:rounded-r-sm"
+rounded_r_sm = ClassName "sm:rounded-r-sm"
 
 rounded_sm :: ClassName
-rounded_sm = ClassName "sm\\:rounded-sm"
+rounded_sm = ClassName "sm:rounded-sm"
 
 rounded_t :: ClassName
-rounded_t = ClassName "sm\\:rounded-t"
+rounded_t = ClassName "sm:rounded-t"
 
 rounded_t_full :: ClassName
-rounded_t_full = ClassName "sm\\:rounded-t-full"
+rounded_t_full = ClassName "sm:rounded-t-full"
 
 rounded_t_lg :: ClassName
-rounded_t_lg = ClassName "sm\\:rounded-t-lg"
+rounded_t_lg = ClassName "sm:rounded-t-lg"
 
 rounded_t_md :: ClassName
-rounded_t_md = ClassName "sm\\:rounded-t-md"
+rounded_t_md = ClassName "sm:rounded-t-md"
 
 rounded_t_none :: ClassName
-rounded_t_none = ClassName "sm\\:rounded-t-none"
+rounded_t_none = ClassName "sm:rounded-t-none"
 
 rounded_t_sm :: ClassName
-rounded_t_sm = ClassName "sm\\:rounded-t-sm"
+rounded_t_sm = ClassName "sm:rounded-t-sm"
 
 rounded_tl :: ClassName
-rounded_tl = ClassName "sm\\:rounded-tl"
+rounded_tl = ClassName "sm:rounded-tl"
 
 rounded_tl_full :: ClassName
-rounded_tl_full = ClassName "sm\\:rounded-tl-full"
+rounded_tl_full = ClassName "sm:rounded-tl-full"
 
 rounded_tl_lg :: ClassName
-rounded_tl_lg = ClassName "sm\\:rounded-tl-lg"
+rounded_tl_lg = ClassName "sm:rounded-tl-lg"
 
 rounded_tl_md :: ClassName
-rounded_tl_md = ClassName "sm\\:rounded-tl-md"
+rounded_tl_md = ClassName "sm:rounded-tl-md"
 
 rounded_tl_none :: ClassName
-rounded_tl_none = ClassName "sm\\:rounded-tl-none"
+rounded_tl_none = ClassName "sm:rounded-tl-none"
 
 rounded_tl_sm :: ClassName
-rounded_tl_sm = ClassName "sm\\:rounded-tl-sm"
+rounded_tl_sm = ClassName "sm:rounded-tl-sm"
 
 rounded_tr :: ClassName
-rounded_tr = ClassName "sm\\:rounded-tr"
+rounded_tr = ClassName "sm:rounded-tr"
 
 rounded_tr_full :: ClassName
-rounded_tr_full = ClassName "sm\\:rounded-tr-full"
+rounded_tr_full = ClassName "sm:rounded-tr-full"
 
 rounded_tr_lg :: ClassName
-rounded_tr_lg = ClassName "sm\\:rounded-tr-lg"
+rounded_tr_lg = ClassName "sm:rounded-tr-lg"
 
 rounded_tr_md :: ClassName
-rounded_tr_md = ClassName "sm\\:rounded-tr-md"
+rounded_tr_md = ClassName "sm:rounded-tr-md"
 
 rounded_tr_none :: ClassName
-rounded_tr_none = ClassName "sm\\:rounded-tr-none"
+rounded_tr_none = ClassName "sm:rounded-tr-none"
 
 rounded_tr_sm :: ClassName
-rounded_tr_sm = ClassName "sm\\:rounded-tr-sm"
+rounded_tr_sm = ClassName "sm:rounded-tr-sm"
 
 row_auto :: ClassName
-row_auto = ClassName "sm\\:row-auto"
+row_auto = ClassName "sm:row-auto"
 
 row_end_1 :: ClassName
-row_end_1 = ClassName "sm\\:row-end-1"
+row_end_1 = ClassName "sm:row-end-1"
 
 row_end_2 :: ClassName
-row_end_2 = ClassName "sm\\:row-end-2"
+row_end_2 = ClassName "sm:row-end-2"
 
 row_end_3 :: ClassName
-row_end_3 = ClassName "sm\\:row-end-3"
+row_end_3 = ClassName "sm:row-end-3"
 
 row_end_4 :: ClassName
-row_end_4 = ClassName "sm\\:row-end-4"
+row_end_4 = ClassName "sm:row-end-4"
 
 row_end_5 :: ClassName
-row_end_5 = ClassName "sm\\:row-end-5"
+row_end_5 = ClassName "sm:row-end-5"
 
 row_end_6 :: ClassName
-row_end_6 = ClassName "sm\\:row-end-6"
+row_end_6 = ClassName "sm:row-end-6"
 
 row_end_7 :: ClassName
-row_end_7 = ClassName "sm\\:row-end-7"
+row_end_7 = ClassName "sm:row-end-7"
 
 row_end_auto :: ClassName
-row_end_auto = ClassName "sm\\:row-end-auto"
+row_end_auto = ClassName "sm:row-end-auto"
 
 row_gap_0 :: ClassName
-row_gap_0 = ClassName "sm\\:row-gap-0"
+row_gap_0 = ClassName "sm:row-gap-0"
 
 row_gap_1 :: ClassName
-row_gap_1 = ClassName "sm\\:row-gap-1"
+row_gap_1 = ClassName "sm:row-gap-1"
 
 row_gap_10 :: ClassName
-row_gap_10 = ClassName "sm\\:row-gap-10"
+row_gap_10 = ClassName "sm:row-gap-10"
 
 row_gap_12 :: ClassName
-row_gap_12 = ClassName "sm\\:row-gap-12"
+row_gap_12 = ClassName "sm:row-gap-12"
 
 row_gap_120 :: ClassName
-row_gap_120 = ClassName "sm\\:row-gap-120"
+row_gap_120 = ClassName "sm:row-gap-120"
 
 row_gap_14 :: ClassName
-row_gap_14 = ClassName "sm\\:row-gap-14"
+row_gap_14 = ClassName "sm:row-gap-14"
 
 row_gap_16 :: ClassName
-row_gap_16 = ClassName "sm\\:row-gap-16"
+row_gap_16 = ClassName "sm:row-gap-16"
 
 row_gap_160 :: ClassName
-row_gap_160 = ClassName "sm\\:row-gap-160"
+row_gap_160 = ClassName "sm:row-gap-160"
 
 row_gap_2 :: ClassName
-row_gap_2 = ClassName "sm\\:row-gap-2"
+row_gap_2 = ClassName "sm:row-gap-2"
 
 row_gap_20 :: ClassName
-row_gap_20 = ClassName "sm\\:row-gap-20"
+row_gap_20 = ClassName "sm:row-gap-20"
 
 row_gap_24 :: ClassName
-row_gap_24 = ClassName "sm\\:row-gap-24"
+row_gap_24 = ClassName "sm:row-gap-24"
 
 row_gap_3 :: ClassName
-row_gap_3 = ClassName "sm\\:row-gap-3"
+row_gap_3 = ClassName "sm:row-gap-3"
 
 row_gap_30 :: ClassName
-row_gap_30 = ClassName "sm\\:row-gap-30"
+row_gap_30 = ClassName "sm:row-gap-30"
 
 row_gap_32 :: ClassName
-row_gap_32 = ClassName "sm\\:row-gap-32"
+row_gap_32 = ClassName "sm:row-gap-32"
 
 row_gap_4 :: ClassName
-row_gap_4 = ClassName "sm\\:row-gap-4"
+row_gap_4 = ClassName "sm:row-gap-4"
 
 row_gap_40 :: ClassName
-row_gap_40 = ClassName "sm\\:row-gap-40"
+row_gap_40 = ClassName "sm:row-gap-40"
 
 row_gap_48 :: ClassName
-row_gap_48 = ClassName "sm\\:row-gap-48"
+row_gap_48 = ClassName "sm:row-gap-48"
 
 row_gap_5 :: ClassName
-row_gap_5 = ClassName "sm\\:row-gap-5"
+row_gap_5 = ClassName "sm:row-gap-5"
 
 row_gap_50 :: ClassName
-row_gap_50 = ClassName "sm\\:row-gap-50"
+row_gap_50 = ClassName "sm:row-gap-50"
 
 row_gap_56 :: ClassName
-row_gap_56 = ClassName "sm\\:row-gap-56"
+row_gap_56 = ClassName "sm:row-gap-56"
 
 row_gap_6 :: ClassName
-row_gap_6 = ClassName "sm\\:row-gap-6"
+row_gap_6 = ClassName "sm:row-gap-6"
 
 row_gap_60 :: ClassName
-row_gap_60 = ClassName "sm\\:row-gap-60"
+row_gap_60 = ClassName "sm:row-gap-60"
 
 row_gap_64 :: ClassName
-row_gap_64 = ClassName "sm\\:row-gap-64"
+row_gap_64 = ClassName "sm:row-gap-64"
 
 row_gap_7 :: ClassName
-row_gap_7 = ClassName "sm\\:row-gap-7"
+row_gap_7 = ClassName "sm:row-gap-7"
 
 row_gap_8 :: ClassName
-row_gap_8 = ClassName "sm\\:row-gap-8"
+row_gap_8 = ClassName "sm:row-gap-8"
 
 row_gap_80 :: ClassName
-row_gap_80 = ClassName "sm\\:row-gap-80"
+row_gap_80 = ClassName "sm:row-gap-80"
 
 row_gap_9 :: ClassName
-row_gap_9 = ClassName "sm\\:row-gap-9"
+row_gap_9 = ClassName "sm:row-gap-9"
 
 row_gap_90 :: ClassName
-row_gap_90 = ClassName "sm\\:row-gap-90"
+row_gap_90 = ClassName "sm:row-gap-90"
 
 row_gap_px :: ClassName
-row_gap_px = ClassName "sm\\:row-gap-px"
+row_gap_px = ClassName "sm:row-gap-px"
 
 row_span_1 :: ClassName
-row_span_1 = ClassName "sm\\:row-span-1"
+row_span_1 = ClassName "sm:row-span-1"
 
 row_span_2 :: ClassName
-row_span_2 = ClassName "sm\\:row-span-2"
+row_span_2 = ClassName "sm:row-span-2"
 
 row_span_3 :: ClassName
-row_span_3 = ClassName "sm\\:row-span-3"
+row_span_3 = ClassName "sm:row-span-3"
 
 row_span_4 :: ClassName
-row_span_4 = ClassName "sm\\:row-span-4"
+row_span_4 = ClassName "sm:row-span-4"
 
 row_span_5 :: ClassName
-row_span_5 = ClassName "sm\\:row-span-5"
+row_span_5 = ClassName "sm:row-span-5"
 
 row_span_6 :: ClassName
-row_span_6 = ClassName "sm\\:row-span-6"
+row_span_6 = ClassName "sm:row-span-6"
 
 row_start_1 :: ClassName
-row_start_1 = ClassName "sm\\:row-start-1"
+row_start_1 = ClassName "sm:row-start-1"
 
 row_start_2 :: ClassName
-row_start_2 = ClassName "sm\\:row-start-2"
+row_start_2 = ClassName "sm:row-start-2"
 
 row_start_3 :: ClassName
-row_start_3 = ClassName "sm\\:row-start-3"
+row_start_3 = ClassName "sm:row-start-3"
 
 row_start_4 :: ClassName
-row_start_4 = ClassName "sm\\:row-start-4"
+row_start_4 = ClassName "sm:row-start-4"
 
 row_start_5 :: ClassName
-row_start_5 = ClassName "sm\\:row-start-5"
+row_start_5 = ClassName "sm:row-start-5"
 
 row_start_6 :: ClassName
-row_start_6 = ClassName "sm\\:row-start-6"
+row_start_6 = ClassName "sm:row-start-6"
 
 row_start_7 :: ClassName
-row_start_7 = ClassName "sm\\:row-start-7"
+row_start_7 = ClassName "sm:row-start-7"
 
 row_start_auto :: ClassName
-row_start_auto = ClassName "sm\\:row-start-auto"
+row_start_auto = ClassName "sm:row-start-auto"
 
 scale_0 :: ClassName
-scale_0 = ClassName "sm\\:scale-0"
+scale_0 = ClassName "sm:scale-0"
 
 scale_100 :: ClassName
-scale_100 = ClassName "sm\\:scale-100"
+scale_100 = ClassName "sm:scale-100"
 
 scale_105 :: ClassName
-scale_105 = ClassName "sm\\:scale-105"
+scale_105 = ClassName "sm:scale-105"
 
 scale_110 :: ClassName
-scale_110 = ClassName "sm\\:scale-110"
+scale_110 = ClassName "sm:scale-110"
 
 scale_125 :: ClassName
-scale_125 = ClassName "sm\\:scale-125"
+scale_125 = ClassName "sm:scale-125"
 
 scale_150 :: ClassName
-scale_150 = ClassName "sm\\:scale-150"
+scale_150 = ClassName "sm:scale-150"
 
 scale_50 :: ClassName
-scale_50 = ClassName "sm\\:scale-50"
+scale_50 = ClassName "sm:scale-50"
 
 scale_75 :: ClassName
-scale_75 = ClassName "sm\\:scale-75"
+scale_75 = ClassName "sm:scale-75"
 
 scale_90 :: ClassName
-scale_90 = ClassName "sm\\:scale-90"
+scale_90 = ClassName "sm:scale-90"
 
 scale_95 :: ClassName
-scale_95 = ClassName "sm\\:scale-95"
+scale_95 = ClassName "sm:scale-95"
 
 scale_x_0 :: ClassName
-scale_x_0 = ClassName "sm\\:scale-x-0"
+scale_x_0 = ClassName "sm:scale-x-0"
 
 scale_x_100 :: ClassName
-scale_x_100 = ClassName "sm\\:scale-x-100"
+scale_x_100 = ClassName "sm:scale-x-100"
 
 scale_x_105 :: ClassName
-scale_x_105 = ClassName "sm\\:scale-x-105"
+scale_x_105 = ClassName "sm:scale-x-105"
 
 scale_x_110 :: ClassName
-scale_x_110 = ClassName "sm\\:scale-x-110"
+scale_x_110 = ClassName "sm:scale-x-110"
 
 scale_x_125 :: ClassName
-scale_x_125 = ClassName "sm\\:scale-x-125"
+scale_x_125 = ClassName "sm:scale-x-125"
 
 scale_x_150 :: ClassName
-scale_x_150 = ClassName "sm\\:scale-x-150"
+scale_x_150 = ClassName "sm:scale-x-150"
 
 scale_x_50 :: ClassName
-scale_x_50 = ClassName "sm\\:scale-x-50"
+scale_x_50 = ClassName "sm:scale-x-50"
 
 scale_x_75 :: ClassName
-scale_x_75 = ClassName "sm\\:scale-x-75"
+scale_x_75 = ClassName "sm:scale-x-75"
 
 scale_x_90 :: ClassName
-scale_x_90 = ClassName "sm\\:scale-x-90"
+scale_x_90 = ClassName "sm:scale-x-90"
 
 scale_x_95 :: ClassName
-scale_x_95 = ClassName "sm\\:scale-x-95"
+scale_x_95 = ClassName "sm:scale-x-95"
 
 scale_y_0 :: ClassName
-scale_y_0 = ClassName "sm\\:scale-y-0"
+scale_y_0 = ClassName "sm:scale-y-0"
 
 scale_y_100 :: ClassName
-scale_y_100 = ClassName "sm\\:scale-y-100"
+scale_y_100 = ClassName "sm:scale-y-100"
 
 scale_y_105 :: ClassName
-scale_y_105 = ClassName "sm\\:scale-y-105"
+scale_y_105 = ClassName "sm:scale-y-105"
 
 scale_y_110 :: ClassName
-scale_y_110 = ClassName "sm\\:scale-y-110"
+scale_y_110 = ClassName "sm:scale-y-110"
 
 scale_y_125 :: ClassName
-scale_y_125 = ClassName "sm\\:scale-y-125"
+scale_y_125 = ClassName "sm:scale-y-125"
 
 scale_y_150 :: ClassName
-scale_y_150 = ClassName "sm\\:scale-y-150"
+scale_y_150 = ClassName "sm:scale-y-150"
 
 scale_y_50 :: ClassName
-scale_y_50 = ClassName "sm\\:scale-y-50"
+scale_y_50 = ClassName "sm:scale-y-50"
 
 scale_y_75 :: ClassName
-scale_y_75 = ClassName "sm\\:scale-y-75"
+scale_y_75 = ClassName "sm:scale-y-75"
 
 scale_y_90 :: ClassName
-scale_y_90 = ClassName "sm\\:scale-y-90"
+scale_y_90 = ClassName "sm:scale-y-90"
 
 scale_y_95 :: ClassName
-scale_y_95 = ClassName "sm\\:scale-y-95"
+scale_y_95 = ClassName "sm:scale-y-95"
 
 scrolling_auto :: ClassName
-scrolling_auto = ClassName "sm\\:scrolling-auto"
+scrolling_auto = ClassName "sm:scrolling-auto"
 
 scrolling_touch :: ClassName
-scrolling_touch = ClassName "sm\\:scrolling-touch"
+scrolling_touch = ClassName "sm:scrolling-touch"
 
 select_all :: ClassName
-select_all = ClassName "sm\\:select-all"
+select_all = ClassName "sm:select-all"
 
 select_auto :: ClassName
-select_auto = ClassName "sm\\:select-auto"
+select_auto = ClassName "sm:select-auto"
 
 select_none :: ClassName
-select_none = ClassName "sm\\:select-none"
+select_none = ClassName "sm:select-none"
 
 select_text :: ClassName
-select_text = ClassName "sm\\:select-text"
+select_text = ClassName "sm:select-text"
 
 self_auto :: ClassName
-self_auto = ClassName "sm\\:self-auto"
+self_auto = ClassName "sm:self-auto"
 
 self_center :: ClassName
-self_center = ClassName "sm\\:self-center"
+self_center = ClassName "sm:self-center"
 
 self_end :: ClassName
-self_end = ClassName "sm\\:self-end"
+self_end = ClassName "sm:self-end"
 
 self_start :: ClassName
-self_start = ClassName "sm\\:self-start"
+self_start = ClassName "sm:self-start"
 
 self_stretch :: ClassName
-self_stretch = ClassName "sm\\:self-stretch"
+self_stretch = ClassName "sm:self-stretch"
 
 shadow :: ClassName
-shadow = ClassName "sm\\:shadow"
+shadow = ClassName "sm:shadow"
 
 shadow_2xl :: ClassName
-shadow_2xl = ClassName "sm\\:shadow-2xl"
+shadow_2xl = ClassName "sm:shadow-2xl"
 
 shadow_inner :: ClassName
-shadow_inner = ClassName "sm\\:shadow-inner"
+shadow_inner = ClassName "sm:shadow-inner"
 
 shadow_lg :: ClassName
-shadow_lg = ClassName "sm\\:shadow-lg"
+shadow_lg = ClassName "sm:shadow-lg"
 
 shadow_md :: ClassName
-shadow_md = ClassName "sm\\:shadow-md"
+shadow_md = ClassName "sm:shadow-md"
 
 shadow_none :: ClassName
-shadow_none = ClassName "sm\\:shadow-none"
+shadow_none = ClassName "sm:shadow-none"
 
 shadow_outline :: ClassName
-shadow_outline = ClassName "sm\\:shadow-outline"
+shadow_outline = ClassName "sm:shadow-outline"
 
 shadow_sm :: ClassName
-shadow_sm = ClassName "sm\\:shadow-sm"
+shadow_sm = ClassName "sm:shadow-sm"
 
 shadow_xl :: ClassName
-shadow_xl = ClassName "sm\\:shadow-xl"
+shadow_xl = ClassName "sm:shadow-xl"
 
 shadow_xs :: ClassName
-shadow_xs = ClassName "sm\\:shadow-xs"
+shadow_xs = ClassName "sm:shadow-xs"
 
 skew_x_0 :: ClassName
-skew_x_0 = ClassName "sm\\:skew-x-0"
+skew_x_0 = ClassName "sm:skew-x-0"
 
 skew_x_12 :: ClassName
-skew_x_12 = ClassName "sm\\:skew-x-12"
+skew_x_12 = ClassName "sm:skew-x-12"
 
 skew_x_3 :: ClassName
-skew_x_3 = ClassName "sm\\:skew-x-3"
+skew_x_3 = ClassName "sm:skew-x-3"
 
 skew_x_6 :: ClassName
-skew_x_6 = ClassName "sm\\:skew-x-6"
+skew_x_6 = ClassName "sm:skew-x-6"
 
 skew_y_0 :: ClassName
-skew_y_0 = ClassName "sm\\:skew-y-0"
+skew_y_0 = ClassName "sm:skew-y-0"
 
 skew_y_12 :: ClassName
-skew_y_12 = ClassName "sm\\:skew-y-12"
+skew_y_12 = ClassName "sm:skew-y-12"
 
 skew_y_3 :: ClassName
-skew_y_3 = ClassName "sm\\:skew-y-3"
+skew_y_3 = ClassName "sm:skew-y-3"
 
 skew_y_6 :: ClassName
-skew_y_6 = ClassName "sm\\:skew-y-6"
+skew_y_6 = ClassName "sm:skew-y-6"
 
 space_x_0 :: ClassName
-space_x_0 = ClassName "sm\\:space-x-0"
+space_x_0 = ClassName "sm:space-x-0"
 
 space_x_1 :: ClassName
-space_x_1 = ClassName "sm\\:space-x-1"
+space_x_1 = ClassName "sm:space-x-1"
 
 space_x_10 :: ClassName
-space_x_10 = ClassName "sm\\:space-x-10"
+space_x_10 = ClassName "sm:space-x-10"
 
 space_x_12 :: ClassName
-space_x_12 = ClassName "sm\\:space-x-12"
+space_x_12 = ClassName "sm:space-x-12"
 
 space_x_120 :: ClassName
-space_x_120 = ClassName "sm\\:space-x-120"
+space_x_120 = ClassName "sm:space-x-120"
 
 space_x_14 :: ClassName
-space_x_14 = ClassName "sm\\:space-x-14"
+space_x_14 = ClassName "sm:space-x-14"
 
 space_x_16 :: ClassName
-space_x_16 = ClassName "sm\\:space-x-16"
+space_x_16 = ClassName "sm:space-x-16"
 
 space_x_160 :: ClassName
-space_x_160 = ClassName "sm\\:space-x-160"
+space_x_160 = ClassName "sm:space-x-160"
 
 space_x_2 :: ClassName
-space_x_2 = ClassName "sm\\:space-x-2"
+space_x_2 = ClassName "sm:space-x-2"
 
 space_x_20 :: ClassName
-space_x_20 = ClassName "sm\\:space-x-20"
+space_x_20 = ClassName "sm:space-x-20"
 
 space_x_24 :: ClassName
-space_x_24 = ClassName "sm\\:space-x-24"
+space_x_24 = ClassName "sm:space-x-24"
 
 space_x_3 :: ClassName
-space_x_3 = ClassName "sm\\:space-x-3"
+space_x_3 = ClassName "sm:space-x-3"
 
 space_x_30 :: ClassName
-space_x_30 = ClassName "sm\\:space-x-30"
+space_x_30 = ClassName "sm:space-x-30"
 
 space_x_32 :: ClassName
-space_x_32 = ClassName "sm\\:space-x-32"
+space_x_32 = ClassName "sm:space-x-32"
 
 space_x_4 :: ClassName
-space_x_4 = ClassName "sm\\:space-x-4"
+space_x_4 = ClassName "sm:space-x-4"
 
 space_x_40 :: ClassName
-space_x_40 = ClassName "sm\\:space-x-40"
+space_x_40 = ClassName "sm:space-x-40"
 
 space_x_48 :: ClassName
-space_x_48 = ClassName "sm\\:space-x-48"
+space_x_48 = ClassName "sm:space-x-48"
 
 space_x_5 :: ClassName
-space_x_5 = ClassName "sm\\:space-x-5"
+space_x_5 = ClassName "sm:space-x-5"
 
 space_x_50 :: ClassName
-space_x_50 = ClassName "sm\\:space-x-50"
+space_x_50 = ClassName "sm:space-x-50"
 
 space_x_56 :: ClassName
-space_x_56 = ClassName "sm\\:space-x-56"
+space_x_56 = ClassName "sm:space-x-56"
 
 space_x_6 :: ClassName
-space_x_6 = ClassName "sm\\:space-x-6"
+space_x_6 = ClassName "sm:space-x-6"
 
 space_x_60 :: ClassName
-space_x_60 = ClassName "sm\\:space-x-60"
+space_x_60 = ClassName "sm:space-x-60"
 
 space_x_64 :: ClassName
-space_x_64 = ClassName "sm\\:space-x-64"
+space_x_64 = ClassName "sm:space-x-64"
 
 space_x_7 :: ClassName
-space_x_7 = ClassName "sm\\:space-x-7"
+space_x_7 = ClassName "sm:space-x-7"
 
 space_x_8 :: ClassName
-space_x_8 = ClassName "sm\\:space-x-8"
+space_x_8 = ClassName "sm:space-x-8"
 
 space_x_80 :: ClassName
-space_x_80 = ClassName "sm\\:space-x-80"
+space_x_80 = ClassName "sm:space-x-80"
 
 space_x_9 :: ClassName
-space_x_9 = ClassName "sm\\:space-x-9"
+space_x_9 = ClassName "sm:space-x-9"
 
 space_x_90 :: ClassName
-space_x_90 = ClassName "sm\\:space-x-90"
+space_x_90 = ClassName "sm:space-x-90"
 
 space_x_px :: ClassName
-space_x_px = ClassName "sm\\:space-x-px"
+space_x_px = ClassName "sm:space-x-px"
 
 space_x_reverse :: ClassName
-space_x_reverse = ClassName "sm\\:space-x-reverse"
+space_x_reverse = ClassName "sm:space-x-reverse"
 
 space_y_0 :: ClassName
-space_y_0 = ClassName "sm\\:space-y-0"
+space_y_0 = ClassName "sm:space-y-0"
 
 space_y_1 :: ClassName
-space_y_1 = ClassName "sm\\:space-y-1"
+space_y_1 = ClassName "sm:space-y-1"
 
 space_y_10 :: ClassName
-space_y_10 = ClassName "sm\\:space-y-10"
+space_y_10 = ClassName "sm:space-y-10"
 
 space_y_12 :: ClassName
-space_y_12 = ClassName "sm\\:space-y-12"
+space_y_12 = ClassName "sm:space-y-12"
 
 space_y_120 :: ClassName
-space_y_120 = ClassName "sm\\:space-y-120"
+space_y_120 = ClassName "sm:space-y-120"
 
 space_y_14 :: ClassName
-space_y_14 = ClassName "sm\\:space-y-14"
+space_y_14 = ClassName "sm:space-y-14"
 
 space_y_16 :: ClassName
-space_y_16 = ClassName "sm\\:space-y-16"
+space_y_16 = ClassName "sm:space-y-16"
 
 space_y_160 :: ClassName
-space_y_160 = ClassName "sm\\:space-y-160"
+space_y_160 = ClassName "sm:space-y-160"
 
 space_y_2 :: ClassName
-space_y_2 = ClassName "sm\\:space-y-2"
+space_y_2 = ClassName "sm:space-y-2"
 
 space_y_20 :: ClassName
-space_y_20 = ClassName "sm\\:space-y-20"
+space_y_20 = ClassName "sm:space-y-20"
 
 space_y_24 :: ClassName
-space_y_24 = ClassName "sm\\:space-y-24"
+space_y_24 = ClassName "sm:space-y-24"
 
 space_y_3 :: ClassName
-space_y_3 = ClassName "sm\\:space-y-3"
+space_y_3 = ClassName "sm:space-y-3"
 
 space_y_30 :: ClassName
-space_y_30 = ClassName "sm\\:space-y-30"
+space_y_30 = ClassName "sm:space-y-30"
 
 space_y_32 :: ClassName
-space_y_32 = ClassName "sm\\:space-y-32"
+space_y_32 = ClassName "sm:space-y-32"
 
 space_y_4 :: ClassName
-space_y_4 = ClassName "sm\\:space-y-4"
+space_y_4 = ClassName "sm:space-y-4"
 
 space_y_40 :: ClassName
-space_y_40 = ClassName "sm\\:space-y-40"
+space_y_40 = ClassName "sm:space-y-40"
 
 space_y_48 :: ClassName
-space_y_48 = ClassName "sm\\:space-y-48"
+space_y_48 = ClassName "sm:space-y-48"
 
 space_y_5 :: ClassName
-space_y_5 = ClassName "sm\\:space-y-5"
+space_y_5 = ClassName "sm:space-y-5"
 
 space_y_50 :: ClassName
-space_y_50 = ClassName "sm\\:space-y-50"
+space_y_50 = ClassName "sm:space-y-50"
 
 space_y_56 :: ClassName
-space_y_56 = ClassName "sm\\:space-y-56"
+space_y_56 = ClassName "sm:space-y-56"
 
 space_y_6 :: ClassName
-space_y_6 = ClassName "sm\\:space-y-6"
+space_y_6 = ClassName "sm:space-y-6"
 
 space_y_60 :: ClassName
-space_y_60 = ClassName "sm\\:space-y-60"
+space_y_60 = ClassName "sm:space-y-60"
 
 space_y_64 :: ClassName
-space_y_64 = ClassName "sm\\:space-y-64"
+space_y_64 = ClassName "sm:space-y-64"
 
 space_y_7 :: ClassName
-space_y_7 = ClassName "sm\\:space-y-7"
+space_y_7 = ClassName "sm:space-y-7"
 
 space_y_8 :: ClassName
-space_y_8 = ClassName "sm\\:space-y-8"
+space_y_8 = ClassName "sm:space-y-8"
 
 space_y_80 :: ClassName
-space_y_80 = ClassName "sm\\:space-y-80"
+space_y_80 = ClassName "sm:space-y-80"
 
 space_y_9 :: ClassName
-space_y_9 = ClassName "sm\\:space-y-9"
+space_y_9 = ClassName "sm:space-y-9"
 
 space_y_90 :: ClassName
-space_y_90 = ClassName "sm\\:space-y-90"
+space_y_90 = ClassName "sm:space-y-90"
 
 space_y_px :: ClassName
-space_y_px = ClassName "sm\\:space-y-px"
+space_y_px = ClassName "sm:space-y-px"
 
 space_y_reverse :: ClassName
-space_y_reverse = ClassName "sm\\:space-y-reverse"
+space_y_reverse = ClassName "sm:space-y-reverse"
 
 sr_only :: ClassName
-sr_only = ClassName "sm\\:sr-only"
+sr_only = ClassName "sm:sr-only"
 
 static :: ClassName
-static = ClassName "sm\\:static"
+static = ClassName "sm:static"
 
 sticky :: ClassName
-sticky = ClassName "sm\\:sticky"
+sticky = ClassName "sm:sticky"
 
 stroke_0 :: ClassName
-stroke_0 = ClassName "sm\\:stroke-0"
+stroke_0 = ClassName "sm:stroke-0"
 
 stroke_1 :: ClassName
-stroke_1 = ClassName "sm\\:stroke-1"
+stroke_1 = ClassName "sm:stroke-1"
 
 stroke_2 :: ClassName
-stroke_2 = ClassName "sm\\:stroke-2"
+stroke_2 = ClassName "sm:stroke-2"
 
 stroke_current :: ClassName
-stroke_current = ClassName "sm\\:stroke-current"
+stroke_current = ClassName "sm:stroke-current"
 
 subpixel_antialiased :: ClassName
-subpixel_antialiased = ClassName "sm\\:subpixel-antialiased"
+subpixel_antialiased = ClassName "sm:subpixel-antialiased"
 
 table :: ClassName
-table = ClassName "sm\\:table"
+table = ClassName "sm:table"
 
 table_auto :: ClassName
-table_auto = ClassName "sm\\:table-auto"
+table_auto = ClassName "sm:table-auto"
 
 table_caption :: ClassName
-table_caption = ClassName "sm\\:table-caption"
+table_caption = ClassName "sm:table-caption"
 
 table_cell :: ClassName
-table_cell = ClassName "sm\\:table-cell"
+table_cell = ClassName "sm:table-cell"
 
 table_column :: ClassName
-table_column = ClassName "sm\\:table-column"
+table_column = ClassName "sm:table-column"
 
 table_column_group :: ClassName
-table_column_group = ClassName "sm\\:table-column-group"
+table_column_group = ClassName "sm:table-column-group"
 
 table_fixed :: ClassName
-table_fixed = ClassName "sm\\:table-fixed"
+table_fixed = ClassName "sm:table-fixed"
 
 table_footer_group :: ClassName
-table_footer_group = ClassName "sm\\:table-footer-group"
+table_footer_group = ClassName "sm:table-footer-group"
 
 table_header_group :: ClassName
-table_header_group = ClassName "sm\\:table-header-group"
+table_header_group = ClassName "sm:table-header-group"
 
 table_row :: ClassName
-table_row = ClassName "sm\\:table-row"
+table_row = ClassName "sm:table-row"
 
 table_row_group :: ClassName
-table_row_group = ClassName "sm\\:table-row-group"
+table_row_group = ClassName "sm:table-row-group"
 
 text_2xl :: ClassName
-text_2xl = ClassName "sm\\:text-2xl"
+text_2xl = ClassName "sm:text-2xl"
 
 text_3xl :: ClassName
-text_3xl = ClassName "sm\\:text-3xl"
+text_3xl = ClassName "sm:text-3xl"
 
 text_4xl :: ClassName
-text_4xl = ClassName "sm\\:text-4xl"
+text_4xl = ClassName "sm:text-4xl"
 
 text_5xl :: ClassName
-text_5xl = ClassName "sm\\:text-5xl"
+text_5xl = ClassName "sm:text-5xl"
 
 text_6xl :: ClassName
-text_6xl = ClassName "sm\\:text-6xl"
+text_6xl = ClassName "sm:text-6xl"
 
 text_base :: ClassName
-text_base = ClassName "sm\\:text-base"
+text_base = ClassName "sm:text-base"
 
 text_black :: ClassName
-text_black = ClassName "sm\\:text-black"
+text_black = ClassName "sm:text-black"
 
 text_black_10 :: ClassName
-text_black_10 = ClassName "sm\\:text-black-10"
+text_black_10 = ClassName "sm:text-black-10"
 
 text_black_20 :: ClassName
-text_black_20 = ClassName "sm\\:text-black-20"
+text_black_20 = ClassName "sm:text-black-20"
 
 text_blue_100 :: ClassName
-text_blue_100 = ClassName "sm\\:text-blue-100"
+text_blue_100 = ClassName "sm:text-blue-100"
 
 text_blue_200 :: ClassName
-text_blue_200 = ClassName "sm\\:text-blue-200"
+text_blue_200 = ClassName "sm:text-blue-200"
 
 text_blue_300 :: ClassName
-text_blue_300 = ClassName "sm\\:text-blue-300"
+text_blue_300 = ClassName "sm:text-blue-300"
 
 text_blue_400 :: ClassName
-text_blue_400 = ClassName "sm\\:text-blue-400"
+text_blue_400 = ClassName "sm:text-blue-400"
 
 text_blue_500 :: ClassName
-text_blue_500 = ClassName "sm\\:text-blue-500"
+text_blue_500 = ClassName "sm:text-blue-500"
 
 text_blue_600 :: ClassName
-text_blue_600 = ClassName "sm\\:text-blue-600"
+text_blue_600 = ClassName "sm:text-blue-600"
 
 text_blue_65 :: ClassName
-text_blue_65 = ClassName "sm\\:text-blue-65"
+text_blue_65 = ClassName "sm:text-blue-65"
 
 text_blue_700 :: ClassName
-text_blue_700 = ClassName "sm\\:text-blue-700"
+text_blue_700 = ClassName "sm:text-blue-700"
 
 text_blue_75 :: ClassName
-text_blue_75 = ClassName "sm\\:text-blue-75"
+text_blue_75 = ClassName "sm:text-blue-75"
 
 text_blue_800 :: ClassName
-text_blue_800 = ClassName "sm\\:text-blue-800"
+text_blue_800 = ClassName "sm:text-blue-800"
 
 text_blue_82 :: ClassName
-text_blue_82 = ClassName "sm\\:text-blue-82"
+text_blue_82 = ClassName "sm:text-blue-82"
 
 text_blue_88 :: ClassName
-text_blue_88 = ClassName "sm\\:text-blue-88"
+text_blue_88 = ClassName "sm:text-blue-88"
 
 text_blue_900 :: ClassName
-text_blue_900 = ClassName "sm\\:text-blue-900"
+text_blue_900 = ClassName "sm:text-blue-900"
 
 text_center :: ClassName
-text_center = ClassName "sm\\:text-center"
+text_center = ClassName "sm:text-center"
 
 text_current :: ClassName
-text_current = ClassName "sm\\:text-current"
+text_current = ClassName "sm:text-current"
 
 text_gray_100 :: ClassName
-text_gray_100 = ClassName "sm\\:text-gray-100"
+text_gray_100 = ClassName "sm:text-gray-100"
 
 text_gray_200 :: ClassName
-text_gray_200 = ClassName "sm\\:text-gray-200"
+text_gray_200 = ClassName "sm:text-gray-200"
 
 text_gray_300 :: ClassName
-text_gray_300 = ClassName "sm\\:text-gray-300"
+text_gray_300 = ClassName "sm:text-gray-300"
 
 text_gray_400 :: ClassName
-text_gray_400 = ClassName "sm\\:text-gray-400"
+text_gray_400 = ClassName "sm:text-gray-400"
 
 text_gray_50 :: ClassName
-text_gray_50 = ClassName "sm\\:text-gray-50"
+text_gray_50 = ClassName "sm:text-gray-50"
 
 text_gray_500 :: ClassName
-text_gray_500 = ClassName "sm\\:text-gray-500"
+text_gray_500 = ClassName "sm:text-gray-500"
 
 text_gray_600 :: ClassName
-text_gray_600 = ClassName "sm\\:text-gray-600"
+text_gray_600 = ClassName "sm:text-gray-600"
 
 text_gray_70 :: ClassName
-text_gray_70 = ClassName "sm\\:text-gray-70"
+text_gray_70 = ClassName "sm:text-gray-70"
 
 text_gray_700 :: ClassName
-text_gray_700 = ClassName "sm\\:text-gray-700"
+text_gray_700 = ClassName "sm:text-gray-700"
 
 text_gray_80 :: ClassName
-text_gray_80 = ClassName "sm\\:text-gray-80"
+text_gray_80 = ClassName "sm:text-gray-80"
 
 text_gray_800 :: ClassName
-text_gray_800 = ClassName "sm\\:text-gray-800"
+text_gray_800 = ClassName "sm:text-gray-800"
 
 text_gray_90 :: ClassName
-text_gray_90 = ClassName "sm\\:text-gray-90"
+text_gray_90 = ClassName "sm:text-gray-90"
 
 text_gray_900 :: ClassName
-text_gray_900 = ClassName "sm\\:text-gray-900"
+text_gray_900 = ClassName "sm:text-gray-900"
 
 text_gray_95 :: ClassName
-text_gray_95 = ClassName "sm\\:text-gray-95"
+text_gray_95 = ClassName "sm:text-gray-95"
 
 text_gray_97 :: ClassName
-text_gray_97 = ClassName "sm\\:text-gray-97"
+text_gray_97 = ClassName "sm:text-gray-97"
 
 text_green_100 :: ClassName
-text_green_100 = ClassName "sm\\:text-green-100"
+text_green_100 = ClassName "sm:text-green-100"
 
 text_green_200 :: ClassName
-text_green_200 = ClassName "sm\\:text-green-200"
+text_green_200 = ClassName "sm:text-green-200"
 
 text_green_300 :: ClassName
-text_green_300 = ClassName "sm\\:text-green-300"
+text_green_300 = ClassName "sm:text-green-300"
 
 text_green_400 :: ClassName
-text_green_400 = ClassName "sm\\:text-green-400"
+text_green_400 = ClassName "sm:text-green-400"
 
 text_green_500 :: ClassName
-text_green_500 = ClassName "sm\\:text-green-500"
+text_green_500 = ClassName "sm:text-green-500"
 
 text_green_600 :: ClassName
-text_green_600 = ClassName "sm\\:text-green-600"
+text_green_600 = ClassName "sm:text-green-600"
 
 text_green_700 :: ClassName
-text_green_700 = ClassName "sm\\:text-green-700"
+text_green_700 = ClassName "sm:text-green-700"
 
 text_green_800 :: ClassName
-text_green_800 = ClassName "sm\\:text-green-800"
+text_green_800 = ClassName "sm:text-green-800"
 
 text_green_900 :: ClassName
-text_green_900 = ClassName "sm\\:text-green-900"
+text_green_900 = ClassName "sm:text-green-900"
 
 text_indigo_100 :: ClassName
-text_indigo_100 = ClassName "sm\\:text-indigo-100"
+text_indigo_100 = ClassName "sm:text-indigo-100"
 
 text_indigo_200 :: ClassName
-text_indigo_200 = ClassName "sm\\:text-indigo-200"
+text_indigo_200 = ClassName "sm:text-indigo-200"
 
 text_indigo_300 :: ClassName
-text_indigo_300 = ClassName "sm\\:text-indigo-300"
+text_indigo_300 = ClassName "sm:text-indigo-300"
 
 text_indigo_400 :: ClassName
-text_indigo_400 = ClassName "sm\\:text-indigo-400"
+text_indigo_400 = ClassName "sm:text-indigo-400"
 
 text_indigo_500 :: ClassName
-text_indigo_500 = ClassName "sm\\:text-indigo-500"
+text_indigo_500 = ClassName "sm:text-indigo-500"
 
 text_indigo_600 :: ClassName
-text_indigo_600 = ClassName "sm\\:text-indigo-600"
+text_indigo_600 = ClassName "sm:text-indigo-600"
 
 text_indigo_700 :: ClassName
-text_indigo_700 = ClassName "sm\\:text-indigo-700"
+text_indigo_700 = ClassName "sm:text-indigo-700"
 
 text_indigo_800 :: ClassName
-text_indigo_800 = ClassName "sm\\:text-indigo-800"
+text_indigo_800 = ClassName "sm:text-indigo-800"
 
 text_indigo_900 :: ClassName
-text_indigo_900 = ClassName "sm\\:text-indigo-900"
+text_indigo_900 = ClassName "sm:text-indigo-900"
 
 text_justify :: ClassName
-text_justify = ClassName "sm\\:text-justify"
+text_justify = ClassName "sm:text-justify"
 
 text_left :: ClassName
-text_left = ClassName "sm\\:text-left"
+text_left = ClassName "sm:text-left"
 
 text_lg :: ClassName
-text_lg = ClassName "sm\\:text-lg"
+text_lg = ClassName "sm:text-lg"
 
 text_opacity_0 :: ClassName
-text_opacity_0 = ClassName "sm\\:text-opacity-0"
+text_opacity_0 = ClassName "sm:text-opacity-0"
 
 text_opacity_100 :: ClassName
-text_opacity_100 = ClassName "sm\\:text-opacity-100"
+text_opacity_100 = ClassName "sm:text-opacity-100"
 
 text_opacity_25 :: ClassName
-text_opacity_25 = ClassName "sm\\:text-opacity-25"
+text_opacity_25 = ClassName "sm:text-opacity-25"
 
 text_opacity_50 :: ClassName
-text_opacity_50 = ClassName "sm\\:text-opacity-50"
+text_opacity_50 = ClassName "sm:text-opacity-50"
 
 text_opacity_75 :: ClassName
-text_opacity_75 = ClassName "sm\\:text-opacity-75"
+text_opacity_75 = ClassName "sm:text-opacity-75"
 
 text_orange_100 :: ClassName
-text_orange_100 = ClassName "sm\\:text-orange-100"
+text_orange_100 = ClassName "sm:text-orange-100"
 
 text_orange_200 :: ClassName
-text_orange_200 = ClassName "sm\\:text-orange-200"
+text_orange_200 = ClassName "sm:text-orange-200"
 
 text_orange_300 :: ClassName
-text_orange_300 = ClassName "sm\\:text-orange-300"
+text_orange_300 = ClassName "sm:text-orange-300"
 
 text_orange_400 :: ClassName
-text_orange_400 = ClassName "sm\\:text-orange-400"
+text_orange_400 = ClassName "sm:text-orange-400"
 
 text_orange_500 :: ClassName
-text_orange_500 = ClassName "sm\\:text-orange-500"
+text_orange_500 = ClassName "sm:text-orange-500"
 
 text_orange_600 :: ClassName
-text_orange_600 = ClassName "sm\\:text-orange-600"
+text_orange_600 = ClassName "sm:text-orange-600"
 
 text_orange_700 :: ClassName
-text_orange_700 = ClassName "sm\\:text-orange-700"
+text_orange_700 = ClassName "sm:text-orange-700"
 
 text_orange_800 :: ClassName
-text_orange_800 = ClassName "sm\\:text-orange-800"
+text_orange_800 = ClassName "sm:text-orange-800"
 
 text_orange_900 :: ClassName
-text_orange_900 = ClassName "sm\\:text-orange-900"
+text_orange_900 = ClassName "sm:text-orange-900"
 
 text_pink_100 :: ClassName
-text_pink_100 = ClassName "sm\\:text-pink-100"
+text_pink_100 = ClassName "sm:text-pink-100"
 
 text_pink_200 :: ClassName
-text_pink_200 = ClassName "sm\\:text-pink-200"
+text_pink_200 = ClassName "sm:text-pink-200"
 
 text_pink_300 :: ClassName
-text_pink_300 = ClassName "sm\\:text-pink-300"
+text_pink_300 = ClassName "sm:text-pink-300"
 
 text_pink_400 :: ClassName
-text_pink_400 = ClassName "sm\\:text-pink-400"
+text_pink_400 = ClassName "sm:text-pink-400"
 
 text_pink_500 :: ClassName
-text_pink_500 = ClassName "sm\\:text-pink-500"
+text_pink_500 = ClassName "sm:text-pink-500"
 
 text_pink_600 :: ClassName
-text_pink_600 = ClassName "sm\\:text-pink-600"
+text_pink_600 = ClassName "sm:text-pink-600"
 
 text_pink_700 :: ClassName
-text_pink_700 = ClassName "sm\\:text-pink-700"
+text_pink_700 = ClassName "sm:text-pink-700"
 
 text_pink_800 :: ClassName
-text_pink_800 = ClassName "sm\\:text-pink-800"
+text_pink_800 = ClassName "sm:text-pink-800"
 
 text_pink_900 :: ClassName
-text_pink_900 = ClassName "sm\\:text-pink-900"
+text_pink_900 = ClassName "sm:text-pink-900"
 
 text_purple_100 :: ClassName
-text_purple_100 = ClassName "sm\\:text-purple-100"
+text_purple_100 = ClassName "sm:text-purple-100"
 
 text_purple_200 :: ClassName
-text_purple_200 = ClassName "sm\\:text-purple-200"
+text_purple_200 = ClassName "sm:text-purple-200"
 
 text_purple_300 :: ClassName
-text_purple_300 = ClassName "sm\\:text-purple-300"
+text_purple_300 = ClassName "sm:text-purple-300"
 
 text_purple_400 :: ClassName
-text_purple_400 = ClassName "sm\\:text-purple-400"
+text_purple_400 = ClassName "sm:text-purple-400"
 
 text_purple_500 :: ClassName
-text_purple_500 = ClassName "sm\\:text-purple-500"
+text_purple_500 = ClassName "sm:text-purple-500"
 
 text_purple_600 :: ClassName
-text_purple_600 = ClassName "sm\\:text-purple-600"
+text_purple_600 = ClassName "sm:text-purple-600"
 
 text_purple_700 :: ClassName
-text_purple_700 = ClassName "sm\\:text-purple-700"
+text_purple_700 = ClassName "sm:text-purple-700"
 
 text_purple_800 :: ClassName
-text_purple_800 = ClassName "sm\\:text-purple-800"
+text_purple_800 = ClassName "sm:text-purple-800"
 
 text_purple_900 :: ClassName
-text_purple_900 = ClassName "sm\\:text-purple-900"
+text_purple_900 = ClassName "sm:text-purple-900"
 
 text_red_100 :: ClassName
-text_red_100 = ClassName "sm\\:text-red-100"
+text_red_100 = ClassName "sm:text-red-100"
 
 text_red_200 :: ClassName
-text_red_200 = ClassName "sm\\:text-red-200"
+text_red_200 = ClassName "sm:text-red-200"
 
 text_red_300 :: ClassName
-text_red_300 = ClassName "sm\\:text-red-300"
+text_red_300 = ClassName "sm:text-red-300"
 
 text_red_400 :: ClassName
-text_red_400 = ClassName "sm\\:text-red-400"
+text_red_400 = ClassName "sm:text-red-400"
 
 text_red_500 :: ClassName
-text_red_500 = ClassName "sm\\:text-red-500"
+text_red_500 = ClassName "sm:text-red-500"
 
 text_red_600 :: ClassName
-text_red_600 = ClassName "sm\\:text-red-600"
+text_red_600 = ClassName "sm:text-red-600"
 
 text_red_700 :: ClassName
-text_red_700 = ClassName "sm\\:text-red-700"
+text_red_700 = ClassName "sm:text-red-700"
 
 text_red_800 :: ClassName
-text_red_800 = ClassName "sm\\:text-red-800"
+text_red_800 = ClassName "sm:text-red-800"
 
 text_red_900 :: ClassName
-text_red_900 = ClassName "sm\\:text-red-900"
+text_red_900 = ClassName "sm:text-red-900"
 
 text_right :: ClassName
-text_right = ClassName "sm\\:text-right"
+text_right = ClassName "sm:text-right"
 
 text_sm :: ClassName
-text_sm = ClassName "sm\\:text-sm"
+text_sm = ClassName "sm:text-sm"
 
 text_steel_100 :: ClassName
-text_steel_100 = ClassName "sm\\:text-steel-100"
+text_steel_100 = ClassName "sm:text-steel-100"
 
 text_steel_75 :: ClassName
-text_steel_75 = ClassName "sm\\:text-steel-75"
+text_steel_75 = ClassName "sm:text-steel-75"
 
 text_steel_85 :: ClassName
-text_steel_85 = ClassName "sm\\:text-steel-85"
+text_steel_85 = ClassName "sm:text-steel-85"
 
 text_teal_100 :: ClassName
-text_teal_100 = ClassName "sm\\:text-teal-100"
+text_teal_100 = ClassName "sm:text-teal-100"
 
 text_teal_200 :: ClassName
-text_teal_200 = ClassName "sm\\:text-teal-200"
+text_teal_200 = ClassName "sm:text-teal-200"
 
 text_teal_300 :: ClassName
-text_teal_300 = ClassName "sm\\:text-teal-300"
+text_teal_300 = ClassName "sm:text-teal-300"
 
 text_teal_400 :: ClassName
-text_teal_400 = ClassName "sm\\:text-teal-400"
+text_teal_400 = ClassName "sm:text-teal-400"
 
 text_teal_500 :: ClassName
-text_teal_500 = ClassName "sm\\:text-teal-500"
+text_teal_500 = ClassName "sm:text-teal-500"
 
 text_teal_600 :: ClassName
-text_teal_600 = ClassName "sm\\:text-teal-600"
+text_teal_600 = ClassName "sm:text-teal-600"
 
 text_teal_700 :: ClassName
-text_teal_700 = ClassName "sm\\:text-teal-700"
+text_teal_700 = ClassName "sm:text-teal-700"
 
 text_teal_800 :: ClassName
-text_teal_800 = ClassName "sm\\:text-teal-800"
+text_teal_800 = ClassName "sm:text-teal-800"
 
 text_teal_900 :: ClassName
-text_teal_900 = ClassName "sm\\:text-teal-900"
+text_teal_900 = ClassName "sm:text-teal-900"
 
 text_transparent :: ClassName
-text_transparent = ClassName "sm\\:text-transparent"
+text_transparent = ClassName "sm:text-transparent"
 
 text_white :: ClassName
-text_white = ClassName "sm\\:text-white"
+text_white = ClassName "sm:text-white"
 
 text_xl :: ClassName
-text_xl = ClassName "sm\\:text-xl"
+text_xl = ClassName "sm:text-xl"
 
 text_xs :: ClassName
-text_xs = ClassName "sm\\:text-xs"
+text_xs = ClassName "sm:text-xs"
 
 text_yellow_100 :: ClassName
-text_yellow_100 = ClassName "sm\\:text-yellow-100"
+text_yellow_100 = ClassName "sm:text-yellow-100"
 
 text_yellow_200 :: ClassName
-text_yellow_200 = ClassName "sm\\:text-yellow-200"
+text_yellow_200 = ClassName "sm:text-yellow-200"
 
 text_yellow_300 :: ClassName
-text_yellow_300 = ClassName "sm\\:text-yellow-300"
+text_yellow_300 = ClassName "sm:text-yellow-300"
 
 text_yellow_400 :: ClassName
-text_yellow_400 = ClassName "sm\\:text-yellow-400"
+text_yellow_400 = ClassName "sm:text-yellow-400"
 
 text_yellow_500 :: ClassName
-text_yellow_500 = ClassName "sm\\:text-yellow-500"
+text_yellow_500 = ClassName "sm:text-yellow-500"
 
 text_yellow_600 :: ClassName
-text_yellow_600 = ClassName "sm\\:text-yellow-600"
+text_yellow_600 = ClassName "sm:text-yellow-600"
 
 text_yellow_700 :: ClassName
-text_yellow_700 = ClassName "sm\\:text-yellow-700"
+text_yellow_700 = ClassName "sm:text-yellow-700"
 
 text_yellow_800 :: ClassName
-text_yellow_800 = ClassName "sm\\:text-yellow-800"
+text_yellow_800 = ClassName "sm:text-yellow-800"
 
 text_yellow_900 :: ClassName
-text_yellow_900 = ClassName "sm\\:text-yellow-900"
+text_yellow_900 = ClassName "sm:text-yellow-900"
 
 top_0 :: ClassName
-top_0 = ClassName "sm\\:top-0"
+top_0 = ClassName "sm:top-0"
 
 top_auto :: ClassName
-top_auto = ClassName "sm\\:top-auto"
+top_auto = ClassName "sm:top-auto"
 
 tracking_normal :: ClassName
-tracking_normal = ClassName "sm\\:tracking-normal"
+tracking_normal = ClassName "sm:tracking-normal"
 
 tracking_tight :: ClassName
-tracking_tight = ClassName "sm\\:tracking-tight"
+tracking_tight = ClassName "sm:tracking-tight"
 
 tracking_tighter :: ClassName
-tracking_tighter = ClassName "sm\\:tracking-tighter"
+tracking_tighter = ClassName "sm:tracking-tighter"
 
 tracking_wide :: ClassName
-tracking_wide = ClassName "sm\\:tracking-wide"
+tracking_wide = ClassName "sm:tracking-wide"
 
 tracking_wider :: ClassName
-tracking_wider = ClassName "sm\\:tracking-wider"
+tracking_wider = ClassName "sm:tracking-wider"
 
 tracking_widest :: ClassName
-tracking_widest = ClassName "sm\\:tracking-widest"
+tracking_widest = ClassName "sm:tracking-widest"
 
 transform :: ClassName
-transform = ClassName "sm\\:transform"
+transform = ClassName "sm:transform"
 
 transform_none :: ClassName
-transform_none = ClassName "sm\\:transform-none"
+transform_none = ClassName "sm:transform-none"
 
 transition :: ClassName
-transition = ClassName "sm\\:transition"
+transition = ClassName "sm:transition"
 
 transition_all :: ClassName
-transition_all = ClassName "sm\\:transition-all"
+transition_all = ClassName "sm:transition-all"
 
 transition_colors :: ClassName
-transition_colors = ClassName "sm\\:transition-colors"
+transition_colors = ClassName "sm:transition-colors"
 
 transition_none :: ClassName
-transition_none = ClassName "sm\\:transition-none"
+transition_none = ClassName "sm:transition-none"
 
 transition_opacity :: ClassName
-transition_opacity = ClassName "sm\\:transition-opacity"
+transition_opacity = ClassName "sm:transition-opacity"
 
 transition_shadow :: ClassName
-transition_shadow = ClassName "sm\\:transition-shadow"
+transition_shadow = ClassName "sm:transition-shadow"
 
 transition_transform :: ClassName
-transition_transform = ClassName "sm\\:transition-transform"
+transition_transform = ClassName "sm:transition-transform"
 
 translate_x_0 :: ClassName
-translate_x_0 = ClassName "sm\\:translate-x-0"
+translate_x_0 = ClassName "sm:translate-x-0"
 
 translate_x_1 :: ClassName
-translate_x_1 = ClassName "sm\\:translate-x-1"
+translate_x_1 = ClassName "sm:translate-x-1"
 
 translate_x_10 :: ClassName
-translate_x_10 = ClassName "sm\\:translate-x-10"
+translate_x_10 = ClassName "sm:translate-x-10"
 
 translate_x_12 :: ClassName
-translate_x_12 = ClassName "sm\\:translate-x-12"
+translate_x_12 = ClassName "sm:translate-x-12"
 
 translate_x_120 :: ClassName
-translate_x_120 = ClassName "sm\\:translate-x-120"
+translate_x_120 = ClassName "sm:translate-x-120"
 
 translate_x_14 :: ClassName
-translate_x_14 = ClassName "sm\\:translate-x-14"
+translate_x_14 = ClassName "sm:translate-x-14"
 
 translate_x_16 :: ClassName
-translate_x_16 = ClassName "sm\\:translate-x-16"
+translate_x_16 = ClassName "sm:translate-x-16"
 
 translate_x_160 :: ClassName
-translate_x_160 = ClassName "sm\\:translate-x-160"
+translate_x_160 = ClassName "sm:translate-x-160"
 
 translate_x_1_over_2 :: ClassName
-translate_x_1_over_2 = ClassName "sm\\:translate-x-1\\/2"
+translate_x_1_over_2 = ClassName "sm:translate-x-1/2"
 
 translate_x_2 :: ClassName
-translate_x_2 = ClassName "sm\\:translate-x-2"
+translate_x_2 = ClassName "sm:translate-x-2"
 
 translate_x_20 :: ClassName
-translate_x_20 = ClassName "sm\\:translate-x-20"
+translate_x_20 = ClassName "sm:translate-x-20"
 
 translate_x_24 :: ClassName
-translate_x_24 = ClassName "sm\\:translate-x-24"
+translate_x_24 = ClassName "sm:translate-x-24"
 
 translate_x_3 :: ClassName
-translate_x_3 = ClassName "sm\\:translate-x-3"
+translate_x_3 = ClassName "sm:translate-x-3"
 
 translate_x_30 :: ClassName
-translate_x_30 = ClassName "sm\\:translate-x-30"
+translate_x_30 = ClassName "sm:translate-x-30"
 
 translate_x_32 :: ClassName
-translate_x_32 = ClassName "sm\\:translate-x-32"
+translate_x_32 = ClassName "sm:translate-x-32"
 
 translate_x_4 :: ClassName
-translate_x_4 = ClassName "sm\\:translate-x-4"
+translate_x_4 = ClassName "sm:translate-x-4"
 
 translate_x_40 :: ClassName
-translate_x_40 = ClassName "sm\\:translate-x-40"
+translate_x_40 = ClassName "sm:translate-x-40"
 
 translate_x_48 :: ClassName
-translate_x_48 = ClassName "sm\\:translate-x-48"
+translate_x_48 = ClassName "sm:translate-x-48"
 
 translate_x_5 :: ClassName
-translate_x_5 = ClassName "sm\\:translate-x-5"
+translate_x_5 = ClassName "sm:translate-x-5"
 
 translate_x_50 :: ClassName
-translate_x_50 = ClassName "sm\\:translate-x-50"
+translate_x_50 = ClassName "sm:translate-x-50"
 
 translate_x_56 :: ClassName
-translate_x_56 = ClassName "sm\\:translate-x-56"
+translate_x_56 = ClassName "sm:translate-x-56"
 
 translate_x_6 :: ClassName
-translate_x_6 = ClassName "sm\\:translate-x-6"
+translate_x_6 = ClassName "sm:translate-x-6"
 
 translate_x_60 :: ClassName
-translate_x_60 = ClassName "sm\\:translate-x-60"
+translate_x_60 = ClassName "sm:translate-x-60"
 
 translate_x_64 :: ClassName
-translate_x_64 = ClassName "sm\\:translate-x-64"
+translate_x_64 = ClassName "sm:translate-x-64"
 
 translate_x_7 :: ClassName
-translate_x_7 = ClassName "sm\\:translate-x-7"
+translate_x_7 = ClassName "sm:translate-x-7"
 
 translate_x_8 :: ClassName
-translate_x_8 = ClassName "sm\\:translate-x-8"
+translate_x_8 = ClassName "sm:translate-x-8"
 
 translate_x_80 :: ClassName
-translate_x_80 = ClassName "sm\\:translate-x-80"
+translate_x_80 = ClassName "sm:translate-x-80"
 
 translate_x_9 :: ClassName
-translate_x_9 = ClassName "sm\\:translate-x-9"
+translate_x_9 = ClassName "sm:translate-x-9"
 
 translate_x_90 :: ClassName
-translate_x_90 = ClassName "sm\\:translate-x-90"
+translate_x_90 = ClassName "sm:translate-x-90"
 
 translate_x_full :: ClassName
-translate_x_full = ClassName "sm\\:translate-x-full"
+translate_x_full = ClassName "sm:translate-x-full"
 
 translate_x_px :: ClassName
-translate_x_px = ClassName "sm\\:translate-x-px"
+translate_x_px = ClassName "sm:translate-x-px"
 
 translate_y_0 :: ClassName
-translate_y_0 = ClassName "sm\\:translate-y-0"
+translate_y_0 = ClassName "sm:translate-y-0"
 
 translate_y_1 :: ClassName
-translate_y_1 = ClassName "sm\\:translate-y-1"
+translate_y_1 = ClassName "sm:translate-y-1"
 
 translate_y_10 :: ClassName
-translate_y_10 = ClassName "sm\\:translate-y-10"
+translate_y_10 = ClassName "sm:translate-y-10"
 
 translate_y_12 :: ClassName
-translate_y_12 = ClassName "sm\\:translate-y-12"
+translate_y_12 = ClassName "sm:translate-y-12"
 
 translate_y_120 :: ClassName
-translate_y_120 = ClassName "sm\\:translate-y-120"
+translate_y_120 = ClassName "sm:translate-y-120"
 
 translate_y_14 :: ClassName
-translate_y_14 = ClassName "sm\\:translate-y-14"
+translate_y_14 = ClassName "sm:translate-y-14"
 
 translate_y_16 :: ClassName
-translate_y_16 = ClassName "sm\\:translate-y-16"
+translate_y_16 = ClassName "sm:translate-y-16"
 
 translate_y_160 :: ClassName
-translate_y_160 = ClassName "sm\\:translate-y-160"
+translate_y_160 = ClassName "sm:translate-y-160"
 
 translate_y_1_over_2 :: ClassName
-translate_y_1_over_2 = ClassName "sm\\:translate-y-1\\/2"
+translate_y_1_over_2 = ClassName "sm:translate-y-1/2"
 
 translate_y_2 :: ClassName
-translate_y_2 = ClassName "sm\\:translate-y-2"
+translate_y_2 = ClassName "sm:translate-y-2"
 
 translate_y_20 :: ClassName
-translate_y_20 = ClassName "sm\\:translate-y-20"
+translate_y_20 = ClassName "sm:translate-y-20"
 
 translate_y_24 :: ClassName
-translate_y_24 = ClassName "sm\\:translate-y-24"
+translate_y_24 = ClassName "sm:translate-y-24"
 
 translate_y_3 :: ClassName
-translate_y_3 = ClassName "sm\\:translate-y-3"
+translate_y_3 = ClassName "sm:translate-y-3"
 
 translate_y_30 :: ClassName
-translate_y_30 = ClassName "sm\\:translate-y-30"
+translate_y_30 = ClassName "sm:translate-y-30"
 
 translate_y_32 :: ClassName
-translate_y_32 = ClassName "sm\\:translate-y-32"
+translate_y_32 = ClassName "sm:translate-y-32"
 
 translate_y_4 :: ClassName
-translate_y_4 = ClassName "sm\\:translate-y-4"
+translate_y_4 = ClassName "sm:translate-y-4"
 
 translate_y_40 :: ClassName
-translate_y_40 = ClassName "sm\\:translate-y-40"
+translate_y_40 = ClassName "sm:translate-y-40"
 
 translate_y_48 :: ClassName
-translate_y_48 = ClassName "sm\\:translate-y-48"
+translate_y_48 = ClassName "sm:translate-y-48"
 
 translate_y_5 :: ClassName
-translate_y_5 = ClassName "sm\\:translate-y-5"
+translate_y_5 = ClassName "sm:translate-y-5"
 
 translate_y_50 :: ClassName
-translate_y_50 = ClassName "sm\\:translate-y-50"
+translate_y_50 = ClassName "sm:translate-y-50"
 
 translate_y_56 :: ClassName
-translate_y_56 = ClassName "sm\\:translate-y-56"
+translate_y_56 = ClassName "sm:translate-y-56"
 
 translate_y_6 :: ClassName
-translate_y_6 = ClassName "sm\\:translate-y-6"
+translate_y_6 = ClassName "sm:translate-y-6"
 
 translate_y_60 :: ClassName
-translate_y_60 = ClassName "sm\\:translate-y-60"
+translate_y_60 = ClassName "sm:translate-y-60"
 
 translate_y_64 :: ClassName
-translate_y_64 = ClassName "sm\\:translate-y-64"
+translate_y_64 = ClassName "sm:translate-y-64"
 
 translate_y_7 :: ClassName
-translate_y_7 = ClassName "sm\\:translate-y-7"
+translate_y_7 = ClassName "sm:translate-y-7"
 
 translate_y_8 :: ClassName
-translate_y_8 = ClassName "sm\\:translate-y-8"
+translate_y_8 = ClassName "sm:translate-y-8"
 
 translate_y_80 :: ClassName
-translate_y_80 = ClassName "sm\\:translate-y-80"
+translate_y_80 = ClassName "sm:translate-y-80"
 
 translate_y_9 :: ClassName
-translate_y_9 = ClassName "sm\\:translate-y-9"
+translate_y_9 = ClassName "sm:translate-y-9"
 
 translate_y_90 :: ClassName
-translate_y_90 = ClassName "sm\\:translate-y-90"
+translate_y_90 = ClassName "sm:translate-y-90"
 
 translate_y_full :: ClassName
-translate_y_full = ClassName "sm\\:translate-y-full"
+translate_y_full = ClassName "sm:translate-y-full"
 
 translate_y_px :: ClassName
-translate_y_px = ClassName "sm\\:translate-y-px"
+translate_y_px = ClassName "sm:translate-y-px"
 
 truncate :: ClassName
-truncate = ClassName "sm\\:truncate"
+truncate = ClassName "sm:truncate"
 
 underline :: ClassName
-underline = ClassName "sm\\:underline"
+underline = ClassName "sm:underline"
 
 uppercase :: ClassName
-uppercase = ClassName "sm\\:uppercase"
+uppercase = ClassName "sm:uppercase"
 
 visible :: ClassName
-visible = ClassName "sm\\:visible"
+visible = ClassName "sm:visible"
 
 w_0 :: ClassName
-w_0 = ClassName "sm\\:w-0"
+w_0 = ClassName "sm:w-0"
 
 w_1 :: ClassName
-w_1 = ClassName "sm\\:w-1"
+w_1 = ClassName "sm:w-1"
 
 w_10 :: ClassName
-w_10 = ClassName "sm\\:w-10"
+w_10 = ClassName "sm:w-10"
 
 w_10_over_12 :: ClassName
-w_10_over_12 = ClassName "sm\\:w-10\\/12"
+w_10_over_12 = ClassName "sm:w-10/12"
 
 w_11_over_12 :: ClassName
-w_11_over_12 = ClassName "sm\\:w-11\\/12"
+w_11_over_12 = ClassName "sm:w-11/12"
 
 w_12 :: ClassName
-w_12 = ClassName "sm\\:w-12"
+w_12 = ClassName "sm:w-12"
 
 w_120 :: ClassName
-w_120 = ClassName "sm\\:w-120"
+w_120 = ClassName "sm:w-120"
 
 w_14 :: ClassName
-w_14 = ClassName "sm\\:w-14"
+w_14 = ClassName "sm:w-14"
 
 w_16 :: ClassName
-w_16 = ClassName "sm\\:w-16"
+w_16 = ClassName "sm:w-16"
 
 w_160 :: ClassName
-w_160 = ClassName "sm\\:w-160"
+w_160 = ClassName "sm:w-160"
 
 w_1_over_12 :: ClassName
-w_1_over_12 = ClassName "sm\\:w-1\\/12"
+w_1_over_12 = ClassName "sm:w-1/12"
 
 w_1_over_2 :: ClassName
-w_1_over_2 = ClassName "sm\\:w-1\\/2"
+w_1_over_2 = ClassName "sm:w-1/2"
 
 w_1_over_3 :: ClassName
-w_1_over_3 = ClassName "sm\\:w-1\\/3"
+w_1_over_3 = ClassName "sm:w-1/3"
 
 w_1_over_4 :: ClassName
-w_1_over_4 = ClassName "sm\\:w-1\\/4"
+w_1_over_4 = ClassName "sm:w-1/4"
 
 w_1_over_5 :: ClassName
-w_1_over_5 = ClassName "sm\\:w-1\\/5"
+w_1_over_5 = ClassName "sm:w-1/5"
 
 w_1_over_6 :: ClassName
-w_1_over_6 = ClassName "sm\\:w-1\\/6"
+w_1_over_6 = ClassName "sm:w-1/6"
 
 w_2 :: ClassName
-w_2 = ClassName "sm\\:w-2"
+w_2 = ClassName "sm:w-2"
 
 w_20 :: ClassName
-w_20 = ClassName "sm\\:w-20"
+w_20 = ClassName "sm:w-20"
 
 w_24 :: ClassName
-w_24 = ClassName "sm\\:w-24"
+w_24 = ClassName "sm:w-24"
 
 w_2_over_12 :: ClassName
-w_2_over_12 = ClassName "sm\\:w-2\\/12"
+w_2_over_12 = ClassName "sm:w-2/12"
 
 w_2_over_3 :: ClassName
-w_2_over_3 = ClassName "sm\\:w-2\\/3"
+w_2_over_3 = ClassName "sm:w-2/3"
 
 w_2_over_4 :: ClassName
-w_2_over_4 = ClassName "sm\\:w-2\\/4"
+w_2_over_4 = ClassName "sm:w-2/4"
 
 w_2_over_5 :: ClassName
-w_2_over_5 = ClassName "sm\\:w-2\\/5"
+w_2_over_5 = ClassName "sm:w-2/5"
 
 w_2_over_6 :: ClassName
-w_2_over_6 = ClassName "sm\\:w-2\\/6"
+w_2_over_6 = ClassName "sm:w-2/6"
 
 w_3 :: ClassName
-w_3 = ClassName "sm\\:w-3"
+w_3 = ClassName "sm:w-3"
 
 w_30 :: ClassName
-w_30 = ClassName "sm\\:w-30"
+w_30 = ClassName "sm:w-30"
 
 w_32 :: ClassName
-w_32 = ClassName "sm\\:w-32"
+w_32 = ClassName "sm:w-32"
 
 w_3_over_12 :: ClassName
-w_3_over_12 = ClassName "sm\\:w-3\\/12"
+w_3_over_12 = ClassName "sm:w-3/12"
 
 w_3_over_4 :: ClassName
-w_3_over_4 = ClassName "sm\\:w-3\\/4"
+w_3_over_4 = ClassName "sm:w-3/4"
 
 w_3_over_5 :: ClassName
-w_3_over_5 = ClassName "sm\\:w-3\\/5"
+w_3_over_5 = ClassName "sm:w-3/5"
 
 w_3_over_6 :: ClassName
-w_3_over_6 = ClassName "sm\\:w-3\\/6"
+w_3_over_6 = ClassName "sm:w-3/6"
 
 w_4 :: ClassName
-w_4 = ClassName "sm\\:w-4"
+w_4 = ClassName "sm:w-4"
 
 w_40 :: ClassName
-w_40 = ClassName "sm\\:w-40"
+w_40 = ClassName "sm:w-40"
 
 w_48 :: ClassName
-w_48 = ClassName "sm\\:w-48"
+w_48 = ClassName "sm:w-48"
 
 w_4_over_12 :: ClassName
-w_4_over_12 = ClassName "sm\\:w-4\\/12"
+w_4_over_12 = ClassName "sm:w-4/12"
 
 w_4_over_5 :: ClassName
-w_4_over_5 = ClassName "sm\\:w-4\\/5"
+w_4_over_5 = ClassName "sm:w-4/5"
 
 w_4_over_6 :: ClassName
-w_4_over_6 = ClassName "sm\\:w-4\\/6"
+w_4_over_6 = ClassName "sm:w-4/6"
 
 w_5 :: ClassName
-w_5 = ClassName "sm\\:w-5"
+w_5 = ClassName "sm:w-5"
 
 w_50 :: ClassName
-w_50 = ClassName "sm\\:w-50"
+w_50 = ClassName "sm:w-50"
 
 w_56 :: ClassName
-w_56 = ClassName "sm\\:w-56"
+w_56 = ClassName "sm:w-56"
 
 w_5_over_12 :: ClassName
-w_5_over_12 = ClassName "sm\\:w-5\\/12"
+w_5_over_12 = ClassName "sm:w-5/12"
 
 w_5_over_6 :: ClassName
-w_5_over_6 = ClassName "sm\\:w-5\\/6"
+w_5_over_6 = ClassName "sm:w-5/6"
 
 w_6 :: ClassName
-w_6 = ClassName "sm\\:w-6"
+w_6 = ClassName "sm:w-6"
 
 w_60 :: ClassName
-w_60 = ClassName "sm\\:w-60"
+w_60 = ClassName "sm:w-60"
 
 w_64 :: ClassName
-w_64 = ClassName "sm\\:w-64"
+w_64 = ClassName "sm:w-64"
 
 w_6_over_12 :: ClassName
-w_6_over_12 = ClassName "sm\\:w-6\\/12"
+w_6_over_12 = ClassName "sm:w-6/12"
 
 w_7 :: ClassName
-w_7 = ClassName "sm\\:w-7"
+w_7 = ClassName "sm:w-7"
 
 w_7_over_12 :: ClassName
-w_7_over_12 = ClassName "sm\\:w-7\\/12"
+w_7_over_12 = ClassName "sm:w-7/12"
 
 w_8 :: ClassName
-w_8 = ClassName "sm\\:w-8"
+w_8 = ClassName "sm:w-8"
 
 w_80 :: ClassName
-w_80 = ClassName "sm\\:w-80"
+w_80 = ClassName "sm:w-80"
 
 w_8_over_12 :: ClassName
-w_8_over_12 = ClassName "sm\\:w-8\\/12"
+w_8_over_12 = ClassName "sm:w-8/12"
 
 w_9 :: ClassName
-w_9 = ClassName "sm\\:w-9"
+w_9 = ClassName "sm:w-9"
 
 w_90 :: ClassName
-w_90 = ClassName "sm\\:w-90"
+w_90 = ClassName "sm:w-90"
 
 w_9_over_12 :: ClassName
-w_9_over_12 = ClassName "sm\\:w-9\\/12"
+w_9_over_12 = ClassName "sm:w-9/12"
 
 w_auto :: ClassName
-w_auto = ClassName "sm\\:w-auto"
+w_auto = ClassName "sm:w-auto"
 
 w_full :: ClassName
-w_full = ClassName "sm\\:w-full"
+w_full = ClassName "sm:w-full"
 
 w_px :: ClassName
-w_px = ClassName "sm\\:w-px"
+w_px = ClassName "sm:w-px"
 
 w_screen :: ClassName
-w_screen = ClassName "sm\\:w-screen"
+w_screen = ClassName "sm:w-screen"
 
 whitespace_no_wrap :: ClassName
-whitespace_no_wrap = ClassName "sm\\:whitespace-no-wrap"
+whitespace_no_wrap = ClassName "sm:whitespace-no-wrap"
 
 whitespace_normal :: ClassName
-whitespace_normal = ClassName "sm\\:whitespace-normal"
+whitespace_normal = ClassName "sm:whitespace-normal"
 
 whitespace_pre :: ClassName
-whitespace_pre = ClassName "sm\\:whitespace-pre"
+whitespace_pre = ClassName "sm:whitespace-pre"
 
 whitespace_pre_line :: ClassName
-whitespace_pre_line = ClassName "sm\\:whitespace-pre-line"
+whitespace_pre_line = ClassName "sm:whitespace-pre-line"
 
 whitespace_pre_wrap :: ClassName
-whitespace_pre_wrap = ClassName "sm\\:whitespace-pre-wrap"
+whitespace_pre_wrap = ClassName "sm:whitespace-pre-wrap"
 
 z_0 :: ClassName
-z_0 = ClassName "sm\\:z-0"
+z_0 = ClassName "sm:z-0"
 
 z_10 :: ClassName
-z_10 = ClassName "sm\\:z-10"
+z_10 = ClassName "sm:z-10"
 
 z_20 :: ClassName
-z_20 = ClassName "sm\\:z-20"
+z_20 = ClassName "sm:z-20"
 
 z_30 :: ClassName
-z_30 = ClassName "sm\\:z-30"
+z_30 = ClassName "sm:z-30"
 
 z_40 :: ClassName
-z_40 = ClassName "sm\\:z-40"
+z_40 = ClassName "sm:z-40"
 
 z_50 :: ClassName
-z_50 = ClassName "sm\\:z-50"
+z_50 = ClassName "sm:z-50"
 
 z_60 :: ClassName
-z_60 = ClassName "sm\\:z-60"
+z_60 = ClassName "sm:z-60"
 
 z_auto :: ClassName
-z_auto = ClassName "sm\\:z-auto"
+z_auto = ClassName "sm:z-auto"
 

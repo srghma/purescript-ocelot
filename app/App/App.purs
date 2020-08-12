@@ -31,6 +31,7 @@ import Ocelot.Block.Format as Format
 import Routing.Hash (hashes)
 import UIGuide.Block.Backdrop as Backdrop
 import Web.HTML.HTMLElement (HTMLElement)
+import Debug.Trace
 
 data Query a
   = RouteChange String a
@@ -108,7 +109,10 @@ app =
   render state =
     HH.body_
       [ HH.div
-          [ HP.classes [ TailwindClasses.min_h_screen ] ]
+          [ HP.classes
+            [ TailwindClasses.min_h_screen
+            ]
+          ]
           [ renderSidebar state
           , renderContainer state
           ]
@@ -128,7 +132,6 @@ app =
               [ HP.classes
                   [ TailwindClasses.top_0
                   , TailwindClasses.bg_white
-                  , TailwindClasses.Md.hidden
                   , TailwindClasses.relative
                   , TailwindClasses.border_b
                   , TailwindClasses.border_gray_300
@@ -136,6 +139,7 @@ app =
                   , TailwindClasses.py_8
                   , TailwindClasses.flex
                   , TailwindClasses.items_center
+                  , TailwindClasses.Md.hidden
                   ]
               ]
               [ HH.a
@@ -146,7 +150,8 @@ app =
                       ]
                   , HP.href ""
                   ]
-                  [ HH.text "CitizenNet UI Guide" ]
+                  [ HH.text "CitizenNet UI Guide"
+                  ]
               ]
           ]
       , HH.div
@@ -157,7 +162,8 @@ app =
               , TailwindClasses.mx_auto
               ]
           ]
-          [ renderSlot state ]
+          [ renderSlot state
+          ]
       ]
 
   renderSlot :: State m -> HTML m
@@ -171,23 +177,25 @@ app =
     Backdrop.backdrop
       [ HP.id_ "sidebar"
       , HP.classes
-          [ TailwindClasses.hidden
-          , TailwindClasses.fixed
-          , TailwindClasses.inset_y_0
-          , TailwindClasses.left_0
-          , TailwindClasses.overflow_y_auto
-          , TailwindClasses.scrolling_touch
-          , TailwindClasses.w_4_over_5
-          , TailwindClasses.flex_none
-          -- , TailwindClasses.border_r_2
-          -- , TailwindClasses.border_gray_300
-          , TailwindClasses.flex_col
-          , TailwindClasses.Md.overflow_visible
-          , TailwindClasses.Md.scrolling_auto
-          , TailwindClasses.Md.w_full
-          , TailwindClasses.Md.max_w_xs
-          , TailwindClasses.Md.flex
-          ]
+          (spy "asdf"
+            [ TailwindClasses.hidden
+            , TailwindClasses.fixed
+            , TailwindClasses.inset_y_0
+            , TailwindClasses.left_0
+            , TailwindClasses.overflow_y_auto
+            , TailwindClasses.scrolling_touch
+            , TailwindClasses.w_4_over_5
+            , TailwindClasses.flex_none
+            , TailwindClasses.flex_col
+            , TailwindClasses.Md.overflow_visible
+            , TailwindClasses.Md.scrolling_auto
+            , TailwindClasses.Md.w_full
+            , TailwindClasses.Md.max_w_xs
+            , TailwindClasses.Md.flex
+            -- , TailwindClasses.border_r_2
+            -- , TailwindClasses.border_gray_300
+            ]
+          )
       ]
       [ HH.div
           [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.p_6, TailwindClasses.overflow_y_auto ] ]
