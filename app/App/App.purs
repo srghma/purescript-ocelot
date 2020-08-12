@@ -13,6 +13,7 @@ module UIGuide.App
 
 import Prelude
 import TailwindClasses as TailwindClasses
+import TailwindClasses.Md as TailwindClasses.Md
 import Data.Const (Const)
 import Data.Functor (mapFlipped)
 import Data.Map as M
@@ -118,7 +119,7 @@ app =
   renderContainer :: State m -> HTML m
   renderContainer state =
     HH.div
-      [ HP.classes [ HH.ClassName "md:ml-80" ] ]
+      [ HP.classes [ TailwindClasses.Md.ml_80 ] ]
       [ HH.div
           [ HP.classes
             [ TailwindClasses.fixed
@@ -129,7 +130,7 @@ app =
               [ HP.classes
                 [ TailwindClasses.top_0
                 , TailwindClasses.bg_white
-                , HH.ClassName "md:hidden"
+                , TailwindClasses.Md.hidden
                 , TailwindClasses.relative
                 , TailwindClasses.border_b
                 , TailwindClasses.border_gray_300
@@ -150,7 +151,13 @@ app =
               ]
           ]
       , HH.div
-          [ HP.classes [ TailwindClasses.p_12, TailwindClasses.w_full, TailwindClasses.container, TailwindClasses.mx_auto ] ]
+          [ HP.classes
+            [ TailwindClasses.p_12
+            , TailwindClasses.w_full
+            , TailwindClasses.container
+            , TailwindClasses.mx_auto
+            ]
+          ]
           [ renderSlot state ]
       ]
 
@@ -176,11 +183,11 @@ app =
           -- , TailwindClasses.border_r_2
           -- , TailwindClasses.border_gray_300
           , TailwindClasses.flex_col
-          , HH.ClassName "md:overflow-visible"
-          , HH.ClassName "md:scrolling-auto"
-          , HH.ClassName "md:w-full"
-          , HH.ClassName "md:max-w-xs"
-          , HH.ClassName "md:flex"
+          , TailwindClasses.Md.overflow_visible
+          , TailwindClasses.Md.scrolling_auto
+          , TailwindClasses.Md.w_full
+          , TailwindClasses.Md.max_w_xs
+          , TailwindClasses.Md.flex
           ]
       ]
       [ HH.div

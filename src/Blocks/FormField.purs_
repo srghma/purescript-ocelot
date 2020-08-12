@@ -94,7 +94,7 @@ fieldSmall config iprops html =
   field'
     config
     iprops
-    ( HH.div [ HP.classes [ TailwindClasses.my_1, HH.ClassName "md:w-1/4" ] ] html )
+    ( HH.div [ HP.classes [ TailwindClasses.my_1, TailwindClasses.Md.w_1_over_4 ] ] html )
 
 fieldSmall_
   :: ∀ p i
@@ -113,7 +113,7 @@ fieldMid config iprops html =
   field'
     config
     iprops
-    ( HH.div [ HP.classes [ TailwindClasses.my_1, HH.ClassName "md:w-1/2" ] ] html )
+    ( HH.div [ HP.classes [ TailwindClasses.my_1, TailwindClasses.Md.w_1_over_2 ] ] html )
 
 fieldMid_
   :: ∀ p i
