@@ -1,10 +1,12 @@
 module UIGuide.Block.Backdrop where
 
 import Prelude
-import TailwindClasses as TailwindClasses
+
 import DOM.HTML.Indexed (HTMLdiv)
 import Halogen.HTML as HH
 import Halogen.HTML.Properties as HP
+import Ocelot.HTML.Properties (joinClasses)
+import TailwindClasses as TailwindClasses
 
 backdropClasses :: Array HH.ClassName
 backdropClasses =
@@ -46,7 +48,7 @@ backdrop ::
   HH.HTML p i
 backdrop iprops html =
   HH.div
-    ([ HP.classes backdropDefaultClasses ] <> iprops)
+    (joinClasses $ [ HP.classes backdropDefaultClasses ] <> iprops)
     html
 
 backdrop_ ::
@@ -62,7 +64,7 @@ backdropWhite ::
   HH.HTML p i
 backdropWhite iprops html =
   HH.div
-    ([ HP.classes backdropWhiteClasses ] <> iprops)
+    (joinClasses $ [ HP.classes backdropWhiteClasses ] <> iprops)
     html
 
 backdropWhite_ ::
@@ -78,7 +80,7 @@ backdropDark ::
   HH.HTML p i
 backdropDark iprops html =
   HH.div
-    ([ HP.classes backdropDarkClasses ] <> iprops)
+    (joinClasses $ [ HP.classes backdropDarkClasses ] <> iprops)
     html
 
 backdropDark_ ::
@@ -94,7 +96,7 @@ content ::
   HH.HTML p i
 content iprops html =
   HH.div
-    ([ HP.classes contentClasses ] <> iprops)
+    (joinClasses $ [ HP.classes contentClasses ] <> iprops)
     html
 
 content_ ::

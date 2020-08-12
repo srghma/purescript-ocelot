@@ -1,10 +1,12 @@
 module Ocelot.Block.Badge where
 
 import Prelude
+
 import DOM.HTML.Indexed (HTMLspan)
 import Halogen.HTML (HTML, IProp)
-import Halogen.HTML.Properties as HP
 import Halogen.HTML as HH
+import Halogen.HTML.Properties as HP
+import Ocelot.HTML.Properties (joinClasses)
 import TailwindClasses as TailwindClasses
 
 baseClasses :: Array HH.ClassName
@@ -31,7 +33,7 @@ badge ::
   Array (IProp HTMLspan i) ->
   Array (HTML p i) ->
   HTML p i
-badge props = HH.span $ [ HP.classes badgeClasses ] <> props
+badge iprops = HH.span $ joinClasses $ [ HP.classes badgeClasses ] <> iprops
 
 badge_ ::
   ∀ p i.
@@ -53,7 +55,7 @@ badgeSmall ::
   Array (IProp HTMLspan i) ->
   Array (HTML p i) ->
   HTML p i
-badgeSmall props = HH.span $ [ HP.classes badgeSmallClasses ] <> props
+badgeSmall iprops = HH.span $ joinClasses $ [ HP.classes badgeSmallClasses ] <> iprops
 
 badgeSmall_ ::
   ∀ p i.
@@ -74,7 +76,7 @@ badgeLarge ::
   Array (IProp HTMLspan i) ->
   Array (HTML p i) ->
   HTML p i
-badgeLarge props = HH.span $ [ HP.classes badgeLargeClasses ] <> props
+badgeLarge iprops = HH.span $ joinClasses $ [ HP.classes badgeLargeClasses ] <> iprops
 
 badgeLarge_ ::
   ∀ p i.

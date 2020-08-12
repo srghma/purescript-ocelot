@@ -177,25 +177,23 @@ app =
     Backdrop.backdrop
       [ HP.id_ "sidebar"
       , HP.classes
-          (spy "asdf"
-            [ TailwindClasses.hidden
-            , TailwindClasses.fixed
-            , TailwindClasses.inset_y_0
-            , TailwindClasses.left_0
-            , TailwindClasses.overflow_y_auto
-            , TailwindClasses.scrolling_touch
-            , TailwindClasses.w_4_over_5
-            , TailwindClasses.flex_none
-            , TailwindClasses.flex_col
-            , TailwindClasses.Md.overflow_visible
-            , TailwindClasses.Md.scrolling_auto
-            , TailwindClasses.Md.w_full
-            , TailwindClasses.Md.max_w_xs
-            , TailwindClasses.Md.flex
-            -- , TailwindClasses.border_r_2
-            -- , TailwindClasses.border_gray_300
-            ]
-          )
+          [ TailwindClasses.hidden
+          , TailwindClasses.fixed
+          , TailwindClasses.inset_y_0
+          , TailwindClasses.left_0
+          , TailwindClasses.overflow_y_auto
+          , TailwindClasses.scrolling_touch
+          , TailwindClasses.w_4_over_5
+          , TailwindClasses.flex_none
+          , TailwindClasses.flex_col
+          , TailwindClasses.Md.overflow_visible
+          , TailwindClasses.Md.scrolling_auto
+          , TailwindClasses.Md.w_full
+          , TailwindClasses.Md.max_w_xs
+          , TailwindClasses.Md.flex
+          -- , TailwindClasses.border_r_2
+          -- , TailwindClasses.border_gray_300
+          ]
       ]
       [ HH.div
           [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.p_6, TailwindClasses.overflow_y_auto ] ]
