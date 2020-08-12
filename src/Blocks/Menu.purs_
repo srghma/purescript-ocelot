@@ -58,6 +58,6 @@ option_ =
 
 highlightedOptionClasses :: Array HH.ClassName
 highlightedOptionClasses =
-  [ HH.ClassName "bg-grey-97"
+  [ TailwindClasses.bg_grey_97
   ]
 

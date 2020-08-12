@@ -71,7 +71,7 @@ headingInnerClasses =
 
 chevronClasses :: Array HH.ClassName
 chevronClasses =
-  [ HH.ClassName "text-grey-70"
+  [ TailwindClasses.text_grey_70
   , TailwindClasses.text_lg
   , TailwindClasses.leading_loose
   ]
@@ -84,13 +84,13 @@ contentClasses :: Status -> Array HH.ClassName
 contentClasses status_ = contentSharedClasses <>
   ( case status_ of
     Collapsed ->
-      [ HH.ClassName "max-h-0"
+      [ TailwindClasses.max_h_0
       , TailwindClasses.opacity_0
       , TailwindClasses.overflow_hidden
       , HH.ClassName "transition-1/4-in"
       ]
     Expanded ->
-      [ HH.ClassName "max-h-full"
+      [ TailwindClasses.max_h_full
       , TailwindClasses.opacity_1
       , HH.ClassName "transition-1/2-out"
       ]

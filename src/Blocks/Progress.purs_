@@ -13,7 +13,7 @@ import Ocelot.HTML.Properties (css, (<&>))
 bar :: ∀ p i. Ratio Number -> Array (HH.IProp HTMLdiv i) -> Array (HH.IProp HTMLspan i) -> HH.HTML p i
 bar r divProps spanProps =
   HH.div
-    ( [ HP.classes [ HH.ClassName "bg-grey-light", TailwindClasses.relative ] ] <&> divProps )
+    ( [ HP.classes [ TailwindClasses.bg_grey_light, TailwindClasses.relative ] ] <&> divProps )
     [ HH.span
       ( [ HP.classes [ TailwindClasses.block ], HP.attr (HH.AttrName "style") ("width: " <> value <> "%; text-indent: -9999px;") ] <&> spanProps )
       [ HH.text $ "Progress: " <> value ]

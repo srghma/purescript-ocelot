@@ -200,16 +200,16 @@ render st@{ query, open } =
        , TailwindClasses.no_outline
        , TailwindClasses.items_stretch
        , HH.ClassName "transition-1/4"
-       , HH.ClassName "border-b-2"
+       , TailwindClasses.border_b_2
        , TailwindClasses.group
        ]
 
      containerCondClasses =
        ifOpen
-         [ HH.ClassName "max-w-160"
-         , HH.ClassName "border-blue-88"
+         [ TailwindClasses.max_w_160
+         , TailwindClasses.border_blue_88
          ]
-         [ HH.ClassName "max-w-12"
+         [ TailwindClasses.max_w_12
          , TailwindClasses.border_transparent
          , TailwindClasses.cursor_pointer
          ]
@@ -223,11 +223,11 @@ render st@{ query, open } =
 
      iconCondClasses =
        ifOpen
-         [ HH.ClassName "text-grey-50"
+         [ TailwindClasses.text_grey_50
          , TailwindClasses.mb_0
          , TailwindClasses.mt_0
          ]
-         [ HH.ClassName "text-grey-70"
+         [ TailwindClasses.text_grey_70
          , HH.ClassName "-mb-1"
          , TailwindClasses.mt_1
          ]
@@ -249,7 +249,7 @@ render st@{ query, open } =
 
      buttonClasses =
        [ TailwindClasses.no_outline
-       , HH.ClassName "text-grey-70"
+       , TailwindClasses.text_grey_70
        , HH.ClassName "hover:text-grey-50"
        , TailwindClasses.text_xs
        , HH.ClassName "transition-1/4"

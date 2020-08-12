@@ -64,7 +64,7 @@ classesArr =
   , TailwindClasses.invisible
   , HH.ClassName "group-hover:visible"
   , TailwindClasses.text_white
-  , HH.ClassName "bg-grey-50"
+  , TailwindClasses.bg_grey_50
   , TailwindClasses.px_2
   , TailwindClasses.rounded
   , TailwindClasses.z_60

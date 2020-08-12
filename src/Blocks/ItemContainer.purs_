@@ -20,13 +20,13 @@ import Select.Setters as Setters
 menuClasses :: Array HH.ClassName
 menuClasses =
   [ TailwindClasses.bg_white
-  , HH.ClassName "text-black-20"
+  , TailwindClasses.text_black_20
   , TailwindClasses.border
   , TailwindClasses.rounded
   , TailwindClasses.shadow
   , TailwindClasses.absolute
   , TailwindClasses.z_60
-  , HH.ClassName "min-w-50"
+  , TailwindClasses.min_w_50
   ]
 
 dropdownClasses :: Array HH.ClassName
@@ -35,8 +35,8 @@ dropdownClasses = menuClasses <>
     [ TailwindClasses.absolute
     , TailwindClasses.top_full
     , TailwindClasses.left_0
-    , HH.ClassName "max-h-160"
-    , HH.ClassName "overflow-y-auto"
+    , TailwindClasses.max_h_160
+    , TailwindClasses.overflow_y_auto
     ]
 
 droprightClasses :: Array HH.ClassName
@@ -50,16 +50,16 @@ droprightClasses = menuClasses <>
 baseClasses :: Array HH.ClassName
 baseClasses =
   [ TailwindClasses.bg_white
-  , HH.ClassName "border-grey-80"
-  , HH.ClassName "border-l-2"
-  , HH.ClassName "border-r-2"
+  , TailwindClasses.border_grey_80
+  , TailwindClasses.border_l_2
+  , TailwindClasses.border_r_2
   , TailwindClasses.w_full
   ]
 
 selectionContainerClasses :: Array HH.ClassName
 selectionContainerClasses = baseClasses <>
 
-    [ HH.ClassName "border-t-2"
+    [ TailwindClasses.border_t_2
     ]
 
 itemContainerClasses :: Array HH.ClassName
@@ -67,10 +67,10 @@ itemContainerClasses = baseClasses <>
 
     [ TailwindClasses.absolute
     , TailwindClasses.shadow
-    , HH.ClassName "max-h-120"
-    , HH.ClassName "overflow-y-auto"
+    , TailwindClasses.max_h_120
+    , TailwindClasses.overflow_y_auto
     , TailwindClasses.z_50
-    , HH.ClassName "border-b-2"
+    , TailwindClasses.border_b_2
     , TailwindClasses.top_full
     , TailwindClasses.left_0
     ]
@@ -83,7 +83,7 @@ liClasses =
   [ TailwindClasses.px_4
   , TailwindClasses.py_2
   , TailwindClasses.rounded_sm
-  , HH.ClassName "text-black-20"
+  , TailwindClasses.text_black_20
   , TailwindClasses.group
   , HH.ClassName "hover:bg-grey-97"
   , TailwindClasses.cursor_pointer
@@ -99,7 +99,7 @@ selectionGroupClasses =
 buttonClasses :: Array HH.ClassName
 buttonClasses =
   [ TailwindClasses.invisible
-  , HH.ClassName "text-grey-80"
+  , TailwindClasses.text_grey_80
   , HH.ClassName "hover:text-grey-70"
   , HH.ClassName "group-hover:visible"
   ]
@@ -160,7 +160,7 @@ dropdownItem elem props html selected highlighted =
     itemClasses =
       liClasses
       <> [ TailwindClasses.flex ]
-      <> ( if highlighted then [ HH.ClassName "bg-grey-lighter" ] else [] )
+      <> ( if highlighted then [ TailwindClasses.bg_grey_lighter ] else [] )
       <> if selected then [ TailwindClasses.font_medium ] else []
 
     checkmarkClass :: Array HH.ClassName
@@ -185,7 +185,7 @@ itemContainer highlightIndex itemsHTML addlHTML =
     ( renderItems <> addlHTML )
   where
     hover :: Int -> Array HH.ClassName
-    hover i = if highlightIndex == Just i then  [ HH.ClassName "bg-grey-lighter" ] else mempty
+    hover i = if highlightIndex == Just i then  [ TailwindClasses.bg_grey_lighter ] else mempty
 
     renderItems :: Array (HH.HTML p (Select.Action action))
     renderItems =

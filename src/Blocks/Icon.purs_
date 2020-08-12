@@ -46,25 +46,25 @@ added_ :: ∀ p i. HH.HTML p i
 added_ = added []
 
 arrowDown :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-arrowDown = icon (HH.ClassName "icon-arrow-down")
+arrowDown = icon (TailwindClasses.icon_arrow_down)
 
 arrowDown_ :: ∀ p i. HH.HTML p i
 arrowDown_ = arrowDown []
 
 arrowLeft :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-arrowLeft = icon (HH.ClassName "icon-arrow-left")
+arrowLeft = icon (TailwindClasses.icon_arrow_left)
 
 arrowLeft_ :: ∀ p i. HH.HTML p i
 arrowLeft_ = arrowLeft []
 
 arrowRight :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-arrowRight = icon (HH.ClassName "icon-arrow-right")
+arrowRight = icon (TailwindClasses.icon_arrow_right)
 
 arrowRight_ :: ∀ p i. HH.HTML p i
 arrowRight_ = arrowRight []
 
 arrowUp :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-arrowUp = icon (HH.ClassName "icon-arrow-up")
+arrowUp = icon (TailwindClasses.icon_arrow_up)
 
 arrowUp_ :: ∀ p i. HH.HTML p i
 arrowUp_ = arrowUp []
@@ -76,37 +76,37 @@ back_ :: ∀ p i. HH.HTML p i
 back_ = back []
 
 caratDown :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-caratDown = icon (HH.ClassName "icon-carat-down")
+caratDown = icon (TailwindClasses.icon_carat_down)
 
 caratDown_ :: ∀ p i. HH.HTML p i
 caratDown_ = caratDown []
 
 caratLeft :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-caratLeft = icon (HH.ClassName "icon-carat-left")
+caratLeft = icon (TailwindClasses.icon_carat_left)
 
 caratLeft_ :: ∀ p i. HH.HTML p i
 caratLeft_ = caratLeft []
 
 caratRight :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-caratRight = icon (HH.ClassName "icon-carat-right")
+caratRight = icon (TailwindClasses.icon_carat_right)
 
 caratRight_ :: ∀ p i. HH.HTML p i
 caratRight_ = caratRight []
 
 caratUp :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-caratUp = icon (HH.ClassName "icon-carat-up")
+caratUp = icon (TailwindClasses.icon_carat_up)
 
 caratUp_ :: ∀ p i. HH.HTML p i
 caratUp_ = caratUp []
 
 chevronLeft :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-chevronLeft = icon (HH.ClassName "icon-chevron-left")
+chevronLeft = icon (TailwindClasses.icon_chevron_left)
 
 chevronLeft_ :: ∀ p i. HH.HTML p i
 chevronLeft_ = chevronLeft []
 
 chevronRight :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-chevronRight = icon (HH.ClassName "icon-chevron-right")
+chevronRight = icon (TailwindClasses.icon_chevron_right)
 
 chevronRight_ :: ∀ p i. HH.HTML p i
 chevronRight_ = chevronRight []
@@ -124,7 +124,7 @@ collapse_ :: ∀ p i. HH.HTML p i
 collapse_ = collapse []
 
 dataSources :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-dataSources = icon (HH.ClassName "icon-data-sources")
+dataSources = icon (TailwindClasses.icon_data_sources)
 
 dataSources_ :: ∀ p i. HH.HTML p i
 dataSources_ = dataSources []
@@ -136,7 +136,7 @@ delete_ :: ∀ p i. HH.HTML p i
 delete_ = delete []
 
 deleteCircle :: ∀ p i. Array (HH.IProp HTMLspan i) -> HH.HTML p i
-deleteCircle = icon (HH.ClassName "icon-delete-circle")
+deleteCircle = icon (TailwindClasses.icon_delete_circle)
 
 deleteCircle_ :: ∀ p i. HH.HTML p i
 deleteCircle_ = deleteCircle []

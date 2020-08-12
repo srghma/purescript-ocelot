@@ -16,7 +16,7 @@ labelClasses =
   , TailwindClasses.inline_block
   , TailwindClasses.py_2
   , TailwindClasses.cursor_pointer
-  , HH.ClassName "text-black-20"
+  , TailwindClasses.text_black_20
   , TailwindClasses.items_center
   , TailwindClasses.text_left -- styles get messed up otherwise
   ]

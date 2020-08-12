@@ -16,7 +16,7 @@ buttonClasses :: Array HH.ClassName
 buttonClasses =
   [ TailwindClasses.font_medium
   , TailwindClasses.no_outline
-  , HH.ClassName "text-blue-82"
+  , TailwindClasses.text_blue_82
   ]
 
 formPanel

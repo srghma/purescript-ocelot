@@ -53,7 +53,7 @@ captionClasses =
   [ TailwindClasses.block
   , TailwindClasses.font_light
   , TailwindClasses.mb_6
-  , HH.ClassName "text-grey-70"
+  , TailwindClasses.text_grey_70
   , TailwindClasses.text_sm
   , TailwindClasses.tracking_wide
   , TailwindClasses.uppercase
@@ -61,7 +61,7 @@ captionClasses =
 
 linkClasses :: Array HH.ClassName
 linkClasses =
-  [ HH.ClassName "text-blue-75"
+  [ TailwindClasses.text_blue_75
   , HH.ClassName "hover:text-blue-65"
   , TailwindClasses.no_underline
   , TailwindClasses.font_medium
@@ -70,7 +70,7 @@ linkClasses =
 
 linkDarkClasses :: Array HH.ClassName
 linkDarkClasses =
-  [ HH.ClassName "text-grey-light"
+  [ TailwindClasses.text_grey_light
   , HH.ClassName "hover:text-grey-lighter"
   , TailwindClasses.no_underline
   , TailwindClasses.font_medium
@@ -79,7 +79,7 @@ linkDarkClasses =
 
 mutedClasses :: Array HH.ClassName
 mutedClasses =
-  [ HH.ClassName "text-grey-50"
+  [ TailwindClasses.text_grey_50
   ]
 
 pClasses :: Array HH.ClassName

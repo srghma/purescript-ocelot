@@ -36,7 +36,7 @@ labelClasses =
   [ TailwindClasses.block
   , TailwindClasses.font_medium
   , TailwindClasses.leading_loose
-  , HH.ClassName "text-black-20"
+  , TailwindClasses.text_black_20
   ]
 
 type FieldConfig p i =

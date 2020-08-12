@@ -25,7 +25,7 @@ type IsActive = Boolean
 
 outerClasses :: Array HH.ClassName
 outerClasses =
-  [ HH.ClassName "bg-black-10"
+  [ TailwindClasses.bg_black_10
   , TailwindClasses.w_full
   ]
 
@@ -48,18 +48,18 @@ tabClasses =
 
 activeTabClasses :: Array HH.ClassName
 activeTabClasses =
-  [ HH.ClassName "border-b-2"
-  , HH.ClassName "border-blue-88"
+  [ TailwindClasses.border_b_2
+  , TailwindClasses.border_blue_88
   , TailwindClasses.text_white
   ]
 
 inactiveTabClasses :: Array HH.ClassName
 inactiveTabClasses =
-  [ HH.ClassName "border-b-2"
-  , HH.ClassName "border-black-10"
+  [ TailwindClasses.border_b_2
+  , TailwindClasses.border_black_10
   , HH.ClassName "hover:border-blue-88"
   , HH.ClassName "hover:text-white"
-  , HH.ClassName "text-grey-70"
+  , TailwindClasses.text_grey_70
   ]
 
 tabTextClasses :: Array HH.ClassName

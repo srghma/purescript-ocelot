@@ -98,9 +98,9 @@ data SelectedStatus
 
 dropdownClasses :: Array HH.ClassName
 dropdownClasses =
-  [ HH.ClassName "max-h-80"
+  [ TailwindClasses.max_h_80
   , TailwindClasses.w_full
-  , HH.ClassName "overflow-y-scroll"
+  , TailwindClasses.overflow_y_scroll
   , TailwindClasses.top_0
   , TailwindClasses.left_0
   , TailwindClasses.bg_white

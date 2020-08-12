@@ -418,7 +418,7 @@ calendarNav y m =
     arrowButton q =
       Button.buttonClear
         [ HE.onClick $ Just <<< S.Action <<< const q
-        , HP.classes [ HH.ClassName "text-grey-70", TailwindClasses.p_3 ]
+        , HP.classes [ TailwindClasses.text_grey_70, TailwindClasses.p_3 ]
         ]
 
     -- Show the month and year
@@ -430,7 +430,7 @@ calendarNav y m =
 calendarHeader :: forall m. CompositeComponentHTML m
 calendarHeader =
   HH.div
-    [ HP.classes [ TailwindClasses.flex, HH.ClassName "text-grey-70" ] ]
+    [ HP.classes [ TailwindClasses.flex, TailwindClasses.text_grey_70 ] ]
     ( headers <#>
       \day ->
         HH.div

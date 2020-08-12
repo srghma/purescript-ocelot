@@ -102,11 +102,11 @@ backgroundClasses =
 modalClasses :: Array HH.ClassName
 modalClasses =
   [ TailwindClasses.fixed
-  , HH.ClassName "inset-x-0"
+  , TailwindClasses.inset_x_0
   , TailwindClasses.top_0
   , TailwindClasses.my_20
   , TailwindClasses.m_auto
-  , HH.ClassName "max-w-lg"
+  , TailwindClasses.max_w_lg
   , TailwindClasses.slide_down
   , TailwindClasses.z_10
   ]
@@ -114,9 +114,9 @@ modalClasses =
 bodyClasses :: Array HH.ClassName
 bodyClasses =
   [ TailwindClasses.relative
-  , HH.ClassName "bg-grey-95"
+  , TailwindClasses.bg_grey_95
   , TailwindClasses.overflow_auto
-  , HH.ClassName "max-h-full"
+  , TailwindClasses.max_h_full
   , TailwindClasses.w_full
   , TailwindClasses.flex_col
   , TailwindClasses.flex

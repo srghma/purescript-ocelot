@@ -11,11 +11,11 @@ import Ocelot.HTML.Properties ((<&>))
 inputSharedClasses :: Array HH.ClassName
 inputSharedClasses =
   [ TailwindClasses.bg_white
-  , HH.ClassName "border-t-2"
-  , HH.ClassName "border-b-2"
+  , TailwindClasses.border_t_2
+  , TailwindClasses.border_b_2
   , TailwindClasses.font_light
-  , HH.ClassName "cc-blue-88"
-  , HH.ClassName "border-grey-80"
+  , TailwindClasses.cc_blue_88
+  , TailwindClasses.border_grey_80
   , HH.ClassName "disabled:bg-grey-95"
   , HH.ClassName "disabled:text-grey-70"
   , HH.ClassName "focus:no-outline"
@@ -25,8 +25,8 @@ inputSharedClasses =
 inputClasses :: Array HH.ClassName
 inputClasses = inputSharedClasses <>
 
-    [ HH.ClassName "border-l-2"
-    , HH.ClassName "border-r-2"
+    [ TailwindClasses.border_l_2
+    , TailwindClasses.border_r_2
     , TailwindClasses.w_full
     , TailwindClasses.px_3
     , HH.ClassName "focus:border-blue-88"
@@ -62,7 +62,7 @@ centerClasses = inputSharedClasses <>
 leftClasses :: Array HH.ClassName
 leftClasses = inputSharedClasses <>
 
-    [ HH.ClassName "border-l-2"
+    [ TailwindClasses.border_l_2
     , TailwindClasses.pl_3
     , TailwindClasses.pr_1
     ]
@@ -70,7 +70,7 @@ leftClasses = inputSharedClasses <>
 rightClasses :: Array HH.ClassName
 rightClasses = inputSharedClasses <>
 
-    [ HH.ClassName "border-r-2"
+    [ TailwindClasses.border_r_2
     , TailwindClasses.pr_3
     , TailwindClasses.pl_1
     ]
@@ -88,7 +88,7 @@ addonClasses :: Array HH.ClassName
 addonClasses = inputSharedClasses <>
 
     [ TailwindClasses.cursor_pointer
-    , HH.ClassName "text-grey-70"
+    , TailwindClasses.text_grey_70
     ]
 
 addonCenterClasses :: Array HH.ClassName
@@ -124,7 +124,7 @@ borderRightClasses = borderClasses <>
 textareaClasses :: Array HH.ClassName
 textareaClasses = inputClasses <>
 
-    [ HH.ClassName "min-h-40"
+    [ TailwindClasses.min_h_40
     ]
 
 input

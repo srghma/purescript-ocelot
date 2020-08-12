@@ -52,7 +52,7 @@ toastClasses =
   , TailwindClasses.mr_auto
   , TailwindClasses.items_center
   , TailwindClasses.border
-  , HH.ClassName "border-grey-80"
+  , TailwindClasses.border_grey_80
   , TailwindClasses.bg_white
   , TailwindClasses.rounded
   , TailwindClasses.flex

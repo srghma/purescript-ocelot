@@ -13,7 +13,7 @@ popoverClasses =
   , TailwindClasses.shadow
   , TailwindClasses.z_50
   , TailwindClasses.border
-  , HH.ClassName "border-grey-90"
+  , TailwindClasses.border_grey_90
   , TailwindClasses.rounded
   ]
 
@@ -34,7 +34,7 @@ stickyClasses :: Array HH.ClassName
 stickyClasses =
   [ TailwindClasses.fixed
   , TailwindClasses.top_0
-  , HH.ClassName "inset-x-0"
+  , TailwindClasses.inset_x_0
   , TailwindClasses.w_full
   , TailwindClasses.shadow_md
   , TailwindClasses.z_60

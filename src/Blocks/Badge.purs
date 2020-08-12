@@ -14,7 +14,7 @@ baseClasses =
   , TailwindClasses.flex
   , TailwindClasses.justify_center
   , TailwindClasses.items_center
-  , HH.ClassName "bg-blue-88"
+  , TailwindClasses.bg_blue_88
   , TailwindClasses.text_white
   ]
 

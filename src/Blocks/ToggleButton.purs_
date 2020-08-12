@@ -46,9 +46,9 @@ toggleButtonClasses =
   , HH.ClassName "disabled:cursor-default"
   , HH.ClassName "!disabled:cursor-pointer"
   , TailwindClasses.bg_white
-  , HH.ClassName "border-grey-80"
+  , TailwindClasses.border_grey_80
   , TailwindClasses.border_2
   , HH.ClassName "focus:bg-grey-50-a30"
-  , HH.ClassName "text-black-20"
+  , TailwindClasses.text_black_20
   , TailwindClasses.inline_block
   ]
