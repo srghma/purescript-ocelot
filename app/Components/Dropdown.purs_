@@ -253,7 +253,7 @@ component =
                   ( SelectSetters.setContainerProps [ visibilityClasses ] )
                   [ Choice.header_
                     [ HH.span
-                      [ HP.classes [ TailwindClasses.font_medium, HH.ClassName "text-gray-50" ] ]
+                      [ HP.classes [ TailwindClasses.font_medium, TailwindClasses.text_gray_50 ] ]
                       [ HH.text "Advertise on..." ]
                     ]
                   , Choice.body_ $
@@ -276,21 +276,21 @@ component =
                 Facebook ->
                   [ HH.div_
                     [ Icon.facebook
-                      [ HP.classes [ HH.ClassName "text-fb-blue", TailwindClasses.text_4xl ] ]
+                      [ HP.classes [ TailwindClasses.text_fb_blue, TailwindClasses.text_4xl ] ]
                     ]
                   , HH.div_
                     [ HH.p
-                      [ HP.classes [ HH.ClassName "text-black-20", TailwindClasses.font_light ] ]
+                      [ HP.classes [ TailwindClasses.text_black_20, TailwindClasses.font_light ] ]
                       [ HH.text "Facebook" ]
                     ]
                   ]
                 Twitter ->
                   [ HH.div_
                     [ Icon.twitter
-                      [ HP.classes [ HH.ClassName "text-tw-blue", TailwindClasses.text_4xl ] ] ]
+                      [ HP.classes [ TailwindClasses.text_tw_blue, TailwindClasses.text_4xl ] ] ]
                   , HH.div_
                     [ HH.p
-                      [ HP.classes [ HH.ClassName "text-black-20", TailwindClasses.font_light ] ]
+                      [ HP.classes [ TailwindClasses.text_black_20, TailwindClasses.font_light ] ]
                       [ HH.text "Twitter" ]
                     ]
                   ]

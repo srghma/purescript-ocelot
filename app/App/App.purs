@@ -109,7 +109,7 @@ app =
   render state =
     HH.body_
       [ HH.div
-          [ HP.classes [ HH.ClassName "min-h-screen" ] ]
+          [ HP.classes [ TailwindClasses.min_h_screen ] ]
           [ renderSidebar state
           , renderContainer state
           ]
@@ -126,7 +126,7 @@ app =
             ]
           ]
           [ HH.div
-              [ HP.classes [ TailwindClasses.top_0, TailwindClasses.bg_white, HH.ClassName "md:hidden", TailwindClasses.relative, TailwindClasses.border_b, HH.ClassName "border-gray-light", TailwindClasses.h_12, TailwindClasses.py_8, TailwindClasses.flex, TailwindClasses.items_center ] ]
+              [ HP.classes [ TailwindClasses.top_0, TailwindClasses.bg_white, HH.ClassName "md:hidden", TailwindClasses.relative, TailwindClasses.border_b, TailwindClasses.border_gray_300, TailwindClasses.h_12, TailwindClasses.py_8, TailwindClasses.flex, TailwindClasses.items_center ] ]
               [ HH.a
                   [ HP.classes [ TailwindClasses.mx_auto, TailwindClasses.inline_flex, TailwindClasses.items_center ]
                   , HP.href ""
@@ -152,9 +152,9 @@ app =
       , HP.classes
           [ TailwindClasses.hidden
           , TailwindClasses.fixed
-          , HH.ClassName "inset-y-0"
+          , TailwindClasses.inset_y_0
           , TailwindClasses.left_0
-          , HH.ClassName "overflow-y-auto"
+          , TailwindClasses.overflow_y_auto
           , HH.ClassName "md:overflow-visible"
           , TailwindClasses.scrolling_touch
           , HH.ClassName "md:scrolling-auto"
@@ -162,14 +162,14 @@ app =
           , HH.ClassName "md:w-full"
           , HH.ClassName "md:max-w-xs"
           , TailwindClasses.flex_none
-          -- , HH.ClassName "border-r-2"
-          -- , HH.ClassName "border-gray-light"
+          -- , TailwindClasses.border_r_2
+          -- , TailwindClasses.border_gray_300
           , HH.ClassName "md:flex"
           , TailwindClasses.flex_col
           ]
       ]
       [ HH.div
-          [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.p_6, HH.ClassName "overflow-y-auto" ] ]
+          [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.p_6, TailwindClasses.overflow_y_auto ] ]
           [ HH.header_
               [ Format.heading
                   [ HP.class_ $ TailwindClasses.flex ]
@@ -181,7 +181,7 @@ app =
                   ]
               ]
           , HH.nav
-              [ HP.classes [ TailwindClasses.text_base, HH.ClassName "overflow-y-auto" ] ]
+              [ HP.classes [ TailwindClasses.text_base, TailwindClasses.overflow_y_auto ] ]
               (renderGroups state)
           ]
       ]

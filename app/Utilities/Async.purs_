@@ -164,9 +164,9 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
       , TailwindClasses.h_6
       , TailwindClasses.rounded_full
       , TailwindClasses.overflow_hidden
-      , HH.ClassName "border-t-4"
-      , HH.ClassName "border-l-2"
-      , HH.ClassName "border-r-2"
+      , TailwindClasses.border_t_4
+      , TailwindClasses.border_l_2
+      , TailwindClasses.border_r_2
       , HH.ClassName ("border-" <> colorToCSSColor hairColor)
       , HH.ClassName ("bg-" <> colorToCSSColor skinColor1)
       , TailwindClasses.relative

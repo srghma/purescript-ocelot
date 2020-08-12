@@ -39,7 +39,7 @@ component =
             [ Backdrop.content_
               [ HH.p
                 ( [ HP.classes Format.subHeadingClasses ] <&>
-                  [ HP.classes [ HH.ClassName "min-w-9", TailwindClasses.justify_center ] ]
+                  [ HP.classes [ TailwindClasses.min_w_9, TailwindClasses.justify_center ] ]
                 )
                 [ icon ]
               ]
@@ -74,7 +74,7 @@ component =
             , Tuple "Delete" Icon.delete_
             , Tuple "Delete Circle" Icon.deleteCircle_
             , Tuple "Add" Icon.add_
-            , Tuple "Added" $ Icon.added [ HP.classes [ HH.ClassName "text-blue-88" ] ]
+            , Tuple "Added" $ Icon.added [ HP.classes [ TailwindClasses.text_blue_88 ] ]
             , Tuple "Arrow Up" Icon.arrowUp_
             , Tuple "Arrow Down" Icon.arrowDown_
             , Tuple "Arrow Left" Icon.arrowLeft_
@@ -91,9 +91,9 @@ component =
             , Tuple "Tip" $ Icon.tip [ HP.classes [ TailwindClasses.text_yellow ] ]
             , Tuple "Info" $ Icon.info [ HP.classes [ TailwindClasses.text_blue ] ]
             , Tuple "Success" $ Icon.success [ HP.classes [ TailwindClasses.text_green ] ]
-            , Tuple "Facebook" $ Icon.facebook [ HP.classes [ HH.ClassName "text-fb-blue" ] ]
-            , Tuple "Instagram" $ Icon.instagram [ HP.classes [ HH.ClassName "text-ig-brown" ] ]
-            , Tuple "Twitter" $ Icon.twitter [ HP.classes [ HH.ClassName "text-tw-blue" ] ]
+            , Tuple "Facebook" $ Icon.facebook [ HP.classes [ TailwindClasses.text_fb_blue ] ]
+            , Tuple "Instagram" $ Icon.instagram [ HP.classes [ TailwindClasses.text_ig_brown ] ]
+            , Tuple "Twitter" $ Icon.twitter [ HP.classes [ TailwindClasses.text_tw_blue ] ]
             , Tuple "Timeline" Icon.timeline_
             , Tuple "Navigate" Icon.navigate_
             , Tuple "Data Sources" Icon.dataSources_

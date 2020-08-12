@@ -7,7 +7,7 @@ import Halogen.HTML.Properties as HP
 
 headerClasses :: Array HH.ClassName
 headerClasses =
-  [ HH.ClassName "bg-blue-darkest"
+  [ TailwindClasses.bg_blue_900
   , TailwindClasses.h_12
   , TailwindClasses.w_full
   ]

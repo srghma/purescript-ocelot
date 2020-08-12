@@ -100,13 +100,13 @@ tableData =
     , icon: Icon.success [ HP.classes [ TailwindClasses.text_green ] ]
     }
   , { name: "This is what the Facebook icon looks like"
-    , icon: Icon.facebook [ HP.classes [ HH.ClassName "text-fb-blue" ] ]
+    , icon: Icon.facebook [ HP.classes [ TailwindClasses.text_fb_blue ] ]
     }
   , { name: "This is what the Instagram icon looks like"
-    , icon: Icon.instagram [ HP.classes [ HH.ClassName "text-ig-brown" ] ]
+    , icon: Icon.instagram [ HP.classes [ TailwindClasses.text_ig_brown ] ]
     }
   , { name: "This is what the Twitter icon looks like"
-    , icon: Icon.twitter [ HP.classes [ HH.ClassName "text-tw-blue" ] ]
+    , icon: Icon.twitter [ HP.classes [ TailwindClasses.text_tw_blue ] ]
     }
   , { name: "This is what a progress bar looks like"
     , icon: Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]

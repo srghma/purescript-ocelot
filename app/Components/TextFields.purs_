@@ -332,7 +332,7 @@ cnDocumentationBlocks =
                 , HP.id_ "search-loading"
                 , HP.value "Something"
                 ]
-              , Input.addonCenter_ [ Loading.spinner [ HP.classes [ TailwindClasses.w_6, HH.ClassName "text-blue-88" ] ] ]
+              , Input.addonCenter_ [ Loading.spinner [ HP.classes [ TailwindClasses.w_6, TailwindClasses.text_blue_88 ] ] ]
               , Input.addonLeft_ [ Icon.search_ ]
               , Input.borderRight
                 [ HP.classes Format.linkClasses ]

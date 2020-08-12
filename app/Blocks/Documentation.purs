@@ -31,7 +31,7 @@ subHeadingClasses :: Array HH.ClassName
 subHeadingClasses =
   [ HH.ClassName "w-1/2"
   , TailwindClasses.font_light
-  , HH.ClassName "text-gray-50"
+  , TailwindClasses.text_gray_50
   ]
 
 calloutClasses :: Array HH.ClassName
