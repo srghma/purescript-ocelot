@@ -87,7 +87,7 @@ render { date, time, targetDate, disabled } =
   HH.div
     [ HP.classes [ TailwindClasses.flex ] ]
     [ HH.div
-      [ HP.classes [ HH.ClassName "w-1/2", TailwindClasses.mr_2 ] ]
+      [ HP.classes [ TailwindClasses.w_1_over_2, TailwindClasses.mr_2 ] ]
       [ HH.slot _datepicker unit DatePicker.component
         { targetDate
         , selection: date

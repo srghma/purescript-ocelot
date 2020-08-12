@@ -199,7 +199,7 @@ render st@{ query, open } =
        [ TailwindClasses.flex
        , TailwindClasses.no_outline
        , TailwindClasses.items_stretch
-       , HH.ClassName "transition-1/4"
+       , TailwindClasses.transition_1_over_4
        , TailwindClasses.border_b_2
        , TailwindClasses.group
        ]
@@ -218,7 +218,7 @@ render st@{ query, open } =
        [ TailwindClasses.pr_3
        , TailwindClasses.text_2xl
        , HH.ClassName "group-hover:text-gray-50"
-       , HH.ClassName "transition-1/4"
+       , TailwindClasses.transition_1_over_4
        ]
 
      iconCondClasses =
@@ -237,7 +237,7 @@ render st@{ query, open } =
        , TailwindClasses.flex_1
        , TailwindClasses.bg_transparent
        , TailwindClasses.h_full
-       , HH.ClassName "transition-1/4"
+       , TailwindClasses.transition_1_over_4
        ]
 
      inputCondClasses =
@@ -252,7 +252,7 @@ render st@{ query, open } =
        , TailwindClasses.text_gray_70
        , HH.ClassName "hover:text-gray-50"
        , TailwindClasses.text_xs
-       , HH.ClassName "transition-1/4"
+       , TailwindClasses.transition_1_over_4
        , TailwindClasses.flex_shrink
        ]
 

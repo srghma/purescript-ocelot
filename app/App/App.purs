@@ -126,9 +126,24 @@ app =
             ]
           ]
           [ HH.div
-              [ HP.classes [ TailwindClasses.top_0, TailwindClasses.bg_white, HH.ClassName "md:hidden", TailwindClasses.relative, TailwindClasses.border_b, TailwindClasses.border_gray_300, TailwindClasses.h_12, TailwindClasses.py_8, TailwindClasses.flex, TailwindClasses.items_center ] ]
+              [ HP.classes
+                [ TailwindClasses.top_0
+                , TailwindClasses.bg_white
+                , HH.ClassName "md:hidden"
+                , TailwindClasses.relative
+                , TailwindClasses.border_b
+                , TailwindClasses.border_gray_300
+                , TailwindClasses.h_12
+                , TailwindClasses.py_8
+                , TailwindClasses.flex
+                , TailwindClasses.items_center ]
+              ]
               [ HH.a
-                  [ HP.classes [ TailwindClasses.mx_auto, TailwindClasses.inline_flex, TailwindClasses.items_center ]
+                  [ HP.classes
+                    [ TailwindClasses.mx_auto
+                    , TailwindClasses.inline_flex
+                    , TailwindClasses.items_center
+                    ]
                   , HP.href ""
                   ]
                   [ HH.text "CitizenNet UI Guide" ]
@@ -155,17 +170,17 @@ app =
           , TailwindClasses.inset_y_0
           , TailwindClasses.left_0
           , TailwindClasses.overflow_y_auto
-          , HH.ClassName "md:overflow-visible"
           , TailwindClasses.scrolling_touch
-          , HH.ClassName "md:scrolling-auto"
-          , HH.ClassName "w-4/5"
-          , HH.ClassName "md:w-full"
-          , HH.ClassName "md:max-w-xs"
+          , TailwindClasses.w_4_over_5
           , TailwindClasses.flex_none
           -- , TailwindClasses.border_r_2
           -- , TailwindClasses.border_gray_300
-          , HH.ClassName "md:flex"
           , TailwindClasses.flex_col
+          , HH.ClassName "md:overflow-visible"
+          , HH.ClassName "md:scrolling-auto"
+          , HH.ClassName "md:w-full"
+          , HH.ClassName "md:max-w-xs"
+          , HH.ClassName "md:flex"
           ]
       ]
       [ HH.div

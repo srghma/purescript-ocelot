@@ -72,7 +72,7 @@ component =
             [ Backdrop.content
               [ HP.classes [ TailwindClasses.mt_0 ] ]
               [ Card.card
-                [ HP.classes [ HH.ClassName "w-1/2", TailwindClasses.m_auto ] ]
+                [ HP.classes [ TailwindClasses.w_1_over_2, TailwindClasses.m_auto ] ]
                 [ FormField.field
                   { helpText: [ HH.text "The function of this field is not clear." ]
                   , label: HH.div_

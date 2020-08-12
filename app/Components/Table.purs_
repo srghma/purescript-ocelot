@@ -56,7 +56,7 @@ component =
           Table.row_
             [ Table.header  [ HP.classes [ TailwindClasses.w_10 ] ] [ HH.text "" ]
             , Table.header_ [ HH.text "Icon" ]
-            , Table.header  [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.text_left ] ] [ HH.text "Description" ]
+            , Table.header  [ HP.classes [ TailwindClasses.w_2_over_3, TailwindClasses.text_left ] ] [ HH.text "Description" ]
             , Table.header_ [ HH.text "" ]
             ]
 
@@ -109,12 +109,12 @@ tableData =
     , icon: Icon.twitter [ HP.classes [ TailwindClasses.text_tw_blue ] ]
     }
   , { name: "This is what a progress bar looks like"
-    , icon: Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]
+    , icon: Progress.bar (3.0 % 5.0) [ HP.classes [ TailwindClasses.w_2_over_3, TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]
     }
   , { name: "This is what a progress bar with a top caption looks like"
     , icon: HH.div_
         [ HH.p [ HP.classes [ TailwindClasses.text_sm, TailwindClasses.pb_2 ] ] [ HH.text "60% of campaign spent" ]
-        , Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]
+        , Progress.bar (3.0 % 5.0) [ HP.classes [ TailwindClasses.w_2_over_3, TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]
         ]
     }
   ]

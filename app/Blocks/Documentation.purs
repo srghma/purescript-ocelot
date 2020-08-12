@@ -24,12 +24,12 @@ introClasses =
 
 headingClasses :: Array HH.ClassName
 headingClasses =
-  [ HH.ClassName "w-1/2"
+  [ TailwindClasses.w_1_over_2
   ]
 
 subHeadingClasses :: Array HH.ClassName
 subHeadingClasses =
-  [ HH.ClassName "w-1/2"
+  [ TailwindClasses.w_1_over_2
   , TailwindClasses.font_light
   , TailwindClasses.text_gray_50
   ]

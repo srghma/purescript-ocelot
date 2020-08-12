@@ -33,7 +33,7 @@ inputClasses =
 
 toggleClasses :: Array HH.ClassName
 toggleClasses =
-  [ HH.ClassName "transition-1/8"
+  [ TailwindClasses.transition_1_over_8
   , TailwindClasses.inline_flex
   , TailwindClasses.justify_center
   , TailwindClasses.items_center
