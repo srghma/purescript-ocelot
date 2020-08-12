@@ -197,7 +197,7 @@ render st@{ query, open } =
    where
      containerClasses =
        [ TailwindClasses.flex
-       , TailwindClasses.no_outline
+       , TailwindClasses.outline_none
        , TailwindClasses.items_stretch
        , TailwindClasses.transition_1_over_4
        , TailwindClasses.border_b_2
@@ -233,7 +233,7 @@ render st@{ query, open } =
          ]
 
      inputClasses =
-       [ TailwindClasses.no_outline
+       [ TailwindClasses.outline_none
        , TailwindClasses.flex_1
        , TailwindClasses.bg_transparent
        , TailwindClasses.h_full
@@ -248,7 +248,7 @@ render st@{ query, open } =
          ]
 
      buttonClasses =
-       [ TailwindClasses.no_outline
+       [ TailwindClasses.outline_none
        , TailwindClasses.text_gray_70
        , HH.ClassName "hover:text-gray-50"
        , TailwindClasses.text_xs

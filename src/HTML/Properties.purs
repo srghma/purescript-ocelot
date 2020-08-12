@@ -1,5 +1,7 @@
 module Ocelot.HTML.Properties
   ( joinClasses
+  , appendIProps
+  , (<&>)
   ) where
 
 import Prelude
@@ -8,11 +10,7 @@ import Control.Monad.ST as ST
 import Data.Array as Array
 import Data.Array.ST as STA
 import Data.Array.ST.Iterator as STAI
-import Data.Bifunctor (lmap, rmap)
-import Data.String (Pattern(..), null, split)
 import Data.String as String
-import Data.String.CodeUnits (length, take, drop)
-import Data.Tuple (Tuple(..))
 import Halogen.HTML as HH
 import Halogen.HTML.Core (Prop(..), PropValue)
 import Halogen.HTML.Properties as HP
@@ -35,3 +33,12 @@ joinClasses xs =
     void $ STA.push (HP.IProp (Property "className" ((unsafeCoerce :: String -> PropValue) (String.joinWith " " classNames')))) otherProps
     allProps <- STA.unsafeFreeze $ otherProps
     pure $ allProps
+
+appendIProps
+  :: ∀ r i
+   . Array (HH.IProp ("class" :: String | r) i)
+  -> Array (HH.IProp ("class" :: String | r) i)
+  -> Array (HH.IProp ("class" :: String | r) i)
+appendIProps a b = joinClasses (a <> b)
+
+infixr 5 appendIProps as <&>

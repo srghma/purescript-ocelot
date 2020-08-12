@@ -10,7 +10,7 @@ import TailwindClasses as TailwindClasses
 
 buttonSharedClasses :: Array HH.ClassName
 buttonSharedClasses =
-  [ TailwindClasses.no_outline
+  [ TailwindClasses.outline_none
   , TailwindClasses.px_4
   , TailwindClasses.py_2
   , HH.ClassName "!active:border-b"

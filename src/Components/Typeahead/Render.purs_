@@ -218,7 +218,7 @@ renderSearchDropdown resetLabel label renderFuzzy st =
         [ HP.classes [ TailwindClasses.m_4, TailwindClasses.border_b_2, TailwindClasses.border_blue_88, TailwindClasses.pb_2, HH.ClassName "$6" ] ]
         [ Icon.search [ HP.classes [ TailwindClasses.mr_4, TailwindClasses.text_xl, TailwindClasses.text_gray_70 ] ]
         , HH.input
-          $ inputProps false [ HP.classes [ TailwindClasses.no_outline, TailwindClasses.w_full ], HP.placeholder "Search" ]
+          $ inputProps false [ HP.classes [ TailwindClasses.outline_none, TailwindClasses.w_full ], HP.placeholder "Search" ]
         ]
 
     renderReset =

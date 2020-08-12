@@ -15,7 +15,7 @@ type FormPanelProps =
 buttonClasses :: Array HH.ClassName
 buttonClasses =
   [ TailwindClasses.font_medium
-  , TailwindClasses.no_outline
+  , TailwindClasses.outline_none
   , TailwindClasses.text_blue_82
   ]
 

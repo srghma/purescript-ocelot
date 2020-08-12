@@ -39,7 +39,7 @@ inputClasses =
 
 toggleButtonClasses :: Array HH.ClassName
 toggleButtonClasses =
-  [ TailwindClasses.no_outline
+  [ TailwindClasses.outline_none
   , TailwindClasses.px_4
   , TailwindClasses.py_2
   , HH.ClassName "disabled:opacity-50"
