@@ -41,6 +41,8 @@ import webpackGetError from './lib/webpackGetError'
           console.error(error)
           return
         }
+
+        console.log('[webpack] Compiling done')
       })
     }
   })
