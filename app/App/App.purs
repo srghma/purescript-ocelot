@@ -58,7 +58,6 @@ type Page m
 
 data Group
   = Basics
-  | FormElements
   | Components
 
 derive instance eqGroup :: Eq Group
@@ -67,7 +66,6 @@ derive instance ordGroup :: Ord Group
 
 instance showGroup :: Show Group where
   show Basics = "Basics"
-  show FormElements = "Form Elements"
   show Components = "Components"
 
 type HTML m
