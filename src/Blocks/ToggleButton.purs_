@@ -30,10 +30,10 @@ toggleButton iprops inprops html =
 
 inputClasses :: Array HH.ClassName
 inputClasses =
-  [ HH.ClassName "checked:neighbor:bg-grey-50"
+  [ HH.ClassName "checked:neighbor:bg-gray-50"
   , HH.ClassName "checked:neighbor:text-white"
-  , HH.ClassName "checked:neighbor:border-grey-50"
-  , HH.ClassName "!checked:neighbor:hover:bg-grey-80"
+  , HH.ClassName "checked:neighbor:border-gray-50"
+  , HH.ClassName "!checked:neighbor:hover:bg-gray-80"
   , HH.ClassName "!checked:neighbor:hover:text-black-10!"
   ]
 
@@ -46,9 +46,9 @@ toggleButtonClasses =
   , HH.ClassName "disabled:cursor-default"
   , HH.ClassName "!disabled:cursor-pointer"
   , TailwindClasses.bg_white
-  , TailwindClasses.border_grey_80
+  , TailwindClasses.border_gray_80
   , TailwindClasses.border_2
-  , HH.ClassName "focus:bg-grey-50-a30"
+  , HH.ClassName "focus:bg-gray-50-a30"
   , TailwindClasses.text_black_20
   , TailwindClasses.inline_block
   ]

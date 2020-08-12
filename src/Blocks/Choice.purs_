@@ -14,7 +14,7 @@ choiceClasses =
   , TailwindClasses.bg_white
   , TailwindClasses.rounded_lg
   , TailwindClasses.border
-  , TailwindClasses.border_grey_90
+  , TailwindClasses.border_gray_90
   , TailwindClasses.shadow
   , TailwindClasses.overflow_hidden
   ]
@@ -42,7 +42,7 @@ headerClasses =
   , TailwindClasses.justify_center
   , TailwindClasses.items_center
   , TailwindClasses.border_b
-  , TailwindClasses.border_grey_90
+  , TailwindClasses.border_gray_90
   ]
 
 header
@@ -110,5 +110,5 @@ option_ =
 
 highlightedOptionClasses :: Array HH.ClassName
 highlightedOptionClasses =
-  [ TailwindClasses.bg_grey_97 ]
+  [ TailwindClasses.bg_gray_97 ]
 

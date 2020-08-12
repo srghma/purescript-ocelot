@@ -40,7 +40,7 @@ hoverClasses =
   , TailwindClasses.my_1
   , TailwindClasses.bg_white
   , TailwindClasses.border
-  , TailwindClasses.border_grey_80
+  , TailwindClasses.border_gray_80
   , TailwindClasses.rounded
   , TailwindClasses.shadow_md
   , TailwindClasses.items_center

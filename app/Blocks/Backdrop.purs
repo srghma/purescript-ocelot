@@ -16,7 +16,7 @@ backdropClasses =
 backdropDefaultClasses :: Array HH.ClassName
 backdropDefaultClasses =
   backdropClasses
-    <> [ HH.ClassName "bg-grey-95"
+    <> [ HH.ClassName "bg-gray-95"
       ]
 
 backdropWhiteClasses :: Array HH.ClassName
@@ -29,7 +29,7 @@ backdropDarkClasses :: Array HH.ClassName
 backdropDarkClasses =
   backdropClasses
     <> [ HH.ClassName "bg-black"
-      , HH.ClassName "text-grey-lighter"
+      , HH.ClassName "text-gray-lighter"
       ]
 
 contentClasses :: Array HH.ClassName

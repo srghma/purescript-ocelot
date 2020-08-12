@@ -97,7 +97,7 @@ renderMulti iprops renderItem renderContainer st =
     [ if (not disabled && not Array.null st.selected)
         then
           HH.a
-            [ HP.classes [ TailwindClasses.absolute, HH.ClassName "-mt-7", TailwindClasses.right_0, TailwindClasses.underline, TailwindClasses.text_grey_70, TailwindClasses.cursor_pointer ]
+            [ HP.classes [ TailwindClasses.absolute, HH.ClassName "-mt-7", TailwindClasses.right_0, TailwindClasses.underline, TailwindClasses.text_gray_70, TailwindClasses.cursor_pointer ]
             , HE.onClick $ const <<< Just <<< S.Action $ TA.RemoveAll
             ]
             [ HH.text "Remove All" ]
@@ -181,7 +181,7 @@ renderHeaderSearchDropdown defaultLabel resetLabel renderItem renderFuzzy st =
     label = HH.span
       [ HP.classes [ TailwindClasses.text_white, TailwindClasses.text_3xl, TailwindClasses.font_thin, TailwindClasses.cursor_pointer, HH.ClassName "$6" ] ]
       [ maybe (HH.text defaultLabel) (HH.fromPlainHTML <<< renderItem) st.selected
-      , Icon.collapse [ HP.classes [ TailwindClasses.ml_3, TailwindClasses.text_xl, TailwindClasses.text_grey_50, TailwindClasses.align_middle ] ]
+      , Icon.collapse [ HP.classes [ TailwindClasses.ml_3, TailwindClasses.text_xl, TailwindClasses.text_gray_50, TailwindClasses.align_middle ] ]
       ]
 
 renderSearchDropdown
@@ -216,7 +216,7 @@ renderSearchDropdown resetLabel label renderFuzzy st =
     renderInput =
       HH.div
         [ HP.classes [ TailwindClasses.m_4, TailwindClasses.border_b_2, TailwindClasses.border_blue_88, TailwindClasses.pb_2, HH.ClassName "$6" ] ]
-        [ Icon.search [ HP.classes [ TailwindClasses.mr_4, TailwindClasses.text_xl, TailwindClasses.text_grey_70 ] ]
+        [ Icon.search [ HP.classes [ TailwindClasses.mr_4, TailwindClasses.text_xl, TailwindClasses.text_gray_70 ] ]
         , HH.input
           $ inputProps false [ HP.classes [ TailwindClasses.no_outline, TailwindClasses.w_full ], HP.placeholder "Search" ]
         ]
@@ -236,7 +236,7 @@ renderSearchDropdown resetLabel label renderFuzzy st =
 linkClasses :: Boolean -> Array HH.ClassName
 linkClasses = if _
   then
-    [ TailwindClasses.text_grey_70
+    [ TailwindClasses.text_gray_70
     , TailwindClasses.no_underline
     , TailwindClasses.font_medium
     ]
@@ -257,10 +257,10 @@ inputProps disabled iprops = if disabled
 
 disabledClasses :: Array HH.ClassName
 disabledClasses =
-  [ TailwindClasses.bg_grey_95
-  , TailwindClasses.text_grey_70
-  , HH.ClassName "sibling:bg-grey-95"
-  , HH.ClassName "sibling:text-grey-50"
+  [ TailwindClasses.bg_gray_95
+  , TailwindClasses.text_gray_70
+  , HH.ClassName "sibling:bg-gray-95"
+  , HH.ClassName "sibling:text-gray-50"
   , TailwindClasses.border_t_2
   , TailwindClasses.border_b_2
   , TailwindClasses.font_light
@@ -287,7 +287,7 @@ renderError error =
     [ Icon.error
       [ HP.classes [ TailwindClasses.text_2xl, TailwindClasses.text_yellow ] ]
     , HH.p
-      [ HP.classes [ TailwindClasses.ml_3, TailwindClasses.text_grey_50, TailwindClasses.font_light ] ]
+      [ HP.classes [ TailwindClasses.ml_3, TailwindClasses.text_gray_50, TailwindClasses.font_light ] ]
       [ HH.text "Some data could not be retrieved here." ]
     ]
 

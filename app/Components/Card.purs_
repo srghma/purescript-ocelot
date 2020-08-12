@@ -51,7 +51,7 @@ card =
           HH.table_
             [ HH.tr_
               [ HH.th
-                [ HP.class_ (HH.ClassName "font-medium text-left text-xs text-grey-50 pr-4 py-1") ]
+                [ HP.class_ (HH.ClassName "font-medium text-left text-xs text-gray-50 pr-4 py-1") ]
                 [ HH.text "Run Ads On:"]
               , HH.td
                 [ HP.class_ (HH.ClassName "font-light text-left text-xs text-black-20 py-1") ]
@@ -59,7 +59,7 @@ card =
               ]
             , HH.tr_
               [ HH.th
-                  [ HP.class_ (HH.ClassName "font-medium text-left text-xs text-grey-50 pr-4 py-1") ]
+                  [ HP.class_ (HH.ClassName "font-medium text-left text-xs text-gray-50 pr-4 py-1") ]
                   [ HH.text "Social Account:"]
                 , HH.td
                   [ HP.class_ (HH.ClassName "font-light text-left text-xs text-black-20 py-1") ]
@@ -67,7 +67,7 @@ card =
                 ]
             , HH.tr_
               [ HH.th
-                [ HP.class_ (HH.ClassName "font-medium text-left text-xs text-grey-50 pr-4 py-1") ]
+                [ HP.class_ (HH.ClassName "font-medium text-left text-xs text-gray-50 pr-4 py-1") ]
                 [ HH.text "Ads Account:"]
               , HH.td
                 [ HP.class_ (HH.ClassName "font-light text-left text-xs text-black-20 py-1") ]

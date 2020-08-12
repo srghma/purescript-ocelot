@@ -114,7 +114,7 @@ modalClasses =
 bodyClasses :: Array HH.ClassName
 bodyClasses =
   [ TailwindClasses.relative
-  , TailwindClasses.bg_grey_95
+  , TailwindClasses.bg_gray_95
   , TailwindClasses.overflow_auto
   , TailwindClasses.max_h_full
   , TailwindClasses.w_full

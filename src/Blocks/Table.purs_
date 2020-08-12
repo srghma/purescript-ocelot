@@ -43,7 +43,7 @@ row_ = HH.tr_
 
 headerClasses :: Array HH.ClassName
 headerClasses =
-  [ TailwindClasses.bg_grey_90
+  [ TailwindClasses.bg_gray_90
   , TailwindClasses.py_4
   , TailwindClasses.px_5
   , TailwindClasses.font_medium
@@ -69,7 +69,7 @@ cellClasses =
   , TailwindClasses.p_5
   , TailwindClasses.min_h_20
   , TailwindClasses.border_b
-  , TailwindClasses.border_grey_95
+  , TailwindClasses.border_gray_95
   ]
 
 cell

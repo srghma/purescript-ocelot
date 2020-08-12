@@ -89,7 +89,7 @@ formHeader props =
     [ HH.h2
       [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.font_medium ] ]
         [ HH.span
-            [ HP.classes [ TailwindClasses.text_lg, TailwindClasses.text_grey_70, TailwindClasses.mr_4 ] ]
+            [ HP.classes [ TailwindClasses.text_lg, TailwindClasses.text_gray_70, TailwindClasses.mr_4 ] ]
             props.name
         , HH.span
             [ HP.classes [ TailwindClasses.text_lg, TailwindClasses.text_white ] ]

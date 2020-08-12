@@ -27,7 +27,7 @@ inputClasses :: Array HH.ClassName
 inputClasses =
   [ HH.ClassName "checked:sibling:bg-blue-88"
   , HH.ClassName "checked:sibling:pl-5"
-  , HH.ClassName "!checked:sibling:bg-grey-80"
+  , HH.ClassName "!checked:sibling:bg-gray-80"
   , HH.ClassName "!checked:sibling:pr-5"
   ]
 

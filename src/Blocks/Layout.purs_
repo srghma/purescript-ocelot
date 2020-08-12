@@ -13,7 +13,7 @@ popoverClasses =
   , TailwindClasses.shadow
   , TailwindClasses.z_50
   , TailwindClasses.border
-  , TailwindClasses.border_grey_90
+  , TailwindClasses.border_gray_90
   , TailwindClasses.rounded
   ]
 

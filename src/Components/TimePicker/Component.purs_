@@ -294,7 +294,7 @@ renderItem index item =
         getSelectableStyles (TimeUnit NotSelectable _ _) =
           mempty
         getSelectableStyles _ =
-          "cursor-pointer hover:bg-grey-97"
+          "cursor-pointer hover:bg-gray-97"
 
         getSelectedStyles :: TimeUnit -> String
         getSelectedStyles (TimeUnit _ Selected _) =

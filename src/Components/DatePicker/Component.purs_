@@ -418,7 +418,7 @@ calendarNav y m =
     arrowButton q =
       Button.buttonClear
         [ HE.onClick $ Just <<< S.Action <<< const q
-        , HP.classes [ TailwindClasses.text_grey_70, TailwindClasses.p_3 ]
+        , HP.classes [ TailwindClasses.text_gray_70, TailwindClasses.p_3 ]
         ]
 
     -- Show the month and year
@@ -430,7 +430,7 @@ calendarNav y m =
 calendarHeader :: forall m. CompositeComponentHTML m
 calendarHeader =
   HH.div
-    [ HP.classes [ TailwindClasses.flex, TailwindClasses.text_grey_70 ] ]
+    [ HP.classes [ TailwindClasses.flex, TailwindClasses.text_gray_70 ] ]
     ( headers <#>
       \day ->
         HH.div
@@ -504,7 +504,7 @@ renderItem index item =
 
         getBoundaryStyles :: CalendarItem -> String
         getBoundaryStyles (CalendarItem _ _ OutOfBounds _) =
-          "text-grey-90"
+          "text-gray-90"
         getBoundaryStyles _ = mempty
 
     -- Just a simple helper to format our CalendarItem into a day

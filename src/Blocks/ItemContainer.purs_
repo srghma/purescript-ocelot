@@ -50,7 +50,7 @@ droprightClasses = menuClasses <>
 baseClasses :: Array HH.ClassName
 baseClasses =
   [ TailwindClasses.bg_white
-  , TailwindClasses.border_grey_80
+  , TailwindClasses.border_gray_80
   , TailwindClasses.border_l_2
   , TailwindClasses.border_r_2
   , TailwindClasses.w_full
@@ -85,7 +85,7 @@ liClasses =
   , TailwindClasses.rounded_sm
   , TailwindClasses.text_black_20
   , TailwindClasses.group
-  , HH.ClassName "hover:bg-grey-97"
+  , HH.ClassName "hover:bg-gray-97"
   , TailwindClasses.cursor_pointer
   ]
 
@@ -99,8 +99,8 @@ selectionGroupClasses =
 buttonClasses :: Array HH.ClassName
 buttonClasses =
   [ TailwindClasses.invisible
-  , TailwindClasses.text_grey_80
-  , HH.ClassName "hover:text-grey-70"
+  , TailwindClasses.text_gray_80
+  , HH.ClassName "hover:text-gray-70"
   , HH.ClassName "group-hover:visible"
   ]
 
@@ -160,7 +160,7 @@ dropdownItem elem props html selected highlighted =
     itemClasses =
       liClasses
       <> [ TailwindClasses.flex ]
-      <> ( if highlighted then [ TailwindClasses.bg_grey_lighter ] else [] )
+      <> ( if highlighted then [ TailwindClasses.bg_gray_lighter ] else [] )
       <> if selected then [ TailwindClasses.font_medium ] else []
 
     checkmarkClass :: Array HH.ClassName
@@ -185,7 +185,7 @@ itemContainer highlightIndex itemsHTML addlHTML =
     ( renderItems <> addlHTML )
   where
     hover :: Int -> Array HH.ClassName
-    hover i = if highlightIndex == Just i then  [ TailwindClasses.bg_grey_lighter ] else mempty
+    hover i = if highlightIndex == Just i then  [ TailwindClasses.bg_gray_lighter ] else mempty
 
     renderItems :: Array (HH.HTML p (Select.Action action))
     renderItems =

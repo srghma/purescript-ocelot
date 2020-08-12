@@ -126,7 +126,7 @@ app =
             ]
           ]
           [ HH.div
-              [ HP.classes [ HH.ClassName "top-0", HH.ClassName "bg-white", HH.ClassName "md:hidden", TailwindClasses.relative, HH.ClassName "border-b", HH.ClassName "border-grey-light", HH.ClassName "h-12", HH.ClassName "py-8", TailwindClasses.flex, HH.ClassName "items-center" ] ]
+              [ HP.classes [ HH.ClassName "top-0", HH.ClassName "bg-white", HH.ClassName "md:hidden", TailwindClasses.relative, HH.ClassName "border-b", HH.ClassName "border-gray-light", HH.ClassName "h-12", HH.ClassName "py-8", TailwindClasses.flex, HH.ClassName "items-center" ] ]
               [ HH.a
                   [ HP.classes [ HH.ClassName "mx-auto", HH.ClassName "inline-flex", HH.ClassName "items-center" ]
                   , HP.href ""
@@ -163,7 +163,7 @@ app =
           , HH.ClassName "md:max-w-xs"
           , HH.ClassName "flex-none"
           -- , HH.ClassName "border-r-2"
-          -- , HH.ClassName "border-grey-light"
+          -- , HH.ClassName "border-gray-light"
           , HH.ClassName "md:flex"
           , HH.ClassName "flex-col"
           ]

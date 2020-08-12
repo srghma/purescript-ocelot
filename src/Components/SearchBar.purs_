@@ -217,17 +217,17 @@ render st@{ query, open } =
      iconClasses =
        [ TailwindClasses.pr_3
        , TailwindClasses.text_2xl
-       , HH.ClassName "group-hover:text-grey-50"
+       , HH.ClassName "group-hover:text-gray-50"
        , HH.ClassName "transition-1/4"
        ]
 
      iconCondClasses =
        ifOpen
-         [ TailwindClasses.text_grey_50
+         [ TailwindClasses.text_gray_50
          , TailwindClasses.mb_0
          , TailwindClasses.mt_0
          ]
-         [ TailwindClasses.text_grey_70
+         [ TailwindClasses.text_gray_70
          , HH.ClassName "-mb-1"
          , TailwindClasses.mt_1
          ]
@@ -249,8 +249,8 @@ render st@{ query, open } =
 
      buttonClasses =
        [ TailwindClasses.no_outline
-       , TailwindClasses.text_grey_70
-       , HH.ClassName "hover:text-grey-50"
+       , TailwindClasses.text_gray_70
+       , HH.ClassName "hover:text-gray-50"
        , TailwindClasses.text_xs
        , HH.ClassName "transition-1/4"
        , TailwindClasses.flex_shrink

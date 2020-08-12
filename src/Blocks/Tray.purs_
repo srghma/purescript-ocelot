@@ -29,7 +29,7 @@ trayClasses =
   , TailwindClasses.left_0
   , TailwindClasses.shadow
   , TailwindClasses.border_t
-  , TailwindClasses.border_grey_90
+  , TailwindClasses.border_gray_90
   , HH.ClassName "transition-1/4-out"
   , TailwindClasses.w_full
   , TailwindClasses.flex

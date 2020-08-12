@@ -253,7 +253,7 @@ component =
                   ( SelectSetters.setContainerProps [ visibilityClasses ] )
                   [ Choice.header_
                     [ HH.span
-                      [ HP.classes [ HH.ClassName "font-medium", HH.ClassName "text-grey-50" ] ]
+                      [ HP.classes [ HH.ClassName "font-medium", HH.ClassName "text-gray-50" ] ]
                       [ HH.text "Advertise on..." ]
                     ]
                   , Choice.body_ $

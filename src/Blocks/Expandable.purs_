@@ -71,7 +71,7 @@ headingInnerClasses =
 
 chevronClasses :: Array HH.ClassName
 chevronClasses =
-  [ TailwindClasses.text_grey_70
+  [ TailwindClasses.text_gray_70
   , TailwindClasses.text_lg
   , TailwindClasses.leading_loose
   ]

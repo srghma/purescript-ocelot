@@ -15,9 +15,9 @@ inputSharedClasses =
   , TailwindClasses.border_b_2
   , TailwindClasses.font_light
   , TailwindClasses.cc_blue_88
-  , TailwindClasses.border_grey_80
-  , HH.ClassName "disabled:bg-grey-95"
-  , HH.ClassName "disabled:text-grey-70"
+  , TailwindClasses.border_gray_80
+  , HH.ClassName "disabled:bg-gray-95"
+  , HH.ClassName "disabled:text-gray-70"
   , HH.ClassName "focus:no-outline"
   , TailwindClasses.py_2
   ]
@@ -30,7 +30,7 @@ inputClasses = inputSharedClasses <>
     , TailwindClasses.w_full
     , TailwindClasses.px_3
     , HH.ClassName "focus:border-blue-88"
-    , HH.ClassName "!focus:!disabled:hover:border-grey-70"
+    , HH.ClassName "!focus:!disabled:hover:border-gray-70"
     ]
 
 inputGroupClasses :: Array HH.ClassName
@@ -47,9 +47,9 @@ mainItemClasses = inputSharedClasses <>
     [ TailwindClasses.w_full
     , HH.ClassName "focus:border-blue-88"
     , HH.ClassName "focus:sibling:border-blue-88"
-    , HH.ClassName "group-hover:!focus:!disabled:border-grey-70"
-    , HH.ClassName "group-hover:!focus:!disabled:sibling:border-grey-70"
-    , HH.ClassName "disabled:sibling:bg-grey-95"
+    , HH.ClassName "group-hover:!focus:!disabled:border-gray-70"
+    , HH.ClassName "group-hover:!focus:!disabled:sibling:border-gray-70"
+    , HH.ClassName "disabled:sibling:bg-gray-95"
     ]
 
 centerClasses :: Array HH.ClassName
@@ -88,7 +88,7 @@ addonClasses :: Array HH.ClassName
 addonClasses = inputSharedClasses <>
 
     [ TailwindClasses.cursor_pointer
-    , TailwindClasses.text_grey_70
+    , TailwindClasses.text_gray_70
     ]
 
 addonCenterClasses :: Array HH.ClassName

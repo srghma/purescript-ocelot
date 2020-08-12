@@ -25,18 +25,18 @@ inputClasses :: Array HH.ClassName
 inputClasses =
   -- start shared custom classes defined for radios --
   [ HH.ClassName "!disabled:sibling:bg-white"
-  , HH.ClassName "disabled:sibling:bg-grey-95"
+  , HH.ClassName "disabled:sibling:bg-gray-95"
   , HH.ClassName "checked:sibling:before:opacity-100"
   , HH.ClassName "checked:sibling:before:scale-1"
   , HH.ClassName "checked:!disabled:sibling:border-blue-88"
   , HH.ClassName "focus:sibling:border-blue-88"
   , HH.ClassName "!checked:sibling:before:opacity-0"
   , HH.ClassName "!checked:sibling:before:scale-0"
-  , HH.ClassName "!focus:hover:!checked:!disabled:sibling:border-grey-70"
+  , HH.ClassName "!focus:hover:!checked:!disabled:sibling:border-gray-70"
   , HH.ClassName "focus:sibling:shadow"
   , HH.ClassName "checked:!disabled:sibling:before:bg-blue-88"
-  , HH.ClassName "checked:disabled:sibling:before:bg-grey-80"
-  , HH.ClassName "checked:disabled:sibling:border-grey-80"
+  , HH.ClassName "checked:disabled:sibling:before:bg-gray-80"
+  , HH.ClassName "checked:disabled:sibling:border-gray-80"
   -- end shared custom radio classes --
   , HH.ClassName "checked:sibling:after:opacity-100"
   , HH.ClassName "checked:sibling:after:scale-1"
