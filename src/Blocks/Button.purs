@@ -9,17 +9,18 @@ import Ocelot.HTML.Properties ((<&>))
 import TailwindClasses as TailwindClasses
 import TailwindClasses.Active as TailwindClasses.Active
 import TailwindClasses.Hover as TailwindClasses.Hover
+import TailwindClasses.Disabled as TailwindClasses.Disabled
 
 buttonSharedClasses :: Array HH.ClassName
 buttonSharedClasses =
   [ TailwindClasses.outline_none
   , TailwindClasses.px_4
   , TailwindClasses.py_2
-  , HH.ClassName "border-b"
-  , HH.ClassName "cursor-pointer"
+  , TailwindClasses.border_b
+  , TailwindClasses.cursor_pointer
   , TailwindClasses.Active.border_t
-  , HH.ClassName "disabled:opacity-50"
-  , HH.ClassName "disabled:cursor-default"
+  , TailwindClasses.Disabled.opacity_50
+  , TailwindClasses.Disabled.cursor_default
   ]
 
 buttonMainClasses :: Array HH.ClassName

@@ -71,9 +71,13 @@ module.exports = {
 
   variants: {
     borderWidth:     config.variants.borderWidth.concat(['active', 'hover']),
-    visibility:      config.variants.visibility.concat(['hover', 'focus', 'group-hover']),
+    visibility:      config.variants.visibility.concat(['hover', 'focus', 'group-hover', 'disabled']),
     borderColor:     config.variants.borderColor.concat(['active', 'group-hover']),
     textColor:       config.variants.textColor.concat(['group-hover']),
     backgroundColor: config.variants.backgroundColor.concat(['active', 'group-hover']),
+    opacity:         config.variants.opacity.concat(['active', 'disabled']),
+    cursor:          config.variants.opacity.concat(['disabled']),
   },
 }
+
+// console.log(config.variants)

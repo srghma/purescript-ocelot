@@ -42,8 +42,8 @@ toggleButtonClasses =
   [ TailwindClasses.outline_none
   , TailwindClasses.px_4
   , TailwindClasses.py_2
-  , HH.ClassName "disabled:opacity-50"
-  , HH.ClassName "disabled:cursor-default"
+  , TailwindClasses.Disabled.opacity_50
+  , TailwindClasses.Disabled.cursor_default
   , HH.ClassName "!disabled:cursor-pointer"
   , TailwindClasses.bg_white
   , TailwindClasses.border_gray_80

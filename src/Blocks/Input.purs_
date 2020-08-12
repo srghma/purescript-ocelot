@@ -16,8 +16,8 @@ inputSharedClasses =
   , TailwindClasses.font_light
   , TailwindClasses.cc_blue_88
   , TailwindClasses.border_gray_80
-  , HH.ClassName "disabled:bg-gray-95"
-  , HH.ClassName "disabled:text-gray-70"
+  , TailwindClasses.Disabled.bg_gray_95
+  , TailwindClasses.Disabled.text_gray_70
   , HH.ClassName "focus:no-outline"
   , TailwindClasses.py_2
   ]
