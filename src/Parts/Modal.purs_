@@ -94,7 +94,7 @@ backgroundClasses :: Array HH.ClassName
 backgroundClasses =
   [ TailwindClasses.fixed
   , TailwindClasses.inset_0
-  , HH.ClassName "bg-black-modal-a90"
+  , TailwindClasses.bg_black_modal_a90
   , TailwindClasses.fade_in
   , TailwindClasses.z_10
   ]

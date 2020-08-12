@@ -48,7 +48,7 @@ toggleButtonClasses =
   , TailwindClasses.bg_white
   , TailwindClasses.border_gray_80
   , TailwindClasses.border_2
-  , HH.ClassName "focus:bg-gray-50-a30"
+  , TailwindClasses.Focus.bg_gray_50_a30
   , TailwindClasses.text_black_20
   , TailwindClasses.inline_block
   ]

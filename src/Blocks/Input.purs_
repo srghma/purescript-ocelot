@@ -18,7 +18,7 @@ inputSharedClasses =
   , TailwindClasses.border_gray_80
   , TailwindClasses.Disabled.bg_gray_95
   , TailwindClasses.Disabled.text_gray_70
-  , HH.ClassName "focus:no-outline"
+  , TailwindClasses.Focus.no_outline
   , TailwindClasses.py_2
   ]
 
@@ -29,7 +29,7 @@ inputClasses = inputSharedClasses <>
     , TailwindClasses.border_r_2
     , TailwindClasses.w_full
     , TailwindClasses.px_3
-    , HH.ClassName "focus:border-blue-88"
+    , TailwindClasses.Focus.border_blue_88
     , HH.ClassName "!focus:!disabled:hover:border-gray-70"
     ]
 
@@ -45,7 +45,7 @@ mainItemClasses :: Array HH.ClassName
 mainItemClasses = inputSharedClasses <>
 
     [ TailwindClasses.w_full
-    , HH.ClassName "focus:border-blue-88"
+    , TailwindClasses.Focus.border_blue_88
     , HH.ClassName "focus:sibling:border-blue-88"
     , HH.ClassName "group-hover:!focus:!disabled:border-gray-70"
     , HH.ClassName "group-hover:!focus:!disabled:sibling:border-gray-70"

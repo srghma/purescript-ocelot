@@ -30,10 +30,9 @@ buttonMainClasses = buttonSharedClasses <>
 
 buttonClasses :: Array HH.ClassName
 buttonClasses =
-  [ HH.ClassName "bg-gray-50-a20"
-  , HH.ClassName "border-gray-50-a20"
-  , HH.ClassName "hover:!disabled:bg-gray-50-a30"
-  , HH.ClassName "focus:bg-gray-50-a30"
+  [ TailwindClasses.bg_gray_50_a20
+  , TailwindClasses.border_gray_50_a20
+  , TailwindClasses.Focus.bg_gray_50_a30
   , TailwindClasses.text_black_20
   ]
 
@@ -41,17 +40,15 @@ buttonPrimaryClasses :: Array HH.ClassName
 buttonPrimaryClasses =
   [ TailwindClasses.bg_blue_88
   , TailwindClasses.border_blue_88
-  , HH.ClassName "hover:!disabled:bg-blue-82"
-  , HH.ClassName "focus:bg-blue-82"
+  , TailwindClasses.Focus.bg_blue_82
   , TailwindClasses.text_white
   ]
 
 buttonDarkClasses :: Array HH.ClassName
 buttonDarkClasses =
-  [ HH.ClassName "bg-gray-70-a30"
-  , HH.ClassName "border-gray-70-a30"
-  , HH.ClassName "hover:!disabled:bg-gray-70-a40"
-  , HH.ClassName "focus:bg-gray-70-a40"
+  [ TailwindClasses.bg_gray_70_a30
+  , TailwindClasses.border_gray_70_a30
+  , TailwindClasses.Focus.bg_gray_70_a40
   , TailwindClasses.text_white
   ]
 
@@ -60,8 +57,8 @@ buttonClearClasses =
   [ TailwindClasses.bg_transparent
   , TailwindClasses.border_transparent
   , TailwindClasses.text_gray_70
-  , HH.ClassName "hover:text-gray-70-a30"
-  , HH.ClassName "focus:text-gray-70-a30"
+  , TailwindClasses.Hover.text_gray_70_a30
+  , TailwindClasses.Focus.text_gray_70_a30
   ]
 
 buttonGroupClasses :: Array HH.ClassName

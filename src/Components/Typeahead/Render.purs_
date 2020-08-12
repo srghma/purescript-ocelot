@@ -264,7 +264,7 @@ disabledClasses =
   , TailwindClasses.border_t_2
   , TailwindClasses.border_b_2
   , TailwindClasses.font_light
-  , HH.ClassName "focus:no-outline"
+  , TailwindClasses.Focus.no_outline
   , TailwindClasses.py_2
   , TailwindClasses.border_l_2
   , TailwindClasses.w_full

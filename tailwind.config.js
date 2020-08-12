@@ -78,6 +78,19 @@ module.exports = {
     opacity:         config.variants.opacity.concat(['active', 'disabled']),
     cursor:          config.variants.opacity.concat(['disabled']),
   },
+
+  plugins: [
+    require('tailwindcss-alpha')({
+      modules: {
+        backgroundColor: true,
+        borderColor: true,
+      },
+      alpha: {
+        'a20': 0.2,
+        'a30': 0.3,
+      }
+    })
+  ]
 }
 
 // console.log(config.variants)
