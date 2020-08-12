@@ -158,9 +158,9 @@ cnDocumentationBlocks st =
       }
       [ Documentation.callout_
         [ Backdrop.backdropWhite
-          [ HP.classes [ HH.ClassName "flex-col" ] ]
+          [ HP.classes [ TailwindClasses.flex_col ] ]
           [ Format.subHeading_
-            [ Icon.info [ HP.classes [ HH.ClassName "text-yellow", HH.ClassName "pr-2" ] ]
+            [ Icon.info [ HP.classes [ TailwindClasses.text_yellow, TailwindClasses.pr_2 ] ]
             , HH.text "Animation Warning"
             ]
           , Format.p_

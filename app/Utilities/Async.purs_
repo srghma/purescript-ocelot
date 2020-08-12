@@ -144,7 +144,7 @@ renderFuzzyUser f@(Fuzzy { original: u }) =
   HH.div
     [ HP.classes $
       [ TailwindClasses.flex
-      , HH.ClassName "items-center"
+      , TailwindClasses.items_center
       ]
     ]
     [ renderUserImg u
@@ -158,12 +158,12 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
       skinColor2 = fromMaybe skinColor1 $ last skinColors in
   HH.span
     [ HP.classes $
-      [ HH.ClassName "inline-block"
-      , HH.ClassName "mr-3"
-      , HH.ClassName "w-6"
-      , HH.ClassName "h-6"
-      , HH.ClassName "rounded-full"
-      , HH.ClassName "overflow-hidden"
+      [ TailwindClasses.inline_block
+      , TailwindClasses.mr_3
+      , TailwindClasses.w_6
+      , TailwindClasses.h_6
+      , TailwindClasses.rounded_full
+      , TailwindClasses.overflow_hidden
       , HH.ClassName "border-t-4"
       , HH.ClassName "border-l-2"
       , HH.ClassName "border-r-2"
@@ -176,18 +176,18 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
     [ HH.span
       [ HP.classes $
         [ TailwindClasses.flex
-        , HH.ClassName "justify-around"
-        , HH.ClassName "pt-1"
+        , TailwindClasses.justify_around
+        , TailwindClasses.pt_1
         ]
       ]
       ( ( \_ ->
           HH.span
             [ HP.classes $
-              [ HH.ClassName "w-1"
-              , HH.ClassName "h-1"
-              , HH.ClassName "rounded-full"
+              [ TailwindClasses.w_1
+              , TailwindClasses.h_1
+              , TailwindClasses.rounded_full
               , HH.ClassName ("bg-" <> colorToCSSColor eyeColor)
-              , HH.ClassName "shadow-inner"
+              , TailwindClasses.shadow_inner
               ]
             ]
             []
@@ -195,9 +195,9 @@ renderUserImg (User { eyeColor, hairColor, skinColor }) =
       )
     , HH.span
       [ HP.classes $
-        [ HH.ClassName "bottom-0"
-        , HH.ClassName "h-1"
-        , HH.ClassName "w-full"
+        [ TailwindClasses.bottom_0
+        , TailwindClasses.h_1
+        , TailwindClasses.w_full
         , HH.ClassName ("bg-" <> colorToCSSColor skinColor2)
         , TailwindClasses.absolute
         ]

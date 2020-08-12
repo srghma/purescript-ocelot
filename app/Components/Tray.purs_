@@ -50,15 +50,15 @@ component =
           , Tray.tray
             [ Tray.open state.open ]
             [ Badge.badgeLarge
-              [ HP.classes [ HH.ClassName "mr-2" ] ]
+              [ HP.classes [ TailwindClasses.mr_2 ] ]
               [ HH.text "2" ]
             , HH.p
-              [ HP.classes [ HH.ClassName "mr-10" ] ]
+              [ HP.classes [ TailwindClasses.mr_10 ] ]
               [ HH.text "Ads selected:" ]
             , Button.button_
               [ HH.text "View Ads" ]
             , Button.button
-              [ HP.classes [ HH.ClassName "ml-4" ] ]
+              [ HP.classes [ TailwindClasses.ml_4 ] ]
               [ HH.text "Dave's Design Patterns" ]
             ]
           ]

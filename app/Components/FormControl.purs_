@@ -52,9 +52,9 @@ component =
           accessibilityCallout =
             Documentation.callout_
               [ Backdrop.backdropWhite
-                [ HP.classes [ HH.ClassName "flex-col" ] ]
+                [ HP.classes [ TailwindClasses.flex_col ] ]
                 [ Format.subHeading_
-                  [ Icon.tip [ HP.classes [ HH.ClassName "text-yellow", HH.ClassName "pr-2" ] ]
+                  [ Icon.tip [ HP.classes [ TailwindClasses.text_yellow, TailwindClasses.pr_2 ] ]
                   , HH.text "Accessibility Note"
                   ]
                 , HH.p_
@@ -77,7 +77,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Vertical List" ]
@@ -103,7 +103,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Horizontal List" ]
@@ -116,17 +116,17 @@ component =
                     [ HH.div
                       [ HP.classes [ TailwindClasses.flex ] ]
                       [ Checkbox.checkbox
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "platform"
                         , HP.checked true
                         ]
                         [ HH.text "Facebook" ]
                       , Checkbox.checkbox
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "platform" ]
                         [ HH.text "Instagram" ]
                       , Checkbox.checkbox
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "platform" ]
                         [ HH.text "Twitter" ]
                       ]
@@ -139,7 +139,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Disabled Vertical List" ]
@@ -170,7 +170,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Disabled Horizontal List" ]
@@ -183,20 +183,20 @@ component =
                     [ HH.div
                       [ HP.classes [ TailwindClasses.flex ] ]
                       [ Checkbox.checkbox
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "platform-disabled"
                         , HP.checked true
                         , HP.disabled true
                         ]
                         [ HH.text "Facebook" ]
                       , Checkbox.checkbox
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "platform-disabled"
                         , HP.disabled true
                         ]
                         [ HH.text "Instagram" ]
                       , Checkbox.checkbox
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "platform-disabled"
                         , HP.disabled true
                         ]
@@ -217,7 +217,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Vertical List" ]
@@ -243,7 +243,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Horizontal List" ]
@@ -256,17 +256,17 @@ component =
                     [ HH.div
                       [ HP.classes [ TailwindClasses.flex ] ]
                       [ Radio.radio
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "preview"
                         , HP.checked true
                         ]
                         [ HH.text "Desktop" ]
                       , Radio.radio
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "preview" ]
                         [ HH.text "Story" ]
                       , Radio.radio
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "preview" ]
                         [ HH.text "Mobile" ]
                       ]
@@ -279,7 +279,7 @@ component =
             [ Backdrop.backdrop_
               [ content
                 [ HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Disabled Vertical List" ]
@@ -310,7 +310,7 @@ component =
                     ]
                   ]
                 , HH.div
-                  [ HP.classes [ HH.ClassName "flex-1" ] ]
+                  [ HP.classes [ TailwindClasses.flex_1 ] ]
                   [ HH.h3
                     [ HP.classes Format.captionClasses ]
                     [ HH.text "Horizontal List" ]
@@ -323,20 +323,20 @@ component =
                     [ HH.div
                       [ HP.classes [ TailwindClasses.flex ] ]
                       [ Radio.radio
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "preview-disabled"
                         , HP.checked true
                         , HP.disabled true
                         ]
                         [ HH.text "Desktop" ]
                       , Radio.radio
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "preview-disabled"
                         , HP.disabled true
                         ]
                         [ HH.text "Story" ]
                       , Radio.radio
-                        [ HP.classes [ HH.ClassName "pr-6" ] ]
+                        [ HP.classes [ TailwindClasses.pr_6 ] ]
                         [ HP.name "preview-disabled"
                         , HP.disabled true
                         ]

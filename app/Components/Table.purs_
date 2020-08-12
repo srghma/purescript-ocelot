@@ -54,9 +54,9 @@ component =
 
         renderHeader =
           Table.row_
-            [ Table.header  [ HP.classes [ HH.ClassName "w-10" ] ] [ HH.text "" ]
+            [ Table.header  [ HP.classes [ TailwindClasses.w_10 ] ] [ HH.text "" ]
             , Table.header_ [ HH.text "Icon" ]
-            , Table.header  [ HP.classes [ HH.ClassName "w-2/3", HH.ClassName "text-left" ] ] [ HH.text "Description" ]
+            , Table.header  [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.text_left ] ] [ HH.text "Description" ]
             , Table.header_ [ HH.text "" ]
             ]
 
@@ -66,9 +66,9 @@ component =
         renderData :: ∀ p i. TestData p i -> Array (HH.HTML p i)
         renderData { name, icon } =
           [ Table.cell_ [ Checkbox.checkbox_ [] [] ]
-          , Table.cell  [ HP.classes [ HH.ClassName "text-2xl" ] ] [ icon ]
-          , Table.cell  [ HP.classes [ HH.ClassName "text-left" ] ] [ HH.text name ]
-          , Table.cell  [ HP.classes [ HH.ClassName "text-right" ] ] [ Button.button_ [ HH.text "Do Nothing" ] ]
+          , Table.cell  [ HP.classes [ TailwindClasses.text_2xl ] ] [ icon ]
+          , Table.cell  [ HP.classes [ TailwindClasses.text_left ] ] [ HH.text name ]
+          , Table.cell  [ HP.classes [ TailwindClasses.text_right ] ] [ Button.button_ [ HH.text "Do Nothing" ] ]
           ]
 
 type TestData p i = { name :: String, icon :: HH.HTML p i }
@@ -88,16 +88,16 @@ tableData =
     , icon: Icon.share_
     }
   , { name: "This is what an error badge looks like"
-    , icon: Icon.error [ HP.classes [ HH.ClassName "text-red" ] ]
+    , icon: Icon.error [ HP.classes [ TailwindClasses.text_red ] ]
     }
   , { name: "This is what a tip bulb looks like"
-    , icon: Icon.tip [ HP.classes [ HH.ClassName "text-yellow" ] ]
+    , icon: Icon.tip [ HP.classes [ TailwindClasses.text_yellow ] ]
     }
   , { name: "This is what an info badge looks like"
-    , icon: Icon.info [ HP.classes [ HH.ClassName "text-blue" ] ]
+    , icon: Icon.info [ HP.classes [ TailwindClasses.text_blue ] ]
     }
   , { name: "This is what a success badge looks like"
-    , icon: Icon.success [ HP.classes [ HH.ClassName "text-green" ] ]
+    , icon: Icon.success [ HP.classes [ TailwindClasses.text_green ] ]
     }
   , { name: "This is what the Facebook icon looks like"
     , icon: Icon.facebook [ HP.classes [ HH.ClassName "text-fb-blue" ] ]
@@ -109,12 +109,12 @@ tableData =
     , icon: Icon.twitter [ HP.classes [ HH.ClassName "text-tw-blue" ] ]
     }
   , { name: "This is what a progress bar looks like"
-    , icon: Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", HH.ClassName "h-2" ] ] [ HP.classes [ HH.ClassName "bg-blue", HH.ClassName "h-2" ] ]
+    , icon: Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]
     }
   , { name: "This is what a progress bar with a top caption looks like"
     , icon: HH.div_
-        [ HH.p [ HP.classes [ HH.ClassName "text-sm", HH.ClassName "pb-2" ] ] [ HH.text "60% of campaign spent" ]
-        , Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", HH.ClassName "h-2" ] ] [ HP.classes [ HH.ClassName "bg-blue", HH.ClassName "h-2" ] ]
+        [ HH.p [ HP.classes [ TailwindClasses.text_sm, TailwindClasses.pb_2 ] ] [ HH.text "60% of campaign spent" ]
+        , Progress.bar (3.0 % 5.0) [ HP.classes [ HH.ClassName "w-2/3", TailwindClasses.h_2 ] ] [ HP.classes [ TailwindClasses.bg_blue, TailwindClasses.h_2 ] ]
         ]
     }
   ]

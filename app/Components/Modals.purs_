@@ -76,7 +76,7 @@ component =
           }
           [ Backdrop.backdrop_
             [ Backdrop.content
-              [ HP.classes [ HH.ClassName "mt-0", HH.ClassName "text-center" ] ]
+              [ HP.classes [ TailwindClasses.mt_0, TailwindClasses.text_center ] ]
               [ Button.button
                 [ HE.onClick $ const $ Just Open ]
                 [ HH.text "Open Modal" ]
@@ -93,7 +93,7 @@ component =
         [ Modal.header
           { buttons:
               [ HH.a
-                [ HP.classes ( Format.linkDarkClasses <> [ HH.ClassName "mr-4" ] )
+                [ HP.classes ( Format.linkDarkClasses <> [ TailwindClasses.mr_4 ] )
                 , HE.onClick $ const $ Just Close ]
                 [ HH.text "Cancel" ]
               , Button.buttonPrimary
@@ -104,7 +104,7 @@ component =
           }
         , Modal.body_
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "m-10" ] ]
+            [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.m_10 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Standard" ]

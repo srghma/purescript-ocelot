@@ -45,7 +45,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ Backdrop.content_
           [ HH.div
-            [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+            [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.flex, TailwindClasses.flex_col, TailwindClasses.justify_between ] ]
             [ Format.heading_
               [ HH.text "H1 — heading" ]
             , Format.subHeading_
@@ -68,7 +68,7 @@ cnDocumentationBlocks =
       , Backdrop.backdropDark_
         [ Backdrop.content_
           [ HH.div
-            [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+            [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.flex, TailwindClasses.flex_col, TailwindClasses.justify_between ] ]
             [ Format.headingDark_
               [ HH.text "H1 — headingDark" ]
             , Format.subHeadingDark_

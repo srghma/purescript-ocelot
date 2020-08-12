@@ -14,12 +14,12 @@ type DocumentationConfig
 
 blockClasses :: Array HH.ClassName
 blockClasses =
-  [ HH.ClassName "my-20"
+  [ TailwindClasses.my_20
   ]
 
 introClasses :: Array HH.ClassName
 introClasses =
-  [ HH.ClassName "my-12"
+  [ TailwindClasses.my_12
   ]
 
 headingClasses :: Array HH.ClassName
@@ -30,18 +30,18 @@ headingClasses =
 subHeadingClasses :: Array HH.ClassName
 subHeadingClasses =
   [ HH.ClassName "w-1/2"
-  , HH.ClassName "font-light"
+  , TailwindClasses.font_light
   , HH.ClassName "text-gray-50"
   ]
 
 calloutClasses :: Array HH.ClassName
 calloutClasses =
-  [ HH.ClassName "border-dotted"
+  [ TailwindClasses.border_dotted
   , TailwindClasses.border
   , TailwindClasses.rounded
   , TailwindClasses.flex
-  , HH.ClassName "items-stretch"
-  , HH.ClassName "my-6"
+  , TailwindClasses.items_stretch
+  , TailwindClasses.my_6
   ]
 
 callout ::

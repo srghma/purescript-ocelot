@@ -33,20 +33,20 @@ component =
     renderIcon :: ∀ p i. Tuple String (HH.HTML p i) -> HH.HTML p i
     renderIcon (Tuple name icon) =
       HH.div
-        [ HP.classes [ HH.ClassName "mx-6" ] ]
+        [ HP.classes [ TailwindClasses.mx_6 ] ]
         [ Documentation.callout_
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.p
                 ( [ HP.classes Format.subHeadingClasses ] <&>
-                  [ HP.classes [ HH.ClassName "min-w-9", HH.ClassName "justify-center" ] ]
+                  [ HP.classes [ HH.ClassName "min-w-9", TailwindClasses.justify_center ] ]
                 )
                 [ icon ]
               ]
             ]
           ]
         , Format.caption
-          [ HP.classes [ HH.ClassName "text-center" ] ]
+          [ HP.classes [ TailwindClasses.text_center ] ]
           [ HH.text name ]
         ]
 
@@ -59,7 +59,7 @@ component =
         }
 
         [ HH.div
-          [ HP.classes [ TailwindClasses.flex, HH.ClassName "flex-wrap", HH.ClassName "-mx-6", HH.ClassName "justify-start" ] ]
+          [ HP.classes [ TailwindClasses.flex, TailwindClasses.flex_wrap, HH.ClassName "-mx-6", TailwindClasses.justify_start ] ]
           ( renderIcon <$>
             [ Tuple "Settings" Icon.settings_
             , Tuple "Share" Icon.share_
@@ -87,10 +87,10 @@ component =
             , Tuple "Carat Down" Icon.caratDown_
             , Tuple "Carat Left" Icon.caratLeft_
             , Tuple "Carat Right" Icon.caratRight_
-            , Tuple "Error" $ Icon.error [ HP.classes [ HH.ClassName "text-red" ] ]
-            , Tuple "Tip" $ Icon.tip [ HP.classes [ HH.ClassName "text-yellow" ] ]
-            , Tuple "Info" $ Icon.info [ HP.classes [ HH.ClassName "text-blue" ] ]
-            , Tuple "Success" $ Icon.success [ HP.classes [ HH.ClassName "text-green" ] ]
+            , Tuple "Error" $ Icon.error [ HP.classes [ TailwindClasses.text_red ] ]
+            , Tuple "Tip" $ Icon.tip [ HP.classes [ TailwindClasses.text_yellow ] ]
+            , Tuple "Info" $ Icon.info [ HP.classes [ TailwindClasses.text_blue ] ]
+            , Tuple "Success" $ Icon.success [ HP.classes [ TailwindClasses.text_green ] ]
             , Tuple "Facebook" $ Icon.facebook [ HP.classes [ HH.ClassName "text-fb-blue" ] ]
             , Tuple "Instagram" $ Icon.instagram [ HP.classes [ HH.ClassName "text-ig-brown" ] ]
             , Tuple "Twitter" $ Icon.twitter [ HP.classes [ HH.ClassName "text-tw-blue" ] ]

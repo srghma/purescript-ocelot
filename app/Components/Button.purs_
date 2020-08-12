@@ -42,16 +42,16 @@ component =
         [ Backdrop.backdrop_
           [ Backdrop.content_
             [ HH.div
-              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
+              [ HP.classes [ TailwindClasses.mb_6, TailwindClasses.flex ] ]
               [ HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Standard" ]
                 , Button.button_
                   [ HH.text "Cancel" ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled" ]
                 , Button.button
@@ -60,16 +60,16 @@ component =
                 ]
               ]
             , HH.div
-              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
+              [ HP.classes [ TailwindClasses.mb_6, TailwindClasses.flex ] ]
               [ HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Primary" ]
                 , Button.buttonPrimary_
                   [ HH.text "Submit" ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled" ]
                 , Button.buttonPrimary
@@ -82,16 +82,16 @@ component =
         , Backdrop.backdropWhite_
           [ Backdrop.content_
             [ HH.div
-              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
+              [ HP.classes [ TailwindClasses.mb_6, TailwindClasses.flex ] ]
               [ HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Standard" ]
                 , Button.button_
                   [ HH.text "Cancel" ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled" ]
                 , Button.button
@@ -100,16 +100,16 @@ component =
                 ]
               ]
             , HH.div
-              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
+              [ HP.classes [ TailwindClasses.mb_6, TailwindClasses.flex ] ]
               [ HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Primary" ]
                 , Button.buttonPrimary_
                   [ HH.text "Submit" ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled" ]
                 , Button.buttonPrimary
@@ -122,16 +122,16 @@ component =
         , Backdrop.backdropDark_
           [ Backdrop.content_
             [ HH.div
-              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
+              [ HP.classes [ TailwindClasses.mb_6, TailwindClasses.flex ] ]
               [ HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Standard" ]
                 , Button.buttonDark_
                   [ HH.text "Cancel" ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled" ]
                 , Button.buttonDark
@@ -140,16 +140,16 @@ component =
                 ]
               ]
             , HH.div
-              [ HP.classes [ HH.ClassName "mb-6", TailwindClasses.flex ] ]
+              [ HP.classes [ TailwindClasses.mb_6, TailwindClasses.flex ] ]
               [ HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Primary" ]
                 , Button.buttonPrimary_
                   [ HH.text "Submit" ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "flex-1" ] ]
+                [ HP.classes [ TailwindClasses.flex_1 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled" ]
                 , Button.buttonPrimary
@@ -168,7 +168,7 @@ component =
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Two Buttons" ]
                 , Button.buttonGroup_
@@ -179,7 +179,7 @@ component =
                   ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Two Disabled Buttons" ]
                 , Button.buttonGroup_
@@ -196,7 +196,7 @@ component =
           , Backdrop.backdropWhite_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Two Buttons" ]
                 , Button.buttonGroup_
@@ -207,7 +207,7 @@ component =
                   ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Two Disabled Buttons" ]
                 , Button.buttonGroup_
@@ -224,7 +224,7 @@ component =
           , Backdrop.backdropDark_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Two Buttons" ]
                 , Button.buttonGroup_
@@ -235,7 +235,7 @@ component =
                   ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Two Disabled Buttons" ]
                 , Button.buttonGroup_
@@ -254,7 +254,7 @@ component =
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Three Buttons" ]
                 , Button.buttonGroup_
@@ -267,7 +267,7 @@ component =
                   ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Three Disabled Buttons" ]
                 , Button.buttonGroup_
@@ -287,7 +287,7 @@ component =
           , Backdrop.backdropWhite_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Three Buttons" ]
                 , Button.buttonGroup_
@@ -300,7 +300,7 @@ component =
                   ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Three Disabled Buttons" ]
                 , Button.buttonGroup_
@@ -320,7 +320,7 @@ component =
           , Backdrop.backdropDark_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Three Buttons" ]
                 , Button.buttonGroup_
@@ -333,7 +333,7 @@ component =
                   ]
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Three Disabled Buttons" ]
                 , Button.buttonGroup_

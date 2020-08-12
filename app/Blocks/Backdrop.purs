@@ -8,9 +8,9 @@ import Halogen.HTML.Properties as HP
 
 backdropClasses :: Array HH.ClassName
 backdropClasses =
-  [ HH.ClassName "p-6"
+  [ TailwindClasses.p_6
   , TailwindClasses.flex
-  , HH.ClassName "flex-1"
+  , TailwindClasses.flex_1
   ]
 
 backdropDefaultClasses :: Array HH.ClassName
@@ -22,21 +22,21 @@ backdropDefaultClasses =
 backdropWhiteClasses :: Array HH.ClassName
 backdropWhiteClasses =
   backdropClasses
-    <> [ HH.ClassName "bg-white"
+    <> [ TailwindClasses.bg_white
       ]
 
 backdropDarkClasses :: Array HH.ClassName
 backdropDarkClasses =
   backdropClasses
-    <> [ HH.ClassName "bg-black"
+    <> [ TailwindClasses.bg_black
       , HH.ClassName "text-gray-lighter"
       ]
 
 contentClasses :: Array HH.ClassName
 contentClasses =
-  [ HH.ClassName "flex-1"
-  , HH.ClassName "mx-6"
-  , HH.ClassName "mt-6"
+  [ TailwindClasses.flex_1
+  , TailwindClasses.mx_6
+  , TailwindClasses.mt_6
   ]
 
 backdrop ::

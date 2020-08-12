@@ -122,20 +122,20 @@ app =
       [ HH.div
           [ HP.classes
             [ TailwindClasses.fixed
-            , HH.ClassName "w-full"
+            , TailwindClasses.w_full
             ]
           ]
           [ HH.div
-              [ HP.classes [ HH.ClassName "top-0", HH.ClassName "bg-white", HH.ClassName "md:hidden", TailwindClasses.relative, HH.ClassName "border-b", HH.ClassName "border-gray-light", HH.ClassName "h-12", HH.ClassName "py-8", TailwindClasses.flex, HH.ClassName "items-center" ] ]
+              [ HP.classes [ TailwindClasses.top_0, TailwindClasses.bg_white, HH.ClassName "md:hidden", TailwindClasses.relative, TailwindClasses.border_b, HH.ClassName "border-gray-light", TailwindClasses.h_12, TailwindClasses.py_8, TailwindClasses.flex, TailwindClasses.items_center ] ]
               [ HH.a
-                  [ HP.classes [ HH.ClassName "mx-auto", HH.ClassName "inline-flex", HH.ClassName "items-center" ]
+                  [ HP.classes [ TailwindClasses.mx_auto, TailwindClasses.inline_flex, TailwindClasses.items_center ]
                   , HP.href ""
                   ]
                   [ HH.text "CitizenNet UI Guide" ]
               ]
           ]
       , HH.div
-          [ HP.classes [ HH.ClassName "p-12", HH.ClassName "w-full", TailwindClasses.container, HH.ClassName "mx-auto" ] ]
+          [ HP.classes [ TailwindClasses.p_12, TailwindClasses.w_full, TailwindClasses.container, TailwindClasses.mx_auto ] ]
           [ renderSlot state ]
       ]
 
@@ -153,35 +153,35 @@ app =
           [ TailwindClasses.hidden
           , TailwindClasses.fixed
           , HH.ClassName "inset-y-0"
-          , HH.ClassName "left-0"
+          , TailwindClasses.left_0
           , HH.ClassName "overflow-y-auto"
           , HH.ClassName "md:overflow-visible"
-          , HH.ClassName "scrolling-touch"
+          , TailwindClasses.scrolling_touch
           , HH.ClassName "md:scrolling-auto"
           , HH.ClassName "w-4/5"
           , HH.ClassName "md:w-full"
           , HH.ClassName "md:max-w-xs"
-          , HH.ClassName "flex-none"
+          , TailwindClasses.flex_none
           -- , HH.ClassName "border-r-2"
           -- , HH.ClassName "border-gray-light"
           , HH.ClassName "md:flex"
-          , HH.ClassName "flex-col"
+          , TailwindClasses.flex_col
           ]
       ]
       [ HH.div
-          [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "p-6", HH.ClassName "overflow-y-auto" ] ]
+          [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.p_6, HH.ClassName "overflow-y-auto" ] ]
           [ HH.header_
               [ Format.heading
                   [ HP.class_ $ TailwindClasses.flex ]
                   [ HH.img
-                      [ HP.classes [ HH.ClassName "mr-2" ]
+                      [ HP.classes [ TailwindClasses.mr_2 ]
                       , HP.src "https://citizennet.com/manager/images/logo.svg"
                       ]
                   , HH.text "Ocelot"
                   ]
               ]
           , HH.nav
-              [ HP.classes [ HH.ClassName "text-base", HH.ClassName "overflow-y-auto" ] ]
+              [ HP.classes [ TailwindClasses.text_base, HH.ClassName "overflow-y-auto" ] ]
               (renderGroups state)
           ]
       ]
@@ -191,7 +191,7 @@ app =
     mapFlipped (M.toUnfoldable state.partitions)
       $ \(Tuple group stories) ->
           HH.div
-            [ HP.classes [ HH.ClassName "mb-6" ] ]
+            [ HP.classes [ TailwindClasses.mb_6 ] ]
             [ Format.caption_
                 [ HH.text $ show group ]
             , renderGroup state.route stories
@@ -203,11 +203,11 @@ app =
       $ mapFlipped (M.toUnfoldable stories)
       $ \(Tuple href { anchor }) ->
           HH.li
-            [ HP.classes [ HH.ClassName "mb-3" ] ]
+            [ HP.classes [ TailwindClasses.mb_3 ] ]
             [ HH.a
                 [ HP.classes
                     $ Format.linkClasses
-                    <> (if href == route then [ HH.ClassName "font-medium" ] else [])
+                    <> (if href == route then [ TailwindClasses.font_medium ] else [])
                 , HP.href $ "#" <> unsafeEncodeURI href
                 ]
                 [ HH.text anchor ]

@@ -45,7 +45,7 @@ component =
           [ Backdrop.backdrop_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.flex, TailwindClasses.flex_col, TailwindClasses.justify_between ] ]
                       [ Format.p_
                           [ Badge.badgeSmall_ [ HH.text "1" ]
                           ]
@@ -61,23 +61,23 @@ component =
           , Backdrop.backdrop_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.flex, TailwindClasses.flex_col, TailwindClasses.justify_between ] ]
                       [ row
                           [ HH.text "Leading text"
                           , Badge.badgeSmall
-                              [ HP.classes [ HH.ClassName "ml-1" ] ]
+                              [ HP.classes [ TailwindClasses.ml_1 ] ]
                               [ HH.text "1" ]
                           ]
                       , row
                           [ HH.text "Leading text"
                           , Badge.badge
-                              [ HP.classes [ HH.ClassName "ml-1" ] ]
+                              [ HP.classes [ TailwindClasses.ml_1 ] ]
                               [ HH.text "2" ]
                           ]
                       , row
                           [ HH.text "Leading text"
                           , Badge.badgeLarge
-                              [ HP.classes [ HH.ClassName "ml-1" ] ]
+                              [ HP.classes [ TailwindClasses.ml_1 ] ]
                               [ HH.text "3" ]
                           ]
                       ]
@@ -86,7 +86,7 @@ component =
           , Backdrop.backdropDark_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.flex, TailwindClasses.flex_col, TailwindClasses.justify_between ] ]
                       [ Format.p_
                           [ Badge.badgeSmall_ [ HH.text "1" ]
                           ]
@@ -102,23 +102,23 @@ component =
           , Backdrop.backdropDark_
               [ Backdrop.content_
                   [ HH.div
-                      [ HP.classes [ HH.ClassName "flex-1", TailwindClasses.flex, HH.ClassName "flex-col", HH.ClassName "justify-between" ] ]
+                      [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.flex, TailwindClasses.flex_col, TailwindClasses.justify_between ] ]
                       [ row
                           [ HH.text "Leading text"
                           , Badge.badgeSmall
-                              [ HP.classes [ HH.ClassName "ml-1" ] ]
+                              [ HP.classes [ TailwindClasses.ml_1 ] ]
                               [ HH.text "1" ]
                           ]
                       , row
                           [ HH.text "Leading text"
                           , Badge.badge
-                              [ HP.classes [ HH.ClassName "ml-1" ] ]
+                              [ HP.classes [ TailwindClasses.ml_1 ] ]
                               [ HH.text "2" ]
                           ]
                       , row
                           [ HH.text "Leading text"
                           , Badge.badgeLarge
-                              [ HP.classes [ HH.ClassName "ml-1" ] ]
+                              [ HP.classes [ TailwindClasses.ml_1 ] ]
                               [ HH.text "3" ]
                           ]
                       ]
@@ -128,4 +128,4 @@ component =
       ]
 
   row :: ∀ p i. Array (HH.HTML p i) -> HH.HTML p i
-  row = Format.p [ HP.classes [ TailwindClasses.flex, HH.ClassName "items-center" ] ]
+  row = Format.p [ HP.classes [ TailwindClasses.flex, TailwindClasses.items_center ] ]

@@ -69,7 +69,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -105,7 +105,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -146,7 +146,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -178,7 +178,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -219,7 +219,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -250,7 +250,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -291,7 +291,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -316,7 +316,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Loading" ]
@@ -332,7 +332,7 @@ cnDocumentationBlocks =
                 , HP.id_ "search-loading"
                 , HP.value "Something"
                 ]
-              , Input.addonCenter_ [ Loading.spinner [ HP.classes [ HH.ClassName "w-6", HH.ClassName "text-blue-88" ] ] ]
+              , Input.addonCenter_ [ Loading.spinner [ HP.classes [ TailwindClasses.w_6, HH.ClassName "text-blue-88" ] ] ]
               , Input.addonLeft_ [ Icon.search_ ]
               , Input.borderRight
                 [ HP.classes Format.linkClasses ]
@@ -350,7 +350,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Static" ]
@@ -383,7 +383,7 @@ cnDocumentationBlocks =
         ]
       , content
         [ Card.card
-          [ HP.classes [ HH.ClassName "flex-1" ] ]
+          [ HP.classes [ TailwindClasses.flex_1 ] ]
           [ HH.h3
             [ HP.classes Format.captionClasses ]
             [ HH.text "Hydrated" ]
@@ -424,7 +424,7 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ Backdrop.content_
         [ HH.div
-          [ HP.classes [ HH.ClassName "w-1/3", HH.ClassName "pb-6" ] ]
+          [ HP.classes [ HH.ClassName "w-1/3", TailwindClasses.pb_6 ] ]
           [ HH.slot _search unit SearchBar.component
             { debounceTime: Just (Milliseconds 250.0) }
             ( Just <<< HandleSearch )
@@ -439,9 +439,9 @@ cnDocumentationBlocks =
     [ Backdrop.backdrop_
       [ Backdrop.content_
         [ HH.div
-          [ HP.classes [ TailwindClasses.flex, HH.ClassName "items-center", HH.ClassName "pb-6" ] ]
+          [ HP.classes [ TailwindClasses.flex, TailwindClasses.items_center, TailwindClasses.pb_6 ] ]
           [ HH.div
-            [ HP.classes [ HH.ClassName "mr-8" ] ]
+            [ HP.classes [ TailwindClasses.mr_8 ] ]
             [ HH.slot _search unit SearchBar.component
               { debounceTime: Just (Milliseconds 250.0) }
               ( Just <<< HandleSearch )

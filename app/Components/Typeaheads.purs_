@@ -140,7 +140,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Standard" ]
@@ -188,7 +188,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Custom Render" ]
@@ -242,7 +242,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Standard" ]
@@ -291,7 +291,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Custom Render" ]
@@ -345,7 +345,7 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Disabled Single Select - Empty" ]
@@ -436,7 +436,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Disabled Multi Select - Empty" ]
@@ -536,9 +536,9 @@ cnDocumentationBlocks =
       [ Backdrop.backdrop_
         [ content
           [ HH.div
-            [ HP.classes [ HH.ClassName "flex-1", HH.ClassName "bg-black", HH.ClassName "mb-6", TailwindClasses.rounded, TailwindClasses.clearfix ] ]
+            [ HP.classes [ TailwindClasses.flex_1, TailwindClasses.bg_black, TailwindClasses.mb_6, TailwindClasses.rounded, TailwindClasses.clearfix ] ]
             [ HH.div
-              [ HP.classes [ HH.ClassName "m-6" ] ]
+              [ HP.classes [ TailwindClasses.m_6 ] ]
               [ HH.h3
                 [ HP.classes Format.captionClasses ]
                 [ HH.text "Searchable Dropdown in a Header (e.g. for filtering)" ]
@@ -567,7 +567,7 @@ cnDocumentationBlocks =
           ]
         , content
           [ Card.card
-            [ HP.classes [ HH.ClassName "flex-1" ] ]
+            [ HP.classes [ TailwindClasses.flex_1 ] ]
             [ HH.h3
               [ HP.classes Format.captionClasses ]
               [ HH.text "Searchable Dropdown in a Toolbar (e.g. for filtering)" ]

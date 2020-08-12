@@ -90,7 +90,7 @@ component =
           [ Backdrop.backdrop_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Standard" ]
                 , HH.slot
@@ -104,7 +104,7 @@ component =
                     ( Just <<< HandleDropdown )
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
                 , HH.slot
@@ -122,7 +122,7 @@ component =
           , Backdrop.backdropWhite_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Primary" ]
                 , HH.slot
@@ -136,7 +136,7 @@ component =
                   ( Just <<< HandleDropdown )
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
                 , HH.slot
@@ -154,7 +154,7 @@ component =
           , Backdrop.backdropDark_
             [ Backdrop.content_
               [ HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Dark" ]
                 , HH.slot
@@ -168,7 +168,7 @@ component =
                   ( Just <<< HandleDropdown )
                 ]
               , HH.div
-                [ HP.classes [ HH.ClassName "mb-6" ] ]
+                [ HP.classes [ TailwindClasses.mb_6 ] ]
                 [ Format.caption_
                   [ HH.text "Disabled & Hydrated" ]
                 , HH.slot
@@ -189,7 +189,7 @@ component =
           , subheader: "A specialized dropdown for making selections."
           }
           [ Backdrop.backdrop
-            [ HP.classes [ HH.ClassName "h-40", TailwindClasses.flex, HH.ClassName "items-center", HH.ClassName "justify-center" ] ]
+            [ HP.classes [ TailwindClasses.h_40, TailwindClasses.flex, TailwindClasses.items_center, TailwindClasses.justify_center ] ]
             [ HH.slot
                 _select
                 unit
@@ -237,7 +237,7 @@ component =
 
         renderPlatformChoice state' =
           HH.div
-            [ HP.classes [ TailwindClasses.flex, HH.ClassName "items-center", HH.ClassName "flex-col" ] ]
+            [ HP.classes [ TailwindClasses.flex, TailwindClasses.items_center, TailwindClasses.flex_col ] ]
             [ menu
             , Button.buttonPrimary
               ( SelectSetters.setToggleProps [] )
@@ -253,7 +253,7 @@ component =
                   ( SelectSetters.setContainerProps [ visibilityClasses ] )
                   [ Choice.header_
                     [ HH.span
-                      [ HP.classes [ HH.ClassName "font-medium", HH.ClassName "text-gray-50" ] ]
+                      [ HP.classes [ TailwindClasses.font_medium, HH.ClassName "text-gray-50" ] ]
                       [ HH.text "Advertise on..." ]
                     ]
                   , Choice.body_ $
@@ -276,21 +276,21 @@ component =
                 Facebook ->
                   [ HH.div_
                     [ Icon.facebook
-                      [ HP.classes [ HH.ClassName "text-fb-blue", HH.ClassName "text-4xl" ] ]
+                      [ HP.classes [ HH.ClassName "text-fb-blue", TailwindClasses.text_4xl ] ]
                     ]
                   , HH.div_
                     [ HH.p
-                      [ HP.classes [ HH.ClassName "text-black-20", HH.ClassName "font-light" ] ]
+                      [ HP.classes [ HH.ClassName "text-black-20", TailwindClasses.font_light ] ]
                       [ HH.text "Facebook" ]
                     ]
                   ]
                 Twitter ->
                   [ HH.div_
                     [ Icon.twitter
-                      [ HP.classes [ HH.ClassName "text-tw-blue", HH.ClassName "text-4xl" ] ] ]
+                      [ HP.classes [ HH.ClassName "text-tw-blue", TailwindClasses.text_4xl ] ] ]
                   , HH.div_
                     [ HH.p
-                      [ HP.classes [ HH.ClassName "text-black-20", HH.ClassName "font-light" ] ]
+                      [ HP.classes [ HH.ClassName "text-black-20", TailwindClasses.font_light ] ]
                       [ HH.text "Twitter" ]
                     ]
                   ]
