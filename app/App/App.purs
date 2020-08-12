@@ -120,29 +120,30 @@ app =
       [ HP.classes [ TailwindClasses.Md.ml_80 ] ]
       [ HH.div
           [ HP.classes
-            [ TailwindClasses.fixed
-            , TailwindClasses.w_full
-            ]
+              [ TailwindClasses.fixed
+              , TailwindClasses.w_full
+              ]
           ]
           [ HH.div
               [ HP.classes
-                [ TailwindClasses.top_0
-                , TailwindClasses.bg_white
-                , TailwindClasses.Md.hidden
-                , TailwindClasses.relative
-                , TailwindClasses.border_b
-                , TailwindClasses.border_gray_300
-                , TailwindClasses.h_12
-                , TailwindClasses.py_8
-                , TailwindClasses.flex
-                , TailwindClasses.items_center ]
+                  [ TailwindClasses.top_0
+                  , TailwindClasses.bg_white
+                  , TailwindClasses.Md.hidden
+                  , TailwindClasses.relative
+                  , TailwindClasses.border_b
+                  , TailwindClasses.border_gray_300
+                  , TailwindClasses.h_12
+                  , TailwindClasses.py_8
+                  , TailwindClasses.flex
+                  , TailwindClasses.items_center
+                  ]
               ]
               [ HH.a
                   [ HP.classes
-                    [ TailwindClasses.mx_auto
-                    , TailwindClasses.inline_flex
-                    , TailwindClasses.items_center
-                    ]
+                      [ TailwindClasses.mx_auto
+                      , TailwindClasses.inline_flex
+                      , TailwindClasses.items_center
+                      ]
                   , HP.href ""
                   ]
                   [ HH.text "CitizenNet UI Guide" ]
@@ -150,11 +151,11 @@ app =
           ]
       , HH.div
           [ HP.classes
-            [ TailwindClasses.p_12
-            , TailwindClasses.w_full
-            , TailwindClasses.container
-            , TailwindClasses.mx_auto
-            ]
+              [ TailwindClasses.p_12
+              , TailwindClasses.w_full
+              , TailwindClasses.container
+              , TailwindClasses.mx_auto
+              ]
           ]
           [ renderSlot state ]
       ]
